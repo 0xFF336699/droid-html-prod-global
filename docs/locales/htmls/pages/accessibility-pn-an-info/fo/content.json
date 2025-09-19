@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "snarvegur",
+    "title": "pakka og virksemisviðurkenning",
+    "useBtn": "nýta",
+    "closeBtn": "lukka",
+    "pnLabel": "Pakkavn",
+    "copyButtonText": "eintak",
+    "anLabel": "virksemi",
+    "clsLable": "flokkur"
+  }
+}

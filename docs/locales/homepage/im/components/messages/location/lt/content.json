@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Vietos pavadinimas",
+    "viewMap": "Peržiūrėkite žemėlapį",
+    "close": "uždarymas"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Dabartinė naršyklė nepalaiko geografinės padėties įsigijimo",
+    "getLocationFailed": "Nepavyko gauti vietos, patikrinkite leidimo nustatymus",
+    "myLocation": "Mano vieta",
+    "shareLocation": "Dalinkitės vieta",
+    "getCurrentLocation": "Gaukite dabartinę vietą",
+    "title": "Vietos pavadinimas",
+    "description": "Išsamus aprašymas",
+    "descriptionPlaceholder": "Įveskite išsamų aprašymą (pasirenkama)",
+    "preview": "Vietos peržiūra",
+    "latitude": "platuma",
+    "longitude": "ilguma",
+    "cancel": "Atšaukti",
+    "send": "Siųsti",
+    "permissionPrompt": "Turime gauti jūsų vietos informaciją, kad teiktume geresnes paslaugas, ar ji leidžiama?",
+    "permissionDenied": "Leidimas padėties nustatymas yra atmetamas, prašome įgalinti leidimą padėti padėti savo naršyklės nustatymuose",
+    "locationTimeout": "Padėties nustatymo laikas, įsitikinkite, kad įrenginys įjungtas ir pabandykite reaguoti",
+    "locationUnavailable": "Dabartinės vietos negalima gauti, patikrinkite įrenginio vietos paslaugą"
+  }
+}

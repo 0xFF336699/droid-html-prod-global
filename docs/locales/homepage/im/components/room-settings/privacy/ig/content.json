@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Ụlọ ọha",
+        "description": "Enwere ike nyochaa ụlọ ọha na eze"
+      },
+      "allowGuestJoin": {
+        "label": "Kwe ka ndị ọbịa sonyere",
+        "description": "Kwe ka ndị ọrụ na-edebanye aha na-esonye n'ụlọ ahụ dị ka onye ọbịa"
+      },
+      "isEncrypted": {
+        "label": "Kwado en -е na-ezo aka na njedebe",
+        "description": "Mgbe enyere, ozi n'ime ụlọ ahụ ga-ezochibido ya",
+        "alert": "A na-eme ka mmachibido iwu banye na ụlọ, yana ntọala a enweghị ike ịgbanyụ a."
+      },
+      "submit": "Chekwaa Ntọala nzuzo"
+    },
+    "toast": {
+      "success": "Emelitela ntọala nzuzo",
+      "error": "Emeghị ntọala nzuzo"
+    }
+  }
+}

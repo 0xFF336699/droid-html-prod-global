@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "Pridajte prílohy",
+    "emoji": "Vyberte výraz",
+    "placeholder": "Zadajte správu ...",
+    "sendLocation": "Polohovať",
+    "send": "odoslať"
+  }
+}

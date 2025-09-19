@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL Model",
+    "full": {
+      "url": "URL e tregut. Karakteret e futur do të ngarkohen si URL, ju lutemi kini kujdes.",
+      "html": "Përmbajtja e tregut HTML. Karakteret e futur do të ekzekutohen menjëherë si skriptet, ju lutemi tregohuni të kujdesshëm.",
+      "come": "Ejani My",
+      "myMarketName": "Emrin e tregut",
+      "stroll": "Le të bëjmë një shëtitje"
+    },
+    "item": {
+      "url": "URL e kartës së tregut. Karakteret e futur do të ngarkohen si URL, ju lutemi kini kujdes.",
+      "html": "Përmbajtja e tregut HTML. Karakteret e futur do të ekzekutohen menjëherë si skriptet, ju lutemi tregohuni të kujdesshëm.",
+      "come": "Ejani My",
+      "myMarketName": "Emrin e tregut",
+      "stroll": "Le të bëjmë një shëtitje"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Ev rêbaz tenê dikare li ser Android were gazî kirin",
+      "noMethod": "Ev rêbaz nabe"
+    }
+  }
+}

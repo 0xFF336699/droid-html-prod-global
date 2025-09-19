@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Goobaha Qolka",
+    "tabs": {
+      "basic": "Dejinta aasaasiga ah",
+      "permission": "Meelaha rukhsadda",
+      "privacy": "Meelaha asturnaanta",
+      "member": "Maareynta Xubnaha"
+    },
+    "loadError": "Ku guuldareystay in lagu xidho goobaha qolka",
+    "leaveRoom": {
+      "button": "Ka bax qolka",
+      "confirm": "Ma hubtaa inaad rabto inaad ka baxdo qolka? Ka dib markaad baxdo, ma awoodi doontid inaad ku sii waddo helitaanka farriimaha qolkan.",
+      "success": "Qolka ka baxay si guul leh",
+      "error": "Ku guuldaraystay in laga baxo qolka, fadlan isku day mar labaad"
+    }
+  }
+}

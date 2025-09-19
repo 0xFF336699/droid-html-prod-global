@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Magaca goobta",
+    "viewMap": "Eeg khariidada",
+    "close": "xiritaan"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Biraawsarka hadda jira ma taageerayo helitaanka geolofe",
+    "getLocationFailed": "Ku guuldareystay helitaanka goobta, fadlan hubi goobaha ogolaanshaha",
+    "myLocation": "Meeshayda",
+    "shareLocation": "La wadaag meesha",
+    "getCurrentLocation": "Hel meesha hada jirta",
+    "title": "Magaca goobta",
+    "description": "Sharraxaad faahfaahsan",
+    "descriptionPlaceholder": "Fadlan gali sharraxaad faahfaahsan (ikhtiyaari)",
+    "preview": "Meesha ka soo bandhiga",
+    "latitude": "lool",
+    "longitude": "dhigaha",
+    "cancel": "Burin",
+    "send": "dirid",
+    "permissionPrompt": "Waxaan u baahanahay inaan helno macluumaadkaaga goobta si aan u siino adeegyo ka sii fiican, ma loo oggol yahay?",
+    "permissionDenied": "Xadgudubka ogolaanshaha waa la diiday, fadlan awood u yeelo ogolaanshaha meelaynta meelaynta biraawsarkaaga",
+    "locationTimeout": "Meelaynta waqtiga, hubi in aaladda la shiday oo isku dayo inuu dib u soo celiyo",
+    "locationUnavailable": "Goobta hadda jirta lama heli karo, fadlan hubi adeegga goobta goobta"
+  }
+}

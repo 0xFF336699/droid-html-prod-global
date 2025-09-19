@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Zita remumba"
+      },
+      "topic": {
+        "label": "Nhanganyaya yekamuri"
+      },
+      "avatar": {
+        "alt": "Imba avatar"
+      },
+      "submit": "Sevha Zvirongwa"
+    },
+    "toast": {
+      "success": "Zvigadziriso Zvakavandudzwa",
+      "error": {
+        "default": "Gadziridza marongero akakundikana",
+        "avatar": "Kukundikana kugadzirisa avatar"
+      }
+    }
+  }
+}

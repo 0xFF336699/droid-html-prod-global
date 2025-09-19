@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "obrachadh",
+    "click": "Cliog",
+    "longClick": "Brùthan fada",
+    "setText": "Cuir teacsa",
+    "tryClick": "Feuch eileamaid no àite cliog",
+    "globalClick": "CLÀR"
+  }
+}

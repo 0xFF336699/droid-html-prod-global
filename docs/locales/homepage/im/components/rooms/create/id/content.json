@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Buat kamar"
+    },
+    "dialog": {
+      "title": "Buat kamar baru",
+      "form": {
+        "userId": {
+          "label": "ID Pengguna",
+          "placeholder": "Masukkan ID Pengguna (misalnya: @User: example.com)",
+          "error": {
+            "required": "ID pengguna tidak bisa kosong",
+            "invalid": "Format ID pengguna tidak valid"
+          }
+        },
+        "roomName": {
+          "label": "Nama kamar (opsional)",
+          "placeholder": "Masukkan nama kamar"
+        },
+        "isEncrypted": {
+          "label": "Aktifkan enkripsi ujung ke ujung"
+        },
+        "isDirect": {
+          "label": "Pesan langsung"
+        },
+        "topic": {
+          "label": "Tema (opsional)",
+          "placeholder": "Masukkan tema kamar"
+        }
+      },
+      "actions": {
+        "cancel": "Membatalkan",
+        "create": "membuat"
+      },
+      "success": "Berhasil penciptaan kamar",
+      "error": "Terjadi kesalahan saat membuat kamar: {error}"
+    }
+  }
+}

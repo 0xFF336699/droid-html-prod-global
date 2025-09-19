@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Tā kā šī lietojumprogramma attiecas uz lielu skaitu atļauju jūsu mobilajā tālrunī, daudzas atļaujas ir ārkārtīgi riskantas, tāpēc ne importējiet un neizpildiet tās, skaidri nezinot tirgus vai skripta riskus. Kad esat ievadījis saturu zemāk esošajā tekstlodziņā “Tirgus kartes ievads” vai “Tirgus neatkarīga tīmekļa lapa”, saturs tiks izpildīts nekavējoties kā kods. Lūdzu, esiet piesardzīgs.",
+    "setNewMarket": "Izveidojiet jaunu tirgu",
+    "settingPreview": "Iestatījumu priekšskatījums",
+    "marketName": "Tirgus nosaukums",
+    "marketSummary": "Ievads tirgū",
+    "marketDescription": "Ievads tirgū",
+    "itemMarket": "Tirgus kartes ievads",
+    "fullMarket": "Tirgus neatkarīga tīmekļa lapa",
+    "marketCardPreview": "Tirgus kartes priekšskatījums",
+    "marketFullPreview": "Tirgus neatkarīga tīmekļa lapas priekšskatījums",
+    "isNotSet": "Nav iestatīts"
+  }
+}

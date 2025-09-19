@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Matakin izini na buƙatar aika sako",
+        "tooltip": "0 yana nufin cewa dukkan mambobi na iya aika saƙonni, kuma mafi girma lambar yana nufin cewa ana buƙatar isa izini"
+      },
+      "invite": {
+        "label": "Leaukar matakin da ake buƙata don gayyatar sabbin mambobi",
+        "tooltip": "Saita wanda zai iya gayyatar sabbin membobi zuwa dakin"
+      },
+      "kick": {
+        "label": "Kick Exarfin Izinin da ake buƙata",
+        "tooltip": "Saita wanda zai iya fitar da mambobin dakin"
+      },
+      "ban": {
+        "label": "Yinin da aka ba da izini don toshe membobin",
+        "tooltip": "Saita wanda zai iya toshe membobin daki"
+      },
+      "roomSettings": {
+        "label": "Gyara matakin izinin da aka buƙata na saitunan dakin",
+        "tooltip": "Saita wanda zai iya canza saitunan dakin"
+      },
+      "submit": "Ajacaba saitunan izini"
+    },
+    "description": "Matsakaicin izinin izini: 0-100, mafi girma lambar yana nufin mafi girma izini ana buƙatar",
+    "toast": {
+      "success": "An sabunta saitunan izini",
+      "error": "Ba a yi nasarar sabunta saitin izini ba"
+    }
+  }
+}

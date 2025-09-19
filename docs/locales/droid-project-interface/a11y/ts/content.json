@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "Endla tirha .",
+    "click": "Click .",
+    "longClick": "Vukandziyisi byo leha .",
+    "setText": "Seta tsalwa .",
+    "tryClick": "Ringeta elemente kumbe ndhawu click .",
+    "globalClick": "Ndhawu ya kona Click."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Yenza igumbi"
+    },
+    "dialog": {
+      "title": "Yenza igumbi elitsha",
+      "form": {
+        "userId": {
+          "label": "Isazisi somsebenzisi",
+          "placeholder": "Ngenisa i-ID yomsebenzisi (umzekelo: @user: Umzekelo.com)",
+          "error": {
+            "required": "I-ID yomsebenzisi ayinakuba ingenanto",
+            "invalid": "Ifomathi ye-ID engasebenziyo"
+          }
+        },
+        "roomName": {
+          "label": "Igama legumbi (ngokuzithandela)",
+          "placeholder": "Ngenisa igama legumbi"
+        },
+        "isEncrypted": {
+          "label": "Nika amandla okupheliswa"
+        },
+        "isDirect": {
+          "label": "Umyalezo ngqo"
+        },
+        "topic": {
+          "label": "Umxholo (ngokuzithandela)",
+          "placeholder": "Ngenisa umxholo wegumbi"
+        }
+      },
+      "actions": {
+        "cancel": "Rhoxisa",
+        "create": "dala"
+      },
+      "success": "Igumbi lokudalwa ngempumelelo",
+      "error": "Impazamo yenzekile ngelixa usenza igumbi: {impazamo}"
+    }
+  }
+}

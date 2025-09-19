@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Prisijungimas/registracija",
+    "signOut": "Atsijungti",
+    "confirmContent": "Ar tikrai norite atsijungti?",
+    "confirmTitle": "Užuomina",
+    "confirm": "Žinoma",
+    "cancel": "Atšaukti",
+    "signoutOk": "Atsijungti",
+    "loadingData": "Įkeliamas vartotojo duomenys"
+  }
+}

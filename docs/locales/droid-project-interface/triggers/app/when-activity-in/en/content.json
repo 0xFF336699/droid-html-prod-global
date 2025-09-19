@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "When entering the specified page",
+    "pnLabel": "Package name:",
+    "anLabel": "Activity name:",
+    "cnLabel": "Class name:",
+    "changeBtnLabel": "replace"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "When entering the specified page",
+    "pnLabel": "Package name:",
+    "anLabel": "Activity name:",
+    "cnLabel": "Class name:",
+    "changeBtnLabel": "replace"
+  }
+}

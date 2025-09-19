@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "daftar",
+    "phoneNumber": "Nomor telepon",
+    "phoneNumberPlaceholder": "Harap masukkan nomor ponsel Anda",
+    "verificationCode": "Kode verifikasi",
+    "verificationCodePlaceholder": "Harap masukkan kode verifikasi",
+    "getVerificationCode": "Dapatkan kode verifikasi",
+    "countdown": "{{detik}} detik untuk mencoba lagi",
+    "register": "daftar",
+    "errors": {
+      "phoneRequired": "Harap masukkan nomor ponsel Anda",
+      "phoneInvalid": "Format nomor ponsel salah",
+      "codeRequired": "Harap masukkan kode verifikasi",
+      "codeInvalid": "Format kode verifikasi salah",
+      "requestFailed": "Permintaan gagal",
+      "verificationFailed": "Akuisisi kode verifikasi gagal",
+      "loginFailed": "Login gagal"
+    },
+    "success": {
+      "verificationCodeSent": "Kode verifikasi telah dikirim",
+      "registerSuccess": "Terdaftar dengan sukses"
+    }
+  }
+}

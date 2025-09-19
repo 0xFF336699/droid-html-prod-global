@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "gofrestrent",
+    "phoneNumber": "Ffôn",
+    "phoneNumberPlaceholder": "Rhowch eich rhif ffôn symudol",
+    "verificationCode": "Cod Gwirio",
+    "verificationCodePlaceholder": "Rhowch y Cod Gwirio",
+    "getVerificationCode": "Sicrhewch y Cod Gwirio",
+    "countdown": "{{eiliadau}} eiliad i roi cynnig arall arni",
+    "register": "gofrestrent",
+    "errors": {
+      "phoneRequired": "Rhowch eich rhif ffôn symudol",
+      "phoneInvalid": "Mae'r fformat rhif ffôn symudol yn anghywir",
+      "codeRequired": "Rhowch y Cod Gwirio",
+      "codeInvalid": "Mae'r fformat cod gwirio yn anghywir",
+      "requestFailed": "Cais wedi methu",
+      "verificationFailed": "Methodd caffael cod dilysu",
+      "loginFailed": "Methodd Mewngofnodi"
+    },
+    "success": {
+      "verificationCodeSent": "Mae'r cod dilysu wedi'i anfon",
+      "registerSuccess": "Cofrestredig yn llwyddiannus"
+    }
+  }
+}

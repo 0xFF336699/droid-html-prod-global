@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Inqanaba lemvume elifunekayo ukuthumela umyalezo",
+        "tooltip": "I-0 ithetha ukuba onke amalungu anokuthumela imiyalezo, kwaye inani elikhulu lithetha ukuba iimvume eziphezulu ziyafuneka"
+      },
+      "invite": {
+        "label": "Inqanaba lemvume elifunekayo ukumema amalungu amatsha",
+        "tooltip": "Seta onokuthi ameme amalungu amatsha kwigumbi"
+      },
+      "kick": {
+        "label": "Khangela inqanaba lemvume elifunekayo",
+        "tooltip": "Cwangcisa ukuba ngubani onokukhaba amalungu egumbi"
+      },
+      "ban": {
+        "label": "Inqanaba lemvume elifunwayo lokuthintela amalungu",
+        "tooltip": "Seta onokuthintela amalungu egumbi"
+      },
+      "roomSettings": {
+        "label": "Guqula inqanaba lemvume elifunwayo leseti yegumbi",
+        "tooltip": "Seta onokuthi aguqule useto lwegumbi"
+      },
+      "submit": "Gcina useto lwemvume"
+    },
+    "description": "Uluhlu lweMvume yeMvume: 0-100, inqaku elikhulu lithetha iimvume eziphezulu ziyafuneka",
+    "toast": {
+      "success": "Useto lwemvume sele ihlaziyiwe",
+      "error": "Ayiphumelelanga ukuhlaziya useto lwemvume"
+    }
+  }
+}

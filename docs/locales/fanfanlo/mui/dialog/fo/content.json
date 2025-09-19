@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "strika",
+    "confirm": "Vísur",
+    "title": "ábending",
+    "content": "Ert tú vísur í, at tú vilt gera hetta?"
+  },
+  "EditableText": {
+    "cancel": "strika",
+    "save": "bjarga",
+    "title": "rætta"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Pattern ng url",
+    "full": {
+      "url": "Market URL. Ang mga ipinasok na character ay mai -load bilang mga URL, mangyaring mag -ingat.",
+      "html": "Market HTML Nilalaman. Ang mga ipinasok na character ay isasagawa kaagad bilang mga script, mangyaring maging maingat.",
+      "come": "Halika sa akin",
+      "myMarketName": "Pangalan ng Market",
+      "stroll": "Maglakad na tayo"
+    },
+    "item": {
+      "url": "Market Card URL. Ang mga ipinasok na character ay mai -load bilang mga URL, mangyaring mag -ingat.",
+      "html": "Market HTML Nilalaman. Ang mga ipinasok na character ay isasagawa kaagad bilang mga script, mangyaring maging maingat.",
+      "come": "Halika sa akin",
+      "myMarketName": "Pangalan ng Market",
+      "stroll": "Maglakad na tayo"
+    }
+  }
+}

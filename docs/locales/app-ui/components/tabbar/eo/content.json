@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "Ĉefpaĝo",
+    "me": "mia",
+    "settings": "Agordu",
+    "script": "Skripto",
+    "store": "Merkato",
+    "market": "Merkato",
+    "create": "krei"
+  },
+  "tabbar": {
+    "test": "Funda menuobreto"
+  }
+}

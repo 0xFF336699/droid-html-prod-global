@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "ይህ ዘዴ በ Android ላይ ብቻ ሊጠራ ይችላል",
+      "noMethod": "ይህ ዘዴ የለም"
+    }
+  }
+}

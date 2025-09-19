@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Sala pública",
+        "description": "Las habitaciones públicas pueden ser buscadas por otros usuarios"
+      },
+      "allowGuestJoin": {
+        "label": "Permitir que los visitantes se unan",
+        "description": "Permitir que los usuarios no registrados se unan a la habitación como invitado"
+      },
+      "isEncrypted": {
+        "label": "Habilitar el cifrado de extremo a extremo",
+        "description": "Cuando está habilitado, los mensajes en la habitación se encriptarán de extremo a extremo",
+        "alert": "El cifrado de extremo a extremo está habilitado en la habitación, y esta configuración no se puede apagar."
+      },
+      "submit": "Guardar la configuración de privacidad"
+    },
+    "toast": {
+      "success": "Se han actualizado la configuración de privacidad",
+      "error": "No se pudo actualizar la configuración de privacidad"
+    }
+  }
+}

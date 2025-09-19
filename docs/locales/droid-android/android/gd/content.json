@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Chan urrainnear an dòigh seo a ghairm ach air Android",
+      "noMethod": "Chan eil an dòigh seo ann"
+    }
+  }
+}

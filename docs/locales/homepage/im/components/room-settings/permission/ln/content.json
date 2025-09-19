@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Niveau ya ndingisa oyo esengeli mpo na kotinda nsango .",
+        "tooltip": "0 elakisi ete bandimi banso bakoki kotinda bansango, mpe soki motango yango elakisi ete ndingisa ya likolo esengeli ."
+      },
+      "invite": {
+        "label": "Niveau ya ndingisa esengeli mpo na kobengisa ba membres ya sika .",
+        "tooltip": "Set nani akoki kobengisa bandimi ya sika na shambre ."
+      },
+      "kick": {
+        "label": "Bobenga niveau ya ndingisa oyo esengeli .",
+        "tooltip": "set nani akoki kobengana ba membres ya chambre ."
+      },
+      "ban": {
+        "label": "Niveau ya ndingisa oyo esengeli mpo na kokanga ba membres .",
+        "tooltip": "Set nani akoki ko bloquer ba membres ya chambre ."
+      },
+      "roomSettings": {
+        "label": "Bobongola niveau ya permission oyo esengeli ya ba paramètres ya chambre .",
+        "tooltip": "Set nani akoki ko modifier ba paramètres ya chambre ."
+      },
+      "submit": "Bomba ba paramètres ya ndingisa ."
+    },
+    "description": "Niveau ya ndingisa Range: 0-100, soki motango ya monene elakisi ndingisa ya likolo esengeli",
+    "toast": {
+      "success": "Ba paramètres ya ndingisa esalemi na mikolo oyo .",
+      "error": "Elongi te kosala mikolo oyo ba paramètres ya ndingisa ."
+    }
+  }
+}

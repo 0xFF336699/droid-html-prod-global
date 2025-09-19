@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Nɔ kadodo me kple wo nɔewo .",
+        "helperText": "Ne èzi gɔmedzedze ƒe kadodoa dzi la, ekema lé kadodoa ɖe asi. Esia bia be woalé ŋku ɖe kadodoa ŋu ɣesiaɣi ne woɖe kadodoa ɖa vɔ.",
+        "retryCount": "Nusiwo wogbugbɔ do ka kple wo nɔewo ƒe xexlẽme ."
+      },
+      "url": {
+        "name": "URL .",
+        "helperText": "Link URL, le kpɔɖeŋu me ws://192.168.0.2:7001, alo wws://example.com/path",
+        "error": "URL si sɔ nye URL si dzea egɔme kple WS:// alo WWS:// ."
+      }
+    },
+    "connectButton": {
+      "connect": "doka",
+      "disconnect": "Tsɔ kadodoa ɖa .",
+      "status": {
+        "connecting": "Kadodo...",
+        "connected": "Do ƒome kple wo nɔewo .",
+        "disconnecting": "Kadodoa ɖeɖeɖa...",
+        "disconnected": "Womedo ƒome kple wo nɔewo o .",
+        "waitRetry": "Lala na kadodo yeye wɔwɔ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "nuŋlɔɖi"
+  }
+}

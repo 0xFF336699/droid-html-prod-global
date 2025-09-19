@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Crear una habitación"
+    },
+    "dialog": {
+      "title": "Crea una nueva habitación",
+      "form": {
+        "userId": {
+          "label": "ID de usuario",
+          "placeholder": "Ingrese la ID de usuario (por ejemplo: @user: ejemplo.com)",
+          "error": {
+            "required": "La identificación de usuario no puede estar vacía",
+            "invalid": "Formato de identificación de usuario no válido"
+          }
+        },
+        "roomName": {
+          "label": "Nombre de la habitación (opcional)",
+          "placeholder": "Ingrese un nombre de habitación"
+        },
+        "isEncrypted": {
+          "label": "Habilitar el cifrado de extremo a extremo"
+        },
+        "isDirect": {
+          "label": "Mensaje directo"
+        },
+        "topic": {
+          "label": "Tema (opcional)",
+          "placeholder": "Ingrese el tema de la habitación"
+        }
+      },
+      "actions": {
+        "cancel": "Cancelar",
+        "create": "crear"
+      },
+      "success": "Creación de habitaciones con éxito",
+      "error": "Se produjo un error al crear una habitación: {error}"
+    }
+  }
+}

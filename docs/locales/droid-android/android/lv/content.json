@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Šo metodi var izsaukt tikai operētājsistēmā Android",
+      "noMethod": "Šī metode neeksistē"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Kun syödään määritettyyn sivuun",
+    "pnLabel": "Paketin nimi:",
+    "anLabel": "Aktiviteetin nimi:",
+    "cnLabel": "Luokan nimi:",
+    "changeBtnLabel": "korvata"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Kun syödään määritettyyn sivuun",
+    "pnLabel": "Paketin nimi:",
+    "anLabel": "Aktiviteetin nimi:",
+    "cnLabel": "Luokan nimi:",
+    "changeBtnLabel": "korvata"
+  }
+}

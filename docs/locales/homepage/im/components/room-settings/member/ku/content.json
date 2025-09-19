@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Li endamên lêgerînê"
+    },
+    "table": {
+      "columns": {
+        "name": "Navê Endam",
+        "userId": "Nasnameya bikarhêner",
+        "actions": "bikaranîn"
+      },
+      "pagination": {
+        "rowsPerPage": "Hejmara rêzikên her rûpelê"
+      },
+      "avatar": {
+        "alt": "avdk"
+      },
+      "actions": {
+        "kick": "Derxistin",
+        "ban": "Qedexe kirin"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Endamê Kicking piştrast bikin",
+        "content": "Ma hûn guman dikin ku hûn dixwazin endamê ji odeyê derxînin?"
+      },
+      "ban": {
+        "title": "Endamtiya qedexekirî piştrast bike",
+        "content": "Ma hûn guman dikin ku hûn dixwazin vê endamê qedexe bikin? Endam dê nikaribe li pey qedexeyê ji odeyê vegere."
+      },
+      "buttons": {
+        "cancel": "Bişûndekirin",
+        "confirm": "tesdîqkirin"
+      }
+    },
+    "toast": {
+      "loadError": "Lîsteya Endamê têk çû",
+      "kick": {
+        "success": "Endamên ji odeyê hatine avêtin",
+        "error": "Endamên destan bi ser neketin"
+      },
+      "ban": {
+        "success": "Endam asteng kirin",
+        "error": "Endaman asteng nekir"
+      }
+    },
+    "invite": {
+      "button": "Endaman vexwendin",
+      "title": "Endamên vexwendin ku tevlî odeyê bibin",
+      "inputLabel": "Ji kerema xwe nasnameya bikarhêner a Matrix (wek @user: Matrix.org) binivîse",
+      "confirm": "ezimanden",
+      "cancel": "Bişûndekirin",
+      "loading": "Daxistin ...",
+      "success": "Vexwendina şandin!",
+      "error": "Dawetbûn bi ser neket, ji kerema xwe nasnameya bikarhêner an destûran kontrol bikin"
+    },
+    "empty": "Bê endam hîna jî",
+    "loading": "Loading ...",
+    "role": {
+      "owner": "Xwedanxanî",
+      "admin": "birêvebir",
+      "moderator": "Hevserok",
+      "user": "endam"
+    }
+  }
+}

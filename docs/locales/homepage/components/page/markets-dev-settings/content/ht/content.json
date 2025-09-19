@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Rete konekte",
+        "helperText": "Si ou klike sou lyen an kòmanse, Lè sa a, kenbe lyen an. Sa mande atansyon ke lyen an pral re -konekte kontinyèlman apre li dekonekte.",
+        "retryCount": "Kantite rekoneksyon"
+      },
+      "url": {
+        "name": "Òk",
+        "helperText": "Link URL, pou egzanp ws: //192.168.0.2: 7001, oswa wws: //example.com/path",
+        "error": "URL ki kòrèk la se yon URL kòmanse ak ws: // oswa wws: //"
+      }
+    },
+    "connectButton": {
+      "connect": "konekte",
+      "disconnect": "Dekonekte",
+      "status": {
+        "connecting": "Konekte ...",
+        "connected": "Konekte",
+        "disconnecting": "Dekonekte ...",
+        "disconnected": "Pa konekte",
+        "waitRetry": "Ap tann pou rekoneksyon ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "ekriti"
+  }
+}

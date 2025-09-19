@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "د خونې نوم"
+      },
+      "topic": {
+        "label": "د خونې پیژندنه"
+      },
+      "avatar": {
+        "alt": "کوټه"
+      },
+      "submit": "امستنې خوندي کړه"
+    },
+    "toast": {
+      "success": "امستنې تازه شوې",
+      "error": {
+        "default": "د اوسمهالولو امستنې ناکامه شوه",
+        "avatar": "اوتار"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "skrót",
+    "title": "rozpoznawanie pakietu i aktywności",
+    "useBtn": "używać",
+    "closeBtn": "zamknięcie",
+    "pnLabel": "Nazwa pakietu",
+    "copyButtonText": "kopia",
+    "anLabel": "działalność",
+    "clsLable": "klasa"
+  }
+}

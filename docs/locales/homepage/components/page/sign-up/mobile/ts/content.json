@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "tsarisela",
+    "phoneNumber": "Nomboro ya riqingho .",
+    "phoneNumberPlaceholder": "Hi kombela u nghenisa nomboro ya wena ya riqingho ra le mavokweni .",
+    "verificationCode": "Khodi ya ku tiyisisa .",
+    "verificationCodePlaceholder": "Hi kombela u nghenisa khodi ya ku tiyisisa .",
+    "getVerificationCode": "Kuma khodi ya ku tiyisisa .",
+    "countdown": "{{seconds}} tisekoni to ringeta nakambe .",
+    "register": "tsarisela",
+    "errors": {
+      "phoneRequired": "Hi kombela u nghenisa nomboro ya wena ya riqingho ra le mavokweni .",
+      "phoneInvalid": "Fomati ya nomboro ya riqingho ra le mavokweni a yi lulamanga .",
+      "codeRequired": "Hi kombela u nghenisa khodi ya ku tiyisisa .",
+      "codeInvalid": "Xivumbeko xa khodi ya ku tiyisisa a xi lulamanga .",
+      "requestFailed": "Xikombelo xi tsandzekile .",
+      "verificationFailed": "Ku kumiwa ka khodi ya ku tiyisisa swi tsandzekile .",
+      "loginFailed": "Login yi tsandzekile ."
+    },
+    "success": {
+      "verificationCodeSent": "Khodi ya ku tiyisisa yi rhumeriwile .",
+      "registerSuccess": "Yi tsarisiwile hi ndlela leyi humelelaka ."
+    }
+  }
+}

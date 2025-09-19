@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "添加",
+    "sub": {
+      "addScriptByUrl": "通過URL添加腳本",
+      "addScriptByText": "通過文本添加腳本",
+      "addMarket": "通過URL添加市場",
+      "addMarketByText": "通過文本添加市場"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Kamuri yeruzhinji",
+        "description": "Makamuri eruzhinji anogona kutaridzika nevamwe vashandisi"
+      },
+      "allowGuestJoin": {
+        "label": "Bvumira vashanyi kuti vabatane",
+        "description": "Bvumira vashandisi vasina kunyoreswa kuti vabatane mukamuri semuenzi"
+      },
+      "isEncrypted": {
+        "label": "Gonesa kupera-kusvika-kupera encryption",
+        "description": "Panogoneswa, mameseji mukamuri zvichave zvakanyorwa kupera-kusvika-kupera",
+        "alert": "End-to-end encryption inogoneswa mukamuri, uye iyi mamiriro haigone kudzimwa."
+      },
+      "submit": "Sevha zvakavanzika zvigadziriso"
+    },
+    "toast": {
+      "success": "Zvekuvanzika zvigadziriso zvakagadziriswa",
+      "error": "Kukundikana kugadzirisa zvakavanzika zvigadziriso"
+    }
+  }
+}

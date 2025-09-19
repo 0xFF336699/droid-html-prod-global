@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Gela-ezarpenak",
+    "tabs": {
+      "basic": "Oinarrizko ezarpenak",
+      "permission": "Baimen ezarpenak",
+      "privacy": "Pribatutasun-ezarpenak",
+      "member": "Kideen kudeaketa"
+    },
+    "loadError": "Ezin izan da gelaren ezarpenak kargatu",
+    "leaveRoom": {
+      "button": "Gelatik irten",
+      "confirm": "Ziur gelatik irten nahi duzula? Irteera egin ondoren, ezin izango duzu gela honetatik mezuak jasotzen jarraitu.",
+      "success": "Gelan arrakastaz irten da",
+      "error": "Huts egin du gelatik irtetean, saiatu berriro"
+    }
+  }
+}

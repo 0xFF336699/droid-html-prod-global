@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Dodaj k",
+    "sub": {
+      "addScriptByUrl": "Dodajte skripte prek URL",
+      "addScriptByText": "Dodajte skripte prek besedila",
+      "addMarket": "Dodajte trg prek URL -ja",
+      "addMarketByText": "Dodajte trg z besedilom"
+    }
+  }
+}

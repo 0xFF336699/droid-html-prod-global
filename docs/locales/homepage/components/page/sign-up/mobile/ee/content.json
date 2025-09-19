@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "ŋlɔ ŋkɔ",
+    "phoneNumber": "Telefon xexlẽdzesi .",
+    "phoneNumberPlaceholder": "Taflatse ŋlɔ wò asitelefon xexlẽdzesi .",
+    "verificationCode": "Kpeɖodzinyawo ƒe Kpeɖodzi .",
+    "verificationCodePlaceholder": "Taflatse ŋlɔ Verification Code la .",
+    "getVerificationCode": "Xɔ kpeɖodzi ƒe kɔda la .",
+    "countdown": "{{Seconds}} sɛkɛnd be woagadze agbagba ake .",
+    "register": "ŋlɔ ŋkɔ",
+    "errors": {
+      "phoneRequired": "Taflatse ŋlɔ wò asitelefon xexlẽdzesi .",
+      "phoneInvalid": "Asitelefon xexlẽdzesi ƒe ɖoɖoa mesɔ o .",
+      "codeRequired": "Taflatse ŋlɔ Verification Code la .",
+      "codeInvalid": "Kpeɖodzi ƒe kɔda ƒe ɖoɖoa mesɔ o .",
+      "requestFailed": "Biabia do kpo nu .",
+      "verificationFailed": "Kpeɖodzi ƒe kɔda xɔxɔ do kpo nu .",
+      "loginFailed": "Login do kpo nu ."
+    },
+    "success": {
+      "verificationCodeSent": "Woɖo kpeɖodzi ƒe kɔpi ɖe .",
+      "registerSuccess": "Woŋlɔ ŋkɔ ɖe eme dzidzedzetɔe ."
+    }
+  }
+}

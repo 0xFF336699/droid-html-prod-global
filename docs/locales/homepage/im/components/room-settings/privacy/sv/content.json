@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Offentlig",
+        "description": "Offentliga rum kan sökas av andra användare"
+      },
+      "allowGuestJoin": {
+        "label": "Låt besökare gå med",
+        "description": "Låt oregistrerade användare gå med i rummet som gäst"
+      },
+      "isEncrypted": {
+        "label": "Aktivera kryptering från slutet till slutet",
+        "description": "När det är aktiverat kommer meddelanden i rummet att krypteras från slutet till slutet",
+        "alert": "Kryptering i slutet till slutet är aktiverat i rummet, och den här inställningen kan inte stängas av."
+      },
+      "submit": "Spara sekretessinställningar"
+    },
+    "toast": {
+      "success": "Inställningar för integritet har uppdaterats",
+      "error": "Det gick inte att uppdatera sekretessinställningar"
+    }
+  }
+}

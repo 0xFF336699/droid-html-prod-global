@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Otağa qoşulun",
+      "inviteOnly": "Bu xüsusi bir otaqdır və dəvətnamələrin qatılmasını tələb edir",
+      "knockRequired": "Bu otaq qoşulmaq üçün müraciət tələb edir. Qoşulma tələbini göndərmək üçün aşağıdakı düyməni vurun",
+      "canJoin": "Bu ictimai bir otaqdır, birbaşa qoşula bilərsiniz",
+      "sendRequest": "Birləşmə tələbi göndərin",
+      "join": "Otağa qoşulun"
+    },
+    "JoinRequestList": {
+      "noRequests": "Hələ birləşmə istəyi yoxdur",
+      "accept": "qəbul etmək",
+      "reject": "rədd etmək"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Bir mesaj daxil edin ..."
+  },
+  "MessageList": {
+    "noMessages": "Hələ mesaj yoxdur, söhbətə başlamaq üçün ilk mesajı göndərin!",
+    "loading": "Yükləmə ...",
+    "error": {
+      "loadFailed": "Mesajı yükləyə bilmədi",
+      "retry": "Yenidən cəhd etmək"
+    },
+    "loadingHistory": "Yükləmə tarixi ...",
+    "historyEnd": "Ən erkən xəbər gəldi"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Hələ mesaj yoxdur, söhbətə başlamaq üçün ilk mesajı göndərin!"
+  },
+  "RoomContent": {
+    "title": "Otaq"
+  },
+  "RoomHeader": {
+    "title": "Otaq",
+    "unnamedRoom": "Adsız otaq",
+    "members": "üzv",
+    "settings": "quraşdırmaq",
+    "leaveRoom": "Otağı tərk etmək",
+    "joinRoom": "Otağa qoşulun"
+  },
+  "RoomMembers": {
+    "title": "Otaq üzvləri",
+    "online": "Onlayn",
+    "offline": "Xətdənsiz",
+    "join": "qoşulmaq",
+    "invite": "dəvət etmək",
+    "leave": "buraxmaq",
+    "ban": "Qadağan olunmuş",
+    "noMembers": "Hələ üzv yoxdur",
+    "loading": "Yükləmə ..."
+  }
+}

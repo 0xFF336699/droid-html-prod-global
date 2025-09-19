@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Aha Ọnọdụ",
+    "viewMap": "Lelee maapụ",
+    "close": "mmechi"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Ihe nchọgharị ugbu a anaghị akwado inweta geolocation",
+    "getLocationFailed": "Enweghi ike inweta ọnọdụ, biko lelee ntọala ikike",
+    "myLocation": "Ọnọdụ m",
+    "shareLocation": "Ekekọrịta ebe",
+    "getCurrentLocation": "Nweta ọnọdụ ugbu a",
+    "title": "Aha Ọnọdụ",
+    "description": "Nkọwapụta zuru ezu",
+    "descriptionPlaceholder": "Biko tinye nkọwa zuru ezu (nhọrọ)",
+    "preview": "Ntughari ebe",
+    "latitude": "latituudu",
+    "longitude": "lonjituudu",
+    "cancel": "Ikansulu",
+    "send": "zipu",
+    "permissionPrompt": "Anyị kwesịrị inweta ozi ọnọdụ gị iji nyekwuo ọrụ, enwere ike ịhapụ ya?",
+    "permissionDenied": "A na-agọnarị ikike idobere ikike, biko mee ka ikike dị na ntọala ihe nchọgharị gị",
+    "locationTimeout": "Ingchọta Oge, Gbaa mbọ hụ na agbanwee ngwaọrụ a ma nwaa ịlaghachi mba",
+    "locationUnavailable": "Enweghi ike inweta ọnọdụ ugbu a, biko lelee ọrụ ọnọdụ ọnọdụ ngwaọrụ"
+  }
+}

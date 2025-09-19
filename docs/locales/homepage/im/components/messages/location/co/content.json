@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Nome di locu",
+    "viewMap": "Vede a mappa",
+    "close": "chiusura"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "U navigatore attuale ùn sustene micca l'acquisizione di geolocation",
+    "getLocationFailed": "Fiascatu à ottene u locu, per piacè verificà a paràmetri di permissione",
+    "myLocation": "U mo locu",
+    "shareLocation": "Condividi u locu",
+    "getCurrentLocation": "Uttene u locu attuale",
+    "title": "Nome di locu",
+    "description": "Descrizzione detallata",
+    "descriptionPlaceholder": "Per piacè scrivite una descrizzione detallata (opzionale)",
+    "preview": "Avvisione di locu",
+    "latitude": "latitudine",
+    "longitude": "longitudine",
+    "cancel": "Annulla",
+    "send": "Invia",
+    "permissionPrompt": "Avemu bisognu di uttene l'infurmazioni di u vostru locu per furnisce i servizii megliu, hè permessu?",
+    "permissionDenied": "U permessu di posizionamentu hè ricusatu, per piacè attivate u permessu di pusizione in i paràmetri di u vostru navigatore",
+    "locationTimeout": "U timeout di pusizione, assicuratevi chì u dispusitivu hè attivatu è pruvate à riassume",
+    "locationUnavailable": "U locu attuale ùn pò micca esse uttenutu, verificate u serviziu di u serviziu di u dispositivu"
+  }
+}

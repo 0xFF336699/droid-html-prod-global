@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Vizualizarea interfeței de accesibilitate",
+    "howToUse": "Instrucțiuni de utilizare",
+    "howToUseTooltip": "Mai jos sunt câteva atribute de marcare ale acestui nod care pot fi utilizate pentru a selecta operațiuni, cum ar fi clic, completarea textului etc.\n\nValoarea atributului poate fi duplicată în pagina aplicației. Dacă întâlniți duplicate, vă rugăm să suprapuneți alte selecții de atribute pentru a determina unicitatea.\n\nUn cuvânt roșu indică faptul că valoarea atributului este repetată, un cuvânt verde indică faptul că valoarea atributului este unică în căutarea curentă a paginilor, iar un cuvânt negru indică faptul că nu există o comparație repetată.",
+    "otherNodesSummary": "Alte noduri din această locație",
+    "moreNodes": "Iată ce se extinde.",
+    "nodeInfoDialogOkButton": "Editați funcționarea acestui nod",
+    "text": "Text 2222"
+  }
+}

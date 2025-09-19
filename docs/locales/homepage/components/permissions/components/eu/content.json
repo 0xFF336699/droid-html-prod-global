@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Baimendu",
+    "notPass": "Ez baimendu",
+    "danger": "Arrisku",
+    "setting": "konfiguratu"
+  }
+}

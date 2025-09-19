@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Gemagtig",
+    "notPass": "Ongemagtig",
+    "danger": "Gevaar",
+    "setting": "opgestel"
+  }
+}

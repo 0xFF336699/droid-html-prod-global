@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Felhasználói információk",
+    "id": {
+      "name": "Személyazonosság",
+      "copy": "másolat",
+      "copied": "Az ID -t lemásolták"
+    },
+    "notLoggedIn": "Nem jelentkezett be",
+    "name": "név",
+    "avatar": "avatár"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Dzinalo",
+    "viewMap": "Onani mapu",
+    "close": "kutsekera"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Msakatuli wapano sakuthandizira kupeza ndalama",
+    "getLocationFailed": "Talephera kupeza malowa, chonde onani zosintha zovomerezeka",
+    "myLocation": "Malo anga",
+    "shareLocation": "Gawani Malo",
+    "getCurrentLocation": "Pezani malo omwe alipo",
+    "title": "Dzinalo",
+    "description": "Kufotokozera mwatsatanetsatane",
+    "descriptionPlaceholder": "Chonde lowetsani mwatsatanetsatane (posankha)",
+    "preview": "Kuwonetsera kwa malo",
+    "latitude": "mzwere wa dziko",
+    "longitude": "mzere",
+    "cancel": "Siya",
+    "send": "tumiza",
+    "permissionPrompt": "Tiyenera kupeza chidziwitso cha malo anu kuti tithandizire ntchito zabwino, ndizololedwa?",
+    "permissionDenied": "Kukhazikitsa chilolezo kumakanidwa, chonde yesetsani kukhazikitsa chilolezo mu msakatuli wanu",
+    "locationTimeout": "Kukhazikitsa nthawi, onetsetsani kuti chipangizocho chatsegulidwa ndikuyesanso",
+    "locationUnavailable": "Malo omwe ali pano sangathe kupezeka, chonde onani ntchito ya chipangizocho"
+  }
+}

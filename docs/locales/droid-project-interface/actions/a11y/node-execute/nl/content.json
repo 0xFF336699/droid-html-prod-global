@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Node -uitvoering",
+    "changeBtnLabel": "vervangen",
+    "showNodeAllProperties": "Toon alle eigenschappen",
+    "wait": {
+      "time": "Wachttijd",
+      "interval": "Wachttijd",
+      "invisible": "Of ze elementen buiten het scherm moeten detecteren"
+    }
+  }
+}

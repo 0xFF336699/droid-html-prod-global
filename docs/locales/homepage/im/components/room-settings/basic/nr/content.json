@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "isakhiwo"
+      },
+      "topic": {
+        "label": "Thola i- ."
+      },
+      "avatar": {
+        "alt": "#"
+      },
+      "submit": "-mgwaqo ."
+    },
+    "toast": {
+      "success": "# .",
+      "error": {
+        "default": "Bula abafazi avuleka.",
+        "avatar": "Ukuphazwa kumehluko ."
+      }
+    }
+  }
+}

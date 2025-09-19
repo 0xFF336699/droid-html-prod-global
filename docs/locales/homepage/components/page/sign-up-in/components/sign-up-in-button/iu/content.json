@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "ᑎᑎᕋᕐᕕᒃ/ᐊᑎᓕᐅᕐᕕᒃ",
+    "signOut": "ᑎᑎᕋᕐᕕᒃ",
+    "confirmContent": "ᖃᐅᔨᒪᓪᓚᕆᒃᐲᑦ ᐊᓂᔪᒪᕕᑦ?",
+    "confirmTitle": "ᐱᓱᒃᑐᖅ",
+    "confirm": "ᓱᓕᓂᖅ",
+    "cancel": "ᖁᔭᓈᕐᓂᖅ",
+    "signoutOk": "ᑎᑎᕋᕐᕕᒃ",
+    "loadingData": "ᑐᓂᓯᓂᖅ ᐊᑐᖅᑎᓄᑦ ᑐᑭᓯᒋᐊᕈᑎᒃᓴᓂᒃ"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Ngena/Libhamula",
+    "signOut": "Log out",
+    "confirmContent": "Uciniseka kutsi ufuna kuphuma yini?",
+    "confirmTitle": "kusikisela",
+    "confirm": "Cinisekile",
+    "cancel": "Khansela",
+    "signoutOk": "Log out",
+    "loadingData": "Idatha yemsebentisi lelayishiwe"
+  }
+}

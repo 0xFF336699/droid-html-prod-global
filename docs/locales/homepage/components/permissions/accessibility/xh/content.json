@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Imisebenzi encedisayo",
+    "pass": "Igunyazisiwe",
+    "notPass": "Engagunyaziswanga",
+    "setting": "Misela",
+    "danger": "Ingozi",
+    "dangerDesc": "Esi sigunyaziso sinokubona umxholo kwiscreen kwaye ucofe kwifowuni yakho. Khubaza le mvume ukuba awuqondi lula ukusebenza kunye nemingcipheko yeskripthi obalekayo okanye uya kubaleka."
+  }
+}

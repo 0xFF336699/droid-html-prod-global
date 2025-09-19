@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "લ Login ગિન/રજિસ્ટર",
+    "signOut": "લ log ગ આઉટ",
+    "confirmContent": "શું તમે ખરેખર લ log ગ આઉટ કરવા માંગો છો?",
+    "confirmTitle": "સંકેત",
+    "confirm": "ચોક્કસ",
+    "cancel": "રદ કરવું",
+    "signoutOk": "લ log ગ આઉટ",
+    "loadingData": "વપરાશકર્તા ડેટા લોડ કરી રહ્યું છે"
+  }
+}

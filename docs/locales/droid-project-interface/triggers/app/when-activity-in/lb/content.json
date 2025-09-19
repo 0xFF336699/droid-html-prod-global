@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Wann Dir an der spezifizéierter Säit aginn",
+    "pnLabel": "Package Numm:",
+    "anLabel": "Aktivitéit Numm:",
+    "cnLabel": "Class Numm:",
+    "changeBtnLabel": "ersetzen"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Wann Dir an der spezifizéierter Säit aginn",
+    "pnLabel": "Package Numm:",
+    "anLabel": "Aktivitéit Numm:",
+    "cnLabel": "Class Numm:",
+    "changeBtnLabel": "ersetzen"
+  }
+}

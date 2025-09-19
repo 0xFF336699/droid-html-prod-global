@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Šī funkcija var veikt operācijas, kas līdzīgas reālās personas operācijām, ieskaitot, bet ne tikai, noklikšķināšanu, lietotņu atvēršanu utt. Tālruņa laikā, kā arī var atvērt dažus maksājuma pieteikumus. Tā kā pastāv risks, ka tiek reģistrētas operācijas, maksājumi utt., Mēs ļoti iesakām to izpildīt tikai tad, ja pilnībā saprotat skripta saturu.",
+    "txt2": "Kā aizvērt šo funkciju: atveriet šīs lietojumprogrammas mājas lapu, mājas lapas iestatījumos varat pārtraukt izmantot papildu funkciju, vai arī mājas lapā varat noklikšķināt uz pogas \"Aizvērt visus uzdevumus un iziet\". Šī poga liek visu izpildīto uzdevumu slēgšanu un piespiest aizvērt šo lietotni.",
+    "txt3": "Iemesls, kāpēc mēs izmantojam šo funkciju, ir tas, ka mūsu lietojumprogrammai ir jābūt iespējai atvērt citas lietojumprogrammas un kontrolēt tās, piemēram, kad pārlūko Instagram, tā var automātiski slīdēt pēc video atskaņošanas, pārbaudiet, vai produkts ir pārdošanā, un regulāri nosūtīt ziņojumus tiešsaistes draugiem utt., Kas ir interesanta vai darbaspēka taupīšanas operācijas.",
+    "iKnowDanger": "Es zinu riskus - dodieties uz iestatīšanu",
+    "title": "Bīstamas operācijas"
+  }
+}

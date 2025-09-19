@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "register",
+    "phoneNumber": "Telefoninumber",
+    "phoneNumberPlaceholder": "Sisestage oma mobiiltelefoni number",
+    "verificationCode": "Kinnituskood",
+    "verificationCodePlaceholder": "Sisestage kinnituskood",
+    "getVerificationCode": "Hankige kinnituskood",
+    "countdown": "{{sekundid}} sekundid, et uuesti proovida",
+    "register": "register",
+    "errors": {
+      "phoneRequired": "Sisestage oma mobiiltelefoni number",
+      "phoneInvalid": "Mobiiltelefoni numbri vorming on vale",
+      "codeRequired": "Sisestage kinnituskood",
+      "codeInvalid": "Kinnituskoodi vorming on vale",
+      "requestFailed": "Taotlus ebaõnnestus",
+      "verificationFailed": "Kinnituskoodi omandamine ebaõnnestus",
+      "loginFailed": "Sisselogimine ebaõnnestus"
+    },
+    "success": {
+      "verificationCodeSent": "Kinnituskood on saadetud",
+      "registerSuccess": "Registreeritud edukalt"
+    }
+  }
+}

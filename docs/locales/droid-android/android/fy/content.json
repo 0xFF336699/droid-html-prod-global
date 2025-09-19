@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Dizze metoade kin allinich wurde neamd op Android",
+      "noMethod": "Dizze metoade bestiet net"
+    }
+  }
+}

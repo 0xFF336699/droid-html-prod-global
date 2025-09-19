@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Zina ya suku"
+      },
+      "topic": {
+        "label": "Luyantiku ya Nzo"
+      },
+      "avatar": {
+        "alt": "Avatar ya suku"
+      },
+      "submit": "Lunda ba parametre"
+    },
+    "toast": {
+      "success": "Baparametre ya mpa",
+      "error": {
+        "default": "Ba parametre ya mpa me nunga ve",
+        "avatar": "Kukonda kutula avatar ya mpa"
+      }
+    }
+  }
+}

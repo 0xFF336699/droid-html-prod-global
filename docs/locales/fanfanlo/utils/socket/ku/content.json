@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Girêdan ...",
+    "connected": "Ve girêdayî ye",
+    "disconnecting": "Disconnecting ...",
+    "disconnected": "Ne girêdayî ye",
+    "waitRetry": "Li benda Reconnection ..."
+  }
+}

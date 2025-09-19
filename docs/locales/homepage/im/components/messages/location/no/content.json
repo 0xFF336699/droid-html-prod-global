@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Stedsnavn",
+    "viewMap": "Se kartet",
+    "close": "Lukking"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Den nåværende nettleseren støtter ikke anskaffelse av geolokalisering",
+    "getLocationFailed": "Kunne ikke få plasseringen, vennligst sjekk tillatelsesinnstillingene",
+    "myLocation": "Min beliggenhet",
+    "shareLocation": "Del plassering",
+    "getCurrentLocation": "Få den nåværende plasseringen",
+    "title": "Stedsnavn",
+    "description": "Detaljert beskrivelse",
+    "descriptionPlaceholder": "Vennligst skriv inn en detaljert beskrivelse (valgfritt)",
+    "preview": "Plasseringsforhåndsvisning",
+    "latitude": "breddegrad",
+    "longitude": "lengdegrad",
+    "cancel": "Kansellere",
+    "send": "sende",
+    "permissionPrompt": "Vi må skaffe deg posisjonsinformasjon for å tilby bedre tjenester, er det tillatt?",
+    "permissionDenied": "Posisjoneringstillatelse nektes, aktiverer posisjoneringstillatelse i nettleserinnstillingene dine",
+    "locationTimeout": "Plassering av timeout, sørg for at enheten er slått på og prøv å gjenkjenne",
+    "locationUnavailable": "Gjeldende plassering kan ikke fås, vennligst sjekk enhetens plasseringstjeneste"
+  }
+}

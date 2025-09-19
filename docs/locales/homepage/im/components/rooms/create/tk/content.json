@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Otag dörediň"
+    },
+    "dialog": {
+      "title": "Täze otag dörediň",
+      "form": {
+        "userId": {
+          "label": "Ulanyjy belgisi",
+          "placeholder": "Ulanyjy şahsyýetini giriziň (mysal üçin: @ mysal: Mysal: Mysal)",
+          "error": {
+            "required": "Ulanyjy ID boş bolup bilmez",
+            "invalid": "Nädogry ulanyjy ID formaty nädogry"
+          }
+        },
+        "roomName": {
+          "label": "Otag ady (islege görä)",
+          "placeholder": "Otag atyny giriziň"
+        },
+        "isEncrypted": {
+          "label": "Ahyrky şifrlemegi işjeňleşdiriň"
+        },
+        "isDirect": {
+          "label": "Göni habar"
+        },
+        "topic": {
+          "label": "Mowzuk (islege görä)",
+          "placeholder": "Otag temasyny giriziň"
+        }
+      },
+      "actions": {
+        "cancel": "Ýatyr",
+        "create": "Dörediň"
+      },
+      "success": "Otag döretmek",
+      "error": "Bir otag döredende säwlik ýüze çykdy: {RAL .YŞ}"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Þegar þú slærð inn tilgreinda síðu",
+    "pnLabel": "Pakkanafn:",
+    "anLabel": "Nafn virkni:",
+    "cnLabel": "Bekkjarheiti:",
+    "changeBtnLabel": "Skiptu um"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Þegar þú slærð inn tilgreinda síðu",
+    "pnLabel": "Pakkanafn:",
+    "anLabel": "Nafn virkni:",
+    "cnLabel": "Bekkjarheiti:",
+    "changeBtnLabel": "Skiptu um"
+  }
+}

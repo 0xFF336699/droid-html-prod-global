@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Stà cunnessu",
+        "helperText": "Si cliccate nantu à u ligame Start, dopu mantene u ligame. Questu esige l'attenzione chì u ligame serà riconnessu continuamente dopu hè scunnisciutu.",
+        "retryCount": "Numaru di ricunniscenze"
+      },
+      "url": {
+        "name": "Url",
+        "helperText": "URL Link, per esempiu WS: //192.168.0.2: 7001, o wws: //xople.com/path",
+        "error": "L'URL currettu hè un URL chì principia cù WS: // o WW: //"
+      }
+    },
+    "connectButton": {
+      "connect": "cunnette",
+      "disconnect": "Disconnect",
+      "status": {
+        "connecting": "Cunnettendu ...",
+        "connected": "Cunnessu",
+        "disconnecting": "Disconnect a ...",
+        "disconnected": "Micca cunnessu",
+        "waitRetry": "Aspettendu di reconneczione ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "script"
+  }
+}

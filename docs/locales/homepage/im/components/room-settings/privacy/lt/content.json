@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Viešas kambarys",
+        "description": "Viešuosius kambarius gali ieškoti kiti vartotojai"
+      },
+      "allowGuestJoin": {
+        "label": "Leiskite lankytojams prisijungti",
+        "description": "Leiskite neregistruotiems vartotojams prisijungti prie kambario kaip svečias"
+      },
+      "isEncrypted": {
+        "label": "Įgalinti šifravimą nuo galo iki galo",
+        "description": "Kai įjungta, pranešimai kambaryje bus užšifruoti",
+        "alert": "Šifravimas iš galo įjungtas kambaryje, o šio nustatymo negalima išjungti."
+      },
+      "submit": "Išsaugokite privatumo nustatymus"
+    },
+    "toast": {
+      "success": "Privatumo nustatymai buvo atnaujinti",
+      "error": "Nepavyko atnaujinti privatumo nustatymų"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Nama bilik"
+      },
+      "topic": {
+        "label": "Pengenalan bilik"
+      },
+      "avatar": {
+        "alt": "Avatar bilik"
+      },
+      "submit": "Simpan Tetapan"
+    },
+    "toast": {
+      "success": "Tetapan Dikemas kini",
+      "error": {
+        "default": "Tetapan kemas kini gagal",
+        "avatar": "Gagal mengemas kini avatar"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Indargabetu",
+    "ok": "Ziur",
+    "checkBoxText": "Joan zuzenean hilean erdira edo ez da leiho hau erakutsi",
+    "content": "Funtzio honek funtzio baimena behar du. Baimendu nahi baduzu, egin klik [Ados]. Amore eman nahi baduzu, egin klik [Utzi]",
+    "title": "Baimen eskaera"
+  },
+  "floatPermission": {
+    "cancel": "Indargabetu",
+    "ok": "Ziur",
+    "checkBoxText": "Joan zuzenean hilean erdira edo ez da leiho hau erakutsi",
+    "content": "Funtzio honek leiho flotagarriaren funtzioaren baimena behar du. Baimendu nahi baduzu, egin klik [Ados]. Amore eman nahi baduzu, egin klik [Utzi]",
+    "title": "Baimen eskaera"
+  }
+}

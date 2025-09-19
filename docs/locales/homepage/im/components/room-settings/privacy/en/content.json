@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Public room",
+        "description": "Public rooms can be searched by other users"
+      },
+      "allowGuestJoin": {
+        "label": "Allow visitors to join",
+        "description": "Allow unregistered users to join the room as a guest"
+      },
+      "isEncrypted": {
+        "label": "Enable end-to-end encryption",
+        "description": "When enabled, messages in the room will be encrypted end-to-end",
+        "alert": "End-to-end encryption is enabled in the room, and this setting cannot be turned off."
+      },
+      "submit": "Save privacy settings"
+    },
+    "toast": {
+      "success": "Privacy settings have been updated",
+      "error": "Failed to update privacy settings"
+    }
+  }
+}

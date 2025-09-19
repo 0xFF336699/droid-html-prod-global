@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Coma aquela aplicacion s'aplica per un grand nombre de permissions sus vòstre telefòn mobil, fòrça permissions son extrèmament riscadas, doncas las importa pas o las executatz sens conéisser clarament los risques del mercat o del script. Un còp introdusit de contengut dins la bóstia de tèxte \"Introduccion de la carta de Market\" o \"Pagina Web Independenta de Market\" çai-jos, lo contengut serà executat immediatament coma còde. Si vos platz siatz prudents.",
+    "setNewMarket": "Configurar un nòu mercat .",
+    "settingPreview": "Aperturacion de paramètres",
+    "marketName": "Nom de mercat",
+    "marketSummary": "Introduccion del Mercat",
+    "marketDescription": "introduccion de mercat",
+    "itemMarket": "Introduccion de tarjetas del mercado .",
+    "fullMarket": "Pagina web independenta del mercat .",
+    "marketCardPreview": "Previsualizacion de Tarjetas del Mercado",
+    "marketFullPreview": "Previsualizacion de la pagina web independiente de mercado .",
+    "isNotSet": "pas fixat"
+  }
+}

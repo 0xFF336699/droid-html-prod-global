@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Verejná miestnosť",
+        "description": "Verejné miestnosti môžu vyhľadávať iní používatelia"
+      },
+      "allowGuestJoin": {
+        "label": "Umožnite návštevníkom pripojiť sa",
+        "description": "Umožnite neregistrovaným používateľom pripojiť sa k miestnosti ako hosť"
+      },
+      "isEncrypted": {
+        "label": "Povoliť šifrovanie koncového konca",
+        "description": "Ak sú povolené, správy v miestnosti budú šifrované",
+        "alert": "Šifrovanie end-to-end je povolené v miestnosti a toto nastavenie nie je možné vypnúť."
+      },
+      "submit": "Uložiť nastavenia ochrany osobných údajov"
+    },
+    "toast": {
+      "success": "Nastavenia ochrany osobných údajov boli aktualizované",
+      "error": "Nepodarilo sa aktualizovať nastavenia ochrany osobných údajov"
+    }
+  }
+}

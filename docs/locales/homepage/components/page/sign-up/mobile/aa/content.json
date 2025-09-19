@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "maysaqarra",
+    "phoneNumber": "suuquntal",
+    "phoneNumberPlaceholder": "Ku maganak isi mobaayil silkih ixxima culus",
+    "verificationCode": "cediyya",
+    "verificationCodePlaceholder": "Ku maganak maadu koox culus",
+    "getVerificationCode": "maysarraqa muditte gey",
+    "countdown": "{{gacris} sekenxitte qagitak gibbata",
+    "register": "maysaqarra",
+    "errors": {
+      "phoneRequired": "Ku maganak isi mobaayil silkih ixxima culus",
+      "phoneInvalid": "mobaayil silkih ixximah cibta dadla",
+      "codeRequired": "Ku maganak maadu koox culus",
+      "codeInvalid": "ramaddiinu mudentih cibtaati mannoowa",
+      "requestFailed": "essero raddeh",
+      "verificationFailed": "Baxxaqsa le sirri geyto raddeh",
+      "loginFailed": "radeh"
+    },
+    "success": {
+      "verificationCodeSent": "Maytî sirri ruube",
+      "registerSuccess": "aysuk raqta"
+    }
+  }
+}

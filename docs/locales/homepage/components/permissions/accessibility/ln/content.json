@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Misala ya lisalisi .",
+    "pass": "Bato oyo bapesameli ndingisa .",
+    "notPass": "Ezali na ndingisa te .",
+    "setting": "kobongisa",
+    "danger": "Likama",
+    "dangerDesc": "Ndingisa oyo ekoki komona makambo oyo ezali na écran mpe kofina na telefone na yo. Désactiver permission oyo soki o comprendre explicitement te fonctionnalité na ba risques ya script oyo ozali kosala to ekosala."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "အခန်းတစ်ခန်းကိုဖန်တီးပါ"
+    },
+    "dialog": {
+      "title": "အခန်းအသစ်တစ်ခုဖန်တီးပါ",
+      "form": {
+        "userId": {
+          "label": "သုံးစွဲသူအိုင်ဒီ",
+          "placeholder": "အသုံးပြုသူ ID ကိုရိုက်ထည့်ပါ (ဥပမာ - @user: Exper.com)",
+          "error": {
+            "required": "အသုံးပြုသူ ID သည်ဗလာမဖြစ်နိုင်ပါ",
+            "invalid": "မမှန်ကန်သောအသုံးပြုသူ ID ပုံစံ"
+          }
+        },
+        "roomName": {
+          "label": "အခန်းနာမည် (optional)",
+          "placeholder": "အခန်းနာမည်ရိုက်ထည့်ပါ"
+        },
+        "isEncrypted": {
+          "label": "End-to-end encryption ကို enable လုပ်ပါ"
+        },
+        "isDirect": {
+          "label": "တိုက်ရိုက်မက်ဆေ့ခ်ျကို"
+        },
+        "topic": {
+          "label": "အကြောင်းအရာ (optional ကို)",
+          "placeholder": "အခန်းဆောင်ပုဒ်ရိုက်ထည့်ပါ"
+        }
+      },
+      "actions": {
+        "cancel": "ပျက်စေ",
+        "create": "ဖန်တီး"
+      },
+      "success": "အောင်မြင်စွာအခန်းဖန်တီးမှု",
+      "error": "အခန်းတစ်ခန်းကိုဖန်တီးစဉ်အမှားတစ်ခုဖြစ်ပွားခဲ့သည်။"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "zapisovať",
+    "phoneNumber": "Telefónne číslo",
+    "phoneNumberPlaceholder": "Zadajte číslo mobilného telefónu",
+    "verificationCode": "Overovací kód",
+    "verificationCodePlaceholder": "Zadajte overovací kód",
+    "getVerificationCode": "Získajte overovací kód",
+    "countdown": "{{sekunds}} sekundy, aby ste to skúsili znova",
+    "register": "zapisovať",
+    "errors": {
+      "phoneRequired": "Zadajte číslo mobilného telefónu",
+      "phoneInvalid": "Formát čísla mobilných telefónov je nesprávny",
+      "codeRequired": "Zadajte overovací kód",
+      "codeInvalid": "Formát overovacieho kódu je nesprávny",
+      "requestFailed": "Žiadosť zlyhala",
+      "verificationFailed": "Získanie overovacieho kódu zlyhalo",
+      "loginFailed": "Prihlásenie zlyhalo"
+    },
+    "success": {
+      "verificationCodeSent": "Verifikačný kód bol odoslaný",
+      "registerSuccess": "Úspešne registrované"
+    }
+  }
+}

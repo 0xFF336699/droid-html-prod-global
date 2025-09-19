@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Liitu toaga",
+      "inviteOnly": "See on privaatne tuba ja nõuab liitumiseks kutseid",
+      "knockRequired": "See tuba nõuab liitumiseks rakendust. Liitumistaotluse saatmiseks klõpsake alloleval nupul",
+      "canJoin": "See on avalik tuba, saate otse liituda",
+      "sendRequest": "Saada liitumistaotlus",
+      "join": "Liitu toaga"
+    },
+    "JoinRequestList": {
+      "noRequests": "Liitumistaotlust pole veel",
+      "accept": "aktsepteerima",
+      "reject": "tagasi lükkama"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Sisestage teade ..."
+  },
+  "MessageList": {
+    "noMessages": "Veel pole sõnumit, saatke vestluse alustamiseks esimene sõnum!",
+    "loading": "laadimine ...",
+    "error": {
+      "loadFailed": "Sõnumi laadimine ebaõnnestus",
+      "retry": "Proovige uuesti"
+    },
+    "loadingHistory": "Ajalugu laadimine ...",
+    "historyEnd": "Varaseim uudis on saabunud"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Veel pole sõnumit, saatke vestluse alustamiseks esimene sõnum!"
+  },
+  "RoomContent": {
+    "title": "Ruum"
+  },
+  "RoomHeader": {
+    "title": "Ruum",
+    "unnamedRoom": "Nimetu tuba",
+    "members": "liige",
+    "settings": "püstitama",
+    "leaveRoom": "Lahkuge toast",
+    "joinRoom": "Liitu toaga"
+  },
+  "RoomMembers": {
+    "title": "Toaliikmed",
+    "online": "Veebis",
+    "offline": "Võrguühenduseta",
+    "join": "ühinema",
+    "invite": "kutsuma",
+    "leave": "lahkuma",
+    "ban": "Keelatud",
+    "noMembers": "Pole veel liiget",
+    "loading": "laadimine ..."
+  }
+}

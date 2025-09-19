@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "取消",
+    "confirm": "确定",
+    "title": "提示",
+    "content": "确定要执行此操作吗？"
+  },
+  "EditableText": {
+    "cancel": "取消",
+    "save": "保存",
+    "title": "编辑"
+  }
+}

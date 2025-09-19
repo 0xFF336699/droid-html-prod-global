@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Icumba",
+    "tabs": {
+      "basic": "Ivyonga vy'ishimikiro",
+      "permission": "Uburyo bwo gukoresha",
+      "privacy": "Ubuzima bwite",
+      "member": "Ubuyobozi bw'abanyamuryango"
+    },
+    "loadError": "Yananiwe gushiramwo ivyumba",
+    "leaveRoom": {
+      "button": "Raba icumba",
+      "confirm": "Woba uzi neza ko ushaka gusohoka mu cumba? Uhejeje gusohoka, ntuzoshobora kubandanya kwakira ubutumwa buva muri iki cumba.",
+      "success": "Yasohotse mu cumba neza",
+      "error": "Uzosohoka mu cumba, ndagusavye wongere ugerageze"
+    }
+  }
+}

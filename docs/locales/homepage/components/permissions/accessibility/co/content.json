@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Funzioni ausiliari",
+    "pass": "Autorizatu",
+    "notPass": "UNAUTHORIZED",
+    "setting": "istituisci",
+    "danger": "Periculu",
+    "dangerDesc": "Questa autorizazione pò vede u cuntenutu nantu à u screnu è cliccate nantu à u vostru telefunu. Disattivate questu permessu se ùn capite micca esplicitamente a funziunalità è i risichi di u script chì corre o correre."
+  }
+}

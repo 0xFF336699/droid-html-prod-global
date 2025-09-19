@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Si Roo"
+      },
+      "topic": {
+        "label": "Manma'gås-ña si Room"
+      },
+      "avatar": {
+        "alt": "Room ava"
+      },
+      "submit": "Sensida"
+    },
+    "toast": {
+      "success": "Settings",
+      "error": {
+        "default": "I setbisio siha ni' para u ma'usa.",
+        "avatar": "Manmafa'tinas para u fanma'gåsi"
+      }
+    }
+  }
+}

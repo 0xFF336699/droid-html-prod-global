@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Skep 'n kamer"
+    },
+    "dialog": {
+      "title": "Skep 'n nuwe kamer",
+      "form": {
+        "userId": {
+          "label": "Gebruikers -ID",
+          "placeholder": "Voer die gebruikers -ID in (byvoorbeeld: @user: voorbeeld.com)",
+          "error": {
+            "required": "Gebruikers -ID kan nie leeg wees nie",
+            "invalid": "Ongeldige gebruikers -ID -formaat"
+          }
+        },
+        "roomName": {
+          "label": "Kamernaam (opsioneel)",
+          "placeholder": "Voer 'n kamernaam in"
+        },
+        "isEncrypted": {
+          "label": "Aktiveer eind-tot-einde-kodering"
+        },
+        "isDirect": {
+          "label": "Direkte boodskap"
+        },
+        "topic": {
+          "label": "Tema (opsioneel)",
+          "placeholder": "Gaan die kamertema in"
+        }
+      },
+      "actions": {
+        "cancel": "Kanselleer",
+        "create": "skep"
+      },
+      "success": "Kamerskepping suksesvol",
+      "error": "'N Fout het voorgekom tydens die skep van 'n kamer: {fout}"
+    }
+  }
+}

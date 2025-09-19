@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Ime lokacije",
+    "viewMap": "Oglejte si zemljevid",
+    "close": "zaprtje"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Trenutni brskalnik ne podpira pridobivanja geolokacije",
+    "getLocationFailed": "Ni uspelo pridobiti lokacije, preverite nastavitve dovoljenja",
+    "myLocation": "Moja lokacija",
+    "shareLocation": "Delite lokacijo",
+    "getCurrentLocation": "Pridobite trenutno lokacijo",
+    "title": "Ime lokacije",
+    "description": "Podroben opis",
+    "descriptionPlaceholder": "Vnesite podroben opis (neobvezno)",
+    "preview": "Predogled lokacije",
+    "latitude": "širina",
+    "longitude": "dolžina",
+    "cancel": "Odpovedati",
+    "send": "Pošlji",
+    "permissionPrompt": "Za zagotavljanje boljših storitev moramo pridobiti vaše lokacijske podatke, ali so to dovoljene?",
+    "permissionDenied": "Dovoljenje za pozicioniranje je zavrnjeno, v nastavitvah brskalnika omogočite dovoljenje za pozicioniranje",
+    "locationTimeout": "Časovna omejitev pozicioniranja, se prepričajte, da je naprava vklopljena in poskusite ponovno pridobiti",
+    "locationUnavailable": "Trenutne lokacije ni mogoče dobiti, preverite storitev lokacije naprave"
+  }
+}

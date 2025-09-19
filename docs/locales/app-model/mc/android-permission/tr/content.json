@@ -1,0 +1,7 @@
+{
+  "androidPermission": {
+    "denied": "reddetmek",
+    "granted": "Yetkili",
+    "shouldAskAgain": "Yetkisiz"
+  }
+}

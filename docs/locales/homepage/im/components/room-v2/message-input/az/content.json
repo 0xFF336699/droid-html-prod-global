@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "Əlavələr əlavə edin",
+    "emoji": "Bir ifadə seçin",
+    "placeholder": "Bir mesaj daxil edin ...",
+    "sendLocation": "Yerləşdirmək",
+    "send": "göndərmək"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Habar ibermek üçin rugsat derejesi",
+        "tooltip": "0, ähli agzalaryň habar iberip biljekdigini we adyň has uly rugsatlaryň zerurdygyny aňladýar"
+      },
+      "invite": {
+        "label": "Täze agzalary çagyrmak üçin rugsat derejesi talap edilýär",
+        "tooltip": "Täze agzalara otaga çagyryp biljekdigini kesgitlemek"
+      },
+      "kick": {
+        "label": "Gerekli rugsat derejesini çykaryň",
+        "tooltip": "Otag agzalaryny kimiň başaryp biljekdigini belläň"
+      },
+      "ban": {
+        "label": "Tolkunlary petiklemek üçin rugsat derejesi talap edilýär",
+        "tooltip": "Otag agzalarynyň agzalaryny kim petikläp biler"
+      },
+      "roomSettings": {
+        "label": "Gerekli rugsat derejesiniň bahasynyň derejesini üýtgediň",
+        "tooltip": "Otagyň sazlamalaryny üýtgedip biljek ýeri"
+      },
+      "submit": "Rugsat sazlamalaryny ýazdyryň"
+    },
+    "description": "Rugsat derejesi aralygy: 0-100, has uly, has uly, san has uly rugsatlar talap edilýär",
+    "toast": {
+      "success": "Rugsat sazlamasy täzelendi",
+      "error": "Rugsat sazlamalaryny täzeläp bilmedi"
+    }
+  }
+}

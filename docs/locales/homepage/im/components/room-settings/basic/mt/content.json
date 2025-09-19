@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Isem tal-kamra"
+      },
+      "topic": {
+        "label": "Introduzzjoni tal-Kamra"
+      },
+      "avatar": {
+        "alt": "Kamra Avatar"
+      },
+      "submit": "Issejvja l-issettjar"
+    },
+    "toast": {
+      "success": "Settings aġġornati",
+      "error": {
+        "default": "L-issettjar tal-aġġornament falla",
+        "avatar": "Naqas milli jaġġorna l-avatar"
+      }
+    }
+  }
+}

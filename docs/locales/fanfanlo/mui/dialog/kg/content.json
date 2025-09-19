@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Kukatula",
+    "confirm": "Mpidina",
+    "title": "kidimbu",
+    "content": "Keti nge ke ndima nde nge ke zola kusala mambu yai?"
+  },
+  "EditableText": {
+    "cancel": "Kukatula",
+    "save": "kugulusa",
+    "title": "kusoba"
+  }
+}

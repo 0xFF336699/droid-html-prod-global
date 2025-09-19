@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "node ປະຕິບັດ",
+    "changeBtnLabel": "ປ່ຽນແທນ",
+    "showNodeAllProperties": "ສະແດງຄຸນສົມບັດທັງຫມົດ",
+    "wait": {
+      "time": "ເວລາລໍຖ້າ",
+      "interval": "ໄລຍະຫ່າງການລໍຖ້າ",
+      "invisible": "ບໍ່ວ່າຈະກວດພົບອົງປະກອບຢູ່ນອກຫນ້າຈໍ"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Chikamu chekubvumidza chinodiwa kutumira meseji",
+        "tooltip": "0 zvinoreva kuti nhengo dzese dzinotumira mameseji, uye yakakura nhamba yacho zvinoreva kuti yakakwira mvumo inodiwa"
+      },
+      "invite": {
+        "label": "Chikamu cheMvumo chinodiwa kukoka nhengo nyowani",
+        "tooltip": "Gadza uyo anogona kukoka nhengo nyowani mukamuri"
+      },
+      "kick": {
+        "label": "Rova iyo inodiwa mvumo yekubvumidza",
+        "tooltip": "Gadza uyo anogona kukanda mitezo yemakamuri"
+      },
+      "ban": {
+        "label": "Mvumo yemvumo inodiwa kune inovhara nhengo",
+        "tooltip": "Set uyo anogona kuvhara nhengo dzemuviri"
+      },
+      "roomSettings": {
+        "label": "Shandura iyo inodiwa mvumo yemvumo yemakamuri emakamuri",
+        "tooltip": "Set uyo anogona kushandura marongero emakamuri"
+      },
+      "submit": "Sevha Mvumo Mvumo"
+    },
+    "description": "Mvumo yeLeatidziro yehuwandu: 0-100, yakakura nhamba yacho zvinoreva kukwirisa kwakakwirira kunodiwa",
+    "toast": {
+      "success": "Mvumo yezvirongwa zvakagadziriswa",
+      "error": "Kukundikana kugadzirisa marongero emvumo"
+    }
+  }
+}

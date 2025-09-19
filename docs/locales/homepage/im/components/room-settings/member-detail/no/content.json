@@ -1,0 +1,9 @@
+{
+  "MemberDetailContent": {
+    "title": "Medlemsdetaljer",
+    "nickname": "Nick -navn",
+    "role": "Rolle",
+    "kick": "Sparke ut",
+    "ban": "Forbudt"
+  }
+}

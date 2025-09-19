@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Hozzon létre egy szobát"
+    },
+    "dialog": {
+      "title": "Hozzon létre egy új szobát",
+      "form": {
+        "userId": {
+          "label": "Felhasználói azonosító",
+          "placeholder": "Írja be a felhasználói azonosítót (például: @User: Példa.com)",
+          "error": {
+            "required": "A felhasználói azonosító nem lehet üres",
+            "invalid": "Érvénytelen felhasználói azonosító formátum"
+          }
+        },
+        "roomName": {
+          "label": "Szoba neve (opcionális)",
+          "placeholder": "Írjon be egy szoba nevét"
+        },
+        "isEncrypted": {
+          "label": "Engedélyezze a végpontok közötti titkosítást"
+        },
+        "isDirect": {
+          "label": "Közvetlen üzenet"
+        },
+        "topic": {
+          "label": "Téma (opcionális)",
+          "placeholder": "Írja be a szoba témáját"
+        }
+      },
+      "actions": {
+        "cancel": "Töröl",
+        "create": "teremt"
+      },
+      "success": "Szoba létrehozása sikeresen",
+      "error": "Hiba történt egy szoba létrehozásakor: {hiba}"
+    }
+  }
+}

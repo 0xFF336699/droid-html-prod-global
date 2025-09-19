@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Whakauru atu ki te ruma",
+      "inviteOnly": "He ruma motuhake tenei me te hiahia tono kia uru atu",
+      "knockRequired": "Ko tenei ruuma me tono tono kia uru atu. Paatohia te paatene i raro iho nei ki te tuku i te tono Whakauru",
+      "canJoin": "He ruma whanui tenei, ka taea e koe te whakauru atu",
+      "sendRequest": "Tukuna he tono whakauru",
+      "join": "Whakauru atu ki te ruma"
+    },
+    "JoinRequestList": {
+      "noRequests": "Kaore ano kia uru atu ki te tono",
+      "accept": "whakaae",
+      "reject": "whakahoe"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Whakauruhia he panui ..."
+  },
+  "MessageList": {
+    "noMessages": "Kaore ano he karere, tukuna atu te panui tuatahi hei timata i te korerorero!",
+    "loading": "Hoko ...",
+    "error": {
+      "loadFailed": "I rahua te uta i te panui",
+      "retry": "Whakamātauria ano"
+    },
+    "loadingHistory": "Te uta i te hitori ...",
+    "historyEnd": "Kua tae mai nga korero tuatahi"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Kaore ano he karere, tukuna atu te panui tuatahi hei timata i te korerorero!"
+  },
+  "RoomContent": {
+    "title": "Rūma"
+  },
+  "RoomHeader": {
+    "title": "Rūma",
+    "unnamedRoom": "Rūma kore ingoa",
+    "members": "mema",
+    "settings": "whakarite",
+    "leaveRoom": "Waiho te ruma",
+    "joinRoom": "Whakauru atu ki te ruma"
+  },
+  "RoomMembers": {
+    "title": "Nga mema o te rūma",
+    "online": "Ipurangi",
+    "offline": "Taipitopito",
+    "join": "Hono ki",
+    "invite": "pōhiri",
+    "leave": "haere",
+    "ban": "Aukati",
+    "noMembers": "Kaore ano he mema",
+    "loading": "Hoko ..."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "નોંધણી કરવી",
+    "phoneNumber": "ફોન નંબર",
+    "phoneNumberPlaceholder": "કૃપા કરીને તમારો મોબાઇલ ફોન નંબર દાખલ કરો",
+    "verificationCode": "ખરાઈ",
+    "verificationCodePlaceholder": "કૃપા કરીને ચકાસણી કોડ દાખલ કરો",
+    "getVerificationCode": "ચકાસણી કોડ મેળવો",
+    "countdown": "{{સેકંડ}} સેકંડ ફરીથી પ્રયાસ કરવા માટે",
+    "register": "નોંધણી કરવી",
+    "errors": {
+      "phoneRequired": "કૃપા કરીને તમારો મોબાઇલ ફોન નંબર દાખલ કરો",
+      "phoneInvalid": "મોબાઇલ ફોન નંબર ફોર્મેટ ખોટું છે",
+      "codeRequired": "કૃપા કરીને ચકાસણી કોડ દાખલ કરો",
+      "codeInvalid": "ચકાસણી કોડ ફોર્મેટ ખોટું છે",
+      "requestFailed": "વિનંતી નિષ્ફળ",
+      "verificationFailed": "ચકાસણી કોડ એક્વિઝિશન નિષ્ફળ",
+      "loginFailed": "લ login ગિન નિષ્ફળ"
+    },
+    "success": {
+      "verificationCodeSent": "ચકાસણી કોડ મોકલવામાં આવ્યો છે",
+      "registerSuccess": "સફળતાપૂર્વક નોંધાયેલ"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Bekor qilmoq",
+    "confirm": "Ishonch hosil qilmoq",
+    "title": "ishora qilmoq",
+    "content": "Bunga ishonchingiz komilmi?"
+  },
+  "EditableText": {
+    "cancel": "Bekor qilmoq",
+    "save": "tejash",
+    "title": "tahrirlamoq"
+  }
+}

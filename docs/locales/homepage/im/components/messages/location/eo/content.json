@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Loko Nomo",
+    "viewMap": "Rigardu la mapon",
+    "close": "Fermo"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "La nuna retumilo ne subtenas geolokan akiron",
+    "getLocationFailed": "Malsukcesis akiri la lokon, bonvolu kontroli la permesajn agordojn",
+    "myLocation": "Mia Loko",
+    "shareLocation": "Kunhavigu lokon",
+    "getCurrentLocation": "Akiru la nunan lokon",
+    "title": "Loko Nomo",
+    "description": "Detala Priskribo",
+    "descriptionPlaceholder": "Bonvolu enigi detalan priskribon (laŭvola)",
+    "preview": "Loko Antaŭrigardo",
+    "latitude": "latitudo",
+    "longitude": "longitudo",
+    "cancel": "Nuligi",
+    "send": "Sendu",
+    "permissionPrompt": "Ni bezonas akiri viajn lokajn informojn por provizi pli bonajn servojn, ĉu ĝi estas permesita?",
+    "permissionDenied": "Poziciiga permeso estas rifuzita, bonvolu ebligi poziciigan permeson en viaj retumilaj agordoj",
+    "locationTimeout": "Poziciigante tempodaŭron, certigu, ke la aparato estas ŝaltita kaj provu reakiri",
+    "locationUnavailable": "La aktuala loko ne povas esti akirita, bonvolu kontroli la servon de la aparato"
+  }
+}

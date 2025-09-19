@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "ପଞ୍ଜିକରଣ କର |",
+    "phoneNumber": "ଫୋନ୍ ନମ୍ବର",
+    "phoneNumberPlaceholder": "ଦୟାକରି ଆପଣଙ୍କର ମୋବାଇଲ୍ ଫୋନ୍ ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ |",
+    "verificationCode": "ପ୍ରମାଣ ସଂକେତ",
+    "verificationCodePlaceholder": "ଦୟାକରି ଯାଞ୍ଚ କୋଡ୍ ପ୍ରବେଶ କରନ୍ତୁ |",
+    "getVerificationCode": "ଯାଞ୍ଚ କୋଡ୍ ପାଆନ୍ତୁ |",
+    "countdown": "ପୁନର୍ବାର ଚେଷ୍ଟା କରିବାକୁ {{ସେକେଣ୍ଡ} ସେକେଣ୍ଡ |",
+    "register": "ପଞ୍ଜିକରଣ କର |",
+    "errors": {
+      "phoneRequired": "ଦୟାକରି ଆପଣଙ୍କର ମୋବାଇଲ୍ ଫୋନ୍ ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ |",
+      "phoneInvalid": "ମୋବାଇଲ୍ ଫୋନ୍ ନମ୍ବର ଫର୍ମାଟ୍ ଭୁଲ୍ ଅଟେ |",
+      "codeRequired": "ଦୟାକରି ଯାଞ୍ଚ କୋଡ୍ ପ୍ରବେଶ କରନ୍ତୁ |",
+      "codeInvalid": "ଯାଞ୍ଚ କୋଡ୍ ଫର୍ମାଟ୍ ଭୁଲ ଅଟେ |",
+      "requestFailed": "ଅନୁରୋଧ ବିଫଳ ହେଲା |",
+      "verificationFailed": "ଯାଞ୍ଚ କୋଡ୍ ଅଧିଗ୍ରହଣ ବିଫଳ ହେଲା |",
+      "loginFailed": "ଲଗଇନ ବିଫଳ"
+    },
+    "success": {
+      "verificationCodeSent": "ଯାଞ୍ଚ କୋଡ୍ ପଠାଯାଇଛି |",
+      "registerSuccess": "ସଫଳତାର ସହିତ ପଞ୍ଜିକୃତ |"
+    }
+  }
+}

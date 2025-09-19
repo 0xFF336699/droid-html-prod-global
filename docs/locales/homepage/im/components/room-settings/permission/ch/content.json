@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "I nivel na permiso ha nisisita para u na’hanao",
+        "tooltip": "0 kumeke ilek-ña na todu i taotao siña ma na'hanao mensåhi siha, ya i mas takhilo' na numero ha na'siguru na i mas takhilo' na permiso siha manma nisisita ."
+      },
+      "invite": {
+        "label": "I nivel na taotao siha para u fanma’invite",
+        "tooltip": "Siha ni’ siña ma invita i nuebu na membro siha para i kuatto ."
+      },
+      "kick": {
+        "label": "Ma na'suha i permiso",
+        "tooltip": "Siha i manma’gas gi i kuatton-ñiha ."
+      },
+      "ban": {
+        "label": "I nivel na taotao siha ni’ manma’a’ñao",
+        "tooltip": "Siha i siña ma blokea ."
+      },
+      "roomSettings": {
+        "label": "Modifika i nisisidat na nivel permisu gi i lugåt siha .",
+        "tooltip": "Setbe hayi siña ha modifika i kuarto siha."
+      },
+      "submit": "Siette na setting permission pot permisu gi un"
+    },
+    "description": "I nivel gi papa': 0-100, i mas takhilo' na numeron i mas takhilo' na permiso.",
+    "toast": {
+      "success": "I setbisio siha ni' manma'a'a'ñao siha manma'a'a'ñao",
+      "error": "Manmafa’nu’i para u fanma’ayuda gi i lina’la’-ñiha?"
+    }
+  }
+}

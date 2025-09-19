@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Lokini/Lesisita",
+    "signOut": "Loki",
+    "confirmContent": "‘Okú ke fakapapau‘i ‘okú ke loto ke hū ki tu‘a?",
+    "confirmTitle": "fakalika",
+    "confirm": "Pau",
+    "cancel": "Kaniseli",
+    "signoutOk": "Loki",
+    "loadingData": "'Oku 'ave 'a e fakamatala 'o e tokotaha ngaue ."
+  }
+}

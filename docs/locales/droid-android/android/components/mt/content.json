@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Ikkanċella",
+    "ok": "Żgur",
+    "checkBoxText": "Mur direttament biex tawtorizza fi żmien nofs xahar u m'għadhiex turi din it-tieqa",
+    "content": "Din il-funzjoni teħtieġ l-awtorizzazzjoni tal-funzjoni awżiljarja. Jekk trid tawtorizza, jekk jogħġbok ikklikkja [OK]. Jekk trid taqta 'qalbek, jekk jogħġbok ikklikkja [Ikkanċella]",
+    "title": "Applikazzjoni ta 'Awtorizzazzjoni"
+  },
+  "floatPermission": {
+    "cancel": "Ikkanċella",
+    "ok": "Żgur",
+    "checkBoxText": "Mur direttament biex tawtorizza fi żmien nofs xahar u m'għadhiex turi din it-tieqa",
+    "content": "Din il-funzjoni teħtieġ l-awtorizzazzjoni tal-funzjoni tat-tieqa f'wiċċ l-ilma. Jekk trid tawtorizza, jekk jogħġbok ikklikkja [OK]. Jekk trid taqta 'qalbek, jekk jogħġbok ikklikkja [Ikkanċella]",
+    "title": "Applikazzjoni ta 'Awtorizzazzjoni"
+  }
+}

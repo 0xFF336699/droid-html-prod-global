@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Location Numm",
+    "viewMap": "Gesinn d'Kaart",
+    "close": "Zoumaache"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Den aktuellen Browser ënnerstëtzt keng Geocolatioun Acquisitioun",
+    "getLocationFailed": "De Standuert konnt net kritt, kuckt w.e.g. d'Erlaabnis Astellungen",
+    "myLocation": "Meng Location",
+    "shareLocation": "Deelt Location",
+    "getCurrentLocation": "Kritt déi aktuell Positioun",
+    "title": "Location Numm",
+    "description": "Detailléiert Beschreiwung",
+    "descriptionPlaceholder": "Gitt w.e.g. eng detailléiert Beschreiwung (fakultativ)",
+    "preview": "Loclad virschau",
+    "latitude": "bärdeg",
+    "longitude": "Longicitude",
+    "cancel": "Ofbriechen",
+    "send": "schécken",
+    "permissionPrompt": "Mir mussen Är Standuertinformatioun kréien fir besser Servicer ze bidden, ass et erlaabt?",
+    "permissionDenied": "Positionéierung Erlaabnis gëtt ofgeleent, erlaabt weg d'Erlaabnis an Ären Browser Astellungen aktivéieren",
+    "locationTimeout": "Positionéierung Zäitzäit, gitt sécher datt den Apparat ageschalt ass a probéiert ze reagéieren",
+    "locationUnavailable": "Déi aktuell Plaz kann net kritt ginn, da kuckt w.e.g. den Apparat Location Service"
+  }
+}

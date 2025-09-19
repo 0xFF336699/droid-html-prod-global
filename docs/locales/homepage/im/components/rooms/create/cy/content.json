@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Creu ystafell"
+    },
+    "dialog": {
+      "title": "Creu ystafell newydd",
+      "form": {
+        "userId": {
+          "label": "ID Defnyddiwr",
+          "placeholder": "Rhowch yr ID Defnyddiwr (er enghraifft: @user: example.com)",
+          "error": {
+            "required": "Ni all id defnyddiwr fod yn wag",
+            "invalid": "Fformat ID Defnyddiwr Annilys"
+          }
+        },
+        "roomName": {
+          "label": "Enw'r Ystafell (Dewisol)",
+          "placeholder": "Rhowch Enw Ystafell"
+        },
+        "isEncrypted": {
+          "label": "Galluogi amgryptio o'r dechrau i'r diwedd"
+        },
+        "isDirect": {
+          "label": "Neges Uniongyrchol"
+        },
+        "topic": {
+          "label": "Thema",
+          "placeholder": "Mynd i mewn i thema'r ystafell"
+        }
+      },
+      "actions": {
+        "cancel": "Chansliff",
+        "create": "creiff"
+      },
+      "success": "Creu ystafelloedd yn llwyddiannus",
+      "error": "Digwyddodd gwall wrth greu ystafell: {gwall}"
+    }
+  }
+}

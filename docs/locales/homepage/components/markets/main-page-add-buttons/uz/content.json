@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "qo'shish",
+    "sub": {
+      "addScriptByUrl": "URL orqali skriptlarni qo'shing",
+      "addScriptByText": "Matn orqali skriptlarni qo'shing",
+      "addMarket": "URL orqali bozor qo'shing",
+      "addMarketByText": "Matn orqali bozor qo'shing"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "首页",
+    "me": "我的",
+    "settings": "设置",
+    "script": "脚本",
+    "store": "市场",
+    "market": "市场",
+    "create": "创建"
+  },
+  "tabbar": {
+    "test": "底部菜单栏"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Erabiltzailearen informazioa",
+    "id": {
+      "name": "Id",
+      "copy": "kopia",
+      "copied": "NAN kopiatu da"
+    },
+    "notLoggedIn": "Ez da saioa hasi",
+    "name": "izen",
+    "avatar": "avilo"
+  }
+}

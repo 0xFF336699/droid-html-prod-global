@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "취소",
+    "confirm": "확신하는",
+    "title": "힌트",
+    "content": "이 작업을 하시겠습니까?"
+  },
+  "EditableText": {
+    "cancel": "취소",
+    "save": "구하다",
+    "title": "편집하다"
+  }
+}

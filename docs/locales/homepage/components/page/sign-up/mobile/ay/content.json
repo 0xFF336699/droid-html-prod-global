@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "qillqantawi",
+    "phoneNumber": "Teléfono ukax mä jakhuwiwa.",
+    "phoneNumberPlaceholder": "Ukhamaraki, celularan numerop qillqt’asiñamawa .",
+    "verificationCode": "Código de Verificación ukax 1.1.",
+    "verificationCodePlaceholder": "Ukhamaraki, Código de Verificación ukarux mantañamawa .",
+    "getVerificationCode": "Uka chiqañchäwi chimpu katuqaña .",
+    "countdown": "{{Seconds}} segundos ukax mayamp yant’añatakiw .",
+    "register": "qillqantawi",
+    "errors": {
+      "phoneRequired": "Ukhamaraki, celularan numerop qillqt’asiñamawa .",
+      "phoneInvalid": "Uka celularan numeropajj janiw walïkiti .",
+      "codeRequired": "Ukhamaraki, Código de Verificación ukarux mantañamawa .",
+      "codeInvalid": "Uka verificación código formato ukax janiw walïkiti .",
+      "requestFailed": "Mayt’awix janiw phuqhaskiti .",
+      "verificationFailed": "Código de verificación ukax adquisición ukax janiw phuqhaskänti .",
+      "loginFailed": "Uñt’ayasiñax janiw phuqhaskiti ."
+    },
+    "success": {
+      "verificationCodeSent": "Código de Verificación ukax apayatänwa .",
+      "registerSuccess": "Suma qillqantayata ."
+    }
+  }
+}

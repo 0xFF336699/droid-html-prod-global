@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Keamer namme"
+      },
+      "topic": {
+        "label": "Keamer ynlieding"
+      },
+      "avatar": {
+        "alt": "Keamervatar"
+      },
+      "submit": "Ynstellings opslaan"
+    },
+    "toast": {
+      "success": "Ynstellings bywurke",
+      "error": {
+        "default": "Update ynstellings mislearre",
+        "avatar": "Mislearre Avatar bywurke"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "parancsikon",
+    "title": "csomag- és tevékenységi felismerés",
+    "useBtn": "használat",
+    "closeBtn": "bezárás",
+    "pnLabel": "Csomagnév",
+    "copyButtonText": "másolat",
+    "anLabel": "tevékenység",
+    "clsLable": "osztály"
+  }
+}

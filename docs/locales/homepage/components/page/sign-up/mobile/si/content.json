@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "ලියාපදිංචි වන්න",
+    "phoneNumber": "දුරකථන අංකය",
+    "phoneNumberPlaceholder": "කරුණාකර ඔබේ ජංගම දුරකථන අංකය ඇතුළත් කරන්න",
+    "verificationCode": "සත්යාපන කේතය",
+    "verificationCodePlaceholder": "කරුණාකර සත්යාපන කේතය ඇතුළත් කරන්න",
+    "getVerificationCode": "සත්යාපන කේතය ලබා ගන්න",
+    "countdown": "{{තත්පර}} නැවත උත්සාහ කිරීමට තත්පර",
+    "register": "ලියාපදිංචි වන්න",
+    "errors": {
+      "phoneRequired": "කරුණාකර ඔබේ ජංගම දුරකථන අංකය ඇතුළත් කරන්න",
+      "phoneInvalid": "ජංගම දුරකථන අංක ආකෘතිය වැරදිය",
+      "codeRequired": "කරුණාකර සත්යාපන කේතය ඇතුළත් කරන්න",
+      "codeInvalid": "සත්යාපන කේත ආකෘතිය වැරදිය",
+      "requestFailed": "ඉල්ලීම අසාර්ථක විය",
+      "verificationFailed": "සත්යාපන කේත අත්පත් කර ගැනීම අසාර්ථක විය",
+      "loginFailed": "ඇතුළු වීම අසාර්ථක විය"
+    },
+    "success": {
+      "verificationCodeSent": "සත්යාපන කේතය යවා ඇත",
+      "registerSuccess": "සාර්ථකව ලියාපදිංචි කර ඇත"
+    }
+  }
+}

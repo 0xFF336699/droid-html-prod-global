@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Mokgwa o o ka bidiwa fela mo Android",
+      "noMethod": "Mokgwa o ga o yo"
+    }
+  }
+}

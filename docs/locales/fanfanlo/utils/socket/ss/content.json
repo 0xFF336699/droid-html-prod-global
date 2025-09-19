@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Kuxhumana...",
+    "connected": "Kuhlangene",
+    "disconnecting": "Kuncipha...",
+    "disconnected": "Akaxhumane",
+    "waitRetry": "Kulindzela kuphindze uxhumane..."
+  }
+}

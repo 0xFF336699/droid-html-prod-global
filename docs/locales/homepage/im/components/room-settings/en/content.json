@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Room settings",
+    "tabs": {
+      "basic": "Basic settings",
+      "permission": "Permission settings",
+      "privacy": "Privacy settings",
+      "member": "Member Management"
+    },
+    "loadError": "Failed to load room settings",
+    "leaveRoom": {
+      "button": "Exit the room",
+      "confirm": "Are you sure you want to exit the room? After you exit, you will not be able to continue receiving messages from this room.",
+      "success": "Exited the room successfully",
+      "error": "Failed to exit the room, please try again"
+    }
+  }
+}

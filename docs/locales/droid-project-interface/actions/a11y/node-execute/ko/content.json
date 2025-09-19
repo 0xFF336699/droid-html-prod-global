@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "노드 실행",
+    "changeBtnLabel": "바꾸다",
+    "showNodeAllProperties": "모든 속성을 표시하십시오",
+    "wait": {
+      "time": "대기 시간",
+      "interval": "대기 간격",
+      "invisible": "화면 외부의 요소를 감지할지 여부"
+    }
+  }
+}

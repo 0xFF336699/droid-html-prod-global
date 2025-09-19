@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Sadarkaa hayyamaa ergaa erguuf barbaachisu .",
+        "tooltip": "0 jechuun miseensonni hundi ergaa erguu danda’u jechuudha, akkasumas hayyamni ol’aanaan barbaachisa jechuudha ."
+      },
+      "invite": {
+        "label": "Sadarkaa hayyamaa miseensota haaraa afeeruuf barbaachisu .",
+        "tooltip": "Set eenyu miseensota haaraa gara kutaa sanaa afeeruu danda'a ."
+      },
+      "kick": {
+        "label": "Sadarkaa hayyama barbaachisu ari'aa .",
+        "tooltip": "Set eenyutu miseensota kutaa keessaa ari'uu danda'a ."
+      },
+      "ban": {
+        "label": "Sadarkaa hayyamaa miseensota ugguruuf barbaachisu .",
+        "tooltip": "Miseensota kutaa ugguruu akka danda'an set ."
+      },
+      "roomSettings": {
+        "label": "Sadarkaa hayyama barbaachisu kan qindaa'inoota kutaa fooyyessii .",
+        "tooltip": "Saagiinsa kutaa eenyu akka fooyyessuu danda'u saagi ."
+      },
+      "submit": "Sajoo hayyamaa saaguu ."
+    },
+    "description": "Hammangaa Sadarkaa Hayyamaa: 0-100, baay’inni hayyamni ol’aanaa barbaachisa jechuudha .",
+    "toast": {
+      "success": "Sajoo hayyamaa haaromfamaniiru .",
+      "error": "Sajoo hayyamaa haaromsuu hin dandeenye ."
+    }
+  }
+}

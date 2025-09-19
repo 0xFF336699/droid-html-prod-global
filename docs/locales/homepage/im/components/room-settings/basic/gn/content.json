@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Koty réra ."
+      },
+      "topic": {
+        "label": "Koty Ñepyrũrã ."
+      },
+      "avatar": {
+        "alt": "Koty Avatar ."
+      },
+      "submit": "Ñañongatu hag̃ua ñemboheko ."
+    },
+    "toast": {
+      "success": "Ñe’ẽñemi oñembopyahu .",
+      "error": {
+        "default": "Ñembopyahu ñemboheko ndoikói .",
+        "avatar": "Ndojejapói ombopyahu hag̃ua Avatar ."
+      }
+    }
+  }
+}

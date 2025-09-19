@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "No te tahi mau"
+    },
+    "table": {
+      "columns": {
+        "name": "Ite'a",
+        "userId": "ID taata faaohipa",
+        "actions": "Tū'ura"
+      },
+      "pagination": {
+        "rowsPerPage": "Te numera o te mau anairaa"
+      },
+      "avatar": {
+        "alt": "fa'a'ōfa'i"
+      },
+      "actions": {
+        "kick": "pātia",
+        "ban": "ha'api'ira'a"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Hi'opo'a i te melo o te haamataraa",
+        "content": "Te ti'aturi ra anei oe e, te hinaaro nei oe e faaru'e i te melo i roto i te piha?"
+      },
+      "ban": {
+        "title": "A hi'o i te ti'araa melo o te",
+        "content": "Te ti'aturi ra anei oe e, te hinaaro nei oe e opani i teie melo? Eita te melo e nehenehe e faaho'i faahou i te piha i muri a'e i te opaniraa."
+      },
+      "buttons": {
+        "cancel": "Tautea",
+        "confirm": "Vānaʻa"
+      }
+    },
+    "toast": {
+      "loadError": "Ua faaorehia te tabula melo",
+      "kick": {
+        "success": "Ua faaruehia mai te mau melo o te piha",
+        "error": "Aita te mau melo i manuïa"
+      },
+      "ban": {
+        "success": "Ua opanihia te mau hu'ahu'a",
+        "error": "Ua faaea oia i te tape'a i te mau melo"
+      }
+    },
+    "invite": {
+      "button": "I roto i te mau rave'a haaparareraa parau",
+      "title": "A ani i te mau melo ia amui atu i roto i te piha",
+      "inputLabel": "A tomo na i te ID o te taata faaohipa Matrix (mai te @ser:matrix.org)",
+      "confirm": "tāpō'i",
+      "cancel": "Tautea",
+      "loading": "Te titau-manihini-raa...",
+      "success": "Te titau - manihini - raa!",
+      "error": "Aita i manuïa, a hi'opo'a i te taata faaohipa ID aore ra te mau ti'amâraa"
+    },
+    "empty": "Aita e melo",
+    "loading": "te otia..",
+    "role": {
+      "owner": "Fare",
+      "admin": "Tau'ā'ō'ā",
+      "moderator": "Te faatereraa i te fenua",
+      "user": "tā'atira'a"
+    }
+  }
+}

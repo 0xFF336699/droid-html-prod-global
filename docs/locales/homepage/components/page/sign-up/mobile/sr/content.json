@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "регистар",
+    "phoneNumber": "Телефонски број",
+    "phoneNumberPlaceholder": "Унесите свој број мобилног телефона",
+    "verificationCode": "Верификациони код",
+    "verificationCodePlaceholder": "Унесите верификациони код",
+    "getVerificationCode": "Набавите верификациони код",
+    "countdown": "{{Сецондс}} секунде да покушате поново",
+    "register": "регистар",
+    "errors": {
+      "phoneRequired": "Унесите свој број мобилног телефона",
+      "phoneInvalid": "Формат мобилног телефона је нетачан",
+      "codeRequired": "Унесите верификациони код",
+      "codeInvalid": "Формат верификације је нетачан",
+      "requestFailed": "Захтев није успео",
+      "verificationFailed": "Аквизиција кодова верификације није успела",
+      "loginFailed": "Пријава није успела"
+    },
+    "success": {
+      "verificationCodeSent": "Послат је верификациони код",
+      "registerSuccess": "Успешно регистровано"
+    }
+  }
+}

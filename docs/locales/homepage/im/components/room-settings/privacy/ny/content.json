@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Malo okwezeka",
+        "description": "Zipinda zapagulu zimatha kusakidwa ndi ogwiritsa ntchito ena"
+      },
+      "allowGuestJoin": {
+        "label": "Lolani alendo kuti agwirizane",
+        "description": "Lolani ogwiritsa ntchito osalembetsa kuti agwirizane m'chipindacho ngati alendo"
+      },
+      "isEncrypted": {
+        "label": "Yambitsani kukhazikika kwa malekezero",
+        "description": "Akathandizidwa, mauthenga m'chipindacho chidzasinthidwa kumapeto",
+        "alert": "Kusankhidwa kwakumapeto kumathandizidwa m'chipindacho, ndipo malo awa sangathe kuzimitsidwa."
+      },
+      "submit": "Sungani makonda achinsinsi"
+    },
+    "toast": {
+      "success": "Zikhazikiko zachinsinsi zasinthidwa",
+      "error": "Talephera kusintha makonda achinsinsi"
+    }
+  }
+}

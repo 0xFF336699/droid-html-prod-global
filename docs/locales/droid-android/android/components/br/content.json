@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Nullañ",
+    "ok": "Sur",
+    "checkBoxText": "Mont war-eeun da aotreañ e-barzh un hanter miz ha ne ziskouez ket mui ar prenestr-mañ .",
+    "content": "Ar fonksion-mañ a c'houlenn aotreañ ar fonksion skoazell. Mar fell deoc'h aotreañ, klikit war [Mat eo]. Mar fell deoc'h dilezel, klikit war [Nullañ].",
+    "title": "Implij an aotre"
+  },
+  "floatPermission": {
+    "cancel": "Nullañ",
+    "ok": "Sur",
+    "checkBoxText": "Mont war-eeun da aotreañ e-barzh un hanter miz ha ne ziskouez ket mui ar prenestr-mañ .",
+    "content": "Ar fonksion-mañ a c'houlenn aotreañ ar fonksion prenestr flotañ. Mar fell deoc'h aotreañ, klikit war [Mat eo]. Mar fell deoc'h dilezel, klikit war [Nullañ].",
+    "title": "Implij an aotre"
+  }
+}

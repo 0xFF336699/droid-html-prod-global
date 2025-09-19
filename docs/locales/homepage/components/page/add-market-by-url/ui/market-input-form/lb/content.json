@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL Muster",
+    "full": {
+      "url": "Maart URL. Déi aginn Charaktere ginn als URLen gelueden, wann ech virsiichteg sinn.",
+      "html": "Maart HTML Inhalt. Déi aginn Charaktere ginn direkt als Scripten ausgefouert, wann Dir virsiichteg sidd.",
+      "come": "Kommt fir mäin",
+      "myMarketName": "Marie Numm",
+      "stroll": "Loosst eis e Spadséiergank maachen"
+    },
+    "item": {
+      "url": "Maartkaart URL. Déi aginn Charaktere ginn als URLen gelueden, wann ech virsiichteg sinn.",
+      "html": "Maart HTML Inhalt. Déi aginn Charaktere ginn direkt als Scripten ausgefouert, wann Dir virsiichteg sidd.",
+      "come": "Kommt fir mäin",
+      "myMarketName": "Marie Numm",
+      "stroll": "Loosst eis e Spadséiergank maachen"
+    }
+  }
+}

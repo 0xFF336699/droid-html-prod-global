@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Marongero emakamuri",
+    "tabs": {
+      "basic": "Zvirongwa zveBhaibheri",
+      "permission": "Zvirongwa zvemvumo",
+      "privacy": "Zvakavanzika zvigadziriso",
+      "member": "Nhengo Management"
+    },
+    "loadError": "Kukundikana kuRodha midzi midzi",
+    "leaveRoom": {
+      "button": "Buda mukamuri",
+      "confirm": "Iwe une chokwadi here kuti unoda kubuda mukamuri? Mushure mekubuda, iwe hauzokwanisi kuramba uchigamuchira mameseji kubva mukamuri ino.",
+      "success": "Yakakwira mukamuri zvinobudirira",
+      "error": "Kukundikana kubuda mukamuri, ndapota edza zvakare"
+    }
+  }
+}

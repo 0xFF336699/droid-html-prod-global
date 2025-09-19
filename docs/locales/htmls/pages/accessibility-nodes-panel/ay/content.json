@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Accesibilidad Interfaz uñakipaña .",
+    "howToUse": "apnaqañataki kamachinaka .",
+    "howToUseTooltip": "Aka amparamp qillqt’at mä qawqha atributos de marcación ukax aka nodo ukax operaciones ukanakar ajlliñatakiwa, sañäni, clic, texto ukar phuqhantaña, ukat juk’ampinaka.\n\nUka atributo valorax app ukanx duplicado ukhamawa. Uka duplicados ukanakamp jikisiñax, yaqha atributo ajlliwinakar uñt’ayañaw wakisi, ukhamat jan uñt’at uñt’ayañataki.\n\nMä wila arux atributo valorax wasitat luratätap uñacht’ayi, mä ch’uxña aruxa, atributo valorax jichha panka thaqhañanx mayj mayjawa, ukatx mä ch’iyar arux janiw mayamp uñakipt’añax utjkiti sasaw qhanañchi.",
+    "otherNodesSummary": "Aka chiqanx yaqha nodos ukanakaw utji .",
+    "moreNodes": "Akax kunatix jach’aptayatäki ukawa.",
+    "nodeInfoDialogOkButton": "Aka nodo ukan operación editar .",
+    "text": "Uka qillqatax 2222."
+  }
+}

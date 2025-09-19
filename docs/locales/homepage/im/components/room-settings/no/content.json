@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Rominnstillinger",
+    "tabs": {
+      "basic": "Grunnleggende innstillinger",
+      "permission": "Tillatelsesinnstillinger",
+      "privacy": "Personverninnstillinger",
+      "member": "Medlemsledelse"
+    },
+    "loadError": "Kunne ikke laste inn rominnstillinger",
+    "leaveRoom": {
+      "button": "Gå ut av rommet",
+      "confirm": "Er du sikker på at du vil forlate rommet? Etter at du har avsluttet, vil du ikke kunne fortsette å motta meldinger fra dette rommet.",
+      "success": "Forlot rommet med hell",
+      "error": "Kunne ikke gå ut av rommet, prøv igjen"
+    }
+  }
+}

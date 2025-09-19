@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Názov miestnosti"
+      },
+      "topic": {
+        "label": "Úvod"
+      },
+      "avatar": {
+        "alt": "Avatar"
+      },
+      "submit": "Uložiť nastavenia"
+    },
+    "toast": {
+      "success": "Nastavenia aktualizované",
+      "error": {
+        "default": "Nastavenia aktualizácie zlyhali",
+        "avatar": "Nepodarilo sa aktualizovať avatar"
+      }
+    }
+  }
+}

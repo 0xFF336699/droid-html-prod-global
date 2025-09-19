@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Tauira URL",
+    "full": {
+      "url": "URL maakete. Ko nga tohu whakauru ka utaina hei URL, tena koa kia tupato.",
+      "html": "Makete HTML ihirangi. Ko nga tohu whakauru ka mahia i te wa tonu i nga tuhinga, kia tupato koe.",
+      "come": "Haere mai ki taku",
+      "myMarketName": "Ingoa maakete",
+      "stroll": "Kia haere tatou"
+    },
+    "item": {
+      "url": "URL kāri mākete. Ko nga tohu whakauru ka utaina hei URL, tena koa kia tupato.",
+      "html": "Makete HTML ihirangi. Ko nga tohu whakauru ka mahia i te wa tonu i nga tuhinga, kia tupato koe.",
+      "come": "Haere mai ki taku",
+      "myMarketName": "Ingoa maakete",
+      "stroll": "Kia haere tatou"
+    }
+  }
+}

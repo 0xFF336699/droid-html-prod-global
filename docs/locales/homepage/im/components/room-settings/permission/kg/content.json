@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Niveau ya nswa ya ke lomba sambu na kutinda nsangu .",
+        "tooltip": "0 ke tendula nde bantu yonso lenda tinda bansangu, mpi kana ntalu kele mingi ke tendula nde nswa ya kuluta mingi ke lombamaka ."
+      },
+      "invite": {
+        "label": "Niveau ya nswa ya ke lombamaka sambu na kubinga bantu ya mpa .",
+        "tooltip": "Tula nani lenda binga bantu ya mpa na suku ."
+      },
+      "kick": {
+        "label": "Kubasisa nivo ya nswa ya bo ke lomba",
+        "tooltip": "Set nani lenda kubuka bantu ya suku ."
+      },
+      "ban": {
+        "label": "Niveau ya nswa ya ke lombama sambu na kukanga bantu .",
+        "tooltip": "Set nani lenda kanga bantu ya suku ."
+      },
+      "roomSettings": {
+        "label": "Soba nivo ya nswa ya bo ke lombaka sambu na baparametre ya suku .",
+        "tooltip": "Set nani lenda soba baparametre ya suku ."
+      },
+      "submit": "Lunda ba parametre ya nswa"
+    },
+    "description": "Ntalu ya nswa ya nswa: 0-100, kana ntalu kele mingi ke tendula nde nswa ya kuluta mingi ke lombamaka .",
+    "toast": {
+      "success": "Bo me yidika baparametre ya nswa .",
+      "error": "Kukonda kuyidika baparametre ya nswa"
+    }
+  }
+}

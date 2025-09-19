@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Arhoswch yn Gysylltiedig",
+        "helperText": "Os cliciwch ar y ddolen gychwyn, yna cadwch y ddolen. Mae hyn yn gofyn am sylw y bydd y ddolen yn cael ei hailgysylltu'n barhaus ar ôl iddo gael ei ddatgysylltu.",
+        "retryCount": "Nifer yr ailgysylltiadau"
+      },
+      "url": {
+        "name": "Dryll",
+        "helperText": "URL Cyswllt, er enghraifft WS: //192.168.0.2: 7001, neu wws: //example.com/path",
+        "error": "Mae'r URL cywir yn URL sy'n dechrau gyda WS: // neu wws: //"
+      }
+    },
+    "connectButton": {
+      "connect": "chysyllta ’",
+      "disconnect": "Ddatgysylltoch",
+      "status": {
+        "connecting": "Cysylltu ...",
+        "connected": "Chysylltiedig",
+        "disconnecting": "Datgysylltu ...",
+        "disconnected": "Ddim yn gysylltiedig",
+        "waitRetry": "Aros am ailgysylltu ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "sgriptiwyd"
+  }
+}

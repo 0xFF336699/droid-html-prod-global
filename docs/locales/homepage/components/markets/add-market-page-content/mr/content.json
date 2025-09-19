@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "बाजारात जोडा",
+    "url": "मार्केट URL",
+    "summary": "बाजार सारांश",
+    "urlIsNotValid": "चुकीची बाजारपेठ URL"
+  }
+}

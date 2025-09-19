@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "등록하다",
+    "phoneNumber": "전화 번호",
+    "phoneNumberPlaceholder": "휴대 전화 번호를 입력하십시오",
+    "verificationCode": "확인 코드",
+    "verificationCodePlaceholder": "확인 코드를 입력하십시오",
+    "getVerificationCode": "확인 코드를 가져옵니다",
+    "countdown": "{{seconds}} 다시 시도하려면 초입니다",
+    "register": "등록하다",
+    "errors": {
+      "phoneRequired": "휴대 전화 번호를 입력하십시오",
+      "phoneInvalid": "휴대폰 번호 형식이 잘못되었습니다",
+      "codeRequired": "확인 코드를 입력하십시오",
+      "codeInvalid": "확인 코드 형식이 올바르지 않습니다",
+      "requestFailed": "요청이 실패했습니다",
+      "verificationFailed": "검증 코드 획득에 실패했습니다",
+      "loginFailed": "로그인이 실패했습니다"
+    },
+    "success": {
+      "verificationCodeSent": "확인 코드가 전송되었습니다",
+      "registerSuccess": "성공적으로 등록되었습니다"
+    }
+  }
+}

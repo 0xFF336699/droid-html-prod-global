@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "пасйыны",
+    "phoneNumber": "Телефон номер",
+    "phoneNumberPlaceholder": "Пыртӧй ассьыныд мобильнӧй телефон номер .",
+    "verificationCode": "Верификация код",
+    "verificationCodePlaceholder": "Пыртӧй верифицируйтӧм код .",
+    "getVerificationCode": "Босьт верификация код .",
+    "countdown": "{{торъя}} секунда, медым зіля мӧдысь .",
+    "register": "пасйыны",
+    "errors": {
+      "phoneRequired": "Пыртӧй ассьыныд мобильнӧй телефон номер .",
+      "phoneInvalid": "Мобильнӧй телефон номер форматыс абу лӧсялана .",
+      "codeRequired": "Пыртӧй верифицируйтӧм код .",
+      "codeInvalid": "Верификация код форматыс абу лӧсялана .",
+      "requestFailed": "Запрос эз вермы",
+      "verificationFailed": "Верификация код босьтӧм эз артмы .",
+      "loginFailed": "Логинь эз артмы ."
+    },
+    "success": {
+      "verificationCodeSent": "Верификация код ыстӧма .",
+      "registerSuccess": "Регистрируйтӧма удачнӧя ."
+    }
+  }
+}

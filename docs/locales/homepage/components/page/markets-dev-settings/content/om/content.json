@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Walqunnamtii keessa turaa .",
+        "helperText": "Yoo Link Start irratti cuqaaste, sana booda linkicha qabadhu. Kunis erga walitti hidhamiinsi isaa addaan citee booda walitti fufiinsaan irra deebi’amee akka walqabatu xiyyeeffannoo barbaada.",
+        "retryCount": "Baay'ina deebi'ee walitti hidhame ."
+      },
+      "url": {
+        "name": "URL .",
+        "helperText": "URL walqabsiisaa, fakkeenyaaf ws://192.168.0.2:7001, ykn wws://example.com/path",
+        "error": "URL sirrii url ws:// ykn wws:// irraa jalqabudha."
+      }
+    },
+    "connectButton": {
+      "connect": "wal qabsiisuu",
+      "disconnect": "Walitti hidhamiinsa addaan kutuu .",
+      "status": {
+        "connecting": "Walqunnamsiisaa...",
+        "connected": "Walqabsiifamee .",
+        "disconnecting": "Walqunnamtii addaan kutuu...",
+        "disconnected": "Walqabatee hin jiru .",
+        "waitRetry": "Deebi'anii walitti makamuu eegaa..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "barreeffama"
+  }
+}

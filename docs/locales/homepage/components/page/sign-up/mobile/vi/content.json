@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "đăng ký",
+    "phoneNumber": "Số điện thoại",
+    "phoneNumberPlaceholder": "Vui lòng nhập số điện thoại di động của bạn",
+    "verificationCode": "Mã xác minh",
+    "verificationCodePlaceholder": "Vui lòng nhập mã xác minh",
+    "getVerificationCode": "Nhận mã xác minh",
+    "countdown": "{{seconds}} giây để thử lại",
+    "register": "đăng ký",
+    "errors": {
+      "phoneRequired": "Vui lòng nhập số điện thoại di động của bạn",
+      "phoneInvalid": "Định dạng số điện thoại di động không chính xác",
+      "codeRequired": "Vui lòng nhập mã xác minh",
+      "codeInvalid": "Định dạng mã xác minh không chính xác",
+      "requestFailed": "Yêu cầu không thành công",
+      "verificationFailed": "Việc thu nhận mã xác minh không thành công",
+      "loginFailed": "Đăng nhập không thành công"
+    },
+    "success": {
+      "verificationCodeSent": "Mã xác minh đã được gửi",
+      "registerSuccess": "Đã đăng ký thành công"
+    }
+  }
+}

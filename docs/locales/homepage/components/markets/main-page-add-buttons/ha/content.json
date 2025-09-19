@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "kara zuwa",
+    "sub": {
+      "addScriptByUrl": "Rubuta rubutun Via URL",
+      "addScriptByText": "Sanya rubutun ta hanyar rubutu",
+      "addMarket": "Sanya Kasuwa ta URL",
+      "addMarketByText": "Ƙara kasuwar ta rubutu"
+    }
+  }
+}

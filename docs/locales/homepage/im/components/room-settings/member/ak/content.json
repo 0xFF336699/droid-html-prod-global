@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Hwehwɛ asɔremma ."
+    },
+    "table": {
+      "columns": {
+        "name": "Member din .",
+        "userId": "Ɔdefoɔ ID .",
+        "actions": "Yɛ adwuma ."
+      },
+      "pagination": {
+        "rowsPerPage": "Ntrɛwmu dodow a ɛwɔ kratafa biara mu ."
+      },
+      "avatar": {
+        "alt": "Avatar ."
+      },
+      "actions": {
+        "kick": "Kick out .",
+        "ban": "Wɔabara ."
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Si so dua sɛ obi a ɔrebɔ ne nan no yɛ .",
+        "content": "Wopɛ sɛ wopam ɔmannifo no fi dan no mu?"
+      },
+      "ban": {
+        "title": "Si so dua sɛ asɔremma a wɔabara wɔn no .",
+        "content": "Wogye di sɛ wopɛ sɛ wobara saa ɔmannifo yi? Ɔmannifo no rentumi nsan nkɔka dan no ho wɔ bara a wɔabara no akyi."
+      },
+      "buttons": {
+        "cancel": "Twam",
+        "confirm": "si pi"
+      }
+    },
+    "toast": {
+      "loadError": "antumi anhyɛ Member List mu .",
+      "kick": {
+        "success": "Wɔapam asɔremma no afi dan no mu .",
+        "error": "a wɔpam asɔremma no dii nkogu ."
+      },
+      "ban": {
+        "success": "Asɔremma a wɔasiw wɔn kwan .",
+        "error": "antumi ansiw asɔremma kwan ."
+      }
+    },
+    "invite": {
+      "button": "To nsa frɛ asɔremma .",
+      "title": "To nsa frɛ asɔremma ma wɔmmɛka dan no ho .",
+      "inputLabel": "Yɛsrɛ wo kyerɛw Matrix dwumadie ID (te sɛ @user:matrix.org) .",
+      "confirm": "to nsa frɛ",
+      "cancel": "Twam",
+      "loading": "Ɔto nsa frɛ...",
+      "success": "Nsato krataa a wɔde mena!",
+      "error": "Nsato krataa no antumi anyɛ yiye, yɛsrɛ wo hwɛ user ID anaa tumi krataa ."
+    },
+    "empty": "No member biara nni hɔ .",
+    "loading": "Nneɛma a wɔde gu mu...",
+    "role": {
+      "owner": "Ofie wura .",
+      "admin": "Ɔhwɛfoɔ .",
+      "moderator": "Co-management .",
+      "user": "Ɔmannifoɔ ."
+    }
+  }
+}

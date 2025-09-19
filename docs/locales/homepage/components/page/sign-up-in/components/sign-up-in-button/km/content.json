@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "ចូល / ចុះឈ្មោះ",
+    "signOut": "ចេញ",
+    "confirmContent": "តើអ្នកពិតជាចង់ចាកចេញមែនទេ?",
+    "confirmTitle": "ហក្យរបលយ",
+    "confirm": "ច្បាស់លាស់",
+    "cancel": "លប់ចោល",
+    "signoutOk": "ចេញ",
+    "loadingData": "ផ្ទុកទិន្នន័យអ្នកប្រើ"
+  }
+}

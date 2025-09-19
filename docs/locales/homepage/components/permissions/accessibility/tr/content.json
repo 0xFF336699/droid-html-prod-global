@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Yardımcı işlevler",
+    "pass": "Yetkili",
+    "notPass": "Yetkisiz",
+    "setting": "kurmak",
+    "danger": "Tehlike",
+    "dangerDesc": "Bu yetkilendirme ekranda içeriği görebilir ve telefonunuza tıklayabilir. Çalıştığınız veya çalıştıracağınız komut dosyasının işlevselliğini ve risklerini açıkça anlamıyorsanız bu izni devre dışı bırakın."
+  }
+}

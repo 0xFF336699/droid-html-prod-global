@@ -1,0 +1,7 @@
+{
+  "androidPermission": {
+    "denied": "拒絕",
+    "granted": "已授權",
+    "shouldAskAgain": "未授權"
+  }
+}

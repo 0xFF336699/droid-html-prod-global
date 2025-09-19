@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "registro",
+    "phoneNumber": "Número de teléfono",
+    "phoneNumberPlaceholder": "Ingrese su número de teléfono móvil",
+    "verificationCode": "Código de verificación",
+    "verificationCodePlaceholder": "Ingrese el código de verificación",
+    "getVerificationCode": "Obtenga el código de verificación",
+    "countdown": "{{segundos}} segundos para intentarlo de nuevo",
+    "register": "registro",
+    "errors": {
+      "phoneRequired": "Ingrese su número de teléfono móvil",
+      "phoneInvalid": "El formato del número de teléfono móvil es incorrecto",
+      "codeRequired": "Ingrese el código de verificación",
+      "codeInvalid": "El formato del código de verificación es incorrecto",
+      "requestFailed": "Solicitud fallida",
+      "verificationFailed": "La adquisición del código de verificación falló",
+      "loginFailed": "error de inicio de sesion"
+    },
+    "success": {
+      "verificationCodeSent": "Se ha enviado el código de verificación",
+      "registerSuccess": "Registrado con éxito"
+    }
+  }
+}

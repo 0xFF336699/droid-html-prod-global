@@ -1,0 +1,7 @@
+{
+  "androidPermission": {
+    "denied": "უარყოფა",
+    "granted": "ნებადართული",
+    "shouldAskAgain": "აკრძალული"
+  }
+}

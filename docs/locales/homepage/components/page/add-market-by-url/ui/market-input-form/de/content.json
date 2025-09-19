@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL -Muster",
+    "full": {
+      "url": "Markt -URL. Die eingegebenen Zeichen werden als URLs geladen. Bitte seien Sie vorsichtig.",
+      "html": "Markt HTML -Inhalte. Die eingegebenen Zeichen werden sofort als Skripte ausgeführt. Bitte seien Sie vorsichtig.",
+      "come": "Komm zu mir",
+      "myMarketName": "Marktname",
+      "stroll": "Lass uns einen Spaziergang machen"
+    },
+    "item": {
+      "url": "Marktkarten -URL. Die eingegebenen Zeichen werden als URLs geladen. Bitte seien Sie vorsichtig.",
+      "html": "Markt HTML -Inhalte. Die eingegebenen Zeichen werden sofort als Skripte ausgeführt. Bitte seien Sie vorsichtig.",
+      "come": "Komm zu mir",
+      "myMarketName": "Marktname",
+      "stroll": "Lass uns einen Spaziergang machen"
+    }
+  }
+}

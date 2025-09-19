@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Ọna yii le ni a pe nikan lori Android",
+      "noMethod": "Ọna yii ko si tẹlẹ"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Tsvaga nhengo"
+    },
+    "table": {
+      "columns": {
+        "name": "Nhengo Yezita",
+        "userId": "Mushandisi ID",
+        "actions": "shanda"
+      },
+      "pagination": {
+        "rowsPerPage": "Nhamba yemitsara pane peji"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Kick Out",
+        "ban": "Kurambidzwa"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Simbisa nhengo yekuuraya",
+        "content": "Une chokwadi here kuti unoda kurova nhengo yacho kunze kwekamuri?"
+      },
+      "ban": {
+        "title": "Simbisa nhengo yakarambidzwa",
+        "content": "Une chokwadi here kuti unoda kurambidza nhengo iyi? Nhengo yacho haizokwanisi kufambidzana mukamuri mushure mekurambidzwa."
+      },
+      "buttons": {
+        "cancel": "Kanzura",
+        "confirm": "Simbisa"
+      }
+    },
+    "toast": {
+      "loadError": "Kukundikana kutakura nhengo yetsitsi",
+      "kick": {
+        "success": "Nhengo dzakabviswa kunze kwekamuri",
+        "error": "Kurova nhengo dzakatadza"
+      },
+      "ban": {
+        "success": "Nhengo dzakavharwa",
+        "error": "Kukundikana kuvhara nhengo"
+      }
+    },
+    "invite": {
+      "button": "Koka Nhengo",
+      "title": "Kumbira nhengo kuti ubatane nekamuri",
+      "inputLabel": "Ndokumbira utore iyo Matrix Mushandisi ID (yakadai as @user: matrix.org)",
+      "confirm": "Koka",
+      "cancel": "Kanzura",
+      "loading": "Kukoka ...",
+      "success": "Kukoka kwakatumirwa!",
+      "error": "Kukokwa kwakundikana, ndapota tarisa mushandisi ID kana mvumo"
+    },
+    "empty": "Hapana nhengo ichiripo",
+    "loading": "Kuisa ...",
+    "role": {
+      "owner": "Muridzi wemba",
+      "admin": "Administrator",
+      "moderator": "Co-manejimendi",
+      "user": "nhengo"
+    }
+  }
+}

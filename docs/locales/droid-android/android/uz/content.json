@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Ushbu usul faqat Android-ga chaqirilishi mumkin",
+      "noMethod": "Ushbu usul mavjud emas"
+    }
+  }
+}

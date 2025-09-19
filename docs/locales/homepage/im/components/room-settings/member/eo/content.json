@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Serĉu Membrojn"
+    },
+    "table": {
+      "columns": {
+        "name": "Membro Nomo",
+        "userId": "Uzanto -ID",
+        "actions": "operacii"
+      },
+      "pagination": {
+        "rowsPerPage": "Nombro de vicoj por paĝo"
+      },
+      "avatar": {
+        "alt": "Avataro"
+      },
+      "actions": {
+        "kick": "Elpeli",
+        "ban": "Malpermesita"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Konfirmu la piedbatantan membron",
+        "content": "Ĉu vi certas, ke vi volas piedbati la membron el la ĉambro?"
+      },
+      "ban": {
+        "title": "Konfirmu la malpermesitan membrecon",
+        "content": "Ĉu vi certas, ke vi volas malpermesi ĉi tiun membron? La membro ne povos aliĝi al la ĉambro post la malpermeso."
+      },
+      "buttons": {
+        "cancel": "Nuligi",
+        "confirm": "Konfirmu"
+      }
+    },
+    "toast": {
+      "loadError": "Malsukcesis Ŝargi Membran Liston",
+      "kick": {
+        "success": "Membroj estis piedbatitaj el la ĉambro",
+        "error": "Ekblovante membrojn malsukcesis"
+      },
+      "ban": {
+        "success": "Membroj blokitaj",
+        "error": "Malsukcesis bloki membrojn"
+      }
+    },
+    "invite": {
+      "button": "Invitu membrojn",
+      "title": "Invitu membrojn aliĝi al la ĉambro",
+      "inputLabel": "Bonvolu enigi la uzantan ID de Matrix (kiel @user: matrix.org)",
+      "confirm": "invitu",
+      "cancel": "Nuligi",
+      "loading": "Invitante ...",
+      "success": "Invito sendita!",
+      "error": "Invito malsukcesis, bonvolu kontroli uzantan identigilon aŭ permesojn"
+    },
+    "empty": "Neniu Membro Ankoraŭ",
+    "loading": "Ŝarĝante ...",
+    "role": {
+      "owner": "Hejmposedanto",
+      "admin": "Administranto",
+      "moderator": "Kun-Administrado",
+      "user": "membro"
+    }
+  }
+}

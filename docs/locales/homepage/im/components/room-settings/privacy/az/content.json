@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "İctimai otaq",
+        "description": "İctimai otaqlarda digər istifadəçilər tərəfindən axtarıla bilər"
+      },
+      "allowGuestJoin": {
+        "label": "Ziyarətçilərə qoşulmağa icazə verin",
+        "description": "Qeydiyyata alınmamış istifadəçilərə otaq olaraq otağa qoşulmağa icazə verin"
+      },
+      "isEncrypted": {
+        "label": "Sonuncu şifrələməni aktivləşdirin",
+        "description": "Aktiv olduqda, otaqdakı mesajlar sona qədər şifrələnəcək",
+        "alert": "Otaqda sona qədər enmə şifrələməsi aktivdir və bu qəbulu söndürülə bilməz."
+      },
+      "submit": "Məxfilik parametrlərini qeyd edin"
+    },
+    "toast": {
+      "success": "Məxfilik parametrləri yeniləndi",
+      "error": "Məxfilik parametrlərini yeniləmək alınmadı"
+    }
+  }
+}

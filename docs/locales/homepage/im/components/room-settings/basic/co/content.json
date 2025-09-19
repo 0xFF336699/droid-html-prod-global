@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Nomu di stanza"
+      },
+      "topic": {
+        "label": "Introduzzione di stanza"
+      },
+      "avatar": {
+        "alt": "Avvatar di Sala"
+      },
+      "submit": "Salvà i paràmetri"
+    },
+    "toast": {
+      "success": "Paràmetri aghjurnati",
+      "error": {
+        "default": "L'aghjurnamentu di l'aghjurnamentu hà fiascatu",
+        "avatar": "Fallita à aghjurnà avatar"
+      }
+    }
+  }
+}

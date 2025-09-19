@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Tshama u hlanganisiwile .",
+        "helperText": "Loko u tsindziyela eka link yo sungula, kutani hlayisa link. Leswi swi lava nyingiso leswaku xihlanganisi xi ta tlhela xi hlanganisiwa hi ku ya emahlweni endzhaku ka loko xi tsemiwile.",
+        "retryCount": "Nhlayo ya ku hlanganisiwa nakambe ."
+      },
+      "url": {
+        "name": "URL .",
+        "helperText": "URL ya xihlanganisi, xikombiso ws://192.168.0.2:7001, kumbe wws://example.com/path .",
+        "error": "URL leyinene i URL leyi sungulaka hi ws:// kumbe wws:// ."
+      }
+    },
+    "connectButton": {
+      "connect": "hlanganisa",
+      "disconnect": "Hluvula Xihlanganisi .",
+      "status": {
+        "connecting": "Ku hlanganisa...",
+        "connected": "swi hlanganisiwile .",
+        "disconnecting": "Ku tsema vuhlanganisi...",
+        "disconnected": "A swi hlanganisiwanga .",
+        "waitRetry": "Ku rindza ku hlanganisiwa nakambe..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "xitsalwana"
+  }
+}

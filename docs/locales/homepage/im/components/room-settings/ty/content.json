@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Te mau faanahoraa",
+    "tabs": {
+      "basic": "Te mau faanahoraa Basic",
+      "permission": "Ngaahi Faʻāmui",
+      "privacy": "Te mau faanahoraa",
+      "member": "Te faatereraa i te pae no te"
+    },
+    "loadError": "Ua tano i te mau vahi tape'araa piha",
+    "leaveRoom": {
+      "button": "Aa",
+      "confirm": "Te ti'aturi ra anei oe e, te hinaaro nei oe e hi'opo'a i te piha? Eita ta outou e nehenehe e tamau noa i te farii i te mau poroi i roto i teie piha i muri a'e i to outou haereraa.",
+      "success": "Ua manuïa maitai te piha",
+      "error": "A tamata faahou i te faaru'e i te piha, a tamata faahou"
+    }
+  }
+}

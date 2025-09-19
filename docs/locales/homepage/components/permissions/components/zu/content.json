@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Igunyaziwe",
+    "notPass": "-Ngaphandle kwemvume",
+    "danger": "Ingozi",
+    "setting": "Setha"
+  }
+}

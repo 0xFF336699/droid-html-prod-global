@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Placeringsnavn",
+    "viewMap": "Se kortet",
+    "close": "lukning"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Den nuværende browser understøtter ikke Geolocation -erhvervelse",
+    "getLocationFailed": "Kunne ikke få placeringen, kontroller venligst tilladelsesindstillingerne",
+    "myLocation": "Min placering",
+    "shareLocation": "Del placering",
+    "getCurrentLocation": "Få den aktuelle placering",
+    "title": "Placeringsnavn",
+    "description": "Detaljeret beskrivelse",
+    "descriptionPlaceholder": "Indtast en detaljeret beskrivelse (valgfrit)",
+    "preview": "PLATICE PREVIEW",
+    "latitude": "breddegrad",
+    "longitude": "længde",
+    "cancel": "Ophæve",
+    "send": "sende",
+    "permissionPrompt": "Vi er nødt til at få dine placeringsoplysninger for at levere bedre tjenester, er det tilladt?",
+    "permissionDenied": "Positioneringstilladelse nægtes, aktiver venligst positioneringstilladelse i dine browserindstillinger",
+    "locationTimeout": "Positionering af timeout, sørg for, at enheden er tændt og prøv at genkalde",
+    "locationUnavailable": "Den aktuelle placering kan ikke opnås, kontroller venligst enhedens placeringstjeneste"
+  }
+}

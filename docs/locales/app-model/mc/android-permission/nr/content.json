@@ -1,0 +1,7 @@
+{
+  "androidPermission": {
+    "denied": "yala",
+    "granted": "i",
+    "shouldAskAgain": "i"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "Kola .",
+    "click": "Nyiga .",
+    "longClick": "Press empanvu .",
+    "setText": "Teekawo ebiwandiiko .",
+    "tryClick": "Gezaako Element oba Location Nywa ku .",
+    "globalClick": "Ekifo Nyiga ."
+  }
+}

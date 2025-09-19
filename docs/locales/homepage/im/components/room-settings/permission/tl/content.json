@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Ang antas ng pahintulot na kinakailangan upang magpadala ng isang mensahe",
+        "tooltip": "0 ay nangangahulugang ang lahat ng mga miyembro ay maaaring magpadala ng mga mensahe, at mas malaki ang bilang ay nangangahulugang kinakailangan ang mas mataas na pahintulot"
+      },
+      "invite": {
+        "label": "Ang antas ng pahintulot na kinakailangan upang mag -imbita ng mga bagong miyembro",
+        "tooltip": "Itakda kung sino ang maaaring mag -imbita ng mga bagong miyembro sa silid"
+      },
+      "kick": {
+        "label": "Sipain ang kinakailangang antas ng pahintulot",
+        "tooltip": "Itakda kung sino ang maaaring mag -kick out sa mga miyembro ng silid"
+      },
+      "ban": {
+        "label": "Ang antas ng pahintulot na kinakailangan para sa pagharang sa mga miyembro",
+        "tooltip": "Itakda kung sino ang maaaring harangan ang mga miyembro ng silid"
+      },
+      "roomSettings": {
+        "label": "Baguhin ang kinakailangang antas ng pahintulot ng mga setting ng silid",
+        "tooltip": "Itakda kung sino ang maaaring baguhin ang mga setting ng silid"
+      },
+      "submit": "I -save ang Mga Setting ng Pahintulot"
+    },
+    "description": "Saklaw ng Antas ng Pahintulot: 0-100, ang mas malaki ang bilang ay nangangahulugang mas mataas na pahintulot ay kinakailangan",
+    "toast": {
+      "success": "Ang mga setting ng pahintulot ay na -update",
+      "error": "Nabigong i -update ang mga setting ng pahintulot"
+    }
+  }
+}

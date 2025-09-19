@@ -1,0 +1,7 @@
+{
+  "RoomContentV2": {
+    "waitingForLogin": "Najpierw zaloguj się",
+    "loadingRoomInfo": "Informacje o załadowaniu pokoju ...",
+    "roomNotFound": "Pokój nie został znaleziony"
+  }
+}

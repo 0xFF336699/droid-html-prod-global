@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Ikkanċella",
+    "confirm": "Żgur",
+    "title": "Ħjiel",
+    "content": "Int żgur li trid tagħmel dan?"
+  },
+  "EditableText": {
+    "cancel": "Ikkanċella",
+    "save": "ħlief",
+    "title": "editja"
+  }
+}

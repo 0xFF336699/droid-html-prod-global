@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Biuta laivi",
+    "confirm": "Dina",
+    "title": "ivakatakilakila",
+    "content": "O sa vakadeitaka vakacava ni o sa via cakava oqo?"
+  },
+  "EditableText": {
+    "cancel": "Biuta laivi",
+    "save": "maroroi",
+    "title": "veisautaka"
+  }
+}

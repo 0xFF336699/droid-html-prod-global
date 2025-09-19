@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Pieteikšanās/reģistrs",
+    "signOut": "Izspiest",
+    "confirmContent": "Vai esat pārliecināts, ka vēlaties atteikties?",
+    "confirmTitle": "mājiens",
+    "confirm": "Drošs",
+    "cancel": "Atcelt",
+    "signoutOk": "Izspiest",
+    "loadingData": "Lietotāja datu ielāde"
+  }
+}

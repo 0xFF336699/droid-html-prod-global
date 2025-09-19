@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "forside",
+    "me": "mine",
+    "settings": "opsæt",
+    "script": "manuskript",
+    "store": "marked",
+    "market": "marked",
+    "create": "skabe"
+  },
+  "tabbar": {
+    "test": "Nederste menulinje"
+  }
+}

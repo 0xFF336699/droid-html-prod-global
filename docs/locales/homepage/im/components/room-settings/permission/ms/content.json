@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Tahap kebenaran yang diperlukan untuk menghantar mesej",
+        "tooltip": "0 bermaksud bahawa semua ahli dapat menghantar mesej, dan semakin besar bilangan itu bermakna keizinan yang lebih tinggi diperlukan"
+      },
+      "invite": {
+        "label": "Tahap kebenaran diperlukan untuk menjemput ahli baru",
+        "tooltip": "Tetapkan Siapa yang boleh menjemput ahli baru ke bilik"
+      },
+      "kick": {
+        "label": "Menendang tahap kebenaran yang diperlukan",
+        "tooltip": "Tetapkan Siapa yang Boleh Menendang Ahli Bilik"
+      },
+      "ban": {
+        "label": "Tahap kebenaran diperlukan untuk menyekat ahli",
+        "tooltip": "Tetapkan Siapa Yang Boleh Menyekat Ahli Bilik"
+      },
+      "roomSettings": {
+        "label": "Ubah suai tahap kebenaran tetapan bilik yang diperlukan",
+        "tooltip": "Tetapkan siapa yang boleh mengubah suai tetapan bilik"
+      },
+      "submit": "Simpan tetapan kebenaran"
+    },
+    "description": "Julat Tahap Kebenaran: 0-100, semakin besar bilangannya bermakna keizinan yang lebih tinggi diperlukan",
+    "toast": {
+      "success": "Tetapan kebenaran telah dikemas kini",
+      "error": "Gagal mengemas kini tetapan kebenaran"
+    }
+  }
+}

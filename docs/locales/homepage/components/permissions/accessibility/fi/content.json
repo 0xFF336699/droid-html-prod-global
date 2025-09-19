@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Aputoiminnot",
+    "pass": "Valtuutettu",
+    "notPass": "Luvaton",
+    "setting": "asentaa",
+    "danger": "Vaara",
+    "dangerDesc": "Tämä valtuutus voi nähdä sisältöä näytöllä ja napsauttaa puhelinta. Poista tämä lupa käytöstä, jos et nimenomaisesti ymmärrä käyttämäsi tai käynnissä olevan komentosarjan toiminnallisuutta ja riskejä."
+  }
+}

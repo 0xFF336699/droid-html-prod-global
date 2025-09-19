@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Kaniseli",
+    "confirm": "Pau",
+    "title": "fakalika",
+    "content": "‘Okú ke fakapapau‘i ‘okú ke loto ke fai ‘eni?"
+  },
+  "EditableText": {
+    "cancel": "Kaniseli",
+    "save": "fakahaofi",
+    "title": "fakatonutonu"
+  }
+}

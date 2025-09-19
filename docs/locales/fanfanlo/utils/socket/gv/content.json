@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Conneckey...",
+    "connected": "Co-chionnit",
+    "disconnecting": "Disconning...",
+    "disconnected": "Chanoddym",
+    "waitRetry": "Ta mee er n'eiyrt son reconnect..."
+  }
+}

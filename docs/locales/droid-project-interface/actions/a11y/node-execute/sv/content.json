@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Nodutförande",
+    "changeBtnLabel": "ersätta",
+    "showNodeAllProperties": "Visa alla egenskaper",
+    "wait": {
+      "time": "Väntetid",
+      "interval": "Väntande intervall",
+      "invisible": "Om man ska upptäcka element utanför skärmen"
+    }
+  }
+}

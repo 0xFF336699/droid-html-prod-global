@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Гэты метад можна выклікаць толькі на Android",
+      "noMethod": "Гэтага метаду не існуе"
+    }
+  }
+}

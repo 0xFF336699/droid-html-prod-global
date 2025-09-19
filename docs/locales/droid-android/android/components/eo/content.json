@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Nuligi",
+    "ok": "Certe",
+    "checkBoxText": "Iru rekte por rajtigi ene de duona monato kaj ne plu montru ĉi tiun fenestron",
+    "content": "Ĉi tiu funkcio postulas helpan funkcian rajtigon. Se vi volas rajtigi, bonvolu alklaki [Bone]. Se vi volas rezigni, bonvolu alklaki [Nuligi]",
+    "title": "Rajtiga apliko"
+  },
+  "floatPermission": {
+    "cancel": "Nuligi",
+    "ok": "Certe",
+    "checkBoxText": "Iru rekte por rajtigi ene de duona monato kaj ne plu montru ĉi tiun fenestron",
+    "content": "Ĉi tiu funkcio postulas rajtigon de la flosanta fenestra funkcio. Se vi volas rajtigi, bonvolu alklaki [Bone]. Se vi volas rezigni, bonvolu alklaki [Nuligi]",
+    "title": "Rajtiga apliko"
+  }
+}

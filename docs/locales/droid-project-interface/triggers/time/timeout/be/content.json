@@ -1,0 +1,7 @@
+{
+  "ITriggerTimeout": {
+    "title": "Затрымка выканання",
+    "content_delay": "Затрымка",
+    "content_milliseconds": "Выканаць у мілісекундах"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Walqunnamsiisaa...",
+    "connected": "Walqabsiifamee .",
+    "disconnecting": "Walqunnamtii addaan kutuu...",
+    "disconnected": "Walqabatee hin jiru .",
+    "waitRetry": "Deebi'anii walitti makamuu eegaa..."
+  }
+}

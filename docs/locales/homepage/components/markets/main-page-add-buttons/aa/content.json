@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "osis",
+    "sub": {
+      "addScriptByUrl": "osis kutbe URL gitaak",
+      "addScriptByText": "kutbe kutbeh addat osis",
+      "addMarket": "URL fan qadaaga osis",
+      "addMarketByText": "kutbe fan ossotinah kutbe"
+    }
+  }
+}

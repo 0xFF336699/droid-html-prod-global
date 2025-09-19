@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Node prto",
+    "changeBtnLabel": "nka sebaka",
+    "showNodeAllProperties": "Bontša thepa eohle",
+    "wait": {
+      "time": "Nako ea ho leta",
+      "interval": "Nako ea ho emela",
+      "invisible": "Hore na ho bona likarolo tse ntle skrineng"
+    }
+  }
+}

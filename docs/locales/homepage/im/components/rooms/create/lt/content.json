@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Sukurkite kambarį"
+    },
+    "dialog": {
+      "title": "Sukurkite naują kambarį",
+      "form": {
+        "userId": {
+          "label": "Vartotojo ID",
+          "placeholder": "Įveskite vartotojo ID (pvz.: @User: example.com)",
+          "error": {
+            "required": "Vartotojo ID negali būti tuščias",
+            "invalid": "Neteisingas vartotojo ID formatas"
+          }
+        },
+        "roomName": {
+          "label": "Kambario pavadinimas (neprivaloma)",
+          "placeholder": "Įveskite kambario pavadinimą"
+        },
+        "isEncrypted": {
+          "label": "Įgalinti šifravimą nuo galo iki galo"
+        },
+        "isDirect": {
+          "label": "Tiesioginė žinutė"
+        },
+        "topic": {
+          "label": "Tema (neprivaloma)",
+          "placeholder": "Įveskite kambario temą"
+        }
+      },
+      "actions": {
+        "cancel": "Atšaukti",
+        "create": "sukurti"
+      },
+      "success": "Kambarių kūrimas sėkmingai",
+      "error": "Sukuriant kambarį įvyko klaida: {klaida}"
+    }
+  }
+}

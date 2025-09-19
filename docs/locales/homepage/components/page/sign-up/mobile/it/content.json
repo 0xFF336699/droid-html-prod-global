@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "registro",
+    "phoneNumber": "Numero di telefono",
+    "phoneNumberPlaceholder": "Inserisci il tuo numero di cellulare",
+    "verificationCode": "Codice di verifica",
+    "verificationCodePlaceholder": "Inserisci il codice di verifica",
+    "getVerificationCode": "Ottieni il codice di verifica",
+    "countdown": "{{seconds}} secondi per riprovare",
+    "register": "registro",
+    "errors": {
+      "phoneRequired": "Inserisci il tuo numero di cellulare",
+      "phoneInvalid": "Il formato del numero di cellulare non è corretto",
+      "codeRequired": "Inserisci il codice di verifica",
+      "codeInvalid": "Il formato del codice di verifica non è corretto",
+      "requestFailed": "Richiesta non riuscita",
+      "verificationFailed": "Acquisizione del codice di verifica non riuscita",
+      "loginFailed": "Accesso non riuscito"
+    },
+    "success": {
+      "verificationCodeSent": "Il codice di verifica è stato inviato",
+      "registerSuccess": "Registrato con successo"
+    }
+  }
+}

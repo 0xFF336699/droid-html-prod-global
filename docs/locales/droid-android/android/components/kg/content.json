@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Kukatula",
+    "ok": "Mpidina",
+    "checkBoxText": "Kwenda mbala mosi na kupesa nswa na kati ya ndambu ya ngonda mpi kumonisa diaka ve fenetre yai .",
+    "content": "Kisalu yai ke lombaka nswa ya kusala kisalu ya kusadisa. Kana nge ke zola kupesa nswa, niema [OK]. Kana nge ke zola kuyambula, pardo niema [Cancel].",
+    "title": "Application ya nswa"
+  },
+  "floatPermission": {
+    "cancel": "Kukatula",
+    "ok": "Mpidina",
+    "checkBoxText": "Kwenda mbala mosi na kupesa nswa na kati ya ndambu ya ngonda mpi kumonisa diaka ve fenetre yai .",
+    "content": "Kisalu yai ke lombaka nswa ya kisalu ya fenetre yina ke tambulaka na zulu ya masa. Kana nge ke zola kupesa nswa, niema [OK]. Kana nge ke zola kuyambula, pardo niema [Cancel].",
+    "title": "Application ya nswa"
+  }
+}

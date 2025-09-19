@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Nyiptakeun kamar"
+    },
+    "dialog": {
+      "title": "Jieun kamar anyar",
+      "form": {
+        "userId": {
+          "label": "ID Pangguna",
+          "placeholder": "Lebetkeun ID pangguna (contona: @USER: Conto.com)",
+          "error": {
+            "required": "ID pangguna henteu tiasa kosong",
+            "invalid": "Format ID pangguna anu henteu leres"
+          }
+        },
+        "roomName": {
+          "label": "Ngaran kamar (opsional)",
+          "placeholder": "Lebetkeun nami kamar"
+        },
+        "isEncrypted": {
+          "label": "Aktifkeun Enkripsi Tungtung"
+        },
+        "isDirect": {
+          "label": "Pesen langsung"
+        },
+        "topic": {
+          "label": "Téma (opsional)",
+          "placeholder": "Lebetkeun téma kamar"
+        }
+      },
+      "actions": {
+        "cancel": "Ngabatalkeun",
+        "create": "nyiptakeun"
+      },
+      "success": "Koléksi ruangan suksés",
+      "error": "Aya kasalahan nalika nyiptakeun kamar: {kasalahan}"
+    }
+  }
+}

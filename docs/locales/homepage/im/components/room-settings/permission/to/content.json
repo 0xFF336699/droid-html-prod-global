@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Ko e tu'unga ngofua 'oku fiema'u ke 'ave ha fekau .",
+        "tooltip": "0 ʻoku ʻuhinga ia ʻe lava ʻe he kāingalotu kotoa pē ʻo ʻave ʻa e ngaahi pōpoakí, pea ko e lahi angé ʻoku ʻuhinga ia ʻoku fie maʻu ha ngaahi ngofua maʻolunga ange ."
+      },
+      "invite": {
+        "label": "Ko e tu'unga 'o e ngofua 'oku fiema'u ke fakaafe'i mai 'a e kau memipa fo'ou .",
+        "tooltip": "Fokotuʻu pe ko hai te ne lava ʻo fakaafeʻi e kau mēmipa foʻoú ki he lokí ."
+      },
+      "kick": {
+        "label": "Kick out 'a e tu'unga ngofua 'oku fie ma'u .",
+        "tooltip": "Seti pe ko hai te ne lava 'o tuli 'a e kau memipa 'o e loki ."
+      },
+      "ban": {
+        "label": "Ko e tu'unga 'o e ngofua 'oku fiema'u ki hono ta'ofi 'o e kau memipa .",
+        "tooltip": "Seti pe ko hai 'e lava ke ne ta'ofi 'a e kau memipa 'o e loki ."
+      },
+      "roomSettings": {
+        "label": "Fakaleleiʻi ʻa e tuʻunga fakangofua ʻoku fie maʻu ʻo e ngaahi tuʻunga ʻo e lokí .",
+        "tooltip": "Seti pe ko hai 'e lava ke ne fakalelei'i 'a e ngaahi tu'unga 'o e loki ."
+      },
+      "submit": "Fakahaofi e ngaahi tuʻunga fakangofua ."
+    },
+    "description": "Ko e tu'unga 'o e ngofua: 0-100, ko e lahi ange 'oku 'uhinga 'a e fika 'oku fie ma'u 'a e ngaahi ngofua ma'olunga ange .",
+    "toast": {
+      "success": "Kuo fakafo'ou 'a e ngaahi tu'unga 'o e ngofua .",
+      "error": "Ta'elava ke fakafo'ou 'a e ngaahi tu'unga fakangofua ."
+    }
+  }
+}

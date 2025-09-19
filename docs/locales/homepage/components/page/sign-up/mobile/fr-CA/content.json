@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "registre",
+    "phoneNumber": "Numéro de téléphone",
+    "phoneNumberPlaceholder": "Veuillez saisir votre numéro de téléphone mobile",
+    "verificationCode": "Le code de vérification",
+    "verificationCodePlaceholder": "Veuillez saisir le code de vérification",
+    "getVerificationCode": "Obtenez le code de vérification",
+    "countdown": "{{secondes}} secondes pour réessayer",
+    "register": "registre",
+    "errors": {
+      "phoneRequired": "Veuillez saisir votre numéro de téléphone mobile",
+      "phoneInvalid": "Le format de numéro de téléphone mobile est incorrect",
+      "codeRequired": "Veuillez saisir le code de vérification",
+      "codeInvalid": "Le format de code de vérification est incorrect",
+      "requestFailed": "Échec de la demande",
+      "verificationFailed": "L'acquisition du code de vérification a échoué",
+      "loginFailed": "La connexion a échoué"
+    },
+    "success": {
+      "verificationCodeSent": "Le code de vérification a été envoyé",
+      "registerSuccess": "Enregistré avec succès"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Ntọala ime ụlọ",
+    "tabs": {
+      "basic": "Ntọala",
+      "permission": "Ntọala ikike",
+      "privacy": "Ntọala nzuzo",
+      "member": "Ndị otu njikwa"
+    },
+    "loadError": "Enweghi ike itinye ntọala ụlọ",
+    "leaveRoom": {
+      "button": "Wepụ ụlọ ahụ",
+      "confirm": "Ì ji n'aka na ị chọrọ ịpụ ụlọ ahụ? Mgbe ịpụsịrị, ị gaghị enwe ike ịnọgide na-enweta ozi sitere na ụlọ a.",
+      "success": "Ọpụpụ n'ime ụlọ nke ọma",
+      "error": "Emeghị ka ọ pụọ n'ụlọ ahụ, biko nwaa ọzọ"
+    }
+  }
+}

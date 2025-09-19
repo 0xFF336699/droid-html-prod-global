@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Mantenètz-vos connectats",
+        "helperText": "Se clicatz sul ligam Iniciar, alara gardatz lo ligam. Aquò demanda d'atencion que lo ligam serà reconnectat de manièra contunhada après qu'es desconnectada.",
+        "retryCount": "Nombre de reconnexions"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "URL de enlace, por ejemplo ws://192.168.0.2:7001, o wws://exemple.com/camin",
+        "error": "La URL correcta es una URL a partir de ws:// o wws://"
+      }
+    },
+    "connectButton": {
+      "connect": "connectar",
+      "disconnect": "Desconecte",
+      "status": {
+        "connecting": "Conectar...",
+        "connected": "Connectat",
+        "disconnecting": "Desconnectant...",
+        "disconnected": "Pas connectat",
+        "waitRetry": "Espera de reconexion..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "scenari"
+  }
+}

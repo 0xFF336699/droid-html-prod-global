@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Tō'o'a",
+    "sub": {
+      "addScriptByUrl": "A tuu i te mau papa'iraa na roto i te URL",
+      "addScriptByText": "A tuu i te mau irava",
+      "addMarket": "A tapiri i te matete na roto i te URL",
+      "addMarketByText": "A tapiri i te matete na roto i te papa'iraa"
+    }
+  }
+}

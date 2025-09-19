@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Locus nomen",
+    "viewMap": "View in map",
+    "close": "claustra"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "In current pasco non support Geolocation acquisition",
+    "getLocationFailed": "Defecit adipisci locum placere reprehendo permission occasus",
+    "myLocation": "Mihi locus",
+    "shareLocation": "Share Location",
+    "getCurrentLocation": "Get in current locum",
+    "title": "Locus nomen",
+    "description": "Detailed description",
+    "descriptionPlaceholder": "PDF Descriptio (libitum)",
+    "preview": "Location preview",
+    "latitude": "latitudo",
+    "longitude": "longitudo",
+    "cancel": "Inrito",
+    "send": "mitto",
+    "permissionPrompt": "Nos postulo ut adipisci vestri locus notitia ut providere meliora servicia, est licet?",
+    "permissionDenied": "Positioning permission negatur, placere enable positus permission in vestri pasco occasus",
+    "locationTimeout": "Positioning Timeout, fac cogitatus conversus et conantur reacquire",
+    "locationUnavailable": "In current location non adeptus, placere reprehendo in fabrica locus ministerium"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Stwórz pokój"
+    },
+    "dialog": {
+      "title": "Stwórz nowy pokój",
+      "form": {
+        "userId": {
+          "label": "Identyfikator użytkownika",
+          "placeholder": "Wprowadź identyfikator użytkownika (na przykład: @User: example.com)",
+          "error": {
+            "required": "Identyfikator użytkownika nie może być pusty",
+            "invalid": "Nieprawidłowy format identyfikatora użytkownika"
+          }
+        },
+        "roomName": {
+          "label": "Nazwa pokoju (opcjonalnie)",
+          "placeholder": "Wprowadź nazwę pokoju"
+        },
+        "isEncrypted": {
+          "label": "Włącz end-to-end szyfrowanie"
+        },
+        "isDirect": {
+          "label": "Bezpośrednia wiadomość"
+        },
+        "topic": {
+          "label": "Motyw (opcjonalnie)",
+          "placeholder": "Wprowadź motyw pokoju"
+        }
+      },
+      "actions": {
+        "cancel": "Anulować",
+        "create": "tworzyć"
+      },
+      "success": "Tworzenie pokoju pomyślnie",
+      "error": "Wystąpił błąd podczas tworzenia pokoju: {błąd}"
+    }
+  }
+}

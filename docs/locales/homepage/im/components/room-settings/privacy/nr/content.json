@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": ".",
+        "description": "Iqembu enzima ukuthi udinga ukuthi udinga ukulala."
+      },
+      "allowGuestJoin": {
+        "label": "Waqala ukubulala amava.",
+        "description": "Kuselili Missssssssssssss."
+      },
+      "isEncrypted": {
+        "label": "Ukuhlukahluka kunqubo okukhulu .",
+        "description": "Kuyinto, i-orssssssssssssssssssssssssssssssssssssssassssassssssssssssassssssassssassssaasssaaaaaaaaaaaaaa .",
+        "alert": "I-issssssssssssssssssssssssssssssssssssss."
+      },
+      "submit": "Ubukhulu i- ."
+    },
+    "toast": {
+      "success": "Ubusuku amaviki kuzulu .",
+      "error": "Iyo mdlalo iqala ukususa ukunyakala."
+    }
+  }
+}

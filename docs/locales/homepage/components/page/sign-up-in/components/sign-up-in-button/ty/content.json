@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Login/Tai'o",
+    "signOut": "ite",
+    "confirmContent": "Te ti'aturi ra anei oe e, te hinaaro nei oe e haere?",
+    "confirmTitle": "hō'ai",
+    "confirm": "Pāpū",
+    "cancel": "Tautea",
+    "signoutOk": "ite",
+    "loadingData": "Te imiraa i te mau haamaramaramaraa o te taata faaohipa"
+  }
+}

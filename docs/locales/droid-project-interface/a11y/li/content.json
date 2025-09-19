@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "bedrief",
+    "click": "Klik",
+    "longClick": "Lange pers",
+    "setText": "Sekst.",
+    "tryClick": "Probeer elemint of locatie klik",
+    "globalClick": "Locatie klik"
+  }
+}

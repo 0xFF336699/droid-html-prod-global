@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Tämä toiminto voi suorittaa samanlaisia ​​toimintoja kuin reaalilukuiset toiminnot, mukaan lukien, mutta ei rajoittuen napsauttaminen, sovellusten avaaminen jne., Ja voi myös avata joitain maksusovelluksia maksua varten. Koska operaatioiden, maksujen suorittamisen jne. Riskeille on riskejä, suosittelemme, että suoritat sen vain, jos ymmärrät käsikirjoituksen sisällön täysin.",
+    "txt2": "Tämän toiminnon sulkeminen: Avaa tämän sovelluksen kotisivu, voit lopettaa kotisivun asetusten aputoiminnon käytön tai napsauttaa \"Sulje kaikki tehtävät ja poistu\" -painiketta kotisivulla. Tämä painike pakottaa kaikkien tehtävien sulkemisen ja pakottaa tämän sovelluksen sulkemiseen.",
+    "txt3": "Syy siihen, että käytämme tätä toimintoa, on se, että sovelluksemme on oltava kyky avata muita sovelluksia ja hallita niitä, kuten selaamalla Instagramia, se voi automaattisesti liukua videon pelaamisen jälkeen, tarkista, onko tuote myynnissä, ja lähettää viestejä online-ystäville säännöllisesti jne., Jotka ovat mielenkiintoisia vai työvoiman säästötoimintoja.",
+    "iKnowDanger": "Tiedän riskejä - mene asettamaan",
+    "title": "Vaaralliset operaatiot"
+  }
+}

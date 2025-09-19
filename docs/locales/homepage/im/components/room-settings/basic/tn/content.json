@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Leina la phaposi"
+      },
+      "topic": {
+        "label": "Matseno a Phaposi"
+      },
+      "avatar": {
+        "alt": "Avatatara ya phaposi"
+      },
+      "submit": "Boloka diseting"
+    },
+    "toast": {
+      "success": "Dipeakanyo di tlhabolotswe",
+      "error": {
+        "default": "Diseting tsa tlhabololo di paletswe",
+        "avatar": "Go palelwa ke go tlhabolola avatar"
+      }
+    }
+  }
+}

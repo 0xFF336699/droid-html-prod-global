@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Ker ta aplikacija nanaša na veliko število dovoljenj na vašem mobilnem telefonu, je veliko dovoljenj izjemno tvegano, zato jih ne uvozite in ne izvajajte, ne da bi jasno poznali tveganja trga ali skripta. Ko vnesete vsebino v besedilno polje \"Uvod na tržno kartico\" ali \"Tržna neodvisna spletna stran\", bo vsebina takoj izvedena kot koda. Prosim, bodite previdni.",
+    "setNewMarket": "Postavite nov trg",
+    "settingPreview": "Predogled nastavitev",
+    "marketName": "Ime trga",
+    "marketSummary": "Uvod na trg",
+    "marketDescription": "Uvod na trg",
+    "itemMarket": "Uvod na tržno kartico",
+    "fullMarket": "Tržna neodvisna spletna stran",
+    "marketCardPreview": "Predogled tržne kartice",
+    "marketFullPreview": "Predogled neodvisne spletne strani na trgu",
+    "isNotSet": "Ni nastavljen"
+  }
+}

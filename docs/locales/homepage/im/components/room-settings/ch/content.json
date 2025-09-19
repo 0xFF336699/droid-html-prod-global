@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Room setting",
+    "tabs": {
+      "basic": "Basika ni’ manma’ayek para u fanma’ayek.",
+      "permission": "I setting",
+      "privacy": "I manma'ayek na setbisio siha.",
+      "member": "Mana'suha i Gima'"
+    },
+    "loadError": "Fa'tinas para un karga i setting room?",
+    "leaveRoom": {
+      "button": "Ekskuentras",
+      "confirm": "Siguruyu` na guaha `nai man-ma`ug gi kuartu? Dispues de man-e`eñgulu`, ti siña makontinua i mensahe ginen este na kuatto.",
+      "success": "Ekssada i kuatto",
+      "error": "Falta para un` huyong gi kuatto, fa`tinas tatte ."
+    }
+  }
+}

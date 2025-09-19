@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Akadálymentességi felület megtekintése",
+    "howToUse": "Használati utasítások",
+    "howToUseTooltip": "Az alábbiakban bemutatjuk ennek a csomópontnak a jelölési attribútumait, amelyek felhasználhatók a műveletek kiválasztására, például kattintás, szöveg kitöltése stb.\n\nAz attribútum értékét az alkalmazás oldalon lehet megismételni. Ha másolatokkal találkozik, kérjük, fedje le a többi attribútum kiválasztását az egyediség meghatározása érdekében.\n\nA piros szó azt jelzi, hogy az attribútum értéke megismétlődik, a zöld szó azt jelzi, hogy az attribútum értéke egyedi az aktuális oldalkeresésben, és a fekete szó azt jelzi, hogy nincs ismételt összehasonlítás.",
+    "otherNodesSummary": "Más csomópontok ezen a helyen",
+    "moreNodes": "Itt van az, amit kibővítünk.",
+    "nodeInfoDialogOkButton": "A csomópont szerkesztése",
+    "text": "Szöveg 2222"
+  }
+}

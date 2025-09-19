@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "ኣብቲ ዝተወሰነ ገጽ ኣብ እትኣትወሉ እዋን",
+    "pnLabel": "ናይ ዕሹግ ስም:",
+    "anLabel": "ስም ንጥፈት:",
+    "cnLabel": "ናይ ክፍሊ ስም:",
+    "changeBtnLabel": "ምትካእ"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "ኣብቲ ዝተወሰነ ገጽ ኣብ እትኣትወሉ እዋን",
+    "pnLabel": "ናይ ዕሹግ ስም:",
+    "anLabel": "ስም ንጥፈት:",
+    "cnLabel": "ናይ ክፍሊ ስም:",
+    "changeBtnLabel": "ምትካእ"
+  }
+}

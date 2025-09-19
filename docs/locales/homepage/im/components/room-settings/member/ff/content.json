@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Yiylo terɗe"
+    },
+    "table": {
+      "columns": {
+        "name": "Innde tergal",
+        "userId": "ID kuutortooɗo",
+        "actions": "ewna"
+      },
+      "pagination": {
+        "rowsPerPage": "Limre rowrowre kala hello"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Kick out",
+        "ban": "Haɗi"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Taƴon tergal kicking",
+        "content": "Mbele aɗa sikki aɗa yiɗi riiwtude tergal ngal e nder suudu nduu?"
+      },
+      "ban": {
+        "title": "Taƴondira tergal haɗaangal",
+        "content": "Aɗa sikki aɗa yiɗi haɗde oo tergal? Tergal ngal waawataano jokkondirde e suudu nduu caggal nde o haɗi ɗum."
+      },
+      "buttons": {
+        "cancel": "Willugo",
+        "confirm": "jabbugo"
+      }
+    },
+    "toast": {
+      "loadError": "Falnde e doggol terɗe load",
+      "kick": {
+        "success": "Terɗe ɗee njaltinaama e suudu nduu",
+        "error": "Ñaamde terɗe ɗee ŋakki"
+      },
+      "ban": {
+        "success": "Terɗe ɗee udditaa",
+        "error": "Waɗiraa ko e haɗde terɗe"
+      }
+    },
+    "invite": {
+      "button": "Noddaango terɗe",
+      "title": "Noddu terɗe ngam tawtoreede suudu nduu",
+      "inputLabel": "Naat e ID kuutortooɗo Matrix (hono @user:matrix.org)",
+      "confirm": "ewnugo",
+      "cancel": "Willugo",
+      "loading": "Noddaango...",
+      "success": "Noddaango neldaa!",
+      "error": "Noddaango ngoo ŋakki, ƴeewto ID kuutortooɗo walla yamiroore"
+    },
+    "empty": "Alaa tergal tawo",
+    "loading": "loading...",
+    "role": {
+      "owner": "Joom suudu",
+      "admin": "njuɓɓudi",
+      "moderator": "Koolaaɗo",
+      "user": "tergal"
+    }
+  }
+}

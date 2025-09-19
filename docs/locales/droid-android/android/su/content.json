@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Metoda ieu ngan ukur tiasa disebut dina Android",
+      "noMethod": "Metoda ieu henteu aya"
+    }
+  }
+}

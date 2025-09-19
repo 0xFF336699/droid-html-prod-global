@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Shiga dakin",
+      "inviteOnly": "Wannan dakin ne mai zaman kansa kuma yana buƙatar gayyata don shiga",
+      "knockRequired": "Wannan dakin yana buƙatar aikace-aikace don shiga. Danna maɓallin da ke ƙasa don aika buƙatun haɗin",
+      "canJoin": "Wannan dakin jama'a ne, zaku iya shiga kai tsaye",
+      "sendRequest": "Aika da bukatar shiga",
+      "join": "Shiga dakin"
+    },
+    "JoinRequestList": {
+      "noRequests": "Babu buƙatar shiga tukuna",
+      "accept": "yarda",
+      "reject": "jefad da"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Shigar da saƙo ..."
+  },
+  "MessageList": {
+    "noMessages": "Babu saƙonni duk da haka, aika saƙon farko don fara tattaunawar!",
+    "loading": "Loading ...",
+    "error": {
+      "loadFailed": "Ba a sami damar ɗaukar saƙon ba",
+      "retry": "Gwada kuma"
+    },
+    "loadingHistory": "Ana ajiye Tarihi ...",
+    "historyEnd": "Labarin farko ya zo"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Babu saƙonni duk da haka, aika saƙon farko don fara tattaunawar!"
+  },
+  "RoomContent": {
+    "title": "Ɗaki"
+  },
+  "RoomHeader": {
+    "title": "Ɗaki",
+    "unnamedRoom": "Dakin da ba a ambata ba",
+    "members": "m",
+    "settings": "Saiti",
+    "leaveRoom": "Bar dakin",
+    "joinRoom": "Shiga dakin"
+  },
+  "RoomMembers": {
+    "title": "Membobin gida",
+    "online": "Kan layi",
+    "offline": "A layi",
+    "join": "shiga ciki",
+    "invite": "kira",
+    "leave": "tashi m bari",
+    "ban": "Haram",
+    "noMembers": "Babu memba ba tukuna",
+    "loading": "Loading ..."
+  }
+}

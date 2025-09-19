@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Depi aplikasyon sa a aplike pou yon gwo kantite autorisations sou telefòn mobil ou, anpil autorisations yo trè ki riske, se konsa pa enpòte oswa egzekite yo san yo pa konnen klèman risk ki genyen nan mache a oswa script. Yon fwa ou antre nan kontni nan \"Entwodiksyon nan Mache Kat\" oswa \"Market Endepandan Web Page\" bwat tèks ki anba a, yo pral kontni an dwe egzekite imedyatman kòm kòd. Tanpri, pridan.",
+    "setNewMarket": "Mete kanpe yon nouvo mache",
+    "settingPreview": "Anviwònman Preview",
+    "marketName": "Non mache",
+    "marketSummary": "Mache entwodiksyon",
+    "marketDescription": "Mache entwodiksyon",
+    "itemMarket": "Entwodiksyon kat mache",
+    "fullMarket": "Mache endepandan paj entènèt",
+    "marketCardPreview": "Preview kat mache",
+    "marketFullPreview": "Mache endepandan paj entènèt preview",
+    "isNotSet": "Pa mete"
+  }
+}

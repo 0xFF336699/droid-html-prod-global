@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Iyi nzira inogona kungodaidzwa kuti Android",
+      "noMethod": "Iyi nzira haipo"
+    }
+  }
+}

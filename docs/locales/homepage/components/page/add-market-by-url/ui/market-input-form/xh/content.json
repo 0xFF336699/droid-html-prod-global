@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Ipateni ye-URL",
+    "full": {
+      "url": "I-URL yemakethi. Abalinganiswa abafakiweyo baya kulayishwa njenge-URLs, nceda ulumke.",
+      "html": "Umxholo wentengiso yeHTML. Abalinganiswa abafakiweyo baya kwenziwa kwangoko njengamasipripthi, nceda ulumke.",
+      "come": "Yiza kum",
+      "myMarketName": "Igama leNtengiso",
+      "stroll": "Masihambe"
+    },
+    "item": {
+      "url": "I-URL yeKhadi leNtengiso. Abalinganiswa abafakiweyo baya kulayishwa njenge-URLs, nceda ulumke.",
+      "html": "Umxholo wentengiso yeHTML. Abalinganiswa abafakiweyo baya kwenziwa kwangoko njengamasipripthi, nceda ulumke.",
+      "come": "Yiza kum",
+      "myMarketName": "Igama leNtengiso",
+      "stroll": "Masihambe"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "isele",
+      "inviteOnly": "Oqo e dua na rumu vakaitaukei ka gadrevi kina na veisureti me lewena .",
+      "knockRequired": "Na rumu oqo e gadrevi kina na ivolakerekere me lewena. Kiliki na ibulukau e ra me vakau yani na kerekere .",
+      "canJoin": "Oqo e dua na rumu ni lewenivanua, e rawa ni o lewena vakadodonu .",
+      "sendRequest": "Vakauta e dua na kerekere ni duavata .",
+      "join": "isele"
+    },
+    "JoinRequestList": {
+      "noRequests": "E sega ni dua na kerekere ena 2019.",
+      "accept": "ciqoma",
+      "reject": "cata"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Mataka e dua na itukutuku..."
+  },
+  "MessageList": {
+    "noMessages": "E se bera ni dua na itukutuku, vakauta na imatai ni itukutuku me tekivu kina na veivosaki!",
+    "loading": "kakana",
+    "error": {
+      "loadFailed": "Vakaitamera me vakavodoka na itukutuku .",
+      "retry": "Tovolea mada tale."
+    },
+    "loadingHistory": "Dua na itukutuku ni veigauna...",
+    "historyEnd": "Sa yaco mai na itukutuku taumada […]"
+  },
+  "MessageVirturalList": {
+    "noMessages": "E se bera ni dua na itukutuku, vakauta na imatai ni itukutuku me tekivu kina na veivosaki!"
+  },
+  "RoomContent": {
+    "title": "Rumu"
+  },
+  "RoomHeader": {
+    "title": "Rumu",
+    "unnamedRoom": "Ena rumu ni rumu ena rumu ni rumu.",
+    "members": "lewenilotu",
+    "settings": "tauyavutaki",
+    "leaveRoom": "Biuta mai na rumu ni rumu.",
+    "joinRoom": "isele"
+  },
+  "RoomMembers": {
+    "title": "Toso na",
+    "online": "Ena internet",
+    "offline": "iyalayala",
+    "join": "duavata",
+    "invite": "sureti ira",
+    "leave": "biubiu",
+    "ban": "Me",
+    "noMembers": "Sega ni tiko na lewenilotu",
+    "loading": "kakana"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Tuvanaka e dua na rumu ni rumu ni rumu."
+    },
+    "dialog": {
+      "title": "Tabaka e dua na rumu vou ni rumu .",
+      "form": {
+        "userId": {
+          "label": "Taroga dina",
+          "placeholder": "Vakacuruma na vakayagataki ID (me kena ivakaraitaki: @user: e so na ivakaraitaki.com)",
+          "error": {
+            "required": "E sega ni rawa ni lala na kena vakayagataki ID .",
+            "invalid": "Ena vakayagataki ni ID."
+          }
+        },
+        "roomName": {
+          "label": "Yacana (opetial) .",
+          "placeholder": "E dua na yaca ni rumu ni rumu ena dua na rumu ni rumu."
+        },
+        "isEncrypted": {
+          "label": "Ena sikirininipeni ."
+        },
+        "isDirect": {
+          "label": "nai Lewa nitukutuku"
+        },
+        "topic": {
+          "label": "Na Dua (ivakaraitaki)",
+          "placeholder": "Vaka ki nabacini ."
+        }
+      },
+      "actions": {
+        "cancel": "Biuta laivi",
+        "create": "bulia"
+      },
+      "success": "Sa bula vinaka o koya .",
+      "error": "E dua na cala e yaco ena gauna e bulia kina e dua na rumu: ˙."
+    }
+  }
+}

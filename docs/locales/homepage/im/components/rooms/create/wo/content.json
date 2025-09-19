@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Sosal néeg"
+    },
+    "dialog": {
+      "title": "Sosal néeg bu bees",
+      "form": {
+        "userId": {
+          "label": "ID jëfandikukat",
+          "placeholder": "Bindal ID jëfandikukat (ci misaal: @user: example.com)",
+          "error": {
+            "required": "ID jëfandikukat bi mënul dara",
+            "invalid": "Format ID jëfandikukat bu baaxul"
+          }
+        },
+        "roomName": {
+          "label": "Turu néeg (optionnel)",
+          "placeholder": "Bindal tur néeg"
+        },
+        "isEncrypted": {
+          "label": "Ecryption bu mujj ci njeexte"
+        },
+        "isDirect": {
+          "label": "mesaas bu jub"
+        },
+        "topic": {
+          "label": "Theme (optionnel)",
+          "placeholder": "Duggal néeg bi"
+        }
+      },
+      "actions": {
+        "cancel": "Bàyyi",
+        "create": "defar"
+      },
+      "success": "sàkk bu baax",
+      "error": "Njuumte dafa am ci bi muy sos néeg: {rarror}"
+    }
+  }
+}

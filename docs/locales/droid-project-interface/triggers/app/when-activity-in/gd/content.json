@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Nuair a chuireas tu a-steach an duilleag ainmichte",
+    "pnLabel": "Ainm a 'phacaid:",
+    "anLabel": "Ainm Gnìomhachd:",
+    "cnLabel": "Ainm Clas:",
+    "changeBtnLabel": "cuir an àite"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Nuair a chuireas tu a-steach an duilleag ainmichte",
+    "pnLabel": "Ainm a 'phacaid:",
+    "anLabel": "Ainm Gnìomhachd:",
+    "cnLabel": "Ainm Clas:",
+    "changeBtnLabel": "cuir an àite"
+  }
+}

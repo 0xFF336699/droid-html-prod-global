@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "rehistra",
+    "phoneNumber": "Proye",
+    "phoneNumberPlaceholder": "På'go na tiempo, siña un hålom gi i tilifon-mu",
+    "verificationCode": "I malepara",
+    "verificationCodePlaceholder": "På'go na tiempo na un hålom gi i minagahet.",
+    "getVerificationCode": "Na'i i verification",
+    "countdown": "{{con.} segundos para un pruba ta’lo",
+    "register": "rehistra",
+    "errors": {
+      "phoneRequired": "På'go na tiempo, siña un hålom gi i tilifon-mu",
+      "phoneInvalid": "I mobiet na telefon numeron taotao ti maolek .",
+      "codeRequired": "På'go na tiempo na un hålom gi i minagahet.",
+      "codeInvalid": "I “vertification code format” ni’ ti siña ma na’setbe .",
+      "requestFailed": "baba",
+      "verificationFailed": "I inayek siha ni' manmafa'tinas ti manmafa'tinas ti manmafa'tinas.",
+      "loginFailed": "Logihi"
+    },
+    "success": {
+      "verificationCodeSent": "I kodu siha ni' manma'ayek",
+      "registerSuccess": "Resistensia hao"
+    }
+  }
+}

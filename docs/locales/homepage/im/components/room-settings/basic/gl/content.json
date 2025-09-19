@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Nome da habitación"
+      },
+      "topic": {
+        "label": "Introdución do cuarto"
+      },
+      "avatar": {
+        "alt": "Avatar da habitación"
+      },
+      "submit": "Gardar a configuración"
+    },
+    "toast": {
+      "success": "Actualización de configuración",
+      "error": {
+        "default": "Fallou a configuración de actualización",
+        "avatar": "Non puido actualizar o avatar"
+      }
+    }
+  }
+}

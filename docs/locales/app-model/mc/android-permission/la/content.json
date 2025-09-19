@@ -1,0 +1,7 @@
+{
+  "androidPermission": {
+    "denied": "rejicio",
+    "granted": "Auctoritas",
+    "shouldAskAgain": "Alienatus"
+  }
+}

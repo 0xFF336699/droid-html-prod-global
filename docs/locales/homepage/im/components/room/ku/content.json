@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Tevlî odê bibin",
+      "inviteOnly": "Ev odeyek taybet e û ji bo tevlêbûnê vexwendin hewce dike",
+      "knockRequired": "Vê odeyê daxwaznameyê hewce dike ku tevlî bibe. Bişkojka li jêr bikirtînin da ku daxwaza tevlêbûnê bişînin",
+      "canJoin": "Ev odeyek giştî ye, hûn dikarin rasterast tevlî bibin",
+      "sendRequest": "Daxwazek Tevlê bişînin",
+      "join": "Tevlî odê bibin"
+    },
+    "JoinRequestList": {
+      "noRequests": "Heya niha beşdarî daxwaznameyê tune",
+      "accept": "baweranîn",
+      "reject": "refzkirin"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Peyamek binivîse ..."
+  },
+  "MessageList": {
+    "noMessages": "Heya niha peyamek tune, peyama yekem bişînin da ku hûn danûstandinê dest pê bikin!",
+    "loading": "Loading ...",
+    "error": {
+      "loadFailed": "Mesaj nehat barkirin",
+      "retry": "Dubare bixebitin"
+    },
+    "loadingHistory": "Dîroka barkirinê ...",
+    "historyEnd": "Nûçeyên zûtirîn gihîştiye"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Heya niha peyamek tune, peyama yekem bişînin da ku hûn danûstandinê dest pê bikin!"
+  },
+  "RoomContent": {
+    "title": "Jûre"
+  },
+  "RoomHeader": {
+    "title": "Jûre",
+    "unnamedRoom": "Odeya Nekirî",
+    "members": "endam",
+    "settings": "damezirandin",
+    "leaveRoom": "Ji odeyê derkevin",
+    "joinRoom": "Tevlî odê bibin"
+  },
+  "RoomMembers": {
+    "title": "Endamên odeyê",
+    "online": "Online",
+    "offline": "Offline",
+    "join": "beşdar bibe",
+    "invite": "ezimanden",
+    "leave": "terikandin",
+    "ban": "Qedexe kirin",
+    "noMembers": "Bê endam hîna jî",
+    "loading": "Loading ..."
+  }
+}

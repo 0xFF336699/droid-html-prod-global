@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Ychwanega",
+    "sub": {
+      "addScriptByUrl": "Ychwanegwch sgriptiau trwy URL",
+      "addScriptByText": "Ychwanegwch sgriptiau trwy destun",
+      "addMarket": "Ychwanegu Marchnad trwy URL",
+      "addMarketByText": "Ychwanegu Marchnad Trwy Testun"
+    }
+  }
+}

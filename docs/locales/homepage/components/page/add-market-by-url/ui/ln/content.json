@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Lokola application oyo etali motango monene ya ba permissions na téléphone na yo ya maboko, ba permissions mingi ezali na risque makasi, yango wana ko importer to ko exécuter yango te sans koyeba polele ba risques ya marché to script. Soki okotisi makambo na esika bakomi \"Maloba ya ebandeli ya carte\" to \"Page web indépendant ya zando\" na nse, makambo ekosalema mbala moko lokola code. Svp bozala na bokebi.",
+    "setNewMarket": "Bobongisa zando ya sika .",
+    "settingPreview": "Aperçu ya ba paramètres .",
+    "marketName": "Kombo ya zando .",
+    "marketSummary": "Maloba ya ebandeli ya zando .",
+    "marketDescription": "Maloba ya ebandeli ya zando .",
+    "itemMarket": "Karte ya zando Maloba ya ebandeli .",
+    "fullMarket": "Zando ya lokasa ya Internet oyo ezali na lipanda .",
+    "marketCardPreview": "Aperçu ya carte ya marché .",
+    "marketFullPreview": "Market indépendant ya page web aperçu .",
+    "isNotSet": "Te set ."
+  }
+}

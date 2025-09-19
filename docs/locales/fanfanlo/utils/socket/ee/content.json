@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Kadodo...",
+    "connected": "Do ƒome kple wo nɔewo .",
+    "disconnecting": "Kadodoa ɖeɖeɖa...",
+    "disconnected": "Womedo ƒome kple wo nɔewo o .",
+    "waitRetry": "Lala na kadodo yeye wɔwɔ..."
+  }
+}

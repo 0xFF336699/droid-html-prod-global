@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Na Daulotu",
+    "viewMap": "Raica na mape .",
+    "close": "savasava"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "E sega ni tokona na geolocation na kena rawati na geolocation ena gauna oqo .",
+    "getLocationFailed": "Taura mo rawata na vanua, yalovinaka raica na ituvatuva ni veivakadonui .",
+    "myLocation": "Na noqu vale",
+    "shareLocation": "Wasea na vanua e tiko kina na .",
+    "getCurrentLocation": "Naba makawa ni na gauna oqo .",
+    "title": "Na Daulotu",
+    "description": "itukutuku",
+    "descriptionPlaceholder": "Sa kerei mo ni qai biuta yani e dua na ivakamacala matailalai (opeal)",
+    "preview": "Veivuke Levu",
+    "latitude": "lewa",
+    "longitude": "balavu",
+    "cancel": "Biuta laivi",
+    "send": "vakauta",
+    "permissionPrompt": "Eda gadreva me da taura na nomu itukutuku ni vanua me qaravi kina vakavinaka, e vakatarai?",
+    "permissionDenied": "E cakitaka na veivakadonui ni posita, yalovinaka ni rawa ni vakadonuya na veivakadonui ni Position ena nomu ituvatuva ni barausa .",
+    "locationTimeout": "Na gauna ni posi, vakadeitaka na kena vukici na misini ka tovolea me sauma .",
+    "locationUnavailable": "Na vanua ni vanua oqo e sega ni rawa, Yalovinaka raica na na veiqaravi ni vanua ."
+  }
+}

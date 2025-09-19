@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Impostazioni della stanza",
+    "tabs": {
+      "basic": "Impostazioni di base",
+      "permission": "Impostazioni di autorizzazione",
+      "privacy": "Impostazioni sulla privacy",
+      "member": "Gestione dei membri"
+    },
+    "loadError": "Impossibile caricare le impostazioni della stanza",
+    "leaveRoom": {
+      "button": "Esci dalla stanza",
+      "confirm": "Sei sicuro di voler uscire dalla stanza? Dopo l'uscita, non sarai in grado di continuare a ricevere messaggi da questa stanza.",
+      "success": "È uscito con successo nella stanza",
+      "error": "Impossibile uscire dalla stanza, riprova"
+    }
+  }
+}

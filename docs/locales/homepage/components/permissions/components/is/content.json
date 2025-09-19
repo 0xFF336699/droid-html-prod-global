@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Viðurkennt",
+    "notPass": "Óviðkomandi",
+    "danger": "Hætta",
+    "setting": "Setja upp"
+  }
+}

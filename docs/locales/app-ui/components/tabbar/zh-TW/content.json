@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "首頁",
+    "me": "我的",
+    "settings": "設定",
+    "script": "腳本",
+    "store": "市場",
+    "market": "市場",
+    "create": "創建"
+  },
+  "tabbar": {
+    "test": "底部菜單欄"
+  }
+}

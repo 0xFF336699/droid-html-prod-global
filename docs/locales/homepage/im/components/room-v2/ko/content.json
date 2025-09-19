@@ -1,0 +1,7 @@
+{
+  "RoomContentV2": {
+    "waitingForLogin": "먼저 로그인하십시오",
+    "loadingRoomInfo": "객실 정보 로딩 ...",
+    "roomNotFound": "방은 발견되지 않았습니다"
+  }
+}

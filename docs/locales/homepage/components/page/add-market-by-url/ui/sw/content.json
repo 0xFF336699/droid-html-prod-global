@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Kwa kuwa programu tumizi hii inatumika kwa idadi kubwa ya ruhusa kwenye simu yako ya rununu, ruhusa nyingi ni hatari sana, kwa hivyo usiingize au kuzitekeleza bila kujua wazi hatari za soko au hati. Mara tu unapoingiza yaliyomo kwenye sanduku la maandishi la \"Soko la Soko\" au \"Soko huru la wavuti\" chini, yaliyomo yatatekelezwa mara moja kama nambari. Tafadhali kuwa mwangalifu.",
+    "setNewMarket": "Sanidi soko mpya",
+    "settingPreview": "Hakiki ya mipangilio",
+    "marketName": "Jina la soko",
+    "marketSummary": "Utangulizi wa soko",
+    "marketDescription": "Utangulizi wa soko",
+    "itemMarket": "Utangulizi wa kadi ya soko",
+    "fullMarket": "Ukurasa wa wavuti huru wa soko",
+    "marketCardPreview": "Hakikisho la kadi ya soko",
+    "marketFullPreview": "Hakikisho la ukurasa wa wavuti huru",
+    "isNotSet": "Sio kuweka"
+  }
+}

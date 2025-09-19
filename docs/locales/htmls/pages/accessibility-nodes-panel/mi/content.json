@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Urutanga Atanga Atanga",
+    "howToUse": "Tohutohu mo te Whakamahia",
+    "howToUseTooltip": "Kei raro nei etahi tohu tohu o tenei kohinga ka taea te whakamahi ki te kowhiri i nga mahi, penei i te paatene, te whakakii i nga tuhinga, me etahi atu.\n\nKo te uara huanga ka taea te taarua i te whaarangi taupānga. Mena ka tutaki koe ki nga taarua, koa koa ki etahi atu tohu tohu hei whakatau i te ahurei.\n\nKo te kupu whero e tohu ana ko te uara huanga, e tohu ana ko te uara tohu he mea motuhake i roto i te rapu whaarangi o naianei, me te kupu pango e whakaatu ana kaore he whakataurite.",
+    "otherNodesSummary": "Ko etahi atu kohinga i tenei waahi",
+    "moreNodes": "Anei te mea e whakawhānuihia ana.",
+    "nodeInfoDialogOkButton": "Whakatika i te mahi o tenei kohanga",
+    "text": "Kuputuhi 2222"
+  }
+}

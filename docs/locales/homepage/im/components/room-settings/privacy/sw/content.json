@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Chumba cha umma",
+        "description": "Vyumba vya umma vinaweza kutafutwa na watumiaji wengine"
+      },
+      "allowGuestJoin": {
+        "label": "Ruhusu wageni wajiunge",
+        "description": "Ruhusu watumiaji ambao hawajasajiliwa kujiunga na chumba kama mgeni"
+      },
+      "isEncrypted": {
+        "label": "Wezesha usimbuaji wa mwisho-mwisho",
+        "description": "Inapowezeshwa, ujumbe kwenye chumba utasimbwa mwisho-hadi-mwisho",
+        "alert": "Usimbuaji wa mwisho-mwisho umewezeshwa kwenye chumba, na mpangilio huu hauwezi kuzimwa."
+      },
+      "submit": "Hifadhi mipangilio ya faragha"
+    },
+    "toast": {
+      "success": "Mipangilio ya faragha imesasishwa",
+      "error": "Imeshindwa kusasisha mipangilio ya faragha"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Otag ady"
+      },
+      "topic": {
+        "label": "Otag otagy"
+      },
+      "avatar": {
+        "alt": "Otag awatary"
+      },
+      "submit": "Sazlamalary ýazdyryň"
+    },
+    "toast": {
+      "success": "Sazlamalar täzelendi",
+      "error": {
+        "default": "Täzelenme sazlamalary şowsuz",
+        "avatar": "Awataryny täzeläp bilmedi"
+      }
+    }
+  }
+}

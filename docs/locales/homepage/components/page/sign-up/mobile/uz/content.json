@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "ro'yxatga olmoq",
+    "phoneNumber": "Telefon raqami",
+    "phoneNumberPlaceholder": "Iltimos, mobil telefon raqamingizni kiriting",
+    "verificationCode": "Tasdiq kodi",
+    "verificationCodePlaceholder": "Iltimos, tasdiq kodini kiriting",
+    "getVerificationCode": "Tasdiqlash kodini oling",
+    "countdown": "Yana urinib ko'ring {{soniya}} soniya",
+    "register": "ro'yxatga olmoq",
+    "errors": {
+      "phoneRequired": "Iltimos, mobil telefon raqamingizni kiriting",
+      "phoneInvalid": "Uyali telefon raqami noto'g'ri",
+      "codeRequired": "Iltimos, tasdiq kodini kiriting",
+      "codeInvalid": "Tekshirish kodi formatida noto'g'ri",
+      "requestFailed": "Talab bajarilmadi",
+      "verificationFailed": "Tasdiqlash kodi sotib olinmadi",
+      "loginFailed": "tizimga kirishda xatolik yuz berdi"
+    },
+    "success": {
+      "verificationCodeSent": "Tasdiqlash kodi yuborildi",
+      "registerSuccess": "Muvaffaqiyatli ro'yxatdan o'tgan"
+    }
+  }
+}

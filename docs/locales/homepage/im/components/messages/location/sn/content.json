@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Nzvimbo yezita",
+    "viewMap": "Wona mepu",
+    "close": "kuvharwa"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Iyo yazvino browser haina kutsigira kuwanana geolocation",
+    "getLocationFailed": "Kukundikana kuwana nzvimbo, ndapota tarisa mamiriro emvumo",
+    "myLocation": "Nzvimbo yangu",
+    "shareLocation": "Goverana Nzvimbo",
+    "getCurrentLocation": "Tora nzvimbo iripo",
+    "title": "Nzvimbo yezita",
+    "description": "Tsananguro yakadzama",
+    "descriptionPlaceholder": "Ndokumbira utore tsananguro yakadzama (sarudzo)",
+    "preview": "Nzvimbo Kuongorora",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "cancel": "Kanzura",
+    "send": "Tumira",
+    "permissionPrompt": "Isu tinofanirwa kuwana yako ruzivo ruzivo kuti tipe masevhisi ari nani, inotenderwa here?",
+    "permissionDenied": "Positioning mvumo inorambidzwa, ndapota gonesa kumisikidza mvumo mune yako browser marongero",
+    "locationTimeout": "Positioning nguva, ita shuwa kuti mudziyo wasvitswa uye edza kugadzirisa",
+    "locationUnavailable": "Nzvimbo yazvino haigone kuwanikwa, ndapota tarisa iyo mudziyo nzvimbo yebasa"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Jina la eneo",
+    "viewMap": "Tazama ramani",
+    "close": "kufungwa"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Kivinjari cha sasa hakiungi mkono upatikanaji wa geolocation",
+    "getLocationFailed": "Imeshindwa kupata eneo, tafadhali angalia mipangilio ya ruhusa",
+    "myLocation": "Eneo langu",
+    "shareLocation": "Shiriki Mahali",
+    "getCurrentLocation": "Pata eneo la sasa",
+    "title": "Jina la eneo",
+    "description": "Maelezo ya kina",
+    "descriptionPlaceholder": "Tafadhali ingiza maelezo ya kina (hiari)",
+    "preview": "Hakiki ya eneo",
+    "latitude": "latitudo",
+    "longitude": "longitudo",
+    "cancel": "Ghairi",
+    "send": "Tuma",
+    "permissionPrompt": "Tunahitaji kupata habari ya eneo lako kutoa huduma bora, inaruhusiwa?",
+    "permissionDenied": "Ruhusa ya kuweka nafasi imekataliwa, tafadhali wezesha ruhusa ya kuweka nafasi katika mipangilio ya kivinjari chako",
+    "locationTimeout": "Kuweka muda, hakikisha kuwa kifaa kimewashwa na kujaribu kufanya tena",
+    "locationUnavailable": "Eneo la sasa haliwezi kupatikana, tafadhali angalia huduma ya eneo la kifaa"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Leerali jëfandikukat",
+    "id": {
+      "name": "ID",
+      "copy": "nangu",
+      "copied": "ID"
+    },
+    "notLoggedIn": "Du dugg ci",
+    "name": "tur",
+    "avatar": "Avatar"
+  }
+}

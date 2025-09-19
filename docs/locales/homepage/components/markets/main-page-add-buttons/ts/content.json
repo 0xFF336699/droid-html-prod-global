@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Engetelani eka .",
+    "sub": {
+      "addScriptByUrl": "Engetelani swikripti hi ku tirhisa URL .",
+      "addScriptByText": "Engetelani switshuriwa hi ku tirhisa tsalwa .",
+      "addMarket": "Engetela makete hi URL .",
+      "addMarketByText": "Engetela makete hi ku tirhisa tsalwa ."
+    }
+  }
+}

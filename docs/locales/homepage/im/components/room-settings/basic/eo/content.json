@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Ĉambra nomo"
+      },
+      "topic": {
+        "label": "Ĉambra Enkonduko"
+      },
+      "avatar": {
+        "alt": "Ĉambra avataro"
+      },
+      "submit": "Konservu Agordojn"
+    },
+    "toast": {
+      "success": "Agordoj Ĝisdatigitaj",
+      "error": {
+        "default": "Ĝisdatigaj agordoj malsukcesis",
+        "avatar": "Malsukcesis ĝisdatigi avataron"
+      }
+    }
+  }
+}

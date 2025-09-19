@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Nom de l'habitació"
+      },
+      "topic": {
+        "label": "Introducció de l'habitació"
+      },
+      "avatar": {
+        "alt": "Habitació avatar"
+      },
+      "submit": "Desa la configuració"
+    },
+    "toast": {
+      "success": "Configuració actualitzada",
+      "error": {
+        "default": "Actualitzar la configuració ha fallat",
+        "avatar": "No s'ha pogut actualitzar Avatar"
+      }
+    }
+  }
+}

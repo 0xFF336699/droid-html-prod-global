@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "İptal etmek",
+    "ok": "Elbette",
+    "checkBoxText": "Doğrudan yarım ay içinde yetkilendirmeye gidin ve artık bu pencereyi göstermeyin",
+    "content": "Bu işlev yardımcı işlev yetkisi gerektirir. Yetkilendirmek istiyorsanız, lütfen [Tamam] 'ı tıklayın. Vazgeçmek istiyorsanız, lütfen [İptal] tıklayın",
+    "title": "Yetkilendirme Başvurusu"
+  },
+  "floatPermission": {
+    "cancel": "İptal etmek",
+    "ok": "Elbette",
+    "checkBoxText": "Doğrudan yarım ay içinde yetkilendirmeye gidin ve artık bu pencereyi göstermeyin",
+    "content": "Bu işlev yüzen pencere fonksiyonunun yetkilendirilmesini gerektirir. Yetkilendirmek istiyorsanız, lütfen [Tamam] 'ı tıklayın. Vazgeçmek istiyorsanız, lütfen [İptal] tıklayın",
+    "title": "Yetkilendirme Başvurusu"
+  }
+}

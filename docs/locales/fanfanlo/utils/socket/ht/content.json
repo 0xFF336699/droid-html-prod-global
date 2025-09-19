@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Konekte ...",
+    "connected": "Konekte",
+    "disconnecting": "Dekonekte ...",
+    "disconnected": "Pa konekte",
+    "waitRetry": "Ap tann pou rekoneksyon ..."
+  }
+}

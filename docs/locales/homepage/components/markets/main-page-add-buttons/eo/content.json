@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Aldoni al",
+    "sub": {
+      "addScriptByUrl": "Aldonu skriptojn per URL",
+      "addScriptByText": "Aldonu skriptojn per teksto",
+      "addMarket": "Aldonu merkaton per URL",
+      "addMarketByText": "Aldonu merkaton per teksto"
+    }
+  }
+}

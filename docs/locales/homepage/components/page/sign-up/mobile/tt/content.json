@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "теркәлү",
+    "phoneNumber": "Телефон номеры",
+    "phoneNumberPlaceholder": "Зинһар, кәрәзле телефон номерыгызны кертегез",
+    "verificationCode": "Тикшерү коды",
+    "verificationCodePlaceholder": "Зинһар, тикшерү кодын кертегез",
+    "getVerificationCode": "Тикшерү коды алыгыз",
+    "countdown": "{{секунд}} берничә секунд кабатлап карау",
+    "register": "теркәлү",
+    "errors": {
+      "phoneRequired": "Зинһар, кәрәзле телефон номерыгызны кертегез",
+      "phoneInvalid": "Кәрәзле телефон номеры дөрес түгел",
+      "codeRequired": "Зинһар, тикшерү кодын кертегез",
+      "codeInvalid": "Тикшерү коды форматы дөрес түгел",
+      "requestFailed": "Сорау уңышсыз",
+      "verificationFailed": "Тикшерү коды алу уңышсыз калды",
+      "loginFailed": "Логин уңышсыз"
+    },
+    "success": {
+      "verificationCodeSent": "Тикшерү коды җибәрелде",
+      "registerSuccess": "Уңышлы теркәлде"
+    }
+  }
+}

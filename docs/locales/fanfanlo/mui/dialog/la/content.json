@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Inrito",
+    "confirm": "Certus",
+    "title": "admoneo",
+    "content": "Certus tu vis hoc facere?"
+  },
+  "EditableText": {
+    "cancel": "Inrito",
+    "save": "salve",
+    "title": "edit"
+  }
+}

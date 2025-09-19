@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Chanm piblik",
+        "description": "Chanm piblik yo ka fouye pa lòt itilizatè yo"
+      },
+      "allowGuestJoin": {
+        "label": "Pèmèt vizitè yo rantre nan",
+        "description": "Pèmèt itilizatè anrejistre yo rantre nan sal la kòm yon envite"
+      },
+      "isEncrypted": {
+        "label": "Pèmèt fen-a-fen chifreman",
+        "description": "Lè pèmèt, mesaj nan sal la pral chiffres fen-a-fen",
+        "alert": "Se fen-a-fen chifreman pèmèt nan sal la, ak anviwònman sa a pa ka etenn."
+      },
+      "submit": "Sove anviwònman vi prive"
+    },
+    "toast": {
+      "success": "Anviwònman vi prive yo te mete ajou",
+      "error": "Echwe pou pou mete ajou anviwònman vi prive"
+    }
+  }
+}

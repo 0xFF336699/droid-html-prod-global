@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Saavutettavuusrajapinnan katselu",
+    "howToUse": "Käytettävä ohjeet",
+    "howToUseTooltip": "Alla on joitain tämän solmun merkintämääritteitä, joita voidaan käyttää toimintojen, kuten napsauttamisen, tekstin täyttämisen, valitsemiseen jne.\n\nAttribuutin arvo voidaan kopioida sovellussivulla. Jos kohtaat kaksoiskappaleet, peitä muut ominaisuusvalinnat ainutlaatuisuuden määrittämiseksi.\n\nPunainen sana osoittaa, että attribuutin arvo toistetaan, vihreä sana osoittaa, että attribuutin arvo on ainutlaatuinen nykyisessä sivuhaussa ja musta sana osoittaa, että toistuvaa vertailua ei ole.",
+    "otherNodesSummary": "Muut tämän sijainnin solmut",
+    "moreNodes": "Tässä on sitä, mitä laajennetaan.",
+    "nodeInfoDialogOkButton": "Tämän solmun muokkaustoiminta",
+    "text": "Teksti 2222"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Hilfsfunktionen",
+    "pass": "Autorisiert",
+    "notPass": "Nicht autorisiert",
+    "setting": "aufstellen",
+    "danger": "Gefahr",
+    "dangerDesc": "Diese Autorisierung kann Inhalte auf dem Bildschirm angezeigt und auf Ihr Telefon klicken. Deaktivieren Sie diese Berechtigung, wenn Sie die Funktionalität und Risiken des Skripts, das Sie ausführen oder ausgeführt haben, nicht explizit verstehen."
+  }
+}

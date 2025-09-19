@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "Ավելացնել շուկայում",
+    "url": "Շուկայի URL",
+    "summary": "Շուկայի ամփոփում",
+    "urlIsNotValid": "Սխալ շուկայի URL"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Tautea",
+    "confirm": "Pāpū",
+    "title": "hō'ai",
+    "content": "Te ti'aturi ra anei oe e, te hinaaro nei oe e rave i te reira?"
+  },
+  "EditableText": {
+    "cancel": "Tautea",
+    "save": "fa'aho'o",
+    "title": "Fārito"
+  }
+}

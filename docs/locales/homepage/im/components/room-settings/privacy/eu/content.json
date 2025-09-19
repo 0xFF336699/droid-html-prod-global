@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Gela Publikoa",
+        "description": "Logela publikoak beste erabiltzaile batzuen bila daitezke"
+      },
+      "allowGuestJoin": {
+        "label": "Baimendu bisitariei bat egitea",
+        "description": "Onartu erregistratu gabeko erabiltzaileak gelan gonbidatu gisa sartu ahal izateko"
+      },
+      "isEncrypted": {
+        "label": "Gaitu amaierako enkriptatzea",
+        "description": "Gaituta dagoenean, gelako mezuak enkriptatuko dira amaiera amaieran",
+        "alert": "Amaierako enkriptazioa gelan gaituta dago eta ezarpen hau ezin da desaktibatu."
+      },
+      "submit": "Gorde pribatutasun-ezarpenak"
+    },
+    "toast": {
+      "success": "Pribatutasun-ezarpenak eguneratu dira",
+      "error": "Ezin izan da pribatutasun-ezarpenak eguneratu"
+    }
+  }
+}

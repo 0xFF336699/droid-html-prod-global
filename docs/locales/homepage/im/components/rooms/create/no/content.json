@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Lag et rom"
+    },
+    "dialog": {
+      "title": "Lag et nytt rom",
+      "form": {
+        "userId": {
+          "label": "Bruker -ID",
+          "placeholder": "Skriv inn bruker -IDen (for eksempel: @User: Eksempel.com)",
+          "error": {
+            "required": "Bruker -ID kan ikke være tom",
+            "invalid": "Ugyldig bruker -ID -format"
+          }
+        },
+        "roomName": {
+          "label": "Romnavn (valgfritt)",
+          "placeholder": "Skriv inn et romnavn"
+        },
+        "isEncrypted": {
+          "label": "Aktiver enskryptering ende til ende"
+        },
+        "isDirect": {
+          "label": "Direkte melding"
+        },
+        "topic": {
+          "label": "Tema (valgfritt)",
+          "placeholder": "Skriv inn romtemaet"
+        }
+      },
+      "actions": {
+        "cancel": "Kansellere",
+        "create": "skape"
+      },
+      "success": "Romoppretting vellykket",
+      "error": "Det oppstod en feil mens du oppretter et rom: {feil}"
+    }
+  }
+}

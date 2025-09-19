@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "fêhrist",
+    "phoneNumber": "Jimare telefon",
+    "phoneNumberPlaceholder": "Ji kerema xwe hejmara telefona desta xwe binivîse",
+    "verificationCode": "Koda verastkirinê",
+    "verificationCodePlaceholder": "Ji kerema xwe kodê verastkirinê binivîse",
+    "getVerificationCode": "Koda verastkirinê bistînin",
+    "countdown": "{{seconds}} SULCYSTS DUYAN BIKIN",
+    "register": "fêhrist",
+    "errors": {
+      "phoneRequired": "Ji kerema xwe hejmara telefona desta xwe binivîse",
+      "phoneInvalid": "Formata Hejmara Telefonê ya Mobîl şaş e",
+      "codeRequired": "Ji kerema xwe kodê verastkirinê binivîse",
+      "codeInvalid": "Forma kodê verastkirinê çewt e",
+      "requestFailed": "Daxwaz têk çû",
+      "verificationFailed": "Qedexekirina Koda Verastkirinê bi ser neket",
+      "loginFailed": "Têkeftin têk çû"
+    },
+    "success": {
+      "verificationCodeSent": "Koda verastkirinê hatî şandin",
+      "registerSuccess": "Bi serfirazî hate tomar kirin"
+    }
+  }
+}

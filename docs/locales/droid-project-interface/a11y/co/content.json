@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "opera",
+    "click": "Cliccate",
+    "longClick": "Long pressu",
+    "setText": "Set text",
+    "tryClick": "Pruvà elementu o locu cliccate",
+    "globalClick": "Situazione cliccate"
+  }
+}

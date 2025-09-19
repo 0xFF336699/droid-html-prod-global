@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Oanmelde / Registrearje",
+    "signOut": "Útlogge",
+    "confirmContent": "Binne jo wis dat jo wolle ôfmelde?",
+    "confirmTitle": "wink",
+    "confirm": "Wis",
+    "cancel": "Opheffe",
+    "signoutOk": "Útlogge",
+    "loadingData": "Laden fan brûkersgegevens"
+  }
+}

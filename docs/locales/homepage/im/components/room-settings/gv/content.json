@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Sliaghtyn",
+    "tabs": {
+      "basic": "Cummaghyn bunneydagh",
+      "permission": "Settadyn obbyr",
+      "privacy": "Cummaghyn privee",
+      "member": "Riaghlagh"
+    },
+    "loadError": "Cha nel eh ry-gheddyn son roomyn-load",
+    "leaveRoom": {
+      "button": "Exit yn room",
+      "confirm": "Vel oo shickyr dy vel oo er n'eiyrt magh ass y room? As lurg dhyt goll magh, cha bee oo ry-hoi goaill stiagh y room shoh.",
+      "success": "Exited y room dy mie",
+      "error": "Cha nel mee er n'eiyrt magh ass y room, cur-my-ner reesht"
+    }
+  }
+}

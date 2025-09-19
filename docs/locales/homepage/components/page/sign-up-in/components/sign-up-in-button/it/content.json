@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Accedi/Registro",
+    "signOut": "Disconnettersi",
+    "confirmContent": "Sei sicuro di voler disconnetterti?",
+    "confirmTitle": "suggerimento",
+    "confirm": "Sicuro",
+    "cancel": "Cancellare",
+    "signoutOk": "Disconnettersi",
+    "loadingData": "Caricamento dei dati dell'utente"
+  }
+}

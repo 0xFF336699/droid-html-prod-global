@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Cancel·lar",
+    "ok": "Segur",
+    "checkBoxText": "Aneu directament per autoritzar -lo en mig mig mes i ja no mostreu aquesta finestra",
+    "content": "Aquesta funció requereix l’autorització de la funció auxiliar. Si voleu autoritzar, feu clic a [D'acord]. Si voleu renunciar, feu clic a [Cancel·la]",
+    "title": "Sol·licitud d’autorització"
+  },
+  "floatPermission": {
+    "cancel": "Cancel·lar",
+    "ok": "Segur",
+    "checkBoxText": "Aneu directament per autoritzar -lo en mig mig mes i ja no mostreu aquesta finestra",
+    "content": "Aquesta funció requereix l’autorització de la funció de la finestra flotant. Si voleu autoritzar, feu clic a [D'acord]. Si voleu renunciar, feu clic a [Cancel·la]",
+    "title": "Sol·licitud d’autorització"
+  }
+}

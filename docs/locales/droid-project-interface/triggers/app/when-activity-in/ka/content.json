@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "მითითებულ გვერდზე შესვლისას",
+    "pnLabel": "პაკეტის სახელი:",
+    "anLabel": "საქმიანობის სახელი:",
+    "cnLabel": "კლასის სახელი:",
+    "changeBtnLabel": "შეცვლა"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "მითითებულ გვერდზე შესვლისას",
+    "pnLabel": "პაკეტის სახელი:",
+    "anLabel": "საქმიანობის სახელი:",
+    "cnLabel": "კლასის სახელი:",
+    "changeBtnLabel": "შეცვლა"
+  }
+}

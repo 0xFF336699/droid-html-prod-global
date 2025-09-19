@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Aw ka to jɛɲɔgɔnya la .",
+        "helperText": "Ni i ye daminɛ yɔrɔ digi, o tuma na, i ka yɔrɔ digi. O b’a ɲini ka jateminɛ kɛ ko jɛgɛnsira bɛna segin ka don ɲɔgɔn na tuma bɛɛ a tigɛlen kɔfɛ.",
+        "retryCount": "Reconnectionw hakɛ ."
+      },
+      "url": {
+        "name": "URL .",
+        "helperText": "Link URL, misali la ws://192.168.0.2:7001, walima wws://example.com/path",
+        "error": "URL ɲuman ye URL ye min bɛ daminɛ ni ws:// walima wws:// ye ."
+      }
+    },
+    "connectButton": {
+      "connect": "ka kɔnɛkite",
+      "disconnect": "Disconnect .",
+      "status": {
+        "connecting": "Connecting...",
+        "connected": "Jɛɲɔgɔnya bɛ kɛ .",
+        "disconnecting": "Disconnecting...",
+        "disconnected": "A ma jɛ .",
+        "waitRetry": "A bɛ makɔnɔni na ka ɲɛsin ɲɔgɔndan ma..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "sɛbɛnni"
+  }
+}

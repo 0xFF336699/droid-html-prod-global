@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "چلول",
+    "click": "کلیک",
+    "longClick": "اوږد مطبوعات",
+    "setText": "متن وټاکئ",
+    "tryClick": "د عنصر یا موقعیت هڅه وکړئ",
+    "globalClick": "موقعیت ټک"
+  }
+}

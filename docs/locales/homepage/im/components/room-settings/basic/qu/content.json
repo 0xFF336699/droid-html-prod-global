@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Habitación Nombre ."
+      },
+      "topic": {
+        "label": "Habitación Riqsichikuy ."
+      },
+      "avatar": {
+        "alt": "Habitación Avatar ."
+      },
+      "submit": "Waqaychay Ajustes ."
+    },
+    "toast": {
+      "success": "Ajustes actualizados .",
+      "error": {
+        "default": "Kunanchay churanakuna mana atisqa .",
+        "avatar": "Avatarta musuqchayta atispa mana atirqanchu."
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "MemberDetailContent": {
+    "title": "メンバーの詳細",
+    "nickname": "ニックネーム",
+    "role": "役割",
+    "kick": "キックアウト",
+    "ban": "禁止"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Burin",
+    "ok": "Hubanti ah",
+    "checkBoxText": "Si toos ah u soco si aad u oggolaato nus bil gudahood oo mar dambe soo bandhigin daaqaddan",
+    "content": "Hawshani waxay u baahan tahay oggolaansho hawleed oo kaaliye ah. Haddii aad rabto inaad oggolaato, fadlan dhagsii [ok]. Haddii aad rabto inaad ka tanaasusho, fadlan guji [Cancel]",
+    "title": "Codsiga Oggolaanshaha"
+  },
+  "floatPermission": {
+    "cancel": "Burin",
+    "ok": "Hubanti ah",
+    "checkBoxText": "Si toos ah u soco si aad u oggolaato nus bil gudahood oo mar dambe soo bandhigin daaqaddan",
+    "content": "Hawshani waxay u baahan tahay oggolaansho hawsha daaqadda dul sabeynaya. Haddii aad rabto inaad oggolaato, fadlan dhagsii [ok]. Haddii aad rabto inaad ka tanaasusho, fadlan guji [Cancel]",
+    "title": "Codsiga Oggolaanshaha"
+  }
+}

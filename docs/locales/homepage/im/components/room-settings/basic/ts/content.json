@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Vito ra kamara ."
+      },
+      "topic": {
+        "label": "Xingheniso xa kamara ."
+      },
+      "avatar": {
+        "alt": "Avatar ya kamara ."
+      },
+      "submit": "Hlayisa Switirhisiwa ."
+    },
+    "toast": {
+      "success": "Switirhisiwa Swi pfuxetiwile .",
+      "error": {
+        "default": "Switirhisiwa swa ku pfuxeta swi tsandzekile .",
+        "avatar": "Ku tsandzekile ku pfuxeta Avatar ."
+      }
+    }
+  }
+}

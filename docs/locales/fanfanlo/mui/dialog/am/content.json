@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "ይቅር",
+    "confirm": "እርግጠኛ",
+    "title": "ፍንጭ",
+    "content": "እርግጠኛ ነዎት ይህንን ማድረግ ይፈልጋሉ?"
+  },
+  "EditableText": {
+    "cancel": "ይቅር",
+    "save": "አስቀምጥ",
+    "title": "አርትዕ"
+  }
+}

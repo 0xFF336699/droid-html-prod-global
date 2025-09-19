@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "మార్కెట్‌కు జోడించండి",
+    "url": "మార్కెట్ URL",
+    "summary": "మార్కెట్ సారాంశం",
+    "urlIsNotValid": "తప్పు మార్కెట్ URL"
+  }
+}

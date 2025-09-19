@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "hello yeeso ngoo",
+    "me": "je am",
+    "settings": "taskugo",
+    "script": "windol",
+    "store": "lumo",
+    "market": "lumo",
+    "create": "taggugo"
+  },
+  "tabbar": {
+    "test": "Bottom Menu Bar"
+  }
+}

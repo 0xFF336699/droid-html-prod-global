@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Conectando ...",
+    "connected": "Conectado",
+    "disconnecting": "Desconectarse ...",
+    "disconnected": "Non conectado",
+    "waitRetry": "Agardando a reconexión ..."
+  }
+}

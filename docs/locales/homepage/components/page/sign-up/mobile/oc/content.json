@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "s'inscriure",
+    "phoneNumber": "Numèro de telefòn",
+    "phoneNumberPlaceholder": "Picatz vòstre numèro de telefòn mobil .",
+    "verificationCode": "còdi de verificacion",
+    "verificationCodePlaceholder": "Picatz lo còde de verificacion",
+    "getVerificationCode": "Obtener lo còde de verificacion",
+    "countdown": "{{segonds}} segondas per tornar ensajar .",
+    "register": "s'inscriure",
+    "errors": {
+      "phoneRequired": "Picatz vòstre numèro de telefòn mobil .",
+      "phoneInvalid": "Lo format de numèro de telefòn mobil es incorrècte .",
+      "codeRequired": "Picatz lo còde de verificacion",
+      "codeInvalid": "Lo format de còde de verificacion es incorrècte .",
+      "requestFailed": "Demanda fracassada .",
+      "verificationFailed": "L'adquisicion de còde de verificacion fracassèt .",
+      "loginFailed": "Login fracassèt ."
+    },
+    "success": {
+      "verificationCodeSent": "Lo còde de verificacion es estat enviat .",
+      "registerSuccess": "Inscrich amb succès"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "kayıt olmak",
+    "phoneNumber": "Telefon numarası",
+    "phoneNumberPlaceholder": "Lütfen cep telefonu numaranızı girin",
+    "verificationCode": "Doğrulama Kodu",
+    "verificationCodePlaceholder": "Lütfen doğrulama kodunu girin",
+    "getVerificationCode": "Doğrulama Kodunu Alın",
+    "countdown": "tekrar denemek için {{saniye}} saniye",
+    "register": "kayıt olmak",
+    "errors": {
+      "phoneRequired": "Lütfen cep telefonu numaranızı girin",
+      "phoneInvalid": "Cep telefonu numarası formatı yanlış",
+      "codeRequired": "Lütfen doğrulama kodunu girin",
+      "codeInvalid": "Doğrulama kodu biçimi yanlış",
+      "requestFailed": "İstek başarısız oldu",
+      "verificationFailed": "Doğrulama kodu edinimi başarısız oldu",
+      "loginFailed": "giriş başarısız oldu"
+    },
+    "success": {
+      "verificationCodeSent": "Doğrulama kodu gönderildi",
+      "registerSuccess": "Başarıyla kayıtlı"
+    }
+  }
+}

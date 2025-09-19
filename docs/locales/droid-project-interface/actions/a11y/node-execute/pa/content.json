@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "ਨੋਡ ਫਾਂਸੀ",
+    "changeBtnLabel": "ਬਦਲੋ",
+    "showNodeAllProperties": "ਸਾਰੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦਿਖਾਓ",
+    "wait": {
+      "time": "ਇੰਤਜ਼ਾਰ ਦਾ ਸਮਾਂ",
+      "interval": "ਇੰਤਜ਼ਾਰ ਅੰਤਰਾਲ",
+      "invisible": "ਕੀ ਸਕਰੀਨ ਤੋਂ ਬਾਹਰ ਤੱਤ ਖੋਜਣੇ ਹਨ"
+    }
+  }
+}

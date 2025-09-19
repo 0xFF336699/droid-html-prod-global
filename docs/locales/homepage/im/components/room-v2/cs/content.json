@@ -1,0 +1,7 @@
+{
+  "RoomContentV2": {
+    "waitingForLogin": "Nejprve se přihlaste",
+    "loadingRoomInfo": "Informace o načítání místnosti ...",
+    "roomNotFound": "Pokoj nebyl nalezen"
+  }
+}

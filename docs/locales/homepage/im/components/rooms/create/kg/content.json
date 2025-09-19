@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Sala suku"
+    },
+    "dialog": {
+      "title": "Sala suku ya mpa",
+      "form": {
+        "userId": {
+          "label": "ID ya muntu ya ke sadila",
+          "placeholder": "Kota na ID ya muntu yina ke sadila yo (mu mbandu: @user:mbandu.com)",
+          "error": {
+            "required": "ID ya muntu yina ke sadila yo lenda vanda ve mpamba",
+            "invalid": "Mutindu ya ID ya muntu yina ke sadilaka yo ve"
+          }
+        },
+        "roomName": {
+          "label": "Zina ya suku (ya kupona)",
+          "placeholder": "Sonika zina ya suku"
+        },
+        "isEncrypted": {
+          "label": "Kupesa nzila na encryption ya nsuka-nsuka"
+        },
+        "isDirect": {
+          "label": "Nsangu ya mbala mosi"
+        },
+        "topic": {
+          "label": "Ntu-dyambu (ya kupona)",
+          "placeholder": "Kota na ntu-dyambu ya suku"
+        }
+      },
+      "actions": {
+        "cancel": "Kukatula",
+        "create": "kuganga"
+      },
+      "success": "Kusala ya suku kenunga mbote",
+      "error": "Kifu mosi me salama ntangu nge ke sala suku: {kifu}"
+    }
+  }
+}

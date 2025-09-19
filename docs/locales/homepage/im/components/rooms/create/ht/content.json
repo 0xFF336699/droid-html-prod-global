@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Kreye yon chanm"
+    },
+    "dialog": {
+      "title": "Kreye yon nouvo chanm",
+      "form": {
+        "userId": {
+          "label": "ID itilizatè",
+          "placeholder": "Antre ID itilizatè a (pa egzanp: @user: example.com)",
+          "error": {
+            "required": "ID itilizatè pa ka vid",
+            "invalid": "Fòma ID itilizatè valab"
+          }
+        },
+        "roomName": {
+          "label": "Non chanm (si ou vle)",
+          "placeholder": "Mete yon non chanm"
+        },
+        "isEncrypted": {
+          "label": "Pèmèt fen-a-fen chifreman"
+        },
+        "isDirect": {
+          "label": "Mesaj dirèk"
+        },
+        "topic": {
+          "label": "Tèm (Si ou vle)",
+          "placeholder": "Antre nan tèm nan chanm"
+        }
+      },
+      "actions": {
+        "cancel": "Anile",
+        "create": "kreye"
+      },
+      "success": "Kreyasyon chanm avèk siksè",
+      "error": "Yon erè ki te fèt pandan y ap kreye yon chanm: {erè}"
+    }
+  }
+}

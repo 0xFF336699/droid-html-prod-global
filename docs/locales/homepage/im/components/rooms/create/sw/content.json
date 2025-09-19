@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Unda chumba"
+    },
+    "dialog": {
+      "title": "Unda chumba kipya",
+      "form": {
+        "userId": {
+          "label": "Kitambulisho cha Mtumiaji",
+          "placeholder": "Ingiza kitambulisho cha mtumiaji (kwa mfano: @user: mfano.com)",
+          "error": {
+            "required": "Kitambulisho cha mtumiaji hakiwezi kuwa tupu",
+            "invalid": "Fomati batili ya Kitambulisho cha Mtumiaji"
+          }
+        },
+        "roomName": {
+          "label": "Jina la chumba (hiari)",
+          "placeholder": "Ingiza jina la chumba"
+        },
+        "isEncrypted": {
+          "label": "Wezesha usimbuaji wa mwisho-mwisho"
+        },
+        "isDirect": {
+          "label": "Ujumbe wa moja kwa moja"
+        },
+        "topic": {
+          "label": "Mandhari (hiari)",
+          "placeholder": "Ingiza mandhari ya chumba"
+        }
+      },
+      "actions": {
+        "cancel": "Ghairi",
+        "create": "Unda"
+      },
+      "success": "Uundaji wa chumba kwa mafanikio",
+      "error": "Hitilafu ilitokea wakati wa kuunda chumba: {kosa}"
+    }
+  }
+}

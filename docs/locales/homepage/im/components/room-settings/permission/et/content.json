@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Sõnumi saatmiseks vajalik loatase",
+        "tooltip": "0 tähendab, et kõik liikmed saavad sõnumeid saata ja mida suurem arv tähendab, et on vaja kõrgemaid õigusi"
+      },
+      "invite": {
+        "label": "Uute liikmete kutsumiseks vajalik lubade tase",
+        "tooltip": "Seadke, kes saavad uusi liikmeid tuppa kutsuda"
+      },
+      "kick": {
+        "label": "Lükake välja nõutav lubade tase",
+        "tooltip": "Seadke, kes saavad toa liikmed välja lüüa"
+      },
+      "ban": {
+        "label": "Liikmete blokeerimiseks vajalik loatase",
+        "tooltip": "Seadke, kes saavad ruumi liikmeid blokeerida"
+      },
+      "roomSettings": {
+        "label": "Muutke ruumi seadete nõutavat lubade taset",
+        "tooltip": "Seadke, kes saab ruumi seadeid muuta"
+      },
+      "submit": "Salvestage loa sätted"
+    },
+    "description": "Loataseme vahemik: 0-100, seda suurem arv tähendab kõrgemaid lubasid",
+    "toast": {
+      "success": "Loa sätteid on värskendatud",
+      "error": "Lubade sätete värskendamine ebaõnnestus"
+    }
+  }
+}

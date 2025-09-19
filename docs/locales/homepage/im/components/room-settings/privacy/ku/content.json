@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Odeya giştî",
+        "description": "Odeyên giştî dikarin ji hêla bikarhênerên din ve bêne lêgerîn"
+      },
+      "allowGuestJoin": {
+        "label": "Destûr bidin mêvanan",
+        "description": "Destûr bidin bikarhênerên nehatine qeyd kirin ku beşdarî odeyê bibin wekî mêvan"
+      },
+      "isEncrypted": {
+        "label": "Şîfrekirina dawiya-end-end-ê çalak bikin",
+        "description": "Dema ku çalakkirî, peyamên li odeyê dê dawiya-end-end-ê were şîfre kirin",
+        "alert": "Di odeyê de şîfrekirina end-to-end tête çalak kirin, û ev mîheng nikare were zivirandin."
+      },
+      "submit": "Mîhengên nepenîtiyê hilînin"
+    },
+    "toast": {
+      "success": "Mîhengên nepenîtiyê nûve kirin",
+      "error": "Mîhengên nepenîtiyê nûve nekir"
+    }
+  }
+}

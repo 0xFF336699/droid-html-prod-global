@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Kamarnavn"
+      },
+      "topic": {
+        "label": "Inngangur"
+      },
+      "avatar": {
+        "alt": "Kamaravatar"
+      },
+      "submit": "Goym innstillingar"
+    },
+    "toast": {
+      "success": "Innstillingar dagførdar",
+      "error": {
+        "default": "Dagføringar innstillingar miseydnaðust",
+        "avatar": "Mislaði ikki at dagføra avatar"
+      }
+    }
+  }
+}

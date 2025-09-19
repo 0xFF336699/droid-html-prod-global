@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Igama Lendawo",
+    "viewMap": "Bheka imephu",
+    "close": "ukuvala"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Isiphequluli samanje asisekeli ukutholwa kwe-geolocation",
+    "getLocationFailed": "Yehlulekile ukuthola indawo, sicela uhlole izilungiselelo zemvume",
+    "myLocation": "Indawo Yami",
+    "shareLocation": "Yabelana ngendawo",
+    "getCurrentLocation": "Thola indawo yamanje",
+    "title": "Igama Lendawo",
+    "description": "Incazelo eningilizayo",
+    "descriptionPlaceholder": "Sicela ufake incazelo eningiliziwe (ngokuzithandela)",
+    "preview": "Ukubuka kwendawo",
+    "latitude": "ukukhulu kwaba ngobuso",
+    "longitude": "umandla",
+    "cancel": "Hlikihla",
+    "send": "thuma",
+    "permissionPrompt": "Sidinga ukuthola imininingwane yendawo yakho ukuhlinzeka ngezinsizakalo ezingcono, kuvunyelwe?",
+    "permissionDenied": "Imvume yokubeka isikhundla iyaliwe, sicela unike amandla imvume kuzilungiselelo zesiphequluli sakho",
+    "locationTimeout": "Ukubeka isikhathi sokuphuma, qiniseka ukuthi idivaysi ivuliwe futhi izame ukuvuselela",
+    "locationUnavailable": "Indawo yamanje ayitholakali, sicela ubheke insiza yendawo yedivayisi"
+  }
+}

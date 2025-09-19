@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Socruithe seomra",
+    "tabs": {
+      "basic": "Socruithe Bunúsacha",
+      "permission": "Socruithe Cead",
+      "privacy": "Socruithe Príobháideachta",
+      "member": "Bainistíocht ball"
+    },
+    "loadError": "Theip ar shuíomhanna seomra a luchtú",
+    "leaveRoom": {
+      "button": "Scoir an seomra",
+      "confirm": "An bhfuil tú cinnte gur mhaith leat an seomra a fhágáil? Tar éis duit imeacht, ní bheidh tú in ann leanúint ar aghaidh ag fáil teachtaireachtaí ón seomra seo.",
+      "success": "D'éirigh go maith leis an seomra",
+      "error": "Theip ar an seomra a fhágáil, bain triail eile as"
+    }
+  }
+}

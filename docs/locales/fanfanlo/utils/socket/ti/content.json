@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "ምትእስሳር...",
+    "connected": "ዝተኣሳሰር",
+    "disconnecting": "ምቁራጽ...",
+    "disconnected": "ዘይተኣሳሰር",
+    "waitRetry": "ዳግማይ ምትእስሳር ምጽባይ..."
+  }
+}

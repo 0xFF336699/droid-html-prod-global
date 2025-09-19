@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Rumsinställningar",
+    "tabs": {
+      "basic": "Grundläggande inställningar",
+      "permission": "Tillståndsinställningar",
+      "privacy": "Sekretessinställningar",
+      "member": "Medlemsledning"
+    },
+    "loadError": "Det gick inte att ladda ruminställningar",
+    "leaveRoom": {
+      "button": "Lämna rummet",
+      "confirm": "Är du säker på att du vill lämna rummet? När du har lämnat kommer du inte att kunna fortsätta ta emot meddelanden från det här rummet.",
+      "success": "Lämnade rummet framgångsrikt",
+      "error": "Det gick inte att lämna rummet, försök igen"
+    }
+  }
+}

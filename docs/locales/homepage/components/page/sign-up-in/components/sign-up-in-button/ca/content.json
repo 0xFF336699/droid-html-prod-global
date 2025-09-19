@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Inici de sessió/Registre",
+    "signOut": "Tancar la sessió",
+    "confirmContent": "Esteu segur que voleu iniciar la sessió?",
+    "confirmTitle": "insinuació",
+    "confirm": "Segur",
+    "cancel": "Cancel·lar",
+    "signoutOk": "Tancar la sessió",
+    "loadingData": "Carregant les dades de l'usuari"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "Skráðu þig",
+    "phoneNumber": "Símanúmer",
+    "phoneNumberPlaceholder": "Vinsamlegast sláðu inn farsímanúmerið þitt",
+    "verificationCode": "Staðfestingarkóði",
+    "verificationCodePlaceholder": "Vinsamlegast sláðu inn staðfestingarkóðann",
+    "getVerificationCode": "Fáðu staðfestingarkóðann",
+    "countdown": "{{sekúndur}} sekúndur til að reyna aftur",
+    "register": "Skráðu þig",
+    "errors": {
+      "phoneRequired": "Vinsamlegast sláðu inn farsímanúmerið þitt",
+      "phoneInvalid": "Farsímanúmerið er rangt",
+      "codeRequired": "Vinsamlegast sláðu inn staðfestingarkóðann",
+      "codeInvalid": "Staðfestingarkóðasniðið er rangt",
+      "requestFailed": "Beiðni mistókst",
+      "verificationFailed": "Staðfestingarkóðakaup mistókst",
+      "loginFailed": "Innskráning mistókst"
+    },
+    "success": {
+      "verificationCodeSent": "Staðfestingarkóði hefur verið sendur",
+      "registerSuccess": "Skráð með góðum árangri"
+    }
+  }
+}

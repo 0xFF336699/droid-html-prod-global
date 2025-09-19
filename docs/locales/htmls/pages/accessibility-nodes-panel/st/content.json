@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Ho shebella ntho e fumanehang",
+    "howToUse": "Litaelo tsa ho sebelisoa",
+    "howToUseTooltip": "Ka tlase ke litšobotsi tse ling tsa node ena tse ka sebelisoang ho khetha lits'ebetso tse kang ho tobetsa, ho tlatsa mongolo, jj.\n\nBoleng ba boleng bo ka 'na ba kopitsoa leqepheng la App. Haeba u kopana le likopo tse ngata, ka kopo tlola sehlahisoa se seng se tsoang ho tseba botumo.\n\nLentsoe le khubelu le supa hore boleng ba semelo bo phetoa, lentsoe le tala le bontša hore boleng bo botala bo supa hore na ho na le papiso e phetoang hangata.",
+    "otherNodesSummary": "Li-node tse ling sebakeng sena",
+    "moreNodes": "Sena ke sona se ntseng se atolosoa.",
+    "nodeInfoDialogOkButton": "Edita ts'ebetso ea node ena",
+    "text": "Mongolo 2222"
+  }
+}

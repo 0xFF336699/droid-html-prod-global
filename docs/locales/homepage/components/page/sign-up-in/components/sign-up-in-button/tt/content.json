@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Керү / Регистр",
+    "signOut": "Чыгу",
+    "confirmContent": "Сез чыгарга телисезме?",
+    "confirmTitle": "ишарә",
+    "confirm": "Ышанычлы",
+    "cancel": "Бетерү",
+    "signoutOk": "Чыгу",
+    "loadingData": "Кулланучының мәгълүматларын йөкләү"
+  }
+}

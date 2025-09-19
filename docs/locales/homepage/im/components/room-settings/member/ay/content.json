@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Miembronak thaqhaña ."
+    },
+    "table": {
+      "columns": {
+        "name": "Miembro Suti .",
+        "userId": "Usuario ID ukax .",
+        "actions": "Operar ."
+      },
+      "pagination": {
+        "rowsPerPage": "Jakhuwix sapa pankankiwa ."
+      },
+      "avatar": {
+        "alt": "Avatar ."
+      },
+      "actions": {
+        "kick": "Ukajj wali chʼamawa.",
+        "ban": "Banned ."
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Uka kicking miembro ukarux chiqanchañamawa .",
+        "content": "¿Uka miembrorux uka cuartot jaqunukuñ munasmati?"
+      },
+      "ban": {
+        "title": "Uka jark’at miembro ukarux chiqanchañamawa .",
+        "content": "¿Aka miembror jark’añ munasmati? Uka miembrox janiw uka jark’äw tukuyatatx ​​cuarto ukar wasitat mantañ atkaniti."
+      },
+      "buttons": {
+        "cancel": "Kansilaña",
+        "confirm": "iyawsaña"
+      }
+    },
+    "toast": {
+      "loadError": "Janiw lista de miembros ukar apkatañjamäkiti .",
+      "kick": {
+        "success": "Miembronakax uka cuartot jaqunukutaw uñjasipxi .",
+        "error": "Qalltankirinakax miembronakaruw jan phuqhawaykiti ."
+      },
+      "ban": {
+        "success": "Miembronakax bloqueatapxiwa .",
+        "error": "Miembronakax jan jark’antatäpk ukanakax ."
+      }
+    },
+    "invite": {
+      "button": "Invittʼaña Miembronaka .",
+      "title": "Miembronakaruw jawst’añama, ukhamat cuarto ukar mantapxañapataki .",
+      "inputLabel": "Matrix user ID (kunjamakitix @user:matrix.org) ukar qillqt’asiñamawa.",
+      "confirm": "jawillt'aña",
+      "cancel": "Kansilaña",
+      "loading": "Invitting ukax...",
+      "success": "¡Invitacionax khithatawa!",
+      "error": "Invitación ukax janiw phuqhaskiti, ID de usuario jan ukax permisos ukar uñakipt’añamawa ."
+    },
+    "empty": "Janiw mä miembrojj utjkiti .",
+    "loading": "Ukax...",
+    "role": {
+      "owner": "Utachjiri .",
+      "admin": "Administrador ukaxa 1.1.",
+      "moderator": "Co-gestión ukax 1.1.",
+      "user": "Miembro ."
+    }
+  }
+}

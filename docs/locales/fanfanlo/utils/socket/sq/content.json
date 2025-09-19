@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Lidhja ...",
+    "connected": "I lidhur",
+    "disconnecting": "Shkëputja ...",
+    "disconnected": "Nuk lidhet",
+    "waitRetry": "Në pritje të rilidhjes ..."
+  }
+}

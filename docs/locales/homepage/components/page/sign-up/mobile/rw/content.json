@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "kwiyandikisha",
+    "phoneNumber": "Nimero ya terefone",
+    "phoneNumberPlaceholder": "Nyamuneka andika numero yawe ya terefone igendanwa",
+    "verificationCode": "Kode yo kugenzura",
+    "verificationCodePlaceholder": "Nyamuneka andika kode yo kugenzura",
+    "getVerificationCode": "Shaka kode yo kugenzura",
+    "countdown": "{{amasegonda}}}}",
+    "register": "kwiyandikisha",
+    "errors": {
+      "phoneRequired": "Nyamuneka andika numero yawe ya terefone igendanwa",
+      "phoneInvalid": "Numero ya terefone igendanwa ntabwo aribyo",
+      "codeRequired": "Nyamuneka andika kode yo kugenzura",
+      "codeInvalid": "Imiterere ya kode yo kugenzura ntabwo aribyo",
+      "requestFailed": "Gusaba byarananiranye",
+      "verificationFailed": "Kugura kode yananiwe",
+      "loginFailed": "Kwinjira byarananiranye"
+    },
+    "success": {
+      "verificationCodeSent": "Kode yo kugenzura yoherejwe",
+      "registerSuccess": "Kwiyandikisha neza"
+    }
+  }
+}

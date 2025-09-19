@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Вход/Регистрация",
+    "signOut": "Излезте",
+    "confirmContent": "Сигурни ли сте, че искате да излезете?",
+    "confirmTitle": "намек",
+    "confirm": "Сигурно",
+    "cancel": "Отказ",
+    "signoutOk": "Излезте",
+    "loadingData": "Зареждане на потребителски данни"
+  }
+}

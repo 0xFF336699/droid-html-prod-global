@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Swiyimiso swa kamara .",
+    "tabs": {
+      "basic": "Switirhisiwa swa xisekelo .",
+      "permission": "Switirhisiwa swa mpfumelelo .",
+      "privacy": "Switirhisiwa swa Vuhlayiseki bya Xihundla .",
+      "member": "Vufambisi bya Swirho ."
+    },
+    "loadError": "Ku tsandzekile ku layicha swiyimiso swa kamara .",
+    "leaveRoom": {
+      "button": "Ku huma ekamareni .",
+      "confirm": "Xana u tiyisile leswaku u lava ku huma ekamareni? Endzhaku ka loko u humile, a wu nge swi koti ku ya emahlweni u amukela marungula lama humaka ekamareni leri.",
+      "success": "U humile ekamareni hi ndlela leyi humelelaka .",
+      "error": "Ku tsandzeka ku huma ekamareni, hi kombela u ringeta nakambe ."
+    }
+  }
+}

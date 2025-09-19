@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Node execution",
+    "changeBtnLabel": "replace",
+    "showNodeAllProperties": "Show all properties",
+    "wait": {
+      "time": "Waiting time",
+      "interval": "Waiting interval",
+      "invisible": "Whether to detect elements outside the screen"
+    }
+  }
+}

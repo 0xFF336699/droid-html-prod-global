@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Kapag pumapasok sa tinukoy na pahina",
+    "pnLabel": "Pangalan ng Package:",
+    "anLabel": "Pangalan ng Aktibidad:",
+    "cnLabel": "Pangalan ng Klase:",
+    "changeBtnLabel": "Palitan"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Kapag pumapasok sa tinukoy na pahina",
+    "pnLabel": "Pangalan ng Package:",
+    "anLabel": "Pangalan ng Aktibidad:",
+    "cnLabel": "Pangalan ng Klase:",
+    "changeBtnLabel": "Palitan"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "ರದ್ದುಮಾಡು",
+    "confirm": "ಖಚಿತ",
+    "title": "ಸುಳಿವು",
+    "content": "ನೀವು ಇದನ್ನು ಮಾಡಲು ಬಯಸುತ್ತೀರಾ?"
+  },
+  "EditableText": {
+    "cancel": "ರದ್ದುಮಾಡು",
+    "save": "ಉಳಿಸು",
+    "title": "ಸಂಪಾದಿಸು"
+  }
+}

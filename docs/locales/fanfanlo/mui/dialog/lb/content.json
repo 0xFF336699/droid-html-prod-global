@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Ofbriechen",
+    "confirm": "Sonndesrei",
+    "title": "nachblëtz",
+    "content": "Sidd Dir sécher, datt Dir dëst maache wëllt?"
+  },
+  "EditableText": {
+    "cancel": "Ofbriechen",
+    "save": "spuerwäit",
+    "title": "ÄnnT änneren"
+  }
+}

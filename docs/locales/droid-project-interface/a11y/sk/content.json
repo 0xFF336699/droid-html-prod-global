@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "prevádzkovať",
+    "click": "Kliknutie",
+    "longClick": "Dlhá tlač",
+    "setText": "Nastavený text",
+    "tryClick": "Vyskúšajte prvok alebo umiestnenie Kliknite",
+    "globalClick": "Poloha Kliknutím"
+  }
+}

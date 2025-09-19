@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Ingoa Wāhi",
+    "viewMap": "Tirohia te Mahere",
+    "close": "kapinga"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Ko te kaitirotiro o naianei kaore e tautoko i te hoko geolocation",
+    "getLocationFailed": "I rahua te tiki i te waahi, tirohia koa nga tautuhinga whakaaetanga",
+    "myLocation": "Toku waahi",
+    "shareLocation": "Te waahi waahi",
+    "getCurrentLocation": "Tikina te waahi o naianei",
+    "title": "Ingoa Wāhi",
+    "description": "Whakaahuatanga Taipitopito",
+    "descriptionPlaceholder": "Tomo koa te whakamaarama taipitopito (kōwhiri)",
+    "preview": "Arokite waahi",
+    "latitude": "rārangi hāngai",
+    "longitude": "hekenga",
+    "cancel": "Whakakore",
+    "send": "tuku",
+    "permissionPrompt": "Me whiwhi maatau i to korero i to waahi ki te whakarato ratonga pai ake, e whakaaetia ana?",
+    "permissionDenied": "Ka whakakorehia te whakaaetanga tuunga, tena koa koa kia whakaaetia te whakaaetanga i o tautuhinga pūtirotiro",
+    "locationTimeout": "Te Whakataunga i te Taonga, kia mohio ka huri te taputapu me te ngana ki te whakahoki ano",
+    "locationUnavailable": "Kaore e taea te whiwhi i te waahi o naianei, tirohia te ratonga waahi taputapu"
+  }
+}

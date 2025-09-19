@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Chomit kevreet",
+        "helperText": "Mar klikit war al liamm Start, neuze mirout al liamm. Evit se e ranker kaout evezh e vo adkevreet al liamm bepred goude ma vo distaget.",
+        "retryCount": "Niver a adkevreañ"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "Liamm URL, da skouer ws://192.168.0.2:7001, pe wws://skouer.com/hent",
+        "error": "An URL reizh zo un URL o kregiñ gant ws:// pe wws:// ."
+      }
+    },
+    "connectButton": {
+      "connect": "kevreañ",
+      "disconnect": "Diskennañ",
+      "status": {
+        "connecting": "Kevreañ...",
+        "connected": "Liammet",
+        "disconnecting": "Diskennañ...",
+        "disconnected": "n'eo ket liammet",
+        "waitRetry": "Gortoz adkevreañ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "testenn"
+  }
+}

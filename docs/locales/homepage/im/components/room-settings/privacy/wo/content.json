@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "saalu mbooloo",
+        "description": "Yeneen jëfandikukat yi mën nañu seet néeg yu ñépp bokk"
+      },
+      "allowGuestJoin": {
+        "label": "Bàyyi gan yi ngir bokk ci",
+        "description": "Bàyyi jëfandikukat yi ci biir néeg bi ñu bokk ci néeg bi ni gan"
+      },
+      "isEncrypted": {
+        "label": "Ecryption bu mujj ci njeexte",
+        "description": "Suñu ko defaree, mesaas yi ci biir néeg bi dina ñu ko encrypte ci njeexte-ci-end",
+        "alert": "End-to-end encryption dañu koy defar ci néeg bi, te mën nañu ko fay."
+      },
+      "submit": "Am nga ay jekkal yu am solo"
+    },
+    "toast": {
+      "success": "yeesal nañu jekkali privacy",
+      "error": "Ñàkk nañu yeesal jekkal yu am solo yi"
+    }
+  }
+}

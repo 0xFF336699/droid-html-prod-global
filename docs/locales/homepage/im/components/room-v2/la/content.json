@@ -1,0 +1,7 @@
+{
+  "RoomContentV2": {
+    "waitingForLogin": "Quaeso Log in primum",
+    "loadingRoomInfo": "Loading Room Information ...",
+    "roomNotFound": "Et locus non invenerunt"
+  }
+}

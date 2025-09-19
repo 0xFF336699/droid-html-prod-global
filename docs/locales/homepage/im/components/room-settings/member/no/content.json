@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Søk etter medlemmer"
+    },
+    "table": {
+      "columns": {
+        "name": "Medlemsnavn",
+        "userId": "Bruker -ID",
+        "actions": "operere"
+      },
+      "pagination": {
+        "rowsPerPage": "Antall rader per side"
+      },
+      "avatar": {
+        "alt": "Avatar"
+      },
+      "actions": {
+        "kick": "Sparke ut",
+        "ban": "Forbudt"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Bekreft sparkemedlemmet",
+        "content": "Er du sikker på at du vil sparke medlemmet ut av rommet?"
+      },
+      "ban": {
+        "title": "Bekreft det forbudte medlemskapet",
+        "content": "Er du sikker på at du vil forby dette medlemmet? Medlemmet vil ikke være i stand til å bli med på rommet igjen etter forbudet."
+      },
+      "buttons": {
+        "cancel": "Kansellere",
+        "confirm": "bekrefte"
+      }
+    },
+    "toast": {
+      "loadError": "Kunne ikke laste medlemsliste",
+      "kick": {
+        "success": "Medlemmene har blitt sparket ut av rommet",
+        "error": "Å sparke ut medlemmene mislyktes"
+      },
+      "ban": {
+        "success": "Medlemmene blokkert",
+        "error": "Kunne ikke blokkere medlemmer"
+      }
+    },
+    "invite": {
+      "button": "Inviter medlemmer",
+      "title": "Inviter medlemmene til å bli med i rommet",
+      "inputLabel": "Vennligst skriv inn Matrix User ID (for eksempel @user: matrix.org)",
+      "confirm": "invitere",
+      "cancel": "Kansellere",
+      "loading": "Innbydende ...",
+      "success": "Invitasjon sendt!",
+      "error": "Invitasjonen mislyktes, vennligst sjekk bruker -ID eller tillatelser"
+    },
+    "empty": "Ingen medlemmer ennå",
+    "loading": "Laster ...",
+    "role": {
+      "owner": "Huseier",
+      "admin": "administrator",
+      "moderator": "Medledelse",
+      "user": "medlem"
+    }
+  }
+}

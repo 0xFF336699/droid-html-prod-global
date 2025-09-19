@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Avalik tuba",
+        "description": "Avalikke ruume saavad otsida teised kasutajad"
+      },
+      "allowGuestJoin": {
+        "label": "Lubage külastajatel liituda",
+        "description": "Laske registreerimata kasutajatel külalisena toaga liituda"
+      },
+      "isEncrypted": {
+        "label": "Luba otsast lõpuni krüptimine",
+        "description": "Kui see on lubatud, krüpteeritakse ruumis olevad sõnumid otsast lõpuni",
+        "alert": "OtSend krüptimine on ruumis lubatud ja seda seadet ei saa välja lülitada."
+      },
+      "submit": "Salvestage privaatsusseaded"
+    },
+    "toast": {
+      "success": "Privaatsuse sätteid on värskendatud",
+      "error": "Privaatsuse sätete värskendamine ebaõnnestus"
+    }
+  }
+}

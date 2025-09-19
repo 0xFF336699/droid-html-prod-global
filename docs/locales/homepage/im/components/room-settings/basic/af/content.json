@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Kamernaam"
+      },
+      "topic": {
+        "label": "Kamer bekendstelling"
+      },
+      "avatar": {
+        "alt": "Kamer avatar"
+      },
+      "submit": "Stoor instellings"
+    },
+    "toast": {
+      "success": "Instellings opgedateer",
+      "error": {
+        "default": "Opdateringsinstellings het misluk",
+        "avatar": "Kon nie Avatar opdateer nie"
+      }
+    }
+  }
+}

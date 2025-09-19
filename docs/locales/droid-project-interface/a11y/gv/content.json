@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "Cur",
+    "click": "Click",
+    "longClick": "Pread ard",
+    "setText": "Cur text",
+    "tryClick": "Tree element ny 'sy 'nnyd click",
+    "globalClick": "click er lheh"
+  }
+}

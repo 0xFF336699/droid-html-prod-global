@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Bilik awam",
+        "description": "Bilik awam boleh dicari oleh pengguna lain"
+      },
+      "allowGuestJoin": {
+        "label": "Benarkan pelawat menyertai",
+        "description": "Benarkan pengguna yang tidak berdaftar untuk menyertai bilik sebagai tetamu"
+      },
+      "isEncrypted": {
+        "label": "Dayakan penyulitan akhir-ke-akhir",
+        "description": "Apabila diaktifkan, mesej di dalam bilik akan disulitkan akhir-ke-akhir",
+        "alert": "Penyulitan akhir-ke-akhir didayakan di dalam bilik, dan tetapan ini tidak boleh dimatikan."
+      },
+      "submit": "Simpan tetapan privasi"
+    },
+    "toast": {
+      "success": "Tetapan Privasi telah dikemas kini",
+      "error": "Gagal mengemas kini tetapan privasi"
+    }
+  }
+}

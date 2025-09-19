@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "onjezani ku",
+    "sub": {
+      "addScriptByUrl": "Onjezani zolemba kudzera mu URL",
+      "addScriptByText": "Onjezani zolemba kudzera palemba",
+      "addMarket": "Onjezani msika kudzera mu URL",
+      "addMarketByText": "Onjezani msika"
+    }
+  }
+}

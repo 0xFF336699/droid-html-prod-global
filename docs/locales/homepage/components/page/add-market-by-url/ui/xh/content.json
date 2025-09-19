@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Kuba esi sicelo sisebenza kwinani elikhulu leemvume kwifowuni yakho ephathekayo, imvume ezininzi zinokuyingozi kakhulu, ke musa ukuyingenisa okanye ubangenise ngaphandle kokwazi ngokucacileyo intengiso okanye iskripthi. Nje ukuba ufake umxholo kwi \"Intshayelelo yeKhadi leNtengiso\" okanye \"iMakethi yeNdlu yeWebhu\" \"ibhokisi engezantsi, umxholo uya kwenziwa kwangoko njengekhowudi. Nceda ulumke.",
+    "setNewMarket": "Misela imakethi entsha",
+    "settingPreview": "Jonga kuqala ukujonga",
+    "marketName": "Igama leNtengiso",
+    "marketSummary": "Intshayelelo yeNtengiso",
+    "marketDescription": "Intshayelelo yeNtengiso",
+    "itemMarket": "Intshayelelo yeMarike",
+    "fullMarket": "Iphepha lewebhu elizimeleyo",
+    "marketCardPreview": "Imbonakalo yeKhadi leNtengiso",
+    "marketFullPreview": "IMbonakalo yeKhasi elizimeleyo le-Web",
+    "isNotSet": "Ayibeki"
+  }
+}

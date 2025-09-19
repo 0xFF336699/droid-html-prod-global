@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Useto lwegumbi",
+    "tabs": {
+      "basic": "Izicwangciso ezisisiseko",
+      "permission": "Izicwangciso zemvume",
+      "privacy": "Useto lwabucala",
+      "member": "Ulawulo lwamalungu"
+    },
+    "loadError": "Ayiphumelelanga ukulayisha useto lwegumbi",
+    "leaveRoom": {
+      "button": "Phuma kwigumbi",
+      "confirm": "Uqinisekile ukuba ufuna ukuphuma kwigumbi? Emva kokuba uphume, awuyi kuba nakho ukuqhubeka nokufumana imiyalezo evela kweli gumbi.",
+      "success": "Ikhuphe igumbi ngempumelelo",
+      "error": "Ayiphumelelanga ukuphuma kwigumbi, nceda uzame kwakhona"
+    }
+  }
+}

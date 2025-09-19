@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Rri i lidhur",
+        "helperText": "Nëse klikoni në lidhjen Start, atëherë mbajeni lidhjen. Kjo kërkon vëmendje që lidhja të lidhet vazhdimisht pasi të shkëputet.",
+        "retryCount": "Numri i rilidhjeve"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "Lidhja URL, për shembull ws: //192.168.0.2: 7001, ose wws: //example.com/path",
+        "error": "URL e saktë është një URL që fillon me ws: // ose wws: //"
+      }
+    },
+    "connectButton": {
+      "connect": "lidh",
+      "disconnect": "Shkëput",
+      "status": {
+        "connecting": "Lidhja ...",
+        "connected": "I lidhur",
+        "disconnecting": "Shkëputja ...",
+        "disconnected": "Nuk lidhet",
+        "waitRetry": "Në pritje të rilidhjes ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "skenar"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Erişilebilirlik Arayüzü Görüntüleme",
+    "howToUse": "Kullanım Talimatları",
+    "howToUseTooltip": "Aşağıda, bu düğümün tıklama, metni doldurma vb.\n\nÖznitelik değeri uygulama sayfasında çoğaltılabilir. Kopyalarla karşılaşırsanız, benzersizliği belirlemek için lütfen diğer özellik seçimlerini kaplayın.\n\nKırmızı bir kelime, öznitelik değerinin tekrarlandığını gösterir, yeşil bir kelime, geçerli sayfa aramasında öznitelik değerinin benzersiz olduğunu gösterir ve siyah bir kelime tekrarlanan bir karşılaştırma olmadığını gösterir.",
+    "otherNodesSummary": "Bu konumdaki diğer düğümler",
+    "moreNodes": "İşte genişletiliyor.",
+    "nodeInfoDialogOkButton": "Bu düğümün işlemini düzenle",
+    "text": "Metin 2222"
+  }
+}

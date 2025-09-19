@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "Tluka ro sungula .",
+    "me": "swa mina",
+    "settings": "ku lulamisa",
+    "script": "xitsalwana",
+    "store": "makete",
+    "market": "makete",
+    "create": "vumba"
+  },
+  "tabbar": {
+    "test": "Bar ya le hansi ya menu ."
+  }
+}

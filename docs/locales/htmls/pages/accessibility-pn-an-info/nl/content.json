@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "kortstond",
+    "title": "Pakket- en activiteitenherkenning",
+    "useBtn": "gebruik",
+    "closeBtn": "sluiting",
+    "pnLabel": "Pakketnaam",
+    "copyButtonText": "kopiëren",
+    "anLabel": "activiteit",
+    "clsLable": "klas"
+  }
+}

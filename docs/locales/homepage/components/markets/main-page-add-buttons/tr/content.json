@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "a ekle",
+    "sub": {
+      "addScriptByUrl": "URL üzerinden komut dosyası ekleyin",
+      "addScriptByText": "Metin üzerinden komut dosyası ekleyin",
+      "addMarket": "URL üzerinden pazar ekleyin",
+      "addMarketByText": "Metin aracılığıyla pazar ekleyin"
+    }
+  }
+}

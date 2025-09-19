@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "पंजीकर्",
+    "phoneNumber": "दूरभाष संख्या 1 .",
+    "phoneNumberPlaceholder": "कृपया स्वस्य मोबाईल-फोन-सङ्ख्यां प्रविशन्तु",
+    "verificationCode": "सत्यापन कोड 1 .",
+    "verificationCodePlaceholder": "कृपया सत्यापन कोड प्रविष्ट करें .",
+    "getVerificationCode": "सत्यापन कोड प्राप्त करें .",
+    "countdown": "{{सेकेण्ड्}} सेकण्डे पुनः प्रयासं कर्तुं",
+    "register": "पंजीकर्",
+    "errors": {
+      "phoneRequired": "कृपया स्वस्य मोबाईल-फोन-सङ्ख्यां प्रविशन्तु",
+      "phoneInvalid": "मोबाईल-फोन-सङ्ख्या-स्वरूपम् अशुद्धम् अस्ति ।",
+      "codeRequired": "कृपया सत्यापन कोड प्रविष्ट करें .",
+      "codeInvalid": "सत्यापन कोड प्रारूपं अशुद्धम् अस्ति ।",
+      "requestFailed": "अनुरोधः विफलः 1 .",
+      "verificationFailed": "सत्यापन कोड अधिग्रहण विफल 1 .",
+      "loginFailed": "लॉगिन् विफलम् अभवत् ।"
+    },
+    "success": {
+      "verificationCodeSent": "सत्यापन कोड प्रेषितः अस्ति ।",
+      "registerSuccess": "सफलतया पंजीकृतम् ."
+    }
+  }
+}

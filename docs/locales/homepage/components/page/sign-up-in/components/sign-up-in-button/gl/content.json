@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Inicio de sesión/rexistro",
+    "signOut": "Pasa de saída",
+    "confirmContent": "¿Seguro que queres saír á saída?",
+    "confirmTitle": "Consello",
+    "confirm": "Seguro",
+    "cancel": "Cancelar",
+    "signoutOk": "Pasa de saída",
+    "loadingData": "Cargando datos do usuario"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "It tastimmingnivo nedich om in berjocht te stjoeren",
+        "tooltip": "0 betsjut dat alle leden berjochten kinne stjoere, en de gruttere it oantal betsjut dat hegere tagongsrjochten nedich binne"
+      },
+      "invite": {
+        "label": "Fergunningnivo nedich om nije leden út te noegjen",
+        "tooltip": "Set wa't nije leden útnoegje kin nei de keamer"
+      },
+      "kick": {
+        "label": "KICK it fereaske tastimmingnivo út",
+        "tooltip": "Set wa't de keamerleden kin útkomme"
+      },
+      "ban": {
+        "label": "Fergunningnivo nedich foar blokkearjende leden",
+        "tooltip": "Set wa't keamersleden kin blokkearje"
+      },
+      "roomSettings": {
+        "label": "Wizigje it fereaske tastimmingnivo fan keamerynstellingen",
+        "tooltip": "Set wa't de keamerynstellingen kin oanpasse"
+      },
+      "submit": "Fergunningynstellingen bewarje"
+    },
+    "description": "Tastimming nivo berik: 0-100, it gruttere it oantal betsjut hegere tagongsrjochten binne fereaske",
+    "toast": {
+      "success": "Ynstellings ynstellings binne bywurke",
+      "error": "Mislearre om tastimmingynstellingen te aktualisearjen"
+    }
+  }
+}

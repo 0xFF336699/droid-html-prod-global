@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Izina ry'icyumba"
+      },
+      "topic": {
+        "label": "Icyumba Intangiriro"
+      },
+      "avatar": {
+        "alt": "Icyumba avatar"
+      },
+      "submit": "Bika Igenamiterere"
+    },
+    "toast": {
+      "success": "Igenamiterere ryavuguruwe",
+      "error": {
+        "default": "Kuvugurura Igenamiterere ryatsinzwe",
+        "avatar": "Kunanirwa kuvugurura avatar"
+      }
+    }
+  }
+}

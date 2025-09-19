@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Ruum armej",
+        "description": "Ruum ko an armej remaroñ pukot jān rijerbal ro jet ."
+      },
+      "allowGuestJoin": {
+        "label": "Kwōn kōtļo̧k an ri-lotok ro kobatok .",
+        "description": "Kōtļo̧k bwe rijerbal ro rejjab rentāer ren kobaļo̧k ilo ruum̧ eo āinwōt juon rilotok ."
+      },
+      "isEncrypted": {
+        "label": "Ej maroñ jeṃḷọk tōprak .",
+        "description": "N̄e ej kōtļo̧k, ennaan ko ilo ruum̧ eo renaaj bōk jikin jemļo̧k-n̄an-jem̧ļo̧k .",
+        "alert": "Ej juon menin aikuj bwe jen lale wāween an jet armej ļōmņak kōn jet armej."
+      },
+      "submit": "Ej kōjparok wāween ko n̄an kōjparok"
+    },
+    "toast": {
+      "success": "Eṃōj kōkāāl wāween ko ñan kōṃṃan jerbal .",
+      "error": "Ejjab maroñ kōkāāl wāween ko an armej ."
+    }
+  }
+}

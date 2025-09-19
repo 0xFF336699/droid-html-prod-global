@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Solmun suoritus",
+    "changeBtnLabel": "korvata",
+    "showNodeAllProperties": "Näytä kaikki ominaisuudet",
+    "wait": {
+      "time": "Odotusaika",
+      "interval": "Odotusväli",
+      "invisible": "Havaitaanko elementtejä näytön ulkopuolella"
+    }
+  }
+}

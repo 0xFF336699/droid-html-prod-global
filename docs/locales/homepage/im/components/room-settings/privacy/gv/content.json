@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "room pobble",
+        "description": "Ta roomyn pobble ry-gheddyn liorish ymmydeyryn elley"
+      },
+      "allowGuestJoin": {
+        "label": "Lesh y laghyn.",
+        "description": "Lesh y cleaysh nagh vel er ny screeu dy gholl stiagh 'sy seihll myr aoie ."
+      },
+      "isEncrypted": {
+        "label": "Cur stiagh encryption end-dy-end",
+        "description": "Nush t'eh er ny choyrt, bee teyrmyn 'sy seihll encrypted end-to-end",
+        "alert": "Ta encryption end-to-end er ny choyrt ayns y seihll, as cha nel y stayd shoh ry-gheddyn."
+      },
+      "submit": "Save s'coontit"
+    },
+    "toast": {
+      "success": "Ta ny s'cosoylagh rish y traa t'er n'gholl shaghey",
+      "error": "Cha nel eh ry-gheddyn son cur ymmyd jeh'n aght privacy"
+    }
+  }
+}

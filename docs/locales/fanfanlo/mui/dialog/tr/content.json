@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "İptal etmek",
+    "confirm": "Elbette",
+    "title": "ipucu",
+    "content": "Bunu yapmak istediğinden emin misin?"
+  },
+  "EditableText": {
+    "cancel": "İptal etmek",
+    "save": "kaydetmek",
+    "title": "düzenlemek"
+  }
+}

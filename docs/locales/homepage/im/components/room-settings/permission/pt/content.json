@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "O nível de permissão necessário para enviar uma mensagem",
+        "tooltip": "0 significa que todos os membros podem enviar mensagens e quanto maior o número significa que são necessárias permissões mais altas"
+      },
+      "invite": {
+        "label": "Nível de permissão necessário para convidar novos membros",
+        "tooltip": "Set quem pode convidar novos membros para a sala"
+      },
+      "kick": {
+        "label": "Chute o nível de permissão necessário",
+        "tooltip": "Set quem pode expulsar os membros da sala"
+      },
+      "ban": {
+        "label": "Nível de permissão necessário para bloquear membros",
+        "tooltip": "Set quem pode bloquear os membros da sala"
+      },
+      "roomSettings": {
+        "label": "Modifique o nível de permissão necessário das configurações da sala",
+        "tooltip": "Definir quem pode modificar as configurações da sala"
+      },
+      "submit": "Salvar configurações de permissão"
+    },
+    "description": "Faixa de nível de permissão: 0-100, maior o número significa permissões mais altas são necessárias",
+    "toast": {
+      "success": "As configurações de permissão foram atualizadas",
+      "error": "Falha ao atualizar as configurações de permissão"
+    }
+  }
+}

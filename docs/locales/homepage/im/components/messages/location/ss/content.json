@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Libito lendzawo",
+    "viewMap": "Buka imephu",
+    "close": "kuvala"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Siphequluli lesikhona nyalo asisekeli kutfola i-geolocation",
+    "getLocationFailed": "Kwehlulekile kutfola indzawo, sicela uhlole tilungiselelo temvume .",
+    "myLocation": "Indzawo yami",
+    "shareLocation": "Yabelana ngendzawo",
+    "getCurrentLocation": "Tfola indzawo lekhona nyalo",
+    "title": "Libito lendzawo",
+    "description": "Incazelo lenemininingwane",
+    "descriptionPlaceholder": "Sicela ufake inchazelo lenemininingwane (lengakhetfwa)",
+    "preview": "Kubuka Kucala Kwendzawo",
+    "latitude": "lilatitude",
+    "longitude": "konga",
+    "cancel": "Khansela",
+    "send": "tfumela",
+    "permissionPrompt": "Sidzinga kutfola lwati lwakho lwendzawo kute sinikete tinsita letincono, kuvunyelwe yini?",
+    "permissionDenied": "Imvume yesikhundla iyancishwa, sicela unikete emandla imvume yekubeka Tindzawo etindzaweni takho tesiphequluli",
+    "locationTimeout": "Kubeka sikhatsi, ciniseka kutsi ledivayisi iyavulwa bese uzama kutfola .",
+    "locationUnavailable": "Indzawo lekhona nyalo angeke itfolakale, sicela uhlole insizakalo yendzawo yedivayisi"
+  }
+}

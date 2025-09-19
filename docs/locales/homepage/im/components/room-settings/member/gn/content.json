@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Ojeporeka miembrokuéra rehe ."
+    },
+    "table": {
+      "columns": {
+        "name": "Miembro réra .",
+        "userId": "ID puruhára rehegua .",
+        "actions": "Omba’apo ."
+      },
+      "pagination": {
+        "rowsPerPage": "Número de filas por página ."
+      },
+      "avatar": {
+        "alt": "Avatar rehegua ."
+      },
+      "actions": {
+        "kick": "Patada .",
+        "ban": "Ojeproivi vaʼekue ."
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Omoañete miembro patada .",
+        "content": "¿Reime seguro remosẽseha pe miembro-pe pe kotygui?"
+      },
+      "ban": {
+        "title": "Omoañete membresía prohibida .",
+        "content": "¿Reime seguro reproivise ko miembro-pe? Pe miembro ndaikatumo’ãi oike jey pe koty pe prohibición rire."
+      },
+      "buttons": {
+        "cancel": "Heja",
+        "confirm": "moneĩ"
+      }
+    },
+    "toast": {
+      "loadError": "Ndojekargaiha miembro lista .",
+      "kick": {
+        "success": "Umi miembro oñemosẽma pe kotygui .",
+        "error": "Opoi umi miembro-kuérape ofalla ."
+      },
+      "ban": {
+        "success": "Umi miembro ojejokóva .",
+        "error": "Ndojejokói umi miembro ."
+      }
+    },
+    "invite": {
+      "button": "Oinvita miembro-kuérape .",
+      "title": "Oinvita miembro-kuérape oike haguã koty'ípe .",
+      "inputLabel": "Emoinge Matrix puruhára ID (ha’eháicha @user:matrix.org) .",
+      "confirm": "ñepepirũ",
+      "cancel": "Heja",
+      "loading": "Invitando...",
+      "success": "¡Invitación oñemondova’ekue!",
+      "error": "Invitación ndoikói, ehecha ID puruhára térã permiso ."
+    },
+    "empty": "no miembro todavía .",
+    "loading": "Ojeguerahauka...",
+    "role": {
+      "owner": "óga jára .",
+      "admin": "Administrador rehegua .",
+      "moderator": "Cogestión rehegua .",
+      "user": "Miembro ."
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "ngadaptar",
+    "phoneNumber": "Nomer telepon",
+    "phoneNumberPlaceholder": "Punten lebetkeun nomer telepon sélulér anjeun",
+    "verificationCode": "Kodeu vérifikasi",
+    "verificationCodePlaceholder": "Punten lebetkeun kode verifikasi",
+    "getVerificationCode": "Kéngingkeun kode verifikasi",
+    "countdown": "{{detik}} detik pikeun nyobian deui",
+    "register": "ngadaptar",
+    "errors": {
+      "phoneRequired": "Punten lebetkeun nomer telepon sélulér anjeun",
+      "phoneInvalid": "Format nomer telepon sélulér henteu leres",
+      "codeRequired": "Punten lebetkeun kode verifikasi",
+      "codeInvalid": "Format kode verifikasi henteu leres",
+      "requestFailed": "Pamundut gagal",
+      "verificationFailed": "Iklisisi kode Verifikasi gagal",
+      "loginFailed": "gagal lebet"
+    },
+    "success": {
+      "verificationCodeSent": "Kodeu verifikasi parantos dikirim",
+      "registerSuccess": "Kadaptar suksés"
+    }
+  }
+}

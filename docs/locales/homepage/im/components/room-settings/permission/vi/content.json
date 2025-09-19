@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Mức quyền cần thiết để gửi tin nhắn",
+        "tooltip": "0 có nghĩa là tất cả các thành viên có thể gửi tin nhắn và số lượng lớn hơn có nghĩa là cần có quyền"
+      },
+      "invite": {
+        "label": "Mức quyền được yêu cầu để mời các thành viên mới",
+        "tooltip": "Đặt ai có thể mời các thành viên mới vào phòng"
+      },
+      "kick": {
+        "label": "Khởi động mức quyền cần thiết",
+        "tooltip": "Đặt ai có thể đuổi các thành viên phòng"
+      },
+      "ban": {
+        "label": "Mức quyền cần thiết để chặn các thành viên",
+        "tooltip": "Đặt ai có thể chặn các thành viên phòng"
+      },
+      "roomSettings": {
+        "label": "Sửa đổi mức quyền cần thiết của cài đặt phòng",
+        "tooltip": "Đặt ai có thể sửa đổi cài đặt phòng"
+      },
+      "submit": "Lưu cài đặt quyền"
+    },
+    "description": "Phạm vi cấp quyền: 0-100, số lượng lớn hơn có nghĩa là cần có quyền cao hơn",
+    "toast": {
+      "success": "Cài đặt quyền đã được cập nhật",
+      "error": "Không cập nhật cài đặt quyền"
+    }
+  }
+}

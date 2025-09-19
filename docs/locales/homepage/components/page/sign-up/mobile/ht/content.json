@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "rejis",
+    "phoneNumber": "Nimewo telefòn",
+    "phoneNumberPlaceholder": "Tanpri antre nimewo telefòn mobil ou",
+    "verificationCode": "Kòd Verifikasyon",
+    "verificationCodePlaceholder": "Tanpri antre kòd verifikasyon an",
+    "getVerificationCode": "Jwenn kòd verifikasyon an",
+    "countdown": "{{segonn}} segonn eseye ankò",
+    "register": "rejis",
+    "errors": {
+      "phoneRequired": "Tanpri antre nimewo telefòn mobil ou",
+      "phoneInvalid": "Fòma nimewo telefòn mobil lan pa kòrèk",
+      "codeRequired": "Tanpri antre kòd verifikasyon an",
+      "codeInvalid": "Fòma kòd verifikasyon an pa kòrèk",
+      "requestFailed": "Demann echwe",
+      "verificationFailed": "Verifikasyon Kòd Akizisyon echwe",
+      "loginFailed": "Login echwe"
+    },
+    "success": {
+      "verificationCodeSent": "Kòd verifikasyon te voye",
+      "registerSuccess": "Anrejistre avèk siksè"
+    }
+  }
+}

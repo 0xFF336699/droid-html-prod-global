@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "bližnjica",
+    "title": "Prepoznavanje paketov in dejavnosti",
+    "useBtn": "uporaba",
+    "closeBtn": "zaprtje",
+    "pnLabel": "Ime paketa",
+    "copyButtonText": "kopijo",
+    "anLabel": "aktivnost",
+    "clsLable": "razred"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Gawo lololeza liyenera kutumiza uthenga",
+        "tooltip": "0 amatanthauza kuti mamembala onse amatha kutumiza mauthenga, ndipo zokulirapo zomwe zikutanthauza kuti zilolezo zapamwamba ndizofunikira"
+      },
+      "invite": {
+        "label": "Gawo la chilolezo likufunika kuitanitsa mamembala atsopano",
+        "tooltip": "Set yemwe angapemphe mamembala atsopano kuchipinda"
+      },
+      "kick": {
+        "label": "Fufuzani gawo lofunikira",
+        "tooltip": "Khazikitsani yemwe angatulutse mamembala achipinda"
+      },
+      "ban": {
+        "label": "Gawo lololeza lofunikira poletsa mamembala",
+        "tooltip": "Khazikitsani yemwe amatha kuletsa mamembala achipinda"
+      },
+      "roomSettings": {
+        "label": "Sinthanitsani chilolezo cha zigawo za chipinda",
+        "tooltip": "Khazikitsani yemwe angasinthe zikwangwani"
+      },
+      "submit": "Sungani Zosintha Zamalamulo"
+    },
+    "description": "Miyezo ya chilolezo: 0-100, zokulirapo ndizomwe zimatanthawuza",
+    "toast": {
+      "success": "Zosintha za chilolezo zasinthidwa",
+      "error": "Talephera kusintha makonda a chilolezo"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "MemberDetailContent": {
+    "title": "Detalles del miembro",
+    "nickname": "Apodo",
+    "role": "Role",
+    "kick": "Echar",
+    "ban": "Prohibido"
+  }
+}

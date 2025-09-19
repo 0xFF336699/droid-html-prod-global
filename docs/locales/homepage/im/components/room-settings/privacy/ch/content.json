@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Publiku",
+        "description": "I kuatton publiko siha siña ma sodda’ otro na taotao siha ."
+      },
+      "allowGuestJoin": {
+        "label": "Hapa i bisita siha para un",
+        "description": "Ha na’fanmanman i taotao siha ni’ manma’a’ñao para u fanma’ayuda gi i kuatto komo bisita ."
+      },
+      "isEncrypted": {
+        "label": "Na'magof na fina'tinas-mu .",
+        "description": "Yanggen ma na’setbe, i mensåhi siha gi i kuatton-ñiha para u fanma enkripta gi i finakpo’-ñiha .",
+        "alert": "I fina'tinas i encryption ma na'setbe gi i kuatto, ya ti siña ma na'suha este na setting."
+      },
+      "submit": "Guaha na setbision privadu"
+    },
+    "toast": {
+      "success": "I setbisio siha ni’ manma’ayek para u fanma’ayek .",
+      "error": "Manmafa'tinas para u ma'adelanta i privacy-ña?"
+    }
+  }
+}

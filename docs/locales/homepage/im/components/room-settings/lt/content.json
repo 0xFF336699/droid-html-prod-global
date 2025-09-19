@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Kambario nustatymai",
+    "tabs": {
+      "basic": "Pagrindiniai nustatymai",
+      "permission": "Leidimo nustatymai",
+      "privacy": "Privatumo nustatymai",
+      "member": "Narių valdymas"
+    },
+    "loadError": "Nepavyko įkelti kambario nustatymų",
+    "leaveRoom": {
+      "button": "Išeik iš kambario",
+      "confirm": "Ar tikrai norite išeiti iš kambario? Išvažiavę negalėsite tęsti pranešimų iš šio kambario.",
+      "success": "Sėkmingai išėjo iš kambario",
+      "error": "Nepavyko išeiti iš kambario, bandykite dar kartą"
+    }
+  }
+}

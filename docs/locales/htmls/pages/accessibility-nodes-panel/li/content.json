@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Toegaankelikheidsinterface bekieke",
+    "howToUse": "Instructies veur gebruuk",
+    "howToUseTooltip": "Heionder zien ‘n paar markeringskenmerke vaan deze node die kinne were gebruuk um bewerkinge te selecteren, zoe wie ‘t klikke, ‘t invulle vaan tekst, enz.\n\nDe kenmerkwaarde kin in de app-pagina were gekopieerd. Es u duplicate tegenkoms, overlay u aandere kenmerk selècties um uniekheid te bepaole.\n\n‘n Roed woord gief aon det de kenmerkwaarde weert herhaold, ‘n greun woord gief aon det de kenmerkwaarde uniek is in de huidige pagina zoek en ‘n zwart woord gief aon det d’r gein herhaolde vergelieking is.",
+    "otherNodesSummary": "Aandere nodes op deze locatie",
+    "moreNodes": "Hei is wat weurt oetgebreid.",
+    "nodeInfoDialogOkButton": "Bewerke werking vaan deze node",
+    "text": "Tekst 2222"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Nodo -ekzekuto",
+    "changeBtnLabel": "Anstataŭigu",
+    "showNodeAllProperties": "Montri ĉiujn propraĵojn",
+    "wait": {
+      "time": "Atendotempo",
+      "interval": "Atendanta intervalo",
+      "invisible": "Ĉu detekti elementojn ekster la ekrano"
+    }
+  }
+}

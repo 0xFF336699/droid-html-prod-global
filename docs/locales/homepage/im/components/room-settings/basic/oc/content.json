@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Nom de sala"
+      },
+      "topic": {
+        "label": "Introduccion de sala"
+      },
+      "avatar": {
+        "alt": "Avatar de sala"
+      },
+      "submit": "Enregistrar los paramètres"
+    },
+    "toast": {
+      "success": "Paramètres actualizat",
+      "error": {
+        "default": "Actualizacion los paramètres fracassats",
+        "avatar": "Fracassada a actualizar avatar ."
+      }
+    }
+  }
+}

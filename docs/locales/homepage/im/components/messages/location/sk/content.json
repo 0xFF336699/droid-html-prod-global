@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Názov umiestnenia",
+    "viewMap": "Zobraziť mapu",
+    "close": "zatvorenie"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Aktuálny prehliadač nepodporuje získanie geolokácie",
+    "getLocationFailed": "Nepodarilo sa získať umiestnenie, skontrolujte nastavenia povolenia",
+    "myLocation": "Moja poloha",
+    "shareLocation": "Zdieľanie polohy",
+    "getCurrentLocation": "Získajte aktuálne miesto",
+    "title": "Názov umiestnenia",
+    "description": "Podrobný popis",
+    "descriptionPlaceholder": "Zadajte podrobný popis (voliteľné)",
+    "preview": "Ukážka umiestnenia",
+    "latitude": "šírka",
+    "longitude": "dĺžka",
+    "cancel": "Zrušiť",
+    "send": "odoslať",
+    "permissionPrompt": "Potrebujeme získať informácie o vašej polohe, aby sme poskytli lepšie služby, je to povolené?",
+    "permissionDenied": "Polovné povolenie je zamietnuté, povoľte povolenie na umiestnenie v nastaveniach prehliadača",
+    "locationTimeout": "Časový limit umiestnenia, uistite sa, že je zariadenie zapnuté a pokúste sa znovu získať",
+    "locationUnavailable": "Aktuálne umiestnenie nie je možné získať, skontrolujte službu umiestnenia zariadenia"
+  }
+}

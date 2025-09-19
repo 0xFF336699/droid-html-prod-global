@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "ivolatukutuku",
+    "phoneNumber": "vakadonuya",
+    "phoneNumberPlaceholder": "Sa kerei me da na biuta mai na nomu naba ni talevoni veikauyaki .",
+    "verificationCode": "Na Me rawarawa",
+    "verificationCodePlaceholder": "Sa kerei mo ni curuma yani na veivakadeitaki .",
+    "getVerificationCode": "Oqo na ulutaga",
+    "countdown": " na ikarua ni kumini me tovolea tale .",
+    "register": "ivolatukutuku",
+    "errors": {
+      "phoneRequired": "Sa kerei me da na biuta mai na nomu naba ni talevoni veikauyaki .",
+      "phoneInvalid": "Na naba ni talevoni veikauyaki e incorcrect .",
+      "codeRequired": "Sa kerei mo ni curuma yani na veivakadeitaki .",
+      "codeInvalid": "Na ivakarau ni kena ivakarau ni compart e sa na incortact .",
+      "requestFailed": "Sa lailai kina na",
+      "verificationFailed": "E sega ni saumi rawa na dodonu ni veivakadeitaki .",
+      "loginFailed": "Sa sega ni vakarorogo"
+    },
+    "success": {
+      "verificationCodeSent": "Sa vakauti na veivakadeitaki […]",
+      "registerSuccess": "Vakabibi sara ni rawaka"
+    }
+  }
+}

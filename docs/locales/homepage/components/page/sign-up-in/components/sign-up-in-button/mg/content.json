@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Login / Register",
+    "signOut": "Mivoaka",
+    "confirmContent": "Azo antoka ve fa te hivoaka ianao?",
+    "confirmTitle": "Soso-kevitra",
+    "confirm": "Azo antoka",
+    "cancel": "hanafoana",
+    "signoutOk": "Mivoaka",
+    "loadingData": "Hiditra ny angon-drakitra mpampiasa"
+  }
+}

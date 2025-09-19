@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "i",
+    "viewMap": "Hlolo .",
+    "close": "i"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "• Ukuthuthukisa ukulawula ukugcina i-3.",
+    "getLocationFailed": "Lokhu kulokhu, udinga ukutshala, udinga ukulala.",
+    "myLocation": "- mzimba .",
+    "shareLocation": "Fala .",
+    "getCurrentLocation": "Ukuhlolwa kwe- .",
+    "title": "i",
+    "description": "# ε .",
+    "descriptionPlaceholder": "Sisi 10 u-10.",
+    "preview": "ukulawula",
+    "latitude": "i",
+    "longitude": "i",
+    "cancel": "Sula",
+    "send": "thumela",
+    "permissionPrompt": "Kuyinto yini, ngenzeni, ngenzeni ukhona?",
+    "permissionDenied": "Lokhu kunjalo, udinga ukutshala, udinga ukukuguluka.",
+    "locationTimeout": "I-isss, iso, ilalo, ilalo, ilalo.",
+    "locationUnavailable": "Lokhu ubukhulu, udinga ukuhlola ukugcina i-ob."
+  }
+}

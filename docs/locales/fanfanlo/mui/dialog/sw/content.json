@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Ghairi",
+    "confirm": "Hakika",
+    "title": "dokezo",
+    "content": "Je! Una uhakika unataka kufanya hivi?"
+  },
+  "EditableText": {
+    "cancel": "Ghairi",
+    "save": "Hifadhi",
+    "title": "hariri"
+  }
+}

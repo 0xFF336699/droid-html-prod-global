@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Têkeve / Register",
+    "signOut": "Derkeve",
+    "confirmContent": "Ma hûn guman dikin ku hûn dixwazin derkevin?",
+    "confirmTitle": "geşî",
+    "confirm": "Emîn",
+    "cancel": "Bişûndekirin",
+    "signoutOk": "Derkeve",
+    "loadingData": "Daneyên bikarhêner bar dikin"
+  }
+}

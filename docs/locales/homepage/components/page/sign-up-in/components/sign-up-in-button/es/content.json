@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Iniciar sesión/registrarse",
+    "signOut": "Finalizar la sesión",
+    "confirmContent": "¿Estás seguro de que quieres cerrar sesión?",
+    "confirmTitle": "pista",
+    "confirm": "Seguro",
+    "cancel": "Cancelar",
+    "signoutOk": "Finalizar la sesión",
+    "loadingData": "Cargando datos de usuario"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "አንድ ክፍል ይፍጠሩ"
+    },
+    "dialog": {
+      "title": "አዲስ ክፍል ይፍጠሩ",
+      "form": {
+        "userId": {
+          "label": "የተጠቃሚ መታወቂያ",
+          "placeholder": "የተጠቃሚ መታወቂያውን ያስገቡ (ለምሳሌ: - @uster: ምሳሌ)",
+          "error": {
+            "required": "የተጠቃሚ መታወቂያ ባዶ ሊሆን አይችልም",
+            "invalid": "ልክ ያልሆነ የተጠቃሚ መታወቂያ ቅርጸት"
+          }
+        },
+        "roomName": {
+          "label": "የክፍል ስም (አማራጭ)",
+          "placeholder": "የክፍል ስም ያስገቡ"
+        },
+        "isEncrypted": {
+          "label": "የመጨረሻውን ማመስገን አንቃ"
+        },
+        "isDirect": {
+          "label": "ቀጥተኛ መልእክት"
+        },
+        "topic": {
+          "label": "ጭብጥ (ከተፈለገ)",
+          "placeholder": "የክፍሉን ጭብጥ ያስገቡ"
+        }
+      },
+      "actions": {
+        "cancel": "ይቅር",
+        "create": "ፍጠር"
+      },
+      "success": "በክፍል ፍጥረት በተሳካ ሁኔታ",
+      "error": "አንድ ክፍል በመፍጠር ላይ ስህተት ተከስቷል: {ስህተት}"
+    }
+  }
+}

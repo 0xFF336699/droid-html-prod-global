@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Ostanite povezani",
+        "helperText": "Ako kliknete na početnu vezu, a zatim zadržite vezu. Za to zahtijeva pažnju da će veza biti kontinuirano ponovno povezan nakon što je isključen.",
+        "retryCount": "Broj ponovnih rekorda"
+      },
+      "url": {
+        "name": "Url",
+        "helperText": "URL veze, na primjer WS: //192.168.0.2: 7001, ili WWS: //example.com/path",
+        "error": "Ispravan URL je URL koji počinju sa WS: // ili WWS: //"
+      }
+    },
+    "connectButton": {
+      "connect": "povezati",
+      "disconnect": "Prekinuti",
+      "status": {
+        "connecting": "Povezivanje ...",
+        "connected": "Spojen",
+        "disconnecting": "Isključivanje ...",
+        "disconnected": "Nije povezano",
+        "waitRetry": "Čekanje za ponovno povezivanje ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "scenarij"
+  }
+}

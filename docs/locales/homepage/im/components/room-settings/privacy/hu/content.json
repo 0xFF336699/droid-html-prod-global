@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Nyilvános szoba",
+        "description": "A nyilvános szobákat más felhasználók kereshetik"
+      },
+      "allowGuestJoin": {
+        "label": "Engedje meg, hogy a látogatók csatlakozzanak",
+        "description": "Engedje meg, hogy a nem regisztrált felhasználók vendégként csatlakozzanak a szobába"
+      },
+      "isEncrypted": {
+        "label": "Engedélyezze a végpontok közötti titkosítást",
+        "description": "Ha engedélyezve van, a helyiségben lévő üzenetek titkosítva lesznek",
+        "alert": "A végpontok közötti titkosítás engedélyezve van a helyiségben, és ezt a beállítást nem lehet kikapcsolni."
+      },
+      "submit": "Mentse el az adatvédelmi beállításokat"
+    },
+    "toast": {
+      "success": "Az adatvédelmi beállításokat frissítették",
+      "error": "Nem sikerült frissíteni az adatvédelmi beállításokat"
+    }
+  }
+}

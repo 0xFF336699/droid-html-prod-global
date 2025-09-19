@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Pengaturan Kamar",
+    "tabs": {
+      "basic": "Pengaturan Dasar",
+      "permission": "Pengaturan izin",
+      "privacy": "Pengaturan Privasi",
+      "member": "Manajemen anggota"
+    },
+    "loadError": "Gagal memuat pengaturan ruang",
+    "leaveRoom": {
+      "button": "Keluar dari kamar",
+      "confirm": "Apakah Anda yakin ingin keluar dari kamar? Setelah keluar, Anda tidak akan dapat terus menerima pesan dari ruangan ini.",
+      "success": "Keluar dari kamar dengan sukses",
+      "error": "Gagal keluar dari ruangan, coba lagi"
+    }
+  }
+}

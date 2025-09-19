@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Ko te taumata whakaaetanga e hiahiatia ana hei tuku karere",
+        "tooltip": "0 te tikanga ka taea e nga mema katoa te tuku karere, me te nui ake o te nama e hiahiatia ana nga whakaaetanga teitei ake"
+      },
+      "invite": {
+        "label": "Ko te taumata whakaaetanga e hiahiatia ana kia tono i nga mema hou",
+        "tooltip": "Ko wai ka taea te tono i nga mema hou ki te ruma"
+      },
+      "kick": {
+        "label": "Whana i te taumata whakaaetanga e hiahiatia ana",
+        "tooltip": "Whakaritea ko wai ka whana i nga mema o te rūma"
+      },
+      "ban": {
+        "label": "Taumata whakaaetanga e hiahiatia ana mo te aukati i nga mema",
+        "tooltip": "Whakaritea ko wai ka aukati i nga mema o te rūma"
+      },
+      "roomSettings": {
+        "label": "Whakakētia te taumata whakaaetanga e hiahiatia ana o nga tautuhinga ruuma",
+        "tooltip": "Whakatakotoria ko wai ka whakarereke i nga tautuhinga ruuma"
+      },
+      "submit": "Tiakina nga tautuhinga whakaaetanga"
+    },
+    "description": "Te Rori Taumata: 0-100, ko te nui o te nama ko te tikanga e hiahiatia ana nga whakaaetanga teitei",
+    "toast": {
+      "success": "Kua whakahoutia nga tautuhinga whakaaetanga",
+      "error": "I rahua te whakahou i nga tautuhinga whakaaetanga"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "SummaryRoomList": {
+    "title": "Sitzungsliste",
+    "noRooms": "Keine Sitzungen angezeigt werden",
+    "acceptInvite": "Einladung akzeptieren",
+    "rejectInvite": "Einladung ablehnen"
+  }
+}

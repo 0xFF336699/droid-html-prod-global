@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Rejoindre la salle",
+      "inviteOnly": "Il s'agit d'une salle privée et nécessite des invitations pour rejoindre",
+      "knockRequired": "Cette salle nécessite une application pour rejoindre. Cliquez sur le bouton ci-dessous pour envoyer la demande de jointure",
+      "canJoin": "C'est une salle publique, vous pouvez rejoindre directement",
+      "sendRequest": "Envoyer une demande d'adhésion",
+      "join": "Rejoindre la salle"
+    },
+    "JoinRequestList": {
+      "noRequests": "Pas encore de demande d'adhésion",
+      "accept": "accepter",
+      "reject": "rejeter"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Entrez un message ..."
+  },
+  "MessageList": {
+    "noMessages": "Il n'y a pas encore de message, envoyez le premier message pour démarrer la conversation!",
+    "loading": "chargement...",
+    "error": {
+      "loadFailed": "Échec du chargement du message",
+      "retry": "Essayer à nouveau"
+    },
+    "loadingHistory": "Historique de chargement ...",
+    "historyEnd": "La première nouvelle est arrivée"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Il n'y a pas encore de message, envoyez le premier message pour démarrer la conversation!"
+  },
+  "RoomContent": {
+    "title": "Chambre"
+  },
+  "RoomHeader": {
+    "title": "Chambre",
+    "unnamedRoom": "Chambre sans nom",
+    "members": "membre",
+    "settings": "installation",
+    "leaveRoom": "Quitter la pièce",
+    "joinRoom": "Rejoindre la salle"
+  },
+  "RoomMembers": {
+    "title": "Membres de la salle",
+    "online": "En ligne",
+    "offline": "Hors ligne",
+    "join": "se joindre à",
+    "invite": "inviter",
+    "leave": "partir",
+    "ban": "Interdit",
+    "noMembers": "Aucun membre encore",
+    "loading": "chargement..."
+  }
+}

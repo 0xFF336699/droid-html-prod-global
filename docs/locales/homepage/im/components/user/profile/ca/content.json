@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Informació dels usuaris",
+    "id": {
+      "name": "Idoni",
+      "copy": "còpia",
+      "copied": "S'ha copiat la identificació"
+    },
+    "notLoggedIn": "No es va iniciar la sessió",
+    "name": "nom",
+    "avatar": "avatar"
+  }
+}

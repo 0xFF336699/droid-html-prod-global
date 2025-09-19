@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Nivelul de permisiune necesar pentru a trimite un mesaj",
+        "tooltip": "0 înseamnă că toți membrii pot trimite mesaje, iar cu cât numărul este mai mare înseamnă că sunt necesare permisiuni mai mari"
+      },
+      "invite": {
+        "label": "Nivel de permisiune necesar pentru a invita noi membri",
+        "tooltip": "Set cine poate invita noi membri în cameră"
+      },
+      "kick": {
+        "label": "Scoateți nivelul de permisiune necesar",
+        "tooltip": "Set cine poate să dea afară membrii camerei"
+      },
+      "ban": {
+        "label": "Nivel de permisiune necesar pentru blocarea membrilor",
+        "tooltip": "Set cine poate bloca membrii camerei"
+      },
+      "roomSettings": {
+        "label": "Modificați nivelul de permisiune necesar al setărilor camerei",
+        "tooltip": "Setați cine poate modifica setările camerei"
+      },
+      "submit": "Salvați setările de permisiune"
+    },
+    "description": "Interval de nivel de permisiune: 0-100, cu atât este mai mare numărul este necesar permisiuni mai mari",
+    "toast": {
+      "success": "Setările de permisiune au fost actualizate",
+      "error": "Nu a reușit să actualizeze setările de permisiune"
+    }
+  }
+}

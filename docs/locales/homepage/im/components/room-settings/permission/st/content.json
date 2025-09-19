@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Boemo ba tumello bo hlokahalang ho romella molaetsa",
+        "tooltip": "0 e bolela hore litho tsohle li ka romella melaetsa, 'me palo e kholo e bolela hore liphapang tse phahameng li hlokahala"
+      },
+      "invite": {
+        "label": "Ho hlokahala boemo ba tumello ho mema litho tse ncha",
+        "tooltip": "Seta mang ea ka mema litho tse ncha ka phapusing"
+      },
+      "kick": {
+        "label": "Raha boemo bo hlokahalang",
+        "tooltip": "Seta ea ka ralang litho tsa kamore"
+      },
+      "ban": {
+        "label": "Ho hlokahala boemo ba tumello bo hlokahalang bakeng sa ho thibela litho",
+        "tooltip": "Seta mang ea ka thibelang litho tsa kamore"
+      },
+      "roomSettings": {
+        "label": "Fetola boemo ba tumello bo hlokahalang tsa maemo a kamore",
+        "tooltip": "Seta mang ea ka fetoleleng li-setting tsa kamore"
+      },
+      "submit": "Boloka Litlhophiso tsa tumello"
+    },
+    "description": "Boemo ba tumello ea tumello:",
+    "toast": {
+      "success": "Litlhophiso tsa tumello li ntlafalitsoe",
+      "error": "Ha rea ​​atleha ho ntlafatsa litlhophiso tsa tumello"
+    }
+  }
+}

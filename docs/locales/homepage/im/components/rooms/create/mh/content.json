@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Kwōn kōṃṃan juon ruum̧ ."
+    },
+    "dialog": {
+      "title": "Kōm̧m̧ane juon ruum̧ ekāāl .",
+      "form": {
+        "userId": {
+          "label": "ID ID",
+          "placeholder": "Etal ñan ID eo an rijerbal eo (ñan waanjoñak: @a rijerbal.com)",
+          "error": {
+            "required": "ID eo an ID ejjab maroñ ejjeḷọk men .",
+            "invalid": "ID eo an armej eo ejjab jerbal ."
+          }
+        },
+        "roomName": {
+          "label": "Etan ruum̧ eo (em̧m̧an)",
+          "placeholder": "Kwōn deḷọñ ilo juon ruum̧ ."
+        },
+        "isEncrypted": {
+          "label": "Ej maroñ jeṃḷọk tōprak ."
+        },
+        "isDirect": {
+          "label": "Ennaan eo eṃṃan ."
+        },
+        "topic": {
+          "label": "Theme (eo ej ekkar)",
+          "placeholder": "Kwōn likūt unin kōnono eo an ruum̧ eo ."
+        }
+      },
+      "actions": {
+        "cancel": "Jolok",
+        "create": "kōmmane"
+      },
+      "success": "Ruum in kōṃṃan .",
+      "error": "Juon bōd eaar waļo̧k ilo iien kōm̧m̧ane juon ruum̧: {eror}"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Sich no Memberen"
+    },
+    "table": {
+      "columns": {
+        "name": "Abëff vum Land",
+        "userId": "Benotzer ID",
+        "actions": "konsequenten"
+      },
+      "pagination": {
+        "rowsPerPage": "Zuel vun den Zeilezäit pro Säit"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Erausgeheien",
+        "ban": "Verbueden"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Confirméieren de Kicking Member",
+        "content": "Sidd Dir sécher, datt s de Member aus de Raum geklommen?"
+      },
+      "ban": {
+        "title": "Confirméiert de verbuedenen Memberschaft",
+        "content": "Sidd Dir sécher, datt Dir dëse Member wëllt verbidden? De Member ka net nom Zëmmer nom Zëmmer erlaben."
+      },
+      "buttons": {
+        "cancel": "Ofbriechen",
+        "confirm": "konfirf ëben"
+      }
+    },
+    "toast": {
+      "loadError": "Feeler beim Luede vun der Memberlëscht",
+      "kick": {
+        "success": "Memberen goufen aus dem Zëmmer geschoss",
+        "error": "D'Membere verschéckt"
+      },
+      "ban": {
+        "success": "Memberen blockéiert",
+        "error": "Feeler net ze blockéieren"
+      }
+    },
+    "invite": {
+      "button": "Invitéiert Memberen",
+      "title": "Invitéiert Memberen fir an de Raum ze kommen",
+      "inputLabel": "Gitt weg de Matrix Benotzer ID (sou wéi @user: Matrix.org)",
+      "confirm": "invitéiere",
+      "cancel": "Ofbriechen",
+      "loading": "Invitéierend ...",
+      "success": "Invitatioun geschéckt!",
+      "error": "Invitatioun huet gescheitert, kuckt w.e.g. Benotzer ID oder Permissiounen"
+    },
+    "empty": "Keen Member",
+    "loading": "Lueden ...",
+    "role": {
+      "owner": "Heembesëtzer",
+      "admin": "Administrator",
+      "moderator": "KATioun",
+      "user": "Member"
+    }
+  }
+}

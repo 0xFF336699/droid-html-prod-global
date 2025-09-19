@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Hjälpfunktioner",
+    "pass": "Auktoriserad",
+    "notPass": "Obehörig",
+    "setting": "inrätta",
+    "danger": "Fara",
+    "dangerDesc": "Detta auktorisation kan se innehåll på skärmen och klicka på din telefon. Inaktivera detta tillstånd om du inte uttryckligen förstår funktionaliteten och riskerna för det skript du kör eller kommer att köra."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Kemerit perzh er sal",
+      "inviteOnly": "Ur sal prevez eo hemañ ha ret eo pediñ evit mont e-barzh .",
+      "knockRequired": "Ar sal-mañ a c’houlenn goulenn mont e-barzh. Klikit war ar bouton amañ dindan evit kas ar goulenn kenstagañ",
+      "canJoin": "Ur sal foran eo, gallout a rit mont e-barzh war-eeun",
+      "sendRequest": "Kas ur goulenn kevreañ",
+      "join": "Kemerit perzh er sal"
+    },
+    "JoinRequestList": {
+      "noRequests": "Goulenn ebet evit mont e-barzh c'hoazh",
+      "accept": "asantiñ",
+      "reject": "disteurel"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Lakait ur gemennadenn..."
+  },
+  "MessageList": {
+    "noMessages": "N'eus kemennadenn ebet c'hoazh, kasit ar gemennadenn gentañ evit kregiñ gant ar gaozeadenn !",
+    "loading": "kargañ...",
+    "error": {
+      "loadFailed": "C'hwitet eo kargañ ar gemennadenn",
+      "retry": "Klaskit adarre"
+    },
+    "loadingHistory": "Istor kargañ...",
+    "historyEnd": "Erruet eo ar c'heloù kentañ ."
+  },
+  "MessageVirturalList": {
+    "noMessages": "N'eus kemennadenn ebet c'hoazh, kasit ar gemennadenn gentañ evit kregiñ gant ar gaozeadenn !"
+  },
+  "RoomContent": {
+    "title": "Kambr"
+  },
+  "RoomHeader": {
+    "title": "Kambr",
+    "unnamedRoom": "Sal dizanv",
+    "members": "ezel",
+    "settings": "staliañ",
+    "leaveRoom": "Kuitaat ar sal",
+    "joinRoom": "Kemerit perzh er sal"
+  },
+  "RoomMembers": {
+    "title": "Izili ar sal",
+    "online": "Enlinenn",
+    "offline": "Estrañjour",
+    "join": "mont e-barzh",
+    "invite": "pediñ",
+    "leave": "mont kuit",
+    "ban": "Difennet",
+    "noMembers": "Ezel ebet c'hoazh",
+    "loading": "kargañ..."
+  }
+}

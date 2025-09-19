@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Whakakore",
+    "confirm": "Mōhio tūturu",
+    "title": "tohu puaki",
+    "content": "Kei te hiahia koe ki te mahi i tenei?"
+  },
+  "EditableText": {
+    "cancel": "Whakakore",
+    "save": "whakaora",
+    "title": "whakatikatika"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "darboties",
+    "click": "Noklikšķināt",
+    "longClick": "Gara nospiešana",
+    "setText": "Iestatīt tekstu",
+    "tryClick": "Izmēģiniet elementu vai atrašanās vietu noklikšķiniet",
+    "globalClick": "Vietas klikšķa atrašanās vieta"
+  }
+}

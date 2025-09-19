@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Xem giao diện truy cập",
+    "howToUse": "Hướng dẫn sử dụng",
+    "howToUseTooltip": "Dưới đây là một số thuộc tính đánh dấu của nút này có thể được sử dụng để chọn các hoạt động, chẳng hạn như nhấp, điền vào văn bản, v.v.\n\nGiá trị thuộc tính có thể được nhân đôi trong trang ứng dụng. Nếu bạn gặp phải các bản sao, vui lòng phủ lên các lựa chọn thuộc tính khác để xác định tính duy nhất.\n\nMột từ màu đỏ chỉ ra rằng giá trị thuộc tính được lặp lại, một từ màu xanh lá cây chỉ ra rằng giá trị thuộc tính là duy nhất trong tìm kiếm trang hiện tại và một từ đen cho biết rằng không có so sánh lặp lại.",
+    "otherNodesSummary": "Các nút khác ở vị trí này",
+    "moreNodes": "Đây là những gì đang được mở rộng.",
+    "nodeInfoDialogOkButton": "Chỉnh sửa hoạt động của nút này",
+    "text": "Văn bản 2222"
+  }
+}

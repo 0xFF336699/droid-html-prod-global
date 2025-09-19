@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Логин/Регистр",
+    "signOut": "Локтӧй",
+    "confirmContent": "Ті ёна кӧсъянныд лэччыны?",
+    "confirmTitle": "гаравны",
+    "confirm": "Дерт",
+    "cancel": "Киритӧм",
+    "signoutOk": "Локтӧй",
+    "loadingData": "Пользовательскӧй даннӧйяс тыртӧм ."
+  }
+}

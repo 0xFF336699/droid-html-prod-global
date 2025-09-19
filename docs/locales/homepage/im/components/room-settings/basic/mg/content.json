@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Anaran'ny efitrano"
+      },
+      "topic": {
+        "label": "Efitra fampidirana"
+      },
+      "avatar": {
+        "alt": "Efitrano avatar"
+      },
+      "submit": "Tehirizo ny filaharana"
+    },
+    "toast": {
+      "success": "Fanavaozana nohavaozina",
+      "error": {
+        "default": "Tsy nahomby ny fanovana fanavaozana",
+        "avatar": "Tsy nahavita nanavao avatar"
+      }
+    }
+  }
+}

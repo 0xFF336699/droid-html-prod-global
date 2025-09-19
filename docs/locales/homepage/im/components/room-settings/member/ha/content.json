@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Neman membobi"
+    },
+    "table": {
+      "columns": {
+        "name": "Sunan Member",
+        "userId": "ID na mai amfani",
+        "actions": "yi aiki da"
+      },
+      "pagination": {
+        "rowsPerPage": "Yawan layuka a kowane shafi"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Harbi",
+        "ban": "Haram"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Tabbatar da dan wasan harbi",
+        "content": "Shin kun tabbata kuna son harbi daga cikin ɗakin?"
+      },
+      "ban": {
+        "title": "Tabbatar da membobin da aka dakatar",
+        "content": "Shin kun tabbata kuna son hana wannan memba? Memba ba zai iya samun damar shiga cikin dakin bayan dakatarwar ba."
+      },
+      "buttons": {
+        "cancel": "Warware",
+        "confirm": "tabbata"
+      }
+    },
+    "toast": {
+      "loadError": "Ba a yi nasarar saukar da jerin membobin ba",
+      "kick": {
+        "success": "An harba mambobi daga daki",
+        "error": "Kashe membobin sun gaza"
+      },
+      "ban": {
+        "success": "An katange mambobi",
+        "error": "Ba a yi nasarar toshe mambobi ba"
+      }
+    },
+    "invite": {
+      "button": "Gayyato membobi",
+      "title": "Gayyato membobi su shiga dakin",
+      "inputLabel": "Da fatan za a shigar da ID na mai amfani da Matrix (kamar @user: Matrix.org)",
+      "confirm": "kira",
+      "cancel": "Warware",
+      "loading": "Gayyatar ...",
+      "success": "Gayyatar da aka aiko!",
+      "error": "Gayyatar ta gaza, don Allah duba ID mai amfani ko izini"
+    },
+    "empty": "Babu memba ba tukuna",
+    "loading": "Loading ...",
+    "role": {
+      "owner": "Maigida",
+      "admin": "shugaba",
+      "moderator": "Co-gudanarwa",
+      "user": "m"
+    }
+  }
+}

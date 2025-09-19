@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "E Raum erstellen"
+    },
+    "dialog": {
+      "title": "En neie Raum erstellen",
+      "form": {
+        "userId": {
+          "label": "Benotzer ID",
+          "placeholder": "Gitt de Benotzer ID (zum Beispill: @user: Beispill.com)",
+          "error": {
+            "required": "Benotzer ID kann net eidel sinn",
+            "invalid": "Ongëltegen User ID Format"
+          }
+        },
+        "roomName": {
+          "label": "Raum Numm (fakultativ)",
+          "placeholder": "Gitt e Raumnumm an"
+        },
+        "isEncrypted": {
+          "label": "Aktivéiert Enn-bis-Endverschlësselung"
+        },
+        "isDirect": {
+          "label": "Direkt Bild"
+        },
+        "topic": {
+          "label": "Thema (fakultativ)",
+          "placeholder": "Gitt de Raum Thema un"
+        }
+      },
+      "actions": {
+        "cancel": "Ofbriechen",
+        "create": "erreeiert eng kreéieren"
+      },
+      "success": "Zëmmer. Erfollegräich",
+      "error": "E Feeler ass beim Erstellt e Raum: {Feeler}"
+    }
+  }
+}

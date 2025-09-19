@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Akuersissummik nassiussinissamut akuersissummik niveau pisariaqartoq",
+        "tooltip": "0 isumaqarpoq ilaasortat tamarmik allakkanik nassiussisinnaasut, aammalu amerlassuseq annertunerusoq isumaqarpoq akuersissutit annertunerusut pisariaqartinneqartut"
+      },
+      "invite": {
+        "label": "Ilaasortat nutaat qaaqquniarlugit akuersissutit piumasaqaataavoq",
+        "tooltip": "Kikkut ilaasortat nutaat inimut qaaqqusinnaavai"
+      },
+      "kick": {
+        "label": "Akuersissutip niveau-a pisariaqartinneqartoq kick-erlugu",
+        "tooltip": "Kikkut inissiami ilaasortat kick out-ersinnaavai"
+      },
+      "ban": {
+        "label": "Ilaasortat blokkerneqarnissaannut akuersissut niveau pisariaqartoq",
+        "tooltip": "Kikkut blokkerersinnaavai room-imi ilaasortat"
+      },
+      "roomSettings": {
+        "label": "Init inissititernerit akuersissutigineqartussamik niveau-mik piumasaqaateqarneq allanngortiguk",
+        "tooltip": "Init inissititernerit kia allanngortissinnaavai"
+      },
+      "submit": "Akuersissutinik inissititernerit sipaarlugit"
+    },
+    "description": "Akuersissummik niveau: 0-100, amerlanerusumik amerlassuseq isumaqarpoq akuersissutit annertunerusut pisariaqartinneqartut",
+    "toast": {
+      "success": "Akuersissummik inissititernerit nutarterneqarput",
+      "error": "Akuersissutinik inissititernerit nutarternissaannut"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "ثبت نام",
+    "phoneNumber": "شماره تلفن",
+    "phoneNumberPlaceholder": "لطفا شماره تلفن همراه خود را وارد کنید",
+    "verificationCode": "رمز تأیید",
+    "verificationCodePlaceholder": "لطفاً کد تأیید را وارد کنید",
+    "getVerificationCode": "کد تأیید را دریافت کنید",
+    "countdown": "{{ثانیه}} ثانیه ها دوباره امتحان کنید",
+    "register": "ثبت نام",
+    "errors": {
+      "phoneRequired": "لطفا شماره تلفن همراه خود را وارد کنید",
+      "phoneInvalid": "فرمت شماره تلفن همراه نادرست است",
+      "codeRequired": "لطفاً کد تأیید را وارد کنید",
+      "codeInvalid": "قالب کد تأیید نادرست است",
+      "requestFailed": "درخواست انجام نشد",
+      "verificationFailed": "کسب کد تأیید انجام نشد",
+      "loginFailed": "ورود به سیستم انجام نشد"
+    },
+    "success": {
+      "verificationCodeSent": "کد تأیید ارسال شده است",
+      "registerSuccess": "با موفقیت ثبت شده است"
+    }
+  }
+}

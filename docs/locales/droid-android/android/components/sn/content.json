@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Kanzura",
+    "ok": "Chokwadi",
+    "checkBoxText": "Enda zvakananga kuti ubvumidze mukati mehafu pamwedzi uye haisisiri kuratidza iyi hwindo",
+    "content": "Iri basa rinoda kubvumidzwa kwebetsero. Kana iwe uchida kupa mvumo, ndapota tinya [OK]. Kana iwe uchida kukanda mapfumo pasi, ndapota tinya [kudzima]",
+    "title": "Mvumo yekushandisa"
+  },
+  "floatPermission": {
+    "cancel": "Kanzura",
+    "ok": "Chokwadi",
+    "checkBoxText": "Enda zvakananga kuti ubvumidze mukati mehafu pamwedzi uye haisisiri kuratidza iyi hwindo",
+    "content": "Iri basa rinoda kubvumidzwa kweiyo inoyerera hwindo rewindo. Kana iwe uchida kupa mvumo, ndapota tinya [OK]. Kana iwe uchida kukanda mapfumo pasi, ndapota tinya [kudzima]",
+    "title": "Mvumo yekushandisa"
+  }
+}

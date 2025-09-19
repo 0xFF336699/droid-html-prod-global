@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Huoneen nimi"
+      },
+      "topic": {
+        "label": "Huoneen esittely"
+      },
+      "avatar": {
+        "alt": "Huoneen avatari"
+      },
+      "submit": "Tallenna asetukset"
+    },
+    "toast": {
+      "success": "Asetukset päivitettiin",
+      "error": {
+        "default": "Päivitysasetukset epäonnistuivat",
+        "avatar": "Avatarin päivittäminen epäonnistui"
+      }
+    }
+  }
+}

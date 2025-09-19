@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Connexion / enregistrement",
+    "signOut": "Déconnecter",
+    "confirmContent": "Êtes-vous sûr de vouloir vous déconnecter?",
+    "confirmTitle": "indice",
+    "confirm": "Bien sûr",
+    "cancel": "Annuler",
+    "signoutOk": "Déconnecter",
+    "loadingData": "Chargement des données utilisateur"
+  }
+}

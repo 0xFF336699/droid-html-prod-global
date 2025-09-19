@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Modèl URL",
+    "full": {
+      "url": "URL mache. Karaktè yo antre yo pral chaje kòm URL, tanpri fè atansyon.",
+      "html": "Market HTML kontni. Karaktè yo antre yo pral egzekite imedyatman kòm Scripts, tanpri dwe pridan.",
+      "come": "Vin jwenn mwen",
+      "myMarketName": "Non mache",
+      "stroll": "Ann fè yon ti mache"
+    },
+    "item": {
+      "url": "URL kat mache. Karaktè yo antre yo pral chaje kòm URL, tanpri fè atansyon.",
+      "html": "Market HTML kontni. Karaktè yo antre yo pral egzekite imedyatman kòm Scripts, tanpri dwe pridan.",
+      "come": "Vin jwenn mwen",
+      "myMarketName": "Non mache",
+      "stroll": "Ann fè yon ti mache"
+    }
+  }
+}

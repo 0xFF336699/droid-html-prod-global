@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "virka",
+    "click": "Klokka",
+    "longClick": "Langt pressa",
+    "setText": "Set tekst .",
+    "tryClick": "Royn element ella staðklikk",
+    "globalClick": "Staðfesting"
+  }
+}

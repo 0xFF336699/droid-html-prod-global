@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Buat bilik"
+    },
+    "dialog": {
+      "title": "Buat bilik baru",
+      "form": {
+        "userId": {
+          "label": "ID Pengguna",
+          "placeholder": "Masukkan ID Pengguna (contohnya: @user: contoh.com)",
+          "error": {
+            "required": "ID Pengguna tidak boleh kosong",
+            "invalid": "Format ID Pengguna Tidak Sah"
+          }
+        },
+        "roomName": {
+          "label": "Nama Bilik (Pilihan)",
+          "placeholder": "Masukkan nama bilik"
+        },
+        "isEncrypted": {
+          "label": "Dayakan penyulitan akhir-ke-akhir"
+        },
+        "isDirect": {
+          "label": "Mesej langsung"
+        },
+        "topic": {
+          "label": "Tema (pilihan)",
+          "placeholder": "Masukkan tema bilik"
+        }
+      },
+      "actions": {
+        "cancel": "Batalkan",
+        "create": "Buat"
+      },
+      "success": "Penciptaan bilik berjaya",
+      "error": "Ralat berlaku semasa membuat bilik: {error}"
+    }
+  }
+}

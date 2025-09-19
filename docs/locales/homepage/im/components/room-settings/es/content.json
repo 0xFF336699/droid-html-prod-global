@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Configuración de la habitación",
+    "tabs": {
+      "basic": "Configuración básica",
+      "permission": "Configuración de permiso",
+      "privacy": "Configuración de privacidad",
+      "member": "Gestión de miembros"
+    },
+    "loadError": "No se pudo cargar la configuración de la habitación",
+    "leaveRoom": {
+      "button": "Salir de la habitación",
+      "confirm": "¿Estás seguro de que quieres salir de la habitación? Después de salir, no podrá continuar recibiendo mensajes de esta habitación.",
+      "success": "Salió de la habitación con éxito",
+      "error": "No se pudo salir de la habitación, intente nuevamente"
+    }
+  }
+}

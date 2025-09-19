@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Login/Register",
+    "signOut": "Log out",
+    "confirmContent": "Qularnanngilaq log out-erniarlutit?",
+    "confirmTitle": "oqariartuutigineqartoq",
+    "confirm": "Taamaassooq",
+    "cancel": "taamaatippaa",
+    "signoutOk": "Log out",
+    "loadingData": "Atuisut pillugit paasissutissat pissarsiarineqarnerat"
+  }
+}

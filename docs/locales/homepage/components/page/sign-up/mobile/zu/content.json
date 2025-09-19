@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "regista",
+    "phoneNumber": "Inombolo yocingo",
+    "phoneNumberPlaceholder": "Sicela ufake inombolo yakho yocingo ephathekayo",
+    "verificationCode": "Ikhodi yokuqinisekisa",
+    "verificationCodePlaceholder": "Sicela ufake ikhodi yokuqinisekisa",
+    "getVerificationCode": "Thola ikhodi yokuqinisekisa",
+    "countdown": "{{imizuzwana]} imizuzwana yokuzama futhi",
+    "register": "regista",
+    "errors": {
+      "phoneRequired": "Sicela ufake inombolo yakho yocingo ephathekayo",
+      "phoneInvalid": "Ifomethi yenombolo yeselula ayilungile",
+      "codeRequired": "Sicela ufake ikhodi yokuqinisekisa",
+      "codeInvalid": "Ifomethi yekhodi yokuqinisekisa ayilungile",
+      "requestFailed": "Isicelo sehlulekile",
+      "verificationFailed": "Ukutholwa kwekhodi yokuqinisekisa kwehlulekile",
+      "loginFailed": "ukungena kokuyimfihlo ayiphumelelanga"
+    },
+    "success": {
+      "verificationCodeSent": "Kuthunyelwe ikhodi yokuqinisekisa",
+      "registerSuccess": "Ibhalisiwe ngempumelelo"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Salá shambre moko ."
+    },
+    "dialog": {
+      "title": "Bosala chambre ya sika .",
+      "form": {
+        "userId": {
+          "label": "ID ya mosaleli .",
+          "placeholder": "Tyá ID ya mosaleli (ndakisa: @User:Example.com)",
+          "error": {
+            "required": "ID ya mosaleli ekoki kozala mpamba te .",
+            "invalid": "Format ya ID ya mosaleli oyo ezali malamu te ."
+          }
+        },
+        "roomName": {
+          "label": "Kombo ya ndako (ekoki kozala) .",
+          "placeholder": "Tyá nkombo ya shambre moko ."
+        },
+        "isEncrypted": {
+          "label": "Activer encryption ya suka na suka ."
+        },
+        "isDirect": {
+          "label": "Message direct ."
+        },
+        "topic": {
+          "label": "Motó ya likambo (na bolingi) .",
+          "placeholder": "Kota na thème ya chambre ."
+        }
+      },
+      "actions": {
+        "cancel": "Kolongola",
+        "create": "kosala"
+      },
+      "success": "Bokeli ya bashambre na elonga .",
+      "error": "Erreur esalemaki tango ya kosala chambre: {error}"
+    }
+  }
+}

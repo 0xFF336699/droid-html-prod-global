@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "Primul pagină",
+    "me": "mina",
+    "settings": "înființat",
+    "script": "script",
+    "store": "piaţă",
+    "market": "piaţă",
+    "create": "crea"
+  },
+  "tabbar": {
+    "test": "Bara de meniu de jos"
+  }
+}

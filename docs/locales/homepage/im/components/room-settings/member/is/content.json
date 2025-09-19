@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Leitaðu að meðlimum"
+    },
+    "table": {
+      "columns": {
+        "name": "Nafn meðlima",
+        "userId": "Notandakenni",
+        "actions": "Notaðu"
+      },
+      "pagination": {
+        "rowsPerPage": "Fjöldi raða á síðu"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Sparka út",
+        "ban": "Bannað"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Staðfestu sparkmeðliminn",
+        "content": "Ertu viss um að þú viljir sparka meðlimnum út úr herberginu?"
+      },
+      "ban": {
+        "title": "Staðfestu bannað aðild",
+        "content": "Ertu viss um að þú viljir banna þennan félaga? Meðlimurinn mun ekki geta gengið aftur í herbergið eftir bannið."
+      },
+      "buttons": {
+        "cancel": "Hætta við",
+        "confirm": "Staðfestu"
+      }
+    },
+    "toast": {
+      "loadError": "Mistókst að hlaða meðlimalista",
+      "kick": {
+        "success": "Félagsmönnum hefur verið sparkað út úr herberginu",
+        "error": "Að sparka út meðlimum mistókst"
+      },
+      "ban": {
+        "success": "Meðlimir lokuðu",
+        "error": "Ekki tókst að loka fyrir meðlimi"
+      }
+    },
+    "invite": {
+      "button": "Bjóddu meðlimum",
+      "title": "Bjóddu meðlimum að taka þátt í herberginu",
+      "inputLabel": "Vinsamlegast sláðu inn notandakenni fylkisins (eins og @User: Matrix.org)",
+      "confirm": "Bjóddu",
+      "cancel": "Hætta við",
+      "loading": "Að bjóða ...",
+      "success": "Boð sent!",
+      "error": "Boð mistókst, vinsamlegast athugaðu notandakenni eða heimildir"
+    },
+    "empty": "Enginn félagi ennþá",
+    "loading": "hleðsla ...",
+    "role": {
+      "owner": "Húseigandi",
+      "admin": "Stjórnandi",
+      "moderator": "Samstýring",
+      "user": "Meðlimur"
+    }
+  }
+}

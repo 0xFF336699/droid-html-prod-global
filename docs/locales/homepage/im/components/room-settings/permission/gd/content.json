@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "An ìre chead a dh 'fheumar gus teachdaireachd a chuir",
+        "tooltip": "Tha 0 a 'ciallachadh gum faod a h-uile ball teachdaireachdan a chuir, agus tha an àireamh nas motha a' ciallachadh gu bheil feum air ceadan nas àirde"
+      },
+      "invite": {
+        "label": "Ìre cead a dh 'fheumar gus cuireadh a thoirt do bhuill ùra",
+        "tooltip": "Suidhich cò as urrainn cuireadh a thoirt do bhuill ùra don t-seòmar"
+      },
+      "kick": {
+        "label": "A 'breab a-mach an ìre cead riatanach",
+        "tooltip": "Suidhich cò as urrainn do bhuill an t-seòmair a bhreabadh a-mach"
+      },
+      "ban": {
+        "label": "Ìre cead a dhìth airson bacadh a chuir air buill",
+        "tooltip": "Suidhich cò as urrainn bacadh a chuir air buill seòmar"
+      },
+      "roomSettings": {
+        "label": "Atharraich an ìre roghainnean a tha a dhìth air roghainnean seòmar",
+        "tooltip": "Suidhich cò as urrainn roghainnean an t-seòmair atharrachadh"
+      },
+      "submit": "Sàbhail roghainnean cead"
+    },
+    "description": "Raon Ìre cead: 0-100, is ann as motha an àireamh a tha riatanach Ceadan nas àirde",
+    "toast": {
+      "success": "Chaidh roghainnean cead ùrachadh",
+      "error": "Dh'fhàillig ùrachadh roghainnean cead"
+    }
+  }
+}

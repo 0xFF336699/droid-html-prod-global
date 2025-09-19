@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Sartu gelan",
+      "inviteOnly": "Gela pribatua da eta gonbidapenak eskatzen ditu",
+      "knockRequired": "Gela honek bat egin behar du. Egin klik beheko botoian sartzeko eskaera bidaltzeko",
+      "canJoin": "Gela publikoa da, zuzenean sartu zaitezke",
+      "sendRequest": "Bidali Bat egin eskaera",
+      "join": "Sartu gelan"
+    },
+    "JoinRequestList": {
+      "noRequests": "Oraindik ez da batzeko eskaerarik",
+      "accept": "onetsi",
+      "reject": "errefusatu"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Idatzi mezu bat ..."
+  },
+  "MessageList": {
+    "noMessages": "Oraindik ez dago mezurik, bidali lehen mezua elkarrizketa hasteko!",
+    "loading": "Kargatzen ...",
+    "error": {
+      "loadFailed": "Huts egin du mezua kargatzean",
+      "retry": "Saiatu berriro"
+    },
+    "loadingHistory": "Historia kargatzen ...",
+    "historyEnd": "Lehenengo albisteak iritsi dira"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Oraindik ez dago mezurik, bidali lehen mezua elkarrizketa hasteko!"
+  },
+  "RoomContent": {
+    "title": "Toki"
+  },
+  "RoomHeader": {
+    "title": "Toki",
+    "unnamedRoom": "Izenik gabeko gela",
+    "members": "bazkide",
+    "settings": "konfiguratu",
+    "leaveRoom": "Gelatik irten",
+    "joinRoom": "Sartu gelan"
+  },
+  "RoomMembers": {
+    "title": "Gela-kideak",
+    "online": "Konektatuta",
+    "offline": "Lurrin",
+    "join": "Sartu",
+    "invite": "gonbidatu",
+    "leave": "baimen",
+    "ban": "Debekatu",
+    "noMembers": "Oraindik kide ez",
+    "loading": "Kargatzen ..."
+  }
+}

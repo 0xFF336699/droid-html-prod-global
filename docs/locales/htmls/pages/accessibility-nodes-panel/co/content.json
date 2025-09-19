@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Regione interfaccia di accessibilità",
+    "howToUse": "Istruzzioni per l'usu",
+    "howToUseTooltip": "Quì sottu sò certi attributi di marcatura di stu node chì ponu esse aduprate per selezziunà operazioni, cum'è cliccà, rializà u testu, ecc.\n\nU valore di attributu pò esse duplicatu in a pagina di l'app. Se scontre duplicati, per piacè Overlay altri selezioni d'attributi per determinà l'unicità.\n\nUna parolla rossa indica chì l'attributu valore hè ripetutu, una parolla verde indica chì u valore di l'attributu hè unicu, è una parolla negra indica chì ùn ci hè micca un paragone ripetuta.",
+    "otherNodesSummary": "Altri nodi in questu locu",
+    "moreNodes": "Eccu ciò chì hè espansione.",
+    "nodeInfoDialogOkButton": "Edità l'operazione di stu node",
+    "text": "Testo 2222"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Tugunining bajarilishi",
+    "changeBtnLabel": "almashtirmoq",
+    "showNodeAllProperties": "Barcha xususiyatlarni ko'rsatish",
+    "wait": {
+      "time": "Kutish vaqti",
+      "interval": "Kutish oralig'i",
+      "invisible": "Ekrandan tashqarida elementlarni aniqlash kerakmi"
+    }
+  }
+}

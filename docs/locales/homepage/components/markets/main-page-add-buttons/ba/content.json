@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Өҫтәү өсөн",
+    "sub": {
+      "addScriptByUrl": "Сценарийҙарҙы URL аша өҫтәгеҙ",
+      "addScriptByText": "Текст аша сценарийҙар өҫтәгеҙ",
+      "addMarket": "URL аша баҙар өҫтәгеҙ",
+      "addMarketByText": "Текст аша баҙар өҫтәү ."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Tilslutning ...",
+    "connected": "Tilsluttet",
+    "disconnecting": "Frakobling ...",
+    "disconnected": "Ikke tilsluttet",
+    "waitRetry": "Venter på genforbindelse ..."
+  }
+}

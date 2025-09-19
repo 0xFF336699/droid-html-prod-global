@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "Jisajili",
+    "phoneNumber": "Nambari ya simu",
+    "phoneNumberPlaceholder": "Tafadhali ingiza nambari yako ya simu ya rununu",
+    "verificationCode": "Nambari ya uthibitisho",
+    "verificationCodePlaceholder": "Tafadhali ingiza nambari ya uthibitisho",
+    "getVerificationCode": "Pata nambari ya uthibitishaji",
+    "countdown": "{{sekunde}} sekunde kujaribu tena",
+    "register": "Jisajili",
+    "errors": {
+      "phoneRequired": "Tafadhali ingiza nambari yako ya simu ya rununu",
+      "phoneInvalid": "Fomati ya nambari ya simu ya rununu sio sahihi",
+      "codeRequired": "Tafadhali ingiza nambari ya uthibitisho",
+      "codeInvalid": "Fomati ya nambari ya uthibitishaji sio sahihi",
+      "requestFailed": "Ombi limeshindwa",
+      "verificationFailed": "Upataji wa nambari ya uthibitisho umeshindwa",
+      "loginFailed": "Ingia imeshindwa"
+    },
+    "success": {
+      "verificationCodeSent": "Nambari ya uthibitisho imetumwa",
+      "registerSuccess": "Imesajiliwa kwa mafanikio"
+    }
+  }
+}

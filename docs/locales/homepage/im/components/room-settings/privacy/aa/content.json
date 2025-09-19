@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Ummattâ qari",
+        "description": "ummatta qarwa gersi xoqoysima gorrisam duudah"
+      },
+      "allowGuestJoin": {
+        "label": "Gufneh gufne edde tangalem faxximta",
+        "description": "Qibnih innah tan qarit yangooroweenim maduudumta."
+      },
+      "isEncrypted": {
+        "label": "Qanxaffe illacabo---- ellecabo cisaabal",
+        "description": "xiqqimmata wak, farmo footimak gaba kalti- ellecabo- ellecabol",
+        "alert": "gaba kalti-walkil-gacsa encryption footimah addal, kee tama farmo gaba kaltam madudda."
+      },
+      "submit": "sirrih farmooma"
+    },
+    "toast": {
+      "success": "Melleb guddaaqa asqassaabe",
+      "error": "Qaxmaqaane cankâ farmooma usqussub"
+    }
+  }
+}

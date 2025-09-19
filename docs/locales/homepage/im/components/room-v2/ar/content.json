@@ -1,0 +1,7 @@
+{
+  "RoomContentV2": {
+    "waitingForLogin": "الرجاء تسجيل الدخول أولاً",
+    "loadingRoomInfo": "معلومات غرفة التحميل ...",
+    "roomNotFound": "لم يتم العثور على الغرفة"
+  }
+}

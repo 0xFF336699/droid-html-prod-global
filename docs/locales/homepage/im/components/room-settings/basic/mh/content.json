@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Etan jikin"
+      },
+      "topic": {
+        "label": "Ruum"
+      },
+      "avatar": {
+        "alt": "Ruum"
+      },
+      "submit": "Jikin ko rej kōjparok"
+    },
+    "toast": {
+      "success": "Kar kōkāāl .",
+      "error": {
+        "default": "Ear jab tōprak kōttōpar ko an .",
+        "avatar": "Ear jab bar kōkāāl ."
+      }
+    }
+  }
+}

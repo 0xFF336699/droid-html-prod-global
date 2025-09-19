@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Ulwazi lomsebenzisi",
+    "id": {
+      "name": "Id",
+      "copy": "ikopi",
+      "copied": "I-ID ikhutshiwe"
+    },
+    "notLoggedIn": "Ayingeni",
+    "name": "igama",
+    "avatar": "i-avatar"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "ຕິດຕໍ່ພົວພັນ",
+        "helperText": "ຖ້າທ່ານກົດປຸ່ມ Start Link, ແລ້ວຮັກສາລິ້ງ. ສິ່ງນີ້ຮຽກຮ້ອງໃຫ້ມີຄວາມສົນໃຈທີ່ລິ້ງຈະເຊື່ອມຕໍ່ກັນຢ່າງຕໍ່ເນື່ອງຫລັງຈາກມັນຖືກຕັດຂາດ.",
+        "retryCount": "ຈໍານວນຂອງການເຊື່ອມຕໍ່ໃຫມ່"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "URL Link, ຕົວຢ່າງ WS: //192.168.0.0.0.2: 7001: ຫຼື WWS: //example.com/path",
+        "error": "URL ທີ່ຖືກຕ້ອງແມ່ນ URL ທີ່ເລີ່ມຕົ້ນຈາກ WS: // ຫຼື WWS: //"
+      }
+    },
+    "connectButton": {
+      "connect": "ເຊື່ອມຕໍ່",
+      "disconnect": "ຕັດຂາດ",
+      "status": {
+        "connecting": "ເຊື່ອມຕໍ່ ...",
+        "connected": "ເຊື່ອມໂຍງ",
+        "disconnecting": "ຕັດການເຊື່ອມຕໍ່ ...",
+        "disconnected": "ບໍ່ເຊື່ອມຕໍ່",
+        "waitRetry": "ລໍຖ້າການເຊື່ອມຕໍ່ເຂົ້າກັນ ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "ບົດລະຄອນ"
+  }
+}

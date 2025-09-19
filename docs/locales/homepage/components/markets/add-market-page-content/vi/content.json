@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "Thêm vào thị trường",
+    "url": "URL thị trường",
+    "summary": "Tóm tắt thị trường",
+    "urlIsNotValid": "URL thị trường không chính xác"
+  }
+}

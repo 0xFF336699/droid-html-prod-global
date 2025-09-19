@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Benutzerinformationen",
+    "id": {
+      "name": "AUSWEIS",
+      "copy": "Kopie",
+      "copied": "ID wurde kopiert"
+    },
+    "notLoggedIn": "Nicht angemeldet",
+    "name": "Name",
+    "avatar": "Avatar"
+  }
+}

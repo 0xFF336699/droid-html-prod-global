@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Sow labɛncogo .",
+    "tabs": {
+      "basic": "Settings jɔnjɔnw .",
+      "permission": "Permis settings .",
+      "privacy": "Kunnafoni minnu bɛ sɔrɔ yɔrɔ la .",
+      "member": "Mɔgɔw ​​ka ɲɛnabɔli ."
+    },
+    "loadError": "A ma se ka so sigicogo doni .",
+    "leaveRoom": {
+      "button": "Aw bɛ bɔ so kɔnɔ .",
+      "confirm": "Yala i b’a fɛ ka bɔ so kɔnɔ wa? I bɔlen kɔ yen, i tɛna se ka taa a fɛ ka cikanw sɔrɔ ka bɔ nin so in kɔnɔ.",
+      "success": "A bɔra so kɔnɔ ka ɲɛ .",
+      "error": "A ma se ka bɔ so kɔnɔ, aw ka segin ka a lajɛ ."
+    }
+  }
+}

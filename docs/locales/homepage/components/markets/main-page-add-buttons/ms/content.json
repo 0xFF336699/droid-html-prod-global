@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Tambah ke",
+    "sub": {
+      "addScriptByUrl": "Tambahkan skrip melalui URL",
+      "addScriptByText": "Tambahkan skrip melalui teks",
+      "addMarket": "Tambahkan pasaran melalui URL",
+      "addMarketByText": "Tambahkan pasaran melalui teks"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Soro ụlọ ahụ",
+      "inviteOnly": "Nke a bụ ọnụ ụlọ nkeonwe ma chọọ akwụkwọ ịkpọ òkù isonye",
+      "knockRequired": "Ime ụlọ a chọrọ ngwa iji sonyere. Pịa bọtịnụ dị n'okpuru iji zipu arịrịọ",
+      "canJoin": "Nke a bụ ọnụ ụlọ ọha, ị nwere ike sonyere ozugbo",
+      "sendRequest": "Ziga arịrịọ sonyere",
+      "join": "Soro ụlọ ahụ"
+    },
+    "JoinRequestList": {
+      "noRequests": "Enweghị arịrịọ ma",
+      "accept": "nabata",
+      "reject": "iju"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Tinye ozi ..."
+  },
+  "MessageList": {
+    "noMessages": "Enweghị ozi ọ bụla ma, ziga ozi izizi iji malite mkparịta ụka!",
+    "loading": "Na-eburu ...",
+    "error": {
+      "loadFailed": "Enweghị ike ibuga ozi ahụ",
+      "retry": "Nwaa ọzọ"
+    },
+    "loadingHistory": "Bute akụkọ ihe mere eme ...",
+    "historyEnd": "Ozi mbụ erutere"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Enweghị ozi ọ bụla ma, ziga ozi izizi iji malite mkparịta ụka!"
+  },
+  "RoomContent": {
+    "title": "Mkpuru"
+  },
+  "RoomHeader": {
+    "title": "Mkpuru",
+    "unnamedRoom": "Ime ụlọ",
+    "members": "otu",
+    "settings": "melite",
+    "leaveRoom": "Hapụ ụlọ ahụ",
+    "joinRoom": "Soro ụlọ ahụ"
+  },
+  "RoomMembers": {
+    "title": "Ndị otu ụlọ",
+    "online": "Onnet",
+    "offline": "Inforee",
+    "join": "sonye na",
+    "invite": "ikpo oku",
+    "leave": "ipa ihapu",
+    "ban": "Mmachichi",
+    "noMembers": "Onweghi onye obula",
+    "loading": "Na-eburu ..."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Login/registro",
+    "signOut": "Log Out",
+    "confirmContent": "Tem certeza de que deseja fazer logon?",
+    "confirmTitle": "dica",
+    "confirm": "Claro",
+    "cancel": "Cancelar",
+    "signoutOk": "Log Out",
+    "loadingData": "Carregando dados do usuário"
+  }
+}

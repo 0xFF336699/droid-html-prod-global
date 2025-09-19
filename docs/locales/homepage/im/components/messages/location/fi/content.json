@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Sijainti",
+    "viewMap": "Katsella karttaa",
+    "close": "päättäminen"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Nykyinen selain ei tue Geolocation -hankintaa",
+    "getLocationFailed": "Sijainnin hankkiminen epäonnistui, tarkista lupa -asetukset",
+    "myLocation": "Minun sijaintini",
+    "shareLocation": "Jaa sijainti",
+    "getCurrentLocation": "Hanki nykyinen sijainti",
+    "title": "Sijainti",
+    "description": "Yksityiskohtainen kuvaus",
+    "descriptionPlaceholder": "Anna yksityiskohtainen kuvaus (valinnainen)",
+    "preview": "Sijainnin esikatselu",
+    "latitude": "leveysaste",
+    "longitude": "pituusaste",
+    "cancel": "Peruuttaa",
+    "send": "lähettää",
+    "permissionPrompt": "Meidän on hankittava sijaintitietosi paremman palvelun tarjoamiseksi, onko se sallittu?",
+    "permissionDenied": "Paikannuslupa hylätään, ota käyttöön sijoituslupa selaimen asetuksissa",
+    "locationTimeout": "Sijoittamisen aikakatkaisu, varmista, että laite on kytketty päälle, ja yritä tehdä uudelleen",
+    "locationUnavailable": "Nykyistä sijaintia ei voida hankkia, tarkista laitteen sijaintipalvelu"
+  }
+}

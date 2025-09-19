@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "Patakbuhin",
+    "click": "Mag -click",
+    "longClick": "Mahabang pindutin",
+    "setText": "Itakda ang teksto",
+    "tryClick": "Subukan ang elemento o pag -click sa lokasyon",
+    "globalClick": "I -click ang Lokasyon"
+  }
+}

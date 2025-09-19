@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Vytvořte pokoj"
+    },
+    "dialog": {
+      "title": "Vytvořte novou místnost",
+      "form": {
+        "userId": {
+          "label": "ID uživatele",
+          "placeholder": "Zadejte ID uživatele (například: @User: příklad.com)",
+          "error": {
+            "required": "ID uživatele nemůže být prázdné",
+            "invalid": "Neplatný formát ID uživatele"
+          }
+        },
+        "roomName": {
+          "label": "Název pokoje (volitelné)",
+          "placeholder": "Zadejte název pokoje"
+        },
+        "isEncrypted": {
+          "label": "Povolit šifrování end-to-end"
+        },
+        "isDirect": {
+          "label": "Přímá zpráva"
+        },
+        "topic": {
+          "label": "Téma (volitelné)",
+          "placeholder": "Zadejte téma místnosti"
+        }
+      },
+      "actions": {
+        "cancel": "Zrušit",
+        "create": "vytvořit"
+      },
+      "success": "Úspěšně vytvoření pokoje",
+      "error": "Při vytváření místnosti došlo k chybě: {chyba}"
+    }
+  }
+}

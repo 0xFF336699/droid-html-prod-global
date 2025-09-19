@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Keamerynstellingen",
+    "tabs": {
+      "basic": "Basisynstellingen",
+      "permission": "Fergunningynstellingen",
+      "privacy": "Privacy-ynstellings",
+      "member": "Lidbehear"
+    },
+    "loadError": "Misleare keamerynstellingen te laden",
+    "leaveRoom": {
+      "button": "De keamer útgean",
+      "confirm": "Binne jo wis dat jo de keamer wolle útgean? Neidat jo útgean, sille jo net kinne trochgean mei berjochten fan dizze keamer te ûntfangen.",
+      "success": "Gie de keamer mei súkses út",
+      "error": "De keamer net slagge, besykje it opnij"
+    }
+  }
+}

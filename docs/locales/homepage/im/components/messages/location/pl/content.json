@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Nazwa lokalizacji",
+    "viewMap": "Zobacz mapę",
+    "close": "zamknięcie"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Obecna przeglądarka nie obsługuje akwizycji geolokalizacji",
+    "getLocationFailed": "Nie udało się uzyskać lokalizacji, sprawdź ustawienia uprawnień",
+    "myLocation": "Moja lokalizacja",
+    "shareLocation": "Udostępnij lokalizację",
+    "getCurrentLocation": "Uzyskaj obecną lokalizację",
+    "title": "Nazwa lokalizacji",
+    "description": "Szczegółowy opis",
+    "descriptionPlaceholder": "Wprowadź szczegółowy opis (opcjonalnie)",
+    "preview": "Podgląd lokalizacji",
+    "latitude": "szerokość",
+    "longitude": "długość geograficzna",
+    "cancel": "Anulować",
+    "send": "wysłać",
+    "permissionPrompt": "Musimy uzyskać informacje o lokalizacji, aby zapewnić lepsze usługi, czy jest to dozwolone?",
+    "permissionDenied": "Zezwolenie na pozycjonowanie jest odrzucone, prosimy o włączenie uprawnienia do pozycjonowania w ustawieniach przeglądarki",
+    "locationTimeout": "Pozycjonowanie limitu czasu, upewnij się, że urządzenie jest włączone i spróbuj ponownie zapoznać się z",
+    "locationUnavailable": "Nie można uzyskać obecnej lokalizacji, sprawdź usługę lokalizacji urządzenia"
+  }
+}

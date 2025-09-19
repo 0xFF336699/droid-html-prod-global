@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Rămâi conectat",
+        "helperText": "Dacă faceți clic pe linkul de pornire, păstrați linkul. Acest lucru necesită atenție că legătura va fi reconectată continuu după ce va fi deconectată.",
+        "retryCount": "Numărul de reconectare"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "URL -ul link, de exemplu WS: //192.168.0.2: 7001 sau WWS: //example.com/path",
+        "error": "URL -ul corect este o adresă URL care începe cu WS: // sau WWS: //"
+      }
+    },
+    "connectButton": {
+      "connect": "conectați",
+      "disconnect": "Deconecta",
+      "status": {
+        "connecting": "Conectarea ...",
+        "connected": "Conectat",
+        "disconnecting": "Deconectarea ...",
+        "disconnected": "Nu este conectat",
+        "waitRetry": "Așteptând reconectare ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "script"
+  }
+}

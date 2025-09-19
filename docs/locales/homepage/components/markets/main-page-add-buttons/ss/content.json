@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Ngeta ku",
+    "sub": {
+      "addScriptByUrl": "Ngeta imibhalo nge-URL",
+      "addScriptByText": "Ngeta imibhalo ngembhalo",
+      "addMarket": "Ngeta imakethe nge-URL",
+      "addMarketByText": "Ngeta imakethe ngembhalo"
+    }
+  }
+}

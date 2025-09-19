@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Kirish / Ro'yxatdan o'tish",
+    "signOut": "Kirish",
+    "confirmContent": "Siz tizimdan chiqishni xohlaysizmi?",
+    "confirmTitle": "ishora qilmoq",
+    "confirm": "Ishonch hosil qilmoq",
+    "cancel": "Bekor qilmoq",
+    "signoutOk": "Kirish",
+    "loadingData": "Foydalanuvchi ma'lumotlarini yuklash"
+  }
+}

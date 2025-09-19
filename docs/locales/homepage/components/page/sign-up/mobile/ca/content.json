@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "registrar",
+    "phoneNumber": "Número de telèfon",
+    "phoneNumberPlaceholder": "Introduïu el vostre número de telèfon mòbil",
+    "verificationCode": "Codi de verificació",
+    "verificationCodePlaceholder": "Introduïu el codi de verificació",
+    "getVerificationCode": "Obteniu el codi de verificació",
+    "countdown": "{{segons}} segons per tornar -ho a provar",
+    "register": "registrar",
+    "errors": {
+      "phoneRequired": "Introduïu el vostre número de telèfon mòbil",
+      "phoneInvalid": "El format de número de telèfon mòbil és incorrecte",
+      "codeRequired": "Introduïu el codi de verificació",
+      "codeInvalid": "El format del codi de verificació és incorrecte",
+      "requestFailed": "Sol·licitud ha fallat",
+      "verificationFailed": "L'adquisició del codi de verificació ha fallat",
+      "loginFailed": "Inici de sessió ha fallat"
+    },
+    "success": {
+      "verificationCodeSent": "S'ha enviat el codi de verificació",
+      "registerSuccess": "Registrat amb èxit"
+    }
+  }
+}

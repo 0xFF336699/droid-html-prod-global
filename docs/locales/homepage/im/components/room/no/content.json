@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Bli med i rommet",
+      "inviteOnly": "Dette er et privat rom og krever at invitasjoner blir med",
+      "knockRequired": "Dette rommet krever at søknad blir med. Klikk på knappen nedenfor for å sende sammenføyningsforespørselen",
+      "canJoin": "Dette er et offentlig rom, du kan bli med direkte",
+      "sendRequest": "Send en sammenføyningsforespørsel",
+      "join": "Bli med i rommet"
+    },
+    "JoinRequestList": {
+      "noRequests": "Ingen medforespørsel ennå",
+      "accept": "akseptere",
+      "reject": "avvise"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Skriv inn en melding ..."
+  },
+  "MessageList": {
+    "noMessages": "Det er ingen melding ennå, send den første meldingen for å starte samtalen!",
+    "loading": "Laster ...",
+    "error": {
+      "loadFailed": "Kunne ikke laste inn meldingen",
+      "retry": "Prøv igjen"
+    },
+    "loadingHistory": "Laster historie ...",
+    "historyEnd": "Den tidligste nyheten har kommet"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Det er ingen melding ennå, send den første meldingen for å starte samtalen!"
+  },
+  "RoomContent": {
+    "title": "Rom"
+  },
+  "RoomHeader": {
+    "title": "Rom",
+    "unnamedRoom": "Navnlig rom",
+    "members": "medlem",
+    "settings": "Sett opp",
+    "leaveRoom": "Forlate rommet",
+    "joinRoom": "Bli med i rommet"
+  },
+  "RoomMembers": {
+    "title": "Rommedlemmer",
+    "online": "Online",
+    "offline": "Frakoblet",
+    "join": "Bli med",
+    "invite": "invitere",
+    "leave": "forlate",
+    "ban": "Forbudt",
+    "noMembers": "Ingen medlemmer ennå",
+    "loading": "Laster ..."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Anv ar sal"
+      },
+      "topic": {
+        "label": "Digoradur ar sal"
+      },
+      "avatar": {
+        "alt": "avatar ar sal"
+      },
+      "submit": "Enrollañ arventennoù"
+    },
+    "toast": {
+      "success": "Arventennoù hizivaet",
+      "error": {
+        "default": "C'hwitet eo arventennoù an hizivaat",
+        "avatar": "C'hwitet en deus da hizivaat avatar"
+      }
+    }
+  }
+}

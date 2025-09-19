@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "kusebentisa",
+    "click": "Chafata",
+    "longClick": "Umfutfo lomudze",
+    "setText": "Setha umbhalo",
+    "tryClick": "Zama intfo nobe indzawo chafata",
+    "globalClick": "Indzawo chafata"
+  }
+}

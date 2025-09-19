@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Tạo một căn phòng"
+    },
+    "dialog": {
+      "title": "Tạo một căn phòng mới",
+      "form": {
+        "userId": {
+          "label": "ID người dùng",
+          "placeholder": "Nhập ID người dùng (ví dụ: @user: example.com)",
+          "error": {
+            "required": "ID người dùng không thể trống",
+            "invalid": "Định dạng ID người dùng không hợp lệ"
+          }
+        },
+        "roomName": {
+          "label": "Tên phòng (tùy chọn)",
+          "placeholder": "Nhập tên phòng"
+        },
+        "isEncrypted": {
+          "label": "Cho phép mã hóa từ đầu đến cuối"
+        },
+        "isDirect": {
+          "label": "Tin nhắn trực tiếp"
+        },
+        "topic": {
+          "label": "Chủ đề (tùy chọn)",
+          "placeholder": "Nhập chủ đề phòng"
+        }
+      },
+      "actions": {
+        "cancel": "Hủy bỏ",
+        "create": "tạo nên"
+      },
+      "success": "Sáng tạo phòng thành công",
+      "error": "Đã xảy ra lỗi trong khi tạo phòng: {lỗi}"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "ยกเลิก",
+    "confirm": "แน่นอน",
+    "title": "คำใบ้",
+    "content": "แน่ใจหรือว่าต้องการทำสิ่งนี้?"
+  },
+  "EditableText": {
+    "cancel": "ยกเลิก",
+    "save": "บันทึก",
+    "title": "แก้ไข"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Na lotu lotu"
+      },
+      "topic": {
+        "label": "Bibi ni Vakayagataki"
+      },
+      "avatar": {
+        "alt": "Rogo"
+      },
+      "submit": "Sa koto na ituvatuva ni ituvatuva."
+    },
+    "toast": {
+      "success": "Na gauna nitis .",
+      "error": {
+        "default": "Vakaraitaka baleta na ituvatuva ni bolebole.",
+        "avatar": "Vakavoui ki na kena vakavoutaki na avatar"
+      }
+    }
+  }
+}

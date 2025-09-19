@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Khangela amalungu"
+    },
+    "table": {
+      "columns": {
+        "name": "Igama lelungu",
+        "userId": "Isazisi somsebenzisi",
+        "actions": "sebenza"
+      },
+      "pagination": {
+        "rowsPerPage": "Inani lemigca kwiphepha ngalinye"
+      },
+      "avatar": {
+        "alt": "i-avatar"
+      },
+      "actions": {
+        "kick": "Khabela ngaphandle",
+        "ban": "Ivaliwe"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Qinisekisa ilungu lokukhaba",
+        "content": "Uqinisekile ukuba ufuna ukukhaba ilungu egumbini?"
+      },
+      "ban": {
+        "title": "Qinisekisa ubulungu obuvaliweyo",
+        "content": "Uqinisekile ukuba ufuna ukuvimba eli lungu? Ilungu aliyi kuba nakho ukubuyela egumbini emva kokuvalwa umlomo."
+      },
+      "buttons": {
+        "cancel": "Rhoxisa",
+        "confirm": "qinisekisa"
+      }
+    },
+    "toast": {
+      "loadError": "Ayiphumelelanga ukulayisha uluhlu lwamalungu",
+      "kick": {
+        "success": "Amalungu akhutshwe egumbini",
+        "error": "Ukukhaba amalungu angaphumelelanga"
+      },
+      "ban": {
+        "success": "Amalungu avinjelwe",
+        "error": "Ayiphumelelanga ukuvimba amalungu"
+      }
+    },
+    "invite": {
+      "button": "Mema amalungu",
+      "title": "Mema amalungu ukuba ajoyine igumbi",
+      "inputLabel": "Nceda ufake i-ID yomsebenzisi we-matrix (efana ne @urix.org)",
+      "confirm": "mema",
+      "cancel": "Rhoxisa",
+      "loading": "Ukumema ...",
+      "success": "Isimemo sithunyelwe!",
+      "error": "Isimemo asiphumelelanga, nceda ujonge i-ID yomsebenzisi okanye imvume"
+    },
+    "empty": "Akukho lungu okwangoku",
+    "loading": "Ukulayisha ...",
+    "role": {
+      "owner": "Umnini khaya",
+      "admin": "umlawuli",
+      "moderator": "Ulawulo lwentsebenzo",
+      "user": "ilungu"
+    }
+  }
+}

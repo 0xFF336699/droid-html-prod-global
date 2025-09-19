@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Add to",
+    "sub": {
+      "addScriptByUrl": "ብመንገዲ URL ስክሪፕት ምውሳኽ",
+      "addScriptByText": "ብጽሑፍ ስክሪፕት ወስኸሉ .",
+      "addMarket": "ዕዳጋ ብመንገዲ URL Add Market",
+      "addMarketByText": "ብጽሑፍ ኣቢልካ ዕዳጋ ምውሳኽ"
+    }
+  }
+}

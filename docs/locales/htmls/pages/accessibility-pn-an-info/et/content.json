@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "otsetee",
+    "title": "Paketi ja tegevuse äratundmine",
+    "useBtn": "kasutamine",
+    "closeBtn": "sulgemine",
+    "pnLabel": "Paketi nimi",
+    "copyButtonText": "koopia",
+    "anLabel": "aktiivsus",
+    "clsLable": "klass"
+  }
+}

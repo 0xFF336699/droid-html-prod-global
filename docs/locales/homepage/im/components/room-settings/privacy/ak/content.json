@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Ɔmanfo dan .",
+        "description": "Ɔmanfo dan mu betumi ahwehwɛ nnipa afoforo a wɔde di dwuma mu ."
+      },
+      "allowGuestJoin": {
+        "label": "Ma nsrahwɛfo kwan ma wɔmmɛka ho .",
+        "description": "Ma wɔn a wɔmfa wɔn din nhyɛ mu no kwan ma wɔmmɛka dan no ho sɛ ɔhɔho ."
+      },
+      "isEncrypted": {
+        "label": "Ma encryption a ɛwɔ awiei kosi awiei no nyɛ adwuma .",
+        "description": "Sɛ wɔma ɛyɛ adwuma a, nkrasɛm a ɛwɔ dan no mu no bɛyɛ encrypted end-to-end .",
+        "alert": "End-to-end encryption no yɛ adwuma wɔ dan no mu, na wontumi nnum nhyehyɛe yi."
+      },
+      "submit": "Fa kokoam nsɛm sie ."
+    },
+    "toast": {
+      "success": "Wɔayɛ kokoam nsɛm ho nhyehyɛe foforo .",
+      "error": "antumi ansakra kokoam nsɛm ho nhyehyɛe ."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Xona nomi"
+      },
+      "topic": {
+        "label": "Xonaga kirish"
+      },
+      "avatar": {
+        "alt": "Xona avatar"
+      },
+      "submit": "Sozlamalarni saqlash"
+    },
+    "toast": {
+      "success": "Sozlamalar yangilandi",
+      "error": {
+        "default": "Yangilanish parametrlari bajarilmadi",
+        "avatar": "Avatarni yangilay olmadi"
+      }
+    }
+  }
+}

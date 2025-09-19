@@ -1,0 +1,7 @@
+{
+  "RoomContentV2": {
+    "waitingForLogin": "Lütfen önce giriş yapın",
+    "loadingRoomInfo": "Yükleme Odası Bilgileri ...",
+    "roomNotFound": "Oda bulunamadı"
+  }
+}

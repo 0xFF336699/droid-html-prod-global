@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Iungere locus",
+      "inviteOnly": "Hoc privatus et postulat invitationes ad iungere",
+      "knockRequired": "Hic locus postulat applicationem ad iungere. Click button inferius mittere iungere petitionem",
+      "canJoin": "Hoc est publicam locus, vos can iungere recta",
+      "sendRequest": "Mitte ad iungere petitionem",
+      "join": "Iungere locus"
+    },
+    "JoinRequestList": {
+      "noRequests": "Nulla joining petitio tamen",
+      "accept": "capio",
+      "reject": "rejicio"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Intra nuntium ..."
+  },
+  "MessageList": {
+    "noMessages": "Non est nuntius tamen, mitte ad primum nuntium ut satus colloquium!",
+    "loading": "Loading ...",
+    "error": {
+      "loadFailed": "Defecit ad load nuntium",
+      "retry": "Iterum conare"
+    },
+    "loadingHistory": "Loading ...",
+    "historyEnd": "Prima nuntium venit"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Non est nuntius tamen, mitte ad primum nuntium ut satus colloquium!"
+  },
+  "RoomContent": {
+    "title": "Locus"
+  },
+  "RoomHeader": {
+    "title": "Locus",
+    "unnamedRoom": "Notam locus",
+    "members": "membrum",
+    "settings": "profectus",
+    "leaveRoom": "RELIQUI",
+    "joinRoom": "Iungere locus"
+  },
+  "RoomMembers": {
+    "title": "Locus sodales",
+    "online": "Online",
+    "offline": "Offline",
+    "join": "injungo",
+    "invite": "invite",
+    "leave": "relinquo",
+    "ban": "PRAESTRICTUS",
+    "noMembers": "Nulla membrum adhuc",
+    "loading": "Loading ..."
+  }
+}

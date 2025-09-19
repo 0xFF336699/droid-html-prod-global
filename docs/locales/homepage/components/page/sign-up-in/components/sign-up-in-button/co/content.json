@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Login / Registru",
+    "signOut": "Scunnettà si",
+    "confirmContent": "Hè sicura chì vulete logu?",
+    "confirmTitle": "suggerimentu",
+    "confirm": "SIUTU",
+    "cancel": "Annulla",
+    "signoutOk": "Scunnettà si",
+    "loadingData": "Caricendu Dati d'Usuariu"
+  }
+}

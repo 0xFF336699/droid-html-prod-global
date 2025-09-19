@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "‘t Momentniveau dat nudeg is um ‘n boodsjap te sjikke",
+        "tooltip": "0 beteikent dat alle leie boodsjappe kinne sjikke, en wie groeter ‘t getal beteikent dat hoegere toestemminge nudeg zien."
+      },
+      "invite": {
+        "label": "Voeringsniveau dat nudeg is um nuie lede oet te nodige",
+        "tooltip": "Stel wie nuie lede nao de kamer kinne noege"
+      },
+      "kick": {
+        "label": "Kick ‘t vereiste toestemmingsniveau oet",
+        "tooltip": "Stel wie de kamerlede kin oetsjoppe"
+      },
+      "ban": {
+        "label": "Voeringsniveau nudeg veur blokkeringsleie",
+        "tooltip": "Set wie kin kamerleie blokkere"
+      },
+      "roomSettings": {
+        "label": "Modifiëre de vereiste toestemmingsniveau vaan kamerinstellinge",
+        "tooltip": "Stel wie de kamer-instellinge kin aonpasse"
+      },
+      "submit": "Opslaon touwstummingsinstellinge op"
+    },
+    "description": "Beriek vaan de toestemmingsniveau: 0-100, wie groeter ‘t getal beteikent dat hoegere toestemminge nudeg zien.",
+    "toast": {
+      "success": "Toestemmingsinstellinge zien bijgewerk",
+      "error": "Verzuim um toestemmingsinstellinge te update"
+    }
+  }
+}

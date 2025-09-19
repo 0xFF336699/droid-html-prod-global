@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Hledat členy"
+    },
+    "table": {
+      "columns": {
+        "name": "Jméno člena",
+        "userId": "ID uživatele",
+        "actions": "provozovat"
+      },
+      "pagination": {
+        "rowsPerPage": "Počet řádků na stránku"
+      },
+      "avatar": {
+        "alt": "Avatar"
+      },
+      "actions": {
+        "kick": "Kick Out",
+        "ban": "Zakázáno"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Potvrďte kopajícího člena",
+        "content": "Jste si jisti, že chcete člena vyhodit z místnosti?"
+      },
+      "ban": {
+        "title": "Potvrďte zakázané členství",
+        "content": "Jste si jisti, že chcete tohoto člena zakázat? Člen se po zákazu nebude moci znovu připojit k místnosti."
+      },
+      "buttons": {
+        "cancel": "Zrušit",
+        "confirm": "potvrdit"
+      }
+    },
+    "toast": {
+      "loadError": "Nepodařilo se načíst seznam členů",
+      "kick": {
+        "success": "Členové byli vyhozeni z místnosti",
+        "error": "Vykopnutí členů selhalo"
+      },
+      "ban": {
+        "success": "Členové zablokovali",
+        "error": "Nepodařilo se blokovat členy"
+      }
+    },
+    "invite": {
+      "button": "Pozvěte členy",
+      "title": "Pozvěte členy, aby se připojili k místnosti",
+      "inputLabel": "Zadejte prosím ID uživatele matice (například @User: matrix.org)",
+      "confirm": "pozvat",
+      "cancel": "Zrušit",
+      "loading": "Pozvání ...",
+      "success": "Pozvánka odeslána!",
+      "error": "Pozvánka selhala, zkontrolujte prosím ID uživatele nebo oprávnění"
+    },
+    "empty": "Zatím žádný člen",
+    "loading": "Načítání ...",
+    "role": {
+      "owner": "Majitel domu",
+      "admin": "správce",
+      "moderator": "Společné řízení",
+      "user": "člen"
+    }
+  }
+}

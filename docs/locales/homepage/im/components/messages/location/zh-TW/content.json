@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "位置名稱",
+    "viewMap": "查看地圖",
+    "close": "關閉"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "當前瀏覽器不支持地理位置獲取",
+    "getLocationFailed": "獲取定位失敗，請檢查權限設置",
+    "myLocation": "我的位置",
+    "shareLocation": "分享位置",
+    "getCurrentLocation": "獲取當前位置",
+    "title": "位置名稱",
+    "description": "詳細描述",
+    "descriptionPlaceholder": "請輸入詳細描述（可選）",
+    "preview": "位置預覽",
+    "latitude": "緯度",
+    "longitude": "經度",
+    "cancel": "取消",
+    "send": "發送",
+    "permissionPrompt": "我們需要獲取您的定位信息以提供更好的服務，是否允許？",
+    "permissionDenied": "定位權限被拒絕，請在瀏覽器設置中開啟定位權限",
+    "locationTimeout": "定位超時，請確保設備已開啟定位並嘗試重新獲取",
+    "locationUnavailable": "無法獲取當前位置，請檢查設備定位服務"
+  }
+}

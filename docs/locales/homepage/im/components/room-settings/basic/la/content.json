@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Nomen"
+      },
+      "topic": {
+        "label": "Locus introductio"
+      },
+      "avatar": {
+        "alt": "Locus avatar"
+      },
+      "submit": "Servo occasus"
+    },
+    "toast": {
+      "success": "Occasus updated",
+      "error": {
+        "default": "Update Occasus defuit",
+        "avatar": "Defecit Update Avatar"
+      }
+    }
+  }
+}

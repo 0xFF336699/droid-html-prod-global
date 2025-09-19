@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Diseting tsa phaposi",
+    "tabs": {
+      "basic": "Diseting tsa motheo",
+      "permission": "dipeakanyo tsa tetla",
+      "privacy": "Diseting tsa sephiri",
+      "member": "Botsamaisi jwa Leloko"
+    },
+    "loadError": "Go palelwa ke go laisa diseting tsa phaposi",
+    "leaveRoom": {
+      "button": "Tswa mo phaposing",
+      "confirm": "A o tlhomamisa gore o batla go tswa mo phaposing? Fa o sena go tswa, ga o kitla o kgona go tswelela o amogela melaetsa go tswa mo phaposing eno.",
+      "success": "tswa mo phaposing ka katlego",
+      "error": "O paletswe ke go tswa mo phaposing, tsweetswee leka gape"
+    }
+  }
+}

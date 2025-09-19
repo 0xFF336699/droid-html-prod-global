@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Dołącz do pokoju",
+      "inviteOnly": "To jest pokój prywatny i wymaga zaproszeń do przyłączenia się",
+      "knockRequired": "Ten pokój wymaga aplikacji do dołączenia. Kliknij przycisk poniżej, aby wysłać żądanie połączenia",
+      "canJoin": "To jest pokój publiczny, możesz dołączyć bezpośrednio",
+      "sendRequest": "Wyślij żądanie dołączenia",
+      "join": "Dołącz do pokoju"
+    },
+    "JoinRequestList": {
+      "noRequests": "Nie ma jeszcze prośby o dołączenie",
+      "accept": "przyjąć",
+      "reject": "odrzucić"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Wprowadź wiadomość ..."
+  },
+  "MessageList": {
+    "noMessages": "Nie ma jeszcze wiadomości, wyślij pierwszą wiadomość, aby rozpocząć rozmowę!",
+    "loading": "załadunek...",
+    "error": {
+      "loadFailed": "Nie udało się załadować wiadomości",
+      "retry": "Spróbuj ponownie"
+    },
+    "loadingHistory": "Ładowanie historii ...",
+    "historyEnd": "Nadeszła najwcześniejsza wiadomość"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Nie ma jeszcze wiadomości, wyślij pierwszą wiadomość, aby rozpocząć rozmowę!"
+  },
+  "RoomContent": {
+    "title": "Pokój"
+  },
+  "RoomHeader": {
+    "title": "Pokój",
+    "unnamedRoom": "Bezimienny pokój",
+    "members": "członek",
+    "settings": "organizować coś",
+    "leaveRoom": "Opuść pokój",
+    "joinRoom": "Dołącz do pokoju"
+  },
+  "RoomMembers": {
+    "title": "Członkowie pokoju",
+    "online": "Online",
+    "offline": "Offline",
+    "join": "dołączyć",
+    "invite": "zapraszać",
+    "leave": "Zostawić",
+    "ban": "Zakazany",
+    "noMembers": "Nie ma jeszcze członka",
+    "loading": "załadunek..."
+  }
+}

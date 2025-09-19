@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "Adjon hozzá mellékleteket",
+    "emoji": "Válasszon ki egy kifejezést",
+    "placeholder": "Írjon be egy üzenetet ...",
+    "sendLocation": "Küldje el a helyszínt",
+    "send": "elküld"
+  }
+}

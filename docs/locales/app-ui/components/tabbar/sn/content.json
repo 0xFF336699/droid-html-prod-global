@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "kumberi peji",
+    "me": "mine",
+    "settings": "gadzirira",
+    "script": "script",
+    "store": "musika",
+    "market": "musika",
+    "create": "gadzira"
+  },
+  "tabbar": {
+    "test": "Pazasi Menyu Bar"
+  }
+}

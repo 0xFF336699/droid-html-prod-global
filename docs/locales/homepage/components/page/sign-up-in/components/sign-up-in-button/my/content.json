@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "login / မှတ်ပုံတင်ခြင်း",
+    "signOut": "Log Out",
+    "confirmContent": "မင်းထွက်ချင်တာသေချာလား",
+    "confirmTitle": "စကားရိပ်",
+    "confirm": "စိတ်ချသော",
+    "cancel": "ပျက်စေ",
+    "signoutOk": "Log Out",
+    "loadingData": "အသုံးပြုသူအချက်အလက်များကိုတင်နေသည်"
+  }
+}

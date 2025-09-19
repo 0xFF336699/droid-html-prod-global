@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "xiyimo xa mpfumelelo lexi lavekaka ku rhumela rungula .",
+        "tooltip": "0 swi vula leswaku swirho hinkwaswo swi nga rhumela marungula, naswona loko nomboro yi ri yikulu swi vula leswaku mpfumelelo wa le henhla wa laveka ."
+      },
+      "invite": {
+        "label": "Level ya mpfumelelo ya laveka ku rhamba swirho leswintshwa .",
+        "tooltip": "Set leyi nga rhamba swirho leswintshwa ekamareni ."
+      },
+      "kick": {
+        "label": "Kick out the level ya mpfumelelo leyi lavekaka .",
+        "tooltip": "Set leyi nga hlongolaka swirho swa kamara ."
+      },
+      "ban": {
+        "label": "Xiyimo xa mpfumelelo lexi lavekaka eka swirho leswi sivelaka .",
+        "tooltip": "Set leyi nga block swirho swa kamara ."
+      },
+      "roomSettings": {
+        "label": "Cinca mpimo wa mpfumelelo lowu lavekaka wa swiyimiso swa kamara .",
+        "tooltip": "Seta i mani loyi a nga cincaka swiyimiso swa kamara ."
+      },
+      "submit": "Hlayisa swiletelo swa mpfumelelo ."
+    },
+    "description": "Mpfumelelo wa xiyimo xa mpfumelelo: 0-100, nhlayo yi vula leswaku mpfumelelo wa le henhla wa laveka .",
+    "toast": {
+      "success": "Switirhisiwa swa mpfumelelo swi pfuxetiwile .",
+      "error": "Ku tsandzekile ku pfuxeta swiyimiso swa mpfumelelo ."
+    }
+  }
+}

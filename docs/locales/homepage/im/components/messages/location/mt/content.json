@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Isem tal-Post",
+    "viewMap": "Ara l-mappa",
+    "close": "għeluq"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Il-browser attwali ma jappoġġjax l-akkwist tal-ġeolokazzjoni",
+    "getLocationFailed": "Ma rnexxilhomx jiksbu l-post, jekk jogħġbok iċċekkja l-issettjar tal-permess",
+    "myLocation": "Il-lokalità tiegħi",
+    "shareLocation": "Aqsam post",
+    "getCurrentLocation": "Ikseb il-post attwali",
+    "title": "Isem tal-Post",
+    "description": "Deskrizzjoni dettaljata",
+    "descriptionPlaceholder": "Jekk jogħġbok daħħal deskrizzjoni dettaljata (mhux obbligatorja)",
+    "preview": "Preview tal-Post",
+    "latitude": "latitudni",
+    "longitude": "lonġitudni",
+    "cancel": "Ikkanċella",
+    "send": "Ibgħat",
+    "permissionPrompt": "Għandna bżonn niksbu l-informazzjoni dwar il-post tiegħek biex nipprovdu servizzi aħjar, huwa permess?",
+    "permissionDenied": "Il-permess tal-pożizzjonament huwa miċħud, jekk jogħġbok ħalli permess ta 'pożizzjonament fl-issettjar tal-browser tiegħek",
+    "locationTimeout": "Pożizzjonament timeout, kun żgur li l-apparat ikun mixgħul u pprova jerġa 'jiskopri",
+    "locationUnavailable": "Il-post attwali ma jistax jinkiseb, jekk jogħġbok iċċekkja s-servizz tal-lokazzjoni tal-apparat"
+  }
+}

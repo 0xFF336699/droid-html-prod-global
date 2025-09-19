@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "журнал",
+    "phoneNumber": "Нумар тэлефона",
+    "phoneNumberPlaceholder": "Калі ласка, увядзіце свой нумар мабільнага тэлефона",
+    "verificationCode": "Код праверкі",
+    "verificationCodePlaceholder": "Калі ласка, увядзіце код праверкі",
+    "getVerificationCode": "Атрымайце код праверкі",
+    "countdown": "{{секунды}} секунды, каб паспрабаваць яшчэ раз",
+    "register": "журнал",
+    "errors": {
+      "phoneRequired": "Калі ласка, увядзіце свой нумар мабільнага тэлефона",
+      "phoneInvalid": "Фармат нумара мабільнага тэлефона няправільны",
+      "codeRequired": "Калі ласка, увядзіце код праверкі",
+      "codeInvalid": "Фармат кода праверкі няправільны",
+      "requestFailed": "Запыт не атрымаўся",
+      "verificationFailed": "Збор кода праверкі не атрымалася",
+      "loginFailed": "Увайсці не атрымалася"
+    },
+    "success": {
+      "verificationCodeSent": "Код праверкі быў адпраўлены",
+      "registerSuccess": "Зарэгістравана паспяхова"
+    }
+  }
+}

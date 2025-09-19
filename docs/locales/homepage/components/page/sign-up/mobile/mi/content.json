@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "rēhita",
+    "phoneNumber": "Tau Waea",
+    "phoneNumberPlaceholder": "Tomo koa to nama waea pūkoro",
+    "verificationCode": "Waehere Whakauru",
+    "verificationCodePlaceholder": "Tomo koa te waehere whakaotinga",
+    "getVerificationCode": "Tikina te waehere whakaotinga",
+    "countdown": "{{hēkona} hēkona kia ngana ano",
+    "register": "rēhita",
+    "errors": {
+      "phoneRequired": "Tomo koa to nama waea pūkoro",
+      "phoneInvalid": "He hē te whakatakotoranga tau waea pūkoro",
+      "codeRequired": "Tomo koa te waehere whakaotinga",
+      "codeInvalid": "He hē te whakatakotoranga waehere whakamana",
+      "requestFailed": "I rahua te tono",
+      "verificationFailed": "I rahua te whiwhinga waehere whakamana",
+      "loginFailed": "I rahua te takiuru"
+    },
+    "success": {
+      "verificationCodeSent": "Kua tukuna te waehere whakaotinga",
+      "registerSuccess": "Kua rēhita angitu"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "دا میتود یوازې په Android کې ویل کیدی شي",
+      "noMethod": "دا میتود شتون نلري"
+    }
+  }
+}

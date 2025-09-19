@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Funzioni ausiliarie",
+    "pass": "Autorizzato",
+    "notPass": "Non autorizzato",
+    "setting": "impostare",
+    "danger": "Pericolo",
+    "dangerDesc": "Questa autorizzazione può vedere i contenuti sullo schermo e fare clic sul telefono. Disabilita questa autorizzazione se non si comprende esplicitamente la funzionalità e i rischi dello script che stai eseguendo o che eseguirai."
+  }
+}

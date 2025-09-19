@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Loyvisstigið, sum krevst fyri at senda boð",
+        "tooltip": "0 hevur við sær, at allir limir kunnu senda boð, og størri talið merkir, at hægri loyvi krevst"
+      },
+      "invite": {
+        "label": "Loyvisstig, sum krevst fyri at bjóða nýggjum limum",
+        "tooltip": "Set, hvør kann bjóða nýggjum limum inn á stovuna"
+      },
+      "kick": {
+        "label": "Kick út kravda loyvisstigið",
+        "tooltip": "Set, hvør kann koyra kamarslimirnar út"
+      },
+      "ban": {
+        "label": "Loyvisstig, sum krevst fyri at blokera limir",
+        "tooltip": "Set, hvør kann blokera kamarslimir"
+      },
+      "roomSettings": {
+        "label": "Broyt kravda loyvisstigið av rúminnstillingum",
+        "tooltip": "Set, hvør kann broyta rúminnstillingarnar"
+      },
+      "submit": "Goym loyvisinnstillingar"
+    },
+    "description": "Loyvisstig øki: 0-100, jú størri talið merkir, at hægri loyvi eru kravd",
+    "toast": {
+      "success": "Loyvisinnstillingar eru dagførdar",
+      "error": "Ikki dagføring av loyvisinnstillingum"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Locationerleşiş ady",
+    "viewMap": "Kartany gör",
+    "close": "ýapmak"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Häzirki brauzer geolokarky toprak satyn almakda däl",
+    "getLocationFailed": "Ýeri alyp bilmedi, rugsat sazlamasyny barlaň",
+    "myLocation": "Meniň ýerleşýän ýerim",
+    "shareLocation": "Locationerleşýän ýeri",
+    "getCurrentLocation": "Häzirki ýerini alyň",
+    "title": "Locationerleşiş ady",
+    "description": "Jikme-jik düşündiriş",
+    "descriptionPlaceholder": "Jikme-jik düşündiriş giriziň (islege görä)",
+    "preview": "Locationerleşişiň deslapky syn",
+    "latitude": "giňişlik",
+    "longitude": "uzynlyk",
+    "cancel": "Ýatyr",
+    "send": "iber",
+    "permissionPrompt": "Has gowy hyzmatlary bermek üçin ýer maglumatyňyzy almaly, rugsat berilýärmi?",
+    "permissionDenied": "Positingagdaý rugsady inkär edilýär, brauzer sazlamalaryňyzdaky ýerleşdiriş rugsadyny işlediň",
+    "locationTimeout": "Positionerleşýän wagt gutarmak, enjamyň açykdygyny we almaga synanyşmaga synanyşyň",
+    "locationUnavailable": "Häzirki ýerini alyp bolmaýar, enjamyň ýerleşiş hyzmatyny barlaň"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "Pridajte na trh",
+    "url": "Trhová adresa",
+    "summary": "Zhrnutie trhu",
+    "urlIsNotValid": "Nesprávna adresa URL trhu"
+  }
+}

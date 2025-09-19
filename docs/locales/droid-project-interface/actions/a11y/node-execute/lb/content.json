@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Node Ausféierung",
+    "changeBtnLabel": "ersetzen",
+    "showNodeAllProperties": "Weisen alleguer Eegeschaften",
+    "wait": {
+      "time": "Waardezäit",
+      "interval": "Waardeintervall",
+      "invisible": "Ob Elementer ausserhalb vum Écran z'entdecken"
+    }
+  }
+}

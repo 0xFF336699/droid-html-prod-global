@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "okusazaamu",
+    "confirm": "Tewali kubuusabuusa",
+    "title": "okukoonako",
+    "content": "Okakasa nti oyagala kukola kino?"
+  },
+  "EditableText": {
+    "cancel": "okusazaamu",
+    "save": "okununula",
+    "title": "okugolola"
+  }
+}

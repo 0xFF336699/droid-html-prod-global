@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Utekelezaji wa node",
+    "changeBtnLabel": "Badilisha",
+    "showNodeAllProperties": "Onyesha mali zote",
+    "wait": {
+      "time": "Wakati wa kusubiri",
+      "interval": "Muda wa kusubiri",
+      "invisible": "Ikiwa ni kugundua vitu nje ya skrini"
+    }
+  }
+}

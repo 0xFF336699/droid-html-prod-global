@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Sala Pública ukaxa 1.1.",
+        "description": "Salas públicas ukanakax yaqha apnaqirinakan thaqhatäspawa ."
+      },
+      "allowGuestJoin": {
+        "label": "Visitantes ukanakar mantañapatak jaytaña .",
+        "description": "Jan registrat apnaqirinakarux mä invitado ukhamaw uka cuarto ukar mantañapatak jaytañama ."
+      },
+      "isEncrypted": {
+        "label": "Encriptación de fin a final ukar yanapt’aña .",
+        "description": "Kunawsatix ch’amanchatäki ukhax, cuarto ukan yatiyawinakax tukuyat tukuykamaw encriptatäni .",
+        "alert": "Encriptación de fin a fin ukax cuarto ukan ch’amanchatawa, ukat aka configuración ukax janiw jist’antatäkaspati."
+      },
+      "submit": "Privacidad ukan utt’ayatanakap imaña ."
+    },
+    "toast": {
+      "success": "Privacidad ukan utt’ayatanakax machaqar tukuyatawa .",
+      "error": "Janiw privacidad ukan utt’ayatanakap mayjt’ayañax wakiskiti ."
+    }
+  }
+}

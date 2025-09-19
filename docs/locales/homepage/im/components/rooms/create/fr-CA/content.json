@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Créer une pièce"
+    },
+    "dialog": {
+      "title": "Créer une nouvelle pièce",
+      "form": {
+        "userId": {
+          "label": "ID de l'utilisateur",
+          "placeholder": "Entrez l'ID utilisateur (par exemple: @user: exemple.com)",
+          "error": {
+            "required": "L'ID utilisateur ne peut pas être vide",
+            "invalid": "Format d'identification utilisateur non valide"
+          }
+        },
+        "roomName": {
+          "label": "Nom de la salle (facultatif)",
+          "placeholder": "Entrez un nom de pièce"
+        },
+        "isEncrypted": {
+          "label": "Activer le cryptage de bout en bout"
+        },
+        "isDirect": {
+          "label": "Message direct"
+        },
+        "topic": {
+          "label": "Thème (facultatif)",
+          "placeholder": "Entrez dans le thème de la pièce"
+        }
+      },
+      "actions": {
+        "cancel": "Annuler",
+        "create": "créer"
+      },
+      "success": "Création de salle avec succès",
+      "error": "Une erreur s'est produite lors de la création d'une pièce: {erreur}"
+    }
+  }
+}

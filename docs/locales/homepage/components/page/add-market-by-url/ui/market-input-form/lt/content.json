@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL modelis",
+    "full": {
+      "url": "Rinkos URL. Įvedę simboliai bus įkelti kaip URL, būkite atsargūs.",
+      "html": "Rinkos HTML turinys. Įvedę simboliai bus vykdomi nedelsiant kaip scenarijai, prašau būti atsargūs.",
+      "come": "Ateik pas mane",
+      "myMarketName": "Rinkos pavadinimas",
+      "stroll": "Pasivaikščiokime"
+    },
+    "item": {
+      "url": "Rinkos kortelės URL. Įvedę simboliai bus įkelti kaip URL, būkite atsargūs.",
+      "html": "Rinkos HTML turinys. Įvedę simboliai bus vykdomi nedelsiant kaip scenarijai, prašau būti atsargūs.",
+      "come": "Ateik pas mane",
+      "myMarketName": "Rinkos pavadinimas",
+      "stroll": "Pasivaikščiokime"
+    }
+  }
+}

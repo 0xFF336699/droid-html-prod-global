@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Nom de chambre"
+      },
+      "topic": {
+        "label": "Introduction de la salle"
+      },
+      "avatar": {
+        "alt": "Avatar de la chambre"
+      },
+      "submit": "Enregistrer les paramètres"
+    },
+    "toast": {
+      "success": "Paramètres mis à jour",
+      "error": {
+        "default": "Mise à jour Les paramètres ont échoué",
+        "avatar": "Échec de la mise à jour Avatar"
+      }
+    }
+  }
+}

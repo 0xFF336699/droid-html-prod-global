@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "已授权",
+    "notPass": "未授权",
+    "danger": "危险",
+    "setting": "设置"
+  }
+}

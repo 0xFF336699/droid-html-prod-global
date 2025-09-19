@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "irejista",
+    "phoneNumber": "Inombolo yomnxeba",
+    "phoneNumberPlaceholder": "Nceda ufake inombolo yakho yefowuni",
+    "verificationCode": "Gqina ikhowudi",
+    "verificationCodePlaceholder": "Nceda ufake ikhowudi yokuqinisekisa",
+    "getVerificationCode": "Fumana ikhowudi yokuqinisekisa",
+    "countdown": "{{imizuzwana}} imizuzwana ukuzama kwakhona",
+    "register": "irejista",
+    "errors": {
+      "phoneRequired": "Nceda ufake inombolo yakho yefowuni",
+      "phoneInvalid": "Ifomathi yenombolo yefowuni ayichanekanga",
+      "codeRequired": "Nceda ufake ikhowudi yokuqinisekisa",
+      "codeInvalid": "Ifomati yekhowudi yokuqinisekisa ayichanekanga",
+      "requestFailed": "Isicelo asiphumelelanga",
+      "verificationFailed": "Ukuthathwa kwekhowudi yokuqinisekisa akuphumelelanga",
+      "loginFailed": "ukungena akuphumelelanga"
+    },
+    "success": {
+      "verificationCodeSent": "Ikhowudi yokuqinisekisa ithunyelwe",
+      "registerSuccess": "Ibhaliswe ngempumelelo"
+    }
+  }
+}

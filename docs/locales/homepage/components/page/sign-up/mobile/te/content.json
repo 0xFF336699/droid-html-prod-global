@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "రిజిస్టర్",
+    "phoneNumber": "ఫోన్ నంబర్",
+    "phoneNumberPlaceholder": "దయచేసి మీ మొబైల్ ఫోన్ నంబర్‌ను నమోదు చేయండి",
+    "verificationCode": "ధృవీకరణ కోడ్",
+    "verificationCodePlaceholder": "దయచేసి ధృవీకరణ కోడ్‌ను నమోదు చేయండి",
+    "getVerificationCode": "ధృవీకరణ కోడ్‌ను పొందండి",
+    "countdown": "మళ్ళీ ప్రయత్నించడానికి {{సెకన్లు}} సెకన్లు",
+    "register": "రిజిస్టర్",
+    "errors": {
+      "phoneRequired": "దయచేసి మీ మొబైల్ ఫోన్ నంబర్‌ను నమోదు చేయండి",
+      "phoneInvalid": "మొబైల్ ఫోన్ నంబర్ ఫార్మాట్ తప్పు",
+      "codeRequired": "దయచేసి ధృవీకరణ కోడ్‌ను నమోదు చేయండి",
+      "codeInvalid": "ధృవీకరణ కోడ్ ఫార్మాట్ తప్పు",
+      "requestFailed": "అభ్యర్థన విఫలమైంది",
+      "verificationFailed": "ధృవీకరణ కోడ్ సముపార్జన విఫలమైంది",
+      "loginFailed": "లాగిన్ విఫలమైంది"
+    },
+    "success": {
+      "verificationCodeSent": "ధృవీకరణ కోడ్ పంపబడింది",
+      "registerSuccess": "విజయవంతంగా నమోదు చేయబడింది"
+    }
+  }
+}

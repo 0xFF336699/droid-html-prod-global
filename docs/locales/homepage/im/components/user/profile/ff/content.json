@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Kabaaru kuutortooɗo",
+    "id": {
+      "name": "ID",
+      "copy": "koppi",
+      "copied": "ID nanngaama"
+    },
+    "notLoggedIn": "Wonaa naatnude",
+    "name": "inde",
+    "avatar": "avatar"
+  }
+}

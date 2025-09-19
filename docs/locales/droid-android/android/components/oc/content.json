@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Anullar",
+    "ok": "Segur",
+    "checkBoxText": "Anatz dirèctament per autorizar dins un mièg mes e afichar pas pus aquesta fenèstra .",
+    "content": "Aquesta foncion requerís l'autorizacion de foncions auxiliar. Se volètz autorizar, clicatz sus [D'acòrdi]. Se volètz renonciar, clicatz sus [Anullar]",
+    "title": "Sollicitud d'autorizacion"
+  },
+  "floatPermission": {
+    "cancel": "Anullar",
+    "ok": "Segur",
+    "checkBoxText": "Anatz dirèctament per autorizar dins un mièg mes e afichar pas pus aquesta fenèstra .",
+    "content": "Aquesta foncion demanda d'autorizacion de la foncion de fenèstra flotanta. Se volètz autorizar, clicatz sus [D'acòrdi]. Se volètz renonciar, clicatz sus [Anullar]",
+    "title": "Sollicitud d'autorizacion"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Rūma tūmatanui",
+        "description": "Ka taea te tirotiro i nga ruma a-iwi e etahi atu kaiwhakamahi"
+      },
+      "allowGuestJoin": {
+        "label": "Tukuna kia uru atu nga manuhiri",
+        "description": "Tukuna nga kaiwhakamahi kua rēhitatia kia uru atu ki te ruma hei manuhiri"
+      },
+      "isEncrypted": {
+        "label": "Whakahohehia te whakamunatanga mutunga-ki te mutunga",
+        "description": "Ka whakahohea, ka tukuna nga karere i roto i te ruma ka whakauruhia ki te mutunga-ki-mutunga",
+        "alert": "Ko te whakamunatanga mutunga-mutunga ka whakahohea i roto i te ruma, kaore e taea te whakaweto i tenei waahi."
+      },
+      "submit": "Tiakina tautuhinga tūmataiti"
+    },
+    "toast": {
+      "success": "Kua whakahoutia nga tautuhinga tūmataitinga",
+      "error": "I rahua te whakahou i nga tautuhinga tūmataitinga"
+    }
+  }
+}

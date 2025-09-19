@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Search for members"
+    },
+    "table": {
+      "columns": {
+        "name": "Member Name",
+        "userId": "User ID",
+        "actions": "operate"
+      },
+      "pagination": {
+        "rowsPerPage": "Number of rows per page"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Kick out",
+        "ban": "Banned"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Confirm the kicking member",
+        "content": "Are you sure you want to kick the member out of the room?"
+      },
+      "ban": {
+        "title": "Confirm the banned membership",
+        "content": "Are you sure you want to ban this member? The member will not be able to rejoin the room after the ban."
+      },
+      "buttons": {
+        "cancel": "Cancel",
+        "confirm": "confirm"
+      }
+    },
+    "toast": {
+      "loadError": "Failed to load member list",
+      "kick": {
+        "success": "Members have been kicked out of the room",
+        "error": "Kicking out members failed"
+      },
+      "ban": {
+        "success": "Members blocked",
+        "error": "Failed to block members"
+      }
+    },
+    "invite": {
+      "button": "Invite members",
+      "title": "Invite members to join the room",
+      "inputLabel": "Please enter the Matrix user ID (such as @user:matrix.org)",
+      "confirm": "invite",
+      "cancel": "Cancel",
+      "loading": "Inviting...",
+      "success": "Invitation sent!",
+      "error": "Invitation failed, please check user ID or permissions"
+    },
+    "empty": "No member yet",
+    "loading": "loading...",
+    "role": {
+      "owner": "Homeowner",
+      "admin": "administrator",
+      "moderator": "Co-management",
+      "user": "member"
+    }
+  }
+}

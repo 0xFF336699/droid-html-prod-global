@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Patró d’URL",
+    "full": {
+      "url": "URL del mercat. Els caràcters introduïts es carregaran com a URL, tingueu cura.",
+      "html": "CONTINGUT HTML del mercat. Els caràcters introduïts s’executaran immediatament com a scripts, si us plau, sigueu prudents.",
+      "come": "Vine a la meva",
+      "myMarketName": "Nom del mercat",
+      "stroll": "Fem una passejada"
+    },
+    "item": {
+      "url": "URL de la targeta de mercat. Els caràcters introduïts es carregaran com a URL, tingueu cura.",
+      "html": "CONTINGUT HTML del mercat. Els caràcters introduïts s’executaran immediatament com a scripts, si us plau, sigueu prudents.",
+      "come": "Vine a la meva",
+      "myMarketName": "Nom del mercat",
+      "stroll": "Fem una passejada"
+    }
+  }
+}

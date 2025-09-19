@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Yɛ dan ."
+    },
+    "dialog": {
+      "title": "Yɛ dan foforo .",
+      "form": {
+        "userId": {
+          "label": "Ɔdefoɔ ID .",
+          "placeholder": "Hyehyɛ ɔdefoɔ ID (sɛ nhwɛsoɔ: @user:example.com) .",
+          "error": {
+            "required": "Ɔdefo ID ntumi nyɛ hwee .",
+            "invalid": "Ɔdefo ID format a enni mu ."
+          }
+        },
+        "roomName": {
+          "label": "Pia no din (wopɛ) .",
+          "placeholder": "Hyehyɛ dan bi din ."
+        },
+        "isEncrypted": {
+          "label": "Ma encryption a ɛwɔ awiei kosi awiei no nyɛ adwuma ."
+        },
+        "isDirect": {
+          "label": "nkrasɛm tẽẽ ."
+        },
+        "topic": {
+          "label": "Asɛmti (wopɛ) .",
+          "placeholder": "Hyɛn dan asɛmti no mu ."
+        }
+      },
+      "actions": {
+        "cancel": "Twam",
+        "create": "yɛ"
+      },
+      "success": "Pia mu adebɔ a edi mu .",
+      "error": "Mfomso bi sii bere a na wɔrebɔ dan bi: {mfomso}"
+    }
+  }
+}

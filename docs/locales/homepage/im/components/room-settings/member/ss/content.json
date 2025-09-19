@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Kufuna emalunga"
+    },
+    "table": {
+      "columns": {
+        "name": "Ligama Lelilunga",
+        "userId": "ID Yemsebentisi",
+        "actions": "kusebentisa"
+      },
+      "pagination": {
+        "rowsPerPage": "Inani lemigca ngelikhasi"
+      },
+      "avatar": {
+        "alt": "i-avatar"
+      },
+      "actions": {
+        "kick": "funa",
+        "ban": "Kuvinjelwe"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Ciniseka lilunga lelikhahlelako",
+        "content": "Ucinisekile kutsi ufuna kulikhahlela lelilunga ngaphandle kweligumbi?"
+      },
+      "ban": {
+        "title": "Ciniseka bulunga lobuvinjelwe",
+        "content": "Uciniseka kutsi ufuna kuvimbela lelilunga? Lelilunga angeke likhone kuphindze lijoyine leligumbi ngemuva kwekuvinjelwa."
+      },
+      "buttons": {
+        "cancel": "Khansela",
+        "confirm": "cinisekisa"
+      }
+    },
+    "toast": {
+      "loadError": "Ngehlulekile kulayisha luhlu lwemalunga",
+      "kick": {
+        "success": "Kucoshiwe emalunga egumbini",
+        "error": "Emalunga ekumangala ehlulekile"
+      },
+      "ban": {
+        "success": "Emalunga avimbe",
+        "error": "Kwehlulekile kuvimba emalunga"
+      }
+    },
+    "invite": {
+      "button": "Cela emalunga",
+      "title": "Mema emalunga kutsi ajoyine leligumbi",
+      "inputLabel": "Sicela ufake ID yemsebentisi weMatrix (njenge @user:matrix.org)",
+      "confirm": "mema",
+      "cancel": "Khansela",
+      "loading": "Kumema...",
+      "success": "Simemo lesitfunyelwako lesitfunyelwe!",
+      "error": "Simemo sehlulekile, sicela uhlole ID yemsebentisi nobe timvume"
+    },
+    "empty": "Kute lilunga",
+    "loading": "kulayisha...",
+    "role": {
+      "owner": "Umnikati welikhaya",
+      "admin": "umphatsi",
+      "moderator": "Kuphatfwa ngekubambisana",
+      "user": "lilunga"
+    }
+  }
+}

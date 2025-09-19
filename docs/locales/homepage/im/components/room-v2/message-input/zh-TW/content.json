@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "添加附件",
+    "emoji": "選擇表情",
+    "placeholder": "輸入消息...",
+    "sendLocation": "發送位置",
+    "send": "發送"
+  }
+}

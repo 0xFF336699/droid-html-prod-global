@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "Pazara Ekle",
+    "url": "Piyasa URL'si",
+    "summary": "Piyasa Özeti",
+    "urlIsNotValid": "Yanlış pazar URL'si"
+  }
+}

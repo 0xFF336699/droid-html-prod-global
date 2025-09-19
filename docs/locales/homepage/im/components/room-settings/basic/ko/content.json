@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "방 이름"
+      },
+      "topic": {
+        "label": "방 소개"
+      },
+      "avatar": {
+        "alt": "방 아바타"
+      },
+      "submit": "설정을 저장합니다"
+    },
+    "toast": {
+      "success": "설정이 업데이트되었습니다",
+      "error": {
+        "default": "업데이트 설정에 실패했습니다",
+        "avatar": "아바타를 업데이트하지 못했습니다"
+      }
+    }
+  }
+}

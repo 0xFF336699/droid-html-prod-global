@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Цхьа чоь кхолла ."
+    },
+    "dialog": {
+      "title": "Керла чоь кхолла .",
+      "form": {
+        "userId": {
+          "label": "Декъашхочун ID",
+          "placeholder": "Декъашхо ID язъе (масала: @user:example.com)",
+          "error": {
+            "required": "Декъашхочун ID яьсса хила йиш яц .",
+            "invalid": "Нийса лелоран ID формат ."
+          }
+        },
+        "roomName": {
+          "label": "Чоман цӀе (лаамехь)",
+          "placeholder": "Чоь чоьнан цӀе язъе"
+        },
+        "isEncrypted": {
+          "label": "ТӀаьххьара шифровка ян йиш ю ."
+        },
+        "isDirect": {
+          "label": "Ма-дарра хаам"
+        },
+        "topic": {
+          "label": "Тема (лаамца)",
+          "placeholder": "Чоьнан тема чуяккха"
+        }
+      },
+      "actions": {
+        "cancel": "дӀадакха",
+        "create": "кхоллар"
+      },
+      "success": "Рам кхоллар кхиамца",
+      "error": "Цхьа чоь кхуллуш хилла гӀалаташ: {гӀарз}"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "Ajoute atachman",
+    "emoji": "Chwazi yon ekspresyon",
+    "placeholder": "Mete yon mesaj ...",
+    "sendLocation": "Voye kote",
+    "send": "voye"
+  }
+}

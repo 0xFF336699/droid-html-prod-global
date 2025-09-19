@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Ilaasortat ujarlugit"
+    },
+    "table": {
+      "columns": {
+        "name": "Ilaasortaq aqqi",
+        "userId": "Atuisoq ID",
+        "actions": "ingerlaneq"
+      },
+      "pagination": {
+        "rowsPerPage": "Quppernermut række-t amerlassusaat"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Kick out",
+        "ban": "Innaallagiaqarsimavoq"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Kicking-imi ilaasortaq uppernarsaruk",
+        "content": "Qularnanngilaq ilaasortaq inimiit anisinniarlugu?"
+      },
+      "ban": {
+        "title": "Ilaasortanngorneq inerteqqutaasoq uppernarsaruk",
+        "content": "Qularnanngilaq ilaasortaq taanna inerteqqutiginiarlugu? Ilaasortaq inerteqqutip kingorna inissiamut ikorfartorsinnaassanngilaq."
+      },
+      "buttons": {
+        "cancel": "taamaatippaa",
+        "confirm": "akueriuk"
+      }
+    },
+    "toast": {
+      "loadError": "Ilaasortat allattorsimaffiannut ilanngunneqarnissamut",
+      "kick": {
+        "success": "Ilaasortat inimiit anisinneqarput",
+        "error": "Ilaasortat kicking out-imik suliaqarneq iluatsinngilaq"
+      },
+      "ban": {
+        "success": "Ilaasortat blokkerpaat",
+        "error": "Ilaasortat blokkernissaannut kukkusoq"
+      }
+    },
+    "invite": {
+      "button": "Ilaasortaq qaaqqusiuk",
+      "title": "Ilaasortat inimut ilaaqqullugit qaaqqukkit",
+      "inputLabel": "Matrix-imik atuisoq ID-mik (soorlu @user:matrix.org) allattukkit.",
+      "confirm": "qaaqqusissut",
+      "cancel": "taamaatippaa",
+      "loading": "Inviterneq...",
+      "success": "Qaaqqusineq nassiunneqarpoq!",
+      "error": "Qaaqqusineq iluatsinngilaq, atuisoq ID-mik imaluunniit akuersissutit misissorlugit"
+    },
+    "empty": "Suli ilaasortaanngilaq",
+    "loading": "loading...",
+    "role": {
+      "owner": "Illunik piginnittut",
+      "admin": "administrator",
+      "moderator": "Co-aqutsineq",
+      "user": "ilaasortaq"
+    }
+  }
+}

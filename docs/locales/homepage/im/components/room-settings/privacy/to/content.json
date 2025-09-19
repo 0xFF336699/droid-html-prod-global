@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "loki fakapule'anga",
+        "description": "'E lava ke fekumi 'a e ngaahi loki fakapule'anga 'e he kau faka'aonga'i kehe ."
+      },
+      "allowGuestJoin": {
+        "label": "Tuku ke kau mai ʻa e kau ʻaʻahí .",
+        "description": "Fakaʻatā ʻa e kau fakaʻaongaʻi ʻoku ʻikai lesisitá ke nau kau ki he lokí ko ha fakaafe ."
+      },
+      "isEncrypted": {
+        "label": "Fakaʻatā ʻa e fakapulipuli ʻo e ngataʻangá ki he ngataʻangá .",
+        "description": "‘I hono faka‘atā, ‘e fakapulipuli‘i ‘a e ngaahi pōpoaki ‘i he lokí ‘i he ngata‘anga ki he ngata‘angá .",
+        "alert": "Ko e fakapulipuli faka‘osí ‘oku faka‘atā ia ‘i he lokí, pea ‘oku ‘ikai lava ke tāmate‘i ‘a e tu‘unga ko ení."
+      },
+      "submit": "Fakahaofi ʻa e ngaahi tuʻunga fakapulipuli ."
+    },
+    "toast": {
+      "success": "Kuo fakafo'ou 'a e ngaahi tu'unga fakataautaha .",
+      "error": "Ta'elava ke fakafo'ou 'a e ngaahi tu'unga fakapulipuli ."
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Batla maloko"
+    },
+    "table": {
+      "columns": {
+        "name": "Leina la Leloko",
+        "userId": "ID ya modirisi",
+        "actions": "tia"
+      },
+      "pagination": {
+        "rowsPerPage": "Palo ya mela ka tsebe"
+      },
+      "avatar": {
+        "alt": "sebalanako"
+      },
+      "actions": {
+        "kick": "Raga",
+        "ban": "thibetswe"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Netefatsa leloko la go raga",
+        "content": "A o tlhomamisa gore o batla go leleka leloko go tswa mo phaposing?"
+      },
+      "ban": {
+        "title": "Netefatsa gore boloko jo bo thibetsweng",
+        "content": "A o tlhomamisa gore o batla go thibela leloko leno? Leloko ga le kitla le kgona go boela mo phaposing morago ga thibelo."
+      },
+      "buttons": {
+        "cancel": "Phimola",
+        "confirm": "tlhomamisa"
+      }
+    },
+    "toast": {
+      "loadError": "O paletswe ke go laisa lenaane la maloko",
+      "kick": {
+        "success": "Maloko a lelekwa mo phaposing",
+        "error": "Go raga maloko a paletswe"
+      },
+      "ban": {
+        "success": "Maloko a thibegile",
+        "error": "Go palelwa ke go thibela maloko"
+      }
+    },
+    "invite": {
+      "button": "Laletsa maloko",
+      "title": "Kopa maloko go tsena mo phaposing",
+      "inputLabel": "Tsweetswee tsenya ID ya modirisi wa Matrix (jaaka @user:matrix.org)",
+      "confirm": "laletsa",
+      "cancel": "Phimola",
+      "loading": "Go laletsa...",
+      "success": "Taletso e ne ya romelwa!",
+      "error": "Taletso e paletswe, tsweetswee tlhola ID ya modirisi kgotsa ditetlelelo"
+    },
+    "empty": "Ga go na leloko",
+    "loading": "go laisa...",
+    "role": {
+      "owner": "Mong wa ntlo",
+      "admin": "motsamaisi",
+      "moderator": "Botsamaisi mmogo",
+      "user": "leloko"
+    }
+  }
+}

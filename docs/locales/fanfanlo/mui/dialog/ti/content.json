@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "ሰርዝ",
+    "confirm": "እርግፀኛ",
+    "title": "ኣንፈት",
+    "content": "እዚ ክትገብር ከም እትደሊ ርግጸኛ ዲኻ?"
+  },
+  "EditableText": {
+    "cancel": "ሰርዝ",
+    "save": "ምቑጣብ",
+    "title": "ምዕራይ"
+  }
+}

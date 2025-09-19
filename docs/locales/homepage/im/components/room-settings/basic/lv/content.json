@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Istabas nosaukums"
+      },
+      "topic": {
+        "label": "Ievads istabā"
+      },
+      "avatar": {
+        "alt": "Istabas iemiesojums"
+      },
+      "submit": "Saglabāt iestatījumus"
+    },
+    "toast": {
+      "success": "Iestatījumi atjaunināti",
+      "error": {
+        "default": "Atjaunināšanas iestatījumi neizdevās",
+        "avatar": "Neizdevās atjaunināt iemiesojumu"
+      }
+    }
+  }
+}

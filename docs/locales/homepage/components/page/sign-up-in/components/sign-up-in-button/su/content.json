@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Login / ngadaptar",
+    "signOut": "Kaluar",
+    "confirmContent": "Naha anjeun badé asup?",
+    "confirmTitle": "hint",
+    "confirm": "Yakin",
+    "cancel": "Ngabatalkeun",
+    "signoutOk": "Kaluar",
+    "loadingData": "Ngamuat data pangguna"
+  }
+}

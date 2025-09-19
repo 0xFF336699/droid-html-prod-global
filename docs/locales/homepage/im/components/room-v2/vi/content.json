@@ -1,0 +1,7 @@
+{
+  "RoomContentV2": {
+    "waitingForLogin": "Vui lòng đăng nhập đầu tiên",
+    "loadingRoomInfo": "Đang tải thông tin phòng ...",
+    "roomNotFound": "Phòng không được tìm thấy"
+  }
+}

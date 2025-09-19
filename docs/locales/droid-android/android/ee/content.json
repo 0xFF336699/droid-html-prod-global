@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Android dzi koe woate ŋu ayɔ mɔnu sia le .",
+      "noMethod": "Mɔnu sia meli o ."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "الاتصال ...",
+    "connected": "متصل",
+    "disconnecting": "فصل ...",
+    "disconnected": "غير متصل",
+    "waitRetry": "في انتظار إعادة الاتصال ..."
+  }
+}

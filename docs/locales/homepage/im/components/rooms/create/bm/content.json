@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Aw ye so dɔ da ."
+    },
+    "dialog": {
+      "title": "So kura dɔ da .",
+      "form": {
+        "userId": {
+          "label": "User ID .",
+          "placeholder": "Aw bɛ baarakɛla ka ID sɛbɛn (misali la: @user:example.com)",
+          "error": {
+            "required": "User ID tɛ se ka kɛ lankolon ye .",
+            "invalid": "User ID cogoya tiɲɛnen ."
+          }
+        },
+        "roomName": {
+          "label": "So tɔgɔ (A bɛ se ka kɛ) .",
+          "placeholder": "A’ ye so tɔgɔ sɛbɛn ."
+        },
+        "isEncrypted": {
+          "label": "Encryption laban-ni-da-baarakɛcogo daminɛ ."
+        },
+        "isDirect": {
+          "label": "Cikan tilennen ."
+        },
+        "topic": {
+          "label": "Barokun (a bɛ se ka kɛ) .",
+          "placeholder": "Don so kɔnɔ barokun ."
+        }
+      },
+      "actions": {
+        "cancel": "ka dankari",
+        "create": "ka dilan"
+      },
+      "success": "Sow dabɔli ka ɲɛ .",
+      "error": "Misali dɔ kɛra ka so dɔ da: {ERROR}"
+    }
+  }
+}

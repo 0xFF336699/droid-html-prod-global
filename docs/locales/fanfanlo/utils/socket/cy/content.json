@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Cysylltu ...",
+    "connected": "Chysylltiedig",
+    "disconnecting": "Datgysylltu ...",
+    "disconnected": "Ddim yn gysylltiedig",
+    "waitRetry": "Aros am ailgysylltu ..."
+  }
+}

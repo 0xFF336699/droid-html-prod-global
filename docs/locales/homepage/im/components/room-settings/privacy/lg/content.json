@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Ekisenge ky'olukale .",
+        "description": "Ebisenge by’olukale bisobola okunoonyezebwa abakozesa abalala ."
+      },
+      "allowGuestJoin": {
+        "label": "Kiriza abagenyi okwegatta ku",
+        "description": "Kiriza abakozesa abatawandiisiddwa okwegatta ku kisenge ng'omugenyi ."
+      },
+      "isEncrypted": {
+        "label": "Ssobozesa ensirifu okuva ku nkomerero okutuuka ku nkomerero .",
+        "description": "Bwe kikolebwa, obubaka mu kisenge bujja kuba bukusike okuva ku nkomerero okutuuka ku nkomerero .",
+        "alert": "Encryption okuva ku nkomerero okutuuka ku nkomerero ekolebwa mu kisenge, era embeera eno tesobola kuzikizibwa."
+      },
+      "submit": "Teeka enteekateeka z'ekyama ."
+    },
+    "toast": {
+      "success": "Enteekateeka z'eby'ekyama zitereezeddwa .",
+      "error": "Kiremeddwa okulongoosa Enteekateeka z'Ebyama ."
+    }
+  }
+}

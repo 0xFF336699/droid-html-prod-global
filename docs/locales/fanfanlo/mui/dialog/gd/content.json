@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Sguir dheth",
+    "confirm": "Cinnteach",
+    "title": "HINT",
+    "content": "A bheil thu cinnteach gu bheil thu airson seo a dhèanamh?"
+  },
+  "EditableText": {
+    "cancel": "Sguir dheth",
+    "save": "Sàbhail",
+    "title": "deasaich"
+  }
+}

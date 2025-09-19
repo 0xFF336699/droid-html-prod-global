@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Autoriseret",
+    "notPass": "Uberettiget",
+    "danger": "Fare",
+    "setting": "opsæt"
+  }
+}

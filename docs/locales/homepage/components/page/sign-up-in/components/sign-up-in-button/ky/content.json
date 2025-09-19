@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Кирүү / Катталуу",
+    "signOut": "Чыгуу",
+    "confirmContent": "Сиз чыгып кетүүнү каалайсызбы?",
+    "confirmTitle": "кыйытма",
+    "confirm": "Албетте",
+    "cancel": "Жокко чыгаруу",
+    "signoutOk": "Чыгуу",
+    "loadingData": "Колдонуучунун дайындарын жүктөө"
+  }
+}

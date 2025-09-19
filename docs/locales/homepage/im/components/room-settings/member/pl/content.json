@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Szukaj członków"
+    },
+    "table": {
+      "columns": {
+        "name": "Nazwa członka",
+        "userId": "Identyfikator użytkownika",
+        "actions": "działać"
+      },
+      "pagination": {
+        "rowsPerPage": "Liczba wierszy na stronę"
+      },
+      "avatar": {
+        "alt": "awatara"
+      },
+      "actions": {
+        "kick": "Wyrzuć",
+        "ban": "Zakazany"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Potwierdź członka kopania",
+        "content": "Czy na pewno chcesz wyrzucić członka z pokoju?"
+      },
+      "ban": {
+        "title": "Potwierdź zakazane członkostwo",
+        "content": "Czy na pewno chcesz zakazać tego członka? Członek nie będzie mógł dołączyć do pokoju po zakazie."
+      },
+      "buttons": {
+        "cancel": "Anulować",
+        "confirm": "potwierdzać"
+      }
+    },
+    "toast": {
+      "loadError": "Nie udało się załadować listy członków",
+      "kick": {
+        "success": "Członkowie zostali wyrzuceni z pokoju",
+        "error": "Wyrzucanie członków nie powiodło się"
+      },
+      "ban": {
+        "success": "Członkowie zablokowani",
+        "error": "Nie udało się zablokować członków"
+      }
+    },
+    "invite": {
+      "button": "Zaproś członków",
+      "title": "Zaproś członków do dołączenia do pokoju",
+      "inputLabel": "Wprowadź identyfikator użytkownika Matrix (taki jak @user: matrix.org)",
+      "confirm": "zapraszać",
+      "cancel": "Anulować",
+      "loading": "Atrakcyjny...",
+      "success": "Wysłane zaproszenie!",
+      "error": "Zaproszenie nie powiodło się, sprawdź identyfikator użytkownika lub uprawnienia"
+    },
+    "empty": "Nie ma jeszcze członka",
+    "loading": "załadunek...",
+    "role": {
+      "owner": "Właściciel domu",
+      "admin": "administrator",
+      "moderator": "Ko-zarządzanie",
+      "user": "członek"
+    }
+  }
+}

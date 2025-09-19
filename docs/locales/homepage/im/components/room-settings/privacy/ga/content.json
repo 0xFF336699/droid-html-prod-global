@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Seomra poiblí",
+        "description": "Is féidir le húsáideoirí eile seomraí poiblí a chuardach"
+      },
+      "allowGuestJoin": {
+        "label": "Lig do chuairteoirí a bheith páirteach",
+        "description": "Lig d'úsáideoirí neamhchláraithe a bheith páirteach sa seomra mar aoi"
+      },
+      "isEncrypted": {
+        "label": "Cumasaigh criptiú ó cheann go ceann",
+        "description": "Nuair a bheidh siad cumasaithe, déanfar teachtaireachtaí sa seomra a chriptiú ó cheann go ceann",
+        "alert": "Cumasaítear criptiú ó cheann go ceann sa seomra, agus ní féidir an suíomh seo a mhúchadh."
+      },
+      "submit": "Socruithe Príobháideachta a Shábháil"
+    },
+    "toast": {
+      "success": "Nuashonraíodh socruithe príobháideachta",
+      "error": "Theip ar shocruithe príobháideachta a nuashonrú"
+    }
+  }
+}

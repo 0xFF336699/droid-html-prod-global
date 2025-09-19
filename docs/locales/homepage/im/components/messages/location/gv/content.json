@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "ennym",
+    "viewMap": "Shione da'n map",
+    "close": "cloie"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Ta'n browser t'ayn nish jannoo ymmyd jeh'n geocation",
+    "getLocationFailed": "Cha nel eh ry-gheddyn yn ynnyd, cur-my-ner ny s'cosoylagh",
+    "myLocation": "Moylley",
+    "shareLocation": "Gloyr",
+    "getCurrentLocation": "Failt yn ynnyd t'ayn jiu",
+    "title": "ennym",
+    "description": "Towse mishaghey",
+    "descriptionPlaceholder": "Cur-my-ner screeuyn mish (optional)",
+    "preview": "Preview y thie",
+    "latitude": "kiarit",
+    "longitude": "fladys",
+    "cancel": "cur ass",
+    "send": "cur",
+    "permissionPrompt": "Ta feme ain dy gheddyn dty fys ayns ynnyd dy choyrt seirbaghyn ny share, vel eh er ny choyrt?",
+    "permissionDenied": "Ta cead y stayd er ny choyrt, cur-my-ner cead Positioning ayns ny s'browser",
+    "locationTimeout": "As t'eh ry-akin, jean shickyr dy vel y ghraih er ny choyrt as dy vel eh er ny h-earroo",
+    "locationUnavailable": "Ta'n raad t'ayn nish ry-gheddyn, cur-my-ner y seirveish ynnyd"
+  }
+}

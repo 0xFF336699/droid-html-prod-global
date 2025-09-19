@@ -1,0 +1,7 @@
+{
+  "androidPermission": {
+    "denied": "tagasi lükkama",
+    "granted": "Volitatud",
+    "shouldAskAgain": "Volitamata"
+  }
+}

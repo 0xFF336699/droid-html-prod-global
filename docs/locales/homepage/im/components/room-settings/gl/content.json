@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Configuración da habitación",
+    "tabs": {
+      "basic": "Configuración básica",
+      "permission": "Configuración de permiso",
+      "privacy": "Configuración de privacidade",
+      "member": "Xestión de membros"
+    },
+    "loadError": "Fallou ao cargar a configuración da habitación",
+    "leaveRoom": {
+      "button": "Saia da habitación",
+      "confirm": "¿Estás seguro de que queres saír da habitación? Despois de saír, non poderás seguir recibindo mensaxes desde esta habitación.",
+      "success": "Saíu a habitación con éxito",
+      "error": "Fallou a saír da habitación, téntao de novo"
+    }
+  }
+}

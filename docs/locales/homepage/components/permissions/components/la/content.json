@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Auctoritas",
+    "notPass": "Alienatus",
+    "danger": "Periculum",
+    "setting": "profectus"
+  }
+}

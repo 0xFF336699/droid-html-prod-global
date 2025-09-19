@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Injira / Iyandikishe",
+    "signOut": "Gusohoka",
+    "confirmContent": "Uzi neza ko ushaka gusohoka?",
+    "confirmTitle": "igitekerezo",
+    "confirm": "Rwose",
+    "cancel": "Guhagarika",
+    "signoutOk": "Gusohoka",
+    "loadingData": "Gupakira amakuru yumukoresha"
+  }
+}

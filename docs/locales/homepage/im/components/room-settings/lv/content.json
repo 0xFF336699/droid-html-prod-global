@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Istabas iestatījumi",
+    "tabs": {
+      "basic": "Pamata iestatījumi",
+      "permission": "Atļaujas iestatījumi",
+      "privacy": "Privātuma iestatījumi",
+      "member": "Locekļu vadība"
+    },
+    "loadError": "Neizdevās ielādēt istabas iestatījumus",
+    "leaveRoom": {
+      "button": "Iziet no istabas",
+      "confirm": "Vai esat pārliecināts, ka vēlaties iziet no istabas? Pēc izejas jūs nevarēsit turpināt saņemt ziņojumus no šīs istabas.",
+      "success": "Veiksmīgi izgāja no istabas",
+      "error": "Neizdevās iziet no istabas, lūdzu, mēģiniet vēlreiz"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Yer adı",
+    "viewMap": "Xəritəyə baxın",
+    "close": "bağlamaq"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Mövcud brauzer geolokasiya əldə etməyi dəstəkləmir",
+    "getLocationFailed": "Yeri əldə edə bilmədi, icazə parametrlərini yoxlayın",
+    "myLocation": "Mənim yerim",
+    "shareLocation": "Yerləşmə yeri",
+    "getCurrentLocation": "Cari yeri əldə edin",
+    "title": "Yer adı",
+    "description": "Ətraflı təsvir",
+    "descriptionPlaceholder": "Zəhmət olmasa ətraflı təsviri daxil edin (isteğe bağlı)",
+    "preview": "Yer baxışı",
+    "latitude": "enlik",
+    "longitude": "uzunluq",
+    "cancel": "Ləğv etmək",
+    "send": "göndərmək",
+    "permissionPrompt": "Daha yaxşı xidmətlər göstərmək üçün yer məlumatlarınızı əldə etməliyik, buna icazə verilirmi?",
+    "permissionDenied": "Yerləşdirmə icazəsi rədd edildi, zəhmət olmasa brauzerinizin parametrlərində yerləşdirmə icazəsini aktivləşdirin",
+    "locationTimeout": "TimeOution-i yerləşdirin, cihazın açıldığından əmin olun və yenidən müraciət etməyə çalışın",
+    "locationUnavailable": "Cari yer əldə edilə bilməz, Cihazın yeri xidmətini yoxlayın"
+  }
+}

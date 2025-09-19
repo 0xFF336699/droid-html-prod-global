@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Habitació pública",
+        "description": "Els usuaris poden cercar habitacions públiques"
+      },
+      "allowGuestJoin": {
+        "label": "Permet que els visitants s’uneixin",
+        "description": "Permet als usuaris no registrats unir -se a la sala com a convidat"
+      },
+      "isEncrypted": {
+        "label": "Activa el xifrat de punta a extrem",
+        "description": "Quan estigui activat, els missatges de la sala seran xifrats de punta a extrem",
+        "alert": "El xifrat de punta a extrem està habilitada a la sala i aquesta configuració no es pot desactivar."
+      },
+      "submit": "Desa la configuració de privadesa"
+    },
+    "toast": {
+      "success": "La configuració de privadesa s'ha actualitzat",
+      "error": "No s'ha pogut actualitzar la configuració de privadesa"
+    }
+  }
+}

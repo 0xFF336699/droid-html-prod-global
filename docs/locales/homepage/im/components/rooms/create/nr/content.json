@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Thelale."
+    },
+    "dialog": {
+      "title": "Fala akhula.",
+      "form": {
+        "userId": {
+          "label": "Umthombo:",
+          "placeholder": "1: “Ukusithala: “Ukusibalo.”",
+          "error": {
+            "required": "• ngenzeni.",
+            "invalid": "Nazi ungongo ngulwazi ."
+          }
+        },
+        "roomName": {
+          "label": "4 5",
+          "placeholder": "Fala i-."
+        },
+        "isEncrypted": {
+          "label": "Ukuhlukahluka kunqubo okukhulu ."
+        },
+        "isDirect": {
+          "label": "-"
+        },
+        "topic": {
+          "label": "4 5",
+          "placeholder": "Thela anyamalala."
+        }
+      },
+      "actions": {
+        "cancel": "Sula",
+        "create": "bumba"
+      },
+      "success": "Hlangana i-a",
+      "error": "UMoya:"
+    }
+  }
+}

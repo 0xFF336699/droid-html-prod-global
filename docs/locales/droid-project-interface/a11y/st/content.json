@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "sebetsa",
+    "click": "Tlanya",
+    "longClick": "Nako e telele ea tobetsa",
+    "setText": "Seta mongolo",
+    "tryClick": "Leka ho Element kapa sebaka sa sebaka",
+    "globalClick": "Tlanya Tlanya"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Nivo dozvole potreban za slanje poruke",
+        "tooltip": "0 znači da svi članovi mogu slati poruke, a veći broj znači da su potrebne veće dozvole"
+      },
+      "invite": {
+        "label": "Nivo odobrenja potreban za pozivanje novih članova",
+        "tooltip": "Set koji može pozvati nove članove u sobu"
+      },
+      "kick": {
+        "label": "Izbacite potrebnu razinu dozvole",
+        "tooltip": "Set koji može izbaciti članove sobe"
+      },
+      "ban": {
+        "label": "Nivo dozvole potreban za blokiranje članova",
+        "tooltip": "Set koji može blokirati članove sobre"
+      },
+      "roomSettings": {
+        "label": "Izmijenite potrebnu razinu dozvole za postavke soba",
+        "tooltip": "Set koji može izmijeniti postavke sobe"
+      },
+      "submit": "Spremi postavke dozvole"
+    },
+    "description": "Raspon nivoa dozvole: 0-100, veći broj znači da su potrebne veće dozvole",
+    "toast": {
+      "success": "Postavke dozvole su ažurirane",
+      "error": "Neuspjeh ažuriranja postavki dozvola"
+    }
+  }
+}

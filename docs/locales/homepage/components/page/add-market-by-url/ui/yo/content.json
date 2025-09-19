@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Niwon ohun elo yii kan fun nọmba nla ti awọn igbanilaaye lori foonu alagbeka rẹ, ọpọlọpọ awọn igbanilaaye jẹ eewu tabi ki o ma ṣe gbe wọn larọwọto ti o mọ awọn ewu ti ọja tabi iwe afọwọkọ. Ni kete ti o ba tẹ akoonu wọle si \"Ifihan kaadi ọja\" tabi \"Ọja Ti ominira ominira Oju-iwe ayelujara\" Awọn akoonu naa yoo pa lẹsẹkẹsẹ bi Koodu. Jọwọ ṣọra.",
+    "setNewMarket": "Ṣeto ọja tuntun",
+    "settingPreview": "Awo akọpo",
+    "marketName": "Orukọ ọja",
+    "marketSummary": "Ifihan Ọja",
+    "marketDescription": "Ifihan Ọja",
+    "itemMarket": "Ifaara Kaadi Ọja",
+    "fullMarket": "Oja ti ominira oju-iwe wẹẹbu",
+    "marketCardPreview": "Awotẹlẹ kaadi ọja",
+    "marketFullPreview": "Ọja Oju-iwe Oju-iwe Ayelujara ominira",
+    "isNotSet": "Ko ṣeto"
+  }
+}

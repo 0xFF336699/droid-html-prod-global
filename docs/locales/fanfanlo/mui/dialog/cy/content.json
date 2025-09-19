@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Chansliff",
+    "confirm": "Sicr",
+    "title": "hawgrymu",
+    "content": "Ydych chi'n siŵr eich bod chi am wneud hyn?"
+  },
+  "EditableText": {
+    "cancel": "Chansliff",
+    "save": "hiachasit",
+    "title": "olygwch"
+  }
+}

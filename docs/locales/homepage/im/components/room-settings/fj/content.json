@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Biuta na ituvatuva .",
+    "tabs": {
+      "basic": "Na ituvatuva ni ituvatuva ni ituvatuva ni ituvatuva ni veituvatuyaki.",
+      "permission": "ilesilesi",
+      "privacy": "Na ituvatuva ni veiliutaki ni veiliutaki e na gauna oqo.",
+      "member": "Me baleta na iVakatakilakila ni matetaka"
+    },
+    "loadError": "Vakuri ki na ituvatuva ni rumu ni rumu ni rumu .",
+    "leaveRoom": {
+      "button": "Vakasuka na rumu.",
+      "confirm": "O sa vakadeitaka beka ni o vinakata mo vakadikeva na rumu? Ni oti o sa veitarogi, o na sega ni rawa ni ciqoma tiko na itukutuku mai na rumu oqo.",
+      "success": "Na rumu vinaka vinaka vinaka duadua.",
+      "error": "Mo tukuna tiko na kena dikevi na rumu, yalovinaka saga tale ."
+    }
+  }
+}

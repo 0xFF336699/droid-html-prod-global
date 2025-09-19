@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "ndeko aha",
+    "phoneNumber": "Nọmba ekwentị",
+    "phoneNumberPlaceholder": "Biko tinye nọmba ekwentị mkpanaka gị",
+    "verificationCode": "Koodu nyocha",
+    "verificationCodePlaceholder": "Biko tinye koodu nkwenye",
+    "getVerificationCode": "Nweta koodu nkwenye",
+    "countdown": "{{sekọnd} sekọnd iji nwaa ọzọ",
+    "register": "ndeko aha",
+    "errors": {
+      "phoneRequired": "Biko tinye nọmba ekwentị mkpanaka gị",
+      "phoneInvalid": "Usoro nọmba ekwentị mkpanaka ezighi ezi",
+      "codeRequired": "Biko tinye koodu nkwenye",
+      "codeInvalid": "Usoro nkwenye koodu ezighi ezi",
+      "requestFailed": "Rịọ kụrụ",
+      "verificationFailed": "Nchọpụta nkwenye koodu kụrụ",
+      "loginFailed": "mbanye agaghị"
+    },
+    "success": {
+      "verificationCodeSent": "E zigara koodu nkwenye",
+      "registerSuccess": "Debanye aha nke ọma"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Bir Oda Oluştur"
+    },
+    "dialog": {
+      "title": "Yeni Bir Oda Oluşturun",
+      "form": {
+        "userId": {
+          "label": "Kullanıcı kimliği",
+          "placeholder": "Kullanıcı kimliğini girin (örneğin: @user: example.com)",
+          "error": {
+            "required": "Kullanıcı kimliği boş olamaz",
+            "invalid": "Geçersiz Kullanıcı Kimliği Biçimi"
+          }
+        },
+        "roomName": {
+          "label": "Oda adı (isteğe bağlı)",
+          "placeholder": "Bir oda adı girin"
+        },
+        "isEncrypted": {
+          "label": "Uçtan uca şifrelemeyi etkinleştirin"
+        },
+        "isDirect": {
+          "label": "Doğrudan mesaj"
+        },
+        "topic": {
+          "label": "Tema (isteğe bağlı)",
+          "placeholder": "Oda temasına girin"
+        }
+      },
+      "actions": {
+        "cancel": "İptal etmek",
+        "create": "yaratmak"
+      },
+      "success": "Oda yaratma başarıyla",
+      "error": "Bir oda oluşturulurken bir hata oluştu: {hata}"
+    }
+  }
+}

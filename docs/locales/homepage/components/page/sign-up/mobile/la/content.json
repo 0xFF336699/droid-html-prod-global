@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "subcriptio",
+    "phoneNumber": "Phone numerus",
+    "phoneNumberPlaceholder": "Please enter vestri mobile phone numerus",
+    "verificationCode": "Verification Code",
+    "verificationCodePlaceholder": "Please enter verificationis",
+    "getVerificationCode": "Ut ad verificationem codice",
+    "countdown": ", {{Seconds}} seconds ad experiri iterum:",
+    "register": "subcriptio",
+    "errors": {
+      "phoneRequired": "Please enter vestri mobile phone numerus",
+      "phoneInvalid": "Mobile phone numerus est falsa",
+      "codeRequired": "Please enter verificationis",
+      "codeInvalid": "Et verificationem codice forma falsa",
+      "requestFailed": "Petitio defuit",
+      "verificationFailed": "Verification Code Acquisitionem defuit",
+      "loginFailed": "Defecit login"
+    },
+    "success": {
+      "verificationCodeSent": "Verification Code missum",
+      "registerSuccess": "Relatus feliciter"
+    }
+  }
+}

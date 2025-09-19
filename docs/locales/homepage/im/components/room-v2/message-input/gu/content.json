@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "જોડાણો ઉમેરો",
+    "emoji": "અભિવ્યક્તિ પસંદ કરો",
+    "placeholder": "એક સંદેશ દાખલ કરો ...",
+    "sendLocation": "સ્થાન મોકલો",
+    "send": "મોકલવું"
+  }
+}

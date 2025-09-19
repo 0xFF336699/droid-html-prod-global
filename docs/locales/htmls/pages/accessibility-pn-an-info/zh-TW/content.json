@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "捷徑",
+    "title": "package和activity識別",
+    "useBtn": "使用",
+    "closeBtn": "關閉",
+    "pnLabel": "包名",
+    "copyButtonText": "複製",
+    "anLabel": "activity",
+    "clsLable": "class"
+  }
+}

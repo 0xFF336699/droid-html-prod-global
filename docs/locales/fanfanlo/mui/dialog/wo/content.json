@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Bàyyi",
+    "confirm": "Wóor",
+    "title": "tegtal",
+    "content": "Yaa ngi bëgga def lii?"
+  },
+  "EditableText": {
+    "cancel": "Bàyyi",
+    "save": "déñ-kumpa",
+    "title": "soppi"
+  }
+}

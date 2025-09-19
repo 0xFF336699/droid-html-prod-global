@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Dodati",
+    "sub": {
+      "addScriptByUrl": "Dodajte skripte putem URL-a",
+      "addScriptByText": "Dodajte skripte putem teksta",
+      "addMarket": "Dodajte tržište putem URL-a",
+      "addMarketByText": "Dodajte tržište putem teksta"
+    }
+  }
+}

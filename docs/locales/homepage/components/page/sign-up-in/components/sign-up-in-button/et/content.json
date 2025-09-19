@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Sisselogimine/register",
+    "signOut": "Välja logima",
+    "confirmContent": "Kas olete kindel, et soovite välja logida?",
+    "confirmTitle": "vihje",
+    "confirm": "Kindel",
+    "cancel": "Tühistama",
+    "signoutOk": "Välja logima",
+    "loadingData": "Kasutajate andmete laadimine"
+  }
+}

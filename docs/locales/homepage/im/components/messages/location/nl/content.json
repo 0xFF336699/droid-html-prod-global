@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Locatienaam",
+    "viewMap": "Bekijk de kaart",
+    "close": "sluiting"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "De huidige browser ondersteunt geen geolocatie -acquisitie",
+    "getLocationFailed": "Controleer de toestemmingsinstellingen niet om de locatie te verkrijgen",
+    "myLocation": "Mijn locatie",
+    "shareLocation": "Deel locatie",
+    "getCurrentLocation": "Koop de huidige locatie",
+    "title": "Locatienaam",
+    "description": "Gedetailleerde beschrijving",
+    "descriptionPlaceholder": "Voer een gedetailleerde beschrijving in (optioneel)",
+    "preview": "Locatie preview",
+    "latitude": "breedte",
+    "longitude": "lengte",
+    "cancel": "Annuleren",
+    "send": "versturen",
+    "permissionPrompt": "We moeten uw locatie -informatie verkrijgen om betere services te bieden, is deze toegestaan?",
+    "permissionDenied": "Positioneringstoewijzing wordt geweigerd, schakel de positioneringstoestemming in uw browserinstellingen in",
+    "locationTimeout": "Positionering van de time -out, zorg ervoor dat het apparaat is ingeschakeld en probeer opnieuw te worden aan",
+    "locationUnavailable": "De huidige locatie kan niet worden verkregen, controleer de locatiedienst van het apparaat"
+  }
+}

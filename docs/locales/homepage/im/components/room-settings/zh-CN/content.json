@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "房间设置",
+    "tabs": {
+      "basic": "基本设置",
+      "permission": "权限设置",
+      "privacy": "隐私设置",
+      "member": "成员管理"
+    },
+    "loadError": "加载房间设置失败",
+    "leaveRoom": {
+      "button": "退出房间",
+      "confirm": "确定要退出该房间吗？退出后您将无法继续接收该房间的消息。",
+      "success": "已成功退出房间",
+      "error": "退出房间失败，请重试"
+    }
+  }
+}

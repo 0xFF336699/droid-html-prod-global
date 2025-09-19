@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "GELA IZENA"
+      },
+      "topic": {
+        "label": "Gela Sarrera"
+      },
+      "avatar": {
+        "alt": "Gela avatar"
+      },
+      "submit": "Gorde ezarpenak"
+    },
+    "toast": {
+      "success": "Ezarpenak eguneratu dira",
+      "error": {
+        "default": "Eguneratze ezarpenak huts egin du",
+        "avatar": "Huts egin du avatar eguneratzeko"
+      }
+    }
+  }
+}

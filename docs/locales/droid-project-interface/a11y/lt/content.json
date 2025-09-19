@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "operuoti",
+    "click": "Spustelėkite",
+    "longClick": "Ilga spauda",
+    "setText": "Nustatykite tekstą",
+    "tryClick": "Išbandykite elementą arba vietą spustelėkite",
+    "globalClick": "Vieta spustelėkite"
+  }
+}

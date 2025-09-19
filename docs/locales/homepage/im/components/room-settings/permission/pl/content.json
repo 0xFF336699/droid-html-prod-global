@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Poziom pozwolenia wymagany do wysłania wiadomości",
+        "tooltip": "0 oznacza, że ​​wszyscy członkowie mogą wysyłać wiadomości, a im większa liczba oznacza, że ​​wymagane są wyższe uprawnienia"
+      },
+      "invite": {
+        "label": "Poziom pozwolenia wymagany do zaproszenia nowych członków",
+        "tooltip": "Ustaw, którzy mogą zaprosić nowych członków do pokoju"
+      },
+      "kick": {
+        "label": "Wyrzuć wymagany poziom zgody",
+        "tooltip": "Set, kto może wyrzucić członków pokoju"
+      },
+      "ban": {
+        "label": "Poziom pozwolenia wymagany dla blokowania członków",
+        "tooltip": "Zestaw, którzy mogą blokować członków pokoju"
+      },
+      "roomSettings": {
+        "label": "Zmodyfikuj wymagany poziom uprawnień ustawień pokoju",
+        "tooltip": "Ustaw, kto może zmodyfikować ustawienia pokoju"
+      },
+      "submit": "Zapisz ustawienia uprawnień"
+    },
+    "description": "Zakres poziomu uprawnień: 0-100, im większa liczba oznacza, że ​​wymagane są wyższe uprawnienia",
+    "toast": {
+      "success": "Ustawienia uprawnień zostały zaktualizowane",
+      "error": "Nie udało się zaktualizować ustawień uprawnień"
+    }
+  }
+}

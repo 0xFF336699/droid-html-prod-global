@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "መእተዊ/መዝገብ",
+    "signOut": "LOUT",
+    "confirmContent": "ክትወጽእ ከም እትደሊ ርግጸኛ ዲኻ?",
+    "confirmTitle": "ኣንፈት",
+    "confirm": "እርግፀኛ",
+    "cancel": "ሰርዝ",
+    "signoutOk": "LOUT",
+    "loadingData": "ናይ ተጠቃሚ ዳታ ምጽዓን"
+  }
+}

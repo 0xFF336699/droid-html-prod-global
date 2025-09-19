@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Noonya bammemba ."
+    },
+    "table": {
+      "columns": {
+        "name": "Erinnya lya mmemba .",
+        "userId": "ID y'omukozesa .",
+        "actions": "Kola ."
+      },
+      "pagination": {
+        "rowsPerPage": "Omuwendo gw'ennyiriri buli lupapula ."
+      },
+      "avatar": {
+        "alt": "Avatar ."
+      },
+      "actions": {
+        "kick": "Kick out .",
+        "ban": "ewereddwa ."
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Kakasa omu ku bakuba ebikonde .",
+        "content": "Okakasa nti oyagala kugoba mmemba mu kisenge?"
+      },
+      "ban": {
+        "title": "Kakasa obwammemba obuwereddwa .",
+        "content": "Okakasa nti oyagala kuwera member ono? Member tajja kusobola kuddamu kwegatta mu kisenge oluvannyuma lw’okuwera."
+      },
+      "buttons": {
+        "cancel": "okusazaamu",
+        "confirm": "okukakasa"
+      }
+    },
+    "toast": {
+      "loadError": "eremereddwa okutikka olukalala lwa bammemba .",
+      "kick": {
+        "success": "Bammemba bagobeddwa mu kisenge .",
+        "error": "Okusamba bammemba balemereddwa ."
+      },
+      "ban": {
+        "success": "Bammemba bazibye .",
+        "error": "Balemereddwa okulemesa bammemba ."
+      }
+    },
+    "invite": {
+      "button": "Yita Bammemba .",
+      "title": "Yita bammemba okwegatta ku kisenge .",
+      "inputLabel": "Nsaba oyingize ID y'omukozesa wa Matrix (nga @user:matrix.org)",
+      "confirm": "okwaaniriza",
+      "cancel": "okusazaamu",
+      "loading": "Okuyita...",
+      "success": "Okuyita okuweerezeddwa!",
+      "error": "Okuyita kulemereddwa, nsaba okebere ID y'omukozesa oba olukusa"
+    },
+    "empty": "Tewali mmemba .",
+    "loading": "Okutikka...",
+    "role": {
+      "owner": "Nnannyini maka .",
+      "admin": "Omuddukanya .",
+      "moderator": "okuddukanya awamu .",
+      "user": "mmemba ."
+    }
+  }
+}

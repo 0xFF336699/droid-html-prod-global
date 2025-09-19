@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Pattern URL",
+    "full": {
+      "url": "URL luumo. Jikkuuji naatɗi ɗii maa loowte no URL nii, tiiɗno-ɗee.",
+      "html": "Lowre HTML loowdi. Jikkuuji naatɗi ɗii maa mbaɗe ɗoon e ɗoon no binndi nii, tiiɗno-ɗee.",
+      "come": "Ngaree to am",
+      "myMarketName": "Innde luumo",
+      "stroll": "Njokken yahdu"
+    },
+    "item": {
+      "url": "URL Kaartal luumo. Jikkuuji naatɗi ɗii maa loowte no URL nii, tiiɗno-ɗee.",
+      "html": "Lowre HTML loowdi. Jikkuuji naatɗi ɗii maa mbaɗe ɗoon e ɗoon no binndi nii, tiiɗno-ɗee.",
+      "come": "Ngaree to am",
+      "myMarketName": "Innde luumo",
+      "stroll": "Njokken yahdu"
+    }
+  }
+}

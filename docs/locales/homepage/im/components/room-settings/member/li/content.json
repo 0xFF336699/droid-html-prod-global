@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Zoek op lede"
+    },
+    "table": {
+      "columns": {
+        "name": "lidoom",
+        "userId": "Gebruuks-ID",
+        "actions": "bedrief"
+      },
+      "pagination": {
+        "rowsPerPage": "Aontal rieje per pagina"
+      },
+      "avatar": {
+        "alt": "apotaar"
+      },
+      "actions": {
+        "kick": "Kick oet",
+        "ban": "Baned"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Bevestig ‘t kickinglid",
+        "content": "Zien jullie zeker dat u ‘t lid oet de kamer wilt schoppe?"
+      },
+      "ban": {
+        "title": "Bevestig ‘t verbode lidmaotsjap",
+        "content": "Zien jullie zeker dat u dit lid wilt verbanne? ‘t Lid zal nao ‘t verbod neet in staot zien um de kamer terug te gaon."
+      },
+      "buttons": {
+        "cancel": "Annulere",
+        "confirm": "bevestige"
+      }
+    },
+    "toast": {
+      "loadError": "Verwant tot laadlidlis",
+      "kick": {
+        "success": "Leie zien oet de kamer gesjote",
+        "error": "‘t Kicking-out-lede mislukde"
+      },
+      "ban": {
+        "success": "Leie geblokkeerd",
+        "error": "Vergemekelek um leie te blokkere"
+      }
+    },
+    "invite": {
+      "button": "noaugte leie",
+      "title": "Noeg de leie oet um bij de kamer te gaon",
+      "inputLabel": "Vul de Matrix-gebruuks-ID in (zoe wie @user:matrix.org)",
+      "confirm": "oetnuuwedige",
+      "cancel": "Annulere",
+      "loading": "Innoemend...",
+      "success": "Oetnodiging gestuurd!",
+      "error": "Uitnodiging misluk, controleer de gebruker-ID of toestemminge"
+    },
+    "empty": "Nog gein lid",
+    "loading": "laade...",
+    "role": {
+      "owner": "Hoesvroed",
+      "admin": "Derm Gegripmasjienes",
+      "moderator": "Co-management",
+      "user": "norm"
+    }
+  }
+}

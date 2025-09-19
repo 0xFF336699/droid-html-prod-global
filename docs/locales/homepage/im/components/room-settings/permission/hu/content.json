@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Az üzenet elküldéséhez szükséges engedélyezési szint",
+        "tooltip": "0 azt jelenti, hogy minden tag üzeneteket küldhet, és minél nagyobb a szám, azt jelenti, hogy magasabb engedélyekre van szükség"
+      },
+      "invite": {
+        "label": "Az új tagok meghívásához szükséges engedélyezési szint szükséges",
+        "tooltip": "Állítsa be, akik új tagokat hívhatnak be a szobába"
+      },
+      "kick": {
+        "label": "Rúgja ki a szükséges engedélyszintet",
+        "tooltip": "Készítse ki, aki ki tudja rúgni a szoba tagjait"
+      },
+      "ban": {
+        "label": "A tagok blokkolásához szükséges engedélyszint",
+        "tooltip": "Állítsa be, akik blokkolhatják a szobatagokat"
+      },
+      "roomSettings": {
+        "label": "Módosítsa a helyiségbeállítások szükséges engedélyezési szintjét",
+        "tooltip": "Állítsa be, akik módosíthatják a szoba beállításait"
+      },
+      "submit": "Engedélybeállítások mentése"
+    },
+    "description": "Engedélyszint tartomány: 0-100, minél nagyobb a szám, ami nagyobb engedélyekre van szükség",
+    "toast": {
+      "success": "Az engedélybeállítások frissültek",
+      "error": "Nem sikerült frissíteni az engedélybeállításokat"
+    }
+  }
+}

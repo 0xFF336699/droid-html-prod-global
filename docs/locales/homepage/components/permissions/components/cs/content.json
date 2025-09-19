@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Autorizovaný",
+    "notPass": "Neoprávněný",
+    "danger": "Nebezpečí",
+    "setting": "nastavit"
+  }
+}

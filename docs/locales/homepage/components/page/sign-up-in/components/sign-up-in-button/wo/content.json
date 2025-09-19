@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Login/Register",
+    "signOut": "suuf",
+    "confirmContent": "Ndax bëgg nga dugg ci?",
+    "confirmTitle": "tegtal",
+    "confirm": "Wóor",
+    "cancel": "Bàyyi",
+    "signoutOk": "suuf",
+    "loadingData": "Done yu jëfandikukat"
+  }
+}

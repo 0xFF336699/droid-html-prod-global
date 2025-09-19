@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Njia hii inaweza kuitwa tu kwenye Android",
+      "noMethod": "Njia hii haipo"
+    }
+  }
+}

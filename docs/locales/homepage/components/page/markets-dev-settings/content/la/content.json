@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "COMMENTARIUS",
+        "helperText": "Si click in satus link, deinde ut vinculum. Hoc requirit attendere quod nexum reconnected continuous post est disconnected.",
+        "retryCount": "Reconnections"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "Link URL, exempli gratia, //192.168.0.2: (VII) I, aut WWs: //Example.com/path",
+        "error": "Rectam URL est URL incipiens cum E: // et WWs: //"
+      }
+    },
+    "connectButton": {
+      "connect": "coniungo",
+      "disconnect": "Disconnect",
+      "status": {
+        "connecting": "Connectens ...",
+        "connected": "Coniunctus",
+        "disconnecting": "Disconnecting ...",
+        "disconnected": "Non connexa",
+        "waitRetry": "Expectans reconnection ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "sero"
+  }
+}

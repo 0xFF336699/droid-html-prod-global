@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "Registriĝu",
+    "phoneNumber": "Telefonnumero",
+    "phoneNumberPlaceholder": "Bonvolu enigi vian poŝtelefonnumeron",
+    "verificationCode": "Konfirmkodo",
+    "verificationCodePlaceholder": "Bonvolu enigi la konfirman kodon",
+    "getVerificationCode": "Akiru la konfirman kodon",
+    "countdown": "{{sekundoj}} sekundoj por provi denove",
+    "register": "Registriĝu",
+    "errors": {
+      "phoneRequired": "Bonvolu enigi vian poŝtelefonnumeron",
+      "phoneInvalid": "La formato poŝtelefona numero estas malĝusta",
+      "codeRequired": "Bonvolu enigi la konfirman kodon",
+      "codeInvalid": "La formato de kontrolkodo estas malĝusta",
+      "requestFailed": "Peto malsukcesis",
+      "verificationFailed": "Kontrola kodo -akiro malsukcesis",
+      "loginFailed": "Ensaluto malsukcesis"
+    },
+    "success": {
+      "verificationCodeSent": "Kontrolkodo estis sendita",
+      "registerSuccess": "Registrita sukcese"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL mynstur",
+    "full": {
+      "url": "Marknaðarslag. Teir innskrivaðu stavirnir verða heintaðir sum URL'ir, vinarliga ver varin.",
+      "html": "MarknaðarhTML innihald. Teir innskrivaðu persónarnir verða útførdir beinanvegin sum scripts, vinarliga ver varin.",
+      "come": "Kom til mín",
+      "myMarketName": "Marknaðarnavn",
+      "stroll": "Latið okkum ganga ein túr"
+    },
+    "item": {
+      "url": "Marknaðarkort URL. Teir innskrivaðu stavirnir verða heintaðir sum URL'ir, vinarliga ver varin.",
+      "html": "MarknaðarhTML innihald. Teir innskrivaðu persónarnir verða útførdir beinanvegin sum scripts, vinarliga ver varin.",
+      "come": "Kom til mín",
+      "myMarketName": "Marknaðarnavn",
+      "stroll": "Latið okkum ganga ein túr"
+    }
+  }
+}

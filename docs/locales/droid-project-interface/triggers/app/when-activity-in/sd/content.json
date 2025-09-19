@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "مخصوص صفحي ۾ داخل ٿيڻ دوران",
+    "pnLabel": "پيڪيج جو نالو:",
+    "anLabel": "سرگرمي جو نالو",
+    "cnLabel": ": ڪلاس جو نالو",
+    "changeBtnLabel": "موعو تي"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "مخصوص صفحي ۾ داخل ٿيڻ دوران",
+    "pnLabel": "پيڪيج جو نالو:",
+    "anLabel": "سرگرمي جو نالو",
+    "cnLabel": ": ڪلاس جو نالو",
+    "changeBtnLabel": "موعو تي"
+  }
+}

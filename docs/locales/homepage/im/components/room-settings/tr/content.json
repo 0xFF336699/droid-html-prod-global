@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Oda Ayarları",
+    "tabs": {
+      "basic": "Temel Ayarlar",
+      "permission": "İzin Ayarları",
+      "privacy": "Gizlilik Ayarları",
+      "member": "Üye yönetimi"
+    },
+    "loadError": "Oda ayarları yüklenemedi",
+    "leaveRoom": {
+      "button": "Odadan çıkın",
+      "confirm": "Odadan çıkmak istediğinden emin misin? Çıktıktan sonra, bu odadan mesaj almaya devam edemezsiniz.",
+      "success": "Odadan başarılı bir şekilde çıktı",
+      "error": "Odadan çıkamadı, lütfen tekrar deneyin"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Sala pubblica",
+        "description": "Le sale pubbliche possono essere cercate da altri utenti"
+      },
+      "allowGuestJoin": {
+        "label": "Consenti ai visitatori di unirsi",
+        "description": "Consenti agli utenti non registrati di unirsi alla stanza come ospite"
+      },
+      "isEncrypted": {
+        "label": "Abilita la crittografia end-to-end",
+        "description": "Se abilitato, i messaggi nella stanza verranno crittografati end-to-end",
+        "alert": "La crittografia end-to-end è abilitata nella stanza e questa impostazione non può essere disattivata."
+      },
+      "submit": "Salva le impostazioni della privacy"
+    },
+    "toast": {
+      "success": "Le impostazioni della privacy sono state aggiornate",
+      "error": "Impossibile aggiornare le impostazioni della privacy"
+    }
+  }
+}

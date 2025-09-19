@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Pampublikong silid",
+        "description": "Ang mga pampublikong silid ay maaaring hahanapin ng iba pang mga gumagamit"
+      },
+      "allowGuestJoin": {
+        "label": "Payagan ang mga bisita na sumali",
+        "description": "Payagan ang mga hindi rehistradong gumagamit na sumali sa silid bilang isang panauhin"
+      },
+      "isEncrypted": {
+        "label": "Paganahin ang end-to-end na pag-encrypt",
+        "description": "Kapag pinagana, ang mga mensahe sa silid ay mai-encrypt na end-to-end",
+        "alert": "Ang end-to-end na pag-encrypt ay pinagana sa silid, at hindi mai-off ang setting na ito."
+      },
+      "submit": "I -save ang mga setting ng privacy"
+    },
+    "toast": {
+      "success": "Ang mga setting ng privacy ay na -update",
+      "error": "Nabigong i -update ang mga setting ng privacy"
+    }
+  }
+}

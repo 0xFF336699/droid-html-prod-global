@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Login/Register",
+    "signOut": "Melden Sie sich aus",
+    "confirmContent": "Sind Sie sicher, dass Sie sich abmelden möchten?",
+    "confirmTitle": "Hinweis",
+    "confirm": "Sicher",
+    "cancel": "Stornieren",
+    "signoutOk": "Melden Sie sich aus",
+    "loadingData": "Benutzerdaten laden"
+  }
+}

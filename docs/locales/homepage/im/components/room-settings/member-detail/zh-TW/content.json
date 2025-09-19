@@ -1,0 +1,9 @@
+{
+  "MemberDetailContent": {
+    "title": "成員詳情",
+    "nickname": "暱稱",
+    "role": "角色",
+    "kick": "踢出",
+    "ban": "封禁"
+  }
+}

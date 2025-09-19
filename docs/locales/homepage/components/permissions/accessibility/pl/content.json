@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Funkcje pomocnicze",
+    "pass": "Upoważniony",
+    "notPass": "Nieautoryzowane",
+    "setting": "organizować coś",
+    "danger": "Niebezpieczeństwo",
+    "dangerDesc": "To autoryzacja może zobaczyć treść na ekranie i kliknąć telefon. Wyłącz to pozwolenie, jeśli nie rozumiesz wyraźnie funkcjonalności i ryzyka uruchomionego skryptu lub będzie uruchomiony."
+  }
+}

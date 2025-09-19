@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Turu kër",
+    "viewMap": "Xoolal kàrt bi",
+    "close": "tëj"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Navigateur bi fi nekk du jàppale am geolocation",
+    "getLocationFailed": "Soo bëggee am barab bi, xoolal jekkalu ndigal yi",
+    "myLocation": "Sama barab",
+    "shareLocation": "Déedée",
+    "getCurrentLocation": "Wutal barab bi fi nekk",
+    "title": "Turu kër",
+    "description": "Tegtal yu leer",
+    "descriptionPlaceholder": "Baalnu nga dugal benn tegtal bu leer (optionnel)",
+    "preview": "Preview",
+    "latitude": "limit",
+    "longitude": "wëlal",
+    "cancel": "Bàyyi",
+    "send": "yonni",
+    "permissionPrompt": "War nañu am say leerali barab ngir joxe ay serwiis yu gëna baax, ndax dina ñu la may?",
+    "permissionDenied": "Ndimbal li ñuy nangu, mën nañu la may nga mëna am sañ-sañu Position ci sa jekkalu navigateur",
+    "locationTimeout": "Soppi timeout, fexeel nga am aparey bi nga jéema am",
+    "locationUnavailable": "Bërëb bi fi nekk leegi mënu ñu ko am, xoolal serwiisu barabu aparey bi"
+  }
+}

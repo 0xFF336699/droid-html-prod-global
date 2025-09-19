@@ -1,0 +1,9 @@
+{
+  "MemberDetailContent": {
+    "title": "Liikme üksikasjad",
+    "nickname": "Hüüdnimi",
+    "role": "Roll",
+    "kick": "Välja lööma",
+    "ban": "Keelatud"
+  }
+}

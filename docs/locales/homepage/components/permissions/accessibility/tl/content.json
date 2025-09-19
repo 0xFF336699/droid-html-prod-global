@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Mga Pag -andar ng Auxiliary",
+    "pass": "Awtorisado",
+    "notPass": "Hindi awtorisado",
+    "setting": "I -set up",
+    "danger": "Panganib",
+    "dangerDesc": "Ang pahintulot na ito ay maaaring makakita ng nilalaman sa screen at mag -click sa iyong telepono. Huwag paganahin ang pahintulot na ito kung hindi mo malinaw na nauunawaan ang pag -andar at mga panganib ng script na iyong pinapatakbo o tatakbo."
+  }
+}

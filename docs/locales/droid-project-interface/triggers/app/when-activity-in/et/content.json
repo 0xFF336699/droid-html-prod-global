@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Määratud lehele sisenedes",
+    "pnLabel": "Paketi nimi:",
+    "anLabel": "Tegevuse nimi:",
+    "cnLabel": "Klassi nimi:",
+    "changeBtnLabel": "asendama"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Määratud lehele sisenedes",
+    "pnLabel": "Paketi nimi:",
+    "anLabel": "Tegevuse nimi:",
+    "cnLabel": "Klassi nimi:",
+    "changeBtnLabel": "asendama"
+  }
+}

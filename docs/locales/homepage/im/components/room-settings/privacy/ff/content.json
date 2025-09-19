@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Suudu renndo",
+        "description": "Suudu jamaanu ina waawi njiylawu e huutortooɓe woɗɓe"
+      },
+      "allowGuestJoin": {
+        "label": "Accu yillotooɓe ngam nastugo",
+        "description": "Accu huutortooɓe ɓe mbinnditaaki ngam naatde e suudu nduu no hoɗɓe nii"
+      },
+      "isEncrypted": {
+        "label": "Sos sifirgol joofnirde joofnirde",
+        "description": "So ina waawi, mesasuuji nder suudu nduu maa sifirtee haa timma",
+        "alert": "Sifirde timmunde ina softina e nder suudu nduu, kadi ngool doggol waawaa ustaade."
+      },
+      "submit": "Hisnu dottaaɗe sirlu"
+    },
+    "toast": {
+      "success": "Cuɓe privacy ina hesɗitinee",
+      "error": "Waɗiraa ko hesɗitinde dottaaɗe sirlu"
+    }
+  }
+}

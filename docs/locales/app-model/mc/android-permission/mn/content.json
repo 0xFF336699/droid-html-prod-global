@@ -1,0 +1,7 @@
+{
+  "androidPermission": {
+    "denied": "заазлах",
+    "granted": "Хувь олгогч",
+    "shouldAskAgain": "Зөвшөөрөөгүй"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Atkomiligheitsgrunnur sýning",
+    "howToUse": "Vegleiðing til nýtslu",
+    "howToUseTooltip": "Niðanfyri eru nakrir merkingareginleikar hjá hesum knøtti, sum kunnu brúkast til at velja rakstur, so sum at klikkja, fylla út tekst o.s.fr.\n\nEginleikavirðið kann duplikaterast á appsíðuni. Um tú møtir duplikatum, so skalt tú leggja onnur eginleikaval yvir fyri at avgera serstøku.\n\nEitt reytt orð vísir, at eginleikavirðið verður endurtikið, eitt grønt orð vísir, at eginleikavirðið er serstakt í verandi síðuleiting, og eitt svart orð vísir, at eingin endurtøka er.",
+    "otherNodesSummary": "Aðrir knøttir á hesum staðnum",
+    "moreNodes": "Her er tað, sum er útbygt.",
+    "nodeInfoDialogOkButton": "Rætta rakstur av hesum knøtti",
+    "text": "Tekstur 2222"
+  }
+}

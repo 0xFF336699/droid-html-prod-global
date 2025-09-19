@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Keďže táto aplikácia sa uplatňuje na veľké množstvo povolení na vašom mobilnom telefóne, veľa povolení je mimoriadne riskantné, takže ich neimportujte ani nevykonávajte bez toho, aby sme jasne poznali riziká trhu alebo skriptu. Po zadaní obsahu do textového poľa „Úvod na trhu karty“ alebo „Webová stránka nezávislá od trhu“, obsah sa vykoná okamžite ako kód. Prosím, buďte opatrní.",
+    "setNewMarket": "Zriadiť nový trh",
+    "settingPreview": "Ukážka nastavení",
+    "marketName": "Názov trhu",
+    "marketSummary": "Predstavenie trhu",
+    "marketDescription": "Predstavenie trhu",
+    "itemMarket": "Úvodné karty na trhu",
+    "fullMarket": "Nezávislá webová stránka na trhu",
+    "marketCardPreview": "Ukážka trhu",
+    "marketFullPreview": "Ukážka nezávislej webovej stránky na trhu",
+    "isNotSet": "Nie sada"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Den Erlaabnisniveau noutwendeg fir e Message ze schécken",
+        "tooltip": "0 heescht datt all Membere Messagen kënnen schécken, an déi méi grouss Zuel heescht datt méi héich Permissiounen erfuerderlech sinn"
+      },
+      "invite": {
+        "label": "Erlaabnis Niveau erfuerderlech nei Memberen ze invitéieren",
+        "tooltip": "Set deen nei Memberen an de Raum invitéiere kann"
+      },
+      "kick": {
+        "label": "Schéisst den erfuerderlechen Erlaabnisniveau eraus",
+        "tooltip": "Set deen kann de Raum Member ausmaachen"
+      },
+      "ban": {
+        "label": "Erlaabnisniveau erfuerderlech fir Memberen ze blockéieren",
+        "tooltip": "Set deen Zëmmer Memberen blockéiere kann"
+      },
+      "roomSettings": {
+        "label": "Änneren déi erfuerderlech Erlaabnisniveau vun der Zëmmer Astellungen",
+        "tooltip": "Set deen de Raum Astellunge änneren kann"
+      },
+      "submit": "Späichert Erlaabnis Astellunge"
+    },
+    "description": "Erlaabnisniveau Range: 0-100, déi méi grouss d'Zuel heescht méi héich Permissiounen, déi erfuerderlech sinn",
+    "toast": {
+      "success": "Erlaabnis Astellunge goufen aktualiséiert",
+      "error": "Feeler beim Update Performance Astellunge"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "SummaryRoomList": {
+    "title": "รายการเซสชัน",
+    "noRooms": "ไม่มีเซสชันที่จะแสดง",
+    "acceptInvite": "ยอมรับคำเชิญ",
+    "rejectInvite": "ปฏิเสธคำเชิญ"
+  }
+}

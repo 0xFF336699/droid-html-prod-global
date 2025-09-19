@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "የተጠቃሚ መረጃ",
+    "id": {
+      "name": "መታወቂያ",
+      "copy": "ቅጂ",
+      "copied": "መታወቂያ ተቀድቷል"
+    },
+    "notLoggedIn": "አልገባም",
+    "name": "ስም",
+    "avatar": "አቫታር"
+  }
+}

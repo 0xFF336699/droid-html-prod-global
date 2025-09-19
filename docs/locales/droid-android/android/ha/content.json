@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Wannan hanyar ana iya kiranta Android",
+      "noMethod": "Wannan hanyar ba ta wanzu"
+    }
+  }
+}

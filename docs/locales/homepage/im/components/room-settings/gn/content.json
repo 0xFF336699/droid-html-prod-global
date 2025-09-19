@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Koty ñemohenda .",
+    "tabs": {
+      "basic": "Ñe’ẽñemi tenondegua .",
+      "permission": "Permiso rehegua ñemboheko .",
+      "privacy": "Ñe’ẽñemi rehegua .",
+      "member": "Miembro kuéra jesareko ."
+    },
+    "loadError": "Ndojekargaiva’erã koty ñemboheko .",
+    "leaveRoom": {
+      "button": "Osẽ pe kotygui .",
+      "confirm": "¿Reime seguro resẽseha pe kotýgui? Resẽ rire, ndaikatumo’ãi resegi rerrecibi marandu ko kotýgui.",
+      "success": "Osẽ porã pe kotygui .",
+      "error": "Ndoikóigui pe kotýgui, eñeha’ã jey ."
+    }
+  }
+}

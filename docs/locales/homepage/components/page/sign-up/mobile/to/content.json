@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "lesisita",
+    "phoneNumber": "fika telefoni",
+    "phoneNumberPlaceholder": "Kataki 'o fakahu ho'o fika telefoni to'oto'o .",
+    "verificationCode": "Kouti fakamo'oni",
+    "verificationCodePlaceholder": "Kataki 'o fakahu 'a e code fakamo'oni .",
+    "getVerificationCode": "Ma'u 'a e code fakamo'oni .",
+    "countdown": "{{sekoni}} sekoni ke toe feinga .",
+    "register": "lesisita",
+    "errors": {
+      "phoneRequired": "Kataki 'o fakahu ho'o fika telefoni to'oto'o .",
+      "phoneInvalid": "Ko e fotunga fika telefoni to'oto'o 'oku hala .",
+      "codeRequired": "Kataki 'o fakahu 'a e code fakamo'oni .",
+      "codeInvalid": "'Oku hala 'a e fotunga 'o e code fakamo'oni .",
+      "requestFailed": "Naʻe ʻikai lava ʻa e kolé",
+      "verificationFailed": "Na'e 'ikai lava 'a e ma'u 'o e code fakamo'oni'i .",
+      "loginFailed": "Naʻe ʻikai lava ʻa Login"
+    },
+    "success": {
+      "verificationCodeSent": "Kuo 'ave 'a e fakamo'oni'i 'o e code .",
+      "registerSuccess": "Lesisita lavame'a"
+    }
+  }
+}

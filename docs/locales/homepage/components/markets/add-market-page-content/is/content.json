@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "Bæta við markaðinn",
+    "url": "Markaðsslóð",
+    "summary": "Markaðssamantekt",
+    "urlIsNotValid": "Röng slóð á markaði"
+  }
+}

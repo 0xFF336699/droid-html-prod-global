@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Framkvæmd hnút",
+    "changeBtnLabel": "Skiptu um",
+    "showNodeAllProperties": "Sýna alla eiginleika",
+    "wait": {
+      "time": "Biðtími",
+      "interval": "Bið millibili",
+      "invisible": "Hvort greina eigi þætti utan skjásins"
+    }
+  }
+}

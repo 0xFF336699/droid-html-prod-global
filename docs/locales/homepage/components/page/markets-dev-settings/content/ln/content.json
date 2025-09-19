@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Bozala na boyokani .",
+        "helperText": "Soki obɛti na lien ya kobanda, na nsima bomba lien. Yango esengi attention que lien ekozala reconnecté continuellement après que e déconnecté.",
+        "retryCount": "Motango ya ba reconnexions ."
+      },
+      "url": {
+        "name": "URL .",
+        "helperText": "URL ya lien, ndakisa ws://192.168.0.2:7001, to wws://example.com/path",
+        "error": "URL ya malamu ezali URL oyo ebandi na WS:// to WWS://"
+      }
+    },
+    "connectButton": {
+      "connect": "kosangana",
+      "disconnect": "Kokata boyokani .",
+      "status": {
+        "connecting": "Kozala na boyokani...",
+        "connected": "Ekangami .",
+        "disconnecting": "Kokata boyokani...",
+        "disconnected": "Ezali na boyokani te .",
+        "waitRetry": "Kozela reconnexion..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "maloba"
+  }
+}

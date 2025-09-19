@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "I autorizuar",
+    "notPass": "I paautorizuar",
+    "danger": "Rrezik",
+    "setting": "vendos"
+  }
+}

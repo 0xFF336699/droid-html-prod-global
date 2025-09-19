@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL -URL -kuvio",
+    "full": {
+      "url": "Markkina -URL. Syötetyt merkit ladataan URL -osoitteiksi, ole varovainen.",
+      "html": "Markkinat HTML -sisältö. Syötetyt merkit suoritetaan välittömästi skripteinä, ole varovainen.",
+      "come": "Tulla",
+      "myMarketName": "Markkinoidenimi",
+      "stroll": "Mennään kävelylle"
+    },
+    "item": {
+      "url": "Markkinakortin URL. Syötetyt merkit ladataan URL -osoitteiksi, ole varovainen.",
+      "html": "Markkinat HTML -sisältö. Syötetyt merkit suoritetaan välittömästi skripteinä, ole varovainen.",
+      "come": "Tulla",
+      "myMarketName": "Markkinoidenimi",
+      "stroll": "Mennään kävelylle"
+    }
+  }
+}

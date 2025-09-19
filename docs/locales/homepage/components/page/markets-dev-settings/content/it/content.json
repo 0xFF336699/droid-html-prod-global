@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Resta connesso",
+        "helperText": "Se fai clic sul collegamento Avvia, mantieni il collegamento. Ciò richiede l'attenzione che il collegamento verrà ricollegato continuamente dopo che è stato disconnesso.",
+        "retryCount": "Numero di riconnessioni"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "Link URL, ad esempio WS: //192.168.0.2: 7001 o WWS: //example.com/Path",
+        "error": "L'URL corretto è un URL che inizia con WS: // o WWS: //"
+      }
+    },
+    "connectButton": {
+      "connect": "collegare",
+      "disconnect": "Disconnessione",
+      "status": {
+        "connecting": "Connessione ...",
+        "connected": "Collegato",
+        "disconnecting": "Disconnessione ...",
+        "disconnected": "Non connesso",
+        "waitRetry": "In attesa di riconnessione ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "sceneggiatura"
+  }
+}

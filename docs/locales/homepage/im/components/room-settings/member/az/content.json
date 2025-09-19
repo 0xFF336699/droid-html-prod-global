@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Üzvləri axtarın"
+    },
+    "table": {
+      "columns": {
+        "name": "Üzv adı",
+        "userId": "İstifadəçi ID",
+        "actions": "işlətmək"
+      },
+      "pagination": {
+        "rowsPerPage": "Hər səhifədə satırların sayı"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Çıxmaq",
+        "ban": "Qadağan olunmuş"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Zibil üzvünü təsdiqləyin",
+        "content": "Üzvü otaqdan salmaq istədiyinizə əminsiniz?"
+      },
+      "ban": {
+        "title": "Qadağan olunmuş üzvlüyü təsdiqləyin",
+        "content": "Bu üzvü qadağan etmək istədiyinizə əminsiniz? Üzv qadağanın ardından otağa yenidən qoşula bilməyəcək."
+      },
+      "buttons": {
+        "cancel": "Ləğv etmək",
+        "confirm": "təsdiq etmək"
+      }
+    },
+    "toast": {
+      "loadError": "Üzv siyahını yükləyə bilmədi",
+      "kick": {
+        "success": "Üzvlər otaqdan qovuldu",
+        "error": "Üzvləri təpikləmək uğursuz oldu"
+      },
+      "ban": {
+        "success": "Üzvlər bloklandı",
+        "error": "Üzvləri blok edə bilmədi"
+      }
+    },
+    "invite": {
+      "button": "Üzvləri dəvət etmək",
+      "title": "Üzvləri otağa qoşulmağa dəvət edin",
+      "inputLabel": "Zəhmət olmasa Matrix İstifadəçi ID-ni daxil edin (məsələn @User: matrix.org)",
+      "confirm": "dəvət etmək",
+      "cancel": "Ləğv etmək",
+      "loading": "Dəvət ...",
+      "success": "Dəvət göndərildi!",
+      "error": "Dəvət uğursuz oldu, istifadəçi identifikatorunu və ya icazələrini yoxlayın"
+    },
+    "empty": "Hələ üzv yoxdur",
+    "loading": "Yükləmə ...",
+    "role": {
+      "owner": "Ev sahibi",
+      "admin": "idarəçi",
+      "moderator": "Birgə idarəetmə",
+      "user": "üzv"
+    }
+  }
+}

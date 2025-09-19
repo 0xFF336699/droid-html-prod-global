@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Tetap terhubung",
+        "helperText": "Jika Anda mengklik tautan Mulai, maka simpan tautannya. Ini membutuhkan perhatian bahwa tautan akan terhubung kembali secara terus menerus setelah terputus.",
+        "retryCount": "Jumlah penyambungan kembali"
+      },
+      "url": {
+        "name": "Url",
+        "helperText": "Link URL, misalnya ws: //192.168.0.2: 7001, atau wws: //example.com/path",
+        "error": "URL yang benar adalah URL yang dimulai dengan WS: // atau WWS: //"
+      }
+    },
+    "connectButton": {
+      "connect": "menghubungkan",
+      "disconnect": "Memutuskan",
+      "status": {
+        "connecting": "Menghubungkan ...",
+        "connected": "Terhubung",
+        "disconnecting": "Memutuskan hubungan ...",
+        "disconnected": "Tidak terhubung",
+        "waitRetry": "Menunggu koneksi kembali ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "naskah"
+  }
+}

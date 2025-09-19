@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Inloggning/register",
+    "signOut": "Logga ut",
+    "confirmContent": "Är du säker på att du vill logga ut?",
+    "confirmTitle": "antydan",
+    "confirm": "Säker",
+    "cancel": "Avboka",
+    "signoutOk": "Logga ut",
+    "loadingData": "Laddar användardata"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "用户信息",
+    "id": {
+      "name": "ID",
+      "copy": "复制",
+      "copied": "ID已复制"
+    },
+    "notLoggedIn": "未登录",
+    "name": "名称",
+    "avatar": "头像"
+  }
+}

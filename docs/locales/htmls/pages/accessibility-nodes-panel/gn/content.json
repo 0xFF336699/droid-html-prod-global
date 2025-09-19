@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Interfaz de accesibilidad rehegua jehecha .",
+    "howToUse": "Instrucciones ojeporúva .",
+    "howToUseTooltip": "Aguĩve oĩ umi atributo marcado ko nodo rehegua ikatúva ojeporu ojeporavo hag̃ua umi operación, haꞌeháicha ojepyso, oñemyenyhẽ jehaipyre, ha mbaꞌe.\n\nPe atributo valor ikatu ojeduplica pe página app-pe. Ejuhúramo umi duplicado, emoĩ ambue atributo jeporavorã eikuaa hag̃ua peteĩchapa.\n\nPeteĩ ñe’ẽ pytã ohechauka oje’e jeyha pe atributo valor, peteĩ ñe’ẽ hovy ohechauka pe atributo valor ha’eha peteĩnteva página jeheka ko’áĝaguápe, ha peteĩ ñe’ẽ morotĩ ohechauka ndaiporiha ñembojoja jey jey.",
+    "otherNodesSummary": "Ambue nodo ko tendápe .",
+    "moreNodes": "Ko’ápe oĩ pe oñembotuicháva.",
+    "nodeInfoDialogOkButton": "Editar funcionamiento ko nodo rehegua .",
+    "text": "Ñe’ẽ 2222 ."
+  }
+}

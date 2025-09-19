@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Bleifelst du",
+        "helperText": "Wann Dir op de Startlink klickt, haalt de Link. Dëst erfuerdert datt de Link weiderhin kontinuéierlech gëtt nodeems et getrennt gëtt.",
+        "retryCount": "Zuel vun de Recononcongen"
+      },
+      "url": {
+        "name": "D'URL",
+        "helperText": "LINK URL, zum Beispill WS: //192.168.0.2: 7001, oder wows: //examplat.com/path",
+        "error": "Déi richteg URL ass eng URL déi ufänkt mat WS: // oder wows: //"
+      }
+    },
+    "connectButton": {
+      "connect": "Connecten",
+      "disconnect": "Trennen",
+      "status": {
+        "connecting": "Verbindung mat ...",
+        "connected": "Bedstéiert",
+        "disconnecting": "Trennt detektéieren ...",
+        "disconnected": "Net bäidroen",
+        "waitRetry": "Waart op Erhuelung ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "Vertmbeier"
+  }
+}

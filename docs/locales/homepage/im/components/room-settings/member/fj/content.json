@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Vakasaqara na lewe ni Lotu."
+    },
+    "table": {
+      "columns": {
+        "name": "Yara ni mataka.",
+        "userId": "Taroga dina",
+        "actions": "qarava"
+      },
+      "pagination": {
+        "rowsPerPage": "Keba ni tubu ena dua na tabana ."
+      },
+      "avatar": {
+        "alt": "r"
+      },
+      "actions": {
+        "kick": "totoka",
+        "ban": "Me"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Vakadeitaka na lewe ni matanitu .",
+        "content": "O sa vakadeitaka beka ni o vinakata me koketi na lewenilotu mai na rumu?"
+      },
+      "ban": {
+        "title": "Veivakadeitaki ni sa vakatabui na lewenilotu .",
+        "content": "O sa vakadeitaka li ni o vinakata me vakatabui na lewenilotu oqo? Ena sega ni rawa ni sauma lesu tale na lewenilotu na rumu ni oti na vakatatabu."
+      },
+      "buttons": {
+        "cancel": "Biuta laivi",
+        "confirm": "vakadeitaka"
+      }
+    },
+    "toast": {
+      "loadError": "Filibile me ra lisitaka na lewenilotu .",
+      "kick": {
+        "success": "Era sa mokoti ira tani na lewenilotu mai na rumu .",
+        "error": "Era a sega ni rawata na lewenilotu era tiko e liu na lewenilotu era tiko ena gauna oqo ."
+      },
+      "ban": {
+        "success": "batabata",
+        "error": "Mo ni lesu yani ki na nodra tarovi na lewe ni Lotu ."
+      }
+    },
+    "invite": {
+      "button": "Sureti ira na lewe",
+      "title": "Sureti ira na lewenilotu me ra lewena na rumu .",
+      "inputLabel": "Yalovinaka ni curu ki na Matrix vakayagataki na ID (me vaka na @user:matrix.org)",
+      "confirm": "sureti ira",
+      "cancel": "Biuta laivi",
+      "loading": "itukutuku",
+      "success": "E vakauta tiko ga na itukutuku ni veivuke!",
+      "error": "A sega ni yaco na veivuke, yalovinaka raica na vakayagataki ID se veivakadonui ."
+    },
+    "empty": "Sega ni tiko na lewenilotu",
+    "loading": "kakana",
+    "role": {
+      "owner": "Vagasa",
+      "admin": "raraba",
+      "moderator": "Kena ikuri",
+      "user": "lewenilotu"
+    }
+  }
+}

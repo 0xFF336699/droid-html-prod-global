@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "يسجل",
+    "phoneNumber": "رقم التليفون",
+    "phoneNumberPlaceholder": "الرجاء إدخال رقم هاتفك المحمول",
+    "verificationCode": "رمز التحقق",
+    "verificationCodePlaceholder": "الرجاء إدخال رمز التحقق",
+    "getVerificationCode": "احصل على رمز التحقق",
+    "countdown": "{{Seconds}} ثانية للمحاولة مرة أخرى",
+    "register": "يسجل",
+    "errors": {
+      "phoneRequired": "الرجاء إدخال رقم هاتفك المحمول",
+      "phoneInvalid": "تنسيق رقم الهاتف المحمول غير صحيح",
+      "codeRequired": "الرجاء إدخال رمز التحقق",
+      "codeInvalid": "تنسيق رمز التحقق غير صحيح",
+      "requestFailed": "فشل الطلب",
+      "verificationFailed": "فشل اكتساب رمز التحقق",
+      "loginFailed": "فشل تسجيل الدخول"
+    },
+    "success": {
+      "verificationCodeSent": "تم إرسال رمز التحقق",
+      "registerSuccess": "مسجل بنجاح"
+    }
+  }
+}

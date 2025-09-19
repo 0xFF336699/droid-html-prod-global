@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "رد ڪري",
+    "confirm": "پڪ ڪر",
+    "title": "اشارو",
+    "content": "ڇا توهان کي پڪ آهي ته توهان اهو ڪرڻ چاهيو ٿا؟"
+  },
+  "EditableText": {
+    "cancel": "رد ڪري",
+    "save": "سڪرو",
+    "title": "ايڊڙيو ٿي"
+  }
+}

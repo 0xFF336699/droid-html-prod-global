@@ -1,0 +1,9 @@
+{
+  "MemberDetailContent": {
+    "title": "Detalji člana",
+    "nickname": "Nadimak",
+    "role": "Uloga",
+    "kick": "Izbiti",
+    "ban": "Zabranjen"
+  }
+}

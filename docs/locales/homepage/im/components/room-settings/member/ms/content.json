@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Cari ahli"
+    },
+    "table": {
+      "columns": {
+        "name": "Nama Ahli",
+        "userId": "ID Pengguna",
+        "actions": "mengendalikan"
+      },
+      "pagination": {
+        "rowsPerPage": "Bilangan baris setiap halaman"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Menendang keluar",
+        "ban": "Dilarang"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Sahkan ahli menendang",
+        "content": "Adakah anda pasti mahu menendang ahli keluar dari bilik?"
+      },
+      "ban": {
+        "title": "Sahkan keahlian yang dilarang",
+        "content": "Adakah anda pasti mahu melarang ahli ini? Ahli itu tidak akan dapat menyertai semula bilik selepas larangan itu."
+      },
+      "buttons": {
+        "cancel": "Batalkan",
+        "confirm": "mengesahkan"
+      }
+    },
+    "toast": {
+      "loadError": "Gagal memuatkan senarai ahli",
+      "kick": {
+        "success": "Ahli telah ditendang keluar dari bilik",
+        "error": "Menendang ahli gagal"
+      },
+      "ban": {
+        "success": "Ahli disekat",
+        "error": "Gagal menyekat ahli"
+      }
+    },
+    "invite": {
+      "button": "Menjemput ahli",
+      "title": "Jemput ahli untuk menyertai bilik",
+      "inputLabel": "Sila masukkan ID Pengguna Matrix (seperti @user: matriks.org)",
+      "confirm": "jemput",
+      "cancel": "Batalkan",
+      "loading": "Menjemput ...",
+      "success": "Jemputan dihantar!",
+      "error": "Jemputan gagal, sila periksa ID Pengguna atau Kebenaran"
+    },
+    "empty": "Belum ada ahli",
+    "loading": "Memuatkan ...",
+    "role": {
+      "owner": "Pemilik rumah",
+      "admin": "pentadbir",
+      "moderator": "Pengurusan bersama",
+      "user": "ahli"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Mẫu URL",
+    "full": {
+      "url": "URL thị trường. Các ký tự đã nhập sẽ được tải dưới dạng URL, vui lòng cẩn thận.",
+      "html": "Nội dung HTML thị trường. Các ký tự đã nhập sẽ được thực thi ngay lập tức dưới dạng tập lệnh, xin vui lòng thận trọng.",
+      "come": "Hãy đến với tôi",
+      "myMarketName": "Tên thị trường",
+      "stroll": "Hãy đi dạo"
+    },
+    "item": {
+      "url": "URL thẻ thị trường. Các ký tự đã nhập sẽ được tải dưới dạng URL, vui lòng cẩn thận.",
+      "html": "Nội dung HTML thị trường. Các ký tự đã nhập sẽ được thực thi ngay lập tức dưới dạng tập lệnh, xin vui lòng thận trọng.",
+      "come": "Hãy đến với tôi",
+      "myMarketName": "Tên thị trường",
+      "stroll": "Hãy đi dạo"
+    }
+  }
+}

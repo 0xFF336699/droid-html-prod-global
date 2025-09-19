@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Vyhľadajte členov"
+    },
+    "table": {
+      "columns": {
+        "name": "Meno",
+        "userId": "ID používateľa",
+        "actions": "prevádzkovať"
+      },
+      "pagination": {
+        "rowsPerPage": "Počet riadkov na stránku"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Vyraziť",
+        "ban": "Zakázaný"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Potvrďte kopajúceho člena",
+        "content": "Ste si istí, že chcete vyhodiť člena z miestnosti?"
+      },
+      "ban": {
+        "title": "Potvrďte zakázané členstvo",
+        "content": "Ste si istí, že chcete zakázať tohto člena? Člen sa nebude môcť znova pripojiť k miestnosti po zákaze."
+      },
+      "buttons": {
+        "cancel": "Zrušiť",
+        "confirm": "potvrdiť"
+      }
+    },
+    "toast": {
+      "loadError": "Nepodarilo sa načítať zoznam členov",
+      "kick": {
+        "success": "Členovia boli vyhodení z miestnosti",
+        "error": "Vyhodenie členov zlyhalo"
+      },
+      "ban": {
+        "success": "Členovia zablokovaní",
+        "error": "Nepodarilo sa zablokovať členov"
+      }
+    },
+    "invite": {
+      "button": "Pozvať členov",
+      "title": "Pozvite členov, aby sa pripojili k miestnosti",
+      "inputLabel": "Zadajte ID používateľa Matrix (napríklad @user: matrix.org)",
+      "confirm": "pozvať",
+      "cancel": "Zrušiť",
+      "loading": "Pozývanie ...",
+      "success": "Odoslané pozvánky!",
+      "error": "Pozvánka zlyhala, skontrolujte ID používateľa alebo povolenia"
+    },
+    "empty": "Zatiaľ žiadny člen",
+    "loading": "načítanie ...",
+    "role": {
+      "owner": "Majiteľ domu",
+      "admin": "správca",
+      "moderator": "Spolu riadenie",
+      "user": "člen"
+    }
+  }
+}

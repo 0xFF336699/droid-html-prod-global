@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Ievadot norādīto lapu",
+    "pnLabel": "Komplekta nosaukums:",
+    "anLabel": "Darbības nosaukums:",
+    "cnLabel": "Klases nosaukums:",
+    "changeBtnLabel": "aizstāt"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Ievadot norādīto lapu",
+    "pnLabel": "Komplekta nosaukums:",
+    "anLabel": "Darbības nosaukums:",
+    "cnLabel": "Klases nosaukums:",
+    "changeBtnLabel": "aizstāt"
+  }
+}

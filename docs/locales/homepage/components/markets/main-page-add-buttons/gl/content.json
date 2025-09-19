@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Engadir a",
+    "sub": {
+      "addScriptByUrl": "Engade guións mediante URL",
+      "addScriptByText": "Engade guións a través do texto",
+      "addMarket": "Engade o mercado vía URL",
+      "addMarketByText": "Engade o mercado a través do texto"
+    }
+  }
+}

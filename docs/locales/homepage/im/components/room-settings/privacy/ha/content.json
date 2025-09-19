@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Dakin jama'a",
+        "description": "Wasu masu amfani za su iya neman wasu masu amfani"
+      },
+      "allowGuestJoin": {
+        "label": "Ba da damar baƙi su shiga",
+        "description": "Bada izinin masu amfani da ba su da rajista su shiga cikin ɗakin a matsayin baƙi"
+      },
+      "isEncrypted": {
+        "label": "Kunna ENTER-TOPRY ENTRAPLENCCKPPENCCENCKPENCKPENCCENCCENCKPENCKPENCKPENCCENCCKPPENCE",
+        "description": "Lokacin da aka kunna, saƙonni a cikin ɗakin za a ɓoye ƙarshen-zuwa-ƙarshen",
+        "alert": "An sa ƙarshen ƙarshen ɓoye a cikin ɗakin, kuma wannan saitin ba za a kashe ba."
+      },
+      "submit": "Ajiye Saitin Sirri"
+    },
+    "toast": {
+      "success": "An sabunta Saitunan Sirri",
+      "error": "Ba a yi nasarar sabunta saitin sirri ba"
+    }
+  }
+}

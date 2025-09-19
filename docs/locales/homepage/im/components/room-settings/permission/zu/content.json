@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Ileveli yemvume edingekayo ukuthumela umyalezo",
+        "tooltip": "I-0 isho ukuthi wonke amalungu angathumela imiyalezo, kanti iningi lenombolo lisho ukuthi izimvume eziphakeme ziyadingeka"
+      },
+      "invite": {
+        "label": "Ileveli yemvume edingekayo ukumema amalungu amasha",
+        "tooltip": "Setha ukuthi ngubani ongamema amalungu amasha egumbini"
+      },
+      "kick": {
+        "label": "Ukukhahlela izinga lemvume edingekayo",
+        "tooltip": "Setha ubani ongakhipha amalungu egumbi"
+      },
+      "ban": {
+        "label": "Izinga lemvume elidingekayo ekuvinjelweni kwamalungu",
+        "tooltip": "Setha ukuthi ngubani ongavimba amalungu egumbi"
+      },
+      "roomSettings": {
+        "label": "Shintsha izinga lemvume edingekayo yezilungiselelo zekamelo",
+        "tooltip": "Setha ubani ongaguqula izilungiselelo zekamelo"
+      },
+      "submit": "Gcina izilungiselelo zemvume"
+    },
+    "description": "Imvume Yezinga lemvume: 0-100, inani elikhudlwana lisho izimvume eziphakeme ziyadingeka",
+    "toast": {
+      "success": "Izilungiselelo zemvume zivuselelwe",
+      "error": "Yehlulekile ukubuyekeza izilungiselelo zemvume"
+    }
+  }
+}

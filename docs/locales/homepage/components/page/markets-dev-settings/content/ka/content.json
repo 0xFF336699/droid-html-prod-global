@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "იყავი დაკავშირებული",
+        "helperText": "თუ დააჭირეთ საწყის ბმულს, მაშინ შეინახეთ ბმული. ეს მოითხოვს ყურადღებას, რომ ბმული მუდმივად დაუკავშირდეს მას გათიშვის შემდეგ.",
+        "retryCount": "რეკონსტრუქციის რაოდენობა"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "ბმული URL, მაგალითად ws: //192.168.0.2: 7001, ან wws: //example.com/path",
+        "error": "სწორი URL არის URL, რომელიც იწყება WS: // ან wws: //"
+      }
+    },
+    "connectButton": {
+      "connect": "დაკავშირება",
+      "disconnect": "გათიშვა",
+      "status": {
+        "connecting": "დაკავშირება ...",
+        "connected": "დაკავშირებული",
+        "disconnecting": "გათიშვა ...",
+        "disconnected": "არ არის დაკავშირებული",
+        "waitRetry": "ხელახლა დაკავშირებას ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "ხელწერა"
+  }
+}

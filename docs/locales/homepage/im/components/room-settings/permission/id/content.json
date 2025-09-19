@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Tingkat izin yang diperlukan untuk mengirim pesan",
+        "tooltip": "0 berarti bahwa semua anggota dapat mengirim pesan, dan semakin besar angkanya berarti izin yang lebih tinggi diperlukan"
+      },
+      "invite": {
+        "label": "Tingkat izin yang diperlukan untuk mengundang anggota baru",
+        "tooltip": "Set yang dapat mengundang anggota baru ke kamar"
+      },
+      "kick": {
+        "label": "Keluarkan tingkat izin yang diperlukan",
+        "tooltip": "Set siapa yang bisa menendang anggota kamar"
+      },
+      "ban": {
+        "label": "Tingkat izin yang diperlukan untuk memblokir anggota",
+        "tooltip": "Set siapa yang bisa memblokir anggota kamar"
+      },
+      "roomSettings": {
+        "label": "Ubah tingkat izin yang diperlukan dari pengaturan kamar",
+        "tooltip": "Set yang dapat memodifikasi pengaturan kamar"
+      },
+      "submit": "Simpan Pengaturan Izin"
+    },
+    "description": "Kisaran Tingkat Izin: 0-100, semakin besar jumlahnya berarti izin yang lebih tinggi diperlukan",
+    "toast": {
+      "success": "Pengaturan izin telah diperbarui",
+      "error": "Gagal memperbarui pengaturan izin"
+    }
+  }
+}

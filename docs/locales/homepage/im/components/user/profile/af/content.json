@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Gebruikersinligting",
+    "id": {
+      "name": "Id",
+      "copy": "kopieër",
+      "copied": "ID is gekopieër"
+    },
+    "notLoggedIn": "Nie aangemeld nie",
+    "name": "naam",
+    "avatar": "avatar"
+  }
+}

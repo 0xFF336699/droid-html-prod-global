@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Igama lekamelo"
+      },
+      "topic": {
+        "label": "Isingeniso segumbi"
+      },
+      "avatar": {
+        "alt": "Igumbi Avatar"
+      },
+      "submit": "Gcina Izilungiselelo"
+    },
+    "toast": {
+      "success": "Izilungiselelo ezivuselelwe",
+      "error": {
+        "default": "Ukuvuselelwa kwezilungiselelo zehlulekile",
+        "avatar": "Yehlulekile ukubuyekeza i-avatar"
+      }
+    }
+  }
+}

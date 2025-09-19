@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Rechercher des membres"
+    },
+    "table": {
+      "columns": {
+        "name": "Nom de membre",
+        "userId": "ID de l'utilisateur",
+        "actions": "fonctionner"
+      },
+      "pagination": {
+        "rowsPerPage": "Nombre de lignes par page"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Faire sortir",
+        "ban": "Interdit"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Confirmez le membre du coup de pied",
+        "content": "Êtes-vous sûr de vouloir expulser le membre de la pièce?"
+      },
+      "ban": {
+        "title": "Confirmer l'adhésion interdite",
+        "content": "Êtes-vous sûr de vouloir interdire ce membre? Le membre ne pourra pas rejoindre la salle après l'interdiction."
+      },
+      "buttons": {
+        "cancel": "Annuler",
+        "confirm": "confirmer"
+      }
+    },
+    "toast": {
+      "loadError": "Impossible de charger la liste des membres",
+      "kick": {
+        "success": "Les membres ont été expulsés de la pièce",
+        "error": "Les membres ont échoué"
+      },
+      "ban": {
+        "success": "Les membres bloqués",
+        "error": "Échec de bloquer les membres"
+      }
+    },
+    "invite": {
+      "button": "Inviter les membres",
+      "title": "Invitez les membres à rejoindre la salle",
+      "inputLabel": "Veuillez saisir l'ID utilisateur Matrix (tel que @user: matrix.org)",
+      "confirm": "inviter",
+      "cancel": "Annuler",
+      "loading": "Attrayant...",
+      "success": "Invitation envoyée!",
+      "error": "L'invitation a échoué, veuillez vérifier l'ID utilisateur ou les autorisations"
+    },
+    "empty": "Aucun membre encore",
+    "loading": "chargement...",
+    "role": {
+      "owner": "Propriétaire",
+      "admin": "administrateur",
+      "moderator": "Cogestion",
+      "user": "membre"
+    }
+  }
+}

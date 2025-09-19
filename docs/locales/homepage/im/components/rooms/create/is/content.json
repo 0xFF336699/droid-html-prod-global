@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Búðu til herbergi"
+    },
+    "dialog": {
+      "title": "Búðu til nýtt herbergi",
+      "form": {
+        "userId": {
+          "label": "Notandakenni",
+          "placeholder": "Sláðu inn notandakenni (til dæmis: @User: dæmi.com)",
+          "error": {
+            "required": "Notandakenni getur ekki verið tómt",
+            "invalid": "Ógilt notendakenni snið"
+          }
+        },
+        "roomName": {
+          "label": "Herbergisnafn (valfrjálst)",
+          "placeholder": "Sláðu inn herbergisnafn"
+        },
+        "isEncrypted": {
+          "label": "Virkja dulkóðun frá enda til enda"
+        },
+        "isDirect": {
+          "label": "Bein skilaboð"
+        },
+        "topic": {
+          "label": "Þema (valfrjálst)",
+          "placeholder": "Sláðu inn þema herbergisins"
+        }
+      },
+      "actions": {
+        "cancel": "Hætta við",
+        "create": "Búa til"
+      },
+      "success": "Herbergissköpun með góðum árangri",
+      "error": "Villa kom upp við að búa til herbergi: {villa}"
+    }
+  }
+}

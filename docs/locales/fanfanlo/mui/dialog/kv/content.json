@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Киритӧм",
+    "confirm": "Дерт",
+    "title": "гаравны",
+    "content": "Ті ёна кӧсъянныд тадзисӧ?"
+  },
+  "EditableText": {
+    "cancel": "Киритӧм",
+    "save": "видзны",
+    "title": "бурмӧдны"
+  }
+}

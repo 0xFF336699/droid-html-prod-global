@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "Qo'shimchalarni qo'shing",
+    "emoji": "Ifroni tanlang",
+    "placeholder": "Xabarni kiriting ...",
+    "sendLocation": "Joylashuvni yuborish",
+    "send": "yuborish"
+  }
+}

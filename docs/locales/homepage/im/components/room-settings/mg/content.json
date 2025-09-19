@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Toerana misy efitrano",
+    "tabs": {
+      "basic": "Fizarana fototra",
+      "permission": "Fahazoan-dàlana",
+      "privacy": "Fiovana momba ny tsiambaratelo",
+      "member": "Fitantanana mpikambana"
+    },
+    "loadError": "Tsy nahavita nampiditra ny toeran'ny efitrano",
+    "leaveRoom": {
+      "button": "Mivoaha ny efitrano",
+      "confirm": "Azonao antoka ve fa te hivoaka ny efitrano ianao? Rehefa mivoaka ianao dia tsy afaka hanohy handray hafatra avy amin'ity efitrano ity.",
+      "success": "Namoaka tamim-pahombiazana ny efitrano",
+      "error": "Tsy nahavita nivoaka ny efitrano, andramo manandrana indray"
+    }
+  }
+}

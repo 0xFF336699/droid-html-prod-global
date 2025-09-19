@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Leyfisstig sem þarf til að senda skilaboð",
+        "tooltip": "0 þýðir að allir meðlimir geta sent skilaboð og því stærra þýðir fjöldinn að hærri heimildir eru nauðsynlegar"
+      },
+      "invite": {
+        "label": "Leyfisstig sem þarf til að bjóða nýjum meðlimum",
+        "tooltip": "Settu hver getur boðið nýjum meðlimum í herbergið"
+      },
+      "kick": {
+        "label": "Sparkaðu út nauðsynlegu leyfisstigi",
+        "tooltip": "Settu hverjir geta sparkað út herbergismeðlimunum"
+      },
+      "ban": {
+        "label": "Leyfisstig sem krafist er til að hindra félaga",
+        "tooltip": "Settu hverjir geta hindrað herbergi meðlimi"
+      },
+      "roomSettings": {
+        "label": "Breyttu nauðsynlegu leyfisstigi herbergisstillinga",
+        "tooltip": "Settu hverjir geta breytt herbergisstillingunum"
+      },
+      "submit": "Vistaðu leyfisstillingar"
+    },
+    "description": "Leyfisstig svið: 0-100, því stærra þýðir að hærri heimildir eru nauðsynlegar",
+    "toast": {
+      "success": "Leyfisstillingar hafa verið uppfærðar",
+      "error": "Ekki tókst að uppfæra leyfisstillingar"
+    }
+  }
+}

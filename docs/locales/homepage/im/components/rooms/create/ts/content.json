@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Endla kamara ."
+    },
+    "dialog": {
+      "title": "Endla kamara lerintshwa .",
+      "form": {
+        "userId": {
+          "label": "ID ya mutirhisi .",
+          "placeholder": "Nghenisa ID ya mutirhisi (xikombiso: @user:example.com)",
+          "error": {
+            "required": "ID ya mutirhisi a yi nge vi na nchumu .",
+            "invalid": "Fomati ya ID ya Mutirhisi leyi nga tirhiki ."
+          }
+        },
+        "roomName": {
+          "label": "Vito ra kamara (hi ku hlawula) .",
+          "placeholder": "Nghenisa vito ra kamara ."
+        },
+        "isEncrypted": {
+          "label": "Endla leswaku ku va ni ku fihla ka makumu ku ya eka makumu ."
+        },
+        "isDirect": {
+          "label": "Rungula ro kongoma ."
+        },
+        "topic": {
+          "label": "Nhlokomhaka (ya ku hlawula) .",
+          "placeholder": "Nghena eka theme ra kamara ."
+        }
+      },
+      "actions": {
+        "cancel": "Khansela",
+        "create": "vumba"
+      },
+      "success": "Ku tumbuluxiwa ka makamara hi ndlela leyi humelelaka .",
+      "error": "Xihoxo xi humelerile loko ku ri karhi ku endliwa kamara: {Error}"
+    }
+  }
+}

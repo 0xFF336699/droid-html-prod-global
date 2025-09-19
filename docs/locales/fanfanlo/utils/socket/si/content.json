@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "සම්බන්ධ කිරීම ...",
+    "connected": "සම්බන්ධයි",
+    "disconnecting": "විසන්ධි කිරීම ...",
+    "disconnected": "සම්බන්ධ නොවේ",
+    "waitRetry": "නැවත සම්බන්ධ වීම සඳහා බලා සිටීම ..."
+  }
+}

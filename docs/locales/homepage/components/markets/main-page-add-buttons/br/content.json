@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Ouzhpennañ da",
+    "sub": {
+      "addScriptByUrl": "Ouzhpennañ skriptoù dre URL",
+      "addScriptByText": "Ouzhpennañ skriptoù dre destenn",
+      "addMarket": "Ouzhpennañ ar marc'had dre URL",
+      "addMarketByText": "Ouzhpennañ ar marc'had dre destenn"
+    }
+  }
+}

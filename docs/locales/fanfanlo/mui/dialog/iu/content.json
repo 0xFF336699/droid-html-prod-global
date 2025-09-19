@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "ᖁᔭᓈᕐᓂᖅ",
+    "confirm": "ᓱᓕᓂᖅ",
+    "title": "ᐱᓱᒃᑐᖅ",
+    "content": "ᓇᓗᓇᙱᑦᑐᖅ ᑕᐃᒪᐃᒍᒪᕕᑦ?"
+  },
+  "EditableText": {
+    "cancel": "ᖁᔭᓈᕐᓂᖅ",
+    "save": "ᐱᐅᓕᒃᖠᓂᖅ",
+    "title": "ᐋᖅᑭᒋᐊᖅᑕᐅᔪᖅ"
+  }
+}

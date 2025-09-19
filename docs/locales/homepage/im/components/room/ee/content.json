@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Wɔ ɖeka kple xɔa .",
+      "inviteOnly": "Esia nye ame ŋutɔ ƒe xɔ eye wòbia amekpekpewo be woawɔ ɖeka .",
+      "knockRequired": "Xɔ sia bia be woawɔ dɔ le eme hafi woate ŋu awɔ ɖeka kplii. Zi dzesi si le ete dzi be nàɖo join biabia la ɖa .",
+      "canJoin": "Esia nye dutoƒoxɔ, àte ŋu awɔ ɖeka tẽ .",
+      "sendRequest": "Ðo kpe ɖe eŋu ƒe biabiawo .",
+      "join": "Wɔ ɖeka kple xɔa ."
+    },
+    "JoinRequestList": {
+      "noRequests": "No joining request haɖe o .",
+      "accept": "lɔ̃ ɖe edzi",
+      "reject": "gbe"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Ŋlɔ gbedasi aɖe ɖe eme..."
+  },
+  "MessageList": {
+    "noMessages": "Gbedasi aɖeke meli haɖe o, ɖo gbedasi gbãtɔ ɖa be nàdze dzeɖoɖoa gɔme!",
+    "loading": "Agbatsɔtsɔ...",
+    "error": {
+      "loadFailed": "Do kpo gbedasi la tsɔtsɔ de eme .",
+      "retry": "Gate kpɔ ake ."
+    },
+    "loadingHistory": "Agbatsɔtsɔ ŋutinya...",
+    "historyEnd": "Nya gbãtɔ si wogblɔ la va ɖo ."
+  },
+  "MessageVirturalList": {
+    "noMessages": "Gbedasi aɖeke meli haɖe o, ɖo gbedasi gbãtɔ ɖa be nàdze dzeɖoɖoa gɔme!"
+  },
+  "RoomContent": {
+    "title": "Xɔ"
+  },
+  "RoomHeader": {
+    "title": "Xɔ",
+    "unnamedRoom": "Xɔ si ŋkɔ womeyɔ o .",
+    "members": "Hamea me tɔ .",
+    "settings": "ɖo anyi",
+    "leaveRoom": "Do le xɔa me .",
+    "joinRoom": "Wɔ ɖeka kple xɔa ."
+  },
+  "RoomMembers": {
+    "title": "Xɔa me tɔwo .",
+    "online": "Le kadzi",
+    "offline": "Offline .",
+    "join": "Wɔ ɖeka kple .",
+    "invite": "kpe",
+    "leave": "aŋgba",
+    "ban": "Woxe mɔ ɖe enu .",
+    "noMembers": "Hamevi aɖeke mele eme haɖe o .",
+    "loading": "Agbatsɔtsɔ..."
+  }
+}

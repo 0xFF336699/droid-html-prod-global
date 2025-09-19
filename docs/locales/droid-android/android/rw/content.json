@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Ubu buryo burashobora guhamagarwa gusa kuri Android",
+      "noMethod": "Ubu buryo ntibubaho"
+    }
+  }
+}

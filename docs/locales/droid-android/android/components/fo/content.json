@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "strika",
+    "ok": "Vísur",
+    "checkBoxText": "Far beinleiðis fyri at loyva innan ein hálvan mánað og sýn ikki longur hetta vindeygað",
+    "content": "Henda funkan krevur hjálparfunktiónsloyvi. Um tú vilt loyva, so trýst á [OK]. Um tú vilt gevast, so trýst á [Avlýs]",
+    "title": "Umsókn"
+  },
+  "floatPermission": {
+    "cancel": "strika",
+    "ok": "Vísur",
+    "checkBoxText": "Far beinleiðis fyri at loyva innan ein hálvan mánað og sýn ikki longur hetta vindeygað",
+    "content": "Hendan funkan krevur heimild til flótandi vindeygafunktiónina. Um tú vilt loyva, so trýst á [OK]. Um tú vilt gevast, so trýst á [Avlýs]",
+    "title": "Umsókn"
+  }
+}

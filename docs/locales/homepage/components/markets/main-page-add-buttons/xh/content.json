@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Faka kwi",
+    "sub": {
+      "addScriptByUrl": "Yongeza izikripthi nge-URL",
+      "addScriptByText": "Yongeza izikripthi ngesicatshulwa",
+      "addMarket": "Yongeza imakethi nge-URL",
+      "addMarketByText": "Yongeza imakethi ngesicatshulwa"
+    }
+  }
+}

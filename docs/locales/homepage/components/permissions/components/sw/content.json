@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Imeidhinishwa",
+    "notPass": "Isiyoidhinishwa",
+    "danger": "Hatari",
+    "setting": "Sanidi"
+  }
+}

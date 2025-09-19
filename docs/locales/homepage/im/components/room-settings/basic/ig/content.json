@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Aha ụlọ"
+      },
+      "topic": {
+        "label": "Mmeghe ime ụlọ"
+      },
+      "avatar": {
+        "alt": "Ime ụlọ"
+      },
+      "submit": "Chekwaa Ntọala"
+    },
+    "toast": {
+      "success": "Ntọala emelitere",
+      "error": {
+        "default": "Mmelite Ntọala",
+        "avatar": "Emeghị ka emelite avatar"
+      }
+    }
+  }
+}

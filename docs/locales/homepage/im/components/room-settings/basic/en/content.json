@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Room name"
+      },
+      "topic": {
+        "label": "Room Introduction"
+      },
+      "avatar": {
+        "alt": "Room avatar"
+      },
+      "submit": "Save settings"
+    },
+    "toast": {
+      "success": "Settings updated",
+      "error": {
+        "default": "Update settings failed",
+        "avatar": "Failed to update avatar"
+      }
+    }
+  }
+}

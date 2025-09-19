@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Room migaq"
+      },
+      "topic": {
+        "label": "Room culma"
+      },
+      "avatar": {
+        "alt": "room avatar"
+      },
+      "submit": "farmo"
+    },
+    "toast": {
+      "success": "asqussubiyya",
+      "error": {
+        "default": "uqusbus guddaaqa radeh",
+        "avatar": "avatar yaqusbuseenim"
+      }
+    }
+  }
+}

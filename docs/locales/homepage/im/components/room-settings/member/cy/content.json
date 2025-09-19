@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Chwilio am aelodau"
+    },
+    "table": {
+      "columns": {
+        "name": "Enw Aelod",
+        "userId": "ID Defnyddiwr",
+        "actions": "gweithreda ’"
+      },
+      "pagination": {
+        "rowsPerPage": "Nifer y rhesi ar bob tudalen"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Giciodd",
+        "ban": "Gwaharddedig"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Cadarnhewch yr aelod cicio",
+        "content": "Ydych chi'n siŵr eich bod chi am gicio'r aelod allan o'r ystafell?"
+      },
+      "ban": {
+        "title": "Cadarnhewch yr aelodaeth waharddedig",
+        "content": "Ydych chi'n siŵr eich bod chi am wahardd yr aelod hwn? Ni fydd yr aelod yn gallu ailymuno â'r ystafell ar ôl y gwaharddiad."
+      },
+      "buttons": {
+        "cancel": "Chansliff",
+        "confirm": "chadarnhasoch"
+      }
+    },
+    "toast": {
+      "loadError": "Wedi methu â llwytho rhestr aelodau",
+      "kick": {
+        "success": "Mae'r aelodau wedi cael eu cicio allan o'r ystafell",
+        "error": "Methodd yr aelodau allan"
+      },
+      "ban": {
+        "success": "Aelodau wedi'u blocio",
+        "error": "Wedi methu â rhwystro aelodau"
+      }
+    },
+    "invite": {
+      "button": "Gwahodd Aelodau",
+      "title": "Gwahodd aelodau i ymuno â'r ystafell",
+      "inputLabel": "Rhowch ID Defnyddiwr Matrics (fel @user: matrix.org)",
+      "confirm": "wahoddet",
+      "cancel": "Chansliff",
+      "loading": "Gwahodd ...",
+      "success": "Gwahoddiad wedi'i anfon!",
+      "error": "Methodd y gwahoddiad, gwiriwch ID y defnyddiwr neu ganiatâd"
+    },
+    "empty": "Dim Aelod eto",
+    "loading": "Llwytho ...",
+    "role": {
+      "owner": "Berchennog",
+      "admin": "gweinyddwr",
+      "moderator": "Gyd-reoli",
+      "user": "aelod"
+    }
+  }
+}

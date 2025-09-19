@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Tlhama phaposi"
+    },
+    "dialog": {
+      "title": "Tlhama phaposi e ntšhwa",
+      "form": {
+        "userId": {
+          "label": "ID ya modirisi",
+          "placeholder": "Tsenya ID ya modirisi (ka sekai: @user:sekai.com)",
+          "error": {
+            "required": "ID ya modirisi ga e ka ke ya bo e le lolea",
+            "invalid": "Fomete ya ID ya modirisi e e sa direng"
+          }
+        },
+        "roomName": {
+          "label": "Leina la phaposi (ga go tlhokege)",
+          "placeholder": "Tsenya leina la phaposi"
+        },
+        "isEncrypted": {
+          "label": "Kgontsha go tsenya khoutu kwa bofelong go ya kwa bofelong"
+        },
+        "isDirect": {
+          "label": "Molaetsa o o tlhamaletseng"
+        },
+        "topic": {
+          "label": "Setlhogo (ga go tlhokege)",
+          "placeholder": "Tsenya setlhogo sa kamore"
+        }
+      },
+      "actions": {
+        "cancel": "Phimola",
+        "create": "bopa"
+      },
+      "success": "Popo ya kamore kamore",
+      "error": "Go ne ga nna le phoso fa o ntse o tlhama phaposi: {phoso}"
+    }
+  }
+}

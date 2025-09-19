@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "ምትእስሳር ጽናሕ",
+        "helperText": "ኣብቲ Start Link እንተ ጠዊቕካ፡ ሽዑ ነቲ ሊንክ ኣቐምጦ። እዚ ድማ እቲ ሊንክ ምስተቋረጸ ብቐጻሊ ዳግማይ ከም ዝራኸብ ኣቓልቦ ይሓትት።",
+        "retryCount": "ብዝሒ ዳግመ ምትእስሳር"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "URL ንኣብነት ws://192.168.0.2:7001፣ ወይ wws://example.com/path",
+        "error": "እቲ ቅኑዕ URL ብWS:// ወይ WWS:// ዝጅምር URL እዩ።"
+      }
+    },
+    "connectButton": {
+      "connect": "ምርኻብ",
+      "disconnect": "ምቁራጽ",
+      "status": {
+        "connecting": "ምትእስሳር...",
+        "connected": "ዝተኣሳሰር",
+        "disconnecting": "ምቁራጽ...",
+        "disconnected": "ዘይተኣሳሰር",
+        "waitRetry": "ዳግማይ ምትእስሳር ምጽባይ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "ፅሑፍ"
+  }
+}

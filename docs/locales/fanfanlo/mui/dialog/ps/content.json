@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "لغوه کول",
+    "confirm": "ډاډه یم",
+    "title": "اشاره",
+    "content": "ایا ته باوري یې چې دا کار کول غواړې؟"
+  },
+  "EditableText": {
+    "cancel": "لغوه کول",
+    "save": "خوندي کړئ",
+    "title": "سمون"
+  }
+}

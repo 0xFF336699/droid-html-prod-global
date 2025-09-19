@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Provedení uzlu",
+    "changeBtnLabel": "nahradit",
+    "showNodeAllProperties": "Zobrazit všechny vlastnosti",
+    "wait": {
+      "time": "Čekací doba",
+      "interval": "Interval čekání",
+      "invisible": "Zda detekovat prvky mimo obrazovku"
+    }
+  }
+}

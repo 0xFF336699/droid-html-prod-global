@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "Bættu við viðhengi",
+    "emoji": "Veldu tjáningu",
+    "placeholder": "Sláðu inn skilaboð ...",
+    "sendLocation": "Sendu staðsetningu",
+    "send": "Senda"
+  }
+}

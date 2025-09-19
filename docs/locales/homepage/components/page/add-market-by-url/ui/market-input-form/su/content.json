@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Pola URL",
+    "full": {
+      "url": "URL pasar. Aksal anu dilebetkeun bakal dimuat salaku URL, punten ati-ati.",
+      "html": "Eusi html pasar. Aksara anu dilebetkeun bakal dibales langsung salaku skrip, punten ati-ati.",
+      "come": "Datang ka tambang",
+      "myMarketName": "Ngaran Pasar",
+      "stroll": "Hayu urang leumpang"
+    },
+    "item": {
+      "url": "URL kartu pasar. Aksal anu dilebetkeun bakal dimuat salaku URL, punten ati-ati.",
+      "html": "Eusi html pasar. Aksara anu dilebetkeun bakal dibales langsung salaku skrip, punten ati-ati.",
+      "come": "Datang ka tambang",
+      "myMarketName": "Ngaran Pasar",
+      "stroll": "Hayu urang leumpang"
+    }
+  }
+}

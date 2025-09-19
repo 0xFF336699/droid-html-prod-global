@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Ta cogda dubuk Andiroyidil seecaanam duudumtah",
+      "noMethod": "Ta cogda matana"
+    }
+  }
+}

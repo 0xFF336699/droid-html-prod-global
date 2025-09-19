@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Atļaujas līmenis, kas nepieciešams, lai nosūtītu ziņojumu",
+        "tooltip": "0 nozīmē, ka visi dalībnieki var nosūtīt ziņojumus, un jo lielāks skaitlis nozīmē, ka ir vajadzīgas augstākas atļaujas"
+      },
+      "invite": {
+        "label": "Atļauju līmenis, kas nepieciešams jaunu dalībnieku uzaicināšanai",
+        "tooltip": "Iestatiet, kurš var uzaicināt jaunus dalībniekus uz istabu"
+      },
+      "kick": {
+        "label": "Izsitiet nepieciešamo atļaujas līmeni",
+        "tooltip": "Iestatiet, kurš var izmest istabas dalībniekus"
+      },
+      "ban": {
+        "label": "Atļaujas līmenis, kas nepieciešams dalībnieku bloķēšanai",
+        "tooltip": "Iestatiet, kurš var bloķēt istabas dalībniekus"
+      },
+      "roomSettings": {
+        "label": "Modificēt nepieciešamo istabas iestatījumu atļaujas līmeni",
+        "tooltip": "Iestatiet, kurš var modificēt istabas iestatījumus"
+      },
+      "submit": "Saglabāt atļaujas iestatījumus"
+    },
+    "description": "Atļauju līmeņa diapazons: 0–100, jo lielāks skaitlis nozīmē, ka ir vajadzīgas augstākas atļaujas",
+    "toast": {
+      "success": "Atļauju iestatījumi ir atjaunināti",
+      "error": "Neizdevās atjaunināt atļaujas iestatījumus"
+    }
+  }
+}

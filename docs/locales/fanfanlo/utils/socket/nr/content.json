@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Kholalo.",
+    "connected": "i",
+    "disconnecting": "Khola.",
+    "disconnected": "# .",
+    "waitRetry": "Ukuzivocavocavoca akungekho."
+  }
+}

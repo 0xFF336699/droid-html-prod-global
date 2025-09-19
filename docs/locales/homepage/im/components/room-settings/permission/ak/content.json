@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Tumi a wɔde ma ho kwan na wɔde nkra bi amena .",
+        "tooltip": "0 kyerɛ sɛ asɔremma nyinaa tumi de nkrasɛm mena, na dodow a dodow no yɛ kɛse no kyerɛ sɛ ɛsɛ sɛ wonya kwan a ɛkorɔn ."
+      },
+      "invite": {
+        "label": "kwan a wɔhwehwɛ sɛ wɔde to nsa frɛ asɔremma foforo .",
+        "tooltip": "Set a obetumi ato nsa afrɛ asɔremma foforo aba dan no mu ."
+      },
+      "kick": {
+        "label": "Kick fi kwan a wɔhwehwɛ no level .",
+        "tooltip": "Set wɔn a wobetumi apam dan no mufo ."
+      },
+      "ban": {
+        "label": "kwan a wɔhwehwɛ sɛ wɔde siw asɔremma kwan .",
+        "tooltip": "Set a obetumi asiw dan mufo kwan ."
+      },
+      "roomSettings": {
+        "label": "Sesa kwan a wɔhwehwɛ no gyinabea a ɛwɔ dan mu nhyehyɛe mu .",
+        "tooltip": "Set wɔn a wobetumi ayɛ nsakrae wɔ dan no nhyehyɛe mu ."
+      },
+      "submit": "Sie kwan nhyehyɛe ."
+    },
+    "description": "Permission Level Range: 0-100, dodow a dodow no ara kyerɛ sɛ dodow a ɛkɔ soro no ho hia .",
+    "toast": {
+      "success": "Wɔayɛ kwan nhyehyɛe no foforo .",
+      "error": "antumi ansakra kwan nhyehyɛe no ."
+    }
+  }
+}

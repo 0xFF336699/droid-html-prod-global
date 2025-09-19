@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Tsena mo phaposing",
+      "inviteOnly": "Se ke phaposi ya poraefete mme e tlhoka gore ditaletso di tsenelele",
+      "knockRequired": "Phaposi e e tlhoka gore e dirisiwe go tsenela. Tobetsa konopo e e fa tlase go romela kopo ya go kopanya",
+      "canJoin": "Se ke kamore ya botlhe, o ka nna le seabe ka tlhamalalo",
+      "sendRequest": "Romela kopo ya go kopanya",
+      "join": "Tsena mo phaposing"
+    },
+    "JoinRequestList": {
+      "noRequests": "Ga go na kopo ya go tsenela",
+      "accept": "amogela",
+      "reject": "galala"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Tsenya molaetsa..."
+  },
+  "MessageList": {
+    "noMessages": "Ga go ise go nne le molaetsa, romela molaetsa wa ntlha go simolola motlotlo!",
+    "loading": "go laisa...",
+    "error": {
+      "loadFailed": "Go palelwa ke go laisa molaetsa",
+      "retry": "Leka gape"
+    },
+    "loadingHistory": "Hisitori ya go laisa...",
+    "historyEnd": "Dikgang tsa ntlha di gorogile"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Ga go ise go nne le molaetsa, romela molaetsa wa ntlha go simolola motlotlo!"
+  },
+  "RoomContent": {
+    "title": "Phaposi"
+  },
+  "RoomHeader": {
+    "title": "Phaposi",
+    "unnamedRoom": "Phaposi e e sa umakiwang ka leina",
+    "members": "leloko",
+    "settings": "siamisa",
+    "leaveRoom": "Tlogela phaposi",
+    "joinRoom": "Tsena mo phaposing"
+  },
+  "RoomMembers": {
+    "title": "Maloko a phaposi",
+    "online": "Mo inthaneteng",
+    "offline": "Ntle le inthanete",
+    "join": "kopanela mo",
+    "invite": "laletsa",
+    "leave": "tloga",
+    "ban": "thibetswe",
+    "noMembers": "Ga go na leloko",
+    "loading": "go laisa..."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Offentlig rom",
+        "description": "Offentlige rom kan søkes av andre brukere"
+      },
+      "allowGuestJoin": {
+        "label": "La besøkende bli med",
+        "description": "La uregistrerte brukere bli med i rommet som gjest"
+      },
+      "isEncrypted": {
+        "label": "Aktiver enskryptering ende til ende",
+        "description": "Når det er aktivert, vil meldinger i rommet være kryptert ende-til-ende",
+        "alert": "Ende-til-ende-kryptering er aktivert i rommet, og denne innstillingen kan ikke slås av."
+      },
+      "submit": "Lagre personverninnstillinger"
+    },
+    "toast": {
+      "success": "Personverninnstillinger er oppdatert",
+      "error": "Kunne ikke oppdatere personverninnstillinger"
+    }
+  }
+}

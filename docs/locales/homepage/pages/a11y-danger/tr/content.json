@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Bu işlev, telefonunuzda gerçek şahıs işlemlerine benzer, ancak tıklama, uygulamaları açma vb. Kaydedilen işlemler, ödeme yapma vb. Riskler olduğundan, yalnızca komut dosyasının içeriğini tam olarak anlarsanız yürütmenizi şiddetle tavsiye ederiz.",
+    "txt2": "Bu işlevi nasıl kapatılır: Bu uygulamanın ana sayfasını açın, ana sayfa ayarlarında yardımcı işlevi kullanmayı bırakabilir veya ana sayfadaki \"Tüm Görevleri Kapat ve Çıkın\" düğmesini tıklayabilirsiniz. Bu düğme, yürütülen tüm görevlerin kapanmasını zorlar ve bu uygulamayı kapatır.",
+    "txt3": "Bu işlevi kullanmamızın nedeni, uygulamamızın diğer uygulamaları açma ve bunları kontrol etme yeteneğine sahip olması gerektiğidir, örneğin Instagram'a göz atarken, video oynatıldıktan sonra otomatik olarak kayabilir, bir ürünün satışta olup olmadığını kontrol edebilir ve çevrimiçi arkadaşlara düzenli veya işçilik tasarrufu sağlayan operasyonlar gönderebilir.",
+    "iKnowDanger": "Riskleri biliyorum - Set'e git",
+    "title": "Tehlikeli Operasyonlar"
+  }
+}

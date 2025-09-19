@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Karena aplikasi ini berlaku untuk sejumlah besar izin di ponsel Anda, banyak izin yang sangat berisiko, jadi jangan mengimpor atau melaksanakannya tanpa mengetahui dengan jelas risiko pasar atau skrip. Setelah Anda memasukkan konten di kotak teks \"Pendahuluan Kartu\" atau \"Pasar Independen Web Page\" di bawah ini, konten akan segera dieksekusi sebagai kode. Harap berhati -hati.",
+    "setNewMarket": "Siapkan pasar baru",
+    "settingPreview": "Pratinjau Pengaturan",
+    "marketName": "Nama Pasar",
+    "marketSummary": "Pendahuluan Pasar",
+    "marketDescription": "Pendahuluan Pasar",
+    "itemMarket": "Pendahuluan Kartu Pasar",
+    "fullMarket": "Halaman web independen pasar",
+    "marketCardPreview": "Pratinjau Kartu Pasar",
+    "marketFullPreview": "Pratinjau halaman web independen pasar",
+    "isNotSet": "Tidak diatur"
+  }
+}

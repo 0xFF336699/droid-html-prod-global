@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Log a-steach / clàraich",
+    "signOut": "Log a-mach",
+    "confirmContent": "A bheil thu cinnteach gu bheil thu airson logadh a-mach?",
+    "confirmTitle": "HINT",
+    "confirm": "Cinnteach",
+    "cancel": "Sguir dheth",
+    "signoutOk": "Log a-mach",
+    "loadingData": "A 'luchdachadh dàta cleachdaiche"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "নিবন্ধন করুন",
+    "phoneNumber": "ফোন নম্বর",
+    "phoneNumberPlaceholder": "আপনার মোবাইল ফোন নম্বর লিখুন দয়া করে",
+    "verificationCode": "যাচাইকরণ কোড",
+    "verificationCodePlaceholder": "দয়া করে যাচাইকরণ কোড লিখুন",
+    "getVerificationCode": "যাচাইকরণ কোড পান",
+    "countdown": "{{সেকেন্ড}} সেকেন্ড আবার চেষ্টা করতে",
+    "register": "নিবন্ধন করুন",
+    "errors": {
+      "phoneRequired": "আপনার মোবাইল ফোন নম্বর লিখুন দয়া করে",
+      "phoneInvalid": "মোবাইল ফোন নম্বর ফর্ম্যাটটি ভুল",
+      "codeRequired": "দয়া করে যাচাইকরণ কোড লিখুন",
+      "codeInvalid": "যাচাইকরণ কোড ফর্ম্যাটটি ভুল",
+      "requestFailed": "অনুরোধ ব্যর্থ হয়েছে",
+      "verificationFailed": "যাচাইকরণ কোড অধিগ্রহণ ব্যর্থ হয়েছে",
+      "loginFailed": "লগইন ব্যর্থ হয়েছে"
+    },
+    "success": {
+      "verificationCodeSent": "যাচাইকরণ কোড প্রেরণ করা হয়েছে",
+      "registerSuccess": "সফলভাবে নিবন্ধিত"
+    }
+  }
+}

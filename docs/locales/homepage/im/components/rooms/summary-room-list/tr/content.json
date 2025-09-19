@@ -1,0 +1,8 @@
+{
+  "SummaryRoomList": {
+    "title": "Oturum Listesi",
+    "noRooms": "Görüntülenecek oturum yok",
+    "acceptInvite": "Davetiyeyi kabul et",
+    "rejectInvite": "Davetiyeyi reddet"
+  }
+}

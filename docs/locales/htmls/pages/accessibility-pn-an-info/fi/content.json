@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "pikakuva",
+    "title": "paketti ja toiminnan tunnistaminen",
+    "useBtn": "käyttää",
+    "closeBtn": "päättäminen",
+    "pnLabel": "Paketin nimi",
+    "copyButtonText": "kopioida",
+    "anLabel": "toiminto",
+    "clsLable": "luokka"
+  }
+}

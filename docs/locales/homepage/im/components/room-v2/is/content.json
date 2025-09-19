@@ -1,0 +1,7 @@
+{
+  "RoomContentV2": {
+    "waitingForLogin": "Vinsamlegast skráðu þig inn fyrst",
+    "loadingRoomInfo": "Upplýsingar um hleðslu herbergi ...",
+    "roomNotFound": "Herbergið fannst ekki"
+  }
+}

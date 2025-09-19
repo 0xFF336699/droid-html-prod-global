@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Tsenya go",
+    "sub": {
+      "addScriptByUrl": "Tsenya dikwalo ka URL",
+      "addScriptByText": "Tsenya dikwalo ka mokwalo",
+      "addMarket": "Tsenya mmaraka ka URL",
+      "addMarketByText": "Tsenya mmaraka ka mokwalo"
+    }
+  }
+}

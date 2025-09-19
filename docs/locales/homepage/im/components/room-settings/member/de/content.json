@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Suche nach Mitgliedern"
+    },
+    "table": {
+      "columns": {
+        "name": "Mitgliedsname",
+        "userId": "Benutzer-ID",
+        "actions": "arbeiten"
+      },
+      "pagination": {
+        "rowsPerPage": "Anzahl der Zeilen pro Seite"
+      },
+      "avatar": {
+        "alt": "Avatar"
+      },
+      "actions": {
+        "kick": "Rausschmeißen",
+        "ban": "Verboten"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Bestätigen Sie das Kicking -Mitglied",
+        "content": "Sind Sie sicher, dass Sie das Mitglied aus dem Raum treten möchten?"
+      },
+      "ban": {
+        "title": "Bestätigen Sie die verbotene Mitgliedschaft",
+        "content": "Sind Sie sicher, dass Sie dieses Mitglied verbieten möchten? Das Mitglied wird nach dem Verbot nicht in der Lage sein, sich in den Raum anzuschließen."
+      },
+      "buttons": {
+        "cancel": "Stornieren",
+        "confirm": "bestätigen"
+      }
+    },
+    "toast": {
+      "loadError": "Die Mitgliedsliste nicht laden",
+      "kick": {
+        "success": "Mitglieder wurden aus dem Raum geworfen",
+        "error": "Die Mitglieder des Tretens scheiterten"
+      },
+      "ban": {
+        "success": "Mitglieder blockiert",
+        "error": "Die Mitglieder nicht blockieren"
+      }
+    },
+    "invite": {
+      "button": "Mitglieder einladen",
+      "title": "Laden Sie die Mitglieder ein, sich dem Raum anzuschließen",
+      "inputLabel": "Bitte geben Sie die Matrix -Benutzer -ID ein (z. B. @User: matrix.org)",
+      "confirm": "einladen",
+      "cancel": "Stornieren",
+      "loading": "Einladend...",
+      "success": "Einladung gesendet!",
+      "error": "Einladung fehlgeschlagen. Bitte überprüfen Sie die Benutzer -ID oder Berechtigungen"
+    },
+    "empty": "Noch kein Mitglied",
+    "loading": "Laden...",
+    "role": {
+      "owner": "Hausbesitzer",
+      "admin": "Administrator",
+      "moderator": "Co-Management",
+      "user": "Mitglied"
+    }
+  }
+}

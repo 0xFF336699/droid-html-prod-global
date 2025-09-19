@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Gnìomhan taice",
+    "pass": "Ùghdarraichte",
+    "notPass": "Gun chead",
+    "setting": "Suidhich",
+    "danger": "Cunnart",
+    "dangerDesc": "Chì an cead seo susbaint air an sgrion agus cliog air an fhòn agad. Cuir dheth an cead seo mura h-eil thu a 'tuigsinn comas agus cunnartan an sgriobt a tha thu a' ruith no a 'ruith."
+  }
+}

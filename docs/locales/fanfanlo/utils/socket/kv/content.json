@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Йитӧд...",
+    "connected": "Йитӧд",
+    "disconnecting": "Отсоединение...",
+    "disconnected": "Абу йитӧма",
+    "waitRetry": "Виччысям пересоединение..."
+  }
+}

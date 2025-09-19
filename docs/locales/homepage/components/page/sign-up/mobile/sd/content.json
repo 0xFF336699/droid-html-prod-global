@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "پورو اڳوجو",
+    "phoneNumber": "فون نمبر",
+    "phoneNumberPlaceholder": "مهرباني ڪري پنهنجو موبائل فون نمبر داخل ڪريو",
+    "verificationCode": "تصديق جو ڪوڊ",
+    "verificationCodePlaceholder": "مهرباني ڪري تصديق جو ڪوڊ داخل ڪريو",
+    "getVerificationCode": "تصديق جو ڪوڊ حاصل ڪريو",
+    "countdown": "{{سيڪنڊ} سيڪنڊ کي ٻيهر ڪوشش ڪرڻ لاء سيڪنڊ",
+    "register": "پورو اڳوجو",
+    "errors": {
+      "phoneRequired": "مهرباني ڪري پنهنجو موبائل فون نمبر داخل ڪريو",
+      "phoneInvalid": "موبائل فون نمبر فارميٽ غلط آهي",
+      "codeRequired": "مهرباني ڪري تصديق جو ڪوڊ داخل ڪريو",
+      "codeInvalid": "تصديق جو ڪوڊ فارميٽ غلط آهي",
+      "requestFailed": "درخواست ناڪام ٿي وئي",
+      "verificationFailed": "تصديق جو ڪوڊ حصول ناڪام ٿيو",
+      "loginFailed": "لاگ ان ناڪام ٿيو"
+    },
+    "success": {
+      "verificationCodeSent": "تصديق جو ڪوڊ موڪليو ويو آهي",
+      "registerSuccess": "ڪاميابي سان رجسٽرڊ ڪيو ويو"
+    }
+  }
+}

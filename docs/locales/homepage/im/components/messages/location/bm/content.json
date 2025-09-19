@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Yɔrɔ tɔgɔ .",
+    "viewMap": "Karta lajɛ .",
+    "close": "Dadon ."
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "sisan navigatɔrɔ tɛ geolocation sɔrɔli dɛmɛ .",
+    "getLocationFailed": "A ma se ka yɔrɔ sɔrɔ, i ka permisw lajɛ .",
+    "myLocation": "N ka yɔrɔ .",
+    "shareLocation": "Share Yɔrɔ .",
+    "getCurrentLocation": "Aw bɛ yɔrɔ min sɔrɔ sisan, o sɔrɔ .",
+    "title": "Yɔrɔ tɔgɔ .",
+    "description": "Ɲɛfɔli dafalen .",
+    "descriptionPlaceholder": "Aw ye ɲɛfɔli dafalen sɛbɛn (a bɛ se ka kɛ) .",
+    "preview": "Yɔrɔw lajɛ .",
+    "latitude": "Latitude .",
+    "longitude": "Janya .",
+    "cancel": "ka dankari",
+    "send": "ka ci",
+    "permissionPrompt": "An ka kan ka i ka yɔrɔ kunnafoniw sɔrɔ walasa ka baara ɲumanw kɛ, yala o bɛ se ka kɛ wa?",
+    "permissionDenied": "Jyɔrɔ sɔrɔli yamaruya bɛ ban, i ka jɔyɔrɔ sɔrɔli yamaruya di i ka navigatɔrɔw ma .",
+    "locationTimeout": "positioning time out, aw ye aw jija ka minɛn in da wuli ani ka a ɲini ka segin ka sɔrɔ .",
+    "locationUnavailable": "Yɔrɔ min bɛ yen sisan, o tɛ se ka sɔrɔ, i ka minɛnw sigiyɔrɔ baarakɛyɔrɔ lajɛ ."
+  }
+}

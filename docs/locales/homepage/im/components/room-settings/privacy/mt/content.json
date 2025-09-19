@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Kamra pubblika",
+        "description": "Kmamar pubbliċi jistgħu jiġu mfittxija minn utenti oħra"
+      },
+      "allowGuestJoin": {
+        "label": "Ħalli lill-viżitaturi jingħaqdu",
+        "description": "Ħalli lill-utenti mhux reġistrati jingħaqdu fil-kamra bħala mistieden"
+      },
+      "isEncrypted": {
+        "label": "Jippermetti encryption end-to-end",
+        "description": "Meta jkun attivat, il-messaġġi fil-kamra jiġu kriptati end-to-end",
+        "alert": "Il-kriptaġġ end-to-end huwa attivat fil-kamra, u dan l-issettjar ma jistax jintefa."
+      },
+      "submit": "Issejvja l-issettjar tal-privatezza"
+    },
+    "toast": {
+      "success": "L-issettjar tal-privatezza ġie aġġornat",
+      "error": "Naqset milli taġġorna s-settings tal-privatezza"
+    }
+  }
+}

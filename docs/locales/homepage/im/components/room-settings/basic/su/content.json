@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Ngaran rohangan"
+      },
+      "topic": {
+        "label": "Pembenalan kamar"
+      },
+      "avatar": {
+        "alt": "Kamar avatar"
+      },
+      "submit": "Simpen Setélan"
+    },
+    "toast": {
+      "success": "Setélan diropéa",
+      "error": {
+        "default": "Update setélan gagal",
+        "avatar": "Gagal ngénggalan Avatar"
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Mä cuarto luraña ."
+    },
+    "dialog": {
+      "title": "Mä machaq cuarto luraña .",
+      "form": {
+        "userId": {
+          "label": "Usuario ID ukax .",
+          "placeholder": "Usuario ID ukar qillqt’aña (santi: @user:example.com)",
+          "error": {
+            "required": "Usuario ID ukax janiw ch’usäkaspati .",
+            "invalid": "Jan wali Usuario ID formato ."
+          }
+        },
+        "roomName": {
+          "label": "Uta sutini (janiwa wakiskiti) .",
+          "placeholder": "Mä cuarto suti qillqt’aña ."
+        },
+        "isEncrypted": {
+          "label": "Encriptación de fin a final ukar yanapt’aña ."
+        },
+        "isDirect": {
+          "label": "Directo yatiyawi ."
+        },
+        "topic": {
+          "label": "Tema (janiw wakiskiti) .",
+          "placeholder": "Uka cuarto tema ukar mantam ."
+        }
+      },
+      "actions": {
+        "cancel": "Kansilaña",
+        "create": "uñstayaña"
+      },
+      "success": "Sala luraña suma .",
+      "error": "Mä pantjawix mä cuarto lurañanx utjawayi: {pantjasiw} ."
+    }
+  }
+}

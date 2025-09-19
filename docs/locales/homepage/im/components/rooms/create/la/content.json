@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Create locus"
+    },
+    "dialog": {
+      "title": "Creare novum locus",
+      "form": {
+        "userId": {
+          "label": "Id usor id",
+          "placeholder": "Intra in user ID (exempli gratia: @user: Exemplum)",
+          "error": {
+            "required": "User id non vacua",
+            "invalid": "Aliquam User id Forma"
+          }
+        },
+        "roomName": {
+          "label": "Locus nomen (libitum)",
+          "placeholder": "Intra locus nomen tuum"
+        },
+        "isEncrypted": {
+          "label": "Enable Endryption Endryption ad-ut-"
+        },
+        "isDirect": {
+          "label": "Recta nuntium"
+        },
+        "topic": {
+          "label": "Theme (libitum)",
+          "placeholder": "Intra in locus theme"
+        }
+      },
+      "actions": {
+        "cancel": "Inrito",
+        "create": "creo"
+      },
+      "success": "Cella creaturae prospere",
+      "error": "Error occurrit creando locus: {Error}"
+    }
+  }
+}

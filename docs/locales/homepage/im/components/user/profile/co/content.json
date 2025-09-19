@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Infurmazione d'Usuariu",
+    "id": {
+      "name": "ID",
+      "copy": "COPIA",
+      "copied": "Id hè statu copiatu"
+    },
+    "notLoggedIn": "Micca cunnessu",
+    "name": "nome",
+    "avatar": "Avatar"
+  }
+}

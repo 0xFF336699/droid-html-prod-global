@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "由於本應用申請了您手機的大量權限，很多權限具有極高的風險性，所以您在未明確知道該市場或腳本的風險時，請勿導入或執行，一旦您在下面的“市場卡片介紹”或“市場獨立網頁”文本框內輸入內容，該內容將會被立即當作代碼執行，請謹慎操作。",
+    "setNewMarket": "設置新市場",
+    "settingPreview": "設置預覽",
+    "marketName": "市場名稱",
+    "marketSummary": "市場簡介",
+    "marketDescription": "市場介紹",
+    "itemMarket": "市場卡片介紹",
+    "fullMarket": "市場獨立網頁",
+    "marketCardPreview": "市場卡片預覽",
+    "marketFullPreview": "市場獨立網頁預覽",
+    "isNotSet": "未設置"
+  }
+}

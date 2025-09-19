@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Nome della posizione",
+    "viewMap": "Visualizza la mappa",
+    "close": "chiusura"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "L'attuale browser non supporta l'acquisizione di geolocalizzazione",
+    "getLocationFailed": "Impossibile ottenere la posizione, controlla le impostazioni di autorizzazione",
+    "myLocation": "La mia posizione",
+    "shareLocation": "Posizione condividi",
+    "getCurrentLocation": "Ottieni la posizione corrente",
+    "title": "Nome della posizione",
+    "description": "Descrizione dettagliata",
+    "descriptionPlaceholder": "Immettere una descrizione dettagliata (facoltativo)",
+    "preview": "Anteprima della posizione",
+    "latitude": "latitudine",
+    "longitude": "longitudine",
+    "cancel": "Cancellare",
+    "send": "Inviare",
+    "permissionPrompt": "Dobbiamo ottenere informazioni sulla tua posizione per fornire servizi migliori, è consentito?",
+    "permissionDenied": "Il permesso di posizionamento è negato, abilitare l'autorizzazione di posizionamento nelle impostazioni del browser",
+    "locationTimeout": "Timeout di posizionamento, assicurarsi che il dispositivo sia acceso e prova a riacquistare",
+    "locationUnavailable": "Non è possibile ottenere la posizione corrente, controlla il servizio di posizione del dispositivo"
+  }
+}

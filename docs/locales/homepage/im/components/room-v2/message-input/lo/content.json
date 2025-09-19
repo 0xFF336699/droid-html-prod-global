@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "ເພີ່ມເອກະສານຄັດຕິດ",
+    "emoji": "ເລືອກເອົາການສະແດງອອກ",
+    "placeholder": "ໃສ່ຂໍ້ຄວາມ ...",
+    "sendLocation": "ສົ່ງສະຖານທີ່",
+    "send": "ສົ່ງ"
+  }
+}

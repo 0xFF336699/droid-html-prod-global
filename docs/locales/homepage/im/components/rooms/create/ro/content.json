@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Creați o cameră"
+    },
+    "dialog": {
+      "title": "Creați o cameră nouă",
+      "form": {
+        "userId": {
+          "label": "ID-ul de utilizator",
+          "placeholder": "Introduceți ID -ul de utilizator (de exemplu: @user: exemplu.com)",
+          "error": {
+            "required": "ID -ul de utilizator nu poate fi gol",
+            "invalid": "Format de identitate de utilizator nevalid"
+          }
+        },
+        "roomName": {
+          "label": "Numele camerei (opțional)",
+          "placeholder": "Introduceți un nume de cameră"
+        },
+        "isEncrypted": {
+          "label": "Activați criptarea end-to-end"
+        },
+        "isDirect": {
+          "label": "Mesaj direct"
+        },
+        "topic": {
+          "label": "Tema (opțional)",
+          "placeholder": "Introduceți tema camerei"
+        }
+      },
+      "actions": {
+        "cancel": "Anula",
+        "create": "crea"
+      },
+      "success": "Creația de cameră cu succes",
+      "error": "A apărut o eroare la crearea unei camere: {eroare}"
+    }
+  }
+}

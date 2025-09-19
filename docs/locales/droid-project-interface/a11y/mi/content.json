@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "poka",
+    "click": "Paatohu",
+    "longClick": "Press Press",
+    "setText": "Tautuhi kuputuhi",
+    "tryClick": "Whakamātauria te huānga, te waahi ranei te paato",
+    "globalClick": "Tauwāhi Pāwhiritia"
+  }
+}

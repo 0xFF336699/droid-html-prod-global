@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Pokój publiczny",
+        "description": "Pokoje publiczne mogą być przeszukiwane przez innych użytkowników"
+      },
+      "allowGuestJoin": {
+        "label": "Pozwól odwiedzającym dołączyć",
+        "description": "Pozwól niezarejestrowanym użytkownikom dołączyć do pokoju jako gość"
+      },
+      "isEncrypted": {
+        "label": "Włącz end-to-end szyfrowanie",
+        "description": "Po włączeniu wiadomości w pokoju zostaną zaszyfrowane przez koniec do końca",
+        "alert": "End-to-end Szyfrowanie jest włączone w pokoju, a tego ustawienia nie można wyłączyć."
+      },
+      "submit": "Zapisz ustawienia prywatności"
+    },
+    "toast": {
+      "success": "Ustawienia prywatności zostały zaktualizowane",
+      "error": "Nie udało się zaktualizować ustawień prywatności"
+    }
+  }
+}

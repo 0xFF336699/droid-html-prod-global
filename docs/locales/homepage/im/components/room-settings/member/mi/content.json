@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Rapua nga mema"
+    },
+    "table": {
+      "columns": {
+        "name": "Ingoa Mema",
+        "userId": "ID Kaiwhakamahi",
+        "actions": "poka"
+      },
+      "pagination": {
+        "rowsPerPage": "Te maha o nga rarangi mo ia whaarangi"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Whana",
+        "ban": "Aukati"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Whakaū i te mema whana",
+        "content": "Kei te hiahia koe ki te whana i te mema i waho o te ruma?"
+      },
+      "ban": {
+        "title": "Whakaū i te mema kua aukati",
+        "content": "Kei te hiahia koe ki te aukati i tenei mema? Kaore e taea e te mema te whakahou i te ruma i muri i te aukati."
+      },
+      "buttons": {
+        "cancel": "Whakakore",
+        "confirm": "whakaū"
+      }
+    },
+    "toast": {
+      "loadError": "I rahua te uta i te raarangi mema",
+      "kick": {
+        "success": "Kua whana nga mema o te ruma",
+        "error": "Kino i nga mema i hinga"
+      },
+      "ban": {
+        "success": "Ka aukati nga mema",
+        "error": "I rahua te aukati i nga mema"
+      }
+    },
+    "invite": {
+      "button": "A ani i te mau melo",
+      "title": "A ani i nga mema ki te uru atu ki te ruma",
+      "inputLabel": "Tomo koa ki te ID Kaiwhakamahi Matrix (penei i te @user: Matrix.org)",
+      "confirm": "pōhiri",
+      "cancel": "Whakakore",
+      "loading": "Te ani manihini ...",
+      "success": "Quare i tukuna!",
+      "error": "I rahua te tono, tirohia te ID kaiwhakamahi, whakaaetanga ranei"
+    },
+    "empty": "Kaore ano he mema",
+    "loading": "Hoko ...",
+    "role": {
+      "owner": "Rangatira rangatira",
+      "admin": "kaiwhakahaere",
+      "moderator": "Whakahaere-whakahaere",
+      "user": "mema"
+    }
+  }
+}

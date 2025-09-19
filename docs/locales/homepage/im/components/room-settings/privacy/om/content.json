@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Kutaa ummataa .",
+        "description": "Kutaawwan uummataa fayyadamtoota birootiin sakatta'uun ni danda'ama ."
+      },
+      "allowGuestJoin": {
+        "label": "Daawwattoonni akka itti makaman hayyamaa .",
+        "description": "Fayyadamtoonni hin galmoofne akka keessummaatti kutaa sanatti akka makaman hayyami ."
+      },
+      "isEncrypted": {
+        "label": "Icciitii dhuma irraa gara dhumaatti dandeessisi .",
+        "description": "Yeroo dandeessifamu, ergaawwan kutaa keessa jiran dhuma irraa gara dhumaatti kan icciitii ta'an .",
+        "alert": "Iccitiin dhuma irraa gara dhumaatti kutaa keessatti dandeessifama, qindaa'inni kun dhaamuun hin danda'amu."
+      },
+      "submit": "Sajoo icciitii qusachuu ."
+    },
+    "toast": {
+      "success": "Sajoo icciitii haaromfameera .",
+      "error": "Sajoo Dhuunfaa haaromsuu dadhabe ."
+    }
+  }
+}

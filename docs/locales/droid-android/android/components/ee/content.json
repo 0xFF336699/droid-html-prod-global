@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Te fli ɖe eme",
+    "ok": "Ka ɖe edzi",
+    "checkBoxText": "Yi tẽe be nàɖe mɔ le ɣleti afã me eye màgaɖe fesre sia afia o .",
+    "content": "Dɔwɔwɔ sia bia kpekpeɖeŋudɔwɔwɔ ƒe mɔɖeɖe. Ne èdi be yeaɖe mɔ la, taflatse zi [OK] dzi. Ne èdi be yeaɖe asi le eŋu la, taflatse zi [Cancel] dzi.",
+    "title": "Mɔɖeɖe ƒe Dɔbiagbalẽvi ."
+  },
+  "floatPermission": {
+    "cancel": "Te fli ɖe eme",
+    "ok": "Ka ɖe edzi",
+    "checkBoxText": "Yi tẽe be nàɖe mɔ le ɣleti afã me eye màgaɖe fesre sia afia o .",
+    "content": "Dɔwɔwɔ sia bia be woaɖe mɔ ɖe fesre ƒe dɔwɔwɔ si le tsia dzi ŋu. Ne èdi be yeaɖe mɔ la, taflatse zi [OK] dzi. Ne èdi be yeaɖe asi le eŋu la, taflatse zi [Cancel] dzi.",
+    "title": "Mɔɖeɖe ƒe Dɔbiagbalẽvi ."
+  }
+}

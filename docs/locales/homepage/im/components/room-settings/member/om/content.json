@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Miseensoota barbaadi ."
+    },
+    "table": {
+      "columns": {
+        "name": "Maqaa Miseensummaa .",
+        "userId": "ID fayyadamaa .",
+        "actions": "Hojjetaa ."
+      },
+      "pagination": {
+        "rowsPerPage": "Lakkoofsa tarree fuula tokkoof ."
+      },
+      "avatar": {
+        "alt": "Avatar ."
+      },
+      "actions": {
+        "kick": "Kick out .",
+        "ban": "Uggurame ."
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Miseensa Kicking mirkaneessi .",
+        "content": "Miseensa kutaa keessaa ari'uu akka barbaaddu mirkaneeffatteettaa?"
+      },
+      "ban": {
+        "title": "Miseensa dhorkame mirkaneessi .",
+        "content": "Miseensa kana ugguruu akka barbaaddu mirkaneeffatteettaa? Miseensichi erga ugguramee booda kutaa sanatti deebi'ee makamuu hin danda'u."
+      },
+      "buttons": {
+        "cancel": "Haquu",
+        "confirm": "mirkaneessuu"
+      }
+    },
+    "toast": {
+      "loadError": "Tarree miseensotaa fe'uu dadhabe .",
+      "kick": {
+        "success": "Miseensonni kutaa keessaa ari'amaniiru .",
+        "error": "Miseensonni ari'uun hin milkoofne ."
+      },
+      "ban": {
+        "success": "Miseensonni ugguraman .",
+        "error": "miseensota ugguruu hin dandeenye ."
+      }
+    },
+    "invite": {
+      "button": "Miseensoota afeerraa .",
+      "title": "Miseensonni kutaa sanatti akka makaman afeeri .",
+      "inputLabel": "Mee ID fayyadamaa maatriksii (kan akka @user:matrix.org) galchi.",
+      "confirm": "afeeruu",
+      "cancel": "Haquu",
+      "loading": "affeerraa...",
+      "success": "Waamicha ergame!",
+      "error": "Waamichi hin milkoofne, maaloo ID fayyadamaa ykn hayyama ilaali ."
+    },
+    "empty": "Ammatti miseensa hin qabu .",
+    "loading": "Fe'aa...",
+    "role": {
+      "owner": "Abbaa manaa .",
+      "admin": "Bulchaa .",
+      "moderator": "Hoggansa waliinii .",
+      "user": "Miseensa ."
+    }
+  }
+}

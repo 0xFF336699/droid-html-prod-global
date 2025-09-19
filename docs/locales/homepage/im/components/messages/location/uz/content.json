@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Joylashuv nomi",
+    "viewMap": "Xaritani ko'rish",
+    "close": "yopish"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Hozirgi brauzer geolyan sotib olishga yordam bermaydi",
+    "getLocationFailed": "Joylashuvni ololmadi, iltimos, ruxsat sozlamalarini tekshiring",
+    "myLocation": "Mening joylashuvim",
+    "shareLocation": "Share joylashuvi",
+    "getCurrentLocation": "Hozirgi manzilni oling",
+    "title": "Joylashuv nomi",
+    "description": "Batafsil tavsif",
+    "descriptionPlaceholder": "Iltimos, batafsil tavsifni kiriting (ixtiyoriy)",
+    "preview": "Manzilni oldindan ko'rish",
+    "latitude": "kenglik",
+    "longitude": "uzunlik",
+    "cancel": "Bekor qilmoq",
+    "send": "yuborish",
+    "permissionPrompt": "Sizga yaxshiroq xizmatlarni taqdim etish uchun manzil ma'lumotlarini olishimiz kerakmi?",
+    "permissionDenied": "Joylashtirish uchun ruxsat rad etiladi, iltimos, brauzer sozlamalarida pozitsiyani joylashtirish uchun ruxsat berishni yoqing",
+    "locationTimeout": "Joylashtirish vaqti, qurilma yoqilganligiga ishonch hosil qiling va qayta tiklashga harakat qiling",
+    "locationUnavailable": "Joriy joyni olish mumkin emas, iltimos, qurilmaning manzilini tekshiring"
+  }
+}

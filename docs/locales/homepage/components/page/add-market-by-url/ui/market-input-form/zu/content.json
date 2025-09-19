@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Iphethini ye-URL",
+    "full": {
+      "url": "I-URL yemakethe. Izinhlamvu ezifakiwe zizolayishwa njengama-URL, sicela uqaphele.",
+      "html": "Okuqukethwe kwe-HTML yemakethe. Izinhlamvu ezifakiwe zizokwenziwa ngokushesha nje ngemibhalo, sicela uqaphele.",
+      "come": "Woza okwami",
+      "myMarketName": "Igama lemakethe",
+      "stroll": "Ake sithathe uhambo"
+    },
+    "item": {
+      "url": "URL wekhadi lemakethe. Izinhlamvu ezifakiwe zizolayishwa njengama-URL, sicela uqaphele.",
+      "html": "Okuqukethwe kwe-HTML yemakethe. Izinhlamvu ezifakiwe zizokwenziwa ngokushesha nje ngemibhalo, sicela uqaphele.",
+      "come": "Woza okwami",
+      "myMarketName": "Igama lemakethe",
+      "stroll": "Ake sithathe uhambo"
+    }
+  }
+}

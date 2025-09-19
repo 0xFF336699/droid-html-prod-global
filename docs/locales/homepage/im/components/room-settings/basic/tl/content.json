@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Pangalan ng silid"
+      },
+      "topic": {
+        "label": "Panimula ng silid"
+      },
+      "avatar": {
+        "alt": "Silid avatar"
+      },
+      "submit": "I -save ang mga setting"
+    },
+    "toast": {
+      "success": "Nai -update ang mga setting",
+      "error": {
+        "default": "Nabigo ang mga setting ng pag -update",
+        "avatar": "Nabigong i -update ang Avatar"
+      }
+    }
+  }
+}

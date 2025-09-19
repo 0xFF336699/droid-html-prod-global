@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Nivo pèmisyon an oblije voye yon mesaj",
+        "tooltip": "0 vle di ke tout manm yo ka voye mesaj, ak pi gwo a nimewo a vle di ke pi wo autorisations yo gen obligasyon"
+      },
+      "invite": {
+        "label": "Nivo pèmisyon oblije envite nouvo manm yo",
+        "tooltip": "Mete ki moun ki ka envite nouvo manm nan sal la"
+      },
+      "kick": {
+        "label": "Choute soti nivo a pèmisyon obligatwa",
+        "tooltip": "Mete ki moun ki ka choute soti manm yo chanm"
+      },
+      "ban": {
+        "label": "Nivo pèmisyon obligatwa pou bloke manm yo",
+        "tooltip": "Mete ki moun ki ka bloke manm chanm"
+      },
+      "roomSettings": {
+        "label": "Modifye nivo pèmisyon obligatwa nan anviwònman chanm",
+        "tooltip": "Mete ki moun ki ka modifye anviwònman yo chanm"
+      },
+      "submit": "Sove anviwònman pèmisyon"
+    },
+    "description": "Ranje nivo pèmisyon: 0-100, pi gwo a nimewo a vle di autorisations pi wo yo gen obligasyon",
+    "toast": {
+      "success": "Anviwònman pèmisyon yo te mete ajou",
+      "error": "Echwe pou pou mete ajou anviwònman pèmisyon"
+    }
+  }
+}

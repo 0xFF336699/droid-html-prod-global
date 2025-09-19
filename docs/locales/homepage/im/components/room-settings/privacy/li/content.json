@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Openbare kamer",
+        "description": "Openbare kamers kinne door aandere gebrukers gezeuk weure"
+      },
+      "allowGuestJoin": {
+        "label": "Laot bezuikers bezuikers toelaote",
+        "description": "Laot ongeregistreerde gebrukers neet bij de kamer es gast"
+      },
+      "isEncrypted": {
+        "label": "Maak eind-tot-end versleuteling in",
+        "description": "Ingeschakeld weure boodsjappe in de kamer ‘n end-to-end versleuteld.",
+        "alert": "Eind-to-end versleuteling is in de kamer ingeschakeld, en deze instelling kin neet were aafgesjakeld."
+      },
+      "submit": "Sppricieerde privacy-instellinge opslaon"
+    },
+    "toast": {
+      "success": "Privacy-instellinge zien bijgewerk",
+      "error": "Neet update privacy-instellinge"
+    }
+  }
+}

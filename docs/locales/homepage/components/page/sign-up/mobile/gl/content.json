@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "Rexistrarse",
+    "phoneNumber": "Número de teléfono",
+    "phoneNumberPlaceholder": "Insira o seu número de teléfono móbil",
+    "verificationCode": "Código de verificación",
+    "verificationCodePlaceholder": "Insira o código de verificación",
+    "getVerificationCode": "Obtén o código de verificación",
+    "countdown": "{{segundos}} segundos para tentalo de novo",
+    "register": "Rexistrarse",
+    "errors": {
+      "phoneRequired": "Insira o seu número de teléfono móbil",
+      "phoneInvalid": "O formato do número de teléfono móbil é incorrecto",
+      "codeRequired": "Insira o código de verificación",
+      "codeInvalid": "O formato de código de verificación é incorrecto",
+      "requestFailed": "Fallou a solicitude",
+      "verificationFailed": "Fallou a adquisición do código de verificación",
+      "loginFailed": "Fallou o inicio de sesión"
+    },
+    "success": {
+      "verificationCodeSent": "Enviouse o código de verificación",
+      "registerSuccess": "Rexistrado con éxito"
+    }
+  }
+}

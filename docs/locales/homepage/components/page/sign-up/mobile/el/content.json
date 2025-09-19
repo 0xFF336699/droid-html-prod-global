@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "μητρώο",
+    "phoneNumber": "Αριθμός τηλεφώνου",
+    "phoneNumberPlaceholder": "Εισαγάγετε τον αριθμό του κινητού σας τηλεφώνου",
+    "verificationCode": "Κωδικός επαλήθευσης",
+    "verificationCodePlaceholder": "Εισαγάγετε τον κωδικό επαλήθευσης",
+    "getVerificationCode": "Λάβετε τον κωδικό επαλήθευσης",
+    "countdown": "{{δευτερόλεπτα}} δευτερόλεπτα για να δοκιμάσετε ξανά",
+    "register": "μητρώο",
+    "errors": {
+      "phoneRequired": "Εισαγάγετε τον αριθμό του κινητού σας τηλεφώνου",
+      "phoneInvalid": "Η μορφή του αριθμού κινητού τηλεφώνου είναι λανθασμένη",
+      "codeRequired": "Εισαγάγετε τον κωδικό επαλήθευσης",
+      "codeInvalid": "Η μορφή του κώδικα επαλήθευσης είναι λανθασμένη",
+      "requestFailed": "Απέτυχε το αίτημα",
+      "verificationFailed": "Αποτυχία απόκτησης κώδικα επαλήθευσης",
+      "loginFailed": "Η σύνδεση απέτυχε"
+    },
+    "success": {
+      "verificationCodeSent": "Ο κωδικός επαλήθευσης έχει σταλεί",
+      "registerSuccess": "Εγγεγραμμένος με επιτυχία"
+    }
+  }
+}

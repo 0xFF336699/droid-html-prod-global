@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "Shto në treg",
+    "url": "URL e tregut",
+    "summary": "Përmbledhje e tregut",
+    "urlIsNotValid": "URL e pasaktë e tregut"
+  }
+}

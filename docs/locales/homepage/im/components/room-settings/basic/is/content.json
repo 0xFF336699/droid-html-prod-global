@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Herbergisnafn"
+      },
+      "topic": {
+        "label": "Inngangur herbergi"
+      },
+      "avatar": {
+        "alt": "Herbergi avatar"
+      },
+      "submit": "Vista stillingar"
+    },
+    "toast": {
+      "success": "Stillingar uppfærðar",
+      "error": {
+        "default": "Uppfærslustillingar mistókust",
+        "avatar": "Ekki tókst að uppfæra avatar"
+      }
+    }
+  }
+}

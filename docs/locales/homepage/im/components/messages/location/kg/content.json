@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Zina ya kisika",
+    "viewMap": "Tala karti",
+    "close": "kukanga"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Navigateur ya ntangu yai ke sadisaka ve na kuzwa geolocation .",
+    "getLocationFailed": "Sambu nge me baka ve kisika yina, tala baparametre ya nswa .",
+    "myLocation": "Kisika ya mono kele",
+    "shareLocation": "Kisika ya kukabula",
+    "getCurrentLocation": "Baka kisika ya sesepi",
+    "title": "Zina ya kisika",
+    "description": "Ntendula ya sikisiki",
+    "descriptionPlaceholder": "Sonika ntendula ya sikisiki (ya kupona)",
+    "preview": "Kutala kisika ya kisika",
+    "latitude": "latiti",
+    "longitude": "nda",
+    "cancel": "Kukatula",
+    "send": "kutinda",
+    "permissionPrompt": "Beto fwete baka bansangu ya kisika na beno sambu na kupesa bisalu ya mbote, keti yo kele nswa?",
+    "permissionDenied": "Kupesa nswa ya kutula, pardo pesa nswa ya kutula nswa na ba parametre na nge ya navigateur .",
+    "locationTimeout": "Kutula ntangu ya kupema, zikisa nde bo me kangula apareyi yina mpi meka kusumba diaka .",
+    "locationUnavailable": "E fulu kina owau ke kilendi baka ."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Tautuhinga Ruma",
+    "tabs": {
+      "basic": "Tautuhinga taketake",
+      "permission": "Tautuhinga whakaaetanga",
+      "privacy": "Tautuhinga Tūmataitinga",
+      "member": "Te whakahaere mema"
+    },
+    "loadError": "I rahua te uta i nga waahi ruma",
+    "leaveRoom": {
+      "button": "Puta i te ruma",
+      "confirm": "Kei te hiahia koe ki te puta atu i te ruma? I muri i to putanga, kaore koe e kaha ki te whiwhi i nga karere mai i tenei ruma.",
+      "success": "I whai angitu i te ruma",
+      "error": "I rahua te puta atu i te ruma, me ngana ano"
+    }
+  }
+}

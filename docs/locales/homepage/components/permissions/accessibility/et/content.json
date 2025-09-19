@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Abifunktsioonid",
+    "pass": "Volitatud",
+    "notPass": "Volitamata",
+    "setting": "püstitama",
+    "danger": "Oht",
+    "dangerDesc": "See volitus näeb ekraanil sisu ja klõpsake telefoni. Keelake see luba, kui te ei mõista selgesõnaliselt teie käitatava skripti funktsionaalsust ja riske."
+  }
+}

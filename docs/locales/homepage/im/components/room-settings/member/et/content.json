@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Otsige liikmeid"
+    },
+    "table": {
+      "columns": {
+        "name": "Liikmenimi",
+        "userId": "Kasutajatunnus",
+        "actions": "opereerima"
+      },
+      "pagination": {
+        "rowsPerPage": "Ridade arv lehe kohta"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Välja lööma",
+        "ban": "Keelatud"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Kinnitage löögiliige",
+        "content": "Kas olete kindel, et soovite liikme toast välja lüüa?"
+      },
+      "ban": {
+        "title": "Kinnitage keelatud liikmelisus",
+        "content": "Kas olete kindel, et soovite selle liikme keelata? Liige ei saa pärast keeluga toaga uuesti ühineda."
+      },
+      "buttons": {
+        "cancel": "Tühistama",
+        "confirm": "kinnitama"
+      }
+    },
+    "toast": {
+      "loadError": "Liikmete nimekirja laadimine ebaõnnestus",
+      "kick": {
+        "success": "Liikmed on toast välja löödud",
+        "error": "Liikmete väljalülitamine ebaõnnestus"
+      },
+      "ban": {
+        "success": "Liikmed blokeerisid",
+        "error": "Liikmeid ei suutnud blokeerida"
+      }
+    },
+    "invite": {
+      "button": "Kutsuge liikmeid",
+      "title": "Kutsuge liikmeid toaga liituma",
+      "inputLabel": "Sisestage maatriksi kasutajatunnus (näiteks @User: Matrix.org)",
+      "confirm": "kutsuma",
+      "cancel": "Tühistama",
+      "loading": "Kutsuv ...",
+      "success": "Kutse saadetud!",
+      "error": "Kutse nurjus, kontrollige palun kasutajatunnust või õigusi"
+    },
+    "empty": "Pole veel liiget",
+    "loading": "laadimine ...",
+    "role": {
+      "owner": "Majaomanik",
+      "admin": "administraator",
+      "moderator": "Kaasjuhtimine",
+      "user": "liige"
+    }
+  }
+}

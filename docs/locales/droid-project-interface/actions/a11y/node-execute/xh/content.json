@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Ukubulawa kukaNode",
+    "changeBtnLabel": "buyisela",
+    "showNodeAllProperties": "Veza zonke iipropathi",
+    "wait": {
+      "time": "Ixesha lokulinda",
+      "interval": "Ixesha lokulinda",
+      "invisible": "Nokuba kukufumanisa izinto ngaphandle kwesikrini"
+    }
+  }
+}

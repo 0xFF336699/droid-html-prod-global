@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Kamerinstellingen",
+    "tabs": {
+      "basic": "Basisinstellingen",
+      "permission": "Toestemmingsinstellingen",
+      "privacy": "Privacy -instellingen",
+      "member": "Lidbeheer"
+    },
+    "loadError": "Kan de kamerinstellingen niet laden",
+    "leaveRoom": {
+      "button": "Verlaat de kamer",
+      "confirm": "Weet u zeker dat u de kamer wilt verlaten? Nadat u is afgesloten, kunt u niet doorgaan met het ontvangen van berichten uit deze kamer.",
+      "success": "De kamer met succes verlaten",
+      "error": "Probeer het opnieuw, probeer het opnieuw te verlaten"
+    }
+  }
+}

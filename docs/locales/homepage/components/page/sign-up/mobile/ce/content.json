@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "регистраци ян",
+    "phoneNumber": "Телефонан номер",
+    "phoneNumberPlaceholder": "Хьайн мобилан телефонан номер язъе .",
+    "verificationCode": "Талламан код",
+    "verificationCodePlaceholder": "Дехар ду верификацин код язъе .",
+    "getVerificationCode": "Талламан код схьаэца .",
+    "countdown": "{{seconds}} секундехь юха а хьажа",
+    "register": "регистраци ян",
+    "errors": {
+      "phoneRequired": "Хьайн мобилан телефонан номер язъе .",
+      "phoneInvalid": "Мобилан телефонан номеран формат нийса яц .",
+      "codeRequired": "Дехар ду верификацин код язъе .",
+      "codeInvalid": "Талламан кодан формат нийса яц .",
+      "requestFailed": "Дехар ца хилира",
+      "verificationFailed": "Серьпинг-код эцаран аьтто ца баьлла .",
+      "loginFailed": "Логин ца хилира"
+    },
+    "success": {
+      "verificationCodeSent": "Тешаман код дӀахьажийна .",
+      "registerSuccess": "Кхиаме дӀаязйина"
+    }
+  }
+}

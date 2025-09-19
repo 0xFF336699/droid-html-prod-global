@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Agahdariya bikarhêner",
+    "id": {
+      "name": "Id",
+      "copy": "kopî",
+      "copied": "ID hate kopî kirin"
+    },
+    "notLoggedIn": "Ne têketî ye",
+    "name": "nav",
+    "avatar": "avdk"
+  }
+}

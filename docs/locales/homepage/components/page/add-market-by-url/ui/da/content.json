@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Da denne applikation gælder for et stort antal tilladelser på din mobiltelefon, er mange tilladelser ekstremt risikable, så importer eller udfør dem ikke uden at kende risikoen for markedet eller manuskriptet. Når du indtaster indholdet i tekstfeltet \"Markedskort\" eller \"markedets uafhængige webside\" nedenfor, udføres indholdet øjeblikkeligt som kode. Vær forsigtig.",
+    "setNewMarket": "Opret et nyt marked",
+    "settingPreview": "Indstillinger Preview",
+    "marketName": "Markedsnavn",
+    "marketSummary": "Markedsintroduktion",
+    "marketDescription": "Markedsintroduktion",
+    "itemMarket": "Introduktion på markedskort",
+    "fullMarket": "Markedets uafhængige webside",
+    "marketCardPreview": "Forhåndsvisning af markedskort",
+    "marketFullPreview": "Markedsuafhængig webside preview",
+    "isNotSet": "Ikke indstillet"
+  }
+}

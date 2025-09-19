@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "qari bicis"
+    },
+    "dialog": {
+      "title": "qusba qari gin",
+      "form": {
+        "userId": {
+          "label": "Xoqoysima mamaxxaga",
+          "placeholder": "Xoqoysima ID (ceelalloh: @user:example.com)",
+          "error": {
+            "required": "Xoqoysima mamaxxaga foyyam maduuda",
+            "invalid": "Qiddi xoqoysima ID cibta"
+          }
+        },
+        "roomName": {
+          "label": "Room migaq (ophal)",
+          "placeholder": "qari migaq culus"
+        },
+        "isEncrypted": {
+          "label": "Qanxaffe illacabo---- ellecabo cisaabal"
+        },
+        "isDirect": {
+          "label": "Tatrussa"
+        },
+        "topic": {
+          "label": "mabla ( doorit)",
+          "placeholder": "footima culus"
+        }
+      },
+      "actions": {
+        "cancel": "Bayis",
+        "create": "gin"
+      },
+      "success": "Room hadliyyih nagay",
+      "error": "hoxa yekkeh yan wak qari gine: {ror}"
+    }
+  }
+}

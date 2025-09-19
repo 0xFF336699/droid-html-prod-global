@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Kwōn pād wōt ilo kōtaan eo",
+        "helperText": "Eļan̄n̄e kwoj kōļapļo̧k link eo an Star, innām kōjparok link eo. Menin ej aikuj lale bwe link eo enaaj bar kōjepļaaktok ālkin wōt an jako.",
+        "retryCount": "Oran ri-kōṃṃan ."
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "Link URL, ñan waanjoñak eo ear:/192.0.2:7001, ak wws:/roj waanjoñak.com/iaļ.",
+        "error": "URL eo ejimwe ej juon URL eo ej jinoe kin an kar:/ak wws:///"
+      }
+    },
+    "connectButton": {
+      "connect": "koneek",
+      "disconnect": "jolok",
+      "status": {
+        "connecting": "Koneek...",
+        "connected": "Konaj",
+        "disconnecting": "Kōjepelļo̧k...",
+        "disconnected": "Jab kobalok",
+        "waitRetry": "Kōttar an bar koba..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "jeje ko ñan kenono"
+  }
+}

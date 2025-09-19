@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Бафтаут ма .",
+    "sub": {
+      "addScriptByUrl": "Скрипттæ æфтауын URL-ы фæрцы",
+      "addScriptByText": "Скрипттæ æфтауын тексты фæрцы .",
+      "addMarket": "Бафтаут уæд URL-ы фæрцы .",
+      "addMarketByText": "Тексты фæрцы æфтаут базар ."
+    }
+  }
+}

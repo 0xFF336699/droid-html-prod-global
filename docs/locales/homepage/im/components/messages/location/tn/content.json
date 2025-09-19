@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Leina la lefelo",
+    "viewMap": "Leba mmapa",
+    "close": "go tswalwa"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Sebatli sa ga jaana ga se tshegetse go bonwa ga geocation",
+    "getLocationFailed": "Fa o palelwa ke go bona lefelo leo, tsweetswee tlhola diseting tsa tetlelelo",
+    "myLocation": "Lefelo la me",
+    "shareLocation": "Abelana lefelo",
+    "getCurrentLocation": "Bona lefelo la ga jaana",
+    "title": "Leina la lefelo",
+    "description": "Tlhaloso e e tseneletseng",
+    "descriptionPlaceholder": "Tsweetswee tsenya tlhaloso e e feletseng (e e sa tlhokegeng)",
+    "preview": "Tebopele ya Lefelo",
+    "latitude": "latitude",
+    "longitude": "nako",
+    "cancel": "Phimola",
+    "send": "romela",
+    "permissionPrompt": "Re tlhoka go bona tshedimosetso ya lefelo la gago go tlamela ka ditirelo tse di botoka, a e letleletswe?",
+    "permissionDenied": "Tetlelelo ya go baya e a ganwa, tsweetswee kgontsha tetla ya go baya mo diseting tsa sebatli sa gago",
+    "locationTimeout": "Go nna le nako e e beilweng, netefatsa gore sediriswa se a bulelwa mme o leke go bona gape",
+    "locationUnavailable": "Lefelo la ga jaana ga le ka ke la bonwa, tsweetswee tlhola tirelo ya lefelo la sediriswa"
+  }
+}

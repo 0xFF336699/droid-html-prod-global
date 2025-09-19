@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "fungera",
+    "click": "Klick",
+    "longClick": "Långa press",
+    "setText": "Ställa in text",
+    "tryClick": "Prova element eller platsklicka",
+    "globalClick": "Platsklicka"
+  }
+}

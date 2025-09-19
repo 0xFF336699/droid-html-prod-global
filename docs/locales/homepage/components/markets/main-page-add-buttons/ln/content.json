@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Bakisa na na .",
+    "sub": {
+      "addScriptByUrl": "Bobakisa ba scripts na nzela ya URL .",
+      "addScriptByText": "Bakisa ba scripts na nzela ya makomi .",
+      "addMarket": "Bobakisa zando na nzela ya URL .",
+      "addMarketByText": "Bakisa zando na nzela ya makomi ."
+    }
+  }
+}

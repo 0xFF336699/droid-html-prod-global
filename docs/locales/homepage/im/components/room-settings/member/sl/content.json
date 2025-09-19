@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Iskanje članov"
+    },
+    "table": {
+      "columns": {
+        "name": "Ime člana",
+        "userId": "ID uporabnika",
+        "actions": "delovati"
+      },
+      "pagination": {
+        "rowsPerPage": "Število vrstic na stran"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Brcni ven",
+        "ban": "Prepovedano"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Potrdite člana brcanja",
+        "content": "Ste prepričani, da želite člana brcati iz sobe?"
+      },
+      "ban": {
+        "title": "Potrdite prepovedano članstvo",
+        "content": "Ali ste prepričani, da želite prepovedati tega člana? Član po prepovedi se ne bo mogel ponovno pridružiti sobi."
+      },
+      "buttons": {
+        "cancel": "Odpovedati",
+        "confirm": "potrdite"
+      }
+    },
+    "toast": {
+      "loadError": "Ni uspelo naložiti seznama članov",
+      "kick": {
+        "success": "Člani so bili vrženi iz sobe",
+        "error": "Izstreli člane niso uspeli"
+      },
+      "ban": {
+        "success": "Člani blokirani",
+        "error": "Ni uspelo blokirati članov"
+      }
+    },
+    "invite": {
+      "button": "Povabite člane",
+      "title": "Povabite člane, da se pridružijo sobi",
+      "inputLabel": "Vnesite ID uporabnika Matrix (na primer @User: matrix.org)",
+      "confirm": "povabilo",
+      "cancel": "Odpovedati",
+      "loading": "Vabilo ...",
+      "success": "Povabilo poslano!",
+      "error": "Vabilo ni uspelo, preverite ID uporabnika ali dovoljenja"
+    },
+    "empty": "Še nobenega člana",
+    "loading": "nalaganje ...",
+    "role": {
+      "owner": "Lastnik stanovanja",
+      "admin": "skrbnik",
+      "moderator": "Soupravljanje",
+      "user": "član"
+    }
+  }
+}

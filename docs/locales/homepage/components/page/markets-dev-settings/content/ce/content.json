@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "ЗӀе латта .",
+        "helperText": "Нагахь санна ахь Start ссылка тӀе хьажахь, тӀаккха ссылка латтае. Цунна тидам тӀебахийта беза, ссылка хаддаза юхаерзор ю, иза дӀасакъаьстинчул тӀаьхьа.",
+        "retryCount": "Юха а зӀе латторан терахь"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "Link URL, масала ws://192.168.0.2:7001, я wws://example.com/date",
+        "error": "Нийса URL - URL - ws:// я wws:// дӀадолош."
+      }
+    },
+    "connectButton": {
+      "connect": "вовшатоха",
+      "disconnect": "Звукохар",
+      "status": {
+        "connecting": "Цхьаьнакхетар...",
+        "connected": "дӀовш тоьхна",
+        "disconnecting": "ДӀасадаржар...",
+        "disconnected": "ЗӀе ца Ӏийра .",
+        "waitRetry": "Юха а зӀе латторна сатуьйсуш..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "скрипт"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "androidPermission": {
+    "denied": "avvise",
+    "granted": "Autorisert",
+    "shouldAskAgain": "Uautorisert"
+  }
+}

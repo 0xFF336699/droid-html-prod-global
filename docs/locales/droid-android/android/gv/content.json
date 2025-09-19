@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Ta'n aght shoh er ny enmyssey er Android",
+      "noMethod": "Ta'n aght shoh"
+    }
+  }
+}

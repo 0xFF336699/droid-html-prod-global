@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "shanda",
+    "click": "Tinya",
+    "longClick": "Tenderera",
+    "setText": "Gadza zvinyorwa",
+    "tryClick": "Edza chinhu kana nzvimbo tinya",
+    "globalClick": "Nzvimbo tinya"
+  }
+}

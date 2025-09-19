@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Cari anggota"
+    },
+    "table": {
+      "columns": {
+        "name": "Nama Anggota",
+        "userId": "ID Pengguna",
+        "actions": "beroperasi"
+      },
+      "pagination": {
+        "rowsPerPage": "Jumlah baris per halaman"
+      },
+      "avatar": {
+        "alt": "Avatar"
+      },
+      "actions": {
+        "kick": "Menendang keluar",
+        "ban": "Dilarang"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Konfirmasikan anggota tendangan",
+        "content": "Apakah Anda yakin ingin mengusir anggota dari ruangan?"
+      },
+      "ban": {
+        "title": "Konfirmasikan keanggotaan yang dilarang",
+        "content": "Apakah Anda yakin ingin melarang anggota ini? Anggota tidak akan dapat bergabung kembali dengan ruangan setelah larangan."
+      },
+      "buttons": {
+        "cancel": "Membatalkan",
+        "confirm": "mengonfirmasi"
+      }
+    },
+    "toast": {
+      "loadError": "Gagal memuat daftar anggota",
+      "kick": {
+        "success": "Anggota telah dikeluarkan dari ruangan",
+        "error": "Anggota menendang gagal"
+      },
+      "ban": {
+        "success": "Anggota diblokir",
+        "error": "Gagal memblokir anggota"
+      }
+    },
+    "invite": {
+      "button": "Undang anggota",
+      "title": "Mengundang anggota untuk bergabung dengan kamar",
+      "inputLabel": "Harap masukkan ID Pengguna Matrix (seperti @User: Matrix.org)",
+      "confirm": "mengundang",
+      "cancel": "Membatalkan",
+      "loading": "Mengundang ...",
+      "success": "Undangan Dikirim!",
+      "error": "Undangan gagal, silakan periksa ID pengguna atau izin"
+    },
+    "empty": "Belum ada anggota",
+    "loading": "memuat...",
+    "role": {
+      "owner": "Pemilik rumah",
+      "admin": "administrator",
+      "moderator": "Manajemen bersama",
+      "user": "anggota"
+    }
+  }
+}

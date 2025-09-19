@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Beae din .",
+    "viewMap": "Hwɛ asase mfonini no .",
+    "close": "Nneɛma a wɔde to mu ."
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Mprempren browser no ntumi mmoa geolocation acquisition .",
+    "getLocationFailed": "Woantumi annye beae no, yɛsrɛ wo hwɛ kwan nhyehyɛe no .",
+    "myLocation": "Me beae a mewɔ no .",
+    "shareLocation": "Kyɛ beae no .",
+    "getCurrentLocation": "Nya beae a ɛwɔ hɔ mprempren no .",
+    "title": "Beae din .",
+    "description": "Nkyerɛkyerɛmu a ɛkɔ akyiri .",
+    "descriptionPlaceholder": "Yɛsrɛ sɛ kyerɛw nkyerɛkyerɛmu a ɛkɔ akyiri (wopɛ) .",
+    "preview": "Beae a ɛwɔ hɔ no ho nhwɛso .",
+    "latitude": "Latitude .",
+    "longitude": "Longitude .",
+    "cancel": "Twam",
+    "send": "mane",
+    "permissionPrompt": "Ɛsɛ sɛ yenya wo beae ho nsɛm na yɛde nnwuma a eye kyɛn so ama, so wɔma ho kwan?",
+    "permissionDenied": "Positioning ho kwan a wɔpow, yɛsrɛ wo ma positioning ho kwan nyɛ adwuma wɔ wo browser nhyehyɛe mu .",
+    "locationTimeout": "Fa positioning timeout si hɔ, hwɛ hu sɛ woadan afiri no na bɔ mmɔden sɛ wobɛsan anya .",
+    "locationUnavailable": "Worentumi nnya beae a wowɔ mprempren no, yɛsrɛ wo hwɛ Device Location Service ."
+  }
+}

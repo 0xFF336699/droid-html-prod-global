@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Numele camerei"
+      },
+      "topic": {
+        "label": "Introducere în cameră"
+      },
+      "avatar": {
+        "alt": "Avatarul camerei"
+      },
+      "submit": "Salvați setările"
+    },
+    "toast": {
+      "success": "Setări actualizate",
+      "error": {
+        "default": "Actualizarea setărilor au eșuat",
+        "avatar": "Nu a reușit să actualizeze avatarul"
+      }
+    }
+  }
+}

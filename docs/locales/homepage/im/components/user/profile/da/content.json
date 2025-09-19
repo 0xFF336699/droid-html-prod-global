@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Brugeroplysninger",
+    "id": {
+      "name": "Id",
+      "copy": "kopi",
+      "copied": "Id er blevet kopieret"
+    },
+    "notLoggedIn": "Ikke logget ind",
+    "name": "navn",
+    "avatar": "Avatar"
+  }
+}

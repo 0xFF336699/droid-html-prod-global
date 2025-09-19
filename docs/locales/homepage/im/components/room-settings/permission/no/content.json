@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Tillatelsesnivået som kreves for å sende en melding",
+        "tooltip": "0 betyr at alle medlemmer kan sende meldinger, og jo større antall betyr at det kreves høyere tillatelser"
+      },
+      "invite": {
+        "label": "Tillatelsesnivå som kreves for å invitere nye medlemmer",
+        "tooltip": "Sett som kan invitere nye medlemmer til rommet"
+      },
+      "kick": {
+        "label": "Sparke ut det nødvendige tillatelsesnivået",
+        "tooltip": "Sett som kan sparke ut rommedlemmene"
+      },
+      "ban": {
+        "label": "Tillatelsesnivå som kreves for å blokkere medlemmer",
+        "tooltip": "Sett som kan blokkere rommedlemmer"
+      },
+      "roomSettings": {
+        "label": "Endre det nødvendige tillatelsesnivået på rominnstillinger",
+        "tooltip": "Sett som kan endre rominnstillingene"
+      },
+      "submit": "Lagre tillatelsesinnstillinger"
+    },
+    "description": "Tillatelsesnivåområde: 0-100, jo større betyr antallet høyere tillatelser er påkrevd",
+    "toast": {
+      "success": "Tillatelsesinnstillinger er oppdatert",
+      "error": "Kunne ikke oppdatere tillatelsesinnstillinger"
+    }
+  }
+}

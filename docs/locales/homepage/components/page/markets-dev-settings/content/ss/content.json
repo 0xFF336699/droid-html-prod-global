@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Hlala",
+        "helperText": "Uma uchafata kusixhumanisi se-Start, bese ugcina lesixhumanisi. Loku kudzinga kunakwa kutsi lesixhumanisi sitawuphindze sixhumeka njalo ngemuva kwekutsi sincibilike.",
+        "retryCount": "Inani lekuhlanganiswa kabusha"
+      },
+      "url": {
+        "name": "NA",
+        "helperText": "Link URL, sibonelo ws://192.168.0.2:7001, noma wws://sibonelo",
+        "error": "I-URL lefanele yi-URL lecala nge ws:// noma wws://"
+      }
+    },
+    "connectButton": {
+      "connect": "hlanganisa",
+      "disconnect": "ncaba",
+      "status": {
+        "connecting": "Kuxhumana...",
+        "connected": "Kuhlangene",
+        "disconnecting": "Kuncipha...",
+        "disconnected": "Akaxhumane",
+        "waitRetry": "Kulindzela kuphindze uxhumane..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "simo sokuloba"
+  }
+}

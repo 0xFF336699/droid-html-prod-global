@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "ຊື່ຫ້ອງ"
+      },
+      "topic": {
+        "label": "ການແນະນໍາຫ້ອງ"
+      },
+      "avatar": {
+        "alt": "ຫ້ອງ Avatar"
+      },
+      "submit": "ບັນທຶກການຕັ້ງຄ່າ"
+    },
+    "toast": {
+      "success": "ການຕັ້ງຄ່າທີ່ຖືກປັບປຸງ",
+      "error": {
+        "default": "ການຕັ້ງຄ່າອັບເດດລົ້ມເຫລວ",
+        "avatar": "ລົ້ມເຫລວໃນການອັບເດດ avatar"
+      }
+    }
+  }
+}

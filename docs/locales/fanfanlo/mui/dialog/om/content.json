@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Haquu",
+    "confirm": "Sirrii",
+    "title": "kallattii kennaa",
+    "content": "Kana gochuu akka barbaaddu mirkaneeffatteettaa?"
+  },
+  "EditableText": {
+    "cancel": "Haquu",
+    "save": "qusachuu",
+    "title": "gulaaluu"
+  }
+}

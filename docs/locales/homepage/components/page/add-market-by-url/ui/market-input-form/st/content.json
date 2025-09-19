@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Mokhoa oa URL",
+    "full": {
+      "url": "URL ea 'maraka. Litlhaku tse kentsoeng li tla jaroa e le URL, ka kopo ela hloko.",
+      "html": "Litaba tsa HTML. Litlhaku tse kentsoeng li tla etsoa hang-hang e le lingoloa, ka kopo e se hlokolosi.",
+      "come": "Tloho ea ka",
+      "myMarketName": "Lebitso la mmaraka",
+      "stroll": "Ha re nke leeto"
+    },
+    "item": {
+      "url": "URL ea karete ea mmaraka. Litlhaku tse kentsoeng li tla jaroa e le URL, ka kopo ela hloko.",
+      "html": "Litaba tsa HTML. Litlhaku tse kentsoeng li tla etsoa hang-hang e le lingoloa, ka kopo e se hlokolosi.",
+      "come": "Tloho ea ka",
+      "myMarketName": "Lebitso la mmaraka",
+      "stroll": "Ha re nke leeto"
+    }
+  }
+}

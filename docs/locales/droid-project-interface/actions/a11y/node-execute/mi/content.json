@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Nga Mahi Whakataunga",
+    "changeBtnLabel": "whakakapi",
+    "showNodeAllProperties": "Whakaatuhia nga taonga katoa",
+    "wait": {
+      "time": "Te wa tatari",
+      "interval": "Tatari roa",
+      "invisible": "Ahakoa ki te kite i nga huānga ki waho o te mata"
+    }
+  }
+}

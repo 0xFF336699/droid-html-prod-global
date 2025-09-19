@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "twerɛ wo din",
+    "phoneNumber": "Tɛlɛfon nɔma .",
+    "phoneNumberPlaceholder": "Yɛsrɛ sɛ kyerɛw wo fon a wokura kyin nɔma .",
+    "verificationCode": "Nsɛm a wɔde di dwuma wɔ ɔkwan a ɛyɛ nokware so .",
+    "verificationCodePlaceholder": "Yɛsrɛ sɛ kyerɛw verification code no .",
+    "getVerificationCode": "Nya verification code no .",
+    "countdown": "{{seconds}} sekan a wode bɛbɔ mmɔden bio .",
+    "register": "twerɛ wo din",
+    "errors": {
+      "phoneRequired": "Yɛsrɛ sɛ kyerɛw wo fon a wokura kyin nɔma .",
+      "phoneInvalid": "Mobile phone nɔma format no nyɛ nokware .",
+      "codeRequired": "Yɛsrɛ sɛ kyerɛw verification code no .",
+      "codeInvalid": "Verification code format no nyɛ nokware .",
+      "requestFailed": "Abisade no antumi anyɛ yiye .",
+      "verificationFailed": "Verification code a wonyae no antumi anyɛ yiye .",
+      "loginFailed": "Login no adi nkogu ."
+    },
+    "success": {
+      "verificationCodeSent": "Wɔde verification code no amena .",
+      "registerSuccess": "Wɔakyerɛw din yiye ."
+    }
+  }
+}

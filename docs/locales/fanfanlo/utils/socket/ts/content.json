@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Ku hlanganisa...",
+    "connected": "swi hlanganisiwile .",
+    "disconnecting": "Ku tsema vuhlanganisi...",
+    "disconnected": "A swi hlanganisiwanga .",
+    "waitRetry": "Ku rindza ku hlanganisiwa nakambe..."
+  }
+}

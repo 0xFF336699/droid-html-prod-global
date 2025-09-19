@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "පුරනය වන්න / ලේඛනය",
+    "signOut": "ඉවත් වන්න",
+    "confirmContent": "ඔබට ප්රවේශම් වීමට අවශ්ය බව ඔබට විශ්වාසද?",
+    "confirmTitle": "ඉඟිය",
+    "confirm": "ෂුවර්",
+    "cancel": "අවලංගු කරන්න",
+    "signoutOk": "ඉවත් වන්න",
+    "loadingData": "පරිශීලක දත්ත පූරණය කිරීම"
+  }
+}

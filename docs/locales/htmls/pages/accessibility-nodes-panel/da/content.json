@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Visning af tilgængelighedsgrænseflade",
+    "howToUse": "Brug til brug",
+    "howToUseTooltip": "Nedenfor er nogle markeringsattributter for denne knude, der kan bruges til at vælge operationer, såsom klik, udfyldning af tekst osv.\n\nAttributværdien kan duplikeres på appsiden. Hvis du støder på duplikater, skal du overlejre andre attributvalg for at bestemme unikhed.\n\nEt rødt ord indikerer, at attributværdien gentages, et grønt ord indikerer, at attributværdien er unik i den aktuelle sidesøgning, og et sort ord indikerer, at der ikke er nogen gentagen sammenligning.",
+    "otherNodesSummary": "Andre knudepunkter på dette sted",
+    "moreNodes": "Her er hvad der udvides.",
+    "nodeInfoDialogOkButton": "Rediger drift af denne knude",
+    "text": "Tekst 2222"
+  }
+}

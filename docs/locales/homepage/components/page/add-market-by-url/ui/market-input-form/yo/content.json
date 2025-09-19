@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Ilana URL",
+    "full": {
+      "url": "Oja URL. Awọn ohun kikọ ti o wọ yoo wa ni fifuye bi awọn URL, jọwọ ṣọra.",
+      "html": "Ọja Html akoonu. Awọn ohun kikọ ti o wọ yoo pa lẹsẹkẹsẹ bi awọn iwe afọwọkọ, jọwọ wa ṣọra.",
+      "come": "Wa si temi",
+      "myMarketName": "Orukọ ọja",
+      "stroll": "Jẹ ki a rin"
+    },
+    "item": {
+      "url": "URL kaadi ọja. Awọn ohun kikọ ti o wọ yoo wa ni fifuye bi awọn URL, jọwọ ṣọra.",
+      "html": "Ọja Html akoonu. Awọn ohun kikọ ti o wọ yoo pa lẹsẹkẹsẹ bi awọn iwe afọwọkọ, jọwọ wa ṣọra.",
+      "come": "Wa si temi",
+      "myMarketName": "Orukọ ọja",
+      "stroll": "Jẹ ki a rin"
+    }
+  }
+}

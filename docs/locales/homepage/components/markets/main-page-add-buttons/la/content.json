@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Addo",
+    "sub": {
+      "addScriptByUrl": "Add script via URL",
+      "addScriptByText": "Addere scripta per illud",
+      "addMarket": "Addere Market via URL",
+      "addMarketByText": "Addere forum per illud"
+    }
+  }
+}

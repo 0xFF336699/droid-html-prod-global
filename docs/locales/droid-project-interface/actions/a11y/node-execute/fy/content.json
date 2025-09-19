@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "NODE-útfiering",
+    "changeBtnLabel": "ferfange",
+    "showNodeAllProperties": "Lit alle eigenskippen sjen",
+    "wait": {
+      "time": "Wachttiid",
+      "interval": "Wachtsje ynterval",
+      "invisible": "Oft om eleminten bûten it skerm te detektearjen"
+    }
+  }
+}

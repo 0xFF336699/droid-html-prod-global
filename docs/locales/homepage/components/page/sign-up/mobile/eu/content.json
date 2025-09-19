@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "erregistratu",
+    "phoneNumber": "Telefono zenbakia",
+    "phoneNumberPlaceholder": "Mesedez, sartu zure telefono mugikorraren zenbakia",
+    "verificationCode": "Egiaztapen kodea",
+    "verificationCodePlaceholder": "Mesedez, idatzi egiaztapen kodea",
+    "getVerificationCode": "Lortu egiaztapen kodea",
+    "countdown": "{{segundo}} segundo berriro saiatzeko",
+    "register": "erregistratu",
+    "errors": {
+      "phoneRequired": "Mesedez, sartu zure telefono mugikorraren zenbakia",
+      "phoneInvalid": "Telefono mugikorreko zenbaki formatua okerra da",
+      "codeRequired": "Mesedez, idatzi egiaztapen kodea",
+      "codeInvalid": "Egiaztapen kodea formatua okerra da",
+      "requestFailed": "Eskaera huts egin da",
+      "verificationFailed": "Egiaztapen kodea eskuratzea huts egin du",
+      "loginFailed": "Saioa huts egin du"
+    },
+    "success": {
+      "verificationCodeSent": "Egiaztapen kodea bidali da",
+      "registerSuccess": "Arrakastaz erregistratuta"
+    }
+  }
+}

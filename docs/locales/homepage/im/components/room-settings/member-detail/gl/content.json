@@ -1,0 +1,9 @@
+{
+  "MemberDetailContent": {
+    "title": "Detalles do membro",
+    "nickname": "Nome Nick",
+    "role": "Papel",
+    "kick": "Patear",
+    "ban": "Prohibido"
+  }
+}

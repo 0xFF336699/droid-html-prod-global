@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Niveli i lejes që kërkohet për të dërguar një mesazh",
+        "tooltip": "0 do të thotë që të gjithë anëtarët mund të dërgojnë mesazhe, dhe sa më i madh të jetë numri që kërkohen leje më të larta"
+      },
+      "invite": {
+        "label": "Niveli i lejes që kërkohet për të ftuar anëtarë të rinj",
+        "tooltip": "Vendosni kush mund të ftojë anëtarët e rinj në dhomë"
+      },
+      "kick": {
+        "label": "Nxirrni nivelin e kërkuar të lejes",
+        "tooltip": "Vendosni kush mund të nxjerrë anëtarët e dhomës"
+      },
+      "ban": {
+        "label": "Niveli i lejes që kërkohet për bllokimin e anëtarëve",
+        "tooltip": "Vendosni kush mund të bllokojë anëtarët e dhomës"
+      },
+      "roomSettings": {
+        "label": "Modifikoni nivelin e kërkuar të lejes së cilësimeve të dhomës",
+        "tooltip": "Vendosni kush mund të modifikojë cilësimet e dhomës"
+      },
+      "submit": "Ruani cilësimet e lejes"
+    },
+    "description": "Gama e nivelit të lejes: 0-100, sa më i madh të jetë numri do të thotë leje më të larta kërkohen",
+    "toast": {
+      "success": "Cilësimet e lejes janë azhurnuar",
+      "error": "Dështoi të azhurnoni cilësimet e lejes"
+    }
+  }
+}

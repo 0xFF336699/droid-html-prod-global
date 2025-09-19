@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Location name",
+    "viewMap": "View the map",
+    "close": "closure"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "The current browser does not support geolocation acquisition",
+    "getLocationFailed": "Failed to obtain the location, please check the permission settings",
+    "myLocation": "My location",
+    "shareLocation": "Share location",
+    "getCurrentLocation": "Get the current location",
+    "title": "Location name",
+    "description": "Detailed description",
+    "descriptionPlaceholder": "Please enter a detailed description (optional)",
+    "preview": "Location Preview",
+    "latitude": "latitude",
+    "longitude": "longitude",
+    "cancel": "Cancel",
+    "send": "send",
+    "permissionPrompt": "We need to obtain your location information to provide better services, is it allowed?",
+    "permissionDenied": "Positioning permission is denied, please enable Positioning permission in your browser settings",
+    "locationTimeout": "Positioning timeout, make sure the device is turned on and try to reacquire",
+    "locationUnavailable": "The current location cannot be obtained, please check the device location service"
+  }
+}

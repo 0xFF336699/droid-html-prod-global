@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "ᐊᑎᓕᐅᕐᕕᒃ",
+    "phoneNumber": "ᐅᖄᓚᐅᑎᐅᑉ ᓈᓴᐅᑎᖓ",
+    "phoneNumberPlaceholder": "ᐊᑏ ᑎᑎᕋᕐᓗᒍ ᐅᖄᓚᐅᑎᕋᓛᕕᑦ ᓈᓴᐅᑎᖓ",
+    "verificationCode": "ᓇᓗᓇᐃᔭᐃᓂᕐᒧᑦ ᓇᓗᓇᐃᒃᑯᑕᖅ",
+    "verificationCodePlaceholder": "ᐊᑏ ᑎᑎᕋᕐᓗᒍ ᓇᓗᓇᐃᒃᑯᑕᖅ ᓇᓗᓇᐃᒃᑯᑕᖅ",
+    "getVerificationCode": "ᓇᓗᓇᐃᖅᓯᓂᕐᒧᑦ ᓇᓗᓇᐃᒃᑯᑕᖅ ᐱᓗᒍ",
+    "countdown": "{{ᑐᒡᓕᐊᑦᔅ} ᓴᑲᓐᓯᑦ ᐆᒃᑐᒃᑲᓐᓂᕋᓱᐊᕐᓗᑎᑦ",
+    "register": "ᐊᑎᓕᐅᕐᕕᒃ",
+    "errors": {
+      "phoneRequired": "ᐊᑏ ᑎᑎᕋᕐᓗᒍ ᐅᖄᓚᐅᑎᕋᓛᕕᑦ ᓈᓴᐅᑎᖓ",
+      "phoneInvalid": "ᐅᖄᓚᐅᑎᐅᑉ ᓈᓴᐅᑎᖓ ᑕᒻᒪᖅᓯᒪᔪᖅ",
+      "codeRequired": "ᐊᑏ ᑎᑎᕋᕐᓗᒍ ᓇᓗᓇᐃᒃᑯᑕᖅ ᓇᓗᓇᐃᒃᑯᑕᖅ",
+      "codeInvalid": "ᓇᓗᓇᐃᖅᓯᓂᕐᒧᑦ ᓇᓗᓇᐃᒃᑯᑕᖅ ᐋᖅᑭᒃᓯᒪᓂᖓ ᑕᒻᒪᖅᓯᒪᔪᖅ",
+      "requestFailed": "ᑐᒃᓯᕋᐅᑦ ᑲᔪᓯᓚᐅᙱᓚᖅ",
+      "verificationFailed": "ᓇᓗᓇᐃᖅᓯᓂᖅ ᓇᓗᓇᐃᒃᑯᑕᖅ ᓂᐅᕕᕐᓂᖅ ᑲᔪᓯᑦᑎᐊᓚᐅᙱᓚᖅ",
+      "loginFailed": "ᒪᒋᓐ ᑲᔪᓯᑦᑎᐊᓚᐅᙱᓚᖅ"
+    },
+    "success": {
+      "verificationCodeSent": "ᓇᓗᓇᐃᖅᓯᓂᕐᒧᑦ ᓇᓗᓇᐃᒃᑯᑕᖅ ᐊᐅᓪᓚᖅᑎᑕᐅᓯᒪᓕᖅᑐᖅ",
+      "registerSuccess": "ᑎᑎᕋᖅᑕᐅᓯᒪᔪᖅ ᑲᔪᓯᑦᑎᐊᖅᑐᒃᑯᑦ"
+    }
+  }
+}

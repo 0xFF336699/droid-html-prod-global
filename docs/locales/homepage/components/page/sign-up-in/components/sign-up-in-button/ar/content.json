@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "تسجيل الدخول/التسجيل",
+    "signOut": "تسجيل الخروج",
+    "confirmContent": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+    "confirmTitle": "تَلمِيح",
+    "confirm": "بالتأكيد",
+    "cancel": "يلغي",
+    "signoutOk": "تسجيل الخروج",
+    "loadingData": "تحميل بيانات المستخدم"
+  }
+}

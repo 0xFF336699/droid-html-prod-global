@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "ショートカット",
+    "title": "パッケージとアクティビティの認識",
+    "useBtn": "使用",
+    "closeBtn": "閉鎖",
+    "pnLabel": "パッケージ名",
+    "copyButtonText": "コピー",
+    "anLabel": "活動",
+    "clsLable": "クラス"
+  }
+}

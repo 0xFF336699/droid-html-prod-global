@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "由于本应用申请了您手机的大量权限，很多权限具有极高的风险性，所以您在未明确知道该市场或脚本的风险时，请勿导入或执行，一旦您在下面的“市场卡片介绍”或“市场独立网页”文本框内输入内容，该内容将会被立即当作代码执行，请谨慎操作。",
+    "setNewMarket": "设置新市场",
+    "settingPreview": "设置预览",
+    "marketName": "市场名称",
+    "marketSummary": "市场简介",
+    "marketDescription": "市场介绍",
+    "itemMarket": "市场卡片介绍",
+    "fullMarket": "市场独立网页",
+    "marketCardPreview": "市场卡片预览",
+    "marketFullPreview": "市场独立网页预览",
+    "isNotSet": "未设置"
+  }
+}

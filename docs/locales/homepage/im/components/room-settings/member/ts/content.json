@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Ku lavisisa swirho ."
+    },
+    "table": {
+      "columns": {
+        "name": "Vito ra xirho .",
+        "userId": "ID ya mutirhisi .",
+        "actions": "Endla tirha ."
+      },
+      "pagination": {
+        "rowsPerPage": "Nhlayo ya tilayini hi tluka ."
+      },
+      "avatar": {
+        "alt": "Avatar ."
+      },
+      "actions": {
+        "kick": "Kick out .",
+        "ban": "Ku yirisiwa ."
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Tiyisisa xirho xa ku raha .",
+        "content": "Xana u tiyisile leswaku u lava ku hlongola xirho ekamareni?"
+      },
+      "ban": {
+        "title": "Tiyisisa xirho lexi yirisiweke .",
+        "content": "Xana u tiyisile leswaku u lava ku yirisa xirho lexi? Xirho a xi nge swi koti ku tlhela xi joyina kamara endzhaku ka ku yirisiwa."
+      },
+      "buttons": {
+        "cancel": "Khansela",
+        "confirm": "tiyisisa"
+      }
+    },
+    "toast": {
+      "loadError": "Ku tsandzeka ku layicha nxaxamelo wa swirho .",
+      "kick": {
+        "success": "Swirho swi hlongoriwile ekamareni .",
+        "error": "Ku hlongola swirho swi tsandzekile ."
+      },
+      "ban": {
+        "success": "Swirho swi pfaleriwile .",
+        "error": "Ku tsandzekile ku sivela swirho ."
+      }
+    },
+    "invite": {
+      "button": "Rhamba swirho .",
+      "title": "Rhamba swirho ku joyina kamara .",
+      "inputLabel": "Hi kombela u nghenisa ID ya mutirhisi wa Matrix (ku fana na @user:matrix.org) .",
+      "confirm": "rhamba",
+      "cancel": "Khansela",
+      "loading": "Ku rhamba...",
+      "success": "Xirhambo xi rhumeriwile!",
+      "error": "Xirhambo xi tsandzekile, hi kombela u kambela ID ya mutirhisi kumbe mpfumelelo ."
+    },
+    "empty": "Ku hava xirho xa le henhla xa .",
+    "loading": "Ku layicha...",
+    "role": {
+      "owner": "n'wini wa muti .",
+      "admin": "Mulawuri .",
+      "moderator": "Vulawuri-kulobye .",
+      "user": "Xirho ."
+    }
+  }
+}

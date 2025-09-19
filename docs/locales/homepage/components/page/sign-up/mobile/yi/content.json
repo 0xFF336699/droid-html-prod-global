@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "רעגיסטרירן",
+    "phoneNumber": "טעלעפאָנ-נומער",
+    "phoneNumberPlaceholder": "ביטע אַרייַן דיין רירעוודיק טעלעפאָן נומער",
+    "verificationCode": "וועראַפאַקיישאַן קאָד",
+    "verificationCodePlaceholder": "ביטע אַרייַן די וועראַפאַקיישאַן קאָד",
+    "getVerificationCode": "באַקומען די וועראַפאַקיישאַן קאָד",
+    "countdown": "{{BESSITS סטודענטן צו פּרובירן ווידער",
+    "register": "רעגיסטרירן",
+    "errors": {
+      "phoneRequired": "ביטע אַרייַן דיין רירעוודיק טעלעפאָן נומער",
+      "phoneInvalid": "די מאָביל טעלעפאָן נומער פֿאָרמאַט איז פאַלש",
+      "codeRequired": "ביטע אַרייַן די וועראַפאַקיישאַן קאָד",
+      "codeInvalid": "די וועראַפאַקיישאַן קאָד פֿאָרמאַט איז פאַלש",
+      "requestFailed": "בעטן ניט אַנדערש",
+      "verificationFailed": "וועראַפאַקיישאַן קאָד אַקוואַזישאַן ניט אַנדערש",
+      "loginFailed": "לאָגין ניט אַנדערש"
+    },
+    "success": {
+      "verificationCodeSent": "וועראַפאַקיישאַן קאָד איז געשיקט",
+      "registerSuccess": "רעגיסטרירט הצלחה"
+    }
+  }
+}

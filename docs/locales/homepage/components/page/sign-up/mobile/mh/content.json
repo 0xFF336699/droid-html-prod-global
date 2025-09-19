@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "kadeloñ āt",
+    "phoneNumber": "Nōmba",
+    "phoneNumberPlaceholder": "Jouj im likūt nōm̧ba in taļboon eo am̧ .",
+    "verificationCode": "Kout",
+    "verificationCodePlaceholder": "Jouj im likūt kout eo .",
+    "getVerificationCode": "Kwōn bōk kōḷḷā eo .",
+    "countdown": "{{sekow ko} sekoņ ñan bar kajjioñ .",
+    "register": "kadeloñ āt",
+    "errors": {
+      "phoneRequired": "Jouj im likūt nōm̧ba in taļboon eo am̧ .",
+      "phoneInvalid": "Ejjab eṃṃan .",
+      "codeRequired": "Jouj im likūt kout eo .",
+      "codeInvalid": "Ejjab jim̧we .",
+      "requestFailed": "Kajjitōk likjab",
+      "verificationFailed": "Ear jab tōprak an bōk koot .",
+      "loginFailed": "Lojin ear jab tōprak"
+    },
+    "success": {
+      "verificationCodeSent": "Eṃōj aer jilkinḷọk koot in .",
+      "registerSuccess": "Rej jerbal ilo tōprak ."
+    }
+  }
+}

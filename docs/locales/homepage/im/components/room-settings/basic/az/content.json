@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Otaq adı"
+      },
+      "topic": {
+        "label": "Otaq Giriş"
+      },
+      "avatar": {
+        "alt": "Otaq avatarı"
+      },
+      "submit": "Parametrləri saxla"
+    },
+    "toast": {
+      "success": "Parametrlər yeniləndi",
+      "error": {
+        "default": "Yeniləmə parametrləri uğursuz oldu",
+        "avatar": "Avatarı yeniləmək alınmadı"
+      }
+    }
+  }
+}

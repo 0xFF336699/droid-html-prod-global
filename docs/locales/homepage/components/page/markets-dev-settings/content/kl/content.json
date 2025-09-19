@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Attaveqarluarit",
+        "helperText": "Start linki toorukku, taava linki ikkukkit. Tamanna eqqumaffigineqartariaqarpoq linki ingerlaavartumik ataqatigiissinneqassasoq, taanna ataavartumik attaveqartinneqarnerata kingorna.",
+        "retryCount": "Attaveqatigiinnerit amerlassusaat"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "Link URL, assersuutigalugu ws://192.168.0.2:7001, imaluunniit wws://example.com/aqqut",
+        "error": "URL eqqortoq tassaavoq URL-i aallartilluni ws:// imaluunniit wws://"
+      }
+    },
+    "connectButton": {
+      "connect": "atassuteqarneq",
+      "disconnect": "Attaveqarit",
+      "status": {
+        "connecting": "Attaveqarneq...",
+        "connected": "Attaveqaat",
+        "disconnecting": "Attaveqarneq...",
+        "disconnected": "Attaveqanngitsoq",
+        "waitRetry": "Attaveqaqatigiinnermut utaqqineq..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "manuskripti"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "qeydiyyatdan keçmək",
+    "phoneNumber": "Telefon nömrəsi",
+    "phoneNumberPlaceholder": "Zəhmət olmasa mobil telefon nömrənizi daxil edin",
+    "verificationCode": "Doğrulama kodu",
+    "verificationCodePlaceholder": "Zəhmət olmasa doğrulama kodunu daxil edin",
+    "getVerificationCode": "Doğrulama kodunu əldə edin",
+    "countdown": "Yenidən cəhd etmək üçün {{saniyə}} saniyə",
+    "register": "qeydiyyatdan keçmək",
+    "errors": {
+      "phoneRequired": "Zəhmət olmasa mobil telefon nömrənizi daxil edin",
+      "phoneInvalid": "Cib telefonu nömrəsi formatı səhvdir",
+      "codeRequired": "Zəhmət olmasa doğrulama kodunu daxil edin",
+      "codeInvalid": "Doğrulama kodu formatı səhvdir",
+      "requestFailed": "Tələb uğursuz oldu",
+      "verificationFailed": "Doğrulama kodu əldə etmə uğursuz oldu",
+      "loginFailed": "Giriş uğursuz oldu"
+    },
+    "success": {
+      "verificationCodeSent": "Doğrulama kodu göndərildi",
+      "registerSuccess": "Uğurla qeydiyyatdan keçdi"
+    }
+  }
+}

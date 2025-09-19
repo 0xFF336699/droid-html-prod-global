@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Kəlakəl...",
+    "connected": "Kəlakəl",
+    "disconnecting": "Kǝla kǝllǝm...",
+    "disconnected": "Kəllata gənyi",
+    "waitRetry": "Waltəm kəltə nankaro..."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Kora icyumba"
+    },
+    "dialog": {
+      "title": "Kora icyumba gishya",
+      "form": {
+        "userId": {
+          "label": "Indangamuntu",
+          "placeholder": "Injira indangamuntu (urugero: @user: urugero.com)",
+          "error": {
+            "required": "ID ID ntishobora kuba irimo ubusa",
+            "invalid": "Imiterere itemewe"
+          }
+        },
+        "roomName": {
+          "label": "Izina ryubuzima (bidashoboka)",
+          "placeholder": "Injiza izina ryibyumba"
+        },
+        "isEncrypted": {
+          "label": "Gushoboza encryption-irangira"
+        },
+        "isDirect": {
+          "label": "Ubutumwa butaziguye"
+        },
+        "topic": {
+          "label": "Insanganyamatsiko (bidashoboka)",
+          "placeholder": "Injira insanganyamatsiko yicyumba"
+        }
+      },
+      "actions": {
+        "cancel": "Guhagarika",
+        "create": "Kurema"
+      },
+      "success": "Kurema icyumba neza",
+      "error": "Ikosa ryabaye mugihe cyo gukora icyumba: {ikosa}"
+    }
+  }
+}

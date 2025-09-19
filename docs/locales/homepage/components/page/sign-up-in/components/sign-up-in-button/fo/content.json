@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Innrita/Skrápa",
+    "signOut": "Log out",
+    "confirmContent": "Ert tú vísur í, at tú vilt logga út?",
+    "confirmTitle": "ábending",
+    "confirm": "Vísur",
+    "cancel": "strika",
+    "signoutOk": "Log out",
+    "loadingData": "Lastandi brúkaradátur"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Njengoba lolu hlelo lusebenza ngenani elikhulu lemvume kwifoni yakho ephathekayo, izimvume eziningi ziyingozi enkulu, ngakho-ke ungangenisi noma uzikhiphe ngaphandle kokucacisa ubungozi bemakethe noma umbhalo. Lapho usufaka okuqukethwe ku- \"Market Card Card Isingeniso\" noma \"Ikhasi elizimele le-Web ezizimele\" Umbhalo ngezansi, okuqukethwe kuzokwenziwa ngokushesha njengekhodi. Sicela uqaphele.",
+    "setNewMarket": "Setha imakethe entsha",
+    "settingPreview": "Ukubuka kuqala Kwezilungiselelo",
+    "marketName": "Igama lemakethe",
+    "marketSummary": "Isingeniso seMakethe",
+    "marketDescription": "Isingeniso seMakethe",
+    "itemMarket": "Isingeniso sekhadi lemakethe",
+    "fullMarket": "Ikhasi leWebhu elizimele lemakethe",
+    "marketCardPreview": "Ukubuka kuqala Ikhadi Lemakethe",
+    "marketFullPreview": "Ukubuka kuqala Kwekhasi leWebhu ezizimele ezimakethi",
+    "isNotSet": "Ayisethiwe"
+  }
+}

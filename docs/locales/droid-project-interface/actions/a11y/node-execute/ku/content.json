@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Darvekirina node",
+    "changeBtnLabel": "diberdaxistin",
+    "showNodeAllProperties": "Hemî taybetmendiyan nîşan bide",
+    "wait": {
+      "time": "Dema benda",
+      "interval": "Interval li bendê",
+      "invisible": "Gelo tespîtkirina hêmanên li derveyî ekranê"
+    }
+  }
+}

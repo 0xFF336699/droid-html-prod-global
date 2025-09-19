@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Ulanish ...",
+    "connected": "Ulangan",
+    "disconnecting": "Uzbek qilish ...",
+    "disconnected": "Ulanmagan",
+    "waitRetry": "Qayta ishlashni kutish ..."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Kaha ts'ebeliso ena e sebetsa bakeng sa palo e kholo ea tumello ho fono ea hau, kahoo ha ho na kotsi ntle ho ho tseba likotsi tsa mmaraka kapa script. Hang ha u kenya litaba ho \"likarete tsa karete ea 'maraka\" kapa \"Lebokose le ikemetseng la' maraka\" Ke kopa o be le hlokolosi.",
+    "setNewMarket": "Theha mmaraka o mocha",
+    "settingPreview": "Tlhahlobo ea Litlhophiso",
+    "marketName": "Lebitso la mmaraka",
+    "marketSummary": "Selelekeleng sa 'maraka",
+    "marketDescription": "Selelekeleng sa 'maraka",
+    "itemMarket": "Seleleketso sa likarete tsa mmaraka",
+    "fullMarket": "Leqephe le ikemetseng la 'maraka",
+    "marketCardPreview": "Tlhahlobo ea karete ea mmaraka",
+    "marketFullPreview": "Tlhahlobo e ikemetseng ea 'maraka",
+    "isNotSet": "Ha e behe"
+  }
+}

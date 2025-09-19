@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Был ысулды Android-та ғына саҡырырға мөмкин.",
+      "noMethod": "Был ысул юҡ ."
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Deze methode kin allein op Android weure geneump",
+      "noMethod": "Dees methode besteit neet"
+    }
+  }
+}

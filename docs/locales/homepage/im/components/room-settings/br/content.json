@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Arventennoù ar sal",
+    "tabs": {
+      "basic": "Arventennoù diazez",
+      "permission": "Arventennoù an aotre",
+      "privacy": "Arventennoù prevezded",
+      "member": "Merañ an izili"
+    },
+    "loadError": "C'hwitet e voe evit kargañ arventennoù ar sal .",
+    "leaveRoom": {
+      "button": "Mont a ra kuit eus ar sal",
+      "confirm": "Sur oc’h e fell deoc’h mont er-maez eus ar sal ? Goude ma vo er-maez, ne c’hellit ket kenderc’hel da resev kemennadennoù eus ar sal-mañ.",
+      "success": "Er-maez eus ar sal gant berzh",
+      "error": "C'hwitet en deus er-maez eus ar sal, klaskit en-dro mar plij"
+    }
+  }
+}

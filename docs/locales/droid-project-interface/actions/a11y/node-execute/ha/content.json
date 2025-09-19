@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Kisan node",
+    "changeBtnLabel": "canza",
+    "showNodeAllProperties": "Nuna duk kaddarorin",
+    "wait": {
+      "time": "Lokacin jira",
+      "interval": "Jiran lokaci",
+      "invisible": "Ko don gano abubuwan waje a wajen allo"
+    }
+  }
+}

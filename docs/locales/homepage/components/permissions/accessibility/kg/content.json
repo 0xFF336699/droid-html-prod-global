@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Bisalu ya nsadi",
+    "pass": "Muntu ya bo me pesa nswa",
+    "notPass": "kukonda nswa",
+    "setting": "kusala",
+    "danger": "Kigonsa",
+    "dangerDesc": "Nswa yai lenda mona mambu yina kele na ecran mpi kufina na telefone na nge. Katula nswa yai kana nge bakisa ve na pwelele yonso mutindu ya kusala mambu mpi bigonsa ya script yina nge ke sala to yina nge ta sala."
+  }
+}

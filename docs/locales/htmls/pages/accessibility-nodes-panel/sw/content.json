@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Utazamaji wa Maingiliano ya Ufikiaji",
+    "howToUse": "Maagizo ya matumizi",
+    "howToUseTooltip": "Hapo chini kuna sifa za kuashiria za nodi hii ambayo inaweza kutumika kuchagua shughuli, kama kubonyeza, kujaza maandishi, nk.\n\nThamani ya sifa inaweza kurudiwa katika ukurasa wa programu. Ikiwa unakutana na marudio, tafadhali ongeza chaguzi zingine za sifa ili kuamua kipekee.\n\nNeno nyekundu linaonyesha kuwa thamani ya sifa inarudiwa, neno la kijani linaonyesha kuwa thamani ya sifa ni ya kipekee katika utaftaji wa ukurasa wa sasa, na neno nyeusi linaonyesha kuwa hakuna kulinganisha mara kwa mara.",
+    "otherNodesSummary": "Sehemu zingine katika eneo hili",
+    "moreNodes": "Hapa kuna kile kinachopanuliwa.",
+    "nodeInfoDialogOkButton": "Hariri operesheni ya nodi hii",
+    "text": "Nakala 2222"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Mezu bat bidaltzeko beharrezkoa den baimen maila",
+        "tooltip": "0 esan nahi du kide guztiek mezuak bidali ditzaketela, eta zenbat eta handiagoa izan, orduan eta kopuru handiagoa esan nahi da baimen handiagoak behar direla"
+      },
+      "invite": {
+        "label": "Bazkide berriak gonbidatzeko beharrezkoa den baimen maila",
+        "tooltip": "Ezarri kide berriak gelara gonbidatu ditzakeen"
+      },
+      "kick": {
+        "label": "Jarri behar den baimen maila",
+        "tooltip": "Gelaren kideak jaurti ditzakeen multzoa"
+      },
+      "ban": {
+        "label": "Kideak blokeatzeko beharrezkoa den baimen maila",
+        "tooltip": "Ezarri nork blokeatu ditzakeen kideak"
+      },
+      "roomSettings": {
+        "label": "Aldatu behar den baimen maila ezarpenak",
+        "tooltip": "Gelaren ezarpenak nork alda ditzakeen ezarri"
+      },
+      "submit": "Gorde baimen ezarpenak"
+    },
+    "description": "Baimen maila: 0-100, zenbat eta handiagoa izan, orduan eta handiagoa da baimenak baimenak behar direla",
+    "toast": {
+      "success": "Baimen ezarpenak eguneratu dira",
+      "error": "Ezin izan da baimen-ezarpenak eguneratzeko"
+    }
+  }
+}

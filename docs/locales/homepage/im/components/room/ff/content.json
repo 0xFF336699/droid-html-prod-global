@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Jokku suudu nduu",
+      "inviteOnly": "Ko ɗum suudu keeriiɗo, ina ɗaɓɓi noddaango ngam naatde",
+      "knockRequired": "Oo suudu ina ɗaɓɓi ɗaɓɓaande ngam naatde. Ɓoɗɗu butoŋ les oo ngam neldude ɗaɓɓaande jokkondire",
+      "canJoin": "Ko ɗum suudu jamaa, aɗa waawi naatde heen",
+      "sendRequest": "Neldu ɗaɓɓaande jokkondire",
+      "join": "Jokku suudu nduu"
+    },
+    "JoinRequestList": {
+      "noRequests": "Alaa ɗaɓɓaande jokkondire haa jooni",
+      "accept": "jabbugo",
+      "reject": "accugo"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Naat e mesaas..."
+  },
+  "MessageList": {
+    "noMessages": "Alaa fof mesaas tawo, neldu mesaas gadano ngam fuɗɗaade yeewtere ndee!",
+    "loading": "loading...",
+    "error": {
+      "loadFailed": "Waɗii loowde mesaas oo",
+      "retry": "Enndu kadi"
+    },
+    "loadingHistory": "Daartol loading...",
+    "historyEnd": "Kabaruuji gadani ɗi ngari"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Alaa fof mesaas tawo, neldu mesaas gadano ngam fuɗɗaade yeewtere ndee!"
+  },
+  "RoomContent": {
+    "title": "Suudu"
+  },
+  "RoomHeader": {
+    "title": "Suudu",
+    "unnamedRoom": "Suudu ndu innde mum alaa",
+    "members": "tergal",
+    "settings": "taskugo",
+    "leaveRoom": "Accu suudu ndu",
+    "joinRoom": "Jokku suudu nduu"
+  },
+  "RoomMembers": {
+    "title": "Terɗe suudu",
+    "online": "Do ordo",
+    "offline": "Offline",
+    "join": "naatde heen",
+    "invite": "ewnugo",
+    "leave": "eggugo",
+    "ban": "Haɗi",
+    "noMembers": "Alaa tergal tawo",
+    "loading": "loading..."
+  }
+}

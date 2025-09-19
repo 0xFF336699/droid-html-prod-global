@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Ba parametre ya basuku",
+    "tabs": {
+      "basic": "Ba parametre ya mfunu",
+      "permission": "Ba parametre ya nswa",
+      "privacy": "Ba parametre ya kinsweki",
+      "member": "Kutwadisa bantu ya kimvuka"
+    },
+    "loadError": "Kukonda kutula ba parametre ya suku",
+    "leaveRoom": {
+      "button": "Kubasika na suku",
+      "confirm": "Keti nge ke ndima nde nge ke zola kubasika na suku? Na nima ya kubasika, nge ta kuka ve kulanda kubaka bansangu ya suku yai.",
+      "success": "Kubasika mbote na suku",
+      "error": "Kukonda kubasika na suku, pardo meka diaka"
+    }
+  }
+}

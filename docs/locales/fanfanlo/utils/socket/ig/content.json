@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Ijikọ ...",
+    "connected": "Jikọọ",
+    "disconnecting": "Izoputa ...",
+    "disconnected": "Ejikọghị",
+    "waitRetry": "Na-eche ndozi ..."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Execució del node",
+    "changeBtnLabel": "tornar a col·locar",
+    "showNodeAllProperties": "Mostra totes les propietats",
+    "wait": {
+      "time": "Temps d’espera",
+      "interval": "Interval d’espera",
+      "invisible": "Si detectar elements fora de la pantalla"
+    }
+  }
+}

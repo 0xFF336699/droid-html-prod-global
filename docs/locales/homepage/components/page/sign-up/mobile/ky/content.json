@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "Катталуу",
+    "phoneNumber": "Телефон номери",
+    "phoneNumberPlaceholder": "Уюлдук телефон номуруңузду киргизиңиз",
+    "verificationCode": "Текшерүү коду",
+    "verificationCodePlaceholder": "Текшерүү кодун киргизиңиз",
+    "getVerificationCode": "Текшерүү кодун алыңыз",
+    "countdown": "{{Seconds}} Дагы бир жолу аракет кылып көрүңүз",
+    "register": "Катталуу",
+    "errors": {
+      "phoneRequired": "Уюлдук телефон номуруңузду киргизиңиз",
+      "phoneInvalid": "Уюлдук телефон номурун форматы туура эмес",
+      "codeRequired": "Текшерүү кодун киргизиңиз",
+      "codeInvalid": "Текшерүү кодун форматында туура эмес",
+      "requestFailed": "Сураныч ишке ашкан жок",
+      "verificationFailed": "Текшерүү кодун сатып алуу ишке ашкан жок",
+      "loginFailed": "Кирүү ишке ашкан жок"
+    },
+    "success": {
+      "verificationCodeSent": "Текшерүү коду жөнөтүлдү",
+      "registerSuccess": "Ийгиликтүү катталган"
+    }
+  }
+}

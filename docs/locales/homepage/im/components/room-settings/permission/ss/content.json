@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Lizinga lemvume lelidzingekako kute kutfunyelwe umlayeto .",
+        "tooltip": "0 kusho kutsi onkhe emalunga angatfumela imilayeto, futsi linani lelikhulu lisho kutsi kudzingeka timvume letisetulu ."
+      },
+      "invite": {
+        "label": "Lizinga lemvume lelidzingekako kute kumeme emalunga lamasha",
+        "tooltip": "Setha ngubani longamema emalunga lamasha ekamelweni"
+      },
+      "kick": {
+        "label": "Khubula lizinga lemvume lelidzingekako",
+        "tooltip": "Setha ngubani longakhipha emalunga egumbi"
+      },
+      "ban": {
+        "label": "Lizinga lemvume lelidzingekako ekuvimbeleni emalunga",
+        "tooltip": "Setha ngubani longavimba emalunga egumbi"
+      },
+      "roomSettings": {
+        "label": "Kugucula lizinga lemvume lelidzingekako letilungiselelo temagumbi",
+        "tooltip": "Setha ngubani longagucula emasethingi emagumbi"
+      },
+      "submit": "Gcina tilungiselelo temvume"
+    },
+    "description": "Libanga lelizinga lemvume: 0-100, lapho khona inombolo ikhulu imvume lephakeme",
+    "toast": {
+      "success": "Tilungiselelo temisebenti tibuyeketiwe",
+      "error": "Kwehluleke kuvuselela tilungiselelo temvume"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "Voeg bijlagen toe",
+    "emoji": "Selecteer een uitdrukking",
+    "placeholder": "Voer een bericht in ...",
+    "sendLocation": "Stuur locatie",
+    "send": "versturen"
+  }
+}

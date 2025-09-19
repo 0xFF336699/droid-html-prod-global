@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "တည်နေရာအမည်",
+    "viewMap": "မြေပုံကိုကြည့်ပါ",
+    "close": "ရုပ်သိမ်းခြင်း"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "လက်ရှိ browser သည် Geolocation ရယူခြင်းကိုမထောက်ခံပါ",
+    "getLocationFailed": "တည်နေရာမရရှိခဲ့ပါ, ကျေးဇူးပြု. ခွင့်ပြုချက်ဆက်တင်များကိုစစ်ဆေးပါ",
+    "myLocation": "ငါ့တည်နေရာ",
+    "shareLocation": "တည်နေရာမျှဝေပါ",
+    "getCurrentLocation": "လက်ရှိတည်နေရာကိုရယူပါ",
+    "title": "တည်နေရာအမည်",
+    "description": "အသေးစိတ်ဖော်ပြချက်",
+    "descriptionPlaceholder": "အသေးစိတ်ဖော်ပြချက်တစ်ခုကိုဖြည့်ပါ (optional)",
+    "preview": "တည်နေရာ preview",
+    "latitude": "လတီ္တတွဒ်",
+    "longitude": "လောင်ဂျီတွဒ်",
+    "cancel": "ပျက်စေ",
+    "send": "ပေးပို့",
+    "permissionPrompt": "ပိုကောင်းတဲ့ 0 န်ဆောင်မှုတွေပေးဖို့မင်းရဲ့တည်နေရာအချက်အလက်တွေကိုရဖို့လိုသလား။",
+    "permissionDenied": "နေရာချထားခွင့်ပြုချက်ကိုငြင်းပယ်သည်, ကျေးဇူးပြု. သင်၏ browser setting တွင်နေရာချထားခွင့်ပြုပါ",
+    "locationTimeout": "timeout ချထားခြင်း, ကိရိယာကိုဖွင့်ပြီး reacquire လုပ်ပါသေချာအောင်လုပ်ပါ",
+    "locationUnavailable": "လက်ရှိတည်နေရာကိုမရနိုင်ပါ ကျေးဇူးပြု. device တည်နေရာဝန်ဆောင်မှုကိုစစ်ဆေးပါ"
+  }
+}

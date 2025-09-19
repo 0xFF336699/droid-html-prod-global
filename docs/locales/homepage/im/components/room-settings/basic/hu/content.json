@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Szobanév"
+      },
+      "topic": {
+        "label": "Szoba bevezetése"
+      },
+      "avatar": {
+        "alt": "Szoba avatár"
+      },
+      "submit": "Mentés beállításokat"
+    },
+    "toast": {
+      "success": "A beállítások frissítve",
+      "error": {
+        "default": "A beállítások frissítése sikertelen",
+        "avatar": "Nem sikerült frissíteni az Avatarot"
+      }
+    }
+  }
+}

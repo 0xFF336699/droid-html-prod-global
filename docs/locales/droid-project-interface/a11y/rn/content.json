@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "gukoresha",
+    "click": "Kanda",
+    "longClick": "Vigihe",
+    "setText": "Ushireho igisomwa",
+    "tryClick": "Gerageza ikintu canke ahantu kanda",
+    "globalClick": "Aho hantu"
+  }
+}

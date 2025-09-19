@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "dariifa",
+    "viewMap": "karta wagit",
+    "close": "alif"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Awayih uddur browser ma qokol maba.",
+    "getLocationFailed": "arac geyuh hadaf, kumagan cubbus idinih farmooma",
+    "myLocation": "Yi araca",
+    "shareLocation": "tabsiyya",
+    "getCurrentLocation": "awayi arac gey",
+    "title": "dariifa",
+    "description": "Adda baxxaqsa",
+    "descriptionPlaceholder": "Ku maganak addatino le baxxaqsa culus (fayxi)",
+    "preview": "dariifak naharal mabla",
+    "latitude": "madqa",
+    "longitude": "derre",
+    "cancel": "Bayis",
+    "send": "ruubiyya",
+    "permissionPrompt": "Nanu tayseh tan ayfaafayitte xayyosnuh ku arac geynam fanna, toh idnimteh?",
+    "permissionDenied": "Xayyoysiyyi idini diggowteh, ku maganak ku bowser farmoomah addat tan idinih idini",
+    "locationTimeout": "Baxsi uddur, yahaaz fakem kee qagisaanam gibbata",
+    "locationUnavailable": "away yan arac mageytiminna, kumagan cubbus jahaaz arac ayfaafay"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Sala Publicu",
+        "description": "E stanze publiche ponu esse cercate da altri utilizatori"
+      },
+      "allowGuestJoin": {
+        "label": "Permettite à i visitori à unisce",
+        "description": "Permettite à l'utilizatori micca registrati per unisce à a stanza cum'è un invitatu"
+      },
+      "isEncrypted": {
+        "label": "Habilita a criptografia finale",
+        "description": "Quandu attivati, i missaghji in a stanza seranu criptati finlandesi",
+        "alert": "A criptografia finale hè attivata in a stanza, è questu stabilimentu ùn pò micca esse disattivatu."
+      },
+      "submit": "Salvà i paràmetri di privacy"
+    },
+    "toast": {
+      "success": "I paràmetri di privacy sò stati aghjurnati",
+      "error": "Fiascatu à aghjurnà i paràmetri di privacy"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Mɔgɔ minnu bɛ jɛkulu kɔnɔ, olu ɲini ."
+    },
+    "table": {
+      "columns": {
+        "name": "Mɔgɔ tɔgɔ .",
+        "userId": "User ID .",
+        "actions": "Baara kɛ ."
+      },
+      "pagination": {
+        "rowsPerPage": "Layini hakɛ bɛ sɔrɔ ɲɛ kelen na ."
+      },
+      "avatar": {
+        "alt": "Avatar ."
+      },
+      "actions": {
+        "kick": "Kick out .",
+        "ban": "a dagalen don ."
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Aw bɛ a ka kicking membre sɛgɛsɛgɛ .",
+        "content": "Yala i b’a fɛ ka tɔnden gɛn ka bɔ so kɔnɔ wa?"
+      },
+      "ban": {
+        "title": "Ka tɔndenw ka dagalenw dafa .",
+        "content": "Yala aw b'a fɛ ka nin tɔnden in bali wa? Mɔgɔ min ye tɔnden ye, o tɛna se ka don so kɔnɔ kokura o balili kɔfɛ."
+      },
+      "buttons": {
+        "cancel": "ka dankari",
+        "confirm": "sɛmɛntiya"
+      }
+    },
+    "toast": {
+      "loadError": "A ma se ka mɔgɔw ka lisi doni .",
+      "kick": {
+        "success": "Mɔgɔw ​​ye u sen don so kɔnɔ .",
+        "error": "Kicking out tɔndenw ma se ."
+      },
+      "ban": {
+        "success": "Mɔgɔw ​​balilen don .",
+        "error": "a ma se ka tɔndenw bali ."
+      }
+    },
+    "invite": {
+      "button": "Mɔgɔ minnu bɛ jɛkulu kɔnɔ, olu wele .",
+      "title": "Aw ye tɔndenw wele u ka don so kɔnɔ .",
+      "inputLabel": "Aw ye Matrix User ID sɛbɛn (i n’a fɔ @user:matrix.org)",
+      "confirm": "ka wele",
+      "cancel": "ka dankari",
+      "loading": "A bɛ wele ko...",
+      "success": "welesɛbɛn cilen!",
+      "error": "welesɛbɛn ma ɲɛ, aw ye baarakɛla ka ID walima a ka yamaruyaw lajɛ ."
+    },
+    "empty": "Mɔgɔ si ma sɔrɔ fɔlɔ .",
+    "loading": "Loading...",
+    "role": {
+      "owner": "Sotigi .",
+      "admin": "Administrateur .",
+      "moderator": "Co-management .",
+      "user": "Mɔgɔ ."
+    }
+  }
+}

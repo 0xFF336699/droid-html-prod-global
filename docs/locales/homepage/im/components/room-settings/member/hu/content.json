@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Keressen a tagokat"
+    },
+    "table": {
+      "columns": {
+        "name": "Tag neve",
+        "userId": "Felhasználói azonosító",
+        "actions": "működik"
+      },
+      "pagination": {
+        "rowsPerPage": "A sorok száma oldalonként"
+      },
+      "avatar": {
+        "alt": "avatár"
+      },
+      "actions": {
+        "kick": "Kirúg",
+        "ban": "Tiltott"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Erősítse meg a Kicking tagot",
+        "content": "Biztos benne, hogy ki akarja dobni a tagot a szobából?"
+      },
+      "ban": {
+        "title": "Erősítse meg a tiltott tagságot",
+        "content": "Biztos benne, hogy be akarja tiltani ezt a tagot? A tag nem lesz képes újra csatlakozni a helyiséghez a tilalom után."
+      },
+      "buttons": {
+        "cancel": "Töröl",
+        "confirm": "megerősít"
+      }
+    },
+    "toast": {
+      "loadError": "Nem sikerült betölteni a taglistát",
+      "kick": {
+        "success": "A tagokat kiszabadították a szobából",
+        "error": "A tagok kirúgása kudarcot vallott"
+      },
+      "ban": {
+        "success": "A tagok blokkoltak",
+        "error": "Nem sikerült blokkolni a tagokat"
+      }
+    },
+    "invite": {
+      "button": "Meghívja a tagokat",
+      "title": "Hívja meg a tagokat, hogy csatlakozzanak a szobába",
+      "inputLabel": "Kérjük, írja be a Matrix felhasználói azonosítót (például a @User: Matrix.org)",
+      "confirm": "meghív",
+      "cancel": "Töröl",
+      "loading": "Hívogató...",
+      "success": "Meghívó elküldve!",
+      "error": "Meghívás sikertelen, kérjük, ellenőrizze a felhasználói azonosítóját vagy engedélyeit"
+    },
+    "empty": "Még nincs tag",
+    "loading": "terhelés...",
+    "role": {
+      "owner": "Háztulajdonos",
+      "admin": "adminisztrátor",
+      "moderator": "Társigazgatás",
+      "user": "tag"
+    }
+  }
+}

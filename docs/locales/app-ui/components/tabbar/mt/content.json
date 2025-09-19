@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "paġna ta 'quddiem",
+    "me": "tiegħi",
+    "settings": "Imwaqqaf",
+    "script": "skript",
+    "store": "suq",
+    "market": "suq",
+    "create": "Oħloq"
+  },
+  "tabbar": {
+    "test": "Bar tal-qiegħ tal-menu"
+  }
+}

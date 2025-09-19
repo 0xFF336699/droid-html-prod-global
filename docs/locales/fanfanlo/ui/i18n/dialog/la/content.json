@@ -1,0 +1,11 @@
+{
+  "content": {
+    "ok": "Certus",
+    "cancel": "Inrito",
+    "delete": "delete",
+    "edit": "edit",
+    "save": "salve",
+    "close": "claustra",
+    "confirm": "confirmo"
+  }
+}

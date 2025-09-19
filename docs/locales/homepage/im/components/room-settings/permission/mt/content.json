@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Il-livell ta 'permess meħtieġ biex tibgħat messaġġ",
+        "tooltip": "0 ifisser li l-membri kollha jistgħu jibagħtu messaġġi, u iktar ikun hemm in-numru ifisser li huma meħtieġa permessi ogħla"
+      },
+      "invite": {
+        "label": "Livell ta 'permess meħtieġ biex jistiednu membri ġodda",
+        "tooltip": "Issettja min jista 'jistieden membri ġodda fil-kamra"
+      },
+      "kick": {
+        "label": "Kick out il-livell ta 'permess meħtieġ",
+        "tooltip": "Issettja min jista 'joħroġ il-membri tal-kamra"
+      },
+      "ban": {
+        "label": "Livell ta 'permess meħtieġ għall-imblukkar tal-membri",
+        "tooltip": "Issettja min jista 'jimblokka l-membri tal-kamra"
+      },
+      "roomSettings": {
+        "label": "Ibdel il-livell ta 'permess meħtieġ ta' settings tal-kamra",
+        "tooltip": "Issettja min jista 'jimmodifika l-issettjar tal-kamra"
+      },
+      "submit": "Issejvja l-issettjar tal-permess"
+    },
+    "description": "Firxa tal-Livell tal-Permess: 0-100, iktar ikun hemm bżonn in-numru.",
+    "toast": {
+      "success": "L-issettjar tal-permess ġie aġġornat",
+      "error": "Naqas milli taġġorna l-issettjar tal-permess"
+    }
+  }
+}

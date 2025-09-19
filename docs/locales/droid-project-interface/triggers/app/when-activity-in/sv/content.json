@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "När du anger den angivna sidan",
+    "pnLabel": "Paketnamn:",
+    "anLabel": "Aktivitetsnamn:",
+    "cnLabel": "Klassnamn:",
+    "changeBtnLabel": "ersätta"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "När du anger den angivna sidan",
+    "pnLabel": "Paketnamn:",
+    "anLabel": "Aktivitetsnamn:",
+    "cnLabel": "Klassnamn:",
+    "changeBtnLabel": "ersätta"
+  }
+}

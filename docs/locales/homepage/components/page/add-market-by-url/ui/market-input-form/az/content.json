@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Url naxışı",
+    "full": {
+      "url": "Bazar URL. Daxil olan personajlar URL kimi yüklənəcək, xahiş edirəm diqqətli olun.",
+      "html": "Market HTML məzmunu. Daxil olan personajlar dərhal skript olaraq icra ediləcək, zəhmət olmasa ehtiyatlı olun.",
+      "come": "Mina gəlmək",
+      "myMarketName": "Bazar adı",
+      "stroll": "Gəlin gəzək"
+    },
+    "item": {
+      "url": "Bazar kartı URL. Daxil olan personajlar URL kimi yüklənəcək, xahiş edirəm diqqətli olun.",
+      "html": "Market HTML məzmunu. Daxil olan personajlar dərhal skript olaraq icra ediləcək, zəhmət olmasa ehtiyatlı olun.",
+      "come": "Mina gəlmək",
+      "myMarketName": "Bazar adı",
+      "stroll": "Gəlin gəzək"
+    }
+  }
+}

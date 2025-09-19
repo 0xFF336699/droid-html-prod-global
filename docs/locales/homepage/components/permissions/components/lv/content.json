@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Pilnvarots",
+    "notPass": "Neatļauts",
+    "danger": "Briesmas",
+    "setting": "uzstādīt"
+  }
+}

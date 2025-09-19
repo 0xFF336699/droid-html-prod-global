@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Procure por membros"
+    },
+    "table": {
+      "columns": {
+        "name": "Nome do membro",
+        "userId": "ID do usuário",
+        "actions": "operar"
+      },
+      "pagination": {
+        "rowsPerPage": "Número de linhas por página"
+      },
+      "avatar": {
+        "alt": "Avatar"
+      },
+      "actions": {
+        "kick": "Expulsar",
+        "ban": "Banido"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Confirme o membro de chutes",
+        "content": "Tem certeza de que deseja expulsar o membro da sala?"
+      },
+      "ban": {
+        "title": "Confirme a associação proibida",
+        "content": "Tem certeza de que deseja proibir este membro? O membro não poderá se juntar à sala após a proibição."
+      },
+      "buttons": {
+        "cancel": "Cancelar",
+        "confirm": "confirmar"
+      }
+    },
+    "toast": {
+      "loadError": "Falha ao carregar a lista de membros",
+      "kick": {
+        "success": "Os membros foram expulsos da sala",
+        "error": "Chutando os membros falharam"
+      },
+      "ban": {
+        "success": "Membros bloqueados",
+        "error": "Falhou em bloquear membros"
+      }
+    },
+    "invite": {
+      "button": "Convide membros",
+      "title": "Convide membros para se juntar à sala",
+      "inputLabel": "Por favor, digite o ID de usuário Matrix (como @User: Matrix.org)",
+      "confirm": "convidar",
+      "cancel": "Cancelar",
+      "loading": "Convidativo...",
+      "success": "Convite enviado!",
+      "error": "Falha no convite, verifique o ID do usuário ou as permissões"
+    },
+    "empty": "Nenhum membro ainda",
+    "loading": "carregando...",
+    "role": {
+      "owner": "Proprietário",
+      "admin": "administrador",
+      "moderator": "Co-gestão",
+      "user": "membro"
+    }
+  }
+}

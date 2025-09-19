@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "節點執行",
+    "changeBtnLabel": "更換",
+    "showNodeAllProperties": "顯示所有屬性",
+    "wait": {
+      "time": "等待時間",
+      "interval": "等待間隔",
+      "invisible": "是否檢測屏幕外的元素"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "irejistara",
+    "phoneNumber": "Fala i- .",
+    "phoneNumberPlaceholder": "Ngabona ukuthi ngifuna ukusiza.",
+    "verificationCode": "Ukuhlola .",
+    "verificationCodePlaceholder": "Ngaqala ukuxaxazulula .",
+    "getVerificationCode": "Ukukhiqizwa kwe-.",
+    "countdown": "Ukuzibabali izazini.",
+    "register": "irejistara",
+    "errors": {
+      "phoneRequired": "Ngabona ukuthi ngifuna ukusiza.",
+      "phoneInvalid": "Iqembu evame ukulalala i- .",
+      "codeRequired": "Ngaqala ukuxaxazulula .",
+      "codeInvalid": "Hlala ihlobo .",
+      "requestFailed": "# .",
+      "verificationFailed": "Ukutjhuguluka kuhlala kuhlala kuhlala.",
+      "loginFailed": "Thaka."
+    },
+    "success": {
+      "verificationCodeSent": "Hlala avela.",
+      "registerSuccess": "Hlala i-4"
+    }
+  }
+}

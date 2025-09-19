@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Sajoo kutaa .",
+    "tabs": {
+      "basic": "Sajoo bu'uuraa .",
+      "permission": "Sajoo hayyamaa .",
+      "privacy": "Sajoo Iccitii .",
+      "member": "Hoggansa miseensotaa ."
+    },
+    "loadError": "Sajoo kutaa fe'uu hin dandeenye .",
+    "leaveRoom": {
+      "button": "Kutaa keessaa ba'aa .",
+      "confirm": "Kutaa keessaa bahuu akka barbaaddu mirkaneeffatteettaa? Erga baatee booda kutaa kana keessaa ergaa argachuu itti fufuu hin dandeessu.",
+      "success": "Kutaa keessaa milkaa'inaan ba'e .",
+      "error": "Kutaa keessaa bahuu dadhabe, maaloo irra deebi'ii yaali ."
+    }
+  }
+}

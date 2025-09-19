@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Ainm àite",
+    "viewMap": "Thoir sùil air a 'mhapa",
+    "close": "dùnadh"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Chan eil am brabhsair làithreach a 'toirt taic do cheannach geolocation",
+    "getLocationFailed": "Dh'fhàillig an t-àite fhaighinn, thoir sùil air na roghainnean cead",
+    "myLocation": "Mo shuidheachadh",
+    "shareLocation": "Roinn Suidheachadh",
+    "getCurrentLocation": "Faigh an t-àite gnàthach",
+    "title": "Ainm àite",
+    "description": "Tuairisgeul mionaideach",
+    "descriptionPlaceholder": "Cuir a-steach tuairisgeul mionaideach (roghainneil)",
+    "preview": "Ro-shealladh àite",
+    "latitude": "domhan-leud",
+    "longitude": "b 'fheàrr leotha",
+    "cancel": "Sguir dheth",
+    "send": "cuir",
+    "permissionPrompt": "Feumaidh sinn am fiosrachadh suidheachaidh agad fhaighinn gus seirbheisean nas fheàrr a thoirt seachad, a tha ceadaichte?",
+    "permissionDenied": "Thathas a 'diùltadh cead a dhreuchd a dhiùltadh, feuch an urrainn dhut cothrom a thoirt do chead ann an roghainnean do bhrobhsair",
+    "locationTimeout": "Suidheachadh sia-ùine, dèan cinnteach gu bheil an inneal air a thionndadh air agus a 'feuchainn ri ath-cheannach",
+    "locationUnavailable": "Chan fhaighear an t-àite làithreach, thoir sùil air seirbheis suidheachaidh inneal"
+  }
+}

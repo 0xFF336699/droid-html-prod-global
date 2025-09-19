@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "ورود به سیستم/ثبت نام",
+    "signOut": "بیرون رفتن",
+    "confirmContent": "آیا مطمئن هستید که می خواهید از سیستم خارج شوید؟",
+    "confirmTitle": "اشاره",
+    "confirm": "مطمئن",
+    "cancel": "لغو کردن",
+    "signoutOk": "بیرون رفتن",
+    "loadingData": "بارگیری داده های کاربر"
+  }
+}

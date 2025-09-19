@@ -1,0 +1,7 @@
+{
+  "RoomContentV2": {
+    "waitingForLogin": "कृपया प्रथम लॉग इन करा",
+    "loadingRoomInfo": "खोलीची माहिती लोड करीत आहे ...",
+    "roomNotFound": "खोली सापडली नाही"
+  }
+}

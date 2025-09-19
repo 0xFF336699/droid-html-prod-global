@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Pomožne funkcije",
+    "pass": "Pooblaščeno",
+    "notPass": "Nepooblaščen",
+    "setting": "nastavite",
+    "danger": "Nevarnost",
+    "dangerDesc": "To pooblastilo lahko vidi vsebino na zaslonu in klikne telefon. Onemogočite to dovoljenje, če ne boste izrecno razumeli funkcionalnosti in tveganj skripta, ki ga izvajate ali se boste izvajali."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "sech umellen",
+    "phoneNumber": "Telefonsnummer",
+    "phoneNumberPlaceholder": "Gitt w.e.g. Är Handysnummer un",
+    "verificationCode": "Sëcherheetscode",
+    "verificationCodePlaceholder": "Gitt weg de Verifikatiounscode an",
+    "getVerificationCode": "Kritt de Verifikatiounscode",
+    "countdown": "{{Sekonnen}} Sekonnen fir erëm ze probéieren",
+    "register": "sech umellen",
+    "errors": {
+      "phoneRequired": "Gitt w.e.g. Är Handysnummer un",
+      "phoneInvalid": "Den Handysnummer Format ass falsch",
+      "codeRequired": "Gitt weg de Verifikatiounscode an",
+      "codeInvalid": "De Verifikatiounscode Format ass falsch",
+      "requestFailed": "Ufro gescheitert",
+      "verificationFailed": "Verifizéierungscode Acquisitioun gescheitert",
+      "loginFailed": "Login gescheitert"
+    },
+    "success": {
+      "verificationCodeSent": "Verifikatiounscode gouf geschéckt",
+      "registerSuccess": "Erfollegräich ugemellt"
+    }
+  }
+}

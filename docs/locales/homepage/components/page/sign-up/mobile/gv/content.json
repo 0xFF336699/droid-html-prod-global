@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "recort",
+    "phoneNumber": "Immee",
+    "phoneNumberPlaceholder": "Cur-my-ner dty uimhir phone",
+    "verificationCode": "Coad oltooanagh",
+    "verificationCodePlaceholder": "Cur-my-ner y code verify",
+    "getVerificationCode": "Faigh y code verify",
+    "countdown": "{{second}6 secndyn dy try reesht",
+    "register": "recort",
+    "errors": {
+      "phoneRequired": "Cur-my-ner dty uimhir phone",
+      "phoneInvalid": "Ta'n form uimhir phone mobile ry-akin",
+      "codeRequired": "Cur-my-ner y code verify",
+      "codeInvalid": "Ta'n form code verify neu-ghooghyssagh",
+      "requestFailed": "Cha dod",
+      "verificationFailed": "Cha dod ymmyd y yannoo",
+      "loginFailed": "Cha dod Login"
+    },
+    "success": {
+      "verificationCodeSent": "Ta'n coad vractor er ny choyrt",
+      "registerSuccess": "Clasht"
+    }
+  }
+}

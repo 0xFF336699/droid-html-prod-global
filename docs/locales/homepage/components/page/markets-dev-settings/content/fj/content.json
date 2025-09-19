@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Taucoko",
+        "helperText": "Kevaka o tabaka na isema ni Starrt, qai maroroya na isema. Oqo e gadrevi kina na kena nanumi ni na vakadeitaki tale tiko na isema ni oti na kena sa vakasaurarataki.",
+        "retryCount": "E lailai na lewe ni lotu."
+      },
+      "url": {
+        "name": "Tekivu oti",
+        "helperText": "Vakarorogo ki na URL, me kena ivakaraitaki oqo://192.168.0.0.0.2:7001, se wss:///vakananavi.",
+        "error": "Na URL e dua na URL e tekivu ena ws:// se wss://."
+      }
+    },
+    "connectButton": {
+      "connect": "sema",
+      "disconnect": "veika ekena",
+      "status": {
+        "connecting": "dina ga .",
+        "connected": "Lekeli",
+        "disconnecting": "Veisisiviti...",
+        "disconnected": "Sega ni bula",
+        "waitRetry": "Na waraka na reguregu…"
+      }
+    }
+  },
+  "Scripts": {
+    "title": "ivolanikalou"
+  }
+}

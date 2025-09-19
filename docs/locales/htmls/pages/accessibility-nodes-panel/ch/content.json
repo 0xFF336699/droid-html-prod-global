@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "I inafekta",
+    "howToUse": "Instruksion siha para",
+    "howToUseTooltip": "Gi papa’ este na siñat, guaha atributon-ña gi este na node ni’ siña ma usa para u ma selekta operasion siha, taiguihi i klika, u ma na’setbe i tinige’, yan otro siha.\n\nI atributo na balotu siña ma duplika gi i app na pahina. Yanggen un enkuentra duplica siha, fa’na’an i otro na atributo siha para un ditetmina i uniku.\n\nUn palabra red ha na’siguru na i atributo balotu manma ripiti, un palabra ni’ verde ha indica na i atributo balotu siha ni’ uniku gi i presente na pahina på’go, ya un palabra ni’ negro ha indica na taya’ ripitision na kumparasion.",
+    "otherNodesSummary": "Otro na nodu gi este na asunto?",
+    "moreNodes": "Estague' i ma'ekspande.",
+    "nodeInfoDialogOkButton": "Edulat este na not",
+    "text": "Texto 22222"
+  }
+}

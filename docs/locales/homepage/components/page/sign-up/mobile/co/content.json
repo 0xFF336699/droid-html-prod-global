@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "registrate",
+    "phoneNumber": "Numeru di telefonu",
+    "phoneNumberPlaceholder": "Per piacè scrivite u vostru numeru di telefuninu",
+    "verificationCode": "Codice di verificazione",
+    "verificationCodePlaceholder": "Per piacè scrivite u codice di verificazione",
+    "getVerificationCode": "Get u codice di verificazione",
+    "countdown": "{{seconde}} seconde per pruvà di novu",
+    "register": "registrate",
+    "errors": {
+      "phoneRequired": "Per piacè scrivite u vostru numeru di telefuninu",
+      "phoneInvalid": "U furmatu di u numeru di u telefuninu mobile hè sbagliatu",
+      "codeRequired": "Per piacè scrivite u codice di verificazione",
+      "codeInvalid": "U formatu di codice di verificazione hè sbagliatu",
+      "requestFailed": "A dumanda hà fiascatu",
+      "verificationFailed": "L'acquisizione di u codice di verificazione hà fallutu",
+      "loginFailed": "Login hà fiascatu"
+    },
+    "success": {
+      "verificationCodeSent": "U codice di verificazione hè statu mandatu",
+      "registerSuccess": "Registratu cun successu"
+    }
+  }
+}

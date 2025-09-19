@@ -1,0 +1,9 @@
+{
+  "MemberDetailContent": {
+    "title": "Detalii despre membri",
+    "nickname": "Nick Name",
+    "role": "Rol",
+    "kick": "Ieșiți afară",
+    "ban": "Interzis"
+  }
+}

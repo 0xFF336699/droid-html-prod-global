@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Kufwa node",
+    "changeBtnLabel": "kuyingisa",
+    "showNodeAllProperties": "Monisa bikalulu yonso",
+    "wait": {
+      "time": "Ntangu ya kuvingila",
+      "interval": "Ntangu ya kukinga",
+      "invisible": "Kana nge zaba bima yina kele na nganda ya ecran ."
+    }
+  }
+}

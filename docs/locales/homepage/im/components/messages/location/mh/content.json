@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Etan jikin eo",
+    "viewMap": "Lale māp eo .",
+    "close": "jemlok; emōj"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Browser eo kiiō ejjab jipan̄ bōk m̧weiuk ko .",
+    "getLocationFailed": "Ejjab bōk jikin eo, jouj im lale jikin ko rej pād ie .",
+    "myLocation": "Ijok jokwe ie",
+    "shareLocation": "Jikin kwalok",
+    "getCurrentLocation": "Kwōn bōk jikin eo kiiō .",
+    "title": "Etan jikin eo",
+    "description": "Eḷap an kōmjaaḷaḷ .",
+    "descriptionPlaceholder": "Jouj im likūt juon kōmeļeļe eļap (kālet)",
+    "preview": "Jikin laajrak in jikin",
+    "latitude": "lamic",
+    "longitude": "lōñ",
+    "cancel": "Jolok",
+    "send": "jilkinlok",
+    "permissionPrompt": "Jej aikuj bōk meļeļe ko kōn jikin eo am̧ n̄an leļo̧k jerbal ko rem̧m̧anļo̧k, ej ke kōtļo̧k?",
+    "permissionDenied": "Ej bōbrae mālim eo n̄an kwaļo̧k, jouj im kōm̧m̧an bwe en wōr mālim eo an Position ilo jikin ko kwoj kōm̧m̧ani .",
+    "locationTimeout": "Iien eo ej kwaļo̧k, kōm̧m̧an bwe kein jerbal eo en kōjem̧ļo̧k im kajjieon̄ bar bōk .",
+    "locationUnavailable": "Jikin eo kiiō ejjab maroñ in bōk jikin, jouj im lale jerbal in device eo ."
+  }
+}

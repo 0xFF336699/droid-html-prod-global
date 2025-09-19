@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "ব্যৱহাৰকাৰীৰ তথ্য",
+    "id": {
+      "name": "ID",
+      "copy": "কপি কৰক",
+      "copied": "id কপি কৰা হৈছে"
+    },
+    "notLoggedIn": "লগ ইন কৰা হোৱা নাই",
+    "name": "নাম",
+    "avatar": "Avatar"
+  }
+}

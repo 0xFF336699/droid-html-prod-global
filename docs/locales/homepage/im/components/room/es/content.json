@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Unirse a la habitación",
+      "inviteOnly": "Esta es una habitación privada y requiere invitaciones para unirse",
+      "knockRequired": "Esta sala requiere una aplicación para unirse. Haga clic en el botón de abajo para enviar la solicitud de unión",
+      "canJoin": "Esta es una sala pública, puedes unirte directamente",
+      "sendRequest": "Enviar una solicitud de unión",
+      "join": "Unirse a la habitación"
+    },
+    "JoinRequestList": {
+      "noRequests": "No hay solicitud de unión todavía",
+      "accept": "aceptar",
+      "reject": "rechazar"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Ingrese un mensaje ..."
+  },
+  "MessageList": {
+    "noMessages": "Todavía no hay mensaje, ¡envíe el primer mensaje para comenzar la conversación!",
+    "loading": "cargando...",
+    "error": {
+      "loadFailed": "No se pudo cargar el mensaje",
+      "retry": "Intentar otra vez"
+    },
+    "loadingHistory": "Historial de carga ...",
+    "historyEnd": "La primera noticia ha llegado"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Todavía no hay mensaje, ¡envíe el primer mensaje para comenzar la conversación!"
+  },
+  "RoomContent": {
+    "title": "Habitación"
+  },
+  "RoomHeader": {
+    "title": "Habitación",
+    "unnamedRoom": "Habitación sin nombre",
+    "members": "miembro",
+    "settings": "configuración",
+    "leaveRoom": "Dejar la habitación",
+    "joinRoom": "Unirse a la habitación"
+  },
+  "RoomMembers": {
+    "title": "Miembros de la habitación",
+    "online": "En línea",
+    "offline": "Desconectado",
+    "join": "participar",
+    "invite": "invitar",
+    "leave": "dejar",
+    "ban": "Prohibido",
+    "noMembers": "No hay miembro todavía",
+    "loading": "cargando..."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Mesaj göndərmək üçün tələb olunan icazə səviyyəsi",
+        "tooltip": "0 deməkdir ki, bütün üzvlər mesaj göndərə bilər və daha böyük sayda daha yüksək icazələrin tələb olunduğu deməkdir"
+      },
+      "invite": {
+        "label": "Yeni üzvləri dəvət etmək üçün icazə səviyyəsi tələb olunur",
+        "tooltip": "Yeni üzvləri otağa dəvət edə biləcəyini seçin"
+      },
+      "kick": {
+        "label": "Tələb olunan icazənin səviyyəsini vurun",
+        "tooltip": "Otaq üzvlərini kim başlatdı"
+      },
+      "ban": {
+        "label": "Üzvləri bloklamaq üçün tələb olunan icazə səviyyəsi",
+        "tooltip": "Otaq üzvlərini kim maneə törədə bilər"
+      },
+      "roomSettings": {
+        "label": "Otaq parametrlərinin tələb olunan icazə səviyyəsini dəyişdirin",
+        "tooltip": "Otaq parametrlərini kim dəyişdirə biləcəyini seçin"
+      },
+      "submit": "İcazə parametrlərini qeyd edin"
+    },
+    "description": "İcazə səviyyəsi aralığı: 0-100, sayı nə qədər böyükdür, daha yüksək icazələr tələb olunur",
+    "toast": {
+      "success": "İcazə parametrləri yeniləndi",
+      "error": "İcazə parametrlərini yeniləmək alınmadı"
+    }
+  }
+}

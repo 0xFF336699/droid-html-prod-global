@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Заасан хуудсыг оруулахдаа",
+    "pnLabel": "Багцын нэр:",
+    "anLabel": "Үйл ажиллагааны нэр:",
+    "cnLabel": "Чэмлийн Хүн:",
+    "changeBtnLabel": "буцааж тавих"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Заасан хуудсыг оруулахдаа",
+    "pnLabel": "Багцын нэр:",
+    "anLabel": "Үйл ажиллагааны нэр:",
+    "cnLabel": "Чэмлийн Хүн:",
+    "changeBtnLabel": "буцааж тавих"
+  }
+}

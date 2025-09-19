@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Raum Astellunge",
+    "tabs": {
+      "basic": "Basis Astellungen",
+      "permission": "Erlaabungs-Astellungen",
+      "privacy": "Privatsphär Astellunge",
+      "member": "Memberschaft"
+    },
+    "loadError": "Feeler beim Lasta Astellunge ginn",
+    "leaveRoom": {
+      "button": "Fuert aus dem Raum",
+      "confirm": "Sidd Dir sécher, datt Dir de Raum erausgeet wëllt? Nodeems Dir erausgeet, kënnt Dir net fäeg sinn Messagen ze kréien vun dësem Raum.",
+      "success": "Den Zëmmer erfollegräich erausginn",
+      "error": "De Raum ausgehale gëtt, probéiert et w.e.g. nach eng Kéier"
+    }
+  }
+}

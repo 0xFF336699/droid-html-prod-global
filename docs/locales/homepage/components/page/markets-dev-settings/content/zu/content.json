@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Hlala uxhumekile",
+        "helperText": "Uma uchofoza kusixhumanisi sokuqala, bese ugcine isixhumanisi. Lokhu kudinga ukunakwa ukuthi isixhumanisi sizoxhunyaniswa ngokuqhubekayo ngemuva kokuthi inqanyuliwe.",
+        "retryCount": "Inani lokuxhunyelelwa kabusha"
+      },
+      "url": {
+        "name": "Ujulu",
+        "helperText": "Xhumanisa i-URL, isibonelo i-WS: //192.168.0.2: 7001, noma i-WWS: //Exple.com/path",
+        "error": "I-URL efanele iyi-URL eqala nge-WS: // noma i-WWS: //"
+      }
+    },
+    "connectButton": {
+      "connect": "hlangana",
+      "disconnect": "Thukulula",
+      "status": {
+        "connecting": "Ukuxhuma ...",
+        "connected": "Ixhunyiwe",
+        "disconnecting": "Nqamula ...",
+        "disconnected": "Ayixhunyiwe",
+        "waitRetry": "Ilinde ukuxhumeka kabusha ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "okulotshiwe"
+  }
+}

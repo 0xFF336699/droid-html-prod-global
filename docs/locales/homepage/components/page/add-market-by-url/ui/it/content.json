@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Poiché questa applicazione si applica per un gran numero di autorizzazioni sul tuo telefono cellulare, molte autorizzazioni sono estremamente rischiose, quindi non importarle o eseguirle senza conoscere chiaramente i rischi del mercato o dello script. Una volta immessa il contenuto nella casella di testo \"Pagina Web indipendente di mercato\" o \"Market Independent Page\", il contenuto verrà eseguito immediatamente come codice. Per favore sii cauto.",
+    "setNewMarket": "Impostare un nuovo mercato",
+    "settingPreview": "Anteprima delle impostazioni",
+    "marketName": "Nome del mercato",
+    "marketSummary": "Introduzione del mercato",
+    "marketDescription": "Introduzione del mercato",
+    "itemMarket": "Introduzione della carta di mercato",
+    "fullMarket": "Pagina Web indipendente del mercato",
+    "marketCardPreview": "Anteprima della carta di mercato",
+    "marketFullPreview": "Anteprima della pagina Web indipendente del mercato",
+    "isNotSet": "Non impostato"
+  }
+}

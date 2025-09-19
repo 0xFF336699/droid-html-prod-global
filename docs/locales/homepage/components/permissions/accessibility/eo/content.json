@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Helpaj funkcioj",
+    "pass": "Rajtigita",
+    "notPass": "Neaŭtorizita",
+    "setting": "Agordu",
+    "danger": "Danĝero",
+    "dangerDesc": "Ĉi tiu rajtigo povas vidi enhavon sur la ekrano kaj alklaki vian telefonon. Malebligu ĉi tiun permeson se vi ne eksplicite komprenas la funkciojn kaj riskojn de la skripto, kiun vi funkciigas aŭ funkcios."
+  }
+}

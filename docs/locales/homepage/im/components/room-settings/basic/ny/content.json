@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Dzinalo"
+      },
+      "topic": {
+        "label": "Chiwonetsero cha Chipinda"
+      },
+      "avatar": {
+        "alt": "Chipinda avatar"
+      },
+      "submit": "Sungani makonda"
+    },
+    "toast": {
+      "success": "Makonda osinthidwa",
+      "error": {
+        "default": "Kusintha makonda kulephera",
+        "avatar": "Talephera kusintha avatar"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Publika Ĉambro",
+        "description": "Publikaj ĉambroj povas esti serĉataj de aliaj uzantoj"
+      },
+      "allowGuestJoin": {
+        "label": "Permesu al vizitantoj aliĝi",
+        "description": "Permesu al ne registritaj uzantoj aliĝi al la ĉambro kiel gasto"
+      },
+      "isEncrypted": {
+        "label": "Ebligu Fin-al-Finan Ĉifradon",
+        "description": "Kiam enŝaltita, mesaĝoj en la ĉambro estos ĉifritaj fino-al-fino",
+        "alert": "Fin-al-fina ĉifrado estas enŝaltita en la ĉambro, kaj ĉi tiu agordo ne povas esti malŝaltita."
+      },
+      "submit": "Konservu Privatecajn Agordojn"
+    },
+    "toast": {
+      "success": "Privatecaj agordoj estis ĝisdatigitaj",
+      "error": "Malsukcesis ĝisdatigi privatecajn agordojn"
+    }
+  }
+}

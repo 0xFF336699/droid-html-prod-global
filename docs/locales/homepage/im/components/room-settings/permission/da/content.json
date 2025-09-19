@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Tilladelsesniveauet kræves for at sende en besked",
+        "tooltip": "0 betyder, at alle medlemmer kan sende beskeder, og jo større antallet betyder, at der kræves højere tilladelser"
+      },
+      "invite": {
+        "label": "Tilladelsesniveau krævet for at invitere nye medlemmer",
+        "tooltip": "Sæt hvem der kan invitere nye medlemmer til værelset"
+      },
+      "kick": {
+        "label": "Spark det krævede tilladelsesniveau",
+        "tooltip": "Sæt hvem der kan sparke rummedlemmerne ud"
+      },
+      "ban": {
+        "label": "Tilladelsesniveau krævet til blokering af medlemmer",
+        "tooltip": "Sæt hvem der kan blokere rummedlemmer"
+      },
+      "roomSettings": {
+        "label": "Ændre det krævede tilladelsesniveau for rumindstillinger",
+        "tooltip": "Sæt hvem der kan ændre rumindstillingerne"
+      },
+      "submit": "Gem tilladelsesindstillinger"
+    },
+    "description": "Tilladelsesniveauområde: 0-100, jo større betyder antallet højere tilladelser er påkrævet",
+    "toast": {
+      "success": "Tilladelsesindstillinger er blevet opdateret",
+      "error": "Kunne ikke opdatere tilladelsesindstillinger"
+    }
+  }
+}

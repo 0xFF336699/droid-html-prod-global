@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Úroveň povolenia potrebná na odoslanie správy",
+        "tooltip": "0 znamená, že všetci členovia môžu odosielať správy a čím väčšie číslo znamená, že sú potrebné vyššie povolenia"
+      },
+      "invite": {
+        "label": "Úroveň povolenia potrebná na pozvanie nových členov",
+        "tooltip": "Set, ktorý môže pozvať nových členov do miestnosti"
+      },
+      "kick": {
+        "label": "Vykopnite požadovanú úroveň povolenia",
+        "tooltip": "Sada, ktorá môže vyhodiť členov miestnosti"
+      },
+      "ban": {
+        "label": "Úroveň povolenia potrebná na blokovanie členov",
+        "tooltip": "Sada, ktorá môže blokovať členov miestnosti"
+      },
+      "roomSettings": {
+        "label": "Upravte požadovanú úroveň povolenia nastavení miestnosti",
+        "tooltip": "Nastavte, kto môže upraviť nastavenia miestnosti"
+      },
+      "submit": "Uložiť nastavenia povolenia"
+    },
+    "description": "Rozsah úrovne povolení: 0-100, čím väčšie číslo znamená, že sú potrebné vyššie povolenia",
+    "toast": {
+      "success": "Nastavenia povolení boli aktualizované",
+      "error": "Nepodarilo sa aktualizovať nastavenia povolenia"
+    }
+  }
+}

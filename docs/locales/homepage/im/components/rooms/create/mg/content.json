@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Mamorona efitrano"
+    },
+    "dialog": {
+      "title": "Mamorona efitrano vaovao",
+      "form": {
+        "userId": {
+          "label": "Anara-mpampiasa",
+          "placeholder": "Ampidiro ny ID mpampiasa (ohatra: @USER: Ohatra.com)",
+          "error": {
+            "required": "Tsy afaka foana ny mpampiasa ID",
+            "invalid": "Format ID tsy mety"
+          }
+        },
+        "roomName": {
+          "label": "Anaran-trano (safidy)",
+          "placeholder": "Ampidiro ny anaran'ny efitrano iray"
+        },
+        "isEncrypted": {
+          "label": "Mampifanaraka ny encryption end-to-end"
+        },
+        "isDirect": {
+          "label": "Hafatra mivantana"
+        },
+        "topic": {
+          "label": "Lohahevitra (tsy azo atao)",
+          "placeholder": "Ampidiro ny lohahevitry ny efitrano"
+        }
+      },
+      "actions": {
+        "cancel": "hanafoana",
+        "create": "MANANGANA"
+      },
+      "success": "Nahomby ny famoronana efitrano",
+      "error": "Nisy hadisoana nitranga fony namorona efitrano: {error}"
+    }
+  }
+}

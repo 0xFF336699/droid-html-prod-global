@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Ny fahazoan-dàlana dia mitaky hafatra",
+        "tooltip": "0 dia midika fa ny mpikambana rehetra dia afaka mandefa hafatra, ary ny lehibe kokoa dia midika fa ilaina ny fahazoan-dàlana ambony kokoa"
+      },
+      "invite": {
+        "label": "Fahazoan-dàlana takiana takiana hanasa mpikambana vaovao",
+        "tooltip": "SET izay afaka manasa mpikambana vaovao ao amin'ny efitrano"
+      },
+      "kick": {
+        "label": "Kitiho ny fahazoan-dàlana takiana takiana",
+        "tooltip": "Napetraka izay afaka mamono ny mpikambana ao amin'ny efitrano"
+      },
+      "ban": {
+        "label": "Ny fahazoan-dàlana dia mitaky ny fanakanana ireo mpikambana",
+        "tooltip": "SET izay afaka manakana ny mpikambana ao amin'ny efitrano"
+      },
+      "roomSettings": {
+        "label": "Manova ny fahazoan-dàlana fahazoan-dàlana takiana amin'ny filaharana efitrano",
+        "tooltip": "Mametraha izay afaka manova ny toe-javatra misy"
+      },
+      "submit": "Settings fahazoan-dàlana"
+    },
+    "description": "Ny fahazoan-dàlana fahazoan-dàlana: 0-100, ny lehibe kokoa dia midika hoe fahazoan-dàlana ambony kokoa",
+    "toast": {
+      "success": "Nohavaozina ny filaharana fahazoan-dàlana",
+      "error": "Tsy nahavita nanavao ny fahazoan-dàlana"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Quandu entra in a pagina specificata",
+    "pnLabel": "Nome di Pacchettu:",
+    "anLabel": "Nome di Attività:",
+    "cnLabel": "Nome di a classa:",
+    "changeBtnLabel": "rimpiazzà"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Quandu entra in a pagina specificata",
+    "pnLabel": "Nome di Pacchettu:",
+    "anLabel": "Nome di Attività:",
+    "cnLabel": "Nome di a classa:",
+    "changeBtnLabel": "rimpiazzà"
+  }
+}

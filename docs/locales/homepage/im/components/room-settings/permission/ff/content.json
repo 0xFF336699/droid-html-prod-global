@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Toɓɓere yamiroore nde ɗaɓɓi ngam neldude mesaas",
+        "tooltip": "0 firti ko terɗe ɗee kala ina mbaawi neldude mesasuuji, tawa kadi limoore ɓurnde mawnude ndee firti ko yamiroore ɓurnde toowde ina ɗaɓɓi"
+      },
+      "invite": {
+        "label": "Tolno yamiroore ina ɗaɓɓi noddude terɗe kese",
+        "tooltip": "Set hol baawɗo noddude terɗe kese e nder suudu nduu"
+      },
+      "kick": {
+        "label": "Ƴeewto tolno yamiroore ɗaɓɓaaɗe",
+        "tooltip": "Set hol baawɗo yaltinde terɗe suudu nduu"
+      },
+      "ban": {
+        "label": "Tolno yamiroore ina ɗaɓɓi ngam haɗde terɗe",
+        "tooltip": "Set hol baawɗo haɗde terɗe suudu"
+      },
+      "roomSettings": {
+        "label": "Waylu toɓɓere yamiroore nde njiɗɗaa",
+        "tooltip": "Set baawɗo waylude dottaaɗe suudu"
+      },
+      "submit": "Hisnu dottaaɗe yamiroore"
+    },
+    "description": "Tolno tolno njaru : 0-100, so limoore ndee ina mawni ina firta yamiroore ɓurnde toowde ina ɗaɓɓi",
+    "toast": {
+      "success": "Cuɓe njamiraaɗe ɗee kesɗitinee",
+      "error": "Waɗiraa ko hesɗitinde dottaaɗe yamiroore"
+    }
+  }
+}

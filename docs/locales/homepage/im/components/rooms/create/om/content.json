@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Kutaa uumuu ."
+    },
+    "dialog": {
+      "title": "Kutaa haaraa uumuu .",
+      "form": {
+        "userId": {
+          "label": "ID fayyadamaa .",
+          "placeholder": "ID fayyadamaa galchi (fakkeenyaaf: @user:example.com)",
+          "error": {
+            "required": "ID fayyadamaa duwwaa ta'uu hin danda'u .",
+            "invalid": "Akkaataa ID Fayyadamtootaa sirrii hin taane ."
+          }
+        },
+        "roomName": {
+          "label": "Maqaa kutaa (Filannoo) .",
+          "placeholder": "Maqaa kutaa tokko galchi ."
+        },
+        "isEncrypted": {
+          "label": "Icciitii dhuma irraa gara dhumaatti dandeessisi ."
+        },
+        "isDirect": {
+          "label": "Ergaa kallatti ."
+        },
+        "topic": {
+          "label": "Mata duree (Filannoo) .",
+          "placeholder": "Mata duree kutaa keessa seeni ."
+        }
+      },
+      "actions": {
+        "cancel": "Haquu",
+        "create": "uumuu"
+      },
+      "success": "Uumama kutaa milkaa'inaan .",
+      "error": "Dogoggorri yeroo kutaa uumu uumame: {Error}"
+    }
+  }
+}

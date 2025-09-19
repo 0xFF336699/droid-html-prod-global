@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Được ủy quyền",
+    "notPass": "Trái phép",
+    "danger": "Sự nguy hiểm",
+    "setting": "cài đặt"
+  }
+}

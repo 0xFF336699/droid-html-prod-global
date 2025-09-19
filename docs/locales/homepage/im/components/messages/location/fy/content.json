@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Lokaasje Namme",
+    "viewMap": "Besjoch de kaart",
+    "close": "sluting"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "De hjoeddeistige browser stipet gjin geolokaasjewinning",
+    "getLocationFailed": "De lokaasje is net te krijen, kontrolearje asjebleaft de tastimmingynstellingen",
+    "myLocation": "Myn lokaasje",
+    "shareLocation": "Lokaasje diele",
+    "getCurrentLocation": "Krij de hjoeddeistige lokaasje",
+    "title": "Lokaasje Namme",
+    "description": "Detaillearre beskriuwing",
+    "descriptionPlaceholder": "Fier in detaillearre beskriuwing yn (opsjoneel)",
+    "preview": "Lokaasje foarbyld",
+    "latitude": "breedte",
+    "longitude": "lingte",
+    "cancel": "Opheffe",
+    "send": "stjoere",
+    "permissionPrompt": "Wy moatte jo lokaasjeynformaasje krije om bettere tsjinsten te leverjen, is it tastien?",
+    "permissionDenied": "Posysje-tastimming wurdt wegere, aktivearje asjebleaft posysjonearring yn jo browserynstellingen",
+    "locationTimeout": "Soargje derfoar dat it apparaat derfoar soarget dat it apparaat ynskeakele is en besykje te roppen",
+    "locationUnavailable": "De hjoeddeistige lokaasje kin net wurde krigen, kontrolearje asjebleaft de lokaasje foar apparaten"
+  }
+}

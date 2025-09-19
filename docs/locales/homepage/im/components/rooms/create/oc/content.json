@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Crear una sala"
+    },
+    "dialog": {
+      "title": "Creatz una sala novèla .",
+      "form": {
+        "userId": {
+          "label": "ID de l'utilizaire",
+          "placeholder": "Picatz l'ID de l'utilizaire (per exemple : @user:exemple.com)",
+          "error": {
+            "required": "ID d'utilizaire pòt pas èsser vuèg .",
+            "invalid": "Format d'ID d'utilizaire invalid ."
+          }
+        },
+        "roomName": {
+          "label": "Nom de sala (opcional)",
+          "placeholder": "Introdusissètz un nom de sala"
+        },
+        "isEncrypted": {
+          "label": "Activar lo chiframent de punta a punta"
+        },
+        "isDirect": {
+          "label": "messatge direct"
+        },
+        "topic": {
+          "label": "Tema (opcional)",
+          "placeholder": "Introdusissètz lo tèma de la sala ."
+        }
+      },
+      "actions": {
+        "cancel": "Anullar",
+        "create": "crear"
+      },
+      "success": "creacion de sala amb succès",
+      "error": "Una error s'es produsida al moment de la creacion d'una sala : {error}"
+    }
+  }
+}

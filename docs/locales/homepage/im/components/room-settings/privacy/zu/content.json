@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Igumbi lomphakathi",
+        "description": "Amakamelo omphakathi angafunwa abanye abasebenzisi"
+      },
+      "allowGuestJoin": {
+        "label": "Vumela izivakashi ukuthi zijoyine",
+        "description": "Vumela abasebenzisi abangabhalisiwe ukuthi bajoyine igumbi njengesivakashi"
+      },
+      "isEncrypted": {
+        "label": "Nika amandla ukubethelwa kokuphela kokuphela",
+        "description": "Uma kuvunyelwe, imilayezo egumbini izobe isethelwe ekugcineni-ekugcineni",
+        "alert": "Ukubethelwa kokuphela kokuphela kunikwe amandla egumbini, futhi lokhu kulungiselelwa ngeke kucishwe."
+      },
+      "submit": "Gcina izilungiselelo zobumfihlo"
+    },
+    "toast": {
+      "success": "Izilungiselelo zobumfihlo zivuselelwe",
+      "error": "Yehlulekile ukubuyekeza izilungiselelo zobumfihlo"
+    }
+  }
+}

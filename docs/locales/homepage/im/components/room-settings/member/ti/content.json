@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "ኣባላት ድለዩ"
+    },
+    "table": {
+      "columns": {
+        "name": "ስም ኣባል",
+        "userId": "ናይ ተጠቃሚ መለለዪ",
+        "actions": "ስራሕ"
+      },
+      "pagination": {
+        "rowsPerPage": "ብዝሒ መስመራት ኣብ ሓደ ገጽ"
+      },
+      "avatar": {
+        "alt": "ኣቫታር"
+      },
+      "actions": {
+        "kick": "ረጊጽካ",
+        "ban": "ተኣጊዱ"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "ነቲ ናይ ምህራም ኣባል ኣረጋግጽ",
+        "content": "ነቲ ኣባል ካብቲ ክፍሊ ክትረግጾ ከም እትደሊ ርግጸኛ ዲኻ?"
+      },
+      "ban": {
+        "title": "እቲ ዝተኸልከለ ኣባልነት ኣረጋግጽ",
+        "content": "ርግጸኛ ዲኻ ነዚ ኣባል እዚ ክትእግዶ ከም እትደሊ? እቲ ኣባል ድሕሪ እቲ እገዳ ናብቲ ክፍሊ ዳግማይ ክጽንበር ኣይክእልን እዩ።"
+      },
+      "buttons": {
+        "cancel": "ሰርዝ",
+        "confirm": "ኣረጋግፅ"
+      }
+    },
+    "toast": {
+      "loadError": "ዝርዝር ኣባላት ክጽዕን ኣይከኣለን",
+      "kick": {
+        "success": "ኣባላት ካብቲ ክፍሊ ተባሪሮም ኣለዉ ።",
+        "error": "ኣባላት ምህራም ፈሺሎም"
+      },
+      "ban": {
+        "success": "ኣባላት ተዓጊቶም",
+        "error": "ኣባላት ምዕጋት ኣይከኣለን"
+      }
+    },
+    "invite": {
+      "button": "ንኣባላት ምዕዳም",
+      "title": "ኣባላት ናብቲ ክፍሊ ክጽንበሩ ዓድሙ",
+      "inputLabel": "በጃኹም ናይ ማትሪክስ ተጠቃሚ መለለዪ (ከም @user:matrix.org) ኣእትዉ",
+      "confirm": "ምዕዳም",
+      "cancel": "ሰርዝ",
+      "loading": "ዝዕድም...",
+      "success": "ዕድመ ተላኢኹ!",
+      "error": "ዕድመ ፈሺሉ፣ በጃኹም ናይ ተጠቃሚ መለለዪ ወይ ፍቓድ ርኣዩ"
+    },
+    "empty": "ገና ኣባል የለን",
+    "loading": "ይጽዕን ኣሎ...",
+    "role": {
+      "owner": "ወናኒ ገዛ",
+      "admin": "ኣመሓዳሪ",
+      "moderator": "ሓባራዊ ምሕደራ",
+      "user": "ኣባል"
+    }
+  }
+}

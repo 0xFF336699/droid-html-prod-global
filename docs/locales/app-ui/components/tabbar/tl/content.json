@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "Pahina sa harap",
+    "me": "akin",
+    "settings": "I -set up",
+    "script": "script",
+    "store": "Pamilihan",
+    "market": "Pamilihan",
+    "create": "Lumikha"
+  },
+  "tabbar": {
+    "test": "Bottom menu bar"
+  }
+}

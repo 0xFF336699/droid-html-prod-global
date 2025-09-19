@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Di hameviwo ."
+    },
+    "table": {
+      "columns": {
+        "name": "Hamea me tɔ ƒe ŋkɔ .",
+        "userId": "Zãla ƒe ID .",
+        "actions": "Dɔwɔwɔ ."
+      },
+      "pagination": {
+        "rowsPerPage": "Fliwo ƒe xexlẽme le axa ɖeka dzi ."
+      },
+      "avatar": {
+        "alt": "Avatar ."
+      },
+      "actions": {
+        "kick": "Kick out .",
+        "ban": "Woxe mɔ ɖe enu ."
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Ðo kpe afɔdzidela la dzi .",
+        "content": "Èka ɖe edzi be yedi be yeanya hamevia le xɔa mea?"
+      },
+      "ban": {
+        "title": "Ðo kpe hamevinyenye si ŋu wode se ɖo dzi .",
+        "content": "Èka ɖe edzi be yeaxe mɔ ɖe hamevi sia nua? Hamea me tɔa mate ŋu agbugbɔ axɔ xɔa le mɔxexe ɖe enu megbe o."
+      },
+      "buttons": {
+        "cancel": "Te fli ɖe eme",
+        "confirm": "ɖo kpe edzi"
+      }
+    },
+    "toast": {
+      "loadError": "Do kpo hameviwo ƒe ŋkɔwo tsɔtsɔ de eme.",
+      "kick": {
+        "success": "Wonya hameviwo le xɔa me .",
+        "error": "Hamea me tɔwo ƒe afɔkpodzidada do kpo nu ."
+      },
+      "ban": {
+        "success": "Hameviwo xe mɔ na wo .",
+        "error": "Do kpo mɔxexe ɖe hameviwo nu ."
+      }
+    },
+    "invite": {
+      "button": "Kpe Hamea me tɔwo .",
+      "title": "Kpe hameviwo be woava kpe ɖe xɔa ŋu .",
+      "inputLabel": "Taflatse ŋlɔ Matrix Zãla ƒe ID (abe @user:matrix.org ene) ɖe eme.",
+      "confirm": "kpe",
+      "cancel": "Te fli ɖe eme",
+      "loading": "Amekpekpe...",
+      "success": "Amekpekpea ɖo ɖa!",
+      "error": "Amekpekpea do kpo nu, taflatse kpɔ zãla ƒe ID alo mɔɖeɖewo ."
+    },
+    "empty": "Hamevi aɖeke mele eme haɖe o .",
+    "loading": "Agbatsɔtsɔ...",
+    "role": {
+      "owner": "Aƒetɔ .",
+      "admin": "Dɔdzikpɔla .",
+      "moderator": "Co-management .",
+      "user": "Hamea me tɔ ."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Heja",
+    "ok": "Upeichaite",
+    "checkBoxText": "Eho directamente eautorisa haĝua medio mes-pe ha anivéma rehechauka ko ventána .",
+    "content": "Ko tembiaporã oikotevẽ función auxiliar autorizacion rehegua. Reautorisaséramo, eñemboja [OK] rehe. Reñeme’ẽséramo, eñemboja [Cancelar] rehe.",
+    "title": "Aplicación de autorización rehegua ."
+  },
+  "floatPermission": {
+    "cancel": "Heja",
+    "ok": "Upeichaite",
+    "checkBoxText": "Eho directamente eautorisa haĝua medio mes-pe ha anivéma rehechauka ko ventána .",
+    "content": "Ko función oikotevẽ autorizacion función ventana flotante rehegua. Reautorisaséramo, eñemboja [OK] rehe. Reñeme’ẽséramo, eñemboja [Cancelar] rehe.",
+    "title": "Aplicación de autorización rehegua ."
+  }
+}

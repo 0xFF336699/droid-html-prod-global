@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Tafuta wanachama"
+    },
+    "table": {
+      "columns": {
+        "name": "Jina la Mwanachama",
+        "userId": "Kitambulisho cha Mtumiaji",
+        "actions": "fanya kazi"
+      },
+      "pagination": {
+        "rowsPerPage": "Idadi ya safu kwa kila ukurasa"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Kick Out",
+        "ban": "Marufuku"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Thibitisha mwanachama wa mateke",
+        "content": "Je! Una uhakika unataka kumpiga mwanachama nje ya chumba?"
+      },
+      "ban": {
+        "title": "Thibitisha uanachama uliopigwa marufuku",
+        "content": "Je! Una uhakika unataka kupiga marufuku mwanachama huyu? Mwanachama hataweza kujiunga na chumba baada ya marufuku."
+      },
+      "buttons": {
+        "cancel": "Ghairi",
+        "confirm": "Thibitisha"
+      }
+    },
+    "toast": {
+      "loadError": "Imeshindwa kupakia orodha ya wanachama",
+      "kick": {
+        "success": "Wanachama wamepigwa nje ya chumba",
+        "error": "Kupiga nje wanachama walishindwa"
+      },
+      "ban": {
+        "success": "Wanachama wamezuiwa",
+        "error": "Imeshindwa kuzuia wanachama"
+      }
+    },
+    "invite": {
+      "button": "Alika wanachama",
+      "title": "Waalike wanachama kujiunga na chumba hicho",
+      "inputLabel": "Tafadhali ingiza Kitambulisho cha Mtumiaji wa Matrix (kama vile @user: matrix.org)",
+      "confirm": "Alika",
+      "cancel": "Ghairi",
+      "loading": "Kualika ...",
+      "success": "Mwaliko uliotumwa!",
+      "error": "Mwaliko umeshindwa, tafadhali angalia kitambulisho cha mtumiaji au ruhusa"
+    },
+    "empty": "Hakuna mwanachama bado",
+    "loading": "Inapakia ...",
+    "role": {
+      "owner": "Mmiliki wa nyumba",
+      "admin": "Msimamizi",
+      "moderator": "Usimamizi wa ushirikiano",
+      "user": "Mwanachama"
+    }
+  }
+}

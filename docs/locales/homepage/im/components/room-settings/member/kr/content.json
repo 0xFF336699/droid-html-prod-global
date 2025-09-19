@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Jamiwa kulashi"
+    },
+    "table": {
+      "columns": {
+        "name": "Wakilnza",
+        "userId": "ID faidatəmaye",
+        "actions": "cidatə"
+      },
+      "pagination": {
+        "rowsPerPage": "Lamba rowbe warak woson"
+      },
+      "avatar": {
+        "alt": "alagə"
+      },
+      "actions": {
+        "kick": "alama",
+        "ban": "banne"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Membadəga tawattəgə",
+        "content": "Tawadəro nyiye membadəga suro njimben dujinro raamma wa?"
+      },
+      "ban": {
+        "title": "Wakiltə daptənadəga tawattəgə",
+        "content": "Tawadə nyiye memba adəga daptəro raamma wa? Membadə raksə waltə njimdəro kəltəyinba ngawo dutudəben."
+      },
+      "buttons": {
+        "cancel": "Dawartə",
+        "confirm": "tawattəgə"
+      }
+    },
+    "toast": {
+      "loadError": "List membawabe loadro tǝkǝnyi",
+      "kick": {
+        "success": "Jamiwadə suro njimdəyen duwada",
+        "error": "Membawa bǝtǝrǝmdǝ faidazǝnyi"
+      },
+      "ban": {
+        "success": "Jamiwa dapsana",
+        "error": "Membawa daptəro terəna"
+      }
+    },
+    "invite": {
+      "button": "Am samma soga bowone",
+      "title": "Membawa bowotə njimdəro kəltaro",
+      "inputLabel": "Martəgəne ID faidatəma Matrixbe (alamanna @user:matrix.org)",
+      "confirm": "dotə",
+      "cancel": "Dawartə",
+      "loading": "Inviting...",
+      "success": "Invitation zuwatəna!",
+      "error": "Invitation də terəna, ID faidatəmaye au izini"
+    },
+    "empty": "Kuwamiyayi memba ba",
+    "loading": "loading...",
+    "role": {
+      "owner": "Fatoma",
+      "admin": "samun",
+      "moderator": "Kəla kəltə",
+      "user": "memba"
+    }
+  }
+}

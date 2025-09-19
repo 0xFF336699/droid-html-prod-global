@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Šis metodas gali būti vadinamas tik „Android“",
+      "noMethod": "Šis metodas neegzistuoja"
+    }
+  }
+}

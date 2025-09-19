@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Te i'oa"
+      },
+      "topic": {
+        "label": "Te hoê omuaraa parau"
+      },
+      "avatar": {
+        "alt": "te"
+      },
+      "submit": "Anu i te mau faanahoraa"
+    },
+    "toast": {
+      "success": "Tau'apa'a",
+      "error": {
+        "default": "Te mau tauiraa aita i manuïa",
+        "avatar": "Ua faaorehia te reira no te faaapî i te avatar"
+      }
+    }
+  }
+}

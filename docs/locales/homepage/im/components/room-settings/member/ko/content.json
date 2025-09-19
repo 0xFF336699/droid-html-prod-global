@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "회원을 검색하십시오"
+    },
+    "table": {
+      "columns": {
+        "name": "회원 이름",
+        "userId": "사용자 ID",
+        "actions": "작동하다"
+      },
+      "pagination": {
+        "rowsPerPage": "페이지 당 행 수"
+      },
+      "avatar": {
+        "alt": "화신"
+      },
+      "actions": {
+        "kick": "킥아웃",
+        "ban": "금지"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "차기 회원을 확인하십시오",
+        "content": "회원을 방에서 쫓아 내고 싶습니까?"
+      },
+      "ban": {
+        "title": "금지 된 멤버십을 확인하십시오",
+        "content": "이 회원을 금지 하시겠습니까? 회원은 금지 후 방에 다시 합류 할 수 없습니다."
+      },
+      "buttons": {
+        "cancel": "취소",
+        "confirm": "확인하다"
+      }
+    },
+    "toast": {
+      "loadError": "회원 목록을로드하지 못했습니다",
+      "kick": {
+        "success": "회원들이 방에서 쫓겨났습니다",
+        "error": "퇴장 멤버가 실패했습니다"
+      },
+      "ban": {
+        "success": "회원이 차단되었습니다",
+        "error": "회원을 차단하지 못했습니다"
+      }
+    },
+    "invite": {
+      "button": "회원을 초대하십시오",
+      "title": "회원을 초대하여 방에 합류하십시오",
+      "inputLabel": "Matrix 사용자 ID (예 : @user : matrix.org)를 입력하십시오.",
+      "confirm": "초대하다",
+      "cancel": "취소",
+      "loading": "초대 ...",
+      "success": "초대장을 보냈습니다!",
+      "error": "초대 실패, 사용자 ID 또는 권한을 확인하십시오"
+    },
+    "empty": "아직 회원이 없습니다",
+    "loading": "로딩 ...",
+    "role": {
+      "owner": "주택 소유자",
+      "admin": "관리자",
+      "moderator": "공동 관리",
+      "user": "회원"
+    }
+  }
+}

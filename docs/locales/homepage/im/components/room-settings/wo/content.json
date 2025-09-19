@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "ay jekkal yu sell",
+    "tabs": {
+      "basic": "jekkal yu am solo",
+      "permission": "Reglage yi ngay def",
+      "privacy": "Reglages privacy",
+      "member": "Ndaw"
+    },
+    "loadError": "Dañu ko mëna yab ci jekkal néeg",
+    "leaveRoom": {
+      "button": "Exeral néeg bi",
+      "confirm": "Yaa ngi gëm ni bëgg nga génn néeg bi? Ginaaw boo génnee, doo mëna wéy di jot mesaas ci néeg bii.",
+      "success": "Exigé néeg bi bu baax",
+      "error": "Soo génnee néeg bi, jéemal"
+    }
+  }
+}

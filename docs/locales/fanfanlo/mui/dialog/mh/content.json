@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Jolok",
+    "confirm": "Aet",
+    "title": "kakōlle",
+    "content": "Kwoj lukkun kõnan ke kõmmane men in?"
+  },
+  "EditableText": {
+    "cancel": "Jolok",
+    "save": "kakwōne",
+    "title": "kajimwe"
+  }
+}

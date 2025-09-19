@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Innde nokku",
+    "viewMap": "Yiytu kartal ngal",
+    "close": "udditaare"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Feerorde jooni ndee wallittaako keɓgol geolocation",
+    "getLocationFailed": "Waɗii heɓde nokku oo, ƴeewto dottaaɗe yamiroore ndee",
+    "myLocation": "Nokku am",
+    "shareLocation": "Nokku renndinde",
+    "getCurrentLocation": "Heɓtu nokku jooni oo",
+    "title": "Innde nokku",
+    "description": "Sifaa laaɓtuɗo",
+    "descriptionPlaceholder": "Eɗen ñaagi on, naatnu heen sifaa (ko optional) laaɓtuɗo.",
+    "preview": "Nokku nokku",
+    "latitude": "latitude",
+    "longitude": "juutti",
+    "cancel": "Willugo",
+    "send": "neldugo",
+    "permissionPrompt": "Min ɗon mari haaje heɓugo bayaanuuji nokkuure mon ngam hokkugo kuuɗe ɓurɗe wooɗugo, ngam ɗum accaama?",
+    "permissionDenied": "Jaɓde yamiroore ina yedditee, ena addana yamiroore Jogaade e nder doggol feerorde maa",
+    "locationTimeout": "Jokkude timeout, ƴeewto so tawii kaɓirgal ngal ina huɓɓa e etaade heɓde",
+    "locationUnavailable": "Nokku jooni oo waawaa heɓde, ƴeewto sarwiis nokku kaɓirgal"
+  }
+}

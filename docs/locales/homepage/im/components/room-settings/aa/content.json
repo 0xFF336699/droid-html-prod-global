@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Room farmo",
+    "tabs": {
+      "basic": "rakiibo",
+      "permission": "buxah addah farmo",
+      "privacy": "cankâ guddaaqa",
+      "member": "Adoyta"
+    },
+    "loadError": "quuki footimah guddaaqa fan.",
+    "leaveRoom": {
+      "button": "qari qari",
+      "confirm": "Atu footima bayissam faxxam tasmiteeh? Atu ta qarik farmooma geytam madudda.",
+      "success": "qari agdaabeleeh",
+      "error": "Footima qarik yayyaaqoonuh, kumaganak qagitak gibbat"
+    }
+  }
+}

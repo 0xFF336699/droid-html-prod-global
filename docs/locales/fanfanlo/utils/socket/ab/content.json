@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Аиԥшьра...",
+    "connected": "Иаҿакны",
+    "disconnecting": "Аиҟәҟьара...",
+    "disconnected": "Иадҳәалам",
+    "waitRetry": "Аиҭакра аԥшра..."
+  }
+}

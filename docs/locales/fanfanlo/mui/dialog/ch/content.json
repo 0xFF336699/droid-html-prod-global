@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Kansela",
+    "confirm": "Siguro",
+    "title": "hinta",
+    "content": "Siguru na un` malago` este na asuntu?"
+  },
+  "EditableText": {
+    "cancel": "Kansela",
+    "save": "satba",
+    "title": "na dinanchi"
+  }
+}

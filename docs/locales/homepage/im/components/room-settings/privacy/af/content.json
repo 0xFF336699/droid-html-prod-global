@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Openbare kamer",
+        "description": "Openbare kamers kan deur ander gebruikers deursoek word"
+      },
+      "allowGuestJoin": {
+        "label": "Laat besoekers toe om aan te sluit",
+        "description": "Laat ongeregistreerde gebruikers toe om as gas by die kamer aan te sluit"
+      },
+      "isEncrypted": {
+        "label": "Aktiveer eind-tot-einde-kodering",
+        "description": "As dit aangeskakel is, sal boodskappe in die kamer end-tot-einde geïnkripteer word",
+        "alert": "Enk-tot-einde-kodering is in die kamer geaktiveer, en hierdie instelling kan nie afgeskakel word nie."
+      },
+      "submit": "Stoor privaatheidsinstellings"
+    },
+    "toast": {
+      "success": "Privaatheidsinstellings is opgedateer",
+      "error": "Kon nie privaatheidsinstellings opdateer nie"
+    }
+  }
+}

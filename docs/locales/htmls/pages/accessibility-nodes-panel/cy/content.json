@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Gwylio rhyngwyneb hygyrchedd",
+    "howToUse": "Cyfarwyddiadau i'w defnyddio",
+    "howToUseTooltip": "Isod mae rhai priodoleddau marcio y nod hwn y gellir eu defnyddio i ddewis gweithrediadau, megis clicio, llenwi testun, ac ati.\n\nGellir dyblygu'r gwerth priodoledd ar dudalen yr app. Os ydych chi'n dod ar draws dyblygu, troshaenwch ddetholiadau priodoledd eraill i bennu unigrywiaeth.\n\nMae gair coch yn nodi bod gwerth y priodoledd yn cael ei ailadrodd, mae gair gwyrdd yn nodi bod gwerth y priodoledd yn unigryw yn y chwiliad tudalen cyfredol, ac mae gair du yn nodi nad oes cymhariaeth dro ar ôl tro.",
+    "otherNodesSummary": "Nodau eraill yn y lleoliad hwn",
+    "moreNodes": "Dyma beth sy'n cael ei ehangu.",
+    "nodeInfoDialogOkButton": "Golygu gweithrediad y nod hwn",
+    "text": "Testun 2222"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Ha fa'tinas un taotao"
+    },
+    "dialog": {
+      "title": "Ha fa'tinas un nuebu na nuebu na",
+      "form": {
+        "userId": {
+          "label": "tinas",
+          "placeholder": "Na'lå'la' i ID (Pa'go: @sumple.com)",
+          "error": {
+            "required": "Ti siña i taotao ni' ti siña un cho'gue",
+            "invalid": "Invalid ID"
+          }
+        },
+        "roomName": {
+          "label": "I na'an i taotao (opsion;",
+          "placeholder": "Na'i un kuarto"
+        },
+        "isEncrypted": {
+          "label": "Na'magof na fina'tinas-mu ."
+        },
+        "isDirect": {
+          "label": "Diket"
+        },
+        "topic": {
+          "label": "Este (kunsion",
+          "placeholder": "Fa'na'an i kuatton-mu"
+        }
+      },
+      "actions": {
+        "cancel": "Kansela",
+        "create": "fatinas"
+      },
+      "success": "Romo fina'tinas",
+      "error": "Un` error ha tutuhon mientras ha fa`tinas un` kuartu: .}"
+    }
+  }
+}

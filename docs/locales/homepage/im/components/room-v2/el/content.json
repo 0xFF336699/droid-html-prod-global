@@ -1,0 +1,7 @@
+{
+  "RoomContentV2": {
+    "waitingForLogin": "Συνδεθείτε πρώτα",
+    "loadingRoomInfo": "Πληροφορίες δωματίου φόρτωσης ...",
+    "roomNotFound": "Το δωμάτιο δεν βρέθηκε"
+  }
+}

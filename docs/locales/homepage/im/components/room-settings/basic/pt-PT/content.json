@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Nome do quarto"
+      },
+      "topic": {
+        "label": "Introdução à sala"
+      },
+      "avatar": {
+        "alt": "Avatar da sala"
+      },
+      "submit": "Salvar configurações"
+    },
+    "toast": {
+      "success": "Configurações atualizadas",
+      "error": {
+        "default": "As configurações de atualização falharam",
+        "avatar": "Falha ao atualizar o avatar"
+      }
+    }
+  }
+}

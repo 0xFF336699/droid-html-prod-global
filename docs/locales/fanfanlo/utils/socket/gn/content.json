@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Ojoajúvo...",
+    "connected": "Ojoajúva .",
+    "disconnecting": "Ojedesconecta...",
+    "disconnected": "Ndojejoajúi .",
+    "waitRetry": "Oha'arõ reconexión..."
+  }
+}

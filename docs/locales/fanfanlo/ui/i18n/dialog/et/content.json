@@ -1,0 +1,11 @@
+{
+  "content": {
+    "ok": "Kindel",
+    "cancel": "Tühistama",
+    "delete": "kustutama",
+    "edit": "redigeerima",
+    "save": "kokkuhoid",
+    "close": "sulgemine",
+    "confirm": "kinnitama"
+  }
+}

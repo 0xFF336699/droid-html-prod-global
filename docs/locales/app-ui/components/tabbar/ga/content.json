@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "leathanach tosaigh",
+    "me": "an teach s'agamsa",
+    "settings": "Bunaithe",
+    "script": "script",
+    "store": "margaigh",
+    "market": "margaigh",
+    "create": "cruthaigh"
+  },
+  "tabbar": {
+    "test": "Barra roghchláir íochtair"
+  }
+}

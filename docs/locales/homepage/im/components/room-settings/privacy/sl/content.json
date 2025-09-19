@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Javna soba",
+        "description": "Javne sobe lahko iščejo drugi uporabniki"
+      },
+      "allowGuestJoin": {
+        "label": "Omogočite obiskovalcem, da se pridružijo",
+        "description": "Dovoli neregistriranim uporabnikom, da se kot gost pridružijo sobi"
+      },
+      "isEncrypted": {
+        "label": "Omogočite šifriranje od konca do konca",
+        "description": "Ko bodo omogočeni, bodo sporočila v sobi šifrirana od konca do konca",
+        "alert": "Šifriranje od konca do konca je omogočeno v sobi in te nastavitve ni mogoče izklopiti."
+      },
+      "submit": "Shranite nastavitve zasebnosti"
+    },
+    "toast": {
+      "success": "Nastavitve zasebnosti so bile posodobljene",
+      "error": "Ni uspelo posodobiti nastavitev zasebnosti"
+    }
+  }
+}

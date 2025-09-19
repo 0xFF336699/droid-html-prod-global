@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Kur hyni në faqen e specifikuar",
+    "pnLabel": "Emri i paketës:",
+    "anLabel": "Emri i aktivitetit:",
+    "cnLabel": "Emri i klasës:",
+    "changeBtnLabel": "zëvendësoj"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Kur hyni në faqen e specifikuar",
+    "pnLabel": "Emri i paketës:",
+    "anLabel": "Emri i aktivitetit:",
+    "cnLabel": "Emri i klasës:",
+    "changeBtnLabel": "zëvendësoj"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Kuna see rakendus kehtib teie mobiiltelefonis palju õigusi, on paljud õigused äärmiselt riskantsed, nii et ärge impordige ega käivitage neid ilma turu või skripti riskide selgelt teadmata. Kui olete sisestanud sisu allolevasse tekstikasti \"Turukaardi sissejuhatus\" või \"turuse sõltumatu veebilehe\", täidetakse sisu kohe koodina. Palun olge ettevaatlik.",
+    "setNewMarket": "Uue turu loomine",
+    "settingPreview": "Seadete eelvaade",
+    "marketName": "Turunimi",
+    "marketSummary": "Turustus",
+    "marketDescription": "Turustus",
+    "itemMarket": "Turukaardi sissejuhatus",
+    "fullMarket": "Turust sõltumatu veebileht",
+    "marketCardPreview": "Turukaardi eelvaade",
+    "marketFullPreview": "Turust sõltumatu veebilehe eelvaade",
+    "isNotSet": "Mitte seatud"
+  }
+}

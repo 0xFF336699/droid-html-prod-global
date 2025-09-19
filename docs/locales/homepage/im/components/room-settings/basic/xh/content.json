@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Igama legumbi"
+      },
+      "topic": {
+        "label": "Igumbi Intshayelelo"
+      },
+      "avatar": {
+        "alt": "Igumbi le-Avatar"
+      },
+      "submit": "Gcina useto"
+    },
+    "toast": {
+      "success": "Izicwangciso ezihlaziyiweyo",
+      "error": {
+        "default": "Uhlaziyo loseto aluphumelelanga",
+        "avatar": "Ayiphumelelanga ukuhlaziya i-avatar"
+      }
+    }
+  }
+}

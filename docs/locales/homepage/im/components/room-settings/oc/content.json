@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Paramètres de sala",
+    "tabs": {
+      "basic": "Paramètres de basa",
+      "permission": "Paramètres de permission",
+      "privacy": "Paramètres de privacitat",
+      "member": "Gestion dels membres"
+    },
+    "loadError": "Fracassat als paramètres de la sala de carga",
+    "leaveRoom": {
+      "button": "Sortir de la sala",
+      "confirm": "Sètz segur que volètz sortir de la sala? Aprèp de sortir, poiràs pas contunhar de recebre de messatges d’aquela sala.",
+      "success": "Sortit la sala amb succès .",
+      "error": "Fracàs de sortir de la sala, mercés de tornar ensajar"
+    }
+  }
+}

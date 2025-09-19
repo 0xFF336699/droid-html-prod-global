@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Ngaran Lokasi",
+    "viewMap": "Ningali peta",
+    "close": "panutupanana"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Browser ayeuna henteu ngadukung akuisisi geolokasi",
+    "getLocationFailed": "Gagal kéngingkeun lokasi, punten parios setélan idin",
+    "myLocation": "Lokasi",
+    "shareLocation": "Bagikeun lokasi",
+    "getCurrentLocation": "Kéngingkeun lokasi ayeuna",
+    "title": "Ngaran Lokasi",
+    "description": "Pedaran rinci",
+    "descriptionPlaceholder": "Punten lebetkeun pedaran rinci (opsional)",
+    "preview": "Tilik lokasi",
+    "latitude": "lintang",
+    "longitude": "bujur",
+    "cancel": "Ngabatalkeun",
+    "send": "ngirim",
+    "permissionPrompt": "Urang kedah nyandak inpormasi lokasi anjeun pikeun masihan jasa anu langkung saé, naha?",
+    "permissionDenied": "Ijin posisi ditolak, punten ngaktifkeun idin posisi dina setélan browser anjeun",
+    "locationTimeout": "Waktu posisi, pastikeun alat dihurungkeun sareng cobi reacquine",
+    "locationUnavailable": "Lokasi ayeuna henteu tiasa diala, punten parios jasa lokasi alat"
+  }
+}

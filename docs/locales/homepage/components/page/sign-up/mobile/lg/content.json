@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "okwewandiisa",
+    "phoneNumber": "Ennamba y'essimu .",
+    "phoneNumberPlaceholder": "Nsaba oyingize ennamba yo ey'essimu",
+    "verificationCode": "Koodi y'okukakasa .",
+    "verificationCodePlaceholder": "Nsaba oyingize koodi y'okukakasa .",
+    "getVerificationCode": "Funa koodi y'okukakasa .",
+    "countdown": "{{Seconds}} Sekondi okuddamu okugezaako .",
+    "register": "okwewandiisa",
+    "errors": {
+      "phoneRequired": "Nsaba oyingize ennamba yo ey'essimu",
+      "phoneInvalid": "Enkola y'ennamba y'essimu si ntuufu .",
+      "codeRequired": "Nsaba oyingize koodi y'okukakasa .",
+      "codeInvalid": "Enkola ya koodi y'okukakasa si ntuufu .",
+      "requestFailed": "Okusaba kulemereddwa .",
+      "verificationFailed": "Okukakasa Code Okufuna kulemereddwa .",
+      "loginFailed": "Login eremereddwa ."
+    },
+    "success": {
+      "verificationCodeSent": "Code y'okukakasa eweerezeddwa .",
+      "registerSuccess": "Yawandiisibwa bulungi ."
+    }
+  }
+}

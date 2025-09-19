@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "Masukkan lampiran",
+    "emoji": "Pilih ungkapan",
+    "placeholder": "Masukkan mesej ...",
+    "sendLocation": "Hantar lokasi",
+    "send": "hantar"
+  }
+}

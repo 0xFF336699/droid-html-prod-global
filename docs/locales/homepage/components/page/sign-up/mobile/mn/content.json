@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "бүртгүүлэх",
+    "phoneNumber": "Утасны дугаар",
+    "phoneNumberPlaceholder": "Гар утасны дугаараа оруулна уу",
+    "verificationCode": "Шалгалт",
+    "verificationCodePlaceholder": "Баталгаажуулах кодыг оруулна уу",
+    "getVerificationCode": "Баталгаажуулах кодыг авна уу",
+    "countdown": "{{секунд}}}} Дахин оролдоно уу",
+    "register": "бүртгүүлэх",
+    "errors": {
+      "phoneRequired": "Гар утасны дугаараа оруулна уу",
+      "phoneInvalid": "Гар утасны дугаарын формат буруу байна",
+      "codeRequired": "Баталгаажуулах кодыг оруулна уу",
+      "codeInvalid": "Баталгаажуулах кодын формат буруу байна",
+      "requestFailed": "Хүсэлт амжилтгүй",
+      "verificationFailed": "Баталгаажуулах кодыг олж авах ажиллагаа амжилтгүй боллоо",
+      "loginFailed": "Нэвтрэх амжилтгүй боллоо"
+    },
+    "success": {
+      "verificationCodeSent": "Баталгаажуулах кодыг илгээсэн байна",
+      "registerSuccess": "Амжилттай бүртгэгдсэн"
+    }
+  }
+}

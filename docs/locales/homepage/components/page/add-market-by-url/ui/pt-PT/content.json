@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Como este aplicativo se aplica a um grande número de permissões no seu telefone celular, muitas permissões são extremamente arriscadas, portanto, não as importem ou executem sem saber claramente os riscos do mercado ou do script. Depois de inserir o conteúdo na caixa de texto \"Cartão de mercado\" ou \"Market Independent Page Page\" abaixo, o conteúdo será executado imediatamente como código. Por favor, seja cauteloso.",
+    "setNewMarket": "Configure um novo mercado",
+    "settingPreview": "Configurações Visualizar",
+    "marketName": "Nome de mercado",
+    "marketSummary": "Introdução ao mercado",
+    "marketDescription": "Introdução ao mercado",
+    "itemMarket": "Introdução ao cartão de mercado",
+    "fullMarket": "Página da web independente de mercado",
+    "marketCardPreview": "Visualização do cartão de mercado",
+    "marketFullPreview": "Visualização de página independente de mercado",
+    "isNotSet": "Não definido"
+  }
+}

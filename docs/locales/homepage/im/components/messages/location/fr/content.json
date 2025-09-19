@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Nom de lieu",
+    "viewMap": "Afficher la carte",
+    "close": "fermeture"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Le navigateur actuel ne prend pas en charge l'acquisition de géolocalisation",
+    "getLocationFailed": "Échec de l'emplacement, veuillez vérifier les paramètres d'autorisation",
+    "myLocation": "Mon emplacement",
+    "shareLocation": "Partager l'emplacement",
+    "getCurrentLocation": "Obtenez l'emplacement actuel",
+    "title": "Nom de lieu",
+    "description": "Description détaillée",
+    "descriptionPlaceholder": "Veuillez saisir une description détaillée (facultative)",
+    "preview": "Aperçu de l'emplacement",
+    "latitude": "latitude",
+    "longitude": "longitude",
+    "cancel": "Annuler",
+    "send": "envoyer",
+    "permissionPrompt": "Nous devons obtenir vos informations de localisation pour fournir de meilleurs services, est-il autorisé?",
+    "permissionDenied": "L'autorisation de positionnement est refusée, veuillez activer l'autorisation de positionnement dans les paramètres de votre navigateur",
+    "locationTimeout": "Positionnement du temps mort, assurez-vous que l'appareil est allumé et essayez de réagir",
+    "locationUnavailable": "L'emplacement actuel ne peut pas être obtenu, veuillez vérifier le service de localisation de l'appareil"
+  }
+}

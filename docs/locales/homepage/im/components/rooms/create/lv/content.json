@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Izveidojiet istabu"
+    },
+    "dialog": {
+      "title": "Izveidojiet jaunu istabu",
+      "form": {
+        "userId": {
+          "label": "Lietotāja ID",
+          "placeholder": "Ievadiet lietotāja ID (piemēram: @User: Example.com)",
+          "error": {
+            "required": "Lietotāja ID nevar būt tukšs",
+            "invalid": "Nederīgs lietotāja ID formāts"
+          }
+        },
+        "roomName": {
+          "label": "Istabas nosaukums (pēc izvēles)",
+          "placeholder": "Ievadiet istabas nosaukumu"
+        },
+        "isEncrypted": {
+          "label": "Iespējot visaptverošu šifrēšanu"
+        },
+        "isDirect": {
+          "label": "Tieša ziņojums"
+        },
+        "topic": {
+          "label": "Tēma (pēc izvēles)",
+          "placeholder": "Ievadiet istabas tēmu"
+        }
+      },
+      "actions": {
+        "cancel": "Atcelt",
+        "create": "radīt"
+      },
+      "success": "Istabas radīšana veiksmīgi",
+      "error": "Veidojot istabu, radās kļūda: {kļūda}"
+    }
+  }
+}

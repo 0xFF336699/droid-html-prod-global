@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "تعمل",
+    "click": "انقر",
+    "longClick": "مطبعة طويلة",
+    "setText": "تعيين النص",
+    "tryClick": "حاول العنصر أو الموقع انقر فوق",
+    "globalClick": "الموقع انقر"
+  }
+}

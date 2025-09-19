@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "नोंदणी करा",
+    "phoneNumber": "फोन नंबर",
+    "phoneNumberPlaceholder": "कृपया आपला मोबाइल फोन नंबर प्रविष्ट करा",
+    "verificationCode": "सत्यापन कोड",
+    "verificationCodePlaceholder": "कृपया सत्यापन कोड प्रविष्ट करा",
+    "getVerificationCode": "सत्यापन कोड मिळवा",
+    "countdown": "पुन्हा प्रयत्न करण्यासाठी {{सेकंद}} सेकंद",
+    "register": "नोंदणी करा",
+    "errors": {
+      "phoneRequired": "कृपया आपला मोबाइल फोन नंबर प्रविष्ट करा",
+      "phoneInvalid": "मोबाइल फोन नंबरचे स्वरूप चुकीचे आहे",
+      "codeRequired": "कृपया सत्यापन कोड प्रविष्ट करा",
+      "codeInvalid": "सत्यापन कोड स्वरूप चुकीचे आहे",
+      "requestFailed": "विनंती अयशस्वी",
+      "verificationFailed": "सत्यापन कोड अधिग्रहण अयशस्वी",
+      "loginFailed": "लॉगिन अयशस्वी"
+    },
+    "success": {
+      "verificationCodeSent": "सत्यापन कोड पाठविला गेला आहे",
+      "registerSuccess": "यशस्वीरित्या नोंदणीकृत"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Blief verboonde",
+        "helperText": "Es u op de link Start klik, houd dan de link. Dit vereist de aondach dat de link continu weer weert aongeslote naodet ‘t is losgekoppeld.",
+        "retryCount": "Nummer vaan herverbindinge"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "Link URL, bij veurbeeld:///192.168.0.0.2:7001, of wws://veurbeeld.com/paad",
+        "error": "De juiste URL is ‘n URL die begint mèt ws:// of wws://"
+      }
+    },
+    "connectButton": {
+      "connect": "verbinge",
+      "disconnect": "Let op",
+      "status": {
+        "connecting": "Verbinde...",
+        "connected": "Verkrege",
+        "disconnecting": "Ontkoppele...",
+        "disconnected": "Neet verbonde",
+        "waitRetry": "Wachte veur herverbinding..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "gesjreve stuk"
+  }
+}

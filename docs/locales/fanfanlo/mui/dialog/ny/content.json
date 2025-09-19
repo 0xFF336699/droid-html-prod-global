@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Siya",
+    "confirm": "Zoona",
+    "title": "ganizo",
+    "content": "Mukutsimikiza kuti mukufuna kuchita izi?"
+  },
+  "EditableText": {
+    "cancel": "Siya",
+    "save": "sunga",
+    "title": "konza masentensi"
+  }
+}

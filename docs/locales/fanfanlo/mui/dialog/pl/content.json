@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Anulować",
+    "confirm": "Jasne",
+    "title": "wskazówka",
+    "content": "Czy na pewno chcesz to zrobić?"
+  },
+  "EditableText": {
+    "cancel": "Anulować",
+    "save": "ratować",
+    "title": "redagować"
+  }
+}

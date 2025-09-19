@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Asta destûr hewce ye ku peyamek bişîne",
+        "tooltip": "0 tê vê wateyê ku hemî endam dikarin peyaman bişînin, û hejmarê mezintir tê vê wateyê ku destûrên bilindtir hewce ne"
+      },
+      "invite": {
+        "label": "Asta destûr ji bo vexwendina endamên nû hewce dike",
+        "tooltip": "Set kî dikare endamên nû vexwendin odeyê"
+      },
+      "kick": {
+        "label": "Asta destûra pêwîst derxînin",
+        "tooltip": "Set kî dikare endamên odeyê derxe"
+      },
+      "ban": {
+        "label": "Asta destûr ji bo astengkirina endamên hewce dike",
+        "tooltip": "Set kî dikare endamên odeyê asteng bike"
+      },
+      "roomSettings": {
+        "label": "Mîhengên destûra destûrê ya destûrê biguherînin",
+        "tooltip": "Set kî dikare mîhengên odeyê biguhezîne"
+      },
+      "submit": "Mîhengên destûrê hilînin"
+    },
+    "description": "Rêjeya asta destûr: 0-100, hejmar mezintir tê wateya destûrên bilindtir hewce ye",
+    "toast": {
+      "success": "Mîhengên destûr hatine nûve kirin",
+      "error": "Mîhengên destûr nehat nûkirin"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Piekļuves saskarnes skatīšana",
+    "howToUse": "Lietošanas instrukcijas",
+    "howToUseTooltip": "Zemāk ir daži šī mezgla marķēšanas atribūti, kurus var izmantot, lai izvēlētos operācijas, piemēram, noklikšķināt, aizpildīt tekstu utt.\n\nAtribūta vērtību var dublēt lietotnes lapā. Ja sastopaties ar dublikātiem, lūdzu, pārklājiet citas atribūtu atlases, lai noteiktu unikalitāti.\n\nSarkanais vārds norāda, ka atribūta vērtība tiek atkārtota, zaļš vārds norāda, ka atribūta vērtība ir unikāla pašreizējā lapas meklēšanā, un melns vārds norāda, ka atkārtots salīdzinājums nav atkārtots.",
+    "otherNodesSummary": "Citi mezgli šajā vietā",
+    "moreNodes": "Lūk, kas tiek paplašināts.",
+    "nodeInfoDialogOkButton": "Rediģēt šī mezgla darbību",
+    "text": "2222 teksts"
+  }
+}

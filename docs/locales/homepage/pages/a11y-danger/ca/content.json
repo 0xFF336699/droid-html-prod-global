@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Aquesta funció pot realitzar operacions similars a les operacions en persona real, incloses, però sense limitar-se a fer clic, obrir aplicacions, etc. al vostre telèfon i també pot obrir algunes sol·licituds de pagament per al pagament. Com que hi ha riscos de ser enregistrades operacions, de fer pagaments, etc., us recomanem que només l’executeu si enteneu plenament el contingut del guió.",
+    "txt2": "Com tancar aquesta funció: obriu la pàgina principal d'aquesta aplicació, podeu deixar d'utilitzar la funció auxiliar a la configuració de la pàgina d'inici o bé podeu fer clic al botó \"Tanca totes les tasques i sortir\" de la pàgina d'inici. Aquest botó obliga el tancament de totes les tasques que s’executen i obliguen a tancar aquesta aplicació.",
+    "txt3": "El motiu pel qual utilitzem aquesta funció és que la nostra aplicació ha de tenir la possibilitat d’obrir altres aplicacions i controlar-les, com per exemple, quan navega per Instagram, pot lliscar automàticament un cop reproduït el vídeo, comprovar si un producte està a la venda i enviar missatges a amics en línia regularment, etc., que són interessants o d’operacions que estalvien mà d’obra.",
+    "iKnowDanger": "Conec els riscos: vés al conjunt",
+    "title": "Operacions perilloses"
+  }
+}

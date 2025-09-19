@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Lebitso la Kamore"
+      },
+      "topic": {
+        "label": "Seleleketso sa Kamore"
+      },
+      "avatar": {
+        "alt": "Avatar avatar"
+      },
+      "submit": "Boloka litlhophiso"
+    },
+    "toast": {
+      "success": "E ntlafalitsoe",
+      "error": {
+        "default": "Ntlafatsa li-setting tse hlotsoeng",
+        "avatar": "Ha rea ​​atleha ho ntlafatsa avatar"
+      }
+    }
+  }
+}

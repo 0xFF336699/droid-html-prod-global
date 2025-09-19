@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Atšaukti",
+    "confirm": "Žinoma",
+    "title": "Užuomina",
+    "content": "Ar tikrai norite tai padaryti?"
+  },
+  "EditableText": {
+    "cancel": "Atšaukti",
+    "save": "Išsaugoti",
+    "title": "Redaguoti"
+  }
+}

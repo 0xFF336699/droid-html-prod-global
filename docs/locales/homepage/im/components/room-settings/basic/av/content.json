@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "цӀар"
+      },
+      "topic": {
+        "label": "комнат"
+      },
+      "avatar": {
+        "alt": "комната"
+      },
+      "submit": "настройкаби хIалтIи"
+    },
+    "toast": {
+      "success": "цӀи гьарурал",
+      "error": {
+        "default": "Настройки не удалось",
+        "avatar": "Неудачно обновить аватар"
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "A hamani i te hoê piha"
+    },
+    "dialog": {
+      "title": "A hamani i te hoê piha apî",
+      "form": {
+        "userId": {
+          "label": "ID taata faaohipa",
+          "placeholder": "A tomo i te ID taata faaohipa (mai te i'oa: @ser: @serample.com)",
+          "error": {
+            "required": "Eita te ID e nehenehe e faaohipahia",
+            "invalid": "I roto i te hoho'a ID taata faaohipa"
+          }
+        },
+        "roomName": {
+          "label": "Te i'oa o te piha (te mana'o)",
+          "placeholder": "A tomo i te hoê piha"
+        },
+        "isEncrypted": {
+          "label": "Te mau rave'a no te faaoti"
+        },
+        "isDirect": {
+          "label": "Ia parau"
+        },
+        "topic": {
+          "label": "Te tumu parau (ma te ti'a)",
+          "placeholder": "A tomo i roto i te piha"
+        }
+      },
+      "actions": {
+        "cancel": "Tautea",
+        "create": "fa'ahono"
+      },
+      "success": "Ua manuïa maitai te ohipa",
+      "error": "Ua tupu te hoê hape a hamani ai oia i te hoê piha: {errror}"
+    }
+  }
+}

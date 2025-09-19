@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Maqaa kutaa ."
+      },
+      "topic": {
+        "label": "Seensa kutaa ."
+      },
+      "avatar": {
+        "alt": "Avatar kutaa ."
+      },
+      "submit": "Sajoo qusadhu ."
+    },
+    "toast": {
+      "success": "Sajoo haaromfame .",
+      "error": {
+        "default": "Sajoo update fooyyesse hin milkoofne .",
+        "avatar": "Avatar haaromsuu hin dandeenye ."
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Xɔa ƒe Ŋkɔ ."
+      },
+      "topic": {
+        "label": "Xɔa ƒe ŋgɔdonya ."
+      },
+      "avatar": {
+        "alt": "Xɔ si le Avatar ."
+      },
+      "submit": "Dzra Ðoɖowo Ðo Ðe Ðoɖo Nu ."
+    },
+    "toast": {
+      "success": "Settings ƒe tɔtrɔwo .",
+      "error": {
+        "default": "Update Settings Do kpo nu .",
+        "avatar": "Do kpo Avatar ƒe yeyewɔwɔ ."
+      }
+    }
+  }
+}

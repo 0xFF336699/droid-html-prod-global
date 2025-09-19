@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Goş",
+    "sub": {
+      "addScriptByUrl": "URL arkaly skript goşuň",
+      "addScriptByText": "Tekst arkaly skript goşuň",
+      "addMarket": "URL arkaly bazary goşuň",
+      "addMarketByText": "Tekst arkaly bazary goşuň"
+    }
+  }
+}

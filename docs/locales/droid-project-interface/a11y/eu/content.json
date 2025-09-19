@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "funtzionatu",
+    "click": "Klik",
+    "longClick": "Prentsa luzea",
+    "setText": "Ezarri testua",
+    "tryClick": "Saiatu elementua edo kokapena Egin klik",
+    "globalClick": "Kokapena Egin klik"
+  }
+}

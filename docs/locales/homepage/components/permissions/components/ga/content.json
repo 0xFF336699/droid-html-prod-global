@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Údaraithe",
+    "notPass": "Neamhúdaraithe",
+    "danger": "Baol",
+    "setting": "Bunaithe"
+  }
+}

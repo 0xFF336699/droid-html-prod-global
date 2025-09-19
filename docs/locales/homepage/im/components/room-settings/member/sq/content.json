@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Kërkoni për anëtarët"
+    },
+    "table": {
+      "columns": {
+        "name": "Emrin e anëtarit",
+        "userId": "ID e përdoruesit",
+        "actions": "funksionoj"
+      },
+      "pagination": {
+        "rowsPerPage": "Numri i rreshtave për faqe"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Nxjerr",
+        "ban": "I ndaluar"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Konfirmoni anëtarin e goditjes",
+        "content": "A jeni i sigurt që doni të largoni anëtarin nga dhoma?"
+      },
+      "ban": {
+        "title": "Konfirmoni anëtarësimin e ndaluar",
+        "content": "A jeni i sigurt që doni ta ndaloni këtë anëtar? Anëtari nuk do të jetë në gjendje të ribashkohet në dhomë pas ndalimit."
+      },
+      "buttons": {
+        "cancel": "Anuloj",
+        "confirm": "konfirmoj"
+      }
+    },
+    "toast": {
+      "loadError": "Dështoi të ngarkojë listën e anëtarëve",
+      "kick": {
+        "success": "Anëtarët janë larguar nga dhoma",
+        "error": "Nisja e anëtarëve dështoi"
+      },
+      "ban": {
+        "success": "Anëtarët e bllokuar",
+        "error": "Nuk arritën të bllokojnë anëtarët"
+      }
+    },
+    "invite": {
+      "button": "Fto anëtarët",
+      "title": "Ftojini anëtarët të bashkohen në dhomë",
+      "inputLabel": "Ju lutemi shkruani ID -në e përdoruesit të matricës (siç është @User: Matrix.org)",
+      "confirm": "ftoj",
+      "cancel": "Anuloj",
+      "loading": "Ftesë ...",
+      "success": "Ftesë e dërguar!",
+      "error": "Ftesa dështoi, ju lutemi kontrolloni ID -në e përdoruesit ose lejet"
+    },
+    "empty": "Asnjë anëtar akoma",
+    "loading": "Duke ngarkuar ...",
+    "role": {
+      "owner": "Pronar shtëpie",
+      "admin": "administrator",
+      "moderator": "Bashkë-menaxhim",
+      "user": "anëtar"
+    }
+  }
+}

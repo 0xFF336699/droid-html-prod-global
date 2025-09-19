@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "اندراج کریں",
+    "phoneNumber": "فون نمبر",
+    "phoneNumberPlaceholder": "براہ کرم اپنا موبائل فون نمبر درج کریں",
+    "verificationCode": "توثیق کا کوڈ",
+    "verificationCodePlaceholder": "براہ کرم توثیق کا کوڈ درج کریں",
+    "getVerificationCode": "توثیق کا کوڈ حاصل کریں",
+    "countdown": "دوبارہ کوشش کرنے کے لئے {{سیکنڈ}} سیکنڈ",
+    "register": "اندراج کریں",
+    "errors": {
+      "phoneRequired": "براہ کرم اپنا موبائل فون نمبر درج کریں",
+      "phoneInvalid": "موبائل فون نمبر کی شکل غلط ہے",
+      "codeRequired": "براہ کرم توثیق کا کوڈ درج کریں",
+      "codeInvalid": "توثیق کوڈ کی شکل غلط ہے",
+      "requestFailed": "درخواست ناکام ہوگئی",
+      "verificationFailed": "توثیق کوڈ کے حصول میں ناکام رہا",
+      "loginFailed": "لاگ ان ناکام ہوگیا"
+    },
+    "success": {
+      "verificationCodeSent": "توثیق کا کوڈ بھیجا گیا ہے",
+      "registerSuccess": "کامیابی کے ساتھ رجسٹرڈ"
+    }
+  }
+}

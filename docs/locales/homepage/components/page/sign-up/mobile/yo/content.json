@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "forukọsilẹ",
+    "phoneNumber": "Nomba fonu",
+    "phoneNumberPlaceholder": "Jọwọ tẹ nọmba foonu alagbeka rẹ",
+    "verificationCode": "Kodu afimo",
+    "verificationCodePlaceholder": "Jọwọ tẹ koodu ijẹrisi naa",
+    "getVerificationCode": "Gba koodu ijerisi",
+    "countdown": "{{{{{rí ► Tẹ awọn aaya lati gbiyanju lẹẹkansii",
+    "register": "forukọsilẹ",
+    "errors": {
+      "phoneRequired": "Jọwọ tẹ nọmba foonu alagbeka rẹ",
+      "phoneInvalid": "Ọna kika foonu alagbeka jẹ aṣiṣe",
+      "codeRequired": "Jọwọ tẹ koodu ijẹrisi naa",
+      "codeInvalid": "Ọna kika ayewo jẹ aṣiṣe",
+      "requestFailed": "Ibere ​​kuna",
+      "verificationFailed": "IKILỌ KỌRIN TI O DARA",
+      "loginFailed": "Iwọle kuna"
+    },
+    "success": {
+      "verificationCodeSent": "Koodu ijẹrisi ti firanṣẹ",
+      "registerSuccess": "Forukọsilẹ ni aṣeyọri"
+    }
+  }
+}

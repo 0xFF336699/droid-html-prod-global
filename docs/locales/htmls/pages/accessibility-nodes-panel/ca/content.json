@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Visualització de la interfície d’accessibilitat",
+    "howToUse": "Instruccions per utilitzar -les",
+    "howToUseTooltip": "A continuació, es mostren alguns atributs de marcatge d’aquest node que es poden utilitzar per seleccionar operacions, com ara fer clic, emplenar text, etc.\n\nEl valor d’atribut es pot duplicar a la pàgina de l’aplicació. Si trobeu duplicats, sobreposeu altres seleccions d’atributs per determinar la singularitat.\n\nUna paraula vermella indica que es repeteix el valor d’atribut, una paraula verda indica que el valor d’atribut és únic en la cerca de pàgina actual i una paraula negra indica que no hi ha cap comparació repetida.",
+    "otherNodesSummary": "Altres nodes en aquesta ubicació",
+    "moreNodes": "Heus aquí el que s’està ampliant.",
+    "nodeInfoDialogOkButton": "Edita el funcionament d'aquest node",
+    "text": "Text 2222"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Cloan/Reginagh",
+    "signOut": "Cur magh",
+    "confirmContent": "As t'ou shickyr dy vel oo er n'yannoo loggey?",
+    "confirmTitle": "goyrt",
+    "confirm": "Shickyr",
+    "cancel": "cur ass",
+    "signoutOk": "Cur magh",
+    "loadingData": "Cur coontey jeh'n obbyr"
+  }
+}

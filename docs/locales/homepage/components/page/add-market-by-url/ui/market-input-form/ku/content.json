@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Pîvana URL",
+    "full": {
+      "url": "URL-ê bazarê. Karakterên têkevî dê wekî URL-ê werin barkirin, ji kerema xwe hişyar bimînin.",
+      "html": "Naveroka HTML ya Bazar. Karakterên têkevî dê tavilê wekî tîpan bêne darve kirin, ji kerema xwe hişyar bin.",
+      "come": "Werin min",
+      "myMarketName": "Navê bazarê",
+      "stroll": "Ka em rêve bibin"
+    },
+    "item": {
+      "url": "URL karta bazarê. Karakterên têkevî dê wekî URL-ê werin barkirin, ji kerema xwe hişyar bimînin.",
+      "html": "Naveroka HTML ya Bazar. Karakterên têkevî dê tavilê wekî tîpan bêne darve kirin, ji kerema xwe hişyar bin.",
+      "come": "Werin min",
+      "myMarketName": "Navê bazarê",
+      "stroll": "Ka em rêve bibin"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Hjælpefunktioner",
+    "pass": "Autoriseret",
+    "notPass": "Uberettiget",
+    "setting": "opsæt",
+    "danger": "Fare",
+    "dangerDesc": "Denne tilladelse kan se indhold på skærmen og klikke på din telefon. Deaktiver denne tilladelse, hvis du ikke eksplicit forstår funktionaliteten og risiciene ved det script, du kører eller kører."
+  }
+}

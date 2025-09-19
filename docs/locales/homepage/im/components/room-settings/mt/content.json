@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Settings tal-Kamra",
+    "tabs": {
+      "basic": "Settings bażiċi",
+      "permission": "Settings tal-permess",
+      "privacy": "Settings tal-Privatezza",
+      "member": "Ġestjoni tal-Membri"
+    },
+    "loadError": "Naqas milli jgħabbi s-settings tal-kamra",
+    "leaveRoom": {
+      "button": "Ħruġ mill-kamra",
+      "confirm": "Int żgur li trid toħroġ mill-kamra? Wara li toħroġ, ma tkunx tista 'tkompli tirċievi messaġġi minn din il-kamra.",
+      "success": "Ħareġ mill-kamra b'suċċess",
+      "error": "Ma rnexxilix joħroġ mill-kamra, jekk jogħġbok erġa 'pprova"
+    }
+  }
+}

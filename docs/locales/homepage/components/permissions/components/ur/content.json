@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "مجاز",
+    "notPass": "غیر مجاز",
+    "danger": "خطرہ",
+    "setting": "سیٹ اپ"
+  }
+}

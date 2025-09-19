@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Ez a funkció a valós személyes műveletekhez hasonló műveleteket is végrehajthat, ideértve, de nem kizárólag a telefonján az alkalmazások stb. Kattintására, megnyitására stb., És néhány fizetési kérelmet is megnyithat. Mivel vannak kockázatok a rögzített műveletek, a fizetések elvégzésének stb.",
+    "txt2": "A funkció lezárása: Nyissa meg az alkalmazás kezdőlapját, abbahagyhatja a kiegészítő funkció használatát a kezdőlap beállításaiban, vagy kattintson a honlapon található \"Összes feladat és kilépés\" gombra. Ez a gomb kényszeríti az összes végrehajtott feladat bezárását, és bezárja ezt az alkalmazást.",
+    "txt3": "Ennek a funkciónak az az oka, hogy alkalmazásunknak képesnek kell lennie arra, hogy más alkalmazásokat nyisson meg és ellenőrizze azokat, például az Instagram böngészése során, az automatikusan felcsúszhat a videó lejátszása után, ellenőrizze, hogy egy termék eladásra kerül-e, és rendszeresen üzeneteket küldenek az online barátoknak stb.",
+    "iKnowDanger": "Tudom a kockázatokat - menj be a beállításra",
+    "title": "Veszélyes műveletek"
+  }
+}

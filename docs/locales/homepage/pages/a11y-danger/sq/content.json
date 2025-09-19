@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Ky funksion mund të kryejë operacione të ngjashme me operacionet e personave të vërtetë, duke përfshirë, por jo të kufizuar në klikimin, hapjen e aplikacioneve, etj. Në telefonin tuaj, dhe gjithashtu mund të hapë disa aplikacione pagese për pagesa. Për shkak se ekzistojnë rreziqe për t'u regjistruar në operacione, për të bërë pagesa, etj., Ne ju rekomandojmë që ta ekzekutoni vetëm nëse e kuptoni plotësisht përmbajtjen e skenarit.",
+    "txt2": "Si ta mbyllni këtë funksion: Hapni faqen kryesore të kësaj aplikacioni, mund të ndaloni përdorimin e funksionit ndihmës në cilësimet e faqes kryesore, ose mund të klikoni në butonin \"Mbyllni të gjitha detyrat dhe daljen\" në faqen kryesore. Ky buton detyron mbylljen e të gjitha detyrave që ekzekutohen dhe detyrojnë të mbyllin këtë aplikacion.",
+    "txt3": "Arsyeja që ne përdorim këtë funksion është se aplikacioni ynë duhet të ketë aftësinë për të hapur aplikacione të tjera dhe t'i kontrollojë ato, të tilla si kur shfletoni Instagram, ai automatikisht mund të rrëshqasë pasi të luhet videoja, të kontrolloni nëse një produkt është në shitje, dhe të dërgojë mesazhe për miqtë në internet rregullisht, etj., Të cilat janë interesante ose operacione të kursimit të punës.",
+    "iKnowDanger": "Unë i di rreziqet - shkoni të vendosni",
+    "title": "Operacione të rrezikshme"
+  }
+}

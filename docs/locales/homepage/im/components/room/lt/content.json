@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Prisijunkite prie kambario",
+      "inviteOnly": "Tai yra privatus kambarys ir norint prisijungti reikia kvietimų",
+      "knockRequired": "Šiam kambariui reikia prisijungti. Spustelėkite žemiau esantį mygtuką, kad išsiųstumėte prisijungimo užklausą",
+      "canJoin": "Tai yra viešas kambarys, galite prisijungti tiesiogiai",
+      "sendRequest": "Siųsti prisijungimo užklausą",
+      "join": "Prisijunkite prie kambario"
+    },
+    "JoinRequestList": {
+      "noRequests": "Dar nėra prisijungimo užklausos",
+      "accept": "priimti",
+      "reject": "atmesti"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Įveskite pranešimą ..."
+  },
+  "MessageList": {
+    "noMessages": "Dar nėra pranešimo, atsiųskite pirmąjį pranešimą, kad pradėtumėte pokalbį!",
+    "loading": "pakrauti ...",
+    "error": {
+      "loadFailed": "Nepavyko įkelti pranešimo",
+      "retry": "Bandykite dar kartą"
+    },
+    "loadingHistory": "Pakrovimo istorija ...",
+    "historyEnd": "Atėjo ankstyviausios naujienos"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Dar nėra pranešimo, atsiųskite pirmąjį pranešimą, kad pradėtumėte pokalbį!"
+  },
+  "RoomContent": {
+    "title": "Kambarys"
+  },
+  "RoomHeader": {
+    "title": "Kambarys",
+    "unnamedRoom": "Bevardis kambarys",
+    "members": "narys",
+    "settings": "Nustatykite",
+    "leaveRoom": "Palikite kambarį",
+    "joinRoom": "Prisijunkite prie kambario"
+  },
+  "RoomMembers": {
+    "title": "Kambario nariai",
+    "online": "Internete",
+    "offline": "Neprisijungus",
+    "join": "Prisijunkite",
+    "invite": "pakviesti",
+    "leave": "palikti",
+    "ban": "Uždrausta",
+    "noMembers": "Dar nė vienas narys",
+    "loading": "pakrauti ..."
+  }
+}

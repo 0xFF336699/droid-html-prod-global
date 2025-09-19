@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Cercà membri"
+    },
+    "table": {
+      "columns": {
+        "name": "Nome di membri",
+        "userId": "ID d'Usuariu",
+        "actions": "opera"
+      },
+      "pagination": {
+        "rowsPerPage": "Numeru di fila per pagina"
+      },
+      "avatar": {
+        "alt": "Avatar"
+      },
+      "actions": {
+        "kick": "Kick out",
+        "ban": "Pruibitu"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Confirmate u Membru Kicking",
+        "content": "Hè sicura chì vulete pate u membru fora di a stanza?"
+      },
+      "ban": {
+        "title": "Confirmate l'appartenenza pruibita",
+        "content": "Hè sicura chì vulete pruibisce stu membru? U membru ùn puderà micca sminticà a stanza dopu a prohibizione."
+      },
+      "buttons": {
+        "cancel": "Annulla",
+        "confirm": "cunfirmà"
+      }
+    },
+    "toast": {
+      "loadError": "Fiascatu à carricà a lista di Membri",
+      "kick": {
+        "success": "I membri sò stati stati cacciati fora di a stanza",
+        "error": "I membri di u kicking fallenu"
+      },
+      "ban": {
+        "success": "Membri bluccati",
+        "error": "Fiascatu à bluccà i membri"
+      }
+    },
+    "invite": {
+      "button": "Invita i Membri",
+      "title": "Invita à i membri à unisce à a stanza",
+      "inputLabel": "Inserite l'ID d'utilizatore matrix (cum'è @user: matrix.org)",
+      "confirm": "invità",
+      "cancel": "Annulla",
+      "loading": "Invitante ...",
+      "success": "Invitazione mandata!",
+      "error": "L'invitu hà fiascatu, per piacè verificà l'ID d'Usuariu o Permessi"
+    },
+    "empty": "Nisun membru ancora",
+    "loading": "Caricendu ...",
+    "role": {
+      "owner": "Home",
+      "admin": "amministratore",
+      "moderator": "Coageria",
+      "user": "Membru"
+    }
+  }
+}

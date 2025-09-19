@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Oħloq kamra"
+    },
+    "dialog": {
+      "title": "Oħloq Kamra Ġdida",
+      "form": {
+        "userId": {
+          "label": "Utent ID",
+          "placeholder": "Daħħal l-ID tal-Utent (per eżempju: @USer: Exhample.com)",
+          "error": {
+            "required": "L-ID tal-Utent ma jistax ikun vojt",
+            "invalid": "Format tal-ID tal-Utent Invalidu"
+          }
+        },
+        "roomName": {
+          "label": "Isem tal-kamra (mhux obbligatorju)",
+          "placeholder": "Daħħal isem tal-kamra"
+        },
+        "isEncrypted": {
+          "label": "Jippermetti encryption end-to-end"
+        },
+        "isDirect": {
+          "label": "Messaġġ dirett"
+        },
+        "topic": {
+          "label": "Tema (mhux obbligatorja)",
+          "placeholder": "Daħħal it-Tema tal-Kamra"
+        }
+      },
+      "actions": {
+        "cancel": "Ikkanċella",
+        "create": "Oħloq"
+      },
+      "success": "Ħolqien tal-kamra b'suċċess",
+      "error": "Żball seħħ waqt il-ħolqien ta 'kamra: {żball}"
+    }
+  }
+}

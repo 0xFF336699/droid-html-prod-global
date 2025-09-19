@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Warware",
+    "confirm": "Wanda aka tabbata",
+    "title": "ambato",
+    "content": "Ka tabbata kana son yin wannan?"
+  },
+  "EditableText": {
+    "cancel": "Warware",
+    "save": "ceta",
+    "title": "shirya"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Nastavení pokoje",
+    "tabs": {
+      "basic": "Základní nastavení",
+      "permission": "Nastavení povolení",
+      "privacy": "Nastavení ochrany osobních údajů",
+      "member": "Správa členů"
+    },
+    "loadError": "Nepodařilo se načíst nastavení místnosti",
+    "leaveRoom": {
+      "button": "Ukončete místnost",
+      "confirm": "Jste si jisti, že chcete opustit místnost? Po ukončení nebudete moci pokračovat v přijímání zpráv z této místnosti.",
+      "success": "Úspěšně vystoupil z místnosti",
+      "error": "Nepodařilo se opustit místnost, zkuste to znovu"
+    }
+  }
+}

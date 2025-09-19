@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "qillqachakuy",
+    "phoneNumber": "Teléfono yupay .",
+    "phoneNumberPlaceholder": "Ama hina kaspa, celular numeroykita churay .",
+    "verificationCode": "Chiqaqchay qillqa .",
+    "verificationCodePlaceholder": "Ama hina kaspa, chiqapchay qillqa mayt'uta qillqay .",
+    "getVerificationCode": "Verificación nisqa qillqata hap'iy .",
+    "countdown": "{{iskay kaq}} segundos kaqmanta ruwayta munaspa .",
+    "register": "qillqachakuy",
+    "errors": {
+      "phoneRequired": "Ama hina kaspa, celular numeroykita churay .",
+      "phoneInvalid": "Celularpa yupayninpa formatonqa manam allinchu .",
+      "codeRequired": "Ama hina kaspa, chiqapchay qillqa mayt'uta qillqay .",
+      "codeInvalid": "Chiqaqchay codigo formatoqa pantasqa kachkan .",
+      "requestFailed": "Mañakuy mana atisqachu .",
+      "verificationFailed": "Chiqapchay código rantiyqa mana atirqanchu .",
+      "loginFailed": "Yaykuy mana atisqa ."
+    },
+    "success": {
+      "verificationCodeSent": "Chiqaqchay qillqa mayt'u kachasqaña .",
+      "registerSuccess": "Allin qillqasqa ."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "эшләй",
+    "click": "Баҫығыҙ",
+    "longClick": "Оҙайлы баҫығыҙ",
+    "setText": "Текст ҡуйырға",
+    "tryClick": "Элем",
+    "globalClick": "Урыны баҫығыҙ"
+  }
+}

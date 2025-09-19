@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Ipele igbanilaaye nilo lati firanṣẹ ifiranṣẹ kan",
+        "tooltip": "0 tumọ si pe gbogbo awọn ọmọ ẹgbẹ le firanṣẹ awọn ifiranṣẹ, ati nọmba ti o tobi tumọ si pe awọn igbanilaaye giga ni a nilo"
+      },
+      "invite": {
+        "label": "Ipele igbanilaaye nilo lati pe awọn ọmọ ẹgbẹ tuntun",
+        "tooltip": "Ṣeto tani o le pe awọn ọmọ ẹgbẹ tuntun si yara naa"
+      },
+      "kick": {
+        "label": "Tapa ipele igbanilaaye ti a beere",
+        "tooltip": "Ṣeto tani le tapa awọn ọmọ ẹgbẹ yara naa"
+      },
+      "ban": {
+        "label": "Ipele igbanilaaye nilo fun awọn ọmọ ẹgbẹ Diding",
+        "tooltip": "Ṣeto ti o le ṣe idiwọ awọn ọmọ ẹgbẹ yara"
+      },
+      "roomSettings": {
+        "label": "Ṣatunṣe ipele aṣẹ ti a beere ti awọn eto yara",
+        "tooltip": "Ṣeto ti o le yipada awọn eto yara naa"
+      },
+      "submit": "Fi awọn igbanilaaye pamọ"
+    },
+    "description": "Ipilẹ Ipele Iwọle: 0-100, nọmba ti o tobi julọ tumọ si awọn igbanilaaye giga ti nilo",
+    "toast": {
+      "success": "Eto igbanilaaye ti ni imudojuiwọn",
+      "error": "Kuna lati ṣe imudojuiwọn awọn eto igbanilaaye"
+    }
+  }
+}

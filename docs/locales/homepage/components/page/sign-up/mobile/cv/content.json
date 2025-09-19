@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "реестр",
+    "phoneNumber": "Телефон номерĕ",
+    "phoneNumberPlaceholder": "Кĕсье телефонĕн номерне кĕртĕр",
+    "verificationCode": "Тĕрĕслев кодексĕ",
+    "verificationCodePlaceholder": "Тĕрĕслев кодне кĕрĕр",
+    "getVerificationCode": "Тĕрĕслев кодне илĕр",
+    "countdown": "{{секундсем}} çеккунтсем тепĕр хут хăтланса пăхма",
+    "register": "реестр",
+    "errors": {
+      "phoneRequired": "Кĕсье телефонĕн номерне кĕртĕр",
+      "phoneInvalid": "Кĕсье телефонĕн номерĕн формачĕ тĕрĕс мар.",
+      "codeRequired": "Тĕрĕслев кодне кĕрĕр",
+      "codeInvalid": "Тĕрĕслев кочĕн формачĕ тĕрĕс мар",
+      "requestFailed": "Ыйту ăнăçсăр",
+      "verificationFailed": "Тĕрĕслев кочĕн илни ăнăçсăр",
+      "loginFailed": "Логин ăнăçсăр"
+    },
+    "success": {
+      "verificationCodeSent": "Тĕрĕслев кодексне янă",
+      "registerSuccess": "Регистрациленĕ"
+    }
+  }
+}

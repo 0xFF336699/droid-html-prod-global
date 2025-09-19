@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Cur-my-ner.",
+    "howToUse": "Instructionyn son ymmyd",
+    "howToUseTooltip": "Ta cuid jeh'n markaghey shoh ry-gheddyn son obbraghyn, myr click, llieeney text, etc.\n\nTa'n aght t'ayn ry-gheddyn ayns y duillag app. Mannagh vel oo ry-gheddyn duplicate, cur-my-ner roghnin elley dy ghra uniqueness.\n\nTa fockle red cur fys dy vel y ghraih attribute er ny yannoo reesht, ta fockle glass soilshaghey magh dy vel y ghraih attribute ymmyrchagh ayns y rannagh paginagh nish, as ta fockle dooghyssagh soilshaghey magh nagh vel co-chosney ry-gheddyn.",
+    "otherNodesSummary": "Nodyn elley ayns y raad shoh",
+    "moreNodes": "Ta shen ny ta er ny h-earroo.",
+    "nodeInfoDialogOkButton": "Cur obbraghey jeh'n node shoh",
+    "text": "Text 2222"
+  }
+}

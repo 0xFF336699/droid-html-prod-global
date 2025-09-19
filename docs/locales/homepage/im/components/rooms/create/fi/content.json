@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Luoda huone"
+    },
+    "dialog": {
+      "title": "Luo uusi huone",
+      "form": {
+        "userId": {
+          "label": "Käyttäjätunnus",
+          "placeholder": "Syötä käyttäjätunnus (esimerkiksi: @user: esimerkki.com)",
+          "error": {
+            "required": "Käyttäjätunnus ei voi olla tyhjä",
+            "invalid": "Virheellinen käyttäjätunnusmuoto"
+          }
+        },
+        "roomName": {
+          "label": "Huoneen nimi (valinnainen)",
+          "placeholder": "Kirjoita huoneen nimi"
+        },
+        "isEncrypted": {
+          "label": "Ota päähän -salaus"
+        },
+        "isDirect": {
+          "label": "Suora viesti"
+        },
+        "topic": {
+          "label": "Teema (valinnainen)",
+          "placeholder": "Kirjoita huoneen teema"
+        }
+      },
+      "actions": {
+        "cancel": "Peruuttaa",
+        "create": "luoda"
+      },
+      "success": "Huoneen luominen onnistuneesti",
+      "error": "Huoneen luomisen aikana tapahtui virhe: {virhe}"
+    }
+  }
+}

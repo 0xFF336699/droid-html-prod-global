@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Anv al lec'hiadur",
+    "viewMap": "Gwelet ar gartenn",
+    "close": "serriñ; klozañ"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Ar merdeer bremañ ne skoazell ket ar c'hefluniadur geolokaat .",
+    "getLocationFailed": "C'hwitet en deus evit kaout al lec'hiadur, gwiriit an arventennoù aotre",
+    "myLocation": "Ma lec'hiadur",
+    "shareLocation": "Rannañ lec'hiadur",
+    "getCurrentLocation": "Kaout al lec'hiadur bremañ",
+    "title": "Anv al lec'hiadur",
+    "description": "Deskrivadur munut",
+    "descriptionPlaceholder": "Lakait un deskrivadur munut (dibarzh) mar plij",
+    "preview": "Rakwelet al lec'hiadur",
+    "latitude": "ledred",
+    "longitude": "hirder",
+    "cancel": "Nullañ",
+    "send": "kas",
+    "permissionPrompt": "Ezhomm hon eus da gaout ho titouroù lec'hiadur evit reiñ servijoù gwelloc'h, ha aotreet eo ?",
+    "permissionDenied": "Nac'het eo an aotre da lakaat, mar plij, gweredekait an aotre da lakaat e-barzh arventennoù ho merdeer",
+    "locationTimeout": "Posicione timeout, gwiriit e vo lakaet an urzhiataer war-sav ha klaskit adc'houlenn",
+    "locationUnavailable": "N'haller ket kaout al lec'hiadur bremañ, gwiriit servij lec'hiadur an urzhiataer"
+  }
+}

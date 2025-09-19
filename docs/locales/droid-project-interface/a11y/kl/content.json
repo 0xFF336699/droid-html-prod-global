@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "ingerlaneq",
+    "click": "toorlugu",
+    "longClick": "Sivisuumik press",
+    "setText": "SMS-erneq",
+    "tryClick": "Elementi imaluunniit sumiiffik tooruk",
+    "globalClick": "Sumiiffimmi klikkimik"
+  }
+}

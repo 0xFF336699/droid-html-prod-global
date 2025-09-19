@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "დაამატეთ ბაზარზე",
+    "url": "ბაზრის URL",
+    "summary": "ბაზრის რეზიუმე",
+    "urlIsNotValid": "არასწორი ბაზრის URL"
+  }
+}

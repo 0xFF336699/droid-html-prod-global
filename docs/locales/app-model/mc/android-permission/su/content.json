@@ -1,0 +1,7 @@
+{
+  "androidPermission": {
+    "denied": "nolak",
+    "granted": "Otorisasi",
+    "shouldAskAgain": "Henteu sah"
+  }
+}

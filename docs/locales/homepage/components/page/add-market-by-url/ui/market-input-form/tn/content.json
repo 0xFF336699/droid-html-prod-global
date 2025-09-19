@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Paterone ya URL",
+    "full": {
+      "url": "URL ya Mmaraka. Baanelwa ba ba tsenyeng ba tla laisiwa jaaka di-URL, tsweetswee nna kelotlhoko.",
+      "html": "Mmaraka Diteng tsa HTML. Baanelwa ba ba tsenyeng ba tla diragadiwa ka bonako jaaka dikwalo, tsweetswee nna kelotlhoko.",
+      "come": "Tlayang mo go ya me",
+      "myMarketName": "Leina la Mmaraka",
+      "stroll": "A re tsamaye"
+    },
+    "item": {
+      "url": "URL ya Karata ya Mmaraka. Baanelwa ba ba tsenyeng ba tla laisiwa jaaka di-URL, tsweetswee nna kelotlhoko.",
+      "html": "Mmaraka Diteng tsa HTML. Baanelwa ba ba tsenyeng ba tla diragadiwa ka bonako jaaka dikwalo, tsweetswee nna kelotlhoko.",
+      "come": "Tlayang mo go ya me",
+      "myMarketName": "Leina la Mmaraka",
+      "stroll": "A re tsamaye"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "ka dankari",
+    "confirm": "Jaati",
+    "title": "taamasiyɛn",
+    "content": "Yala i b’a fɛ ka nin kɛ wa?"
+  },
+  "EditableText": {
+    "cancel": "ka dankari",
+    "save": "ka mara",
+    "title": "ka korize"
+  }
+}

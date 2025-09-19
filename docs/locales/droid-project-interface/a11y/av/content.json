@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "иш",
+    "click": "кӀутӀизе",
+    "longClick": "халатаб пресса",
+    "setText": "текст",
+    "tryClick": "ХӀалбихье элемент яги бакӀ кӀутӀизе",
+    "globalClick": "бак"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Na iwalewale oqo e rawa walega ni kacivi ena Android .",
+      "noMethod": "E sega ni tiko na iwalewale oqo ."
+    }
+  }
+}

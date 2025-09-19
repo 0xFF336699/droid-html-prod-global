@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Tham gia phòng",
+      "inviteOnly": "Đây là một phòng riêng và yêu cầu lời mời tham gia",
+      "knockRequired": "Phòng này yêu cầu ứng dụng để tham gia. Nhấp vào nút bên dưới để gửi yêu cầu tham gia",
+      "canJoin": "Đây là một phòng công cộng, bạn có thể tham gia trực tiếp",
+      "sendRequest": "Gửi yêu cầu tham gia",
+      "join": "Tham gia phòng"
+    },
+    "JoinRequestList": {
+      "noRequests": "Chưa có yêu cầu tham gia",
+      "accept": "chấp nhận",
+      "reject": "từ chối"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Nhập tin nhắn ..."
+  },
+  "MessageList": {
+    "noMessages": "Vẫn chưa có tin nhắn, hãy gửi tin nhắn đầu tiên để bắt đầu cuộc trò chuyện!",
+    "loading": "đang tải...",
+    "error": {
+      "loadFailed": "Không tải được tin nhắn",
+      "retry": "Hãy thử lại"
+    },
+    "loadingHistory": "Lịch sử tải ...",
+    "historyEnd": "Tin tức sớm nhất đã đến"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Vẫn chưa có tin nhắn, hãy gửi tin nhắn đầu tiên để bắt đầu cuộc trò chuyện!"
+  },
+  "RoomContent": {
+    "title": "Phòng"
+  },
+  "RoomHeader": {
+    "title": "Phòng",
+    "unnamedRoom": "Phòng không tên",
+    "members": "thành viên",
+    "settings": "cài đặt",
+    "leaveRoom": "Rời khỏi phòng",
+    "joinRoom": "Tham gia phòng"
+  },
+  "RoomMembers": {
+    "title": "Thành viên phòng",
+    "online": "Trực tuyến",
+    "offline": "Ngoại tuyến",
+    "join": "Tham gia",
+    "invite": "mời",
+    "leave": "rời khỏi",
+    "ban": "Bị cấm",
+    "noMembers": "Chưa có thành viên",
+    "loading": "đang tải..."
+  }
+}

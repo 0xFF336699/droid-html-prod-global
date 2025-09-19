@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Odeyek çêbikin"
+    },
+    "dialog": {
+      "title": "Odeyek nû ava bikin",
+      "form": {
+        "userId": {
+          "label": "Nasnameya bikarhêner",
+          "placeholder": "Nasnameya bikarhênerê binivîse (mînakî: @user: Mînak.com)",
+          "error": {
+            "required": "Nasnameya bikarhêner nikare vala be",
+            "invalid": "Forma Nasnameya Bikarhênerê Invalid"
+          }
+        },
+        "roomName": {
+          "label": "Navê odeyê (vebijarkî)",
+          "placeholder": "Navê odeyê binivîse"
+        },
+        "isEncrypted": {
+          "label": "Şîfrekirina dawiya-end-end-ê çalak bikin"
+        },
+        "isDirect": {
+          "label": "Peyama rasterast"
+        },
+        "topic": {
+          "label": "Mijar (vebijarkî)",
+          "placeholder": "Mijara odeyê binivîse"
+        }
+      },
+      "actions": {
+        "cancel": "Bişûndekirin",
+        "create": "xûliqandin"
+      },
+      "success": "Afirandina odeyê bi serfirazî",
+      "error": "Di afirandina odeyê de çewtiyek çêbû: {çewtî}"
+    }
+  }
+}

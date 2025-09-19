@@ -1,0 +1,9 @@
+{
+  "MemberDetailContent": {
+    "title": "Mga detalye ng miyembro",
+    "nickname": "Nick name",
+    "role": "Papel",
+    "kick": "Sipa",
+    "ban": "Pinagbawalan"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "La permesila nivelo bezonata por sendi mesaĝon",
+        "tooltip": "0 signifas, ke ĉiuj membroj povas sendi mesaĝojn, kaj ju pli granda estas la nombro signifas, ke necesas pli altaj permesoj"
+      },
+      "invite": {
+        "label": "Permesila nivelo bezonata por inviti novajn membrojn",
+        "tooltip": "Starigu, kiu povas inviti novajn membrojn al la ĉambro"
+      },
+      "kick": {
+        "label": "Ekbruligu la bezonatan permesan nivelon",
+        "tooltip": "Starigu, kiu povas piedbati la ĉambrajn membrojn"
+      },
+      "ban": {
+        "label": "Permesila nivelo bezonata por blokado de membroj",
+        "tooltip": "Starigu, kiuj povas bloki ĉambrajn membrojn"
+      },
+      "roomSettings": {
+        "label": "Modifu la bezonatan permesan nivelon de ĉambraj agordoj",
+        "tooltip": "Agordu, kiu povas modifi la ĉambrajn agordojn"
+      },
+      "submit": "Konservu Permesajn Agordojn"
+    },
+    "description": "Permesila Nivela Gamo: 0-100, ju pli granda estas la nombro signifas pli altajn permesojn",
+    "toast": {
+      "success": "Permesaj agordoj estis ĝisdatigitaj",
+      "error": "Malsukcesis ĝisdatigi permesajn agordojn"
+    }
+  }
+}

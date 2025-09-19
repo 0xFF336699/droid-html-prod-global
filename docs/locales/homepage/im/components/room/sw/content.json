@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Jiunge na chumba",
+      "inviteOnly": "Hii ni chumba cha kibinafsi na inahitaji mialiko kujiunga",
+      "knockRequired": "Chumba hiki kinahitaji maombi ya kujiunga. Bonyeza kitufe hapa chini kutuma ombi la kujiunga",
+      "canJoin": "Hii ni chumba cha umma, unaweza kujiunga moja kwa moja",
+      "sendRequest": "Tuma ombi la kujiunga",
+      "join": "Jiunge na chumba"
+    },
+    "JoinRequestList": {
+      "noRequests": "Hakuna ombi la kujiunga bado",
+      "accept": "kukubali",
+      "reject": "kukataa"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Ingiza ujumbe ..."
+  },
+  "MessageList": {
+    "noMessages": "Hakuna ujumbe bado, tuma ujumbe wa kwanza kuanza mazungumzo!",
+    "loading": "Inapakia ...",
+    "error": {
+      "loadFailed": "Imeshindwa kupakia ujumbe",
+      "retry": "Jaribu tena"
+    },
+    "loadingHistory": "Kupakia Historia ...",
+    "historyEnd": "Habari za mapema zimefika"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Hakuna ujumbe bado, tuma ujumbe wa kwanza kuanza mazungumzo!"
+  },
+  "RoomContent": {
+    "title": "Chumba"
+  },
+  "RoomHeader": {
+    "title": "Chumba",
+    "unnamedRoom": "Chumba kisichotajwa",
+    "members": "Mwanachama",
+    "settings": "Sanidi",
+    "leaveRoom": "Acha chumba",
+    "joinRoom": "Jiunge na chumba"
+  },
+  "RoomMembers": {
+    "title": "Washiriki wa chumba",
+    "online": "Mkondoni",
+    "offline": "Nje ya mtandao",
+    "join": "Jiunge",
+    "invite": "Alika",
+    "leave": "Acha",
+    "ban": "Marufuku",
+    "noMembers": "Hakuna mwanachama bado",
+    "loading": "Inapakia ..."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "yokk",
+    "sub": {
+      "addScriptByUrl": "Def ci URL",
+      "addScriptByText": "Yokk script ci biir mbind",
+      "addMarket": "Yokk marse ci URL",
+      "addMarketByText": "Yokk ci marse ci bind"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Ukudibanisa ...",
+    "connected": "Uqhagamshele",
+    "disconnecting": "Ukucofa ...",
+    "disconnected": "Ayixhunyiwe",
+    "waitRetry": "Ilinde uqhagamshelo ..."
+  }
+}

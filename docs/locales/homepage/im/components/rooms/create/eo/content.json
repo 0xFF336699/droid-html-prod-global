@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Kreu ĉambron"
+    },
+    "dialog": {
+      "title": "Kreu novan ĉambron",
+      "form": {
+        "userId": {
+          "label": "Uzanto -ID",
+          "placeholder": "Enigu la uzantan ID (ekzemple: @user: example.com)",
+          "error": {
+            "required": "Uzanto -ID ne povas esti malplena",
+            "invalid": "Nevalida uzant -identiga formato"
+          }
+        },
+        "roomName": {
+          "label": "Ĉambra nomo (nedeviga)",
+          "placeholder": "Enigu ĉambran nomon"
+        },
+        "isEncrypted": {
+          "label": "Ebligu Fin-al-Finan Ĉifradon"
+        },
+        "isDirect": {
+          "label": "Rekta mesaĝo"
+        },
+        "topic": {
+          "label": "Temo (nedeviga)",
+          "placeholder": "Eniru la ĉambran temon"
+        }
+      },
+      "actions": {
+        "cancel": "Nuligi",
+        "create": "Kreu"
+      },
+      "success": "Ĉambra kreado sukcese",
+      "error": "Eraro okazis dum kreado de ĉambro: {eraro}"
+    }
+  }
+}

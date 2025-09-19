@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Informacion de l'utilizaire",
+    "id": {
+      "name": "identificant",
+      "copy": "exemplar",
+      "copied": "ID es estat copiat ."
+    },
+    "notLoggedIn": "Pas connectat",
+    "name": "nom",
+    "avatar": "avatar"
+  }
+}

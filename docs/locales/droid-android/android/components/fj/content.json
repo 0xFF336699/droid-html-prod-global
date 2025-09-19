@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Biuta laivi",
+    "ok": "Dina",
+    "checkBoxText": "Lako vakadodonu vei ira na veivakadonui ena loma ni veimama ni dua na vula ka sega tale ni vakaraitaka tale na katubaleka .",
+    "content": "Na cakacaka oqo e gadrevi kina na veivakadonui ni veivakadonui. Kevaka o vinakata mo vakadonui, yalovinaka ka tabaka [OKOKE]. Kevaka o via biuta, yalovinaka kiliki [Cancel].",
+    "title": "Nabau vakayago na iwalewale ."
+  },
+  "floatPermission": {
+    "cancel": "Biuta laivi",
+    "ok": "Dina",
+    "checkBoxText": "Lako vakadodonu vei ira na veivakadonui ena loma ni veimama ni dua na vula ka sega tale ni vakaraitaka tale na katubaleka .",
+    "content": "Na cakacaka oqo e gadrevi kina na veivakadonui ni cakacaka ni iyaya ni vakatatalo. Kevaka o vinakata mo vakadonui, yalovinaka ka tabaka [OKOKE]. Kevaka o via biuta, yalovinaka kiliki [Cancel].",
+    "title": "Nabau vakayago na iwalewale ."
+  }
+}

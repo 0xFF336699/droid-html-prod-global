@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "房間名稱"
+      },
+      "topic": {
+        "label": "房間簡介"
+      },
+      "avatar": {
+        "alt": "房間頭像"
+      },
+      "submit": "保存設置"
+    },
+    "toast": {
+      "success": "設置已更新",
+      "error": {
+        "default": "更新設置失敗",
+        "avatar": "更新頭像失敗"
+      }
+    }
+  }
+}

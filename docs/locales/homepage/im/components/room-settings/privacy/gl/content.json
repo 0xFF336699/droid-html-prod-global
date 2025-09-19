@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Sala pública",
+        "description": "Outros usuarios poden buscar salas públicas"
+      },
+      "allowGuestJoin": {
+        "label": "Permitir que os visitantes se unan",
+        "description": "Permitir que os usuarios non rexistrados se unan á habitación como invitado"
+      },
+      "isEncrypted": {
+        "label": "Activa o cifrado de punta a punta",
+        "description": "Cando estea habilitado, as mensaxes da habitación serán cifradas de punta a punta",
+        "alert": "O cifrado de punta a punta está activado na sala e non se pode desactivar esta configuración."
+      },
+      "submit": "Gardar a configuración de privacidade"
+    },
+    "toast": {
+      "success": "Actualizáronse a configuración de privacidade",
+      "error": "Fallou a actualizar a configuración de privacidade"
+    }
+  }
+}

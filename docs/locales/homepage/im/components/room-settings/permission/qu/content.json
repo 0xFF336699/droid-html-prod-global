@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Willayta apachinapaq permiso nivel .",
+        "tooltip": "0 niyta munan llapa miembrukuna willakuykunata apachiyta atinku, chaymanta aswan hatun yupayqa aswan hatun atiykuna mañasqa kasqanmanta niyta munan ."
+      },
+      "invite": {
+        "label": "Musuq miembrukunata mink'anapaq permiso nivelta mañakun .",
+        "tooltip": "Conjunto que puede invitar a nuevos miembros a la habitación ."
+      },
+      "kick": {
+        "label": "Saqiy munasqa permiso nivelta .",
+        "tooltip": "Set pikuna qarqoyta atinkuman chay cuartopi kaq runakunata ."
+      },
+      "ban": {
+        "label": "Permiso nivelta hark'anapaq mañasqa miembrukuna .",
+        "tooltip": "Conjunto que puede bloquear a los miembros de la habitación ."
+      },
+      "roomSettings": {
+        "label": "Wasi churanakuna churanamanta munasqa permiso nivelta tikray .",
+        "tooltip": "Set who ue wonder the kuartu ajustes ."
+      },
+      "submit": "Permisokuna waqaychayta waqaychay ."
+    },
+    "description": "Permiso Nivel Rango: 0-100, aswan hatun yupayqa aswan hatun atiykuna mañasqa niyta munan .",
+    "toast": {
+      "success": "Permiso churanakuna musuqchasqaña kachkan .",
+      "error": "Permisokuna churanakunata musuqchayta atispa ."
+    }
+  }
+}

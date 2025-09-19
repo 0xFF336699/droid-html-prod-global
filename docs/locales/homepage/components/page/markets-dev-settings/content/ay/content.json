@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Ukax mä conectado ukhamawa .",
+        "helperText": "Uka qallta link tuqiru ch’iqt’aña, ukatxa uka link ukaxa utjañapawa. Ukatakix attención ukax wakisiwa, uka enlace ukax wasitatw mayamp mayamp mayachasini, ukax desconectado ukhamawa.",
+        "retryCount": "Jakhuwi reconexiones ukanaka ."
+      },
+      "url": {
+        "name": "URL ukax .",
+        "helperText": "Link URL, sañäni ws://192.168.0.2:7001, jan ukax wws://example.com/path",
+        "error": "Chiqap URL ukax mä URL ukawa, ukax WS:// jan ukax WWS:// ."
+      }
+    },
+    "connectButton": {
+      "connect": "kuniktasiña",
+      "disconnect": "Desconexión ukax 1.1.",
+      "status": {
+        "connecting": "Conectar ukax...",
+        "connected": "Ukax mä juk’a .",
+        "disconnecting": "Desconexión ukax...",
+        "disconnected": "Janiw conectatäkiti .",
+        "waitRetry": "Reconexión ukat suyt’aña..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "wakichata"
+  }
+}

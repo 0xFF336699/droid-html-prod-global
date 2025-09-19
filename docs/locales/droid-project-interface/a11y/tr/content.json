@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "çalıştırmak",
+    "click": "Tıklamak",
+    "longClick": "Uzun basın",
+    "setText": "Metni Ayarla",
+    "tryClick": "Eleman veya Konum Tıklayın Tıklayın",
+    "globalClick": "Konum Tıklayın"
+  }
+}

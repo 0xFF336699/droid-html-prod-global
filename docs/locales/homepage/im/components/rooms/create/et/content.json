@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Looge tuba"
+    },
+    "dialog": {
+      "title": "Looge uus tuba",
+      "form": {
+        "userId": {
+          "label": "Kasutajatunnus",
+          "placeholder": "Sisestage kasutajatunnus (näiteks: @User: näide.com)",
+          "error": {
+            "required": "Kasutajatunnus ei saa olla tühi",
+            "invalid": "Vale kasutajatunnuse vorming"
+          }
+        },
+        "roomName": {
+          "label": "Toa nimi (valikuline)",
+          "placeholder": "Sisestage toa nimi"
+        },
+        "isEncrypted": {
+          "label": "Luba otsast lõpuni krüptimine"
+        },
+        "isDirect": {
+          "label": "Otsesõnum"
+        },
+        "topic": {
+          "label": "Teema (valikuline)",
+          "placeholder": "Sisestage toa teema"
+        }
+      },
+      "actions": {
+        "cancel": "Tühistama",
+        "create": "looma"
+      },
+      "success": "Toa loomine edukalt",
+      "error": "Ruumi loomisel ilmnes viga: {viga}"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "방 설정",
+    "tabs": {
+      "basic": "기본 설정",
+      "permission": "권한 설정",
+      "privacy": "개인 정보 설정",
+      "member": "회원 관리"
+    },
+    "loadError": "방 설정을로드하지 못했습니다",
+    "leaveRoom": {
+      "button": "방을 나가십시오",
+      "confirm": "방을 나가고 싶습니까? 나가면이 방에서 메시지를 계속받을 수 없습니다.",
+      "success": "방을 성공적으로 나갔다",
+      "error": "방을 빠져 나가지 못했습니다. 다시 시도하십시오"
+    }
+  }
+}

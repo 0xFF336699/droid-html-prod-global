@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "میانبر",
+    "title": "تشخیص بسته و فعالیت",
+    "useBtn": "استفاده کردن",
+    "closeBtn": "بسته شدن",
+    "pnLabel": "نام بسته",
+    "copyButtonText": "کپی کردن",
+    "anLabel": "فعالیت",
+    "clsLable": "طبقه"
+  }
+}

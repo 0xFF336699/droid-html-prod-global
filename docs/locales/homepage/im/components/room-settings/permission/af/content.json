@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Die toestemmingsvlak wat benodig word om 'n boodskap te stuur",
+        "tooltip": "0 beteken dat alle lede boodskappe kan stuur, en hoe groter die getal beteken dat hoër toestemmings benodig word"
+      },
+      "invite": {
+        "label": "Toestemmingsvlak wat benodig word om nuwe lede uit te nooi",
+        "tooltip": "Stel wat nuwe lede na die kamer kan nooi"
+      },
+      "kick": {
+        "label": "Skop die vereiste toestemmingsvlak uit",
+        "tooltip": "Stel wat die kamerlede kan uitskop"
+      },
+      "ban": {
+        "label": "Toestemmingsvlak benodig vir die blokkering van lede",
+        "tooltip": "Stel wat kamerlede kan blokkeer"
+      },
+      "roomSettings": {
+        "label": "Verander die vereiste toestemmingsvlak van kamerinstellings",
+        "tooltip": "Stel wat die kamerinstellings kan verander"
+      },
+      "submit": "Stoor toestemmingsinstellings"
+    },
+    "description": "Toestemmingsvlak: 0-100, hoe groter beteken die getal hoër toestemmings word benodig",
+    "toast": {
+      "success": "Toestemmingsinstellings is opgedateer",
+      "error": "Kon nie toestemmingsinstellings opdateer nie"
+    }
+  }
+}

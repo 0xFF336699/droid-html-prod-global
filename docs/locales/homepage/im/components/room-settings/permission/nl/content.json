@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Het toestemming dat nodig is om een ​​bericht te verzenden",
+        "tooltip": "0 betekent dat alle leden berichten kunnen verzenden, en hoe groter het aantal betekent dat hogere machtigingen vereist zijn"
+      },
+      "invite": {
+        "label": "Toestemmingsniveau vereist om nieuwe leden uit te nodigen",
+        "tooltip": "Zet die nieuwe leden in de kamer kan uitnodigen"
+      },
+      "kick": {
+        "label": "Schop het vereiste machtigingsniveau eruit",
+        "tooltip": "Zet die de kamerleden uit kan schoppen"
+      },
+      "ban": {
+        "label": "Toestemmingsniveau vereist voor het blokkeren van leden",
+        "tooltip": "Zet wie kamerleden kan blokkeren"
+      },
+      "roomSettings": {
+        "label": "Wijzig het vereiste machtigingsniveau van kamerinstellingen",
+        "tooltip": "Stel in wie de kamerinstellingen kan wijzigen"
+      },
+      "submit": "Bewaar machtigingsinstellingen"
+    },
+    "description": "Toestemmingsniveau Bereik: 0-100, hoe groter het aantal betekent dat hogere machtigingen vereist zijn",
+    "toast": {
+      "success": "Toestemmingsinstellingen zijn bijgewerkt",
+      "error": "Kan machtigingsinstellingen niet bijwerken"
+    }
+  }
+}

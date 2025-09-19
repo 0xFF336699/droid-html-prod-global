@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Lojin/Jikkin",
+    "signOut": "Lale",
+    "confirmContent": "Kwoj ke mol bwe kwoj kõnan log out?",
+    "confirmTitle": "kakōlle",
+    "confirm": "Aet",
+    "cancel": "Jolok",
+    "signoutOk": "Lale",
+    "loadingData": "Ej kōjerbal data ko an rijerbal eo ."
+  }
+}

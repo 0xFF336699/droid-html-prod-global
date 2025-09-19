@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Publiskā istaba",
+        "description": "Citi lietotāji var meklēt sabiedriskās istabas"
+      },
+      "allowGuestJoin": {
+        "label": "Ļaujiet apmeklētājiem pievienoties",
+        "description": "Ļaujiet nereģistrētiem lietotājiem pievienoties istabai kā viesim"
+      },
+      "isEncrypted": {
+        "label": "Iespējot visaptverošu šifrēšanu",
+        "description": "Pēc iespējošanas ziņojumi telpā tiks šifrēti no gala līdz galam",
+        "alert": "Istabā ir iespējota visaptveroša šifrēšana, un šo iestatījumu nevar izslēgt."
+      },
+      "submit": "Saglabājiet privātuma iestatījumus"
+    },
+    "toast": {
+      "success": "Privātuma iestatījumi ir atjaunināti",
+      "error": "Neizdevās atjaunināt privātuma iestatījumus"
+    }
+  }
+}

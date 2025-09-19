@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "beroperasi",
+    "click": "Kilit",
+    "longClick": "Pencét panjang",
+    "setText": "Aturkeun téks",
+    "tryClick": "Cobi unsur atanapi klik lokasi",
+    "globalClick": "Klik Lokasi"
+  }
+}

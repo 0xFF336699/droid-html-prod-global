@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Funzjonijiet awżiljari",
+    "pass": "Awtorizzat",
+    "notPass": "Mhux awtorizzat",
+    "setting": "Imwaqqaf",
+    "danger": "Periklu",
+    "dangerDesc": "Din l-awtorizzazzjoni tista 'tara kontenut fuq l-iskrin u kklikkja fuq it-telefon tiegħek. Itfi dan il-permess jekk ma tifhimx b'mod espliċitu l-funzjonalità u r-riskji tal-iskrittura li tkun qed taħdem jew li tkun qed taħdem."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "लगईन / रेजिस्टर",
+    "signOut": "तिका",
+    "confirmContent": "के तपाईं लग आउट गर्न चाहनुहुन्छ?",
+    "confirmTitle": "संकेत",
+    "confirm": "शंकारहित",
+    "cancel": "रद्द गर्नु",
+    "signoutOk": "तिका",
+    "loadingData": "प्रयोगकर्ता डाटा लोड गर्दै"
+  }
+}

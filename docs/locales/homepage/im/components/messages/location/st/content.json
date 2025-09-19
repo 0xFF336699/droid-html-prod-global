@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Lebitso la sebaka",
+    "viewMap": "Sheba 'Mapa",
+    "close": "Ho koaloa"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Sebatli sa hona joale ha se ts'ehe ho fumana ha cheelo",
+    "getLocationFailed": "Ha rea ​​atleha ho fumana sebaka, ka kopo sheba litlhophiso tsa tumello",
+    "myLocation": "Sebaka sa ka",
+    "shareLocation": "Abelana sebaka",
+    "getCurrentLocation": "Fumana sebaka sa hajoale",
+    "title": "Lebitso la sebaka",
+    "description": "Tlhaloso e qaqileng",
+    "descriptionPlaceholder": "Ka kopo kenya litlhaloso tse qaqileng (ka boikhethelo)",
+    "preview": "Tlhahlobo ea sebaka",
+    "latitude": "Latide",
+    "longitude": "Longituen",
+    "cancel": "Hlakola",
+    "send": "romella",
+    "permissionPrompt": "Re hloka ho fumana leseli la hau la sebaka ho fana ka lits'ebeletso tse molemo, na e lumelletsoe?",
+    "permissionDenied": "Tumello e haneloa, ka kopo nolofalletsa tumello ho li-setting tsa hau tsa sebatli",
+    "locationTimeout": "Ho beha nako, etsa bonnete ba hore sesebelisoa se butsoe 'me sa leka ho khutlisa",
+    "locationUnavailable": "Sebaka sa hajoale se ke ke sa fumanoa, ka kopo sheba ts'ebeletso ea sebaka seo sebaka"
+  }
+}

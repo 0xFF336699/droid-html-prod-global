@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Baglanyşykda",
+        "helperText": "Başlangyç baglanyşygyna bassaňyz, baglanyşygy saklaň. Munuň üçin baglanyşygyň bes edilenden soň üznüksiz nädip düzediljekdigine üns beriň.",
+        "retryCount": "Bunamon düwmeleriň sany"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "\"Lin Url\" -y, ws",
+        "error": "Dogry URL WS-den başlaýan URL: // ýa-da WWS-den başlap: //"
+      }
+    },
+    "connectButton": {
+      "connect": "birikdiriň",
+      "disconnect": "Aýryň",
+      "status": {
+        "connecting": "Birikdirmek ...",
+        "connected": "Birikdirilen",
+        "disconnecting": "Aýyrmak ...",
+        "disconnected": "Birikdirilmedik",
+        "waitRetry": "Gaýtalanmaga garaşýar ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "skript"
+  }
+}

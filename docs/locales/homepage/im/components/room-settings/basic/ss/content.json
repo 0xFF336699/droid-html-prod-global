@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Libito legumbi"
+      },
+      "topic": {
+        "label": "Singeniso Seligumbi"
+      },
+      "avatar": {
+        "alt": "I-avatar yeligumbi"
+      },
+      "submit": "Gcina emasethingi"
+    },
+    "toast": {
+      "success": "Tilungiselelo letivuselelwe",
+      "error": {
+        "default": "Tilungiselelo tekuvuselela tehlulekile",
+        "avatar": "Kwehlulekile kubuyeketa i-avatar"
+      }
+    }
+  }
+}

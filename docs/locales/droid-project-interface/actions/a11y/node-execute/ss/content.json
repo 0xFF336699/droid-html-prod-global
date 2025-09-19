@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Kubulawa kweNode",
+    "changeBtnLabel": "tsatsa indzawo ya-",
+    "showNodeAllProperties": "Khombisa tonkhe timphahla",
+    "wait": {
+      "time": "Sikhatsi sekulindza",
+      "interval": "Sikhatsi sekulindza",
+      "invisible": "Nobe ngabe utitfola yini tintfo letingaphandle kwesikrini ."
+    }
+  }
+}

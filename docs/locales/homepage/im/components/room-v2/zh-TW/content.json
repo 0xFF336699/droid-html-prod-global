@@ -1,0 +1,7 @@
+{
+  "RoomContentV2": {
+    "waitingForLogin": "請先登錄",
+    "loadingRoomInfo": "正在加載房間信息...",
+    "roomNotFound": "未找到該房間"
+  }
+}

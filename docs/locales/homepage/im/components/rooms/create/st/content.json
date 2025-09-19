@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Theha kamore"
+    },
+    "dialog": {
+      "title": "Theha kamore e ncha",
+      "form": {
+        "userId": {
+          "label": "Theneketso",
+          "placeholder": "Kenya ID ea mosebelisi (mohlala: @usser: mohlala.com)",
+          "error": {
+            "required": "ID ea mosebelisi e ke ke ea se na letho",
+            "invalid": "Sebopeho se sa sebetseng sa ID"
+          }
+        },
+        "roomName": {
+          "label": "Lebitso la kamore (ea boikhethelo)",
+          "placeholder": "Kenya lebitso la kamore"
+        },
+        "isEncrypted": {
+          "label": "Etsa hore ho be le mongolo o felisang oa ho qetela"
+        },
+        "isDirect": {
+          "label": "Molaetsa o tobileng"
+        },
+        "topic": {
+          "label": "Sehlooho (Boikhethelo)",
+          "placeholder": "Kenya sehlooho sa kamore"
+        }
+      },
+      "actions": {
+        "cancel": "Hlakola",
+        "create": "theha"
+      },
+      "success": "Pōpo ea Kamore Katleho",
+      "error": "Phoso e etsahetse ha u ntse u theha kamore: {phoso}"
+    }
+  }
+}

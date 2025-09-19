@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Init inissititernerit",
+    "tabs": {
+      "basic": "Tunngaviusumik inissititernerit",
+      "permission": "Akuersissutinik inissititernerit",
+      "privacy": "Personlige inissititernerit",
+      "member": "Ilaasortaq aqutsineq"
+    },
+    "loadError": "Inissaq inissititernermut ikkussuunneqarsinnaavoq",
+    "leaveRoom": {
+      "button": "Init anisiguk",
+      "confirm": "Qularnanngilaq inimiit aninissaq kissaatigigakku? Angerlavit kingorna inimi tassaniit allakkanik tigusisinnaassanngilatit.",
+      "success": "Inissaq iluatsilluartumik anisippaa",
+      "error": "Init anisinnagit misiliigit"
+    }
+  }
+}

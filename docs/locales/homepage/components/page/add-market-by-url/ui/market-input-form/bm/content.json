@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL Modèle .",
+    "full": {
+      "url": "Sugu URL. Karamɔgɔ minnu donna, olu bɛna doni i n’a fɔ URLw, aw k’aw janto.",
+      "html": "Sugu HTML kɔnɔkow. Sɛbɛnni minnu donna, olu bɛna kɛ o yɔrɔnin bɛɛ la i n’a fɔ sɛbɛnniw, aw ka aw janto aw yɛrɛ la.",
+      "come": "Na ka na .",
+      "myMarketName": "Sugu tɔgɔ .",
+      "stroll": "An ka taama kɛ ."
+    },
+    "item": {
+      "url": "Sugu karti URL. Karamɔgɔ minnu donna, olu bɛna doni i n’a fɔ URLw, aw k’aw janto.",
+      "html": "Sugu HTML kɔnɔkow. Sɛbɛnni minnu donna, olu bɛna kɛ o yɔrɔnin bɛɛ la i n’a fɔ sɛbɛnniw, aw ka aw janto aw yɛrɛ la.",
+      "come": "Na ka na .",
+      "myMarketName": "Sugu tɔgɔ .",
+      "stroll": "An ka taama kɛ ."
+    }
+  }
+}

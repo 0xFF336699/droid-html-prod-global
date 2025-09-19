@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Ýatyr",
+    "confirm": "Elbetde",
+    "title": "yşarat",
+    "content": "Muny etmek isleýändigiňize ynanýarsyňyzmy?"
+  },
+  "EditableText": {
+    "cancel": "Ýatyr",
+    "save": "tygşytlaň",
+    "title": "redaktirläň"
+  }
+}

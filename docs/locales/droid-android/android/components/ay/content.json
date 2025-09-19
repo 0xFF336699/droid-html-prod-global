@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Kansilaña",
+    "ok": "Sijuru",
+    "checkBoxText": "Chika phaxsit autorizañatakix chiqak sarañamawa ukat janiw aka ventana uñacht’ayañamakiti .",
+    "content": "Aka lurawixa auxiliar función autorizacin ukawa. Autorizar munasma ukhajja, [OK] siski ukaruw chʼetjjtäta. Uka jaytjañ munasma ukhaxa, [cancel] siski ukaruw chʼiqtʼäta.",
+    "title": "Autorización uka mayiwi ."
+  },
+  "floatPermission": {
+    "cancel": "Kansilaña",
+    "ok": "Sijuru",
+    "checkBoxText": "Chika phaxsit autorizañatakix chiqak sarañamawa ukat janiw aka ventana uñacht’ayañamakiti .",
+    "content": "Aka lurawixa autorizacin de la función de ventana flotante ukawa wakisi. Autorizar munasma ukhajja, [OK] siski ukaruw chʼetjjtäta. Uka jaytjañ munasma ukhaxa, [cancel] siski ukaruw chʼiqtʼäta.",
+    "title": "Autorización uka mayiwi ."
+  }
+}

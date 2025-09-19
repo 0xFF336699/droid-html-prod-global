@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Loginsetzen",
+    "id": {
+      "name": "Ö €",
+      "copy": "Kopie",
+      "copied": "ID gouf kopéiert"
+    },
+    "notLoggedIn": "Net ageloggt",
+    "name": "Numm vum Numm",
+    "avatar": "avatar"
+  }
+}

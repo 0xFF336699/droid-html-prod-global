@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "U livellu di u permessu hè necessariu per mandà un missaghju",
+        "tooltip": "0 significa chì tutti i membri ponu mandà messagi, è u più grande u numeru significa chì e permessi più altu sò richiesti"
+      },
+      "invite": {
+        "label": "U livellu di u permessu necessariu per invità i novi membri",
+        "tooltip": "Sete quale pò invità novi membri à a stanza"
+      },
+      "kick": {
+        "label": "Chjappate u livellu di u permessu di u permessu necessariu",
+        "tooltip": "Sete quale pò pate i membri di a stanza"
+      },
+      "ban": {
+        "label": "U livellu di u permessu necessariu per i membri di u bloccu",
+        "tooltip": "Sete quale pò bluccà i membri di a stanza"
+      },
+      "roomSettings": {
+        "label": "Mudificà u livellu di permissione di u permessu di a stanza",
+        "tooltip": "Sete quale pò mudificà e paràmetri di a stanza"
+      },
+      "submit": "Salvà i paràmetri di permessi"
+    },
+    "description": "Ranzia di u livellu di u permessu: 0-100, u più grande u numeru significa chì i permessi più altu sò richiesti",
+    "toast": {
+      "success": "I paràmetri di u permessu sò stati aghjurnati",
+      "error": "Fiascatu à aghjurnà i paràmetri di permissione"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Ukax mä jach’a uñacht’äwiwa.",
+    "tabs": {
+      "basic": "Configuración básica ukaxa 1.1.",
+      "permission": "Permiso Configuración ukaxa 1.1.",
+      "privacy": "Privacidad ukan utt’ayatanakapa .",
+      "member": "Miembronaka apnaqaña ."
+    },
+    "loadError": "Janiwa sala 2017 ukan utt’ayatanakaruxa apxatañakiti.",
+    "leaveRoom": {
+      "button": "Uka cuartot mistuñamawa .",
+      "confirm": "¿Uka cuartot mistuñ munasmati? Uka utat mistuñ tukuyatatxa, janiw aka cuarto ukan mensajenak katuqañax utjkaniti.",
+      "success": "Uka cuartojj wali sumwa .",
+      "error": "Uka cuartot mistuñ jan atipkasajja, wasitatwa yantʼañama ."
+    }
+  }
+}

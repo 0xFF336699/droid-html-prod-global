@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Maqaa Bakka .",
+    "viewMap": "Kaartaa ilaali .",
+    "close": "Cufamuu ."
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Browser ammaa geolocation acquisition hin deeggaru .",
+    "getLocationFailed": "Bakka argachuu hin dandeenye, maaloo qindaa'inoota hayyamaa ilaali .",
+    "myLocation": "Bakki ani jiru .",
+    "shareLocation": "Qoodaa Bakka .",
+    "getCurrentLocation": "Bakka amma jiru argadhaa",
+    "title": "Maqaa Bakka .",
+    "description": "Ibsa bal'aa .",
+    "descriptionPlaceholder": "Mee ibsa bal'aa (filannoo) galchi .",
+    "preview": "Dursa bakka ilaaluu .",
+    "latitude": "Laatituudii .",
+    "longitude": "dheerinaan .",
+    "cancel": "Haquu",
+    "send": "erguu",
+    "permissionPrompt": "Tajaajila fooyya’aa kennuudhaaf odeeffannoo bakka jirtan argachuu qabna, ni hayyamamaa?",
+    "permissionDenied": "Hayyamni iddoo hojii ni dhorkama, maaloo eeyyama bakka biraawzari kee keessatti bakka bu'uu dandeessisi .",
+    "locationTimeout": "Yeroo murtaa'e, meeshaan akka banamu mirkaneessiitii deebi'ee argachuuf yaali .",
+    "locationUnavailable": "Bakki amma jiru argachuun hin danda'amu, maaloo tajaajila bakka meeshaa ilaali ."
+  }
+}

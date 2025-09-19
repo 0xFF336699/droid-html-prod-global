@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Pridať",
+    "sub": {
+      "addScriptByUrl": "Pridajte skripty prostredníctvom adresy URL",
+      "addScriptByText": "Pridajte skripty prostredníctvom textu",
+      "addMarket": "Pridajte trh prostredníctvom adresy URL",
+      "addMarketByText": "Pridajte trh prostredníctvom textu"
+    }
+  }
+}

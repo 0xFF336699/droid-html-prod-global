@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "flýtileið",
+    "title": "Viðurkenning á pakka og virkni",
+    "useBtn": "nota",
+    "closeBtn": "Lokun",
+    "pnLabel": "Pakkanafn",
+    "copyButtonText": "Afritaðu",
+    "anLabel": "Virkni",
+    "clsLable": "bekk"
+  }
+}

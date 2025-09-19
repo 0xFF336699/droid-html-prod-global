@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "အခန်းနာမည်"
+      },
+      "topic": {
+        "label": "အခန်းနိဒါန်း"
+      },
+      "avatar": {
+        "alt": "အခန်း avatar"
+      },
+      "submit": "ချိန်ညှိချက်များကိုသိမ်းဆည်းပါ"
+    },
+    "toast": {
+      "success": "ချိန်ညှိချက်များမွမ်းမံ",
+      "error": {
+        "default": "မအောင်မြင်ပါ",
+        "avatar": "avatar ကို update လုပ်ဖို့ပျက်ကွက်"
+      }
+    }
+  }
+}

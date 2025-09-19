@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "okusazaamu",
+    "ok": "Tewali kubuusabuusa",
+    "checkBoxText": "Genda butereevu okukkiriza mu kitundu kya mwezi era tokyalaga ddirisa lino .",
+    "content": "Omulimu guno gwetaaga olukusa lw'omulimu ogw'obuyambi. Bw’oba ​​oyagala okukkiriza, nsaba onyige [OK]. Bw’oba ​​oyagala okuggwaamu amaanyi, nsaba onyige [Cancel].",
+    "title": "Okusaba olukusa ."
+  },
+  "floatPermission": {
+    "cancel": "okusazaamu",
+    "ok": "Tewali kubuusabuusa",
+    "checkBoxText": "Genda butereevu okukkiriza mu kitundu kya mwezi era tokyalaga ddirisa lino .",
+    "content": "Omulimu guno gwetaaga olukusa lw'omulimu gw'eddirisa ogutengejja. Bw’oba ​​oyagala okukkiriza, nsaba onyige [OK]. Bw’oba ​​oyagala okuggwaamu amaanyi, nsaba onyige [Cancel].",
+    "title": "Okusaba olukusa ."
+  }
+}

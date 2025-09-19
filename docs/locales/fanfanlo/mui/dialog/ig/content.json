@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Ikansulu",
+    "confirm": "Nke ndabere",
+    "title": "ndumodu",
+    "content": "Ì ji n'aka na ị chọrọ ime nke a?"
+  },
+  "EditableText": {
+    "cancel": "Ikansulu",
+    "save": "zoputa",
+    "title": "idekwa"
+  }
+}

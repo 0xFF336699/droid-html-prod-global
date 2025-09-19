@@ -1,0 +1,11 @@
+{
+  "content": {
+    "ok": "Säker",
+    "cancel": "Avboka",
+    "delete": "radera",
+    "edit": "redigera",
+    "save": "spara",
+    "close": "stängning",
+    "confirm": "bekräfta"
+  }
+}

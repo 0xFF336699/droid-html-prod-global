@@ -1,0 +1,7 @@
+{
+  "RoomContentV2": {
+    "waitingForLogin": "Palun logige kõigepealt sisse",
+    "loadingRoomInfo": "Laadimisruumi teave ...",
+    "roomNotFound": "Tuba ei leitud"
+  }
+}

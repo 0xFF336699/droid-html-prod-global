@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Bilatu kideak"
+    },
+    "table": {
+      "columns": {
+        "name": "Kide izena",
+        "userId": "Erabiltzaile ID",
+        "actions": "funtzionatu"
+      },
+      "pagination": {
+        "rowsPerPage": "Orrialde bakoitzeko errenkada kopurua"
+      },
+      "avatar": {
+        "alt": "avilo"
+      },
+      "actions": {
+        "kick": "Jaurti",
+        "ban": "Debekatu"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Berretsi jaurtiketa kidea",
+        "content": "Ziur kidea gelatik atera nahi duzula?"
+      },
+      "ban": {
+        "title": "Berretsi debekatutako kidea",
+        "content": "Ziur al zaude kide hau debekatu nahi duzula? Bazkideak ezin izango du gelan berriro sartu debekuaren ondoren."
+      },
+      "buttons": {
+        "cancel": "Indargabetu",
+        "confirm": "berretsi"
+      }
+    },
+    "toast": {
+      "loadError": "Ezin izan da kideen zerrenda kargatu",
+      "kick": {
+        "success": "Kideak gelatik atera dira",
+        "error": "Bazkideek jaurtitzea huts egin dute"
+      },
+      "ban": {
+        "success": "Bazkideak blokeatuta",
+        "error": "Kideak blokeatu ditu"
+      }
+    },
+    "invite": {
+      "button": "Gonbidatu kideak",
+      "title": "Gonbidatu kideak gelara sartzera",
+      "inputLabel": "Mesedez, sartu Matrix erabiltzailearen IDa (adibidez @user: matrix.org)",
+      "confirm": "gonbidatu",
+      "cancel": "Indargabetu",
+      "loading": "Gonbidapena ...",
+      "success": "Gonbidapena bidali!",
+      "error": "Gonbidapenak huts egin du, mesedez, egiaztatu erabiltzaile IDa edo baimenak"
+    },
+    "empty": "Oraindik kide ez",
+    "loading": "Kargatzen ...",
+    "role": {
+      "owner": "Etxe jabea",
+      "admin": "administratzaile",
+      "moderator": "Ko-kudeaketa",
+      "user": "bazkide"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Vista de interfaz de accesibilidad",
+    "howToUse": "Instruccions per l'utilizacion",
+    "howToUseTooltip": "A continuacion se presentan algunos atributos de marcacion de este nodo que se pueden utilizar para seleccionar las operaciones, como clic, relleno de texto, etc.\n\nLo valor d'atribut pòt èsser duplicat dins la pagina d'aplicacion. Se rescontratz de duplicats, mercés de superpausar d'autras seleccions d'atributs per determinar l'unicitat.\n\nUn mot roge indica que la valor d'atribut es repetida, un mot verd indica que la valor d'atribut es unica dins la recèrca actuala de la pagina, e un mot negre indica qu'i a pas de comparason repetida.",
+    "otherNodesSummary": "D'autres nœuds d'aqueste emplaçament .",
+    "moreNodes": "Vaquí çò qu'es ampliat.",
+    "nodeInfoDialogOkButton": "Modificar la operacion de este nodo .",
+    "text": "Tèxte 2222"
+  }
+}

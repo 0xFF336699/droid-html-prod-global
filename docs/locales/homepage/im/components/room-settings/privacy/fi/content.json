@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Julkinen huone",
+        "description": "Muut käyttäjät voivat etsiä julkisia huoneita"
+      },
+      "allowGuestJoin": {
+        "label": "Anna vierailijoiden liittyä",
+        "description": "Anna rekisteröimättömien käyttäjien liittyä huoneeseen vieraana"
+      },
+      "isEncrypted": {
+        "label": "Ota päähän -salaus",
+        "description": "Kun huoneessa olevat viestit ovat olleet käytössä",
+        "alert": "Huoneessa on päähän -salaus, ja tätä asetusta ei voida sammuttaa."
+      },
+      "submit": "Tallenna tietosuoja -asetukset"
+    },
+    "toast": {
+      "success": "Tietosuoja -asetukset on päivitetty",
+      "error": "Tietosuoja -asetusten päivittäminen epäonnistui"
+    }
+  }
+}

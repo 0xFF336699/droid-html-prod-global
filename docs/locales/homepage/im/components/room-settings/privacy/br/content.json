@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Sal publik",
+        "description": "Gallout a reer klask ar salioù foran gant implijerien all ."
+      },
+      "allowGuestJoin": {
+        "label": "Lakaat ar weladennerien da vont e-barzh",
+        "description": "Lakaat an implijerien dienskrivet da gemer perzh er sal evel ur c'hoarier"
+      },
+      "isEncrypted": {
+        "label": "Gweredekaat an enrinegañ penn-da-benn",
+        "description": "Pa vo gweredekaet e vo enrineget kemennadennoù er sal penn-da-benn .",
+        "alert": "Gweredekaet eo an enrinegañ penn-da-benn er sal, ha n'haller ket diweredekaat an arventennoù-mañ."
+      },
+      "submit": "Enrollañ arventennoù prevezded"
+    },
+    "toast": {
+      "success": "Hizivaet eo bet arventennoù prevezded",
+      "error": "C'hwitet en deus da hizivaat an arventennoù prevezded"
+    }
+  }
+}

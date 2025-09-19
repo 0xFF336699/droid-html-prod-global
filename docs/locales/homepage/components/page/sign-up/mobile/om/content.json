@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "galmeessuu",
+    "phoneNumber": "Lakkoofsa bilbilaa .",
+    "phoneNumberPlaceholder": "Mee lakkoofsa bilbila harkaa keessanii galchaa .",
+    "verificationCode": "Koodii Mirkaneessaa .",
+    "verificationCodePlaceholder": "Mee koodii mirkaneessuu galchaa .",
+    "getVerificationCode": "Koodii Mirkaneessaa argadhaa .",
+    "countdown": "{{sekondii}} sekondii irra deebi'uuf yaaluuf .",
+    "register": "galmeessuu",
+    "errors": {
+      "phoneRequired": "Mee lakkoofsa bilbila harkaa keessanii galchaa .",
+      "phoneInvalid": "Akkaataan lakkoofsa bilbila harkaa sirrii miti .",
+      "codeRequired": "Mee koodii mirkaneessuu galchaa .",
+      "codeInvalid": "Akkaataan koodii mirkaneessuu sirrii miti .",
+      "requestFailed": "Gaaffiin hin milkoofne .",
+      "verificationFailed": "Koodii Mirkaneessaa argachuun fashalaa'e .",
+      "loginFailed": "Galmeen fashalaa'e ."
+    },
+    "success": {
+      "verificationCodeSent": "Koodiin mirkaneessaa ergamee jira .",
+      "registerSuccess": "Milkaa'inaan galmaa'e ."
+    }
+  }
+}

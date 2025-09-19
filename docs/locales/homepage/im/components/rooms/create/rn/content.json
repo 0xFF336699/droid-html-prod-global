@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Rema icumba"
+    },
+    "dialog": {
+      "title": "Rema icumba gishasha",
+      "form": {
+        "userId": {
+          "label": "ID y'ukoresha",
+          "placeholder": "Injira ID y'ukoresha (nk'akarorero: @user:axemple.com)",
+          "error": {
+            "required": "ID y'ukoresha ntishobora kuba ubusa",
+            "invalid": "Uburyo bw'indangamuntu y'ukoresha"
+          }
+        },
+        "roomName": {
+          "label": "Izina ry'icumba (ihitamwo)",
+          "placeholder": "Injira izina ry'icumba"
+        },
+        "isEncrypted": {
+          "label": "Gushoboza kw'iherezo kugeza ku mpera"
+        },
+        "isDirect": {
+          "label": "Ubutumwa butandukanye"
+        },
+        "topic": {
+          "label": "Insiguro (ihitamwo)",
+          "placeholder": "Injira mu cumba"
+        }
+      },
+      "actions": {
+        "cancel": "Guhagarika",
+        "create": "kurema"
+      },
+      "success": "Irema ry'icumba",
+      "error": "Ikosa ryabaye mu gihe haba ivyumba: {rror}"
+    }
+  }
+}

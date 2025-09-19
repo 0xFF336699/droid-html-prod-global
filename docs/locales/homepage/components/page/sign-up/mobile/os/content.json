@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "нысан кæнын",
+    "phoneNumber": "Телефоны номыр",
+    "phoneNumberPlaceholder": "Дæ хорзæхæй, дæ чырæ телефоны номыр ныффысс",
+    "verificationCode": "Бæлвырдгæнæн код .",
+    "verificationCodePlaceholder": "Дæ хорзæхæй, ныффыссут бæлвырдгæнæн код .",
+    "getVerificationCode": "Райсут бæлвырдгæнæн код .",
+    "countdown": "{{дыккагтæ}} секундтæ, цæмæй ногæй бафæлварæм",
+    "register": "нысан кæнын",
+    "errors": {
+      "phoneRequired": "Дæ хорзæхæй, дæ чырæ телефоны номыр ныффысс",
+      "phoneInvalid": "Мобилон телефоны номыры формат раст нæу .",
+      "codeRequired": "Дæ хорзæхæй, ныффыссут бæлвырдгæнæн код .",
+      "codeInvalid": "Бæлвырдгæнæн коды формат раст нæу .",
+      "requestFailed": "Куырдиат нæ рауад",
+      "verificationFailed": "Бæлвырдгæнæн код райсын нæ рауад",
+      "loginFailed": "Логин нæ фæрæзта"
+    },
+    "success": {
+      "verificationCodeSent": "Бæлвырдгæнæн код æрвыст æрцыд .",
+      "registerSuccess": "Регистрацигонд æнтыстджынæй"
+    }
+  }
+}

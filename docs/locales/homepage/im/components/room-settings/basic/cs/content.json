@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Jméno pokoje"
+      },
+      "topic": {
+        "label": "Úvod místnosti"
+      },
+      "avatar": {
+        "alt": "Místnost avatar"
+      },
+      "submit": "Uložit nastavení"
+    },
+    "toast": {
+      "success": "Aktualizováno nastavení",
+      "error": {
+        "default": "Nastavení aktualizace selhalo",
+        "avatar": "Nepodařilo se aktualizovat avatar"
+      }
+    }
+  }
+}

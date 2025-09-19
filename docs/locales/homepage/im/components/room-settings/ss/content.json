@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Tilungiselelo teligumbi",
+    "tabs": {
+      "basic": "Tilungiselelo letisisekelo",
+      "permission": "Tilungiselelo temvume",
+      "privacy": "Tilungiselelo temfihlo",
+      "member": "Kuphatsa Emalunga"
+    },
+    "loadError": "Kwehlulekile kumasethingi emagumbi emtfwalo",
+    "leaveRoom": {
+      "button": "Vuma leligumbi",
+      "confirm": "Uciniseka kutsi ufuna kuphuma kuleligumbi? Ngemuva kwekuphuma, ngeke ukwati kuchubeka nekutfola imilayeto kuleli gumbi.",
+      "success": "Waphuma kuleligumbi ngemphumelelo",
+      "error": "Kwehlulekile kuphuma ekamelweni, ngicela uzame futsi"
+    }
+  }
+}

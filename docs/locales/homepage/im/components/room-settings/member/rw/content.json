@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Shakisha abanyamuryango"
+    },
+    "table": {
+      "columns": {
+        "name": "Izina ryabanyamuryango",
+        "userId": "Indangamuntu",
+        "actions": "gukora"
+      },
+      "pagination": {
+        "rowsPerPage": "Umubare wumurongo kurupapuro"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Kwirukana",
+        "ban": "Babujijwe"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Emeza umunyamuryango wa Kick",
+        "content": "Uzi neza ko ushaka gukubita umunyamuryango mucyumba?"
+      },
+      "ban": {
+        "title": "Emeza abanyamuryango babujijwe",
+        "content": "Uzi neza ko ushaka kubuza uyu munyamuryango? Umunyamuryango ntazashobora gusubira mucyumba nyuma yo kubuzwa."
+      },
+      "buttons": {
+        "cancel": "Guhagarika",
+        "confirm": "kwemeza"
+      }
+    },
+    "toast": {
+      "loadError": "Kunanirwa kwikorera urutonde rwabanyamuryango",
+      "kick": {
+        "success": "Abanyamuryango birukanwe mu cyumba",
+        "error": "Kwirukana abanyamuryango byarananiranye"
+      },
+      "ban": {
+        "success": "Abanyamuryango bahagaritswe",
+        "error": "Kunanirwa guhagarika abanyamuryango"
+      }
+    },
+    "invite": {
+      "button": "Saba abanyamuryango",
+      "title": "Saba abanyamuryango kwinjira mucyumba",
+      "inputLabel": "Nyamuneka andika indangamuntu ya Matrix (nka @USER: Matrix.org)",
+      "confirm": "gutumira",
+      "cancel": "Guhagarika",
+      "loading": "Gutumira ...",
+      "success": "Ubutumire bwoherejwe!",
+      "error": "Ubutumire bwarananiranye, nyamuneka reba indangamuntu cyangwa uruhushya"
+    },
+    "empty": "Nta munyamuryango",
+    "loading": "gupakira ...",
+    "role": {
+      "owner": "Nyirurugo",
+      "admin": "umuyobozi",
+      "moderator": "Gufatanya",
+      "user": "umunyamuryango"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Gå med i rummet",
+      "inviteOnly": "Detta är ett privat rum och kräver inbjudningar att gå med",
+      "knockRequired": "Detta rum kräver ansökan för att gå med. Klicka på knappen nedan för att skicka anslutningsförfrågan",
+      "canJoin": "Detta är ett offentligt rum, du kan gå med direkt",
+      "sendRequest": "Skicka en anslutningsförfrågan",
+      "join": "Gå med i rummet"
+    },
+    "JoinRequestList": {
+      "noRequests": "Ingen anslutningsförfrågan än",
+      "accept": "acceptera",
+      "reject": "avvisa"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Ange ett meddelande ..."
+  },
+  "MessageList": {
+    "noMessages": "Det finns inget meddelande ännu, skicka det första meddelandet för att starta konversationen!",
+    "loading": "belastning...",
+    "error": {
+      "loadFailed": "Det gick inte att ladda meddelandet",
+      "retry": "Försök igen"
+    },
+    "loadingHistory": "Laddar historia ...",
+    "historyEnd": "De tidigaste nyheterna har kommit"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Det finns inget meddelande ännu, skicka det första meddelandet för att starta konversationen!"
+  },
+  "RoomContent": {
+    "title": "Rum"
+  },
+  "RoomHeader": {
+    "title": "Rum",
+    "unnamedRoom": "Namnlösa rum",
+    "members": "medlem",
+    "settings": "inrätta",
+    "leaveRoom": "Lämna rummet",
+    "joinRoom": "Gå med i rummet"
+  },
+  "RoomMembers": {
+    "title": "Rumsmedlemmar",
+    "online": "Online",
+    "offline": "Off-line",
+    "join": "gå med i",
+    "invite": "bjuda",
+    "leave": "lämna",
+    "ban": "Förbjuden",
+    "noMembers": "Ingen medlem ännu",
+    "loading": "belastning..."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "दर्ता गर्नु",
+    "phoneNumber": "फोन नम्बर",
+    "phoneNumberPlaceholder": "कृपया तपाईंको मोबाइल फोन नम्बर प्रविष्ट गर्नुहोस्",
+    "verificationCode": "प्रमाणिकरण कोड",
+    "verificationCodePlaceholder": "कृपया प्रमाणिकरण कोड प्रविष्ट गर्नुहोस्",
+    "getVerificationCode": "प्रमाणिकरण कोड प्राप्त गर्नुहोस्",
+    "countdown": "{{सेकेन्ड} सेकेन्ड फेरि प्रयास गर्न",
+    "register": "दर्ता गर्नु",
+    "errors": {
+      "phoneRequired": "कृपया तपाईंको मोबाइल फोन नम्बर प्रविष्ट गर्नुहोस्",
+      "phoneInvalid": "मोबाइल फोन नम्बर ढाँचा गलत छ",
+      "codeRequired": "कृपया प्रमाणिकरण कोड प्रविष्ट गर्नुहोस्",
+      "codeInvalid": "प्रमाणिकरण कोड ढाँचा गलत छ",
+      "requestFailed": "अनुरोध असफल भयो",
+      "verificationFailed": "प्रमाणिकरण कोड अधिग्रहण असफल भयो",
+      "loginFailed": "लगइन असफल भयो"
+    },
+    "success": {
+      "verificationCodeSent": "प्रमाणिकरण कोड पठाइएको छ",
+      "registerSuccess": "सफलतापूर्वक दर्ता गरियो"
+    }
+  }
+}

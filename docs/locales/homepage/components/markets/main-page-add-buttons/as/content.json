@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "যোগ কৰক",
+    "sub": {
+      "addScriptByUrl": "URL ৰ যোগেদি স্ক্ৰীপ্ট যোগ কৰক",
+      "addScriptByText": "লিখনীৰ যোগেদি লিপি যোগ কৰক",
+      "addMarket": "URL ৰ জৰিয়তে বজাৰ যোগ কৰক",
+      "addMarketByText": "লিখনীৰ জৰিয়তে বজাৰ যোগ কৰক"
+    }
+  }
+}

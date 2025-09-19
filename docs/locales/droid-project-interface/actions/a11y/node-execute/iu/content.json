@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "ᑲᔪᓯᔪᖅ ᑲᔪᓯᑎᑕᐅᓂᖓ",
+    "changeBtnLabel": "ᐊᓯᔾᔨᕐᓗᒍ",
+    "showNodeAllProperties": "ᑕᑯᑎᓪᓗᒋᑦ ᑕᒪᕐᒥᒃ ᐱᖁᑎᒋᔭᐅᔪᑦ",
+    "wait": {
+      "time": "ᐅᑕᖅᑭᓂᖅ ᐱᕕᒃᓴᒥᒃ",
+      "interval": "ᐅᑕᖅᑭᓂᖅ ᐊᑯᓐᓂᖓ",
+      "invisible": "ᖃᐅᔨᓂᐊᕐᒪᖔᖅᐱᑦ ᓯᓚᑖᓂ ᑕᑯᒃᓴᐅᑉ"
+    }
+  }
+}

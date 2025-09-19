@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "hisoratra anarana",
+    "phoneNumber": "Nomeraon-telefaona",
+    "phoneNumberPlaceholder": "Ampidiro azafady ny nomeraon-telefaonanao",
+    "verificationCode": "Kaody fanamarinana",
+    "verificationCodePlaceholder": "Ampidiro azafady ny kaody fanamarinana",
+    "getVerificationCode": "Raiso ny kaody fanamarinana",
+    "countdown": "{{segondra}} segondra hanandrana indray",
+    "register": "hisoratra anarana",
+    "errors": {
+      "phoneRequired": "Ampidiro azafady ny nomeraon-telefaonanao",
+      "phoneInvalid": "Tsy marina ny format nomeraon-telefaona finday",
+      "codeRequired": "Ampidiro azafady ny kaody fanamarinana",
+      "codeInvalid": "Tsy mety ny format code fanamarinana",
+      "requestFailed": "Tsy nahomby ny fangatahana",
+      "verificationFailed": "Tsy nahomby ny fahazoan-dàlana fanamarinana",
+      "loginFailed": "tsy tafiditra"
+    },
+    "success": {
+      "verificationCodeSent": "Ny kaody fanamarinana dia nalefa",
+      "registerSuccess": "Vita soa aman-tsara"
+    }
+  }
+}

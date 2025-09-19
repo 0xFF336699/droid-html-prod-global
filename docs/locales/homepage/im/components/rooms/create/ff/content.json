@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Sos suudu"
+    },
+    "dialog": {
+      "title": "Sos suudu kesu",
+      "form": {
+        "userId": {
+          "label": "ID kuutortooɗo",
+          "placeholder": "Naatnu ID kuutortooɗo (yeru: @user:ample.com)",
+          "error": {
+            "required": "ID kuutortooɗo waawaa wonde meere",
+            "invalid": "Sifaa ID kuutortooɗo mo moƴƴaani"
+          }
+        },
+        "roomName": {
+          "label": "Innde suudu (uvaade)",
+          "placeholder": "Naatnu innde suudu"
+        },
+        "isEncrypted": {
+          "label": "Sos sifirgol joofnirde joofnirde"
+        },
+        "isDirect": {
+          "label": "Mesaas tiiɗɗo"
+        },
+        "topic": {
+          "label": "Tiitoonde (cuɓagol)",
+          "placeholder": "Naat e tiitoonde suudu nduu"
+        }
+      },
+      "actions": {
+        "cancel": "Willugo",
+        "create": "taggugo"
+      },
+      "success": "Tagngo suudu e nafoore",
+      "error": "Juumre waɗi nde sosde suudu: {rror} ."
+    }
+  }
+}

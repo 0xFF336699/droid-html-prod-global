@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "Irreġistra",
+    "phoneNumber": "Numru tat-telefon",
+    "phoneNumberPlaceholder": "Jekk jogħġbok daħħal in-numru tat-telefon ċellulari tiegħek",
+    "verificationCode": "Kodiċi ta 'verifika",
+    "verificationCodePlaceholder": "Jekk jogħġbok daħħal il-kodiċi tal-verifika",
+    "getVerificationCode": "Ikseb il-Kodiċi tal-Verifika",
+    "countdown": "{{sekondi}} sekondi biex terġa 'tipprova",
+    "register": "Irreġistra",
+    "errors": {
+      "phoneRequired": "Jekk jogħġbok daħħal in-numru tat-telefon ċellulari tiegħek",
+      "phoneInvalid": "Il-format tan-numru tat-telefon ċellulari mhuwiex korrett",
+      "codeRequired": "Jekk jogħġbok daħħal il-kodiċi tal-verifika",
+      "codeInvalid": "Il-format tal-kodiċi tal-verifika mhuwiex korrett",
+      "requestFailed": "Talba falliet",
+      "verificationFailed": "L-akkwist tal-kodiċi tal-verifika falla",
+      "loginFailed": "Login falla"
+    },
+    "success": {
+      "verificationCodeSent": "Intbagħat kodiċi ta 'verifika",
+      "registerSuccess": "Irreġistrat b'suċċess"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Raumeinstellungen",
+    "tabs": {
+      "basic": "Grundeinstellungen",
+      "permission": "Berechtigungseinstellungen",
+      "privacy": "Datenschutzeinstellungen",
+      "member": "Mitgliedsmanagement"
+    },
+    "loadError": "Die Einstellungen für Raum nicht laden",
+    "leaveRoom": {
+      "button": "Verlassen Sie den Raum",
+      "confirm": "Sind Sie sicher, dass Sie den Raum verlassen möchten? Nach dem Beenden können Sie keine weiteren Nachrichten aus diesem Raum erhalten.",
+      "success": "Verließ den Raum erfolgreich",
+      "error": "Versäumte es, den Raum zu verlassen, bitte versuchen Sie es erneut"
+    }
+  }
+}

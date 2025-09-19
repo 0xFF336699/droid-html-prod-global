@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Login/Daftar",
+    "signOut": "Keluar",
+    "confirmContent": "Apakah Anda yakin ingin keluar?",
+    "confirmTitle": "petunjuk",
+    "confirm": "Tentu",
+    "cancel": "Membatalkan",
+    "signoutOk": "Keluar",
+    "loadingData": "Memuat data pengguna"
+  }
+}

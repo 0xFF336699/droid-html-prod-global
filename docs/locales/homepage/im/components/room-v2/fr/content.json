@@ -1,0 +1,7 @@
+{
+  "RoomContentV2": {
+    "waitingForLogin": "Veuillez vous connecter en premier",
+    "loadingRoomInfo": "Informations sur la salle de chargement ...",
+    "roomNotFound": "La chambre n'a pas été trouvée"
+  }
+}

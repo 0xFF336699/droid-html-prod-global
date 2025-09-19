@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "De Kaanke naam"
+      },
+      "topic": {
+        "label": "Room inleiing"
+      },
+      "avatar": {
+        "alt": "Kale avatter"
+      },
+      "submit": "Opslaon instellinge"
+    },
+    "toast": {
+      "success": "Instellinge bijgewerk",
+      "error": {
+        "default": "Ut instellinge instellinge mislukde neet",
+        "avatar": "Verzuim om avatar te update"
+      }
+    }
+  }
+}

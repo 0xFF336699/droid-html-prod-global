@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "mengendalikan",
+    "click": "Klik",
+    "longClick": "Tekan panjang",
+    "setText": "Tetapkan teks",
+    "tryClick": "Cuba elemen atau lokasi klik",
+    "globalClick": "Klik lokasi"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Innskráning/skrá",
+    "signOut": "Skráðu þig út",
+    "confirmContent": "Ertu viss um að þú viljir skrá þig út?",
+    "confirmTitle": "Vísbending",
+    "confirm": "Jú",
+    "cancel": "Hætta við",
+    "signoutOk": "Skráðu þig út",
+    "loadingData": "Hleður notendagögnum"
+  }
+}

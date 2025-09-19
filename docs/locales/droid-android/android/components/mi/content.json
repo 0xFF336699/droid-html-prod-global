@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Whakakore",
+    "ok": "Mōhio tūturu",
+    "checkBoxText": "Haere tika ki te whakamana i roto i te haurua o te marama ka kore e whakaatu i tenei matapihi",
+    "content": "Ko tenei mahi me whakamana i te whakamanatanga mahi. Mena kei te hiahia koe ki te whakamana, paatohia te [OK]. Mena kei te hiahia koe ki te tuku, paatohia koa [Whakakore]",
+    "title": "Tono Tono"
+  },
+  "floatPermission": {
+    "cancel": "Whakakore",
+    "ok": "Mōhio tūturu",
+    "checkBoxText": "Haere tika ki te whakamana i roto i te haurua o te marama ka kore e whakaatu i tenei matapihi",
+    "content": "Ko tenei mahi me whakamana i te whakamanatanga o te mahi a te matapihi e rere ana. Mena kei te hiahia koe ki te whakamana, paatohia te [OK]. Mena kei te hiahia koe ki te tuku, paatohia koa [Whakakore]",
+    "title": "Tono Tono"
+  }
+}

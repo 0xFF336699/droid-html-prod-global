@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Hlakola",
+    "confirm": "Ehlile",
+    "title": "Hint",
+    "content": "Na u na le bonnete ba hore u batla ho etsa see?"
+  },
+  "EditableText": {
+    "cancel": "Hlakola",
+    "save": "boloka",
+    "title": "Edita"
+  }
+}

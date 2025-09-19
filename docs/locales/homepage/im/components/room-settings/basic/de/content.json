@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Raumname"
+      },
+      "topic": {
+        "label": "Raumeinführung"
+      },
+      "avatar": {
+        "alt": "Zimmer Avatar"
+      },
+      "submit": "Einstellungen speichern"
+    },
+    "toast": {
+      "success": "Einstellungen aktualisiert",
+      "error": {
+        "default": "Aktualisierungseinstellungen fehlgeschlagen",
+        "avatar": "Avatar nicht aktualisiert"
+      }
+    }
+  }
+}

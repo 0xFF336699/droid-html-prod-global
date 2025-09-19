@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "1-мĕш хушăр",
+    "sub": {
+      "addScriptByUrl": "Скриптсене URL урлă хушăр",
+      "addScriptByText": "Скриптсене текст урлă хушăр",
+      "addMarket": "URL урлă рынок хушăр",
+      "addMarketByText": "Текст урлă рынок хушăр"
+    }
+  }
+}

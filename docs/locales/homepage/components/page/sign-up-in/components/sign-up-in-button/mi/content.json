@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Takiuru / Rēhita",
+    "signOut": "Takiuru",
+    "confirmContent": "Kei te hiahia koe ki te takiuru?",
+    "confirmTitle": "tohu puaki",
+    "confirm": "Mōhio tūturu",
+    "cancel": "Whakakore",
+    "signoutOk": "Takiuru",
+    "loadingData": "Te uta i nga raraunga kaiwhakamahi"
+  }
+}

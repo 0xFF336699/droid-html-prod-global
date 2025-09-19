@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Tìm kiếm các thành viên"
+    },
+    "table": {
+      "columns": {
+        "name": "Tên thành viên",
+        "userId": "ID người dùng",
+        "actions": "vận hành"
+      },
+      "pagination": {
+        "rowsPerPage": "Số lượng hàng trên mỗi trang"
+      },
+      "avatar": {
+        "alt": "Avatar"
+      },
+      "actions": {
+        "kick": "Đá ra",
+        "ban": "Bị cấm"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Xác nhận thành viên đá",
+        "content": "Bạn có chắc là bạn muốn đá thành viên ra khỏi phòng?"
+      },
+      "ban": {
+        "title": "Xác nhận tư cách thành viên bị cấm",
+        "content": "Bạn có chắc là bạn muốn cấm thành viên này? Thành viên sẽ không thể gia nhập lại căn phòng sau lệnh cấm."
+      },
+      "buttons": {
+        "cancel": "Hủy bỏ",
+        "confirm": "xác nhận"
+      }
+    },
+    "toast": {
+      "loadError": "Không tải danh sách thành viên",
+      "kick": {
+        "success": "Các thành viên đã bị đuổi ra khỏi phòng",
+        "error": "Khởi động các thành viên không thành công"
+      },
+      "ban": {
+        "success": "Thành viên bị chặn",
+        "error": "Không thể chặn các thành viên"
+      }
+    },
+    "invite": {
+      "button": "Mời các thành viên",
+      "title": "Mời các thành viên tham gia phòng",
+      "inputLabel": "Vui lòng nhập ID người dùng ma trận (chẳng hạn như @User: Matrix.org)",
+      "confirm": "mời",
+      "cancel": "Hủy bỏ",
+      "loading": "Mời ...",
+      "success": "Lời mời được gửi!",
+      "error": "Lời mời không thành công, vui lòng kiểm tra ID người dùng hoặc quyền"
+    },
+    "empty": "Chưa có thành viên",
+    "loading": "đang tải...",
+    "role": {
+      "owner": "Chủ nhà",
+      "admin": "Quản trị viên",
+      "moderator": "Đồng quản lý",
+      "user": "thành viên"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "yi rejista",
+    "phoneNumber": "Lambar tarho",
+    "phoneNumberPlaceholder": "Da fatan za a shigar da lambar wayar tafi da gidanka",
+    "verificationCode": "Lambar tabbaci",
+    "verificationCodePlaceholder": "Da fatan za a shigar da lambar tabbatarwa",
+    "getVerificationCode": "Samu lambar tabbatarwa",
+    "countdown": "{{{{seconds ate}} seconds seconds don sake gwadawa",
+    "register": "yi rejista",
+    "errors": {
+      "phoneRequired": "Da fatan za a shigar da lambar wayar tafi da gidanka",
+      "phoneInvalid": "Tsarin wayar hannu ba daidai bane",
+      "codeRequired": "Da fatan za a shigar da lambar tabbatarwa",
+      "codeInvalid": "Tsarin lambar tabbatarwa ba daidai bane",
+      "requestFailed": "Nema ya gaza",
+      "verificationFailed": "Canza lambar tabbatarwa",
+      "loginFailed": "Shiga samu"
+    },
+    "success": {
+      "verificationCodeSent": "An aiko da lambar tabbatarwa",
+      "registerSuccess": "Rijista nasara"
+    }
+  }
+}

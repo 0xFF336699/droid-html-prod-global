@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Login/Register",
+    "signOut": "luwa",
+    "confirmContent": "Tawadəro nyiye log out diwo ra’ama?",
+    "confirmTitle": "shit kənjo",
+    "confirm": "Tawadə",
+    "cancel": "Dawartə",
+    "signoutOk": "luwa",
+    "loadingData": "Bayanna faidatǝmaye gǝnatǝ"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "लॉगिन/रजिस्टर",
+    "signOut": "लॉग आउट",
+    "confirmContent": "आपणास खात्री आहे की आपण लॉग आउट करू इच्छिता?",
+    "confirmTitle": "इशारा",
+    "confirm": "नक्की",
+    "cancel": "रद्द करा",
+    "signoutOk": "लॉग आउट",
+    "loadingData": "वापरकर्ता डेटा लोड करीत आहे"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Pangani chipinda"
+    },
+    "dialog": {
+      "title": "Pangani chipinda chatsopano",
+      "form": {
+        "userId": {
+          "label": "Dzina Lolowera",
+          "placeholder": "Lowetsani ID Yogwiritsa Ntchito (mwachitsanzo: @ser: Chitsanzo.com)",
+          "error": {
+            "required": "ID ya ogwiritsa ntchito siyingakhale yopanda kanthu",
+            "invalid": "Mtundu wosavomerezeka wosavomerezeka"
+          }
+        },
+        "roomName": {
+          "label": "Dzina la chipinda (posankha)",
+          "placeholder": "Lowetsani dzina la chipinda"
+        },
+        "isEncrypted": {
+          "label": "Yambitsani kukhazikika kwa malekezero"
+        },
+        "isDirect": {
+          "label": "Meseji mwachindunji"
+        },
+        "topic": {
+          "label": "Mutu (posankha)",
+          "placeholder": "Lowetsani mutuwo"
+        }
+      },
+      "actions": {
+        "cancel": "Siya",
+        "create": "lenga"
+      },
+      "success": "Chipinda cholengedwa bwino",
+      "error": "Vuto linachitika ndikupanga chipinda: {cholakwika}"
+    }
+  }
+}

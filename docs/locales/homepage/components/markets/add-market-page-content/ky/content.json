@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "Базарга кошуу",
+    "url": "Базар URL дареги",
+    "summary": "Базар",
+    "urlIsNotValid": "Туура эмес базар URL дареги"
+  }
+}

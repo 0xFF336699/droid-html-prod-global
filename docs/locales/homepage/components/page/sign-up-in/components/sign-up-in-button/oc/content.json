@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Connexion/Registre",
+    "signOut": "Renjoitz",
+    "confirmContent": "Sètz segur que volètz vos desconnectar?",
+    "confirmTitle": "indici",
+    "confirm": "Segur",
+    "cancel": "Anullar",
+    "signoutOk": "Renjoitz",
+    "loadingData": "Carga de donadas d'utilizaire ."
+  }
+}

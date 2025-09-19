@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Ruum ko",
+    "tabs": {
+      "basic": "Jikin ko reppen",
+      "permission": "Jikin ko",
+      "privacy": "Jikin wia kake men ko",
+      "member": "Membōr in"
+    },
+    "loadError": "Ejjab maroñ in bōk jikin ko .",
+    "leaveRoom": {
+      "button": "Kwōn diwōjḷọk jān ruum̧ eo .",
+      "confirm": "Kwoj lukkun kõnan ke diojlok jen ruum eo? Ālkin am̧ diwōjļo̧k, kwojjab maron̄ wōnm̧aanļo̧k wōt im bōk ennaan ko jān ruum̧ in.",
+      "success": "Ear tōprak an ruum̧ eo .",
+      "error": "Ejjab maroñ diwōjḷọk ilo ruum̧ eo, jouj im bar kajjioñ ."
+    }
+  }
+}

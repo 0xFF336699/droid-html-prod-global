@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Nama kamar"
+      },
+      "topic": {
+        "label": "PENDAHULUAN KAMAR"
+      },
+      "avatar": {
+        "alt": "Avatar kamar"
+      },
+      "submit": "Simpan Pengaturan"
+    },
+    "toast": {
+      "success": "Pengaturan diperbarui",
+      "error": {
+        "default": "Perbarui Pengaturan Gagal",
+        "avatar": "Gagal memperbarui Avatar"
+      }
+    }
+  }
+}

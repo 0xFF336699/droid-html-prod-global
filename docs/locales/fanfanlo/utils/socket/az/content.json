@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Birləşdirən ...",
+    "connected": "Bağlı",
+    "disconnecting": "Bağlamaq ...",
+    "disconnected": "Qoşulmur",
+    "waitRetry": "Təkrarlama gözləyirəm ..."
+  }
+}

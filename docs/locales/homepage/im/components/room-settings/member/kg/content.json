@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Sosa bantu ya kimvuka"
+    },
+    "table": {
+      "columns": {
+        "name": "Zina ya Bampangi",
+        "userId": "ID ya muntu ya ke sadila",
+        "actions": "kusala"
+      },
+      "pagination": {
+        "rowsPerPage": "Ntalu ya bandonga na lutiti mosi"
+      },
+      "avatar": {
+        "alt": "avatare"
+      },
+      "actions": {
+        "kick": "Kubasika",
+        "ban": "Bo me buyisa"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Ndima na muntu ya ke bulaka makulu",
+        "content": "Keti nge ke ndima nde nge ke zola kubasisa muntu yina na suku?"
+      },
+      "ban": {
+        "title": "Ndimisa kimvuka ya bantu yina bo me buyisaka",
+        "content": "Keti nge ke ndima nde nge ke zola kubuyisa muntu yai? Muntu yina ta kuka diaka ve kuvutuka na suku na nima ya kubuyisa."
+      },
+      "buttons": {
+        "cancel": "Kukatula",
+        "confirm": "kundimisa"
+      }
+    },
+    "toast": {
+      "loadError": "Kukonda kutula lisiti ya bantu yina kele na kati na yo",
+      "kick": {
+        "success": "Bantu me kulaka bantu na suku .",
+        "error": "Kubula ba membres nungaka ve"
+      },
+      "ban": {
+        "success": "Bantu ya me kangama",
+        "error": "Kukonda kukanga bantu ya kimvuka"
+      }
+    },
+    "invite": {
+      "button": "Bingisa bantu",
+      "title": "Lomba bantu na kukota na suku .",
+      "inputLabel": "Nlemvuka kota na ID ya kusadila Matrix (bonso @user:matrix.org)",
+      "confirm": "kubingisa",
+      "cancel": "Kukatula",
+      "loading": "Kubinga...",
+      "success": "Kubinga yina bo me tinda!",
+      "error": "Emvitasio me nunga ve, tala ID ya muntu yina ke sadila yo to nswa ."
+    },
+    "empty": "Ata muntu mosi ve tii bubu yai",
+    "loading": "kutula...",
+    "role": {
+      "owner": "Mfumu ya inzo",
+      "admin": "mfumu",
+      "moderator": "Kutwadisa kumosi",
+      "user": "muntu"
+    }
+  }
+}

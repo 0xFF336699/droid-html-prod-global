@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Dutoƒoxɔ .",
+        "description": "Dutoƒoxɔwo ate ŋu anye esiwo zãla bubuwo ate ŋu adi ."
+      },
+      "allowGuestJoin": {
+        "label": "Ðe mɔ na amedzrowo be woawɔ ɖeka kple wo nɔewo .",
+        "description": "Ðe mɔ na ezãla siwo womeŋlɔ ŋkɔ na o be woawɔ ɖeka kple xɔa abe amedzro ene ."
+      },
+      "isEncrypted": {
+        "label": "Na nya ɣaɣlawo tsɔtsɔ ɣla tso nuwuwu vaseɖe nuwuwu nawɔ dɔ .",
+        "description": "Ne wowɔe la, woatsɔ nyatakaka siwo le xɔa me la aɣla wo tso nuwuwu vaseɖe nuwuwu .",
+        "alert": "Wowɔa nya ɣaɣlawo tsɔtsɔ ɣla tso nuwuwu vaseɖe nuwuwu le xɔa me, eye womate ŋu atsi ɖoɖo sia o."
+      },
+      "submit": "Dzra Ame ŋutɔ ƒe Nyawo Ðo Ðe Ame Ŋu ƒe Ðoɖowo ."
+    },
+    "toast": {
+      "success": "Wotrɔ asi le ameŋunyatakakawo ŋuti ɖoɖowo ŋu .",
+      "error": "Do kpo ameŋunyatakakawo ƒe ɖoɖowo ɖɔɖɔɖo ."
+    }
+  }
+}

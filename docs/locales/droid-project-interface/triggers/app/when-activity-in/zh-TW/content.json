@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "當進入指定頁面時",
+    "pnLabel": "包名：",
+    "anLabel": "Activity名：",
+    "cnLabel": "類名：",
+    "changeBtnLabel": "更換"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "當進入指定頁面時",
+    "pnLabel": "包名：",
+    "anLabel": "Activity名：",
+    "cnLabel": "類名：",
+    "changeBtnLabel": "更換"
+  }
+}

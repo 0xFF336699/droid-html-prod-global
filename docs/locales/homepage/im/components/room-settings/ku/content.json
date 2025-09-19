@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Mîhengên odeyê",
+    "tabs": {
+      "basic": "Mîhengên bingehîn",
+      "permission": "Mîhengên destûr",
+      "privacy": "Mîhengên nepenîtiyê",
+      "member": "Rêvebiriya endam"
+    },
+    "loadError": "Mîhengên odeyê nekişand",
+    "leaveRoom": {
+      "button": "Ji odeyê derketin",
+      "confirm": "Ma hûn guman dikin ku hûn dixwazin ji odeyê derkevin? Piştî ku hûn derkevin, hûn ê nikaribin peyamên ji vê jûreyê bidomînin.",
+      "success": "Li odeyê bi serfirazî derket",
+      "error": "Ji odeyê derneket, ji kerema xwe careke din biceribîne"
+    }
+  }
+}

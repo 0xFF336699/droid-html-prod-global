@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "Marar",
+    "me": "ranjau",
+    "settings": "disetél",
+    "script": "naskah",
+    "store": "pasar",
+    "market": "pasar",
+    "create": "nyiptakeun"
+  },
+  "tabbar": {
+    "test": "Bar menu handap"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Aanmeld/register",
+    "signOut": "Log uit",
+    "confirmContent": "Is u seker dat u wil afmeld?",
+    "confirmTitle": "skimp",
+    "confirm": "Seker",
+    "cancel": "Kanselleer",
+    "signoutOk": "Log uit",
+    "loadingData": "Laai gebruikersdata"
+  }
+}

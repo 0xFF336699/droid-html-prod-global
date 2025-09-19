@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Izina ry'icumba"
+      },
+      "topic": {
+        "label": "Icumba Intangamarara"
+      },
+      "avatar": {
+        "alt": "Ivyumba vy'uburaro"
+      },
+      "submit": "Bika amategeko"
+    },
+    "toast": {
+      "success": "Ivyagezwe vyahinduwe",
+      "error": {
+        "default": "Ivyagezwe vya kera vyarananiwe",
+        "avatar": "Yananiwe guhindura avatar"
+      }
+    }
+  }
+}

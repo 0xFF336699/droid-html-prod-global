@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Pukot membōr ro ."
+    },
+    "table": {
+      "columns": {
+        "name": "Member Etan",
+        "userId": "ID ID",
+        "actions": "jerbal"
+      },
+      "pagination": {
+        "rowsPerPage": "Oran ro row ko ilo juon peij ."
+      },
+      "avatar": {
+        "alt": "armij ro rejubreak"
+      },
+      "actions": {
+        "kick": "kuwait",
+        "ban": "Ear bakin"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Kam̧ool membōr eo ej kijon̄ .",
+        "content": "Kwoj ke mol ke kwoj kõnan kadiojlok membōr eo jen ruum eo?"
+      },
+      "ban": {
+        "title": "Kam̧ool membōr ro kar kōtļo̧k .",
+        "content": "Kwoj ke lukkun kõnan bõprae membōr in? Membōr eo ejjab maron̄ bar kobatok ilo ruum̧ eo ālkin an ban eo."
+      },
+      "buttons": {
+        "cancel": "Jolok",
+        "confirm": "kamool"
+      }
+    },
+    "toast": {
+      "loadError": "Ejjab maroñ in bōk laajrak eo an membōr .",
+      "kick": {
+        "success": "Eṃōj an ro uwaan wa eo diwōjḷọk jān ruum̧ eo .",
+        "error": "Kur out membōr ro ear jab tōprak ."
+      },
+      "ban": {
+        "success": "Membōr ro raar bōbrae",
+        "error": "Ejjab maroñ bōbrae membōr ro ."
+      }
+    },
+    "invite": {
+      "button": "Kūr membōr ro",
+      "title": "Kūr membōr ro n̄an kobaļo̧k ilo ruum̧ eo .",
+      "inputLabel": "Jouj im deloñ ilo ID eo an Matrix (einwot £user:metrix)",
+      "confirm": "kūr",
+      "cancel": "Jolok",
+      "loading": "Kūr...",
+      "success": "Kūr eo kar jilkinļo̧k!",
+      "error": "Kūr eo ear jab tōprak, jouj im lale ID ak mālim ko ."
+    },
+    "empty": "Ejjeḷọk membōr kiiō",
+    "loading": "loon...",
+    "role": {
+      "owner": "Mweer",
+      "admin": "ritōl",
+      "moderator": "Ko-tōl",
+      "user": "membōr"
+    }
+  }
+}

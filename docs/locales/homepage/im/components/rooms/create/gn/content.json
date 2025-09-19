@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Ojapo peteĩ koty ."
+    },
+    "dialog": {
+      "title": "Ojapo peteĩ koty pyahu .",
+      "form": {
+        "userId": {
+          "label": "ID puruhára rehegua .",
+          "placeholder": "Emoinge ID puruhára rehegua (techapyrã: @user:example.com) .",
+          "error": {
+            "required": "ID puruhára rehegua ndaikatúi oĩ vacío .",
+            "invalid": "Formato de ID de usuario ndovaléiva ."
+          }
+        },
+        "roomName": {
+          "label": "Koty réra (opcional) .",
+          "placeholder": "Emoĩ peteĩ koty réra ."
+        },
+        "isEncrypted": {
+          "label": "Emboguata cifrado paha guive paha peve ."
+        },
+        "isDirect": {
+          "label": "Marandu directo rehegua ."
+        },
+        "topic": {
+          "label": "Tema (Opcional) rehegua .",
+          "placeholder": "Eike pe koty témape ."
+        }
+      },
+      "actions": {
+        "cancel": "Heja",
+        "create": "mboypy"
+      },
+      "success": "Koty apopyre hekopete .",
+      "error": "Oiko peteĩ jejavy ojejapo jave peteĩ koty: {error}"
+    }
+  }
+}

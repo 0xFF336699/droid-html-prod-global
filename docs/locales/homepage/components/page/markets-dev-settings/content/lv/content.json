@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Palikt savienotam",
+        "helperText": "Ja noklikšķiniet uz saites Start, turiet saiti. Tam jāpievērš uzmanība, ka saite tiks nepārtraukti atjaunota pēc atvienošanas.",
+        "retryCount": "Atkārtotu savienojumu skaits"
+      },
+      "url": {
+        "name": "Url",
+        "helperText": "Link URL, piemēram, ws: //192.168.0.2: 7001 vai wws: //example.com/path",
+        "error": "Pareizais URL ir URL, kas sākas ar WS: // vai WWS: //"
+      }
+    },
+    "connectButton": {
+      "connect": "savienot",
+      "disconnect": "Atvienot",
+      "status": {
+        "connecting": "Savienošana ...",
+        "connected": "Sakarsēts",
+        "disconnecting": "Atvienojot ...",
+        "disconnected": "Nav savienots",
+        "waitRetry": "Gaida atkārtotu savienojumu ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "scenārijs"
+  }
+}

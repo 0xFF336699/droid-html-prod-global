@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Rajtigita",
+    "notPass": "Neaŭtorizita",
+    "danger": "Danĝero",
+    "setting": "Agordu"
+  }
+}

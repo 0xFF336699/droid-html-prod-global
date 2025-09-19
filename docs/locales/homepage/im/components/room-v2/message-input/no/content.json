@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "Legg til vedlegg",
+    "emoji": "Velg et uttrykk",
+    "placeholder": "Skriv inn en melding ...",
+    "sendLocation": "Send beliggenhet",
+    "send": "sende"
+  }
+}

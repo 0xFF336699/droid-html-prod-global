@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Maradjon kapcsolatban",
+        "helperText": "Ha rákattint a Start linkre, akkor tartsa meg a linket. Ehhez figyelembe kell venni, hogy a linket folyamatosan újracsatlakozzák, miután leválasztották.",
+        "retryCount": "Újracsatlakozások száma"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "Link URL, például WS: //192.168.0.2: 7001, vagy WWS: //example.com/path",
+        "error": "A helyes URL egy URL, kezdve a WS -vel: // vagy a WWS: //"
+      }
+    },
+    "connectButton": {
+      "connect": "összekapcsol",
+      "disconnect": "Leválaszt",
+      "status": {
+        "connecting": "Csatlakozó ...",
+        "connected": "Összekapcsolt",
+        "disconnecting": "Leválasztás ...",
+        "disconnected": "Nem kapcsolódva",
+        "waitRetry": "Várakozás az újracsatlakozásra ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "forgatókönyv"
+  }
+}

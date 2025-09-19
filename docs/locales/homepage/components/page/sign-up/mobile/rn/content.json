@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "igitabo",
+    "phoneNumber": "Inomero y'amahembe",
+    "phoneNumberPlaceholder": "Turagusavye winjire mu nomero yawe ya telefone ngendanwa",
+    "verificationCode": "Kode yo gusobanura",
+    "verificationCodePlaceholder": "Ndagusavye winjire muri kode yo kugenzura",
+    "getVerificationCode": "Uronke kode yo kugenzura",
+    "countdown": "{{ivyombo}} amasegonda kugira ngo nsubire kugerageza",
+    "register": "igitabo",
+    "errors": {
+      "phoneRequired": "Turagusavye winjire mu nomero yawe ya telefone ngendanwa",
+      "phoneInvalid": "Uburyo bw'inomero ya telefone ngendanwa ntibubereye",
+      "codeRequired": "Ndagusavye winjire muri kode yo kugenzura",
+      "codeInvalid": "Uburyo bwa kode y'igenzura ntibubereye",
+      "requestFailed": "Ivyo gusaba kwananiwe",
+      "verificationFailed": "Gusuzuma amategeko y'imenyekanisha",
+      "loginFailed": "Login yarananiwe"
+    },
+    "success": {
+      "verificationCodeSent": "Kode y'imenyekanisha yarungitswe",
+      "registerSuccess": "Yasubiwemwo neza"
+    }
+  }
+}

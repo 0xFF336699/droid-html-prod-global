@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Guhagarika",
+    "ok": "Ego cane",
+    "checkBoxText": "Genda wemerewe mu gice c’ukwezi kandi ntugishireho iri dirisha .",
+    "content": "Iyi nzira isaba uruhusha rwo gukora. Niba ushaka kwemerera, kanda [OK]. Niba ushaka guheba, kanda [Cancel]",
+    "title": "Gusaba uruhusha"
+  },
+  "floatPermission": {
+    "cancel": "Guhagarika",
+    "ok": "Ego cane",
+    "checkBoxText": "Genda wemerewe mu gice c’ukwezi kandi ntugishireho iri dirisha .",
+    "content": "Iyi nzira isaba uruhusha rw’igikorwa c’idirisha rireremba. Niba ushaka kwemerera, kanda [OK]. Niba ushaka guheba, kanda [Cancel]",
+    "title": "Gusaba uruhusha"
+  }
+}

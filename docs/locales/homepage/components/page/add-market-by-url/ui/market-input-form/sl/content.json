@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL vzorec",
+    "full": {
+      "url": "Tržni URL. Vneseni znaki bodo naloženi kot URL, bodite previdni.",
+      "html": "Tržna vsebina HTML. Vneseni znaki bodo izvedeni takoj kot skripte, bodite previdni.",
+      "come": "Pridi k mojemu",
+      "myMarketName": "Ime trga",
+      "stroll": "Pojdimo na sprehod"
+    },
+    "item": {
+      "url": "URL tržne kartice. Vneseni znaki bodo naloženi kot URL, bodite previdni.",
+      "html": "Tržna vsebina HTML. Vneseni znaki bodo izvedeni takoj kot skripte, bodite previdni.",
+      "come": "Pridi k mojemu",
+      "myMarketName": "Ime trga",
+      "stroll": "Pojdimo na sprehod"
+    }
+  }
+}

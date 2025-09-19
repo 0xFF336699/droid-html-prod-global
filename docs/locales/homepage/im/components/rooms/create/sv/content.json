@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Skapa ett rum"
+    },
+    "dialog": {
+      "title": "Skapa ett nytt rum",
+      "form": {
+        "userId": {
+          "label": "Användar -ID",
+          "placeholder": "Ange användar -ID (till exempel: @user: exempel.com)",
+          "error": {
+            "required": "Användar -ID kan inte vara tomt",
+            "invalid": "Ogiltigt användar -ID -format"
+          }
+        },
+        "roomName": {
+          "label": "Rumsnamn (valfritt)",
+          "placeholder": "Ange ett rumsnamn"
+        },
+        "isEncrypted": {
+          "label": "Aktivera kryptering från slutet till slutet"
+        },
+        "isDirect": {
+          "label": "Direktmeddelande"
+        },
+        "topic": {
+          "label": "Tema (valfritt)",
+          "placeholder": "Gå in i rumstemat"
+        }
+      },
+      "actions": {
+        "cancel": "Avboka",
+        "create": "skapa"
+      },
+      "success": "Rum skapande framgångsrikt",
+      "error": "Ett fel inträffade när du skapade ett rum: {Error}"
+    }
+  }
+}

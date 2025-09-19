@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Cerca membri"
+    },
+    "table": {
+      "columns": {
+        "name": "Nome membro",
+        "userId": "ID utente",
+        "actions": "operare"
+      },
+      "pagination": {
+        "rowsPerPage": "Numero di righe per pagina"
+      },
+      "avatar": {
+        "alt": "Avatar"
+      },
+      "actions": {
+        "kick": "Calciare",
+        "ban": "Vietato"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Conferma il membro del calcio",
+        "content": "Sei sicuro di voler dare il via al membro fuori dalla stanza?"
+      },
+      "ban": {
+        "title": "Conferma l'adesione vietata",
+        "content": "Sei sicuro di voler vietare questo membro? Il membro non sarà in grado di ricongiungersi alla stanza dopo il divieto."
+      },
+      "buttons": {
+        "cancel": "Cancellare",
+        "confirm": "confermare"
+      }
+    },
+    "toast": {
+      "loadError": "Impossibile caricare l'elenco dei membri",
+      "kick": {
+        "success": "I membri sono stati cacciati dalla stanza",
+        "error": "I membri che calciano i membri hanno fallito"
+      },
+      "ban": {
+        "success": "Membri bloccati",
+        "error": "Impossibile bloccare i membri"
+      }
+    },
+    "invite": {
+      "button": "Invitare i membri",
+      "title": "Invita i membri a unirsi alla stanza",
+      "inputLabel": "Immettere l'ID utente Matrix (come @USER: matrix.org)",
+      "confirm": "invitare",
+      "cancel": "Cancellare",
+      "loading": "Invitante...",
+      "success": "Invito inviato!",
+      "error": "Invito non riuscito, controlla l'ID utente o le autorizzazioni"
+    },
+    "empty": "Nessun membro ancora",
+    "loading": "caricamento...",
+    "role": {
+      "owner": "Proprietario di abitazione",
+      "admin": "amministratore",
+      "moderator": "Co-gestione",
+      "user": "membro"
+    }
+  }
+}

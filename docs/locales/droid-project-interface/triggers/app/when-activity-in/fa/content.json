@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "هنگام ورود به صفحه مشخص شده",
+    "pnLabel": "نام بسته:",
+    "anLabel": "نام فعالیت:",
+    "cnLabel": "نام کلاس:",
+    "changeBtnLabel": "تعویض کردن"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "هنگام ورود به صفحه مشخص شده",
+    "pnLabel": "نام بسته:",
+    "anLabel": "نام فعالیت:",
+    "cnLabel": "نام کلاس:",
+    "changeBtnLabel": "تعویض کردن"
+  }
+}

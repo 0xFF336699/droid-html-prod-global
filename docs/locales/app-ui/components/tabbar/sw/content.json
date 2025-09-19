@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "Ukurasa wa mbele",
+    "me": "yangu",
+    "settings": "Sanidi",
+    "script": "maandishi",
+    "store": "soko",
+    "market": "soko",
+    "create": "Unda"
+  },
+  "tabbar": {
+    "test": "Menyu ya chini bar"
+  }
+}

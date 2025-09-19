@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "စာရင်း",
+    "phoneNumber": "ဖုန်းနံပါတ်",
+    "phoneNumberPlaceholder": "ကျေးဇူးပြု. သင်၏မိုဘိုင်းဖုန်းနံပါတ်ကိုရိုက်ထည့်ပါ",
+    "verificationCode": "အတည်ပြုရန်ကုတ်",
+    "verificationCodePlaceholder": "ကျေးဇူးပြု. အတည်ပြုကုဒ်ကိုရိုက်ထည့်ပါ",
+    "getVerificationCode": "အတည်ပြုကုဒ်ကိုရယူပါ",
+    "countdown": "{{စက္ကန့်စက္ကန့်}} ထပ်မံကြိုးစားရန်စက္ကန့်",
+    "register": "စာရင်း",
+    "errors": {
+      "phoneRequired": "ကျေးဇူးပြု. သင်၏မိုဘိုင်းဖုန်းနံပါတ်ကိုရိုက်ထည့်ပါ",
+      "phoneInvalid": "မိုဘိုင်းဖုန်းဖုန်းနံပါတ်ပုံစံသည်မမှန်ကန်ပါ",
+      "codeRequired": "ကျေးဇူးပြု. အတည်ပြုကုဒ်ကိုရိုက်ထည့်ပါ",
+      "codeInvalid": "အတည်ပြုကုဒ်ပုံစံမမှန်ကန်ပါ",
+      "requestFailed": "တောင်းဆိုမှုပျက်ကွက်",
+      "verificationFailed": "အတည်ပြုကုဒ်ဝယ်ယူမှုမအောင်မြင်ပါ",
+      "loginFailed": "လော့ဂ်အင်မအောင်မြင်ပါ"
+    },
+    "success": {
+      "verificationCodeSent": "အတည်ပြုကုဒ်ကိုပို့ပြီးပြီ",
+      "registerSuccess": "အောင်မြင်စွာမှတ်ပုံတင်"
+    }
+  }
+}

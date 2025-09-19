@@ -1,0 +1,9 @@
+{
+  "MemberDetailContent": {
+    "title": "Podrobnosti o členovi",
+    "nickname": "Názov prezývky",
+    "role": "Úloha",
+    "kick": "Vyraziť",
+    "ban": "Zakázaný"
+  }
+}

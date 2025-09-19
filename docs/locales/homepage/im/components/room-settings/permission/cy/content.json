@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Y lefel caniatâd sy'n ofynnol i anfon neges",
+        "tooltip": "Mae 0 yn golygu y gall pob aelod anfon negeseuon, a pho fwyaf y mae'r nifer yn golygu bod angen caniatâd uwch"
+      },
+      "invite": {
+        "label": "Lefel caniatâd sy'n ofynnol i wahodd aelodau newydd",
+        "tooltip": "Set a all wahodd aelodau newydd i'r ystafell"
+      },
+      "kick": {
+        "label": "Ciciwch y lefel caniatâd ofynnol allan",
+        "tooltip": "Set sy'n gallu cicio aelodau'r ystafell allan"
+      },
+      "ban": {
+        "label": "Lefel caniatâd sy'n ofynnol ar gyfer blocio aelodau",
+        "tooltip": "Set sy'n gallu rhwystro aelodau ystafell"
+      },
+      "roomSettings": {
+        "label": "Addaswch y lefel caniatâd gofynnol o osodiadau ystafell",
+        "tooltip": "Gosodwch pwy all addasu gosodiadau'r ystafell"
+      },
+      "submit": "Arbed Gosodiadau Caniatâd"
+    },
+    "description": "Ystod lefel caniatâd: 0-100, y mwyaf y mae'r nifer yn golygu bod angen caniatâd uwch",
+    "toast": {
+      "success": "Mae gosodiadau caniatâd wedi'u diweddaru",
+      "error": "Wedi methu â diweddaru gosodiadau caniatâd"
+    }
+  }
+}

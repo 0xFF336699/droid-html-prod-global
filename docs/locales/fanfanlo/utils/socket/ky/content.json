@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Туташтыруу ...",
+    "connected": "Туташтырылган",
+    "disconnecting": "Ажыратуу ...",
+    "disconnected": "Туташкан жок",
+    "waitRetry": "Reconnection күтүү ..."
+  }
+}

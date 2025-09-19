@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Dhomë publike",
+        "description": "Dhomat publike mund të kontrollohen nga përdoruesit e tjerë"
+      },
+      "allowGuestJoin": {
+        "label": "Lejoni vizitorët të bashkohen",
+        "description": "Lejoni përdoruesit e paregjistruar të bashkohen në dhomë si mysafir"
+      },
+      "isEncrypted": {
+        "label": "Aktivizoni kriptimin nga fundi në fund",
+        "description": "Kur aktivizohet, mesazhet në dhomë do të kodohen nga fundi në fund",
+        "alert": "Kriptimi nga fundi në fund është aktivizuar në dhomë, dhe kjo cilësim nuk mund të fiket."
+      },
+      "submit": "Ruani cilësimet e intimitetit"
+    },
+    "toast": {
+      "success": "Cilësimet e privatësisë janë azhurnuar",
+      "error": "Dështoi për të azhurnuar cilësimet e intimitetit"
+    }
+  }
+}

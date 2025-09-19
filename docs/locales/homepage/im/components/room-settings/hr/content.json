@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Postavke sobe",
+    "tabs": {
+      "basic": "Osnovne postavke",
+      "permission": "Postavke dozvole",
+      "privacy": "Postavke privatnosti",
+      "member": "Uprava članica"
+    },
+    "loadError": "Nije uspjelo u skladu s postavkama sobe",
+    "leaveRoom": {
+      "button": "Izađite iz sobe",
+      "confirm": "Jeste li sigurni da želite izaći iz sobe? Nakon izlaska, nećete moći nastaviti primati poruke iz ove sobe.",
+      "success": "Uspješno izašao iz sobe",
+      "error": "Nije uspjelo izaći iz sobe, pokušajte ponovo"
+    }
+  }
+}

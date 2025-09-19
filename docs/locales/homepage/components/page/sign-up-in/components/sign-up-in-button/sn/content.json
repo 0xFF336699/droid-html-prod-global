@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Login / rejista",
+    "signOut": "Kubuda kunze",
+    "confirmContent": "Une chokwadi here kuti unoda kubuda?",
+    "confirmTitle": "zano",
+    "confirm": "Chokwadi",
+    "cancel": "Kanzura",
+    "signoutOk": "Kubuda kunze",
+    "loadingData": "Kuisa data yemushandisi"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Kamerinstellinge",
+    "tabs": {
+      "basic": "Basische umgevinge",
+      "permission": "Toestemmingsinstellinge",
+      "privacy": "Privacyinstellinge",
+      "member": "Lidbeheer"
+    },
+    "loadError": "Verwant tot laadkamer-instellinge",
+    "leaveRoom": {
+      "button": "Verdeil de kamer",
+      "confirm": "Zien jullie zeker dat u de kamer wilt verlaote? Nadat je verlaot, kin je neet doorgoon mèt boodsjappe vaan deze kamer.",
+      "success": "De kamer heet de kamer mèt succès geëxiteerd",
+      "error": "Probeer ‘t nog ‘ns weer"
+    }
+  }
+}

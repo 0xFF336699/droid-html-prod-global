@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Staðnavn",
+    "viewMap": "Sí kortið",
+    "close": "lukka"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Verandi kagari stuðlar ikki geolocation ognartøku .",
+    "getLocationFailed": "Um tú ikki hevur fingið staðsetingina, skalt tú ikki kanna loyvisinnstillingarnar",
+    "myLocation": "Mín staðseting",
+    "shareLocation": "Partabrævastað",
+    "getCurrentLocation": "Fá núverandi staðseting",
+    "title": "Staðnavn",
+    "description": "Nærri lýsing",
+    "descriptionPlaceholder": "Vinarliga skriva nærri lýsing (valfrítt)",
+    "preview": "Staðseting Undansýning",
+    "latitude": "breiddargráður",
+    "longitude": "longdin",
+    "cancel": "strika",
+    "send": "senda",
+    "permissionPrompt": "Vit mugu fáa tínar staðsetingarupplýsingar fyri at veita betri tænastur, er tað loyvt?",
+    "permissionDenied": "Seta loyvi er noktað, vinarliga virkja loyvisloyvi í tínum kagainnstillingum",
+    "locationTimeout": "Seta timeout, syrg fyri, at tólið verður tendrað og royn at endurnýggja",
+    "locationUnavailable": "Verandi staðseting kann ikki fáast, vinarliga kanna staðsetingartænastuna"
+  }
+}

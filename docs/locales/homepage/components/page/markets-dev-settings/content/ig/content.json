@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Nọrọ na",
+        "helperText": "Ọ bụrụ na ịpị na njikọ mbido, wee debe njikọ ahụ. Nke a chọrọ nlebara anya na a ga-agbagha njikọ njikọ ahụ mgbe ọ bụla.",
+        "retryCount": "Onu ogugu"
+      },
+      "url": {
+        "name": "Uwl",
+        "helperText": "ONTL, ka ọmụmaatụ WS: //192.168.0.2: 7001, ma ọ bụ wws: //example.com/path",
+        "error": "URL ziri ezi bụ URL na-amalite na WS: // ma ọ bụ wws: //"
+      }
+    },
+    "connectButton": {
+      "connect": "ijiko",
+      "disconnect": "Iwepu",
+      "status": {
+        "connecting": "Ijikọ ...",
+        "connected": "Jikọọ",
+        "disconnecting": "Izoputa ...",
+        "disconnected": "Ejikọghị",
+        "waitRetry": "Na-eche ndozi ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "edemede"
+  }
+}

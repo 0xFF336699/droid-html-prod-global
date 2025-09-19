@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Логин/регистратор",
+    "signOut": "Рацæуæн",
+    "confirmContent": "Дӕу ӕууӕндыс, дӕ кӕй фӕнды рацӕуын?",
+    "confirmTitle": "бакой",
+    "confirm": "Уæдæ",
+    "cancel": "аивын",
+    "signoutOk": "Рацæуæн",
+    "loadingData": "Пайдагæнæджы бæрæггæнæнтæ уæз кæнын ."
+  }
+}

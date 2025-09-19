@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Te faito ti'a e titauhia no te tono i te hoê poro'i",
+        "tooltip": "0, oia ho'i ïa, e nehenehe te mau melo atoa e tono i te mau poro'i, e te rahi a'e te numera, o te auraa ïa e, e titauhia te mau parau faati'a teitei"
+      },
+      "invite": {
+        "label": "Te faito o te mau melo apî e titauhia no te titau i te mau melo apî",
+        "tooltip": "A tavini i te mau melo apî i roto i te piha"
+      },
+      "kick": {
+        "label": "Hi'opo'a i te faito ti'amâraa e titauhia",
+        "tooltip": "Na vai e nehenehe e tairi i te mau melo o te piha"
+      },
+      "ban": {
+        "label": "Te faito o te mau melo e titauhia no te opani i te mau melo",
+        "tooltip": "A haamau i te piha o te piha"
+      },
+      "roomSettings": {
+        "label": "Hi'opo'a i te faito ti'a e titauhia no te mau faanahoraa o te piha",
+        "tooltip": "A haamau i te mau faanahoraa o te piha"
+      },
+      "submit": "A rave i te mau tauiraa"
+    },
+    "description": "Te faito o te faito: 0-100, te rahi a'e ïa te numera o te mau ti'amâraa teitei",
+    "toast": {
+      "success": "Ua faaapîhia te mau faanahoraa",
+      "error": "No te faaapî i te mau faanahoraa parau faati'a"
+    }
+  }
+}

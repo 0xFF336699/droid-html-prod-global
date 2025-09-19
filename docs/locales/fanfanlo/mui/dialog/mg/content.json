@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "hanafoana",
+    "confirm": "Azo antoka",
+    "title": "Soso-kevitra",
+    "content": "Azo antoka ve fa te hanao an'izany ianao?"
+  },
+  "EditableText": {
+    "cancel": "hanafoana",
+    "save": "afa-tsy",
+    "title": "Ovay"
+  }
+}

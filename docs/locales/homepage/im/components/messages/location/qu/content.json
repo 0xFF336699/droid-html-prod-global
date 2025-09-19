@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Ubicación suti .",
+    "viewMap": "Mapata qhaway .",
+    "close": "Wichqana ."
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Kunan maskaq mana geolocalización rantiyta yanapanchu .",
+    "getLocationFailed": "Mana maypi tiyayta tariyta atirqanchu, ama hina kaspa qhaway permiso churanakunata .",
+    "myLocation": "Ubicación .",
+    "shareLocation": "Maypi tarikusqanmanta rakinakuy .",
+    "getCurrentLocation": "Kunan maypi kasqanmanta yachay .",
+    "title": "Ubicación suti .",
+    "description": "Descripción detallada .",
+    "descriptionPlaceholder": "Ama hina kaspa, huk sut'i sut'inchayta qillqay (mana akllasqa) .",
+    "preview": "Ubicación Preview .",
+    "latitude": "Latitud .",
+    "longitude": "Longitud .",
+    "cancel": "Sayachiy",
+    "send": "apachiy",
+    "permissionPrompt": "Aswan allin yanapakuykunata qunapaq maypi kasqaykimanta willayta jap'inayku tiyan, ¿atisqachu?",
+    "permissionDenied": "Permisota churayqa mana qusqachu, ama hina kaspa atichiy permisota maskaqpa churanaykipi churay .",
+    "locationTimeout": "Tiempo de tiempo de posición, asegúrate de que el dispositivo está encendido y tratar de recontar .",
+    "locationUnavailable": "Kunan maypi kasqanqa manam tariyta atinchu, ama hina kaspa, Dispositivopa maypi kasqanmanta qawaykuy ."
+  }
+}

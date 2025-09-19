@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "Clàraich",
+    "phoneNumber": "Àireamh fòn",
+    "phoneNumberPlaceholder": "Cuir a-steach an àireamh fòn-làimhe agad",
+    "verificationCode": "Còd dearbhaidh",
+    "verificationCodePlaceholder": "Cuir a-steach an còd dearbhaidh",
+    "getVerificationCode": "Faigh an còd dearbhaidh",
+    "countdown": "{{diogan}} diogan gus feuchainn a-rithist",
+    "register": "Clàraich",
+    "errors": {
+      "phoneRequired": "Cuir a-steach an àireamh fòn-làimhe agad",
+      "phoneInvalid": "Tha an cruth àireamhan fòn-làimhe ceàrr",
+      "codeRequired": "Cuir a-steach an còd dearbhaidh",
+      "codeInvalid": "Tha an cruth còd dearbhaidh ceàrr",
+      "requestFailed": "Iarrtas air fàiligeadh",
+      "verificationFailed": "Dh'fhàillig togail còd dearbhaidh",
+      "loginFailed": "Dh'fhàillig logadh a-steach"
+    },
+    "success": {
+      "verificationCodeSent": "Chaidh còd dearbhaidh a chuir",
+      "registerSuccess": "Clàraichte gu soirbheachail"
+    }
+  }
+}

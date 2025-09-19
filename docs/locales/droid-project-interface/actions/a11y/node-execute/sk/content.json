@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Vykonávanie uzlov",
+    "changeBtnLabel": "nahradiť",
+    "showNodeAllProperties": "Zobraziť všetky vlastnosti",
+    "wait": {
+      "time": "Čakacia doba",
+      "interval": "Interval čakania",
+      "invisible": "Či zistiť prvky mimo obrazovky"
+    }
+  }
+}

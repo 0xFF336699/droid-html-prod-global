@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "연결 상태를 유지하십시오",
+        "helperText": "시작 링크를 클릭하면 링크를 유지하십시오. 이를 위해서는 연결이 끊어진 후 링크가 연속적으로 다시 연결되도록주의를 기울여야합니다.",
+        "retryCount": "재 연결 수"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "링크 URL, 예를 들어 ws : //192.168.0.2 : 7001 또는 wws : //example.com/path",
+        "error": "올바른 URL은 ws : // 또는 wws : //로 시작하는 URL입니다."
+      }
+    },
+    "connectButton": {
+      "connect": "연결하다",
+      "disconnect": "연결을 끊습니다",
+      "status": {
+        "connecting": "연결 ...",
+        "connected": "연결",
+        "disconnecting": "연결 해제 ...",
+        "disconnected": "연결되지 않았습니다",
+        "waitRetry": "다시 연결을 기다리고 ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "스크립트"
+  }
+}

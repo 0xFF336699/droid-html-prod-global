@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "рӯйхат",
+    "phoneNumber": "Рақами мобилӣ",
+    "phoneNumberPlaceholder": "Лутфан рақами телефони мобилии худро ворид кунед",
+    "verificationCode": "Рамзи озмоиш",
+    "verificationCodePlaceholder": "Лутфан рамзи тасдиқро ворид кунед",
+    "getVerificationCode": "Рамзи тасдиқро гиред",
+    "countdown": "{{сония}} сонияҳо барои санҷидани боз",
+    "register": "рӯйхат",
+    "errors": {
+      "phoneRequired": "Лутфан рақами телефони мобилии худро ворид кунед",
+      "phoneInvalid": "Формати рақами телефони мобилӣ нодуруст аст",
+      "codeRequired": "Лутфан рамзи тасдиқро ворид кунед",
+      "codeInvalid": "Формати тасдиқкунӣ нодуруст аст",
+      "requestFailed": "Дархост ноком шуд",
+      "verificationFailed": "Хариди рамзи тасдиқшуда ноком шуд",
+      "loginFailed": "талоши вуруд ноком шуд"
+    },
+    "success": {
+      "verificationCodeSent": "Рамзи санҷиш фиристода шуд",
+      "registerSuccess": "Бомуваффақият ба қайд гирифта шуд"
+    }
+  }
+}

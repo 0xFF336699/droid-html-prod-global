@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Milarian anggota"
+    },
+    "table": {
+      "columns": {
+        "name": "Ngaran anggota",
+        "userId": "ID Pangguna",
+        "actions": "beroperasi"
+      },
+      "pagination": {
+        "rowsPerPage": "Jumlah jajar per halaman"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Kick luar",
+        "ban": "Dilarang"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Konpirmasi anggota tajongan",
+        "content": "Naha anjeun badé nyepak anggota kaluar ti kamar?"
+      },
+      "ban": {
+        "title": "Pastikeun kaanggotaan anu dilarang",
+        "content": "Naha anjeun badé ngalarang anggota ieu? Anggota moal tiasa ngising kamar saatos larangan."
+      },
+      "buttons": {
+        "cancel": "Ngabatalkeun",
+        "confirm": "mastikeun"
+      }
+    },
+    "toast": {
+      "loadError": "Gagal pikeun daptar Anggota",
+      "kick": {
+        "success": "Anggota parantos ditajong kaluar ti kamar",
+        "error": "Najong anggota gagal"
+      },
+      "ban": {
+        "success": "Anggota diblokir",
+        "error": "Gagal blok"
+      }
+    },
+    "invite": {
+      "button": "Ngajak anggota",
+      "title": "Diondang anggota pikeun ngiluan kamar",
+      "inputLabel": "Punten lebetkeun ID pangguna Matrix (sapertos @user: matrix.org)",
+      "confirm": "ngajak",
+      "cancel": "Ngabatalkeun",
+      "loading": "Ngondang ...",
+      "success": "Undangan dikirim!",
+      "error": "Undangan gagal, punten parios ID pangguna atanapi ijin"
+    },
+    "empty": "Teu aya anggota",
+    "loading": "loading ...",
+    "role": {
+      "owner": "Anu gaduh bumi",
+      "admin": "kuncén",
+      "moderator": "Ko-manajemén",
+      "user": "anggota"
+    }
+  }
+}

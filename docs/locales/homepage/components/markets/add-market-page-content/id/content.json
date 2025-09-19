@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "Tambahkan ke pasar",
+    "url": "URL Pasar",
+    "summary": "Ringkasan Pasar",
+    "urlIsNotValid": "URL pasar yang salah"
+  }
+}

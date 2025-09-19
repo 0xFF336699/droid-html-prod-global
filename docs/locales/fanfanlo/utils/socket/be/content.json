@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Злучэнне ...",
+    "connected": "Злучаны",
+    "disconnecting": "Адключэнне ...",
+    "disconnected": "Не падключана",
+    "waitRetry": "Чакаем паўторнага злучэння ..."
+  }
+}

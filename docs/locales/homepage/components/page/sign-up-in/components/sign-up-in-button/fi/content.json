@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Kirjaudu sisään/rekisteröidy",
+    "signOut": "Kirjautua sisään",
+    "confirmContent": "Oletko varma, että haluat kirjautua ulos?",
+    "confirmTitle": "vihje",
+    "confirm": "Varma",
+    "cancel": "Peruuttaa",
+    "signoutOk": "Kirjautua sisään",
+    "loadingData": "Käyttäjätietojen lataaminen"
+  }
+}

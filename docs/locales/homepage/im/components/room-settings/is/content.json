@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Herbergisstillingar",
+    "tabs": {
+      "basic": "Grunnstillingar",
+      "permission": "Leyfisstillingar",
+      "privacy": "Persónuverndarstillingar",
+      "member": "Stjórnun meðlima"
+    },
+    "loadError": "Ekki tókst að hlaða herbergi stillingar",
+    "leaveRoom": {
+      "button": "Farðu út í herbergið",
+      "confirm": "Ertu viss um að þú viljir fara út úr herberginu? Eftir að þú hefur lokað muntu ekki geta haldið áfram að fá skilaboð frá þessu herbergi.",
+      "success": "Fór út úr herberginu með góðum árangri",
+      "error": "Ekki tókst að fara út úr herberginu, reyndu aftur"
+    }
+  }
+}

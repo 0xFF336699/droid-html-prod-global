@@ -1,0 +1,7 @@
+{
+  "RoomContentV2": {
+    "waitingForLogin": "Kirjaudu sisään ensin",
+    "loadingRoomInfo": "Huoneiden lataaminen ...",
+    "roomNotFound": "Huonetta ei löytynyt"
+  }
+}

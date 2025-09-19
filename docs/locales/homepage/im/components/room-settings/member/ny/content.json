@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Sakani mamembala"
+    },
+    "table": {
+      "columns": {
+        "name": "Dzina la mamembala",
+        "userId": "Dzina Lolowera",
+        "actions": "chita opalesheni"
+      },
+      "pagination": {
+        "rowsPerPage": "Chiwerengero cha mizere pa tsamba"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Thamangitsa",
+        "ban": "Oletsedwa"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Tsimikizani membala wotsatsa",
+        "content": "Mukutsimikiza kuti mukufuna kukankha membala kuchokera m'chipindacho?"
+      },
+      "ban": {
+        "title": "Tsimikizani umembala woletsedwa",
+        "content": "Mukutsimikiza kuti mukufuna kuletsa membala? Membala sangathe kukonzedwa m'chipindacho chikale."
+      },
+      "buttons": {
+        "cancel": "Siya",
+        "confirm": "vomereza"
+      }
+    },
+    "toast": {
+      "loadError": "Talephera kuyika mndandanda wa mamembala",
+      "kick": {
+        "success": "Mamembala achotsedwa m'chipindacho",
+        "error": "Kukankha mamembala olephera"
+      },
+      "ban": {
+        "success": "Mamembala oletsedwa",
+        "error": "Talephera kuletsa mamembala"
+      }
+    },
+    "invite": {
+      "button": "Pemphani mamembala",
+      "title": "Pemphani mamembala kuti alowe m'chipindacho",
+      "inputLabel": "Chonde lowetsani ID ya Matrix (monga @ oser: Matrix.org)",
+      "confirm": "itana",
+      "cancel": "Siya",
+      "loading": "Kuyitanira ...",
+      "success": "Chiyembekezo Chotumizidwa!",
+      "error": "Pempho lalephera, chonde onani ID kapena chilolezo"
+    },
+    "empty": "Palibe membala",
+    "loading": "Kutsegula ...",
+    "role": {
+      "owner": "Mwininyumba",
+      "admin": "mulangizi",
+      "moderator": "Gulu",
+      "user": "membala"
+    }
+  }
+}

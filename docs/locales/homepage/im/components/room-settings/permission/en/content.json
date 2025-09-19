@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "The permission level required to send a message",
+        "tooltip": "0 means that all members can send messages, and the larger the number means that higher permissions are required"
+      },
+      "invite": {
+        "label": "Permission level required to invite new members",
+        "tooltip": "Set who can invite new members to the room"
+      },
+      "kick": {
+        "label": "Kick out the required permission level",
+        "tooltip": "Set who can kick out the room members"
+      },
+      "ban": {
+        "label": "Permission level required for blocking members",
+        "tooltip": "Set who can block room members"
+      },
+      "roomSettings": {
+        "label": "Modify the required permission level of room settings",
+        "tooltip": "Set who can modify the room settings"
+      },
+      "submit": "Save permission settings"
+    },
+    "description": "Permission level range: 0-100, the larger the number means higher permissions are required",
+    "toast": {
+      "success": "Permission settings have been updated",
+      "error": "Failed to update permission settings"
+    }
+  }
+}

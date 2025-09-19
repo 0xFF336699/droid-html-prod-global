@@ -1,0 +1,9 @@
+{
+  "MemberDetailContent": {
+    "title": "Dettalji tal-Membri",
+    "nickname": "Isem Nick",
+    "role": "Rwol",
+    "kick": "Kick out",
+    "ban": "Projbiti"
+  }
+}

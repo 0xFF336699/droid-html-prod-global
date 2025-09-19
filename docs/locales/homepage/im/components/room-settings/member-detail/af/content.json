@@ -1,0 +1,9 @@
+{
+  "MemberDetailContent": {
+    "title": "Lidbesonderhede",
+    "nickname": "Nick naam",
+    "role": "Rol",
+    "kick": "Skop",
+    "ban": "Verban"
+  }
+}

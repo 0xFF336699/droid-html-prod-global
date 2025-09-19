@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Ajustes de habitación .",
+    "tabs": {
+      "basic": "Ajustes básicos .",
+      "permission": "Permiso churanakuna .",
+      "privacy": "Sapaqchasqa Ajustes .",
+      "member": "Miembros nisqa kamachiy ."
+    },
+    "loadError": "Mana atirqanchu cuarto churanakunata kargayta .",
+    "leaveRoom": {
+      "button": "Salida de la habitación .",
+      "confirm": "¿Segurochu kanki chay cuartomanta lloqsiyta munasqaykita? Lloqsisqayki qhepamanmi mana kay cuartomanta willakuykunata chaskiyta atiwaqchu.",
+      "success": "Allin cuartomanta lluqsirqa .",
+      "error": "Mana atirqanchu cuartomanta lluqsiyta, ama hina kaspa hukmanta kallpachakuy ."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL -patroon",
+    "full": {
+      "url": "Mark -url. Die ingevoerde karakters sal as URL's gelaai word, wees versigtig.",
+      "html": "Mark HTML -inhoud. Die ingevoerde karakters sal onmiddellik as skrifte uitgevoer word, wees versigtig.",
+      "come": "Kom na myne",
+      "myMarketName": "Marknaam",
+      "stroll": "Kom ons stap"
+    },
+    "item": {
+      "url": "Markkaart URL. Die ingevoerde karakters sal as URL's gelaai word, wees versigtig.",
+      "html": "Mark HTML -inhoud. Die ingevoerde karakters sal onmiddellik as skrifte uitgevoer word, wees versigtig.",
+      "come": "Kom na myne",
+      "myMarketName": "Marknaam",
+      "stroll": "Kom ons stap"
+    }
+  }
+}

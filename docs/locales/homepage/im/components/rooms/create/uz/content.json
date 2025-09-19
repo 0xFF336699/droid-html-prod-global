@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Xonani yarating"
+    },
+    "dialog": {
+      "title": "Yangi xona yarating",
+      "form": {
+        "userId": {
+          "label": "Foydalanuvchi IDsi",
+          "placeholder": "Foydalanuvchi identifikatorini kiriting (masalan: @USER: misol.com)",
+          "error": {
+            "required": "Foydalanuvchi idishi bo'sh bo'lolmaydi",
+            "invalid": "Foydalanuvchi identifikatori noto'g'ri"
+          }
+        },
+        "roomName": {
+          "label": "Xona nomi (ixtiyoriy)",
+          "placeholder": "Xona nomini kiriting"
+        },
+        "isEncrypted": {
+          "label": "End-ni oxirigacha shifrlashni yoqing"
+        },
+        "isDirect": {
+          "label": "To'g'ridan-to'g'ri xabar"
+        },
+        "topic": {
+          "label": "Mavzu (ixtiyoriy)",
+          "placeholder": "Xonaning mavzusini kiriting"
+        }
+      },
+      "actions": {
+        "cancel": "Bekor qilmoq",
+        "create": "yaratmoq"
+      },
+      "success": "Xona yaratish muvaffaqiyatli",
+      "error": "Xonani yaratishda xatolik yuz berdi: {Xato}"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Mepụta ụlọ"
+    },
+    "dialog": {
+      "title": "Mepụta ime ụlọ ọhụrụ",
+      "form": {
+        "userId": {
+          "label": "Njirimara Onye Ọrụ",
+          "placeholder": "Tinye NJ onye ọrụ (dịka ọmụmaatụ: @uster: Ihe atụ)",
+          "error": {
+            "required": "Njirimara onye ọrụ agaghị abụ ihe efu",
+            "invalid": "Usoro ID dị iche"
+          }
+        },
+        "roomName": {
+          "label": "Aha ụlọ (nhọrọ)",
+          "placeholder": "Tinye aha ụlọ"
+        },
+        "isEncrypted": {
+          "label": "Kwado en -е na-ezo aka na njedebe"
+        },
+        "isDirect": {
+          "label": "Ozi Direct"
+        },
+        "topic": {
+          "label": "Okwu (nhọrọ)",
+          "placeholder": "Tinye isiokwu ụlọ"
+        }
+      },
+      "actions": {
+        "cancel": "Ikansulu",
+        "create": "ike"
+      },
+      "success": "Ime Ime Ihe nke Ọma",
+      "error": "Njehie mere mgbe ị na-eke ụlọ: {njehie}"
+    }
+  }
+}

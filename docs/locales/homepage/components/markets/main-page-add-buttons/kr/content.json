@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Nzəra",
+    "sub": {
+      "addScriptByUrl": "Ruwowa URL men yira",
+      "addScriptByText": "Ruwowa suro ruwoben yira",
+      "addMarket": "Kasuwu URL men yira",
+      "addMarketByText": "Kasuwu yira ruwomen"
+    }
+  }
+}

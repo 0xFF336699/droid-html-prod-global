@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Đăng nhập/Đăng ký",
+    "signOut": "Đăng xuất",
+    "confirmContent": "Bạn có chắc là bạn muốn đăng xuất?",
+    "confirmTitle": "gợi ý",
+    "confirm": "Chắc chắn",
+    "cancel": "Hủy bỏ",
+    "signoutOk": "Đăng xuất",
+    "loadingData": "Tải dữ liệu người dùng"
+  }
+}

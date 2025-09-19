@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Sala publica",
+        "description": "Las salas publicas pòdon èsser cercadas per d'autres utilizaires ."
+      },
+      "allowGuestJoin": {
+        "label": "Permetre als visitors de se jonher",
+        "description": "Permetre als utilizaires non inscriches de se jonher a la sala coma convidat ."
+      },
+      "isEncrypted": {
+        "label": "Activar lo chiframent de punta a punta",
+        "description": "Quand es activat, los messatges dins la sala seràn chifrats de punta a punta .",
+        "alert": "Lo chiframent d'extrèm a punta es activat dins la sala, e aqueste paramètre pòt pas èsser apagat."
+      },
+      "submit": "Enregistrar los paramètres de confidencialitat"
+    },
+    "toast": {
+      "success": "Los paramètres de privacitat son estats actualizats",
+      "error": "Fracassat per actualizar los paramètres de confidencialitat"
+    }
+  }
+}

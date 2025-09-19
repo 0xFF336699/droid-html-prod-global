@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Fittex għall-membri"
+    },
+    "table": {
+      "columns": {
+        "name": "Isem tal-Membru",
+        "userId": "Utent ID",
+        "actions": "topera"
+      },
+      "pagination": {
+        "rowsPerPage": "Numru ta 'ringieli għal kull paġna"
+      },
+      "avatar": {
+        "alt": "Avatar"
+      },
+      "actions": {
+        "kick": "Kick out",
+        "ban": "Projbiti"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Ikkonferma lill-membru tal-kicking",
+        "content": "Int żgur li trid tagħti lill-membru mill-kamra?"
+      },
+      "ban": {
+        "title": "Ikkonferma s-sħubija pprojbita",
+        "content": "Int żgur li trid tipprojbixxi lil dan il-membru? Il-membru mhux se jkun jista 'jerġa' jingħaqad mal-kamra wara l-projbizzjoni."
+      },
+      "buttons": {
+        "cancel": "Ikkanċella",
+        "confirm": "Ikkonferma"
+      }
+    },
+    "toast": {
+      "loadError": "Naqas milli jgħabbi l-lista tal-membri",
+      "kick": {
+        "success": "Il-membri ġew imkeċċija mill-kamra",
+        "error": "Il-membri li joħorġu"
+      },
+      "ban": {
+        "success": "Membri imblukkati",
+        "error": "Naqas milli jimblokka l-membri"
+      }
+    },
+    "invite": {
+      "button": "Tistieden lill-membri",
+      "title": "Tistieden lill-membri biex jingħaqdu fil-kamra",
+      "inputLabel": "Jekk jogħġbok daħħal l-ID tal-Utent Matrix (bħal @user: matrix.org)",
+      "confirm": "tistieden",
+      "cancel": "Ikkanċella",
+      "loading": "Tistieden ...",
+      "success": "Stedina mibgħuta!",
+      "error": "Stedina falliet, jekk jogħġbok iċċekkja l-ID tal-Utent jew il-Permessi"
+    },
+    "empty": "L-ebda membru għadu",
+    "loading": "Tagħbija ...",
+    "role": {
+      "owner": "Sid id-dar",
+      "admin": "amministratur",
+      "moderator": "Ko-Ġestjoni",
+      "user": "membru"
+    }
+  }
+}

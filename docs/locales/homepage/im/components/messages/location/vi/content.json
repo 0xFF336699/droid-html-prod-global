@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Tên vị trí",
+    "viewMap": "Xem bản đồ",
+    "close": "Đóng cửa"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Trình duyệt hiện tại không hỗ trợ mua lại địa lý",
+    "getLocationFailed": "Không lấy được vị trí, vui lòng kiểm tra cài đặt quyền",
+    "myLocation": "Vị trí của tôi",
+    "shareLocation": "Vị trí chia sẻ",
+    "getCurrentLocation": "Nhận vị trí hiện tại",
+    "title": "Tên vị trí",
+    "description": "Mô tả chi tiết",
+    "descriptionPlaceholder": "Vui lòng nhập một mô tả chi tiết (tùy chọn)",
+    "preview": "Xem trước vị trí",
+    "latitude": "vĩ độ",
+    "longitude": "kinh độ",
+    "cancel": "Hủy bỏ",
+    "send": "gửi",
+    "permissionPrompt": "Chúng tôi cần có được thông tin vị trí của bạn để cung cấp dịch vụ tốt hơn, nó có được phép không?",
+    "permissionDenied": "Quyền định vị bị từ chối, vui lòng cho phép quyền định vị trong cài đặt trình duyệt của bạn",
+    "locationTimeout": "Thời gian chờ định vị, đảm bảo thiết bị được bật và cố gắng làm lại",
+    "locationUnavailable": "Không thể lấy được vị trí hiện tại, vui lòng kiểm tra dịch vụ vị trí thiết bị"
+  }
+}

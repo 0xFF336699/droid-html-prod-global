@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Mga setting ng silid",
+    "tabs": {
+      "basic": "Pangunahing Mga Setting",
+      "permission": "Mga Setting ng Pahintulot",
+      "privacy": "Mga setting ng privacy",
+      "member": "Pamamahala ng miyembro"
+    },
+    "loadError": "Nabigong mag -load ng mga setting ng silid",
+    "leaveRoom": {
+      "button": "Lumabas sa silid",
+      "confirm": "Sigurado ka bang nais mong lumabas sa silid? Matapos kang lumabas, hindi ka na makapagpapatuloy sa pagtanggap ng mga mensahe mula sa silid na ito.",
+      "success": "Matagumpay na lumabas ang silid",
+      "error": "Nabigong lumabas sa silid, mangyaring subukang muli"
+    }
+  }
+}

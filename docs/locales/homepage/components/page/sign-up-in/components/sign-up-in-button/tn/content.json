@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Tsena/Ikwadise",
+    "signOut": "Tswala",
+    "confirmContent": "A o tlhomamisegile gore o batla go tswa?",
+    "confirmTitle": "maele",
+    "confirm": "Tlhomama",
+    "cancel": "Phimola",
+    "signoutOk": "Tswala",
+    "loadingData": "Go pega tshedimosetso ya modirisi"
+  }
+}

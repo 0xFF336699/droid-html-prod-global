@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Zoek naar leden"
+    },
+    "table": {
+      "columns": {
+        "name": "Lidnaam",
+        "userId": "Gebruikers -ID",
+        "actions": "werken"
+      },
+      "pagination": {
+        "rowsPerPage": "Aantal rijen per pagina"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Uitkoppen",
+        "ban": "Verboden"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Bevestig het schoppende lid",
+        "content": "Weet je zeker dat je het lid de kamer uit wilt schoppen?"
+      },
+      "ban": {
+        "title": "Bevestig het verboden lidmaatschap",
+        "content": "Weet u zeker dat u dit lid wilt verbieden? Het lid zal na het verbod niet weer bij de kamer kunnen komen."
+      },
+      "buttons": {
+        "cancel": "Annuleren",
+        "confirm": "bevestigen"
+      }
+    },
+    "toast": {
+      "loadError": "Kan de ledenlijst niet laden",
+      "kick": {
+        "success": "Leden zijn de kamer uit geschopt",
+        "error": "Leden uitkoppen zijn mislukt"
+      },
+      "ban": {
+        "success": "Leden geblokkeerd",
+        "error": "Kan leden niet blokkeren"
+      }
+    },
+    "invite": {
+      "button": "Nodig leden uit",
+      "title": "Nodig leden uit om lid te worden van de kamer",
+      "inputLabel": "Voer de Matrix -gebruikers -ID in (zoals @User: Matrix.org)",
+      "confirm": "uitnodiging",
+      "cancel": "Annuleren",
+      "loading": "Uitnodigend ...",
+      "success": "Uitnodiging verzonden!",
+      "error": "Uitnodiging mislukt, controleer de gebruikers -ID of machtigingen"
+    },
+    "empty": "Nog geen lid",
+    "loading": "Laden ...",
+    "role": {
+      "owner": "Huiseigenaar",
+      "admin": "beheerder",
+      "moderator": "Co-management",
+      "user": "lid"
+    }
+  }
+}

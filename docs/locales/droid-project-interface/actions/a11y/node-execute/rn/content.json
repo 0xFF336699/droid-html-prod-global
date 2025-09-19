@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Ikete",
+    "changeBtnLabel": "gusubiriza",
+    "showNodeAllProperties": "Erekana ibintu vyose",
+    "wait": {
+      "time": "Kurindira",
+      "interval": "Igihe co kurindira",
+      "invisible": "Yaba kumenya ibintu biri hanze y'ibarabara"
+    }
+  }
+}

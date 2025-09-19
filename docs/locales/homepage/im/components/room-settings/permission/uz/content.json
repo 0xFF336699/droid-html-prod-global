@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Xabar yuborish uchun ruxsat berish darajasi",
+        "tooltip": "0 degani, barcha a'zolar xabarlarni yuborishlari mumkin va kattaroq raqam yuqori ruxsatnomalar talab qilinishini anglatadi"
+      },
+      "invite": {
+        "label": "Yangi a'zolarni taklif qilish uchun zarur bo'lgan ruxsat darajasi",
+        "tooltip": "Uyga yangi a'zolarni xonaga taklif qilishi mumkin"
+      },
+      "kick": {
+        "label": "Kerakli ruxsat darajasini oshiring",
+        "tooltip": "Xonaning a'zolarini kim engish mumkin"
+      },
+      "ban": {
+        "label": "Bloklash uchun talab qilinadigan ruxsat darajasi",
+        "tooltip": "Xonaning a'zolarini kim to'sib qo'yishi mumkin"
+      },
+      "roomSettings": {
+        "label": "Xonani sozlamalari uchun kerakli ruxsat darajasini o'zgartirish",
+        "tooltip": "Uy sharoitlarini kim o'zgartira oladigan to'plam"
+      },
+      "submit": "Ruxsatnoma sozlamalarini saqlang"
+    },
+    "description": "Ruxsat berish darajasi: 0-100, raqam yuqori darajadagi ruxsatnomalarni anglatadi",
+    "toast": {
+      "success": "Ruxsat sozlamalari yangilandi",
+      "error": "Ruxsatnoma sozlamalarini yangilay olmadi"
+    }
+  }
+}

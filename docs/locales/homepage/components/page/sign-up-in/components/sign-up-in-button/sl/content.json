@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Prijava/registrirajte",
+    "signOut": "Odjava se",
+    "confirmContent": "Ste prepričani, da se želite odjaviti?",
+    "confirmTitle": "namig",
+    "confirm": "Zagotovo",
+    "cancel": "Odpovedati",
+    "signoutOk": "Odjava se",
+    "loadingData": "Nalaganje uporabniških podatkov"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "পঞ্জীয়ন কৰা",
+    "phoneNumber": "ফোন নম্বৰ",
+    "phoneNumberPlaceholder": "অনুগ্ৰহ কৰি আপোনাৰ মোবাইল ফোন নম্বৰ দিয়ক",
+    "verificationCode": "ভেৰিফিকেচন ক'ড",
+    "verificationCodePlaceholder": "অনুগ্ৰহ কৰি ভেৰিফিকেচন ক'ড দিয়ক",
+    "getVerificationCode": "ভেৰিফিকেচন ক'ড পাওক",
+    "countdown": "{{seconds}} ছেকেণ্ড পুনৰ চেষ্টা কৰিবলৈ",
+    "register": "পঞ্জীয়ন কৰা",
+    "errors": {
+      "phoneRequired": "অনুগ্ৰহ কৰি আপোনাৰ মোবাইল ফোন নম্বৰ দিয়ক",
+      "phoneInvalid": "মোবাইল ফোন নম্বৰৰ ফৰ্মেট ভুল ৷",
+      "codeRequired": "অনুগ্ৰহ কৰি ভেৰিফিকেচন ক'ড দিয়ক",
+      "codeInvalid": "ভেৰিফিকেচন ক'ড ফৰ্মেট ভুল",
+      "requestFailed": "অনুৰোধ ব্যৰ্থ",
+      "verificationFailed": "ভেৰিফিকেচন ক'ড অধিগ্ৰহণ ব্যৰ্থ",
+      "loginFailed": "প্ৰৱেশ ব্যৰ্থ"
+    },
+    "success": {
+      "verificationCodeSent": "ভেৰিফিকেচন ক'ড প্ৰেৰণ কৰা হৈছে",
+      "registerSuccess": "সফলতাৰে পঞ্জীয়ন কৰা হৈছে"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Kokapen izena",
+    "viewMap": "Ikusi mapa",
+    "close": "itxiera"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Uneko arakatzaileak ez du geolokalizaziorako erosketa onartzen",
+    "getLocationFailed": "Huts egin du kokapena lortzean, egiaztatu baimen-ezarpenak",
+    "myLocation": "Nire kokapena",
+    "shareLocation": "Kokapena partekatu",
+    "getCurrentLocation": "Lortu uneko kokapena",
+    "title": "Kokapen izena",
+    "description": "Deskribapen zehatza",
+    "descriptionPlaceholder": "Mesedez, idatzi deskribapen zehatza (aukerakoa)",
+    "preview": "Kokapenaren aurrebista",
+    "latitude": "latitude",
+    "longitude": "luzera",
+    "cancel": "Indargabetu",
+    "send": "bidali",
+    "permissionPrompt": "Zerbitzu hobeak emateko zure kokapenari buruzko informazioa lortu behar dugu, onartzen al da?",
+    "permissionDenied": "Kokapen baimena ukatzen da, aktibatu posizionamendu baimena zure arakatzailearen ezarpenetan",
+    "locationTimeout": "Kokapen-denbora, ziurtatu gailua aktibatuta dagoela eta saiatu saiatzea",
+    "locationUnavailable": "Uneko kokapena ezin da lortu, mesedez, egiaztatu gailuaren kokapen zerbitzua"
+  }
+}

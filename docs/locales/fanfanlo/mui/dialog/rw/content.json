@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Guhagarika",
+    "confirm": "Rwose",
+    "title": "igitekerezo",
+    "content": "Uzi neza ko ushaka gukora ibi?"
+  },
+  "EditableText": {
+    "cancel": "Guhagarika",
+    "save": "Kubika",
+    "title": "Hindura"
+  }
+}

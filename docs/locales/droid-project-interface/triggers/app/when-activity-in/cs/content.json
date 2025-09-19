@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Při zadávání zadané stránky",
+    "pnLabel": "Název balíčku:",
+    "anLabel": "Název aktivity:",
+    "cnLabel": "Název třídy:",
+    "changeBtnLabel": "nahradit"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Při zadávání zadané stránky",
+    "pnLabel": "Název balíčku:",
+    "anLabel": "Název aktivity:",
+    "cnLabel": "Název třídy:",
+    "changeBtnLabel": "nahradit"
+  }
+}

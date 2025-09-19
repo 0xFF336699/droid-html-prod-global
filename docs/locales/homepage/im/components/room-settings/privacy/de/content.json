@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Öffentliches Zimmer",
+        "description": "Öffentliche Räume können von anderen Benutzern durchsucht werden"
+      },
+      "allowGuestJoin": {
+        "label": "Erlauben Sie den Besuchern, sich anzuschließen",
+        "description": "Ermöglichen Sie nicht registrierte Benutzer, sich dem Raum als Gast anzuschließen"
+      },
+      "isEncrypted": {
+        "label": "Aktivieren Sie die End-to-End-Verschlüsselung",
+        "description": "Wenn es aktiviert ist, werden Nachrichten im Raum End-to-End verschlüsselt",
+        "alert": "Die End-to-End-Verschlüsselung ist im Raum aktiviert, und diese Einstellung kann nicht ausgeschaltet werden."
+      },
+      "submit": "Datenschutzeinstellungen speichern"
+    },
+    "toast": {
+      "success": "Die Datenschutzeinstellungen wurden aktualisiert",
+      "error": "Die Datenschutzeinstellungen nicht aktualisieren"
+    }
+  }
+}

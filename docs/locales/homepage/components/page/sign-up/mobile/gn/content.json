@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "Ñemboheraguapy",
+    "phoneNumber": "Teléfono número .",
+    "phoneNumberPlaceholder": "Emoinge nde teléfono móvil número .",
+    "verificationCode": "Código de verificación rehegua .",
+    "verificationCodePlaceholder": "Emoinge pe código verificación rehegua .",
+    "getVerificationCode": "Ojehupyty pe código verificación rehegua .",
+    "countdown": "{{segundos}} Segundos oñeha'ã jey haguã .",
+    "register": "Ñemboheraguapy",
+    "errors": {
+      "phoneRequired": "Emoinge nde teléfono móvil número .",
+      "phoneInvalid": "Pe formato número de teléfono móvil rehegua naiporãi .",
+      "codeRequired": "Emoinge pe código verificación rehegua .",
+      "codeInvalid": "Pe formato código verificación rehegua naiporãi .",
+      "requestFailed": "Ojerure’ỹva’ekue .",
+      "verificationFailed": "Adquisición Código de Verificación rehegua ndoikói .",
+      "loginFailed": "Oike ndoikóiva ."
+    },
+    "success": {
+      "verificationCodeSent": "Oñemondóma código de verificación .",
+      "registerSuccess": "Ojeregistra porã ."
+    }
+  }
+}

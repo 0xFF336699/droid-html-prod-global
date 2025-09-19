@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Mipangilio ya Chumba",
+    "tabs": {
+      "basic": "Mipangilio ya kimsingi",
+      "permission": "Mipangilio ya ruhusa",
+      "privacy": "Mipangilio ya faragha",
+      "member": "Usimamizi wa Mwanachama"
+    },
+    "loadError": "Imeshindwa kupakia mipangilio ya chumba",
+    "leaveRoom": {
+      "button": "Toka kwenye chumba",
+      "confirm": "Je! Una uhakika unataka kutoka kwenye chumba? Baada ya kutoka, hautaweza kuendelea kupokea ujumbe kutoka kwa chumba hiki.",
+      "success": "Alitoka kwenye chumba kwa mafanikio",
+      "error": "Imeshindwa kutoka kwenye chumba, tafadhali jaribu tena"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "So tɔgɔ ."
+      },
+      "topic": {
+        "label": "Sow daminɛcogo ."
+      },
+      "avatar": {
+        "alt": "So avatar ."
+      },
+      "submit": "Settings Save ."
+    },
+    "toast": {
+      "success": "Settings kura .",
+      "error": {
+        "default": "Update Settings dɛsɛra .",
+        "avatar": "A ma se ka Avatar kura ."
+      }
+    }
+  }
+}

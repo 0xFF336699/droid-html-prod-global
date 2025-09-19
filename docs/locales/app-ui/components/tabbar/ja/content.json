@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "フロントページ",
+    "me": "私の",
+    "settings": "設定",
+    "script": "スクリプト",
+    "store": "市場",
+    "market": "市場",
+    "create": "作成する"
+  },
+  "tabbar": {
+    "test": "下のメニューバー"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Die Berechtigungsstufe, die erforderlich ist, um eine Nachricht zu senden",
+        "tooltip": "0 bedeutet, dass alle Mitglieder Nachrichten senden können, und je größer die Anzahl bedeutet, dass höhere Berechtigungen erforderlich sind"
+      },
+      "invite": {
+        "label": "Erlaubnisstufe erforderlich, um neue Mitglieder einzuladen",
+        "tooltip": "Stellen Sie fest, wer neue Mitglieder in den Raum einladen kann"
+      },
+      "kick": {
+        "label": "Klopfen Sie das erforderliche Berechtigungsniveau aus",
+        "tooltip": "Stellen Sie fest, wer die Raummitglieder rausschmeißen kann"
+      },
+      "ban": {
+        "label": "Berechtigungsstufe, die für die Blockierung von Mitgliedern erforderlich ist",
+        "tooltip": "Stellen Sie fest, wer die Mitglieder des Zimmers blockieren kann"
+      },
+      "roomSettings": {
+        "label": "Ändern Sie die erforderliche Berechtigungsstufe der Raumeinstellungen",
+        "tooltip": "Stellen Sie fest, wer die Raumeinstellungen ändern kann"
+      },
+      "submit": "Berechtigungseinstellungen speichern"
+    },
+    "description": "Berechtigungsstufebereich: 0-100, desto größer bedeutet die Zahl höhere Berechtigungen erforderlich",
+    "toast": {
+      "success": "Die Berechtigungseinstellungen wurden aktualisiert",
+      "error": "Die Einstellungen für die Berechtigungseinstellungen nicht aktualisieren"
+    }
+  }
+}

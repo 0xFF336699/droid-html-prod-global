@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Étant donné que cette application s'applique à un grand nombre d'autorisations sur votre téléphone mobile, de nombreuses autorisations sont extrêmement risquées, alors ne les importez pas ou ne les exécutez pas sans connaître clairement les risques du marché ou du script. Une fois que vous avez saisi le contenu dans la zone de texte \"Market Card Introduction\" ou \"Page Web indépendante du marché\" ci-dessous, le contenu sera exécuté immédiatement sous forme de code. Soyez prudent.",
+    "setNewMarket": "Mettre en place un nouveau marché",
+    "settingPreview": "Aperçu des paramètres",
+    "marketName": "Nom de marché",
+    "marketSummary": "Introduction du marché",
+    "marketDescription": "Introduction du marché",
+    "itemMarket": "Introduction de la carte de marché",
+    "fullMarket": "Page Web indépendante du marché",
+    "marketCardPreview": "Aperçu de la carte de marché",
+    "marketFullPreview": "Aperçu de la page Web indépendante du marché",
+    "isNotSet": "Pas réglé"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Midira ao amin'ny efitrano",
+      "inviteOnly": "Efitrano tsy miankina izany ary mitaky fanasana hiditra",
+      "knockRequired": "Ity efitrano ity dia mitaky fangatahana hiditra. Kitiho ny bokotra eto ambany mba handefasana ny fangatahana",
+      "canJoin": "Efitrano besinimaro ity, afaka miditra mivantana ianao",
+      "sendRequest": "Mandefasa fangatahana amin'ny fangatahana",
+      "join": "Midira ao amin'ny efitrano"
+    },
+    "JoinRequestList": {
+      "noRequests": "Tsy mbola misy fangatahana",
+      "accept": "MANAIKY",
+      "reject": "TSY NANAIKY"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Ampidiro hafatra ..."
+  },
+  "MessageList": {
+    "noMessages": "Tsy misy hafatra na izany aza, alefaso ny hafatra voalohany hanombohana ny resaka!",
+    "loading": "Loading ...",
+    "error": {
+      "loadFailed": "Tsy nahavita nampiditra ny hafatra",
+      "retry": "Andramo indray mandeha"
+    },
+    "loadingHistory": "Loading History ...",
+    "historyEnd": "Tonga ny vaovao voalohany"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Tsy misy hafatra na izany aza, alefaso ny hafatra voalohany hanombohana ny resaka!"
+  },
+  "RoomContent": {
+    "title": "efitra"
+  },
+  "RoomHeader": {
+    "title": "efitra",
+    "unnamedRoom": "Efitra tsy fantatra",
+    "members": "FIANGONANA",
+    "settings": "hametraka",
+    "leaveRoom": "Avelao ny efitrano",
+    "joinRoom": "Midira ao amin'ny efitrano"
+  },
+  "RoomMembers": {
+    "title": "Mpikambana ao amin'ny efitrano",
+    "online": "-tserasera",
+    "offline": "ivelan'ny aterineto",
+    "join": "Midira ao",
+    "invite": "Asao",
+    "leave": "fialan-tsasatra",
+    "ban": "voarara",
+    "noMembers": "Tsy misy mpikambana",
+    "loading": "Loading ..."
+  }
+}

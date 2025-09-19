@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Giriş / Qeydiyyat",
+    "signOut": "Çıxmaq",
+    "confirmContent": "Giriş etmək istədiyinizə əminsiniz?",
+    "confirmTitle": "işarə",
+    "confirm": "Əlimdən gəlmək",
+    "cancel": "Ləğv etmək",
+    "signoutOk": "Çıxmaq",
+    "loadingData": "İstifadəçi məlumatlarını yükləmək"
+  }
+}

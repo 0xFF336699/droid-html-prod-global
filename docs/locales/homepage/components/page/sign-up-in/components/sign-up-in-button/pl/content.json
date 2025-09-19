@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Zaloguj się/rejestracja",
+    "signOut": "Wyloguj się",
+    "confirmContent": "Czy na pewno chcesz się wylogować?",
+    "confirmTitle": "wskazówka",
+    "confirm": "Jasne",
+    "cancel": "Anulować",
+    "signoutOk": "Wyloguj się",
+    "loadingData": "Ładowanie danych użytkownika"
+  }
+}

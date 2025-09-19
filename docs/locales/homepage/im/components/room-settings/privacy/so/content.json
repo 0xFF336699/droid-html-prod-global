@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Qolka dadweynaha",
+        "description": "Qolalka dadweynaha waxaa lagu baari karaa isticmaaleyaasha kale"
+      },
+      "allowGuestJoin": {
+        "label": "U oggolow booqdeyaasha inay ku biiraan",
+        "description": "U oggolow isticmaaleyaasha aan diiwaangashanayn inay ku biiraan qolka marti ahaan"
+      },
+      "isEncrypted": {
+        "label": "Awood u yeelo dhamaadka dhamaadka-dhamaadka-dhamaadka",
+        "description": "Marka la eego, farriimaha qolka ayaa laga yaabaa in lagu soo afjaro dhamaadka-dhamaadka",
+        "alert": "Encry-dhamaadka-dhamaadka-ilaa-dhamaadka ayaa lagu dhaqaajiyaa qolka, goobtanina lama dami karo."
+      },
+      "submit": "Badbaadi goobaha asturnaanta"
+    },
+    "toast": {
+      "success": "Meelaha asturnaanta ayaa la cusbooneysiiyay",
+      "error": "Ku guuldaraystay cusboonaysiinta dejinta asturnaanta"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Dado que esta aplicación aplica un gran número de permisos no seu teléfono móbil, moitos permisos son extremadamente arriscados, polo que non importalos nin executalos sen coñecer claramente os riscos do mercado ou do guión. Unha vez que introduza contido no cadro de texto \"Introdución da tarxeta de mercado\" ou \"Páxina web independente do mercado\" a continuación, o contido executarase inmediatamente como código. Por favor, teña precaución.",
+    "setNewMarket": "Configura un novo mercado",
+    "settingPreview": "Vista previa da configuración",
+    "marketName": "Nome do mercado",
+    "marketSummary": "Introdución do mercado",
+    "marketDescription": "Introdución do mercado",
+    "itemMarket": "Introdución da tarxeta de mercado",
+    "fullMarket": "Páxina web independente do mercado",
+    "marketCardPreview": "Vista previa da tarxeta de mercado",
+    "marketFullPreview": "Vista previa da páxina web independente do mercado",
+    "isNotSet": "Non configurado"
+  }
+}

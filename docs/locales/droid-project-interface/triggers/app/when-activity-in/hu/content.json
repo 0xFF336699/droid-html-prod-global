@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "A megadott oldal megadásakor",
+    "pnLabel": "Csomag neve:",
+    "anLabel": "A tevékenység neve:",
+    "cnLabel": "Osztály neve:",
+    "changeBtnLabel": "cserél"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "A megadott oldal megadásakor",
+    "pnLabel": "Csomag neve:",
+    "anLabel": "A tevékenység neve:",
+    "cnLabel": "Osztály neve:",
+    "changeBtnLabel": "cserél"
+  }
+}

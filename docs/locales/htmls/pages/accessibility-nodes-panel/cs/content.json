@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Prohlížení rozhraní dostupnosti",
+    "howToUse": "Pokyny pro použití",
+    "howToUseTooltip": "Níže jsou uvedeny některé atributy označení tohoto uzlu, které lze použít k výběru operací, jako je kliknutí, vyplnění textu atd.\n\nHodnota atributu může být duplikována na stránce aplikace. Pokud se setkáte s duplikáty, překryjte další výběry atributů a určete jedinečnost.\n\nČervené slovo označuje, že hodnota atributu se opakuje, zelené slovo označuje, že hodnota atributu je v aktuálním vyhledávání stránky jedinečná a černé slovo označuje, že neexistuje opakované srovnání.",
+    "otherNodesSummary": "Další uzly v tomto místě",
+    "moreNodes": "Zde je to, co se rozšiřuje.",
+    "nodeInfoDialogOkButton": "Upravit operaci tohoto uzlu",
+    "text": "Text 2222"
+  }
+}

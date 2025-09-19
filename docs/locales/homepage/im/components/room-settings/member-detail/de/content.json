@@ -1,0 +1,9 @@
+{
+  "MemberDetailContent": {
+    "title": "Mitgliederdetails",
+    "nickname": "Spitzname",
+    "role": "Rolle",
+    "kick": "Rausschmeißen",
+    "ban": "Verboten"
+  }
+}

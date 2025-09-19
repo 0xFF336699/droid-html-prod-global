@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Тоташу ...",
+    "connected": "Тоташтырылган",
+    "disconnecting": "Өзелү ...",
+    "disconnected": "Тоташмаган",
+    "waitRetry": "Телефонны көтеп калам ..."
+  }
+}

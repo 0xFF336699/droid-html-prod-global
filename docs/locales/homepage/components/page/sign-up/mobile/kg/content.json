@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "kusonikisa zina",
+    "phoneNumber": "Nimembre ya telefone",
+    "phoneNumberPlaceholder": "Beno sonika nimero ya telefone na beno",
+    "verificationCode": "Kode ya kuzikisa",
+    "verificationCodePlaceholder": "Beno sonika kode ya kuzikisa .",
+    "getVerificationCode": "Baka kode ya kuzikisa",
+    "countdown": "{{basekonde}} basegonde sambu na kumeka diaka",
+    "register": "kusonikisa zina",
+    "errors": {
+      "phoneRequired": "Beno sonika nimero ya telefone na beno",
+      "phoneInvalid": "Mutindu ya nimero ya telefone ya maboko kele ya mbote ve",
+      "codeRequired": "Beno sonika kode ya kuzikisa .",
+      "codeInvalid": "E mpila ya nkanda ya kuzikisa kele ya mbote ve .",
+      "requestFailed": "Kulomba me nunga ve",
+      "verificationFailed": "Kubaka bakode ya kuzikisa me nunga ve",
+      "loginFailed": "Kukota nungaka ve"
+    },
+    "success": {
+      "verificationCodeSent": "Bo me tinda kode ya kuzikisa mambu",
+      "registerSuccess": "Yandi nungaka na kununga"
+    }
+  }
+}

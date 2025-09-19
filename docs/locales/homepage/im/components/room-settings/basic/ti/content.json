@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "ስም ክፍሊ"
+      },
+      "topic": {
+        "label": "ክፍሊ መእተዊ"
+      },
+      "avatar": {
+        "alt": "ክፍሊ ኣቫታር"
+      },
+      "submit": "ቅጥዕታት ምዕቃብ"
+    },
+    "toast": {
+      "success": "ቅጥዕታት ዝተመሓየሸ",
+      "error": {
+        "default": "ቅጥዕታት ምዕባለ ፈሺሉ",
+        "avatar": "ኣቫታር ክመሓየሽ ኣይከኣለን"
+      }
+    }
+  }
+}

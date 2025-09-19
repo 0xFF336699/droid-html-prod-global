@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Faisnéis úsáideora",
+    "id": {
+      "name": "Úd",
+      "copy": "cóip",
+      "copied": "Cóipeáladh id"
+    },
+    "notLoggedIn": "Gan logáil isteach",
+    "name": "ainmnigh",
+    "avatar": "avatar"
+  }
+}

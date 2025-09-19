@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "ລົງທະບຽນ",
+    "phoneNumber": "ເບີໂທລະສັບ",
+    "phoneNumberPlaceholder": "ກະລຸນາໃສ່ເບີໂທລະສັບມືຖືຂອງທ່ານ",
+    "verificationCode": "ລະຫັດຢືນຢັນ",
+    "verificationCodePlaceholder": "ກະລຸນາໃສ່ລະຫັດຢັ້ງຢືນ",
+    "getVerificationCode": "ໄດ້ຮັບລະຫັດຢືນຢັນ",
+    "countdown": "{{ວິນາທີ}}} ວິນາທີທີ່ຈະພະຍາຍາມອີກຄັ້ງ",
+    "register": "ລົງທະບຽນ",
+    "errors": {
+      "phoneRequired": "ກະລຸນາໃສ່ເບີໂທລະສັບມືຖືຂອງທ່ານ",
+      "phoneInvalid": "ຮູບແບບເບີໂທລະສັບມືຖືບໍ່ຖືກຕ້ອງ",
+      "codeRequired": "ກະລຸນາໃສ່ລະຫັດຢັ້ງຢືນ",
+      "codeInvalid": "ຮູບແບບລະຫັດຢືນຢັນແມ່ນບໍ່ຖືກຕ້ອງ",
+      "requestFailed": "ການຮ້ອງຂໍລົ້ມເຫລວ",
+      "verificationFailed": "ການຊື້ແບບລະຫັດຢັ້ງຢືນລົ້ມເຫລວ",
+      "loginFailed": "ການເຂົ້າສູ່ລະບົບລົ້ມເຫລວ"
+    },
+    "success": {
+      "verificationCodeSent": "ລະຫັດການຢັ້ງຢືນໄດ້ຖືກສົ່ງແລ້ວ",
+      "registerSuccess": "ລົງທະບຽນຢ່າງສໍາເລັດຜົນ"
+    }
+  }
+}

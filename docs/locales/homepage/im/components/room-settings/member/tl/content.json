@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Maghanap para sa mga miyembro"
+    },
+    "table": {
+      "columns": {
+        "name": "Pangalan ng miyembro",
+        "userId": "User ID",
+        "actions": "Patakbuhin"
+      },
+      "pagination": {
+        "rowsPerPage": "Bilang ng mga hilera bawat pahina"
+      },
+      "avatar": {
+        "alt": "Avatar"
+      },
+      "actions": {
+        "kick": "Sipa",
+        "ban": "Pinagbawalan"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Kumpirma ang miyembro ng pagsipa",
+        "content": "Sigurado ka bang nais mong sipain ang miyembro sa labas ng silid?"
+      },
+      "ban": {
+        "title": "Kumpirma ang ipinagbabawal na pagiging kasapi",
+        "content": "Sigurado ka bang nais mong pagbawalan ang miyembro na ito? Ang miyembro ay hindi makakasama muli sa silid pagkatapos ng pagbabawal."
+      },
+      "buttons": {
+        "cancel": "Kanselahin",
+        "confirm": "Kumpirmahin"
+      }
+    },
+    "toast": {
+      "loadError": "Nabigong mag -load ng listahan ng miyembro",
+      "kick": {
+        "success": "Ang mga miyembro ay sinipa sa labas ng silid",
+        "error": "Nabigo ang mga miyembro ng pagsipa"
+      },
+      "ban": {
+        "success": "Na -block ang mga miyembro",
+        "error": "Nabigong hadlangan ang mga miyembro"
+      }
+    },
+    "invite": {
+      "button": "Anyayahan ang mga miyembro",
+      "title": "Anyayahan ang mga miyembro na sumali sa silid",
+      "inputLabel": "Mangyaring ipasok ang matrix user ID (tulad ng @user: matrix.org)",
+      "confirm": "anyayahan",
+      "cancel": "Kanselahin",
+      "loading": "Inaanyayahan ...",
+      "success": "Ipinadala ang paanyaya!",
+      "error": "Nabigo ang paanyaya, mangyaring suriin ang ID ng gumagamit o mga pahintulot"
+    },
+    "empty": "Wala pang miyembro",
+    "loading": "Naglo -load ...",
+    "role": {
+      "owner": "May -ari ng bahay",
+      "admin": "tagapangasiwa",
+      "moderator": "Co-management",
+      "user": "miyembro"
+    }
+  }
+}

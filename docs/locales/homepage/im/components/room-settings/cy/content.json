@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Gosodiadau Ystafell",
+    "tabs": {
+      "basic": "Gosodiadau Sylfaenol",
+      "permission": "Gosodiadau Caniatâd",
+      "privacy": "Gosodiadau Preifatrwydd",
+      "member": "Rheoli Aelodau"
+    },
+    "loadError": "Wedi methu llwytho gosodiadau ystafell",
+    "leaveRoom": {
+      "button": "Allanfa'r ystafell",
+      "confirm": "Ydych chi'n siŵr eich bod chi am adael yr ystafell? Ar ôl i chi adael, ni fyddwch yn gallu parhau i dderbyn negeseuon o'r ystafell hon.",
+      "success": "Gadael yr ystafell yn llwyddiannus",
+      "error": "Wedi methu gadael yr ystafell, ceisiwch eto"
+    }
+  }
+}

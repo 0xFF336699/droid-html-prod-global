@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "সংযুক্ত হৈ থাকক",
+        "helperText": "যদি আপুনি ষ্টাৰ্ট লিংকত ক্লিক কৰে, তেন্তে লিংকটো ৰাখক। ইয়াৰ বাবে মনোযোগৰ প্ৰয়োজন যে লিংকটো বিচ্ছিন্ন হোৱাৰ পিছত অবিৰতভাৱে পুনৰ সংযোগ কৰা হ’ব।",
+        "retryCount": "পুনৰ সংযোগৰ সংখ্যা"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "লিংক URL, উদাহৰণস্বৰূপে Ws://192.168.0.2:7001, বা wws://example.com/path",
+        "error": "সঠিক URL হৈছে Ws:// বা WWS:// ৰ পৰা আৰম্ভ হোৱা এটা URL"
+      }
+    },
+    "connectButton": {
+      "connect": "সংযুক্ত কৰক",
+      "disconnect": "বিচ্ছিন্ন কৰক",
+      "status": {
+        "connecting": "সংযোগ...",
+        "connected": "সংযুক্ত",
+        "disconnecting": "বিচ্ছিন্ন...",
+        "disconnected": "সংযুক্ত নহয়",
+        "waitRetry": "পুনৰ সংযোগৰ বাবে অপেক্ষা কৰা হৈছে..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "চিত্ৰনাট্য"
+  }
+}

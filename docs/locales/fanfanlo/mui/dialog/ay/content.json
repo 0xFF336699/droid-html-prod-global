@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Kansilaña",
+    "confirm": "Sijuru",
+    "title": "pista",
+    "content": "¿Jumax uka lurañ munasmati?"
+  },
+  "EditableText": {
+    "cancel": "Kansilaña",
+    "save": "imaña",
+    "title": "luraña"
+  }
+}

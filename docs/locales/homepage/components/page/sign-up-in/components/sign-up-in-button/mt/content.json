@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Login / reġistru",
+    "signOut": "Idħol",
+    "confirmContent": "Int żgur li trid toħroġ?",
+    "confirmTitle": "Ħjiel",
+    "confirm": "Żgur",
+    "cancel": "Ikkanċella",
+    "signoutOk": "Idħol",
+    "loadingData": "Tagħbija tad-dejta tal-utent"
+  }
+}

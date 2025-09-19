@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Mudellu di url",
+    "full": {
+      "url": "URL di u mercatu. I caratteri inseriti seranu carricati cum'è URL, per piacè attenti.",
+      "html": "Contenutu HTML HTML. I caratteri inseriti saranu eseguiti subitu cum'è scripts, per piacè esse prudente.",
+      "come": "Vene à a mea",
+      "myMarketName": "Nome di mercatu",
+      "stroll": "Facemu un caminu"
+    },
+    "item": {
+      "url": "URL di a carta di u mercatu. I caratteri inseriti seranu carricati cum'è URL, per piacè attenti.",
+      "html": "Contenutu HTML HTML. I caratteri inseriti saranu eseguiti subitu cum'è scripts, per piacè esse prudente.",
+      "come": "Vene à a mea",
+      "myMarketName": "Nome di mercatu",
+      "stroll": "Facemu un caminu"
+    }
+  }
+}

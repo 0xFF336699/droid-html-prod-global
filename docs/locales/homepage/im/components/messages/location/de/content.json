@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Standortname",
+    "viewMap": "Die Karte anzeigen",
+    "close": "Schließung"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Der aktuelle Browser unterstützt keine Geolokalisierungserfassung",
+    "getLocationFailed": "Überprüfen Sie den Standort nicht, bitte überprüfen Sie die Berechtigungseinstellungen",
+    "myLocation": "Mein Standort",
+    "shareLocation": "Standort teilen",
+    "getCurrentLocation": "Holen Sie sich den aktuellen Standort",
+    "title": "Standortname",
+    "description": "Detaillierte Beschreibung",
+    "descriptionPlaceholder": "Bitte geben Sie eine detaillierte Beschreibung ein (optional)",
+    "preview": "Standortvorschau",
+    "latitude": "Breite",
+    "longitude": "Länge",
+    "cancel": "Stornieren",
+    "send": "schicken",
+    "permissionPrompt": "Wir müssen Ihre Standortinformationen erhalten, um bessere Dienste zu erbringen. Ist dies erlaubt?",
+    "permissionDenied": "Die Positionierungsgenehmigung wird abgelehnt. Aktivieren Sie die Positionierungserlaubnis in Ihren Browsereinstellungen",
+    "locationTimeout": "Stellen Sie die Zeitüberschreitung der Positionierung sicher, dass das Gerät eingeschaltet ist, und versuchen Sie, wiederzukommen",
+    "locationUnavailable": "Der aktuelle Standort kann nicht eingeholt werden. Überprüfen Sie den Gerätestellungsdienst"
+  }
+}

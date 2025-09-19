@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Cerca de membres"
+    },
+    "table": {
+      "columns": {
+        "name": "Nom membre",
+        "userId": "Identificador d'usuari",
+        "actions": "operar"
+      },
+      "pagination": {
+        "rowsPerPage": "Nombre de files per pàgina"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Cop de peu",
+        "ban": "Prohibit"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Confirmeu el membre de peu",
+        "content": "Esteu segur que voleu expulsar el membre de la sala?"
+      },
+      "ban": {
+        "title": "Confirmeu l’adhesió prohibida",
+        "content": "Esteu segur que voleu prohibir aquest membre? El membre no podrà tornar a unir -se a la sala després de la prohibició."
+      },
+      "buttons": {
+        "cancel": "Cancel·lar",
+        "confirm": "confirmar"
+      }
+    },
+    "toast": {
+      "loadError": "No s'ha pogut carregar la llista de membres",
+      "kick": {
+        "success": "Els membres han estat expulsats de l'habitació",
+        "error": "El tret de sortida als membres va fallar"
+      },
+      "ban": {
+        "success": "Membres bloquejats",
+        "error": "No s'ha pogut bloquejar els membres"
+      }
+    },
+    "invite": {
+      "button": "Convida els membres",
+      "title": "Convida els membres a unir -se a la sala",
+      "inputLabel": "Introduïu l'identificador d'usuari de Matrix (com ara @user: matrix.org)",
+      "confirm": "convidar",
+      "cancel": "Cancel·lar",
+      "loading": "Convidant ...",
+      "success": "Invitació enviada!",
+      "error": "Invitació ha fallat, comproveu l’identificador d’usuari o els permisos"
+    },
+    "empty": "Encara no hi ha membre",
+    "loading": "Carregant ...",
+    "role": {
+      "owner": "Propietari",
+      "admin": "administradora",
+      "moderator": "Co-gestió",
+      "user": "membre"
+    }
+  }
+}

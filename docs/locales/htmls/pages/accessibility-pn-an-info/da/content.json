@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "Genvej",
+    "title": "Pakke- og aktivitetsgenkendelse",
+    "useBtn": "bruge",
+    "closeBtn": "lukning",
+    "pnLabel": "Pakningsnavn",
+    "copyButtonText": "kopi",
+    "anLabel": "aktivitet",
+    "clsLable": "klasse"
+  }
+}

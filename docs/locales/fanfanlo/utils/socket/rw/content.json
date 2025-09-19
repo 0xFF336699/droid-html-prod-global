@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Guhuza ...",
+    "connected": "Ihujwe",
+    "disconnecting": "Guhagarika ...",
+    "disconnected": "Ntabwo bihujwe",
+    "waitRetry": "Gutegereza reconeContion ..."
+  }
+}

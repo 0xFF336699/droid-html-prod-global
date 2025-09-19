@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Lorg do bhuill"
+    },
+    "table": {
+      "columns": {
+        "name": "Ainm ball",
+        "userId": "ID cleachdaiche",
+        "actions": "obrachadh"
+      },
+      "pagination": {
+        "rowsPerPage": "Àireamh de shreathan gach duilleag"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Breab a-mach",
+        "ban": "Air a thoirmeasg"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Dearbhaich am Ball Kicking",
+        "content": "A bheil thu cinnteach gu bheil thu airson am ball a thoirt a-mach às an t-seòmar?"
+      },
+      "ban": {
+        "title": "Dearbhaich na Ballrachd Banaichte",
+        "content": "A bheil thu cinnteach gu bheil thu airson an ball seo a thomhas? Cha bhith e comasach don bhall an seòmar a thoirt air ais an dèidh a 'cheannaich."
+      },
+      "buttons": {
+        "cancel": "Sguir dheth",
+        "confirm": "Dearbhaich"
+      }
+    },
+    "toast": {
+      "loadError": "Dh'fhàillig luchdadh liosta nam Ball",
+      "kick": {
+        "success": "Chaidh na buill a bhreabadh a-mach às an t-seòmar",
+        "error": "Dh 'fhàillig na buill a-mach"
+      },
+      "ban": {
+        "success": "Chuir buill bacadh",
+        "error": "Dh'fhàillig casg a chuir air buill"
+      }
+    },
+    "invite": {
+      "button": "Thoir cuireadh do bhuill",
+      "title": "Thoir cuireadh do bhuill a dhol a-steach don t-seòmar",
+      "inputLabel": "Cuir a-steach an ID cleachdaiche Matrix (leithid @USER: Matrix.org)",
+      "confirm": "Thoir cuireadh",
+      "cancel": "Sguir dheth",
+      "loading": "A 'toirt cuireadh ...",
+      "success": "Cuireadh air a chuir!",
+      "error": "Dh 'fhàillig cuireadh, thoir sùil air ID cleachdaiche no ceadan"
+    },
+    "empty": "Gun bhall fhathast",
+    "loading": "A 'luchdachadh ...",
+    "role": {
+      "owner": "Neach-seilbh dachaigh",
+      "admin": "rianadair",
+      "moderator": "Co-riaghladh",
+      "user": "Ball"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Opheffe",
+    "confirm": "Wis",
+    "title": "wink",
+    "content": "Binne jo wis dat jo dit wolle dwaan?"
+  },
+  "EditableText": {
+    "cancel": "Opheffe",
+    "save": "rêde",
+    "title": "redigearje"
+  }
+}

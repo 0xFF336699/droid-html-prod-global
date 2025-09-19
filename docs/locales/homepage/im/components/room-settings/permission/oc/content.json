@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Lo nivèl de permission requerit per mandar un messatge .",
+        "tooltip": "0 significa que totes los membres pòdon mandar de messatges, e mai grand lo nombre significa que de permissions mai nautas son necessàrias ."
+      },
+      "invite": {
+        "label": "Nivèl de permís requerit per convidar de nòus membres .",
+        "tooltip": "Set qui pòdon convidar de membres novèls a la sala ."
+      },
+      "kick": {
+        "label": "Enganatz lo nivèl de permission requerida .",
+        "tooltip": "Set qui pòt fotre los membres de la sala ."
+      },
+      "ban": {
+        "label": "Nivèl de permís requerit per blocar los membres .",
+        "tooltip": "Set qui pòt blocar los membres de la sala ."
+      },
+      "roomSettings": {
+        "label": "Modificar lo nivèl de permission requerida dels paramètres de l'abitacion .",
+        "tooltip": "Set qui pòt modificar los paramètres de la sala ."
+      },
+      "submit": "Enregistrar los paramètres de permission"
+    },
+    "description": "Rang de nivèl de permís: 0-100, mai grand lo nombre significa de permissions mai nautas",
+    "toast": {
+      "success": "Los paramètres de permission son estats actualizats",
+      "error": "Fracassat a l'actualizacion dels paramètres de la permission"
+    }
+  }
+}

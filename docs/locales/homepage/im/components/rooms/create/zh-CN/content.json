@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "创建房间"
+    },
+    "dialog": {
+      "title": "创建新房间",
+      "form": {
+        "userId": {
+          "label": "用户ID",
+          "placeholder": "输入用户ID (例如: @user:example.com)",
+          "error": {
+            "required": "用户ID不能为空",
+            "invalid": "无效的用户ID格式"
+          }
+        },
+        "roomName": {
+          "label": "房间名称 (可选)",
+          "placeholder": "输入房间名称"
+        },
+        "isEncrypted": {
+          "label": "启用端到端加密"
+        },
+        "isDirect": {
+          "label": "直接消息"
+        },
+        "topic": {
+          "label": "主题 (可选)",
+          "placeholder": "输入房间主题"
+        }
+      },
+      "actions": {
+        "cancel": "取消",
+        "create": "创建"
+      },
+      "success": "房间创建成功",
+      "error": "创建房间时出错: {error}"
+    }
+  }
+}

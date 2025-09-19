@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Joñan mālim eo ej aikuj in jilkinḷọk juon ennaan .",
+        "tooltip": "0 meļeļein bwe aolep membōr ro remaron̄ jilkinļo̧k ennaan ko, im eļapļo̧k an ļapļo̧k oran eo meļeļein bwe eļapļo̧k mālim ko rej aikuj ."
+      },
+      "invite": {
+        "label": "joñan jerbal eo ej aikuj ñan karuwaineneik membōr ro rekāāl .",
+        "tooltip": "Set eo emaron̄ karuwaineneik membōr ro rekāāl n̄an ruum̧ eo ."
+      },
+      "kick": {
+        "label": "Kilkit joñan mālim eo ej aikuji .",
+        "tooltip": "Set eo emaroñ kōjepel ro ilo ruum̧ eo ."
+      },
+      "ban": {
+        "label": "Ear aikuj in bōbrae an ro uwaan .",
+        "tooltip": "Set eo emaroñ bōbrae ro ilo ruum̧ eo ."
+      },
+      "roomSettings": {
+        "label": "Ej kōṃṃan bwe en ḷapḷọk joñan an armej ro pād ilo ruum̧ eo .",
+        "tooltip": "Set eo emaroñ kōṃṃan oktak ilo ruum̧ eo ."
+      },
+      "submit": "Kōjparok set ko"
+    },
+    "description": "joñan jerbal eo: 0-100, joñan an laplok oran eo ej aikuj",
+    "toast": {
+      "success": "Em̧ōj kōkāāl jikin jerbal ko .",
+      "error": "Ejjab maroñ in kōkāāl jikin ko ."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Cancelar",
+    "ok": "Claro",
+    "checkBoxText": "Vá diretamente para autorizar dentro de meio mês e não exiba mais esta janela",
+    "content": "Esta função requer autorização de função auxiliar. Se você deseja autorizar, clique em [OK]. Se você quiser desistir, clique em [Cancelar]",
+    "title": "Aplicação de autorização"
+  },
+  "floatPermission": {
+    "cancel": "Cancelar",
+    "ok": "Claro",
+    "checkBoxText": "Vá diretamente para autorizar dentro de meio mês e não exiba mais esta janela",
+    "content": "Esta função requer autorização da função de janela flutuante. Se você deseja autorizar, clique em [OK]. Se você quiser desistir, clique em [Cancelar]",
+    "title": "Aplicação de autorização"
+  }
+}

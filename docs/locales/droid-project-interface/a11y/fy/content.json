@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "operearje",
+    "click": "Plick",
+    "longClick": "Lange parse",
+    "setText": "Stel tekst yn",
+    "tryClick": "Besykje elemint as lokaasje klikke",
+    "globalClick": "Lokaasje Klik"
+  }
+}

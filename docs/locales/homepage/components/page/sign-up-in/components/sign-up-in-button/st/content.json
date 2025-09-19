@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Ho kena / ho ingolisa",
+    "signOut": "Tsoa kantle",
+    "confirmContent": "Na u na le bonnete ba hore u batla ho tsoa?",
+    "confirmTitle": "Hint",
+    "confirm": "Ehlile",
+    "cancel": "Hlakola",
+    "signoutOk": "Tsoa kantle",
+    "loadingData": "Ho kenya data ea mosebelisi"
+  }
+}

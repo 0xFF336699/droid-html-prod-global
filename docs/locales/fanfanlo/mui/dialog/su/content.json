@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Ngabatalkeun",
+    "confirm": "Yakin",
+    "title": "hint",
+    "content": "Naha anjeun badé ngalakukeun ieu?"
+  },
+  "EditableText": {
+    "cancel": "Ngabatalkeun",
+    "save": "ngahémat",
+    "title": "edit"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Eba le kamore",
+      "inviteOnly": "Ena ke kamore ea motho ea ikemetseng 'me e hloka limemo ho ikopanya le",
+      "knockRequired": "Kamore ena e hloka kopo ho kenella. Tobetsa konopo e ka tlase ho romella kopo ea kopano",
+      "canJoin": "Ena ke kamore ea sechaba, u ka ikopanya ka kotloloho",
+      "sendRequest": "Romella kopo ea kopano",
+      "join": "Eba le kamore"
+    },
+    "JoinRequestList": {
+      "noRequests": "Ha ho na kopo ea ho kopanela",
+      "accept": "Amohela",
+      "reject": "hana"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Kenya molaetsa ..."
+  },
+  "MessageList": {
+    "noMessages": "Ha ho na molaetsa, romella molaetsa oa pele ho qala moqoqo!",
+    "loading": "E ntse e tsamaea ...",
+    "error": {
+      "loadFailed": "Ha rea ​​atleha ho beha molaetsa",
+      "retry": "Leka hape"
+    },
+    "loadingHistory": "Ho Reka Nalane ...",
+    "historyEnd": "Litaba tsa pele-pele li fihlile"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Ha ho na molaetsa, romella molaetsa oa pele ho qala moqoqo!"
+  },
+  "RoomContent": {
+    "title": "Kamore"
+  },
+  "RoomHeader": {
+    "title": "Kamore",
+    "unnamedRoom": "Kamore e sa boleloang ka lebitso",
+    "members": "setho",
+    "settings": "tlhophiso",
+    "leaveRoom": "Tlohela ka phapusing",
+    "joinRoom": "Eba le kamore"
+  },
+  "RoomMembers": {
+    "title": "Litho tsa Kamore",
+    "online": "Inthaneteng",
+    "offline": "Offline",
+    "join": "Eba le",
+    "invite": "mema",
+    "leave": "Tlohela",
+    "ban": "Thibetsoe",
+    "noMembers": "Ha ho na setho",
+    "loading": "E ntse e tsamaea ..."
+  }
+}

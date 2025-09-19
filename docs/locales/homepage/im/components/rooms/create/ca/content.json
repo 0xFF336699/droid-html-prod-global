@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Crea una habitació"
+    },
+    "dialog": {
+      "title": "Crea una habitació nova",
+      "form": {
+        "userId": {
+          "label": "Identificador d'usuari",
+          "placeholder": "Introduïu l'identificador d'usuari (per exemple: @user: exemple.com)",
+          "error": {
+            "required": "L'identificador d'usuari no pot estar buit",
+            "invalid": "Format d'identificació d'usuari no vàlid"
+          }
+        },
+        "roomName": {
+          "label": "Nom de l'habitació (opcional)",
+          "placeholder": "Introduïu un nom de l'habitació"
+        },
+        "isEncrypted": {
+          "label": "Activa el xifrat de punta a extrem"
+        },
+        "isDirect": {
+          "label": "Missatge directe"
+        },
+        "topic": {
+          "label": "Tema (opcional)",
+          "placeholder": "Entra al tema de la sala"
+        }
+      },
+      "actions": {
+        "cancel": "Cancel·lar",
+        "create": "crear"
+      },
+      "success": "Creació d’habitació amb èxit",
+      "error": "S'ha produït un error en crear una habitació: {error}"
+    }
+  }
+}

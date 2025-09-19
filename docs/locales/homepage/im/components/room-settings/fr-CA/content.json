@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Salles",
+    "tabs": {
+      "basic": "Paramètres de base",
+      "permission": "Paramètres d'autorisation",
+      "privacy": "Paramètres de confidentialité",
+      "member": "Gestion des membres"
+    },
+    "loadError": "Échec du chargement des paramètres de la pièce",
+    "leaveRoom": {
+      "button": "Quitter la pièce",
+      "confirm": "Êtes-vous sûr de vouloir quitter la pièce? Après avoir quitté, vous ne pourrez pas continuer à recevoir des messages de cette pièce.",
+      "success": "Quitté la pièce avec succès",
+      "error": "Échec de la sortie de la pièce, veuillez réessayer"
+    }
+  }
+}

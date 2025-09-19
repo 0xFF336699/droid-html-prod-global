@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "Ychwanegu atodiadau",
+    "emoji": "Dewiswch Fynegiad",
+    "placeholder": "Rhowch neges ...",
+    "sendLocation": "Anfon Lleoliad",
+    "send": "hela ’"
+  }
+}

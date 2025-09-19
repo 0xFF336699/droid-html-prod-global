@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Lumikha ng isang silid"
+    },
+    "dialog": {
+      "title": "Lumikha ng isang bagong silid",
+      "form": {
+        "userId": {
+          "label": "User ID",
+          "placeholder": "Ipasok ang User ID (halimbawa: @user: halimbawa.com)",
+          "error": {
+            "required": "Ang User ID ay hindi maaaring walang laman",
+            "invalid": "Di -wastong format ng ID ng gumagamit"
+          }
+        },
+        "roomName": {
+          "label": "Pangalan ng silid (Opsyonal)",
+          "placeholder": "Magpasok ng isang pangalan ng silid"
+        },
+        "isEncrypted": {
+          "label": "Paganahin ang end-to-end na pag-encrypt"
+        },
+        "isDirect": {
+          "label": "Direktang mensahe"
+        },
+        "topic": {
+          "label": "Tema (Opsyonal)",
+          "placeholder": "Ipasok ang tema ng silid"
+        }
+      },
+      "actions": {
+        "cancel": "Kanselahin",
+        "create": "Lumikha"
+      },
+      "success": "Matagumpay ang paglikha ng silid",
+      "error": "May naganap na error habang lumilikha ng isang silid: {error}"
+    }
+  }
+}

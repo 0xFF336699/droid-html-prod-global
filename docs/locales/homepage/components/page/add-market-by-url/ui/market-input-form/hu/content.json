@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL -mintázat",
+    "full": {
+      "url": "Piaci URL. A beírt karaktereket URL -ként töltik be, kérjük, legyen óvatos.",
+      "html": "Piaci HTML tartalom. A beírt karaktereket szkriptekként azonnal végrehajtják, kérjük, legyen óvatos.",
+      "come": "Eljön az enyémhez",
+      "myMarketName": "Piacnév",
+      "stroll": "Tegyen egy sétát"
+    },
+    "item": {
+      "url": "Piaci kártya URL. A beírt karaktereket URL -ként töltik be, kérjük, legyen óvatos.",
+      "html": "Piaci HTML tartalom. A beírt karaktereket szkriptekként azonnal végrehajtják, kérjük, legyen óvatos.",
+      "come": "Eljön az enyémhez",
+      "myMarketName": "Piacnév",
+      "stroll": "Tegyen egy sétát"
+    }
+  }
+}

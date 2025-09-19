@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Ity fomba ity dia tsy azo antsoina fotsiny amin'ny Android",
+      "noMethod": "Ity fomba ity dia tsy misy"
+    }
+  }
+}

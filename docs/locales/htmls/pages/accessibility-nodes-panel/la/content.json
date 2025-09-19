@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Accessibility interface viewing",
+    "howToUse": "Instructiones ad usum",
+    "howToUseTooltip": "Infra sunt quidam notatis attributa huius nodi quod potest esse eligere operationes, ut clicking, implens in illud, etc.\n\nEt attributum valorem ut duplicata in app pagina. Si occurrant effingo, quaeso alias attributum Selections determinare uniceness.\n\nA rufus verbum indicat quod attributum est repetitur, vir viridi verbo indicat quod attributum valorem est unicum in pagina quaerere, et nigrum verbum indicat quod non est repetitur collatio.",
+    "otherNodesSummary": "Alia Nodorum in locum",
+    "moreNodes": "Hic est quod expanded.",
+    "nodeInfoDialogOkButton": "Edit operatio huius nodi",
+    "text": "MMCCXXII illud"
+  }
+}

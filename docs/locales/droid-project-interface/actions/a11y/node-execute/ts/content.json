@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "ku dlayiwa ka node .",
+    "changeBtnLabel": "siva",
+    "showNodeAllProperties": "Kombisa swivumbeko hinkwaswo .",
+    "wait": {
+      "time": "Nkarhi wo rindza .",
+      "interval": "Nkarhi wo rindza .",
+      "invisible": "Loko ku ri na ku kuma swiaki ehandle ka xikirini ."
+    }
+  }
+}

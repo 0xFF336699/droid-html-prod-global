@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Membatalkan",
+    "ok": "Tentu",
+    "checkBoxText": "Langsung ke otorisasi dalam waktu setengah bulan dan tidak lagi menampilkan jendela ini",
+    "content": "Fungsi ini membutuhkan otorisasi fungsi tambahan. Jika Anda ingin mengotorisasi, silakan klik [OK]. Jika Anda ingin menyerah, silakan klik [Batalkan]",
+    "title": "Aplikasi Otorisasi"
+  },
+  "floatPermission": {
+    "cancel": "Membatalkan",
+    "ok": "Tentu",
+    "checkBoxText": "Langsung ke otorisasi dalam waktu setengah bulan dan tidak lagi menampilkan jendela ini",
+    "content": "Fungsi ini membutuhkan otorisasi fungsi jendela mengambang. Jika Anda ingin mengotorisasi, silakan klik [OK]. Jika Anda ingin menyerah, silakan klik [Batalkan]",
+    "title": "Aplikasi Otorisasi"
+  }
+}

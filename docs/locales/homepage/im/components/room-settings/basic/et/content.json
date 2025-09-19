@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Toanimi"
+      },
+      "topic": {
+        "label": "Toa tutvustus"
+      },
+      "avatar": {
+        "alt": "Toa avatar"
+      },
+      "submit": "Salvestage sätted"
+    },
+    "toast": {
+      "success": "Seaded värskendatud",
+      "error": {
+        "default": "Värskendusseaded ebaõnnestusid",
+        "avatar": "Avatari värskendamine ebaõnnestus"
+      }
+    }
+  }
+}

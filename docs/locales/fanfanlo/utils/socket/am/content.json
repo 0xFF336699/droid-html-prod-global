@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "መገናኘት ...",
+    "connected": "ተገናኝቷል",
+    "disconnecting": "ማላቀቅ ...",
+    "disconnected": "አልተገናኘም",
+    "waitRetry": "እንደገና ለመገናኘት በመጠበቅ ላይ ..."
+  }
+}

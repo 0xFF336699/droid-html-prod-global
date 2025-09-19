@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Nome de localización",
+    "viewMap": "Ver o mapa",
+    "close": "peche"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "O navegador actual non admite a adquisición de xeolocalización",
+    "getLocationFailed": "Non conseguiu obter a situación, comprobe a configuración de permiso",
+    "myLocation": "A miña situación",
+    "shareLocation": "Compartir localización",
+    "getCurrentLocation": "Obtén a situación actual",
+    "title": "Nome de localización",
+    "description": "Descrición detallada",
+    "descriptionPlaceholder": "Insira unha descrición detallada (opcional)",
+    "preview": "Vista previa da localización",
+    "latitude": "Latitude",
+    "longitude": "lonxitude",
+    "cancel": "Cancelar",
+    "send": "enviar",
+    "permissionPrompt": "Necesitamos obter a túa información de localización para ofrecer mellores servizos, ¿está permitido?",
+    "permissionDenied": "Deníase o permiso de posicionamento, permítelle o permiso de posicionamento na configuración do seu navegador",
+    "locationTimeout": "Posicionamento do tempo de espera, asegúrese de que o dispositivo estea activado e intente reacquire",
+    "locationUnavailable": "Non se pode obter a situación actual, comprobe o servizo de localización do dispositivo"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "加入房间",
+      "inviteOnly": "这是一个私密房间，需要邀请才能加入",
+      "knockRequired": "这个房间需要申请才能加入，点击下方按钮发送加入请求",
+      "canJoin": "这是一个公开房间，你可以直接加入",
+      "sendRequest": "发送加入请求",
+      "join": "加入房间"
+    },
+    "JoinRequestList": {
+      "noRequests": "暂无加入请求",
+      "accept": "接受",
+      "reject": "拒绝"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "输入消息..."
+  },
+  "MessageList": {
+    "noMessages": "还没有消息，发送第一条消息开始对话吧！",
+    "loading": "加载中...",
+    "error": {
+      "loadFailed": "加载消息失败",
+      "retry": "重试"
+    },
+    "loadingHistory": "加载历史中...",
+    "historyEnd": "已到最早消息"
+  },
+  "MessageVirturalList": {
+    "noMessages": "还没有消息，发送第一条消息开始对话吧！"
+  },
+  "RoomContent": {
+    "title": "房间"
+  },
+  "RoomHeader": {
+    "title": "房间",
+    "unnamedRoom": "未命名房间",
+    "members": "成员",
+    "settings": "设置",
+    "leaveRoom": "离开房间",
+    "joinRoom": "加入房间"
+  },
+  "RoomMembers": {
+    "title": "房间成员",
+    "online": "在线",
+    "offline": "离线",
+    "join": "加入",
+    "invite": "邀请",
+    "leave": "离开",
+    "ban": "封禁",
+    "noMembers": "暂无成员",
+    "loading": "加载中..."
+  }
+}

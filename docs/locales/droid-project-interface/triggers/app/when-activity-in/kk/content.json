@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Көрсетілген бетті енгізу кезінде",
+    "pnLabel": "Пакеттің атауы:",
+    "anLabel": "Әрекет атауы:",
+    "cnLabel": "Аты-жөні:",
+    "changeBtnLabel": "орнын басу"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Көрсетілген бетті енгізу кезінде",
+    "pnLabel": "Пакеттің атауы:",
+    "anLabel": "Әрекет атауы:",
+    "cnLabel": "Аты-жөні:",
+    "changeBtnLabel": "орнын басу"
+  }
+}

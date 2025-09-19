@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Mä yatiyaw apayaniñatakix nivel de permiso ukax wakisiwa .",
+        "tooltip": "0 sañ muniwa taqi miembronakax yatiyawinak apayanipxaspa, ukat juk’amp jach’a jakhüwix juk’amp jach’a permisos ukanakaw wakisi sañ muni ."
+      },
+      "invite": {
+        "label": "Nivel de permiso ukax machaq misioneronakar jawst’añatakiwa .",
+        "tooltip": "Set Khitis machaq misioneronakar cuartopar jawstʼaspa ."
+      },
+      "kick": {
+        "label": "Nivel de permiso requerido ukar ch’allt’aña .",
+        "tooltip": "Set Khitis uka cuarto ukankirinakar jaqunukuspa ."
+      },
+      "ban": {
+        "label": "Nivel de permiso ukax miembros ukanakar jark’aqañatakiw wakisi .",
+        "tooltip": "Set Khitis cuarto ukankirinakar jark’aqaspa ."
+      },
+      "roomSettings": {
+        "label": "Nivel de permiso requerido de configuración de salas ukaxa mayjt’ayatawa .",
+        "tooltip": "Khitinakas sala configuración ukar mayjtʼayaspa uk uttʼayañamawa ."
+      },
+      "submit": "Permiso Configuración ukax 1.1."
+    },
+    "description": "Permiso Nivel Rango: 0-100, ukaxa juk’ampi jach’a jakhuxa juk’ampi jach’a permisos ukanakawa wakisi .",
+    "toast": {
+      "success": "Permiso configuración ukax machaqar tukuyatawa .",
+      "error": "Permiso Configuración ukar jan machaqar tukuyañax janiw phuqhaskiti ."
+    }
+  }
+}

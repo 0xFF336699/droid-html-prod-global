@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Wɔ xɔ aɖe ."
+    },
+    "dialog": {
+      "title": "Wɔ xɔ yeye .",
+      "form": {
+        "userId": {
+          "label": "Zãla ƒe ID .",
+          "placeholder": "Ŋlɔ zãla ƒe ID (le kpɔɖeŋu me: @user:example.com)",
+          "error": {
+            "required": "Zãla ƒe ID mate ŋu anɔ ƒuƒlu o .",
+            "invalid": "Zãla ƒe ID ƒe nɔnɔme si mele eteƒe o ."
+          }
+        },
+        "roomName": {
+          "label": "Xɔa ƒe Ŋkɔ (wò ŋutɔe tiae) .",
+          "placeholder": "Ŋlɔ xɔ ƒe ŋkɔ ɖe eme ."
+        },
+        "isEncrypted": {
+          "label": "Na nya ɣaɣlawo tsɔtsɔ ɣla tso nuwuwu vaseɖe nuwuwu nawɔ dɔ ."
+        },
+        "isDirect": {
+          "label": "Gbedeasi tẽ ."
+        },
+        "topic": {
+          "label": "Tanya (wò ŋutɔe tiae) .",
+          "placeholder": "Ge ɖe xɔa ƒe tanya me ."
+        }
+      },
+      "actions": {
+        "cancel": "Te fli ɖe eme",
+        "create": "wᴐ"
+      },
+      "success": "Xɔa wɔwɔ dzidzedzetɔe .",
+      "error": "Vodada aɖe dzɔ esime wonɔ xɔ aɖe wɔm: {error}"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Numele locației",
+    "viewMap": "Vizualizați harta",
+    "close": "închidere"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Browserul curent nu acceptă achiziția de geolocalizare",
+    "getLocationFailed": "Nu a reușit să obțină locația, vă rugăm să verificați setările de permisiune",
+    "myLocation": "Locația mea",
+    "shareLocation": "Locația partajată",
+    "getCurrentLocation": "Obțineți locația curentă",
+    "title": "Numele locației",
+    "description": "Descriere detaliată",
+    "descriptionPlaceholder": "Vă rugăm să introduceți o descriere detaliată (opțional)",
+    "preview": "Previzualizare locație",
+    "latitude": "latitudine",
+    "longitude": "longitudine",
+    "cancel": "Anula",
+    "send": "trimite",
+    "permissionPrompt": "Trebuie să obținem informațiile despre locație pentru a oferi servicii mai bune, este permis?",
+    "permissionDenied": "Permisiunea de poziționare este refuzată, vă rugăm să activați permisiunea de poziționare în setările browserului",
+    "locationTimeout": "Timeout de poziționare, asigurați -vă că dispozitivul este pornit și încercați să vă asigurați",
+    "locationUnavailable": "Locația curentă nu poate fi obținută, vă rugăm să verificați serviciul de locație a dispozitivului"
+  }
+}

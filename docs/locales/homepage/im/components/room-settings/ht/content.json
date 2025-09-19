@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Anviwònman chanm",
+    "tabs": {
+      "basic": "Anviwònman debaz yo",
+      "permission": "Anviwònman pèmisyon",
+      "privacy": "Anviwònman vi prive",
+      "member": "Jesyon Manm"
+    },
+    "loadError": "Echwe pou pou chaje anviwònman chanm",
+    "leaveRoom": {
+      "button": "Sòti sal la",
+      "confirm": "Èske ou sèten ou vle sòti nan sal la? Apre ou fin sòti, ou pa yo pral kapab kontinye resevwa mesaj nan sal sa a.",
+      "success": "Soti nan sal la avèk siksè",
+      "error": "Echwe pou pou sòti sal la, tanpri eseye ankò"
+    }
+  }
+}

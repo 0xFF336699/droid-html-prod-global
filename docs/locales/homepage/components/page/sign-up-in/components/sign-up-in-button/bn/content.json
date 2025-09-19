@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "লগইন/নিবন্ধন",
+    "signOut": "লগ আউট",
+    "confirmContent": "আপনি কি নিশ্চিত যে আপনি লগ আউট করতে চান?",
+    "confirmTitle": "ইঙ্গিত",
+    "confirm": "নিশ্চিত",
+    "cancel": "বাতিল",
+    "signoutOk": "লগ আউট",
+    "loadingData": "ব্যবহারকারীর ডেটা লোড হচ্ছে"
+  }
+}

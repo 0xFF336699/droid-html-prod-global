@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "ᐃᓚᓕᐅᑎᓗᒍ",
+    "sub": {
+      "addScriptByUrl": "ᐃᓚᓕᐅᑎᓗᒋᑦ ᑎᑎᕋᖅᓯᒪᔪᑦ URL-ᑯᑦ",
+      "addScriptByText": "ᐃᓚᓯᓗᑎᑦ ᑎᑎᕋᖅᓯᒪᔪᓂᒃ ᑎᑎᕋᖅᓯᒪᔪᒃᑯᑦ",
+      "addMarket": "ᐃᓚᓕᐅᑎᓗᒍ ᓂᐅᕐᕈᑎᖃᕐᕕᒃ URL-ᑯᑦ",
+      "addMarketByText": "ᐃᓚᓕᐅᑎᓗᒍ ᓂᐅᕐᕈᑎᖃᕐᕕᒃ ᑎᑎᕋᖅᓯᒪᔪᒃᑯᑦ"
+    }
+  }
+}

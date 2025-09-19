@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Joyina igumbi",
+      "inviteOnly": "Leli igumbi langasese futhi lidinga izimemo ukujoyina",
+      "knockRequired": "Leli gumbi lidinga uhlelo lokusebenza ukujoyina. Chofoza inkinobho engezansi ukuthumela isicelo sokujoyina",
+      "canJoin": "Leli igumbi lomphakathi, ungajoyina ngqo",
+      "sendRequest": "Thumela isicelo sokujoyina",
+      "join": "Joyina igumbi"
+    },
+    "JoinRequestList": {
+      "noRequests": "Akukho sicelo sokujoyina okwamanje",
+      "accept": "amukela",
+      "reject": "khahlela"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Faka umyalezo ..."
+  },
+  "MessageList": {
+    "noMessages": "Awukho umyalezo okwamanje, thumela umlayezo wokuqala ukuqala ingxoxo!",
+    "loading": "Iyalayisha ...",
+    "error": {
+      "loadFailed": "Yehlulekile ukulayisha umyalezo",
+      "retry": "Zama futhi"
+    },
+    "loadingHistory": "Iyalayisha umlando ...",
+    "historyEnd": "Izindaba Zasekuqaleni zifikile"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Awukho umyalezo okwamanje, thumela umlayezo wokuqala ukuqala ingxoxo!"
+  },
+  "RoomContent": {
+    "title": "Ikamelo"
+  },
+  "RoomHeader": {
+    "title": "Ikamelo",
+    "unnamedRoom": "Igumbi elingabhalwanga",
+    "members": "ilungu",
+    "settings": "Setha",
+    "leaveRoom": "Shiya ikamelo",
+    "joinRoom": "Joyina igumbi"
+  },
+  "RoomMembers": {
+    "title": "Amalungu egumbi",
+    "online": "Oku-online",
+    "offline": "-Ngaxhunyiwe ku-inthanethi",
+    "join": "ujoyine ngaphakathi",
+    "invite": "mema",
+    "leave": "shiya",
+    "ban": "Uqashiwe",
+    "noMembers": "Alikho ilungu okwamanje",
+    "loading": "Iyalayisha ..."
+  }
+}

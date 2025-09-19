@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Njira iyi imatha kuyimitsidwa pa Android",
+      "noMethod": "Njira iyi kulibe"
+    }
+  }
+}

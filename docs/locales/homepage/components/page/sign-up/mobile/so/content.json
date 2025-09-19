@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "diiwaan ku qorid",
+    "phoneNumber": "Lambarka taleefanka",
+    "phoneNumberPlaceholder": "Fadlan gali nambarka taleefanka gacanta",
+    "verificationCode": "Xeerka Xaqiijinta",
+    "verificationCodePlaceholder": "Fadlan gali nambarka xaqiijinta",
+    "getVerificationCode": "Hel lambarka xaqiijinta",
+    "countdown": "{{ilbiriqsiyo} ilbiriqsiyo ah in mar labaad la isku dayo",
+    "register": "diiwaan ku qorid",
+    "errors": {
+      "phoneRequired": "Fadlan gali nambarka taleefanka gacanta",
+      "phoneInvalid": "Qaabka lambarka taleefanka moobaylka ayaa khaldan",
+      "codeRequired": "Fadlan gali nambarka xaqiijinta",
+      "codeInvalid": "Xeerka Xaqiijinta Qaabka ayaa khaldan",
+      "requestFailed": "Codsigu wuu fashilmay",
+      "verificationFailed": "Xaqiijinta Xeerka Xaqiijinta Fashilmay",
+      "loginFailed": "Gallin Fashilmay"
+    },
+    "success": {
+      "verificationCodeSent": "Xeerka xaqiijinta ayaa la diray",
+      "registerSuccess": "Si guul leh u diiwaangashan"
+    }
+  }
+}

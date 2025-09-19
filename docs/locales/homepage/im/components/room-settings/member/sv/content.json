@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Sök efter medlemmar"
+    },
+    "table": {
+      "columns": {
+        "name": "Medlemsnamn",
+        "userId": "Användar -ID",
+        "actions": "fungera"
+      },
+      "pagination": {
+        "rowsPerPage": "Antal rader per sida"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Sparka ut",
+        "ban": "Förbjuden"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Bekräfta sparkmedlemmen",
+        "content": "Är du säker på att du vill sparka medlemmen ur rummet?"
+      },
+      "ban": {
+        "title": "Bekräfta det förbjudna medlemskapet",
+        "content": "Är du säker på att du vill förbjuda den här medlemmen? Medlemmen kommer inte att kunna åter gå med i rummet efter förbudet."
+      },
+      "buttons": {
+        "cancel": "Avboka",
+        "confirm": "bekräfta"
+      }
+    },
+    "toast": {
+      "loadError": "Det gick inte att ladda medlemslistan",
+      "kick": {
+        "success": "Medlemmar har blivit sparkade ut ur rummet",
+        "error": "Sparkande medlemmar misslyckades"
+      },
+      "ban": {
+        "success": "Medlemmar blockerade",
+        "error": "Det gick inte att blockera medlemmar"
+      }
+    },
+    "invite": {
+      "button": "Bjuda in medlemmar",
+      "title": "Bjud in medlemmarna att gå med i rummet",
+      "inputLabel": "Ange matrisanvändar -ID (t.ex. @User: Matrix.org)",
+      "confirm": "bjuda",
+      "cancel": "Avboka",
+      "loading": "Inbjudande...",
+      "success": "Inbjudan skickas!",
+      "error": "Inbjudan misslyckades, kontrollera användar -ID eller behörigheter"
+    },
+    "empty": "Ingen medlem ännu",
+    "loading": "belastning...",
+    "role": {
+      "owner": "Husägare",
+      "admin": "administratör",
+      "moderator": "Medhantering",
+      "user": "medlem"
+    }
+  }
+}

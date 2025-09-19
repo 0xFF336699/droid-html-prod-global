@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "Legg til markedet",
+    "url": "Markedsadress",
+    "summary": "Markedsoppsummering",
+    "urlIsNotValid": "Feil markedsadress"
+  }
+}

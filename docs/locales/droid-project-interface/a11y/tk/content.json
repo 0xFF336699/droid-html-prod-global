@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "işlemek",
+    "click": "Basyň",
+    "longClick": "Uzynlygy uzyn metbugat",
+    "setText": "Teksti düzüň",
+    "tryClick": "Elementi ýa-da ýerleşişini synap görüň",
+    "globalClick": "Locationerleşýän ýeri basyň"
+  }
+}

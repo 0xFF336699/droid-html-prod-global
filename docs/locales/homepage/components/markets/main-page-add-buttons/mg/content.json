@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "hatovana ny",
+    "sub": {
+      "addScriptByUrl": "Manampy script amin'ny URL",
+      "addScriptByText": "Manampy script amin'ny alàlan'ny lahatsoratra",
+      "addMarket": "Ampio ny tsena amin'ny URL",
+      "addMarketByText": "Ampio ny tsena amin'ny alàlan'ny lahatsoratra"
+    }
+  }
+}

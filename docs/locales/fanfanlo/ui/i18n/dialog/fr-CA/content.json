@@ -1,0 +1,11 @@
+{
+  "content": {
+    "ok": "Bien sûr",
+    "cancel": "Annuler",
+    "delete": "supprimer",
+    "edit": "modifier",
+    "save": "sauvegarder",
+    "close": "fermeture",
+    "confirm": "confirmer"
+  }
+}

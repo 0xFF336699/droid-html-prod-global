@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Kazi za Msaada",
+    "pass": "Imeidhinishwa",
+    "notPass": "Isiyoidhinishwa",
+    "setting": "Sanidi",
+    "danger": "Hatari",
+    "dangerDesc": "Idhini hii inaweza kuona yaliyomo kwenye skrini na bonyeza kwenye simu yako. Lemaza ruhusa hii ikiwa hauelewi wazi utendaji na hatari za hati unayoendesha au itakuwa inafanya kazi."
+  }
+}

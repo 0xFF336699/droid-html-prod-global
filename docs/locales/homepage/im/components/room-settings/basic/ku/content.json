@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Navê odeyê"
+      },
+      "topic": {
+        "label": "Danasîna odeyê"
+      },
+      "avatar": {
+        "alt": "Avatar avat"
+      },
+      "submit": "Mîhengan hilînin"
+    },
+    "toast": {
+      "success": "Mîhengên nûve kirin",
+      "error": {
+        "default": "Mîhengên nûvekirinê bi ser neket",
+        "avatar": "Avatar nûve nekir"
+      }
+    }
+  }
+}

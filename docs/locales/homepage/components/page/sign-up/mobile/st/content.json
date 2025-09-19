@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "Ngolisa",
+    "phoneNumber": "Nomoro ea mohala",
+    "phoneNumberPlaceholder": "Ka kopo kenya nomoro ea hau ea mohala ea mohala oa mohala",
+    "verificationCode": "Nomoro ea netefatso",
+    "verificationCodePlaceholder": "Ka kopo kenya khoutu ea netefatso",
+    "getVerificationCode": "Fumana khoutu ea netefatso",
+    "countdown": "{{{metsotsoana ea}} motsotsoana ho leka hape",
+    "register": "Ngolisa",
+    "errors": {
+      "phoneRequired": "Ka kopo kenya nomoro ea hau ea mohala ea mohala oa mohala",
+      "phoneInvalid": "Foromo ea linomoro tsa mohala ea selefouno e fosahetse",
+      "codeRequired": "Ka kopo kenya khoutu ea netefatso",
+      "codeInvalid": "Sebopeho sa khoutu ea netefatso ha se fosahetse",
+      "requestFailed": "Kopo e ile ea hloleha",
+      "verificationFailed": "Kholiso ea khoutu ea netefatso e atlehile",
+      "loginFailed": "ho kena ho hlolehile"
+    },
+    "success": {
+      "verificationCodeSent": "Khoutu ea netefatso e rometsoe",
+      "registerSuccess": "E ngolisitsoe ka katleho"
+    }
+  }
+}

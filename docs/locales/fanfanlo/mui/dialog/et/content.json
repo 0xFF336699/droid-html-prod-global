@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Tühistama",
+    "confirm": "Kindel",
+    "title": "vihje",
+    "content": "Kas olete kindel, et soovite seda teha?"
+  },
+  "EditableText": {
+    "cancel": "Tühistama",
+    "save": "kokkuhoid",
+    "title": "redigeerima"
+  }
+}

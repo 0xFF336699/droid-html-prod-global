@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Autorizatu",
+    "notPass": "UNAUTHORIZED",
+    "danger": "Periculu",
+    "setting": "istituisci"
+  }
+}

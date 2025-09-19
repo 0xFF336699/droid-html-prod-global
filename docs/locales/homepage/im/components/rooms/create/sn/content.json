@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Gadzira kamuri"
+    },
+    "dialog": {
+      "title": "Gadzira imba nyowani",
+      "form": {
+        "userId": {
+          "label": "Mushandisi ID",
+          "placeholder": "Isa iyo mushandisi ID (semuenzaniso: @user: muenzaniso.com)",
+          "error": {
+            "required": "Mushandisi ID haigone kuve isina chinhu",
+            "invalid": "Isingaoneki Mushandisi ID"
+          }
+        },
+        "roomName": {
+          "label": "Zita remumba (sarudzo)",
+          "placeholder": "Isa zita remakamuri"
+        },
+        "isEncrypted": {
+          "label": "Gonesa kupera-kusvika-kupera encryption"
+        },
+        "isDirect": {
+          "label": "Direct meseji"
+        },
+        "topic": {
+          "label": "Dingindira (Inesarudzo)",
+          "placeholder": "Pinda mukamuri dingindira"
+        }
+      },
+      "actions": {
+        "cancel": "Kanzura",
+        "create": "gadzira"
+      },
+      "success": "Kamuri Chisiko Zvakabudirira",
+      "error": "Kanganiso yakaitika panguva yekugadzira kamuri: {kukanganisa]"
+    }
+  }
+}

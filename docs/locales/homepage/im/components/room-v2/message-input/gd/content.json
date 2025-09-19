@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "Cuir ceanglaichean ris",
+    "emoji": "Tagh abairt",
+    "placeholder": "Cuir a-steach teachdaireachd ...",
+    "sendLocation": "Cuir àite",
+    "send": "cuir"
+  }
+}

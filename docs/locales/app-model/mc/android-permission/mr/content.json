@@ -1,0 +1,7 @@
+{
+  "androidPermission": {
+    "denied": "नाकारणे",
+    "granted": "अधिकृत",
+    "shouldAskAgain": "अनधिकृत"
+  }
+}

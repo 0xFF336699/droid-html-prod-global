@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Setări de cameră",
+    "tabs": {
+      "basic": "Setări de bază",
+      "permission": "Setări de permisiune",
+      "privacy": "Setări de confidențialitate",
+      "member": "Managementul membrilor"
+    },
+    "loadError": "Nu a reușit să încarce setările camerei",
+    "leaveRoom": {
+      "button": "Ieșiți din cameră",
+      "confirm": "Ești sigur că vrei să ieși din cameră? După ce ieșiți, nu veți putea continua să primiți mesaje din această cameră.",
+      "success": "A ieșit din cameră cu succes",
+      "error": "Nu a reușit să ieșiți din cameră, vă rugăm să încercați din nou"
+    }
+  }
+}

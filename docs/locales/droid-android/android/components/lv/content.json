@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Atcelt",
+    "ok": "Drošs",
+    "checkBoxText": "Dodieties tieši, lai autorizētu pusmēneša laikā un vairs neparādītu šo logu",
+    "content": "Šai funkcijai nepieciešama papildu funkciju autorizācija. Ja vēlaties autorizēties, lūdzu, noklikšķiniet uz [Labi]. Ja vēlaties atteikties, lūdzu, noklikšķiniet uz [Atcelt]",
+    "title": "Autorizācijas pieteikums"
+  },
+  "floatPermission": {
+    "cancel": "Atcelt",
+    "ok": "Drošs",
+    "checkBoxText": "Dodieties tieši, lai autorizētu pusmēneša laikā un vairs neparādītu šo logu",
+    "content": "Šai funkcijai ir nepieciešama peldošā loga funkcija. Ja vēlaties autorizēties, lūdzu, noklikšķiniet uz [Labi]. Ja vēlaties atteikties, lūdzu, noklikšķiniet uz [Atcelt]",
+    "title": "Autorizācijas pieteikums"
+  }
+}

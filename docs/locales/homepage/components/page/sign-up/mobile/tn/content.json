@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "rejesetara",
+    "phoneNumber": "Nomoro ya mogala",
+    "phoneNumberPlaceholder": "Tsweetswee tsenya nomoro ya gago ya selulafouno",
+    "verificationCode": "Khoutu ya netefatso",
+    "verificationCodePlaceholder": "Tsweetswee tsenya khoutu ya netefatso",
+    "getVerificationCode": "Bona khoutu ya netefatso",
+    "countdown": "{{metsotswana}} metsotswana go leka gape",
+    "register": "rejesetara",
+    "errors": {
+      "phoneRequired": "Tsweetswee tsenya nomoro ya gago ya selulafouno",
+      "phoneInvalid": "Fomete ya nomoro ya selulafouno ga e a nepagala",
+      "codeRequired": "Tsweetswee tsenya khoutu ya netefatso",
+      "codeInvalid": "Fomete ya khoutu ya netefatso ga e a nepagala",
+      "requestFailed": "Kopo e paletswe",
+      "verificationFailed": "Go bona khoutu ya netefatso go paletswe",
+      "loginFailed": "Go tsena mo lefelong le le rileng go paletswe"
+    },
+    "success": {
+      "verificationCodeSent": "Khoutu ya netefatso e rometswe",
+      "registerSuccess": "Kwadisitswe ka katlego"
+    }
+  }
+}

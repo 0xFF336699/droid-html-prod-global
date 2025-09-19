@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Bobomi ya node .",
+    "changeBtnLabel": "kozwa esika",
+    "showNodeAllProperties": "Lakisa ba propriétés nionso .",
+    "wait": {
+      "time": "Ntango ya kozela .",
+      "interval": "Intervalle ya kozela .",
+      "invisible": "Soki ya koyeba biloko oyo ezali na libándá ya écran ."
+    }
+  }
+}

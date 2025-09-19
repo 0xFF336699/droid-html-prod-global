@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Igumbi loluntu",
+        "description": "Amagumbi oluntu anokukhangelwa abanye abasebenzisi"
+      },
+      "allowGuestJoin": {
+        "label": "Vumela iindwendwe ukuba zijoyine",
+        "description": "Vumela abasebenzisi abangabhaliswanga ukuba bajoyine igumbi njengendwendwe"
+      },
+      "isEncrypted": {
+        "label": "Nika amandla okupheliswa",
+        "description": "Xa inikwe amandla, imiyalezo egumbini iya kuba sisiphelo sokuphela",
+        "alert": "Uguqulelo lokuphela kokuphela lusebenza egumbini, kwaye olu seto alunakucinywa."
+      },
+      "submit": "Gcina Useto lwabucala"
+    },
+    "toast": {
+      "success": "Useto lwabucala luhlaziyiwe",
+      "error": "Ayiphumelelanga ukuhlaziya useto lwabucala"
+    }
+  }
+}

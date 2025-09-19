@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Feyshtyn son olteynyn"
+    },
+    "table": {
+      "columns": {
+        "name": "Ennym",
+        "userId": "ID y cleaysh",
+        "actions": "Cur"
+      },
+      "pagination": {
+        "rowsPerPage": "Slane rowyn 'sy duillag ."
+      },
+      "avatar": {
+        "alt": "aggair"
+      },
+      "actions": {
+        "kick": "Kick magh",
+        "ban": "Bannit"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Confirm y balloon kicking",
+        "content": "As t'ou shickyr dy vel oo er n'yannoo kick y balloon ass y room?"
+      },
+      "ban": {
+        "title": "Confirm y ballaght bannit",
+        "content": "As t'ou shickyr dy vel oo er n'yannoo bannaght er y ball shoh? Cha bee'n balloon ry-hoi y room erreish da'n bannit."
+      },
+      "buttons": {
+        "cancel": "cur ass",
+        "confirm": "cur fo laue yn aspick"
+      }
+    },
+    "toast": {
+      "loadError": "Cha nel eh er ny choyrt son y list jeh'n balloon",
+      "kick": {
+        "success": "Ta ny ballaghyn er nyn stroie ass y room",
+        "error": "T'ad er n'yannoo rish ny ballaghyn"
+      },
+      "ban": {
+        "success": "Va olteynyn currit da",
+        "error": "Cha nel eh ry-gheddyn dy chur stiagh ny ballaghyn"
+      }
+    },
+    "invite": {
+      "button": "Moltey",
+      "title": "Ta ny ballaghyn cur booise da'n seihll",
+      "inputLabel": "Cur-my-ner, gow stiagh ID y cleaysh Matrix (myr sampleyr @user:matrix.org)",
+      "confirm": "cuir",
+      "cancel": "cur ass",
+      "loading": "Inviting...",
+      "success": "Taishbyney er ny choyrt!",
+      "error": "T'eh er n'eiyrt, cur-my-ner ID ny ceadyn"
+    },
+    "empty": "Cha nel oltey foast",
+    "loading": "load...",
+    "role": {
+      "owner": "Sthie",
+      "admin": "Reillee",
+      "moderator": "Co-ardyssagh",
+      "user": "oltey"
+    }
+  }
+}

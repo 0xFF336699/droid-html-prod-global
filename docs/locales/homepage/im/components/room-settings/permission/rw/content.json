@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Urwego rwuburenganzira rusabwa kugirango wohereze ubutumwa",
+        "tooltip": "0 bivuze ko abanyamuryango bose bashobora kohereza ubutumwa, kandi nini umubare bivuze ko uruhushya rwo hejuru rusabwa"
+      },
+      "invite": {
+        "label": "Urwego rwuburenganzira rusabwa kugirango utumire abanyamuryango bashya",
+        "tooltip": "Set ushobora gutumira abanyamuryango bashya mucyumba"
+      },
+      "kick": {
+        "label": "Kwirukana urwego rusabwa uruhushya",
+        "tooltip": "Set ishobora kwirukana abanyamuryango"
+      },
+      "ban": {
+        "label": "Urwego rwuruhushya rusabwa kugirango ruhagarike abanyamuryango",
+        "tooltip": "Set ninde ushobora guhagarika abanyamuryango"
+      },
+      "roomSettings": {
+        "label": "Hindura urwego rusabwa urwego rwimiterere yicyumba",
+        "tooltip": "Shiraho Ushobora Guhindura Igenamiterere ryubuzima"
+      },
+      "submit": "Kubika Igenamiterere"
+    },
+    "description": "Urwego rwuburenganzira: 0-100, Umubare munini bisobanura Uruhushya rwo hejuru rusabwa",
+    "toast": {
+      "success": "Igenamiterere ryibikorwa byavuguruwe",
+      "error": "Kunanirwa kuvugurura igenamiterere"
+    }
+  }
+}

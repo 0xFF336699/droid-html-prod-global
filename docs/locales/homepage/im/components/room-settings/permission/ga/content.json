@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "An leibhéal ceada a theastaíonn chun teachtaireacht a sheoladh",
+        "tooltip": "Ciallaíonn 0 gur féidir le gach ball teachtaireachtaí a sheoladh, agus is mó an uimhir a chiallaíonn go bhfuil gá le ceadanna níos airde"
+      },
+      "invite": {
+        "label": "Leibhéal Cead is gá chun cuireadh a thabhairt do bhaill nua",
+        "tooltip": "Socraigh atá in ann cuireadh a thabhairt do bhaill nua chuig an seomra"
+      },
+      "kick": {
+        "label": "Ciceáil an leibhéal cead riachtanach",
+        "tooltip": "Tacar atá in ann baill an tseomra a chiceáil"
+      },
+      "ban": {
+        "label": "Leibhéal Cead atá ag teastáil chun baill a bhlocáil",
+        "tooltip": "Socraigh atá in ann baill an tseomra a bhlocáil"
+      },
+      "roomSettings": {
+        "label": "Athraigh an leibhéal ceada riachtanach de shuíomhanna seomra",
+        "tooltip": "Socraigh atá in ann na socruithe seomra a mhodhnú"
+      },
+      "submit": "Sábháil Socruithe Cead"
+    },
+    "description": "Réimse Leibhéal Cead: 0-100, is ea is mó a chiallaíonn an uimhir go bhfuil ceadanna níos airde ag teastáil",
+    "toast": {
+      "success": "Nuashonraíodh socruithe ceada",
+      "error": "Theip ar Socruithe Cead a nuashonrú"
+    }
+  }
+}

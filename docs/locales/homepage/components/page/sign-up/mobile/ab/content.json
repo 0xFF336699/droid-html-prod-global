@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "ашәҟәы аҭагалара",
+    "phoneNumber": "Аҭел аномер",
+    "phoneNumberPlaceholder": "Умобилтә ҭел аномер ҭажәгал",
+    "verificationCode": "Акод ашьақәырӷәӷәара",
+    "verificationCodePlaceholder": "Агәаҭаратә код ҭажәгал",
+    "getVerificationCode": "Агәаҭаратә код ааҳгап",
+    "countdown": "{{секунд}} секундқәак рзы",
+    "register": "ашәҟәы аҭагалара",
+    "errors": {
+      "phoneRequired": "Умобилтә ҭел аномер ҭажәгал",
+      "phoneInvalid": "Амобилтә телефон аномер аформат иашам",
+      "codeRequired": "Агәаҭаратә код ҭажәгал",
+      "codeInvalid": "Агәаҭара акод аформат иашам",
+      "requestFailed": "Аҳәара ҟамлеит",
+      "verificationFailed": "Агәаҭаратә код аиура алымшеит",
+      "loginFailed": "Аҩналара лҵшәадахеит"
+    },
+    "success": {
+      "verificationCodeSent": "Агәаҭаратә код аашьҭуп",
+      "registerSuccess": "қәҿиарала ашәҟәы иҭагалоуп"
+    }
+  }
+}

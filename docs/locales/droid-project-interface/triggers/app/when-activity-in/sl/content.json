@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Pri vstopu na določeno stran",
+    "pnLabel": "Ime paketa:",
+    "anLabel": "Ime aktivnosti:",
+    "cnLabel": "Ime razreda:",
+    "changeBtnLabel": "zamenjaj"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Pri vstopu na določeno stran",
+    "pnLabel": "Ime paketa:",
+    "anLabel": "Ime aktivnosti:",
+    "cnLabel": "Ime razreda:",
+    "changeBtnLabel": "zamenjaj"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Өстәргә",
+    "sub": {
+      "addScriptByUrl": "URL аша сценарийлар өстәгез",
+      "addScriptByText": "Текст аша сценарийлар өстәгез",
+      "addMarket": "URL аша базар өстәргә",
+      "addMarketByText": "Текст аша базар өстәргә"
+    }
+  }
+}

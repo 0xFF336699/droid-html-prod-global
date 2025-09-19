@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Ruang umum",
+        "description": "Ruang publik dapat dicari oleh pengguna lain"
+      },
+      "allowGuestJoin": {
+        "label": "Izinkan pengunjung untuk bergabung",
+        "description": "Izinkan pengguna yang tidak terdaftar untuk bergabung dengan kamar sebagai tamu"
+      },
+      "isEncrypted": {
+        "label": "Aktifkan enkripsi ujung ke ujung",
+        "description": "Saat diaktifkan, pesan di ruangan akan dienkripsi ujung ke ujung",
+        "alert": "Enkripsi ujung ke ujung diaktifkan di dalam ruangan, dan pengaturan ini tidak dapat dimatikan."
+      },
+      "submit": "Simpan pengaturan privasi"
+    },
+    "toast": {
+      "success": "Pengaturan privasi telah diperbarui",
+      "error": "Gagal memperbarui pengaturan privasi"
+    }
+  }
+}

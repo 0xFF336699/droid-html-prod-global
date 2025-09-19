@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Peruuttaa",
+    "confirm": "Varma",
+    "title": "vihje",
+    "content": "Oletko varma, että haluat tehdä tämän?"
+  },
+  "EditableText": {
+    "cancel": "Peruuttaa",
+    "save": "tallentaa",
+    "title": "muokata"
+  }
+}

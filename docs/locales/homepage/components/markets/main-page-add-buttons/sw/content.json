@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Ongeza kwa",
+    "sub": {
+      "addScriptByUrl": "Ongeza maandishi kupitia URL",
+      "addScriptByText": "Ongeza maandishi kupitia maandishi",
+      "addMarket": "Ongeza soko kupitia URL",
+      "addMarketByText": "Ongeza soko kupitia maandishi"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Tên phòng"
+      },
+      "topic": {
+        "label": "Giới thiệu phòng"
+      },
+      "avatar": {
+        "alt": "Avatar phòng"
+      },
+      "submit": "Lưu cài đặt"
+    },
+    "toast": {
+      "success": "Cài đặt được cập nhật",
+      "error": {
+        "default": "Cập nhật cài đặt không thành công",
+        "avatar": "Không cập nhật Avatar"
+      }
+    }
+  }
+}

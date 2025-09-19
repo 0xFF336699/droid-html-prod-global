@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "Magdagdag ng mga kalakip",
+    "emoji": "Pumili ng isang expression",
+    "placeholder": "Magpasok ng isang mensahe ...",
+    "sendLocation": "Magpadala ng lokasyon",
+    "send": "ipadala"
+  }
+}

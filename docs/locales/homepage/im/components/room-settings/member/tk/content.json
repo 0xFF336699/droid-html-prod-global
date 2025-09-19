@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Agza gözläň"
+    },
+    "table": {
+      "columns": {
+        "name": "Agza olaryň ady",
+        "userId": "Ulanyjy belgisi",
+        "actions": "işlemek"
+      },
+      "pagination": {
+        "rowsPerPage": "Sahypada hatarlaryň sany"
+      },
+      "avatar": {
+        "alt": "awatar"
+      },
+      "actions": {
+        "kick": "Kowmak",
+        "ban": "Gadagan edildi"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Çykan agzany tassyklaň",
+        "content": "Agzany otdan çykyp, urmak isleýändigiňize ynanýarsyňyzmy?"
+      },
+      "ban": {
+        "title": "Gadagan edilen agzalygy tassyklaň",
+        "content": "Bu agza gadagan etmek isleýändigiňize ynanýarsyňyzmy? Agza gadaganlykdan soň otaga zynjyryna begenip bilmezler."
+      },
+      "buttons": {
+        "cancel": "Ýatyr",
+        "confirm": "tassykla"
+      }
+    },
+    "toast": {
+      "loadError": "Agza sanawyny ýükläp bilmedi",
+      "kick": {
+        "success": "Agzalar otagdan kowuldy",
+        "error": "Agzalary kowmak başa barmady"
+      },
+      "ban": {
+        "success": "Agzalar petiklendi",
+        "error": "Agzalary blokirläp bilmedi"
+      }
+    },
+    "invite": {
+      "button": "Agzalary çagyryň",
+      "title": "Agzalara otaga goşulmaga çagyryň",
+      "inputLabel": "Matrisa ulanyjy şahsyýetini giriziň (@Urerer: Matrisrisrice.org) ýaly",
+      "confirm": "çakylyk",
+      "cancel": "Ýatyr",
+      "loading": "Çaklama ...",
+      "success": "Iberilen çakylyk!",
+      "error": "Çakylyk şowsuz boldy, ulanyjy şahsyýetini ýa-da rugsatlary barlaň"
+    },
+    "empty": "Entek agza däl",
+    "loading": "Adingüklenýär ...",
+    "role": {
+      "owner": "Öý eýesi",
+      "admin": "administrator",
+      "moderator": "Bilelikdäki dolandyryş",
+      "user": "agza"
+    }
+  }
+}

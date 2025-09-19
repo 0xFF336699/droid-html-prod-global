@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "taamitta",
+    "click": "xukk",
+    "longClick": "der udduru",
+    "setText": "kutbe",
+    "tryClick": "liyyitte akkek arac xag",
+    "globalClick": "arac xag"
+  }
+}

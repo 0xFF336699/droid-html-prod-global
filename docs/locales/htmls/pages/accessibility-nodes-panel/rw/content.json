@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Kugerwaho Interface Reba",
+    "howToUse": "Amabwiriza yo gukoresha",
+    "howToUseTooltip": "Hano haribiranga ibiranga iyi node ishobora gukoreshwa muguhitamo ibikorwa, nko gukanda, kuzuza inyandiko, nibindi\n\nIkiranga agaciro kirashobora kwigana kurupapuro rwa porogaramu. Niba uhuye na duplicates, nyamuneka hejuru y'ibindi biranga kugirango umenye umwihariko.\n\nIjambo ritukura ryerekana ko ikiranga gisubirwamo, ijambo ryicyatsi ryerekana ko ikiranga gisanzwe murupapuro rwubu, kandi ijambo ryirabura ryerekana ko ntagereranywa.",
+    "otherNodesSummary": "Andi mazina aha hantu",
+    "moreNodes": "Dore ibigurwa.",
+    "nodeInfoDialogOkButton": "Hindura imikorere yiyi Node",
+    "text": "Inyandiko 2222"
+  }
+}

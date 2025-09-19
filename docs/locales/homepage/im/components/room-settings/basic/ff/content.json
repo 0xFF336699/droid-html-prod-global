@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Innde suudu"
+      },
+      "topic": {
+        "label": "Naatgol suudu"
+      },
+      "avatar": {
+        "alt": "Avatar suudu"
+      },
+      "submit": "Hisnude dottaaɗe"
+    },
+    "toast": {
+      "success": "Cuɓe kesɗitinaa",
+      "error": {
+        "default": "Kesɗitingol dottaaɗe ŋakkaani",
+        "avatar": "Waɗiraa ko hesɗitinde avatar"
+      }
+    }
+  }
+}

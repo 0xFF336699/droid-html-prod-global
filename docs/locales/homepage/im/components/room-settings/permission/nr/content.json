@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Kunjalo: “Akufala.",
+        "tooltip": "10. U-ama, i-Ass, i-Arsss, i-Arar."
+      },
+      "invite": {
+        "label": "I-is 1000 u-100.",
+        "tooltip": "Iqembu edluleyo edluleyo."
+      },
+      "kick": {
+        "label": "Umbuzo we-4",
+        "tooltip": "Wahamba ubusuku uhamba ikhalo."
+      },
+      "ban": {
+        "label": "Iyo mdlalo ibizwa ngokuthi umehluko.",
+        "tooltip": "Umehluko ubukhulu uzulu ."
+      },
+      "roomSettings": {
+        "label": "I-issss 10.",
+        "tooltip": "Kunjalo abangu-Alisi ."
+      },
+      "submit": "Hlala i ."
+    },
+    "description": "I-10000 u-10000 u-100.",
+    "toast": {
+      "success": "Ubusuku amaviki amabili .",
+      "error": "Akukho ukuxazulula ukwakheka ."
+    }
+  }
+}

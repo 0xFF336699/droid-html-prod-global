@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Cruinney room"
+    },
+    "dialog": {
+      "title": "Cruinney room noa",
+      "form": {
+        "userId": {
+          "label": "ID y cleaysh",
+          "placeholder": "Cur stiagh yn ID ymmydeyr (myr sampleyr: @user: Mychione.com)",
+          "error": {
+            "required": "ID y cleaysh cha vod eh ve foshlit",
+            "invalid": "Coamrey user invalid"
+          }
+        },
+        "roomName": {
+          "label": "Ennym soit (optional)",
+          "placeholder": "Cur stiagh ennym room"
+        },
+        "isEncrypted": {
+          "label": "Cur stiagh encryption end-dy-end"
+        },
+        "isDirect": {
+          "label": "Teisht"
+        },
+        "topic": {
+          "label": "Teme (optional)",
+          "placeholder": "Cur stiagh y theme room"
+        }
+      },
+      "actions": {
+        "cancel": "cur ass",
+        "create": "croo"
+      },
+      "success": "Cruinnaght y yannoo",
+      "error": "Va error er-mayrn tra v'eh er n'yannoo room: {error}"
+    }
+  }
+}

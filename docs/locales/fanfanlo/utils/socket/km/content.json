@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "ការភ្ជាប់ ...",
+    "connected": "ខាងចមដេល",
+    "disconnecting": "ផ្តាច់ ...",
+    "disconnected": "មិនបានភ្ជាប់",
+    "waitRetry": "រង់ចាំការអនុម័តឡើងវិញ ..."
+  }
+}

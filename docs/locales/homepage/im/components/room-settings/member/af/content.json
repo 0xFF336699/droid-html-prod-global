@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Soek na lede"
+    },
+    "table": {
+      "columns": {
+        "name": "Lidnaam",
+        "userId": "Gebruikers -ID",
+        "actions": "opereer"
+      },
+      "pagination": {
+        "rowsPerPage": "Aantal rye per bladsy"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Skop",
+        "ban": "Verban"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Bevestig die skoplid",
+        "content": "Is u seker dat u die lid uit die kamer wil skop?"
+      },
+      "ban": {
+        "title": "Bevestig die verbode lidmaatskap",
+        "content": "Is u seker dat u hierdie lid wil verbied? Die lid sal nie na die verbod weer by die kamer kan aansluit nie."
+      },
+      "buttons": {
+        "cancel": "Kanselleer",
+        "confirm": "bevestig"
+      }
+    },
+    "toast": {
+      "loadError": "Kon nie lidlys laai nie",
+      "kick": {
+        "success": "Lede is uit die kamer geskop",
+        "error": "Die uitskop van lede het misluk"
+      },
+      "ban": {
+        "success": "Lede geblokkeer",
+        "error": "Kon nie lede blokkeer nie"
+      }
+    },
+    "invite": {
+      "button": "Nooi lede uit",
+      "title": "Nooi lede om by die kamer aan te sluit",
+      "inputLabel": "Voer asseblief die Matrix -gebruikers -ID in (soos @user: Matrix.org)",
+      "confirm": "uitnooi",
+      "cancel": "Kanselleer",
+      "loading": "Uitnodigende ...",
+      "success": "Uitnodiging gestuur!",
+      "error": "Uitnodiging misluk, kyk gerus na die gebruiker -ID of toestemmings"
+    },
+    "empty": "Nog geen lid nie",
+    "loading": "Laai ...",
+    "role": {
+      "owner": "Huiseienaar",
+      "admin": "administratrise",
+      "moderator": "Mede-bestuur",
+      "user": "lid"
+    }
+  }
+}

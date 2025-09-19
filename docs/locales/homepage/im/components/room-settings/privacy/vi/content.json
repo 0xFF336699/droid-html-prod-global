@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Phòng công cộng",
+        "description": "Phòng công cộng có thể được tìm kiếm bởi những người dùng khác"
+      },
+      "allowGuestJoin": {
+        "label": "Cho phép khách tham gia tham gia",
+        "description": "Cho phép người dùng chưa đăng ký tham gia phòng với tư cách là khách"
+      },
+      "isEncrypted": {
+        "label": "Cho phép mã hóa từ đầu đến cuối",
+        "description": "Khi được bật, các tin nhắn trong phòng sẽ được mã hóa từ đầu đến cuối",
+        "alert": "Mã hóa từ đầu đến cuối được bật trong phòng và cài đặt này không thể tắt."
+      },
+      "submit": "Lưu cài đặt quyền riêng tư"
+    },
+    "toast": {
+      "success": "Cài đặt riêng tư đã được cập nhật",
+      "error": "Không cập nhật cài đặt quyền riêng tư"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Twam",
+    "confirm": "Gye di",
+    "title": "ti ho",
+    "content": "Wogye di sɛ wopɛ sɛ woyɛ eyi?"
+  },
+  "EditableText": {
+    "cancel": "Twam",
+    "save": "kora",
+    "title": "sa mu"
+  }
+}

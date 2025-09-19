@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Configurazioni di a Sala",
+    "tabs": {
+      "basic": "Paràmetri di basa",
+      "permission": "Paràmetri di permessi",
+      "privacy": "Paràmetri di privacy",
+      "member": "Gestione di Membru"
+    },
+    "loadError": "Fiascatu à carricà i paràmetri di a sala",
+    "leaveRoom": {
+      "button": "Esci da a stanza",
+      "confirm": "Hè sicura chì vulete surtite da a stanza? Dopu à surtite, ùn puderete micca cuntinuà à riceve missaghji da sta stanza.",
+      "success": "Esce a stanza cun successu",
+      "error": "Fiascatu à esce da a stanza, pruvate di novu"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Maak ‘n kamer"
+    },
+    "dialog": {
+      "title": "Maak ‘n nuie kamer",
+      "form": {
+        "userId": {
+          "label": "Gebruuks-ID",
+          "placeholder": "Voer de gebruker-ID in (beveurbeeld: @bus-example.com)",
+          "error": {
+            "required": "Gebruukers-ID kin neet leeg zien",
+            "invalid": "Ongeldige gebruukers-ID-formaat"
+          }
+        },
+        "roomName": {
+          "label": "Kamer naom (optioneel)",
+          "placeholder": "Voer ‘n kamernaom in"
+        },
+        "isEncrypted": {
+          "label": "Maak eind-tot-end versleuteling in"
+        },
+        "isDirect": {
+          "label": "Directe boodsjap direk"
+        },
+        "topic": {
+          "label": "Ze (optioneel)",
+          "placeholder": "Voer ‘t kamerthema in"
+        }
+      },
+      "actions": {
+        "cancel": "Annulere",
+        "create": "creëre"
+      },
+      "success": "De bezomtingscreatie mèt succes",
+      "error": "‘n Verfrissing plaotsvoont tijdens ‘t make vaan ‘n kamer: {error}"
+    }
+  }
+}

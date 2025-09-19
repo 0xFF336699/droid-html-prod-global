@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "Bozorga qo'shish",
+    "url": "Bozor URL manzili",
+    "summary": "Bozorning xulosasi",
+    "urlIsNotValid": "Noto'g'ri bozor URL manzili"
+  }
+}

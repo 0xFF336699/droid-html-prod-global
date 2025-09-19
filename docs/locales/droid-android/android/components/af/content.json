@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Kanselleer",
+    "ok": "Seker",
+    "checkBoxText": "Gaan direk na magtiging binne 'n halwe maand en vertoon nie meer hierdie venster nie",
+    "content": "Hierdie funksie vereis hulpmagtiging van hulpfunksies. Klik op [OK] as u dit wil magtig. Klik op [kanselleer] as u wil opgee",
+    "title": "Magtigingsaansoek"
+  },
+  "floatPermission": {
+    "cancel": "Kanselleer",
+    "ok": "Seker",
+    "checkBoxText": "Gaan direk na magtiging binne 'n halwe maand en vertoon nie meer hierdie venster nie",
+    "content": "Hierdie funksie vereis magtiging van die drywende vensterfunksie. Klik op [OK] as u dit wil magtig. Klik op [kanselleer] as u wil opgee",
+    "title": "Magtigingsaansoek"
+  }
+}

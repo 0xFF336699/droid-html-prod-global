@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "hiasa",
+    "click": "tsindrio",
+    "longClick": "Long Press",
+    "setText": "Asio lahatsoratra",
+    "tryClick": "Manandrama singa na toerana tsindrio",
+    "globalClick": "Toerana tsindrio"
+  }
+}

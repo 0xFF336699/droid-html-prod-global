@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Foroba so .",
+        "description": "foroba so bɛ se ka ɲini baarakɛla wɛrɛw fɛ ."
+      },
+      "allowGuestJoin": {
+        "label": "A to taamakɛlaw ka fara ɲɔgɔn kan .",
+        "description": "A to baarakɛlaw minnu tɔgɔ ma sɛbɛn, olu ka don so kɔnɔ i n’a fɔ dunan ."
+      },
+      "isEncrypted": {
+        "label": "Encryption laban-ni-da-baarakɛcogo daminɛ .",
+        "description": "Ni a daminɛna, cikan minnu bɛ so kɔnɔ, olu bɛna siri laban-ni-ban .",
+        "alert": "Encryption laban-ni-ban bɛ se ka kɛ so kɔnɔ, wa o sigicogo tɛ se ka faga."
+      },
+      "submit": "Save Privacy Settings ."
+    },
+    "toast": {
+      "success": "Kunnafoni-falen-falen-falen-falen-falen-falen-falen-falen-falen-falenw",
+      "error": "A ma se ka mɔgɔ dogoyɔrɔw labɛn ."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "નોડ અમલ",
+    "changeBtnLabel": "બદલવું",
+    "showNodeAllProperties": "બધી ગુણધર્મો બતાવો",
+    "wait": {
+      "time": "રાહનો સમય",
+      "interval": "પ્રતીક્ષા અંતરાલ",
+      "invisible": "શું સ્ક્રીનની બહાર તત્વો શોધવા માટે"
+    }
+  }
+}

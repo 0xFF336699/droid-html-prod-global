@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Rondera abanywanyi"
+    },
+    "table": {
+      "columns": {
+        "name": "Izina ry'Umunyamuryango",
+        "userId": "ID y'ukoresha",
+        "actions": "gukoresha"
+      },
+      "pagination": {
+        "rowsPerPage": "Umubare w'imirongo kuri paji"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Zirikana",
+        "ban": "Bannfis"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Wemeze umunyamuryango w'ikirenge",
+        "content": "Woba uzi neza ko ushaka gutera umunyamuryango mu cumba?"
+      },
+      "ban": {
+        "title": "Wemeze ubunywanyi bwabujijwe",
+        "content": "Woba uzi neza ko ushaka kubuza uwo munyamuryango? Uwo munywanyi ntazoshobora gusubira mu cumba inyuma y’aho abujijwe."
+      },
+      "buttons": {
+        "cancel": "Guhagarika",
+        "confirm": "kwemeza"
+      }
+    },
+    "toast": {
+      "loadError": "Yananiwe gushiramwo urutonde rw'abagize umuryango",
+      "kick": {
+        "success": "Abagize iyo nama barakuwe mu cumba .",
+        "error": "Abagize umuryango bananiwe barananiwe"
+      },
+      "ban": {
+        "success": "Abagize umuryango babujije",
+        "error": "Yananiwe guhagarika abanywanyi"
+      }
+    },
+    "invite": {
+      "button": "Nimutume abagize umuryango",
+      "title": "Mutumire abagize umuryango",
+      "inputLabel": "Turagusavye winjize ID y'ukoresha (nk'i @user:matrix.org)",
+      "confirm": "gutumira",
+      "cancel": "Guhagarika",
+      "loading": "Gutumira...",
+      "success": "Ubutumire bwarungitswe!",
+      "error": "Ubutunzi bwananiwe, ndagusavye usuzume ID y'ukoresha canke uruhusha"
+    },
+    "empty": "Nta munywanyi",
+    "loading": "gushiramwo...",
+    "role": {
+      "owner": "Uwufise inzu",
+      "admin": "umuyobozi",
+      "moderator": "Uburongozi",
+      "user": "umunyamuryango"
+    }
+  }
+}

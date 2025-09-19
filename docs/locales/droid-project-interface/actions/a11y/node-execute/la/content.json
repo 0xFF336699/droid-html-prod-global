@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Nodi supplicium",
+    "changeBtnLabel": "reponere",
+    "showNodeAllProperties": "Ostende omnes proprietatibus",
+    "wait": {
+      "time": "Expectans tempus",
+      "interval": "Expectans",
+      "invisible": "Utrum deprehendere elementa extra screen"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Szobabeállítások",
+    "tabs": {
+      "basic": "Alapbeállítások",
+      "permission": "Engedélybeállítások",
+      "privacy": "Adatvédelmi beállítások",
+      "member": "Tagkezelés"
+    },
+    "loadError": "Nem sikerült betölteni a helyiségbeállításokat",
+    "leaveRoom": {
+      "button": "Kilép a szobából",
+      "confirm": "Biztos benne, hogy ki akar lépni a szobából? A kilépés után nem tudja folytatni az üzenetek fogadását ebből a szobából.",
+      "success": "Sikeresen kilépett a helyiségből",
+      "error": "Nem sikerült kilépni a szobából, próbálkozzon újra"
+    }
+  }
+}

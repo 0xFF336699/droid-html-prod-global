@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Potražite članove"
+    },
+    "table": {
+      "columns": {
+        "name": "Ime člana",
+        "userId": "Korisnički ID",
+        "actions": "raditi"
+      },
+      "pagination": {
+        "rowsPerPage": "Broj reda po stranici"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Izbiti",
+        "ban": "Zabranjen"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Potvrdite člana udaranja",
+        "content": "Jeste li sigurni da želite izbaciti člana iz sobe?"
+      },
+      "ban": {
+        "title": "Potvrdite zabranjeno članstvo",
+        "content": "Jeste li sigurni da želite zabraniti ovog člana? Član se neće moći pridružiti sobi nakon zabrane."
+      },
+      "buttons": {
+        "cancel": "Otkazati",
+        "confirm": "potvrditi"
+      }
+    },
+    "toast": {
+      "loadError": "Nije uspjelo učitavanje liste članova",
+      "kick": {
+        "success": "Članovi su izbačeni iz sobe",
+        "error": "Izbačevanje članova nisu uspjeli"
+      },
+      "ban": {
+        "success": "Članovi su blokirani",
+        "error": "Neuspjelo blokiranje članova"
+      }
+    },
+    "invite": {
+      "button": "Pozovite članove",
+      "title": "Pozovite članove da se pridruže sobi",
+      "inputLabel": "Unesite korisnički ID Matrix (poput @User-a: matrix.org)",
+      "confirm": "pozvati",
+      "cancel": "Otkazati",
+      "loading": "Pozivajući ...",
+      "success": "Poziv poslana!",
+      "error": "Poziv nije uspio, provjerite korisnički ID ili dozvole"
+    },
+    "empty": "Još nema člana",
+    "loading": "Učitavanje ...",
+    "role": {
+      "owner": "Vlasnik kuće",
+      "admin": "administrator",
+      "moderator": "Supstancija",
+      "user": "član"
+    }
+  }
+}

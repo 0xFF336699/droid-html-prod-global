@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Krouiñ ur sal"
+    },
+    "dialog": {
+      "title": "Krouiñ ur sal nevez",
+      "form": {
+        "userId": {
+          "label": "ID implijer",
+          "placeholder": "Ebarzhit an ID implijer (da skouer : @user:skouer.com)",
+          "error": {
+            "required": "N'hall ket ID an implijer bezañ goullo .",
+            "invalid": "Stumm ID implijer didalvoudek"
+          }
+        },
+        "roomName": {
+          "label": "Anv ar sal (dibar)",
+          "placeholder": "Mont e-barzh un anv kambr"
+        },
+        "isEncrypted": {
+          "label": "Gweredekaat an enrinegañ penn-da-benn"
+        },
+        "isDirect": {
+          "label": "Kemennadenn reizh"
+        },
+        "topic": {
+          "label": "Tem (dibar)",
+          "placeholder": "Mont e-barzh tem ar sal"
+        }
+      },
+      "actions": {
+        "cancel": "Nullañ",
+        "create": "krouiñ"
+      },
+      "success": "Krouiñ sal gant berzh",
+      "error": "Ur fazi a c'hoarvezas pa oa o krouiñ ur sal : {error}"
+    }
+  }
+}

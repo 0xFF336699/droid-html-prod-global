@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "reģistrēt",
+    "phoneNumber": "Tālruņa numurs",
+    "phoneNumberPlaceholder": "Lūdzu, ievadiet savu mobilā tālruņa numuru",
+    "verificationCode": "Verifikācijas kods",
+    "verificationCodePlaceholder": "Lūdzu, ievadiet verifikācijas kodu",
+    "getVerificationCode": "Iegūstiet verifikācijas kodu",
+    "countdown": "{{sekundes}} sekundes, lai mēģinātu vēlreiz",
+    "register": "reģistrēt",
+    "errors": {
+      "phoneRequired": "Lūdzu, ievadiet savu mobilā tālruņa numuru",
+      "phoneInvalid": "Mobilā tālruņa numura formāts nav pareizs",
+      "codeRequired": "Lūdzu, ievadiet verifikācijas kodu",
+      "codeInvalid": "Verifikācijas koda formāts nav pareizs",
+      "requestFailed": "Pieprasījums neizdevās",
+      "verificationFailed": "Pārbaudes koda iegūšana neizdevās",
+      "loginFailed": "Pieteikšanās neizdevās"
+    },
+    "success": {
+      "verificationCodeSent": "Ir nosūtīts verifikācijas kods",
+      "registerSuccess": "Veiksmīgi reģistrēts"
+    }
+  }
+}

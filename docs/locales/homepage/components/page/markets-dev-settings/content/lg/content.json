@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Sigala ng'oyungiddwa ku",
+        "helperText": "Bw’onyiga ku link ya Start, olwo keep the link. Kino kyetaagisa okufaayo nti enkolagana ejja kuddamu okuyungibwa obutasalako oluvannyuma lw’okuggyibwako.",
+        "retryCount": "Omuwendo gw'okuddamu okuyungibwa ."
+      },
+      "url": {
+        "name": "URL .",
+        "helperText": "Link URL, okugeza ws://192.168.0.2:7001, oba wws://example.com/path",
+        "error": "URL entuufu ye URL etandika ne ws:// oba wws:// ."
+      }
+    },
+    "connectButton": {
+      "connect": "okukwatagana",
+      "disconnect": "Okuggyako .",
+      "status": {
+        "connecting": "Okuyunga...",
+        "connected": "Eyungiddwa .",
+        "disconnecting": "Okukutula...",
+        "disconnected": "Teziyungiddwa ku .",
+        "waitRetry": "Okulindirira okuddamu okuyungibwa..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "ekiwandiiko"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Emirimu egy’obuyambi .",
+    "pass": "Ekikkirizibwa .",
+    "notPass": "Ekitakkirizibwa .",
+    "setting": "okutandika",
+    "danger": "Akabi",
+    "dangerDesc": "Olukusa luno lusobola okulaba ebirimu ku ssirini n’onyiga ku ssimu yo. Lemesa olukusa luno singa totegeera bulungi nkola n'obulabe bw'ekiwandiiko ky'okola oba ky'ogenda okukola."
+  }
+}

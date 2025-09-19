@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Kanselahin",
+    "ok": "Sigurado",
+    "checkBoxText": "Pumunta nang diretso upang pahintulutan sa loob ng kalahating buwan at hindi na ipakita ang window na ito",
+    "content": "Ang pagpapaandar na ito ay nangangailangan ng pahintulot sa pag -andar ng pantulong. Kung nais mong pahintulutan, mangyaring i -click ang [OK]. Kung nais mong sumuko, mangyaring i -click ang [Kanselahin]",
+    "title": "Aplikasyon ng pahintulot"
+  },
+  "floatPermission": {
+    "cancel": "Kanselahin",
+    "ok": "Sigurado",
+    "checkBoxText": "Pumunta nang diretso upang pahintulutan sa loob ng kalahating buwan at hindi na ipakita ang window na ito",
+    "content": "Ang pagpapaandar na ito ay nangangailangan ng pahintulot ng function ng lumulutang na window. Kung nais mong pahintulutan, mangyaring i -click ang [OK]. Kung nais mong sumuko, mangyaring i -click ang [Kanselahin]",
+    "title": "Aplikasyon ng pahintulot"
+  }
+}

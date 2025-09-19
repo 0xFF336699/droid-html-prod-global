@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "cur ass",
+    "ok": "Shickyr",
+    "checkBoxText": "Gow directly dy authorize ayns leshtal y vee as nagh jean oo y vee shoh y hoilshaghey",
+    "content": "Ta'n obbyr shoh goaill stiagh ymmyd jeh'n obbyr. As my shegin dhyt authorize, click [OK]. As my shegin dhyt y chur seose, click [Cancel]",
+    "title": "Cooish"
+  },
+  "floatPermission": {
+    "cancel": "cur ass",
+    "ok": "Shickyr",
+    "checkBoxText": "Gow directly dy authorize ayns leshtal y vee as nagh jean oo y vee shoh y hoilshaghey",
+    "content": "Ta'n obbyr shoh goaill stiagh ymmyd jeh'n obbyr 'sy vee. As my shegin dhyt authorize, click [OK]. As my shegin dhyt y chur seose, click [Cancel]",
+    "title": "Cooish"
+  }
+}

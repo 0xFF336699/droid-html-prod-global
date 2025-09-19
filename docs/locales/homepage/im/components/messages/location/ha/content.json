@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Sunan wuri",
+    "viewMap": "Duba taswira",
+    "close": "ƙulli"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Mai binciken na yanzu baya goyan bayan sayen gero",
+    "getLocationFailed": "Ya kasa samun wurin, don Allah a duba saitunan izini",
+    "myLocation": "Matsayi na",
+    "shareLocation": "Raba wuri",
+    "getCurrentLocation": "Samu wurin yanzu",
+    "title": "Sunan wuri",
+    "description": "Cikakken kwatancen",
+    "descriptionPlaceholder": "Da fatan za a shigar da cikakken bayanin (na zabi)",
+    "preview": "Gano wuri",
+    "latitude": "latitud",
+    "longitude": "longitude",
+    "cancel": "Warware",
+    "send": "aika da",
+    "permissionPrompt": "Muna buƙatar samun bayanin wurinku don samar da ingantattun ayyuka, ana yarda dashi?",
+    "permissionDenied": "Ana hana izinin sa izini, don Allah a kunna izini a saitunan bincikenku",
+    "locationTimeout": "Matsayi lokaci, ka tabbata cewa an kunna na'urar ka yi kokarin sake yin rubutu",
+    "locationUnavailable": "Ba za a iya samun wurin nan na yanzu ba, don Allah a duba sabis ɗin wurin"
+  }
+}

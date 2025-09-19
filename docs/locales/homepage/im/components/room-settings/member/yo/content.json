@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Wa awọn ọmọ ẹgbẹ"
+    },
+    "table": {
+      "columns": {
+        "name": "Orukọ ọmọ ẹgbẹ",
+        "userId": "Idanimọ olumulo",
+        "actions": "ṣiṣẹ"
+      },
+      "pagination": {
+        "rowsPerPage": "Nọmba awọn ori ila fun oju-iwe"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Tapa jade",
+        "ban": "Gbesele"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Jẹrisi ọmọ ẹgbẹ kika",
+        "content": "Ṣe o da ọ loju pe o fẹ lati ta ọmọ ẹgbẹ kuro ninu yara naa?"
+      },
+      "ban": {
+        "title": "Jẹrisi ẹgbẹ ti ogun",
+        "content": "Ṣe o da ọ loju pe o fẹ lati gbesele ọmọ ẹgbẹ yii? Ọmọ ẹgbẹ kii yoo ni anfani lati pada si yara naa lẹhin wiwọle."
+      },
+      "buttons": {
+        "cancel": "Fagilee",
+        "confirm": "jẹrisi"
+      }
+    },
+    "toast": {
+      "loadError": "Kuna lati dibo ẹgbẹ ẹgbẹ ẹgbẹ",
+      "kick": {
+        "success": "Ti gba awọn ọmọ ẹgbẹ ti a gba jade kuro ni yara naa",
+        "error": "Gbigba awọn ọmọ ẹgbẹ kuna"
+      },
+      "ban": {
+        "success": "Ọmọ ẹgbẹ dina",
+        "error": "Kuna lati di awọn ọmọ ẹgbẹ"
+      }
+    },
+    "invite": {
+      "button": "Awọn ọmọ ẹgbẹ ifiwepe",
+      "title": "Awọn ọmọ ẹgbẹ lati darapọ mọ yara naa",
+      "inputLabel": "Jọwọ tẹ ID olumulo Matrix naa (bii @user: Matrix.org)",
+      "confirm": "fiwepe",
+      "cancel": "Fagilee",
+      "loading": "Pipe ...",
+      "success": "Pipe ti a firanṣẹ!",
+      "error": "Ifiwepe kuna, jọwọ ṣayẹwo ID olumulo tabi awọn igbanilaaye"
+    },
+    "empty": "Ko si ọmọ ẹgbẹ sibẹsibẹ",
+    "loading": "Loading ...",
+    "role": {
+      "owner": "Ile",
+      "admin": "alakoso obinrin",
+      "moderator": "Iṣọpọ",
+      "user": "ọmọ ẹgbẹ"
+    }
+  }
+}

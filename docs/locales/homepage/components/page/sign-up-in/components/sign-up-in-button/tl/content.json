@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Mag -login/Magrehistro",
+    "signOut": "Mag -log out",
+    "confirmContent": "Sigurado ka bang nais mong mag -log out?",
+    "confirmTitle": "pahiwatig",
+    "confirm": "Sigurado",
+    "cancel": "Kanselahin",
+    "signoutOk": "Mag -log out",
+    "loadingData": "Naglo -load ng data ng gumagamit"
+  }
+}

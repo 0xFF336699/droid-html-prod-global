@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "अधिकृत",
+    "notPass": "अनधिकृत",
+    "danger": "धोका",
+    "setting": "सेट अप"
+  }
+}

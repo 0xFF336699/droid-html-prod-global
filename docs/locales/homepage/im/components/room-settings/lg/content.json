@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Enteekateeka y'ekisenge .",
+    "tabs": {
+      "basic": "Enteekateeka Enkulu .",
+      "permission": "Ensengeka z'olukusa .",
+      "privacy": "Enteekateeka z’Ebyama .",
+      "member": "Enzirukanya ya bammemba ."
+    },
+    "loadError": "eremereddwa okutikka ensengeka z'ekisenge .",
+    "leaveRoom": {
+      "button": "Fuluma ekisenge .",
+      "confirm": "Okakasa nti oyagala kufuluma mu kisenge? Bw’omala okufuluma, tojja kusobola kugenda mu maaso na kufuna bubaka okuva mu kisenge kino.",
+      "success": "Yafuluma bulungi ekisenge .",
+      "error": "alemereddwa okufuluma ekisenge, nsaba ogezeeko nate"
+    }
+  }
+}

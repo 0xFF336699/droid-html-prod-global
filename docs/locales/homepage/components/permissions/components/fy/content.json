@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Autorisearre",
+    "notPass": "Foech",
+    "danger": "Gefaar",
+    "setting": "opsette"
+  }
+}

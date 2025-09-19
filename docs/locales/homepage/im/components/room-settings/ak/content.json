@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Pia mu nhyehyɛe .",
+    "tabs": {
+      "basic": "Nsiesiei a Ɛyɛ Mfitiase .",
+      "permission": "NHYEHYƐEƐ NHYEHYƐEƐ .",
+      "privacy": "Nsɛm a Wɔde Sie Ho Nsɛm .",
+      "member": "Asɔremma sohwɛ ."
+    },
+    "loadError": "antumi anhyɛ dan mu nhyehyɛe mu .",
+    "leaveRoom": {
+      "button": "Fi dan no mu .",
+      "confirm": "So wugye di sɛ wopɛ sɛ wufi dan no mu? Sɛ wufi mu wie a, worentumi nkɔ so nnya nkrasɛm mfi dan yi mu.",
+      "success": "Wofii dan no mu yiye .",
+      "error": "Woantumi amfi dan no mu, mesrɛ wo bɔ mmɔden bio ."
+    }
+  }
+}

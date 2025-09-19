@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "མཐུད་པ།...",
+    "connected": "མཐུད་པ།",
+    "disconnecting": "མཐུད་མཚམས་ཆད་པ་...",
+    "disconnected": "མཐུད་མེད་པ།",
+    "waitRetry": "བསྐྱར་དུ་མཐུད་པར་སྒུག་ཡོད།"
+  }
+}

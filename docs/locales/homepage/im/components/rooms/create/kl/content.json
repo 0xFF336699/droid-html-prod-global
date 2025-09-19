@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Inissaq pilersiguk"
+    },
+    "dialog": {
+      "title": "Inissaq nutaaq pilersiguk",
+      "form": {
+        "userId": {
+          "label": "Atuisoq ID",
+          "placeholder": "Atuisup ID-a allaguk (assersuutigalugu: @user:assersuut.com)",
+          "error": {
+            "required": "Atuisoq ID-mik imaqarsinnaanngilaq",
+            "invalid": "Atuisoq ID-mik formati atuunneqanngitsoq"
+          }
+        },
+        "roomName": {
+          "label": "Init aqqa (optionel)",
+          "placeholder": "Init aqqa allaguk"
+        },
+        "isEncrypted": {
+          "label": "End-to-end-imik kryptering-imik atuisinnaaneq"
+        },
+        "isDirect": {
+          "label": "Toqqaannartumik nalunaaruteqarneq"
+        },
+        "topic": {
+          "label": "Tema (optionel)",
+          "placeholder": "Inissaq tema-mut allaguk"
+        }
+      },
+      "actions": {
+        "cancel": "taamaatippaa",
+        "create": "pilersitaq"
+      },
+      "success": "Init pilersitsineq iluatsilluartumik",
+      "error": "Inissaq pilersinneqarnerani kukkuneq pivoq: {eqqumiitsuliaq}"
+    }
+  }
+}

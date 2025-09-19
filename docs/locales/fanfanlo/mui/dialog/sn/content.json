@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Kanzura",
+    "confirm": "Chokwadi",
+    "title": "zano",
+    "content": "Une chokwadi here kuti unoda kuita izvi?"
+  },
+  "EditableText": {
+    "cancel": "Kanzura",
+    "save": "chengetedza",
+    "title": "rongedza"
+  }
+}

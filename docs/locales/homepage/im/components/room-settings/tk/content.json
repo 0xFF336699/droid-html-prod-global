@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Otag sazlamalary",
+    "tabs": {
+      "basic": "Esasy sazlamalar",
+      "permission": "Rugsat sazlamalary",
+      "privacy": "Gizlinlik sazlamalary",
+      "member": "Agza dolandyryşy"
+    },
+    "loadError": "Otag sazlamalaryny ýükläp bilmedi",
+    "leaveRoom": {
+      "button": "Otagdan çykyň",
+      "confirm": "Otagdan çykmak isleýändigiňize ynanýarsyňyzmy? Çykanyňyzdan soň, bu otagdan habarlary almagy dowam etdirip bilmersiňiz.",
+      "success": "Otagy üstünlikli çykardy",
+      "error": "Otagdan çykyp bilmedi, gaýtadan synanyşmagyňyzy haýyş edýäris"
+    }
+  }
+}

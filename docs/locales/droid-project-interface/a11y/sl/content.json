@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "delovati",
+    "click": "Klik",
+    "longClick": "Dolga stiskalnica",
+    "setText": "Nastavi besedilo",
+    "tryClick": "Poskusite element ali lokacijo kliknite",
+    "globalClick": "Kliknite lokacijo"
+  }
+}

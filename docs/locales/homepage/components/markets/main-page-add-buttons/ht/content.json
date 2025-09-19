@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Ajoute nan",
+    "sub": {
+      "addScriptByUrl": "Ajoute Scripts via URL",
+      "addScriptByText": "Ajoute Scripts nan tèks",
+      "addMarket": "Ajoute mache via URL",
+      "addMarketByText": "Add mache nan tèks"
+    }
+  }
+}

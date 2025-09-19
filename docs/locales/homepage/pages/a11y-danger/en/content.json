@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "This function can perform operations similar to real-person operations including, but not limited to clicking, opening apps, etc. on your phone, and can also open some payment applications for payment. Because there are risks of being recorded operations, making payments, etc., we strongly recommend that you only execute it if you fully understand the content of the script.",
+    "txt2": "How to close this function: Open the home page of this application, you can stop using the auxiliary function in the home page settings, or you can click the \"Close all tasks and exit\" button on the home page. This button forces the closing of all tasks being executed and force close this app.",
+    "txt3": "The reason we use this function is that our application needs to have the ability to open other applications and control them, such as when browsing instagram, it can automatically slide up after the video is played, check whether a product is on sale, and send messages to online friends regularly, etc., which are interesting or labor-saving operations.",
+    "iKnowDanger": "I know the risks - go to set",
+    "title": "Dangerous operations"
+  }
+}

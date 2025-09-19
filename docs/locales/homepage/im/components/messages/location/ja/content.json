@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "ロケーション名",
+    "viewMap": "マップを表示します",
+    "close": "閉鎖"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "現在のブラウザは、ジオロケーションの取得をサポートしていません",
+    "getLocationFailed": "場所を取得できなかったので、許可設定を確認してください",
+    "myLocation": "私の場所",
+    "shareLocation": "場所を共有します",
+    "getCurrentLocation": "現在の場所を取得します",
+    "title": "ロケーション名",
+    "description": "詳細な説明",
+    "descriptionPlaceholder": "詳細な説明を入力してください（オプション）",
+    "preview": "場所プレビュー",
+    "latitude": "緯度",
+    "longitude": "経度",
+    "cancel": "キャンセル",
+    "send": "送信",
+    "permissionPrompt": "より良いサービスを提供するには、あなたの位置情報を取得する必要があります、それは許可されていますか？",
+    "permissionDenied": "ポジショニング許可が拒否されます。ブラウザの設定での配置許可を有効にしてください",
+    "locationTimeout": "タイムアウトの配置、デバイスがオンになっていることを確認して、再取得してみてください",
+    "locationUnavailable": "現在の場所を取得できません。デバイスのロケーションサービスを確認してください"
+  }
+}

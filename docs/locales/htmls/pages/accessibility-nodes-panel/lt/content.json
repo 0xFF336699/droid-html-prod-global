@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Prieinamumo sąsajos peržiūra",
+    "howToUse": "Naudojimo instrukcijos",
+    "howToUseTooltip": "Žemiau yra keletas šio mazgo žymėjimo atributų, kurie gali būti naudojami operacijoms pasirinkti, pvz., Spustelėjimą, teksto užpildymą ir kt.\n\nAtributo vertė gali būti dubliuota programos puslapyje. Jei susiduriate su dublikatu, prašome perdirbti kitus atributų pasirinkimus, kad nustatytumėte unikalumą.\n\nRaudonas žodis rodo, kad atributo vertė pakartojama, žalias žodis rodo, kad atributo vertė yra išskirtinė dabartinėje puslapio paieškoje, o juodas žodis rodo, kad nėra pakartotinio palyginimo.",
+    "otherNodesSummary": "Kiti mazgai šioje vietoje",
+    "moreNodes": "Štai kas plečiama.",
+    "nodeInfoDialogOkButton": "Redaguoti šio mazgo veikimą",
+    "text": "Tekstas 2222"
+  }
+}

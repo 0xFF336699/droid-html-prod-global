@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Enw'r Ystafell"
+      },
+      "topic": {
+        "label": "Cyflwyniad Ystafell"
+      },
+      "avatar": {
+        "alt": "Avatar ystafell"
+      },
+      "submit": "Arbed Gosodiadau"
+    },
+    "toast": {
+      "success": "Gosodiadau wedi'u diweddaru",
+      "error": {
+        "default": "Methodd gosodiadau diweddaru",
+        "avatar": "Wedi methu â diweddaru avatar"
+      }
+    }
+  }
+}

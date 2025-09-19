@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "เพิ่มไฟล์แนบ",
+    "emoji": "เลือกนิพจน์",
+    "placeholder": "ป้อนข้อความ ...",
+    "sendLocation": "ส่งตำแหน่ง",
+    "send": "ส่ง"
+  }
+}

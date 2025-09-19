@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Huk cuartota ruway ."
+    },
+    "dialog": {
+      "title": "Musuq cuartota ruway .",
+      "form": {
+        "userId": {
+          "label": "ID de usuario .",
+          "placeholder": "Usuario ID nisqatam qillqay (kayhina: @user:example.com)",
+          "error": {
+            "required": "Usuario ID mana ch'usaq kayta atinchu .",
+            "invalid": "Mana allin ruwaq ID nisqa formato ."
+          }
+        },
+        "roomName": {
+          "label": "Nombre de la habitación (opcional) .",
+          "placeholder": "Huk cuarto sutita qillqay ."
+        },
+        "isEncrypted": {
+          "label": "Tukuymanta tukukuykama chiqapchayta atichiy ."
+        },
+        "isDirect": {
+          "label": "Chiqap willakuy ."
+        },
+        "topic": {
+          "label": "Tema (Opcional) .",
+          "placeholder": "Yaykuy cuarto tema ."
+        }
+      },
+      "actions": {
+        "cancel": "Sayachiy",
+        "create": "paqarichiy"
+      },
+      "success": "Habitación kamay allinta .",
+      "error": "Huk pantaymi karqan huk cuartota paqarichispa: {error}"
+    }
+  }
+}

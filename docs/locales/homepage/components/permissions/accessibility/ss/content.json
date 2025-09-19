@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Imisebenti yekusita",
+    "pass": "Sigunyatiwe",
+    "notPass": "Umuntfu longakagunyatwa",
+    "setting": "misa",
+    "danger": "Ingoti",
+    "dangerDesc": "Lokugunyatwa kungabona lokucuketfwe esikrinini bese uchafata lucingo lwakho. Ciniseka lemvume uma ungayivisi ngalokucacile kusebenta kanye nebungoti be-script loyisebentisako noma lotawusebenta."
+  }
+}

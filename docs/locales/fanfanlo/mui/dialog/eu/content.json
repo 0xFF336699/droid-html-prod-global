@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Indargabetu",
+    "confirm": "Ziur",
+    "title": "iradokizun",
+    "content": "Ziur al zaude hau egin nahi duzula?"
+  },
+  "EditableText": {
+    "cancel": "Indargabetu",
+    "save": "aurreztu",
+    "title": "agitaratu"
+  }
+}

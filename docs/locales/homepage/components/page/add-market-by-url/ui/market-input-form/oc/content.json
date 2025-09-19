@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "patron URL",
+    "full": {
+      "url": "URL de mercat. Los personatges introduches seràn cargats coma URL, mercés de far attencion.",
+      "html": "Mercat de contengut HTML. Los personatges introduches seràn executats immediatament coma scripts, mercés d'èsser prudent.",
+      "come": "Venètz al mieu",
+      "myMarketName": "Nom de mercat",
+      "stroll": "Fasèm una passejada"
+    },
+    "item": {
+      "url": "URL de la tarjeta del Mercado. Los personatges introduches seràn cargats coma URL, mercés de far attencion.",
+      "html": "Mercat de contengut HTML. Los personatges introduches seràn executats immediatament coma scripts, mercés d'èsser prudent.",
+      "come": "Venètz al mieu",
+      "myMarketName": "Nom de mercat",
+      "stroll": "Fasèm una passejada"
+    }
+  }
+}

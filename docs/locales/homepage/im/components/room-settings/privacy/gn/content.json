@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Koty público .",
+        "description": "Umi koty público ikatu oheka ambue usuario ."
+      },
+      "allowGuestJoin": {
+        "label": "Eheja umi tapicha ohóvape oike hag̃ua .",
+        "description": "Eheja umi oiporúvape noñeinskrivíriva oike hag̃ua pe kotyʼípe peteĩ invitádoramo ."
+      },
+      "isEncrypted": {
+        "label": "Emboguata cifrado paha guive paha peve .",
+        "description": "Oñembohapévo, umi marandu oĩva koty’ípe oñembohekopyréta ipahaite peve .",
+        "alert": "Cifrado extremo a extremo oñembohapéva koty’ípe, ha ko ñemboheko ndaikatúi oñembogue."
+      },
+      "submit": "Oñongatu ñemigua ñemboheko ."
+    },
+    "toast": {
+      "success": "Oñembopyahu umi ñemigua ñemboheko .",
+      "error": "Ndojejapói ombopyahu hag̃ua ñemigua ñemboheko ."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Locus occasus",
+    "tabs": {
+      "basic": "Basic occasus",
+      "permission": "Occasus permission",
+      "privacy": "Privacy Occasus",
+      "member": "Member Management"
+    },
+    "loadError": "Deficio ad onus locus occasus",
+    "leaveRoom": {
+      "button": "Exit locus",
+      "confirm": "Certus es tu vis exitus locus? Post vos exit, non poterit continue accepto nuntiis ex hoc locus.",
+      "success": "Exivit locus feliciter",
+      "error": "Deficio ad exitus locus, velit experiri iterum"
+    }
+  }
+}

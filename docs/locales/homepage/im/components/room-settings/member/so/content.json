@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Raadi xubnaha"
+    },
+    "table": {
+      "columns": {
+        "name": "Magaca xubin",
+        "userId": "Aqoonsiga Adeegsiga",
+        "actions": "qalid"
+      },
+      "pagination": {
+        "rowsPerPage": "Tirada safka boggeeda boggeeda"
+      },
+      "avatar": {
+        "alt": "gaari yar"
+      },
+      "actions": {
+        "kick": "Soo baxa",
+        "ban": "Mamnuuc"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Xaqiiji xubin ka mid ah",
+        "content": "Ma hubtaa inaad rabto inaad kaxeyso xubin ka mid ah qolka?"
+      },
+      "ban": {
+        "title": "Xaqiiji xubinnimada la mamnuucay",
+        "content": "Ma hubtaa inaad rabto inaad mamnuucdo xubintan? Xubinku ma awoodi doono inuu dib ugu soo laabto qolka ganaaxa."
+      },
+      "buttons": {
+        "cancel": "Burin",
+        "confirm": "xaqiijin"
+      }
+    },
+    "toast": {
+      "loadError": "Ku guuldareystay inuu xidho liiska xubinta",
+      "kick": {
+        "success": "Xubnaha ayaa laga saaray qolka",
+        "error": "Bixinta xubnaha ayaa fashilmay"
+      },
+      "ban": {
+        "success": "Xubnaha ayaa xannibay",
+        "error": "Ku guuldareystay in la joojiyo xubnaha"
+      }
+    },
+    "invite": {
+      "button": "Ku casuun xubnaha",
+      "title": "Ku casuun xubnaha inay ku biiraan qolka",
+      "inputLabel": "Fadlan gali Aqoonsiga Adeegsiga Matrix (sida @user: Matrix.org)",
+      "confirm": "casuumid",
+      "cancel": "Burin",
+      "loading": "Ku yeelashada ...",
+      "success": "Casuumad ayaa diray!",
+      "error": "Casuumad ayaa ku guuldareystay, fadlan hubi Aqoonsiga isticmaale ama rukhsadaha"
+    },
+    "empty": "Qofna wali xubin maleh",
+    "loading": "Loading ...",
+    "role": {
+      "owner": "Mulkiilaha guriga",
+      "admin": "maamule",
+      "moderator": "Maareynta",
+      "user": "xubin"
+    }
+  }
+}

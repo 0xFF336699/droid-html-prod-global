@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Ngol laawol waawi wiyeede tan ko e Android",
+      "noMethod": "Ngol laawol woodaani"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Ime sobe"
+      },
+      "topic": {
+        "label": "Uvod v sobo"
+      },
+      "avatar": {
+        "alt": "Soba Avatar"
+      },
+      "submit": "Shrani nastavitve"
+    },
+    "toast": {
+      "success": "Nastavitve posodobljene",
+      "error": {
+        "default": "Nastavitve posodobitve niso uspele",
+        "avatar": "Ni uspelo posodobiti avatarja"
+      }
+    }
+  }
+}

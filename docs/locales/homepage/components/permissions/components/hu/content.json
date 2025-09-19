@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Felhatalmazott",
+    "notPass": "Jogosulatlan",
+    "danger": "Veszély",
+    "setting": "felállít"
+  }
+}

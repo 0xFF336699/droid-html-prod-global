@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Seetal ci ndaw yi"
+    },
+    "table": {
+      "columns": {
+        "name": "Tur ci bokk",
+        "userId": "ID jëfandikukat",
+        "actions": "doxal"
+      },
+      "pagination": {
+        "rowsPerPage": "Limu liiñ yi ci xët bu nekk"
+      },
+      "avatar": {
+        "alt": "Avatar"
+      },
+      "actions": {
+        "kick": "Di la dindi",
+        "ban": "Banned"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Mandal kiy kiy kiy kiy dóor",
+        "content": "Ndax gëm nga ni danga bëgga dàq waa ji ci néeg bi?"
+      },
+      "ban": {
+        "title": "Sosal bokk ci waa kuréel gi",
+        "content": "Ndax wóor nga ni danga bëgga tere nit ki? Ndaw li du mëna amaat ci néeg bi ginaaw bi ñu ko teree."
+      },
+      "buttons": {
+        "cancel": "Bàyyi",
+        "confirm": "dëggal"
+      }
+    },
+    "toast": {
+      "loadError": "Dugg ci limu ndaw yi",
+      "kick": {
+        "success": "Ñu dàq leen ci biir néeg bi",
+        "error": "Ndaw yi dañu lajj"
+      },
+      "ban": {
+        "success": "Ndaw yi dañu tëj",
+        "error": "Duggal ci ndaw yi"
+      }
+    },
+    "invite": {
+      "button": "woote ci ndaw yi",
+      "title": "Woowal ndaw yi ñu bokk ci néeg bi",
+      "inputLabel": "Baalnu nga bind ID jëfandikukat Matrix (lu melni @user:matrix.org)",
+      "confirm": "nganale",
+      "cancel": "Bàyyi",
+      "loading": "Di woo...",
+      "success": "Yonnee nañu invitasioŋ!",
+      "error": "Invitation la, xoolal ID jëfandikukat bi wala ndigal"
+    },
+    "empty": "Amul benn ci",
+    "loading": "yab...",
+    "role": {
+      "owner": "Boroom kër",
+      "admin": "administratër",
+      "moderator": "Ñàkkal",
+      "user": "Ndaw"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Zrušit",
+    "confirm": "Jistě",
+    "title": "náznak",
+    "content": "Jste si jisti, že to chcete udělat?"
+  },
+  "EditableText": {
+    "cancel": "Zrušit",
+    "save": "uložit",
+    "title": "Upravit"
+  }
+}

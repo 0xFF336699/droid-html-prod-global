@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "Нарыққа қосу",
+    "url": "Нарық URL мекенжайы",
+    "summary": "Нарық туралы қысқаша ақпарат",
+    "urlIsNotValid": "Қате нарық URL мекенжайы"
+  }
+}

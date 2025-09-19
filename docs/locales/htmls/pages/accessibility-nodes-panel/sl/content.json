@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Ogled vmesnika dostopnosti",
+    "howToUse": "Navodila za uporabo",
+    "howToUseTooltip": "Spodaj je nekaj atributov za označevanje tega vozlišča, ki jih je mogoče uporabiti za izbiro operacij, na primer klika, polnjenje besedila itd.\n\nVrednost atributa se lahko podvoji na strani aplikacije. Če naletite na podvojene, prekrivajte druge izbire atributov, da določite edinstvenost.\n\nRdeča beseda označuje, da se vrednost atributa ponovi, zelena beseda kaže, da je vrednost atributa edinstvena v trenutnem iskanju strani, črna beseda pa kaže, da ni večkratne primerjave.",
+    "otherNodesSummary": "Druga vozlišča na tej lokaciji",
+    "moreNodes": "Tukaj je tisto, kar se širi.",
+    "nodeInfoDialogOkButton": "Urejanje operacije tega vozlišča",
+    "text": "Besedilo 2222"
+  }
+}

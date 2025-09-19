@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "Hasierako orria",
+    "me": "nire",
+    "settings": "konfiguratu",
+    "script": "letra",
+    "store": "azoka",
+    "market": "azoka",
+    "create": "sortu"
+  },
+  "tabbar": {
+    "test": "Beheko menuko barra"
+  }
+}

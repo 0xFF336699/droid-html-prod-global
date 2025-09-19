@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Gan fod y cais hwn yn berthnasol am nifer fawr o ganiatâd ar eich ffôn symudol, mae llawer o ganiatâd yn hynod o risg, felly peidiwch â'u mewnforio na'u gweithredu heb wybod yn glir risgiau'r farchnad neu'r sgript. Ar ôl i chi nodi cynnwys yn y blwch testun \"Cyflwyniad Cerdyn Marchnad\" neu \"Tudalen We Annibynnol Market Annibynnol\" isod, bydd y cynnwys yn cael ei weithredu ar unwaith fel cod. Byddwch yn ofalus.",
+    "setNewMarket": "Sefydlu marchnad newydd",
+    "settingPreview": "Rhagolwg Gosodiadau",
+    "marketName": "Enw'r Farchnad",
+    "marketSummary": "Cyflwyniad y Farchnad",
+    "marketDescription": "Cyflwyniad y Farchnad",
+    "itemMarket": "Cyflwyniad Cerdyn Marchnad",
+    "fullMarket": "Tudalen we annibynnol y farchnad",
+    "marketCardPreview": "Rhagolwg Cerdyn Marchnad",
+    "marketFullPreview": "Rhagolwg tudalen we annibynnol marchnad",
+    "isNotSet": "Heb ei osod"
+  }
+}

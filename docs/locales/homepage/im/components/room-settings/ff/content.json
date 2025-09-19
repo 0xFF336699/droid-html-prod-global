@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Dottaaɗe suudu",
+    "tabs": {
+      "basic": "Settings basic",
+      "permission": "Dottaaɗe yamiroore",
+      "privacy": "Dottaaɗe privacy",
+      "member": "Njuɓɓudi terɗe"
+    },
+    "loadError": "Falnde e dottaaɗe suudu load",
+    "leaveRoom": {
+      "button": "Yaltu suudu nduu",
+      "confirm": "Aɗa sikki aɗa yiɗi yaltude suudu nduu? Caggal nde njaltuɗaa, a waawaa jokkude heɓde mesasuuji e ndee suudu.",
+      "success": "Yahde suudu nduu no moƴƴi",
+      "error": "Waɗii yaltude e suudu nduu, ƴeewto kadi"
+    }
+  }
+}

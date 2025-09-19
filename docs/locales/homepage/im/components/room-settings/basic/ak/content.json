@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Pia no din ."
+      },
+      "topic": {
+        "label": "Pia Nnianim Asɛm ."
+      },
+      "avatar": {
+        "alt": "Pia Avatar ."
+      },
+      "submit": "Fa nhyehyɛe no sie ."
+    },
+    "toast": {
+      "success": "Nsiesiei a wɔayɛ no foforo .",
+      "error": {
+        "default": "Update nhyehyɛe no adi nkogu .",
+        "avatar": "antumi ansiesie Avatar ."
+      }
+    }
+  }
+}

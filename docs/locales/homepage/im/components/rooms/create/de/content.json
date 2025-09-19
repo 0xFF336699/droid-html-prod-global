@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Erstellen Sie einen Raum"
+    },
+    "dialog": {
+      "title": "Erstellen Sie ein neues Zimmer",
+      "form": {
+        "userId": {
+          "label": "Benutzer-ID",
+          "placeholder": "Geben Sie die Benutzer -ID ein (z. B.: @User: example.com)",
+          "error": {
+            "required": "Benutzer -ID kann nicht leer sein",
+            "invalid": "Ungültiges Benutzer -ID -Format"
+          }
+        },
+        "roomName": {
+          "label": "Raumname (optional)",
+          "placeholder": "Geben Sie einen Raumnamen ein"
+        },
+        "isEncrypted": {
+          "label": "Aktivieren Sie die End-to-End-Verschlüsselung"
+        },
+        "isDirect": {
+          "label": "Direktnachricht"
+        },
+        "topic": {
+          "label": "Thema (optional)",
+          "placeholder": "Geben Sie das Zimmerthema ein"
+        }
+      },
+      "actions": {
+        "cancel": "Stornieren",
+        "create": "erstellen"
+      },
+      "success": "Raumkreation erfolgreich",
+      "error": "Beim Erstellen eines Raums trat ein Fehler auf: {Fehler}"
+    }
+  }
+}

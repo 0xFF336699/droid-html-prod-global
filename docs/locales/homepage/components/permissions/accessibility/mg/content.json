@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Fizarana Auxiliary",
+    "pass": "alalana",
+    "notPass": "tsy nahazoan-dalana",
+    "setting": "hametraka",
+    "danger": "Loza",
+    "dangerDesc": "Ity fanomezan-dàlana ity dia afaka mahita votoaty eo amin'ny efijery ary tsindrio ny telefaona. Ampidiro ity fahazoan-dàlana ity raha tsy azonao tsara ny fiasa sy ny loza ateraky ny script izay mihazakazaka na hihazakazaka."
+  }
+}

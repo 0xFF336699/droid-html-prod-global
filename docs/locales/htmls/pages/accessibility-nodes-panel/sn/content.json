@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Kuwanika Interface Kuona",
+    "howToUse": "Mirayiridzo yekushandisa",
+    "howToUseTooltip": "Pazasi pane mamwe marongero emuchadenga eiyi node anogona kushandiswa kusarudza mashandiro, akadai sekudzvanya, kuzadza zvinyorwa, nezvimwe.\n\nIko kukosha kwehunhu kunogona kuve kwakadzokororwa muApp peji. Kana iwe ukasangana nekudzokorora, ndapota kufukidza dzimwe nzira dzekufunga kuti dzisarudze hunhu.\n\nIzwi rakatsvuka rinoratidza kuti kukosha kwehunyanzvi kunodzokororwa, izwi rakasvibira rinoratidza kuti kukosha kwehunhu kwakasiyana mukutsvaga kwepepa razvino, uye izwi dema rinoratidza kuti hapana kuenzanisa kwakadzokororwa.",
+    "otherNodesSummary": "Dzimwe Ndeu munzvimbo ino",
+    "moreNodes": "Izvi ndizvo zviri kuwedzerwa.",
+    "nodeInfoDialogOkButton": "Rongedza kushanda kweiyi node",
+    "text": "Chinyorwa 2222"
+  }
+}

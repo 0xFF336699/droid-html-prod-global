@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Gela bat sortu"
+    },
+    "dialog": {
+      "title": "Gela berri bat sortu",
+      "form": {
+        "userId": {
+          "label": "Erabiltzaile ID",
+          "placeholder": "Idatzi erabiltzaile IDa (adibidez: @user: adibide.com)",
+          "error": {
+            "required": "Erabiltzailearen IDa ezin da hutsik egon",
+            "invalid": "Erabiltzaile ID formatu baliogabea"
+          }
+        },
+        "roomName": {
+          "label": "Gelaren izena (aukerakoa)",
+          "placeholder": "Sartu gela izen bat"
+        },
+        "isEncrypted": {
+          "label": "Gaitu amaierako enkriptatzea"
+        },
+        "isDirect": {
+          "label": "Zuzeneko mezua"
+        },
+        "topic": {
+          "label": "Gaia (aukerakoa)",
+          "placeholder": "Sartu gelaren gaia"
+        }
+      },
+      "actions": {
+        "cancel": "Indargabetu",
+        "create": "sortu"
+      },
+      "success": "Gela sortzea arrakastaz",
+      "error": "Gela bat sortzean akats bat gertatu da: {error}"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Toerana misy toerana",
+    "viewMap": "Jereo ny sarintany",
+    "close": "fanakatonana"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Ny browser ankehitriny dia tsy manohana ny fahazoana geolocation",
+    "getLocationFailed": "Tsy nahavita ny toerana misy ny toerana, azafady mba jereo ny filaharana fahazoan-dàlana",
+    "myLocation": "Ny toerana misy ahy",
+    "shareLocation": "Hizara toerana",
+    "getCurrentLocation": "Raiso ny toerana misy ankehitriny",
+    "title": "Toerana misy toerana",
+    "description": "Famaritana amin'ny antsipiriany",
+    "descriptionPlaceholder": "Azafady ampidiro ny famaritana antsipiriany (tsy azo atao)",
+    "preview": "Fijery toerana",
+    "latitude": "Mponina",
+    "longitude": "-jarahasina",
+    "cancel": "hanafoana",
+    "send": "alefaso",
+    "permissionPrompt": "Mila mahazo ny mombamomba ny toerana misy anao ianao mba hanomezana serivisy tsara kokoa, avela ve?",
+    "permissionDenied": "Ny fahazoan-dàlana dia nolavina, azafady, azafady alefaso ny fahazoan-dàlana amin'ny toerana misy anao",
+    "locationTimeout": "Toeram-pialan-tsasatra, ataovy azo antoka fa mihodina ny fitaovana ary manandrana miverina",
+    "locationUnavailable": "Tsy azo alaina ny toerana misy ankehitriny, azafady mba jereo ny serivisy toerana misy ny fitaovana"
+  }
+}

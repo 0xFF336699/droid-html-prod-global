@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL -ŝablono",
+    "full": {
+      "url": "Merkata URL. La enigitaj signoj estos ŝarĝitaj kiel URLoj, bonvolu atenti.",
+      "html": "Merkata HTML -enhavo. La enigitaj gravuloj estos ekzekutitaj tuj kiel skriptoj, bonvolu esti singardaj.",
+      "come": "Venu al la mia",
+      "myMarketName": "Merkata Nomo",
+      "stroll": "Ni promenu"
+    },
+    "item": {
+      "url": "Merkata Karto URL. La enigitaj signoj estos ŝarĝitaj kiel URLoj, bonvolu atenti.",
+      "html": "Merkata HTML -enhavo. La enigitaj gravuloj estos ekzekutitaj tuj kiel skriptoj, bonvolu esti singardaj.",
+      "come": "Venu al la mia",
+      "myMarketName": "Merkata Nomo",
+      "stroll": "Ni promenu"
+    }
+  }
+}

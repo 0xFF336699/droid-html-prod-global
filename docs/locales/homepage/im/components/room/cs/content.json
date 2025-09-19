@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Připojte se do místnosti",
+      "inviteOnly": "Toto je soukromá místnost a vyžaduje, aby se pozvánky připojily",
+      "knockRequired": "Tato místnost vyžaduje, aby se aplikace připojila. Kliknutím na tlačítko níže odešlete požadavek připojení",
+      "canJoin": "Toto je veřejná místnost, můžete se připojit přímo",
+      "sendRequest": "Odeslat žádost o připojení",
+      "join": "Připojte se do místnosti"
+    },
+    "JoinRequestList": {
+      "noRequests": "Zatím žádná žádost o připojení",
+      "accept": "přijmout",
+      "reject": "odmítnout"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Zadejte zprávu ..."
+  },
+  "MessageList": {
+    "noMessages": "Zatím neexistuje žádná zpráva, pošlete první zprávu a zahájí konverzaci!",
+    "loading": "Načítání ...",
+    "error": {
+      "loadFailed": "Nepodařilo se načíst zprávu",
+      "retry": "Zkuste to znovu"
+    },
+    "loadingHistory": "Historie načítání ...",
+    "historyEnd": "Nejčasnější zprávy dorazily"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Zatím neexistuje žádná zpráva, pošlete první zprávu a zahájí konverzaci!"
+  },
+  "RoomContent": {
+    "title": "Pokoj"
+  },
+  "RoomHeader": {
+    "title": "Pokoj",
+    "unnamedRoom": "Nejmenovaný pokoj",
+    "members": "člen",
+    "settings": "nastavit",
+    "leaveRoom": "Opustit místnost",
+    "joinRoom": "Připojte se do místnosti"
+  },
+  "RoomMembers": {
+    "title": "Členové pokoje",
+    "online": "Online",
+    "offline": "Offline",
+    "join": "Připojte se",
+    "invite": "pozvat",
+    "leave": "dovolená",
+    "ban": "Zakázáno",
+    "noMembers": "Zatím žádný člen",
+    "loading": "Načítání ..."
+  }
+}

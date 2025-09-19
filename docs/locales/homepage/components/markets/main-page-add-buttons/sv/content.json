@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Tillföra",
+    "sub": {
+      "addScriptByUrl": "Lägg till skript via URL",
+      "addScriptByText": "Lägg till skript genom text",
+      "addMarket": "Lägg till marknaden via URL",
+      "addMarketByText": "Lägg till marknaden genom text"
+    }
+  }
+}

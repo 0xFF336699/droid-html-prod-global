@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Sumiiffiit aqqa"
+      },
+      "topic": {
+        "label": "Init Aallaqqaasiut"
+      },
+      "avatar": {
+        "alt": "Room avatar"
+      },
+      "submit": "Inissiissutit annaakkit"
+    },
+    "toast": {
+      "success": "Inissiissutit nutarterneqarput",
+      "error": {
+        "default": "Nutarterineq inissititerneqarpoq",
+        "avatar": "Avatar-imik nutarterinissamut kukkuneq"
+      }
+    }
+  }
+}

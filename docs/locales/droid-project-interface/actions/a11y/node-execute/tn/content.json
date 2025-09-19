@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Go diragatsa dinoutu",
+    "changeBtnLabel": "emisetsa",
+    "showNodeAllProperties": "Bontsha dithoto tsotlhe",
+    "wait": {
+      "time": "Nako ya go leta",
+      "interval": "Sekgala sa go leta",
+      "invisible": "Gore a go ka lemoga dielemente tse di kwa ntle ga sekirini"
+    }
+  }
+}

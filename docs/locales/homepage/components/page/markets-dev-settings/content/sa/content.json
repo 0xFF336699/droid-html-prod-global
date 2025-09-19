@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "कनेक्टेड रहते हुए .",
+        "helperText": "यदि भवान् Start इति लिङ्क् क्लिक् करोति तर्हि लिङ्क् रक्षतु । एतदर्थं ध्यानं आवश्यकं यत् तस्य विच्छिन्नानन्तरं लिङ्कं निरन्तरं पुनः सम्बद्धं भविष्यति ।",
+        "retryCount": "पुनः संपर्कों की संख्या 1 ."
+      },
+      "url": {
+        "name": "URL .",
+        "helperText": "लिङ्क् URL, उदाहरणार्थं ws://192.168.0.2:7001, अथवा wws://example.com/path",
+        "error": "सम्यक् URL ws:// अथवा wws:// इत्यनेन आरभ्य URL अस्ति ।"
+      }
+    },
+    "connectButton": {
+      "connect": "संयुज्",
+      "disconnect": "विच्छेदन 1 .",
+      "status": {
+        "connecting": "संयोजक...",
+        "connected": "संयोजित 1 .",
+        "disconnecting": "विच्छिन्न करता है...",
+        "disconnected": "न संबद्धः .",
+        "waitRetry": "पुनः संयोजनस्य प्रतीक्षा..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "प्रलेखन"
+  }
+}

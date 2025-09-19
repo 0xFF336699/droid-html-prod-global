@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "vale ni rumu",
+        "description": "E rawa ni ra vaqaqara na rumu ni veivakamarautaki mai vei ira na vakayagataka ."
+      },
+      "allowGuestJoin": {
+        "label": "Vakatulewataka na veisiko me ra curu ki na veisiko .",
+        "description": "E dodonu me ra vakayagataka na sega ni vakadonui me ra lewena na rumu me vaka ni vulagi ."
+      },
+      "isEncrypted": {
+        "label": "Ena sikirininipeni .",
+        "description": "Ni sa rawa, na itukutuku ena loma ni rumu sa na qai dau vakasosataki .",
+        "alert": "E rawa ni yaco ena rumu na isema ni cakacaka, ka sega ni rawa ni bokoci na ituvatuva oqo."
+      },
+      "submit": "Na ituvatuva ni ituvatuva ."
+    },
+    "toast": {
+      "success": "Sa mai vakavoui na ituvatuva ni veiliutaki vakaveiliutaki .",
+      "error": "Maroroi na vakavoui ni ituvatuva ni tabaivola ."
+    }
+  }
+}

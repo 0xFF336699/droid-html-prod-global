@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Nastavitve sob",
+    "tabs": {
+      "basic": "Osnovne nastavitve",
+      "permission": "Nastavitve dovoljenja",
+      "privacy": "Nastavitve zasebnosti",
+      "member": "Upravljanje članov"
+    },
+    "loadError": "Ni naložil nastavitev sobe",
+    "leaveRoom": {
+      "button": "Zapustite sobo",
+      "confirm": "Ste prepričani, da želite izstopiti iz sobe? Ko izstopite, ne boste mogli nadaljevati s prejemanjem sporočil iz te sobe.",
+      "success": "Uspešno zapustil sobo",
+      "error": "Ni uspel izstopiti iz sobe, poskusite znova"
+    }
+  }
+}

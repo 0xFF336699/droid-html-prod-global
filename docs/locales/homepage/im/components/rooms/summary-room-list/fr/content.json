@@ -1,0 +1,8 @@
+{
+  "SummaryRoomList": {
+    "title": "Liste de session",
+    "noRooms": "Aucune séance à afficher",
+    "acceptInvite": "Accepter l'invitation",
+    "rejectInvite": "Rejeter l'invitation"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Prihlásenie",
+    "signOut": "Odhlásiť sa",
+    "confirmContent": "Ste si istý, že sa chcete odhlásiť?",
+    "confirmTitle": "náznak",
+    "confirm": "Isto",
+    "cancel": "Zrušiť",
+    "signoutOk": "Odhlásiť sa",
+    "loadingData": "Načítava sa používateľské údaje"
+  }
+}

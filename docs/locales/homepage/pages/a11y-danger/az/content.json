@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Bu funksiya, telefonunuzda tıklamaq, tıklamaq, açma və s. İlə məhdudlaşmamaq, tətbiq açmaqla məhdudlaşmayan və ödəniş üçün bəzi ödəniş tətbiqetmələrini də aça bilər. Çünki qeyd olunan əməliyyatlar, ödənişlər etmək və s.",
+    "txt2": "Bu funksiyanı necə bağlamaq olar: bu tətbiqin ana səhifəsini açın, ana səhifənin parametrlərində köməkçi funksiyasından istifadə etməyi dayandıra bilərsiniz və ya ana səhifədəki \"Bütün tapşırıqları bağlayıb çıxın\" düyməsini vura bilərsiniz. Bu düymə bütün tapşırıqların icrası və bu tətbiqin bağlanmasına məcbur edir.",
+    "txt3": "Bu funksiyamızın bu funksiyasından istifadə etməyimizin, instagramı gəzərkən digər tətbiqləri açmaq və onları idarə etmək, avtomatik olaraq silməkdən sonra avtomatik olaraq sürüşdürülə bilər və maraqlı və ya əmək qənaət edən onlayn dostlara mesaj göndərə bilər.",
+    "iKnowDanger": "Mən riskləri bilirəm - dəstəyə get",
+    "title": "Təhlükəli əməliyyatlar"
+  }
+}

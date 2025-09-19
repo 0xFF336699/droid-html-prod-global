@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Khansela",
+    "ok": "Cinisekile",
+    "checkBoxText": "Hamba ngco kugunyate kungakapheli ihhafu yenyanga futsi ungasabonisi lelifasitelo .",
+    "content": "Lomsebenti udzinga kugunyatwa kwemsebenti lositako. Uma ufuna kugunyata, sicela uchafate [Kulungile]. Nangabe ufuna kuyekela, sicela uchafate [Cabanga]",
+    "title": "Sicelo sekugunyatwa"
+  },
+  "floatPermission": {
+    "cancel": "Khansela",
+    "ok": "Cinisekile",
+    "checkBoxText": "Hamba ngco kugunyate kungakapheli ihhafu yenyanga futsi ungasabonisi lelifasitelo .",
+    "content": "Lomsebenti udzinga kugunyatwa kwemsebenti welifasitelo lelintantako. Uma ufuna kugunyata, sicela uchafate [Kulungile]. Nangabe ufuna kuyekela, sicela uchafate [Cabanga]",
+    "title": "Sicelo sekugunyatwa"
+  }
+}

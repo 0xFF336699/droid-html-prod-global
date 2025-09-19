@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "የክፍል ስም"
+      },
+      "topic": {
+        "label": "ክፍል መግቢያ"
+      },
+      "avatar": {
+        "alt": "የክፍል አምሳያ"
+      },
+      "submit": "ቅንብሮችን ያስቀምጡ"
+    },
+    "toast": {
+      "success": "ቅንብሮች ዘምኗል",
+      "error": {
+        "default": "የዝማኔ ቅንብሮች አልተሳኩም",
+        "avatar": "አምሳያን ማዘመን አልተሳካም"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "rejstřík",
+    "phoneNumber": "Telefonní číslo",
+    "phoneNumberPlaceholder": "Zadejte své číslo mobilního telefonu",
+    "verificationCode": "Ověřovací kód",
+    "verificationCodePlaceholder": "Zadejte prosím ověřovací kód",
+    "getVerificationCode": "Získejte ověřovací kód",
+    "countdown": "{{sekundy}} sekundy, abyste to zkusili znovu",
+    "register": "rejstřík",
+    "errors": {
+      "phoneRequired": "Zadejte své číslo mobilního telefonu",
+      "phoneInvalid": "Formát čísla mobilního telefonu je nesprávný",
+      "codeRequired": "Zadejte prosím ověřovací kód",
+      "codeInvalid": "Formát ověřovacího kódu je nesprávný",
+      "requestFailed": "Požadavek selhal",
+      "verificationFailed": "Získání ověřovacího kódu selhalo",
+      "loginFailed": "Přihlášení selhalo"
+    },
+    "success": {
+      "verificationCodeSent": "Byl odeslán ověřovací kód",
+      "registerSuccess": "Úspěšně se zaregistrováno"
+    }
+  }
+}

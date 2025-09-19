@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Crie uma sala"
+    },
+    "dialog": {
+      "title": "Crie uma nova sala",
+      "form": {
+        "userId": {
+          "label": "ID do usuário",
+          "placeholder": "Digite o ID do usuário (por exemplo: @User: exemplo.com)",
+          "error": {
+            "required": "O ID do usuário não pode estar vazio",
+            "invalid": "Formato de ID de usuário inválido"
+          }
+        },
+        "roomName": {
+          "label": "Nome do quarto (opcional)",
+          "placeholder": "Digite um nome de sala"
+        },
+        "isEncrypted": {
+          "label": "Ativar criptografia de ponta a ponta"
+        },
+        "isDirect": {
+          "label": "Mensagem direta"
+        },
+        "topic": {
+          "label": "Tema (opcional)",
+          "placeholder": "Entre no tema da sala"
+        }
+      },
+      "actions": {
+        "cancel": "Cancelar",
+        "create": "criar"
+      },
+      "success": "Criação de quartos com sucesso",
+      "error": "Ocorreu um erro ao criar uma sala: {error}"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Non Sal"
+      },
+      "topic": {
+        "label": "Sal Entwodiksyon"
+      },
+      "avatar": {
+        "alt": "Sal avatar"
+      },
+      "submit": "Sove Anviwònman"
+    },
+    "toast": {
+      "success": "Anviwònman mete ajou",
+      "error": {
+        "default": "Mizajou anviwònman echwe",
+        "avatar": "Echwe pou pou mete ajou avatar"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "mndandanda",
+    "phoneNumber": "Nambala yafoni",
+    "phoneNumberPlaceholder": "Chonde lowetsani nambala yafoni yanu",
+    "verificationCode": "Nambala yotsimikizira",
+    "verificationCodePlaceholder": "Chonde lowetsani nambala yotsimikizira",
+    "getVerificationCode": "Pezani nambala yotsimikizira",
+    "countdown": "{masekondi} masekondi kuti muyesenso",
+    "register": "mndandanda",
+    "errors": {
+      "phoneRequired": "Chonde lowetsani nambala yafoni yanu",
+      "phoneInvalid": "Mtundu wa foni yam'manja siolondola",
+      "codeRequired": "Chonde lowetsani nambala yotsimikizira",
+      "codeInvalid": "Foni yotsimikizika siyolondola",
+      "requestFailed": "Pempho lalephera",
+      "verificationFailed": "Kupeza kwa code kwalephera",
+      "loginFailed": "kulowa kwakwanika"
+    },
+    "success": {
+      "verificationCodeSent": "Khodi yotsimikizira yatumizidwa",
+      "registerSuccess": "Adalembetsa bwino"
+    }
+  }
+}

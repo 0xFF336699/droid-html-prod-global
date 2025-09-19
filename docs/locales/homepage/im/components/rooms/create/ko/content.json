@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "방을 만듭니다"
+    },
+    "dialog": {
+      "title": "새로운 방을 만듭니다",
+      "form": {
+        "userId": {
+          "label": "사용자 ID",
+          "placeholder": "사용자 ID를 입력하십시오 (예 : @user : example.com)",
+          "error": {
+            "required": "사용자 ID는 비어있을 수 없습니다",
+            "invalid": "잘못된 사용자 ID 형식"
+          }
+        },
+        "roomName": {
+          "label": "객실 이름 (선택 사항)",
+          "placeholder": "방 이름을 입력하십시오"
+        },
+        "isEncrypted": {
+          "label": "엔드 투 엔드 암호화를 활성화하십시오"
+        },
+        "isDirect": {
+          "label": "직접 메시지"
+        },
+        "topic": {
+          "label": "테마 (선택 사항)",
+          "placeholder": "객실 테마를 입력하십시오"
+        }
+      },
+      "actions": {
+        "cancel": "취소",
+        "create": "만들다"
+      },
+      "success": "객실 제작이 성공적으로",
+      "error": "방을 만드는 동안 오류가 발생했습니다 : {error}"
+    }
+  }
+}

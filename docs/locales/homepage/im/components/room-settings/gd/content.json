@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Roghainnean seòmar",
+    "tabs": {
+      "basic": "Roghainnean bunaiteach",
+      "permission": "Roghainnean cead",
+      "privacy": "Roghainnean prìobhaideachd",
+      "member": "Riaghladh nam Ball"
+    },
+    "loadError": "Dh'fhàillig a bhith a 'luchdachadh roghainnean seòmar",
+    "leaveRoom": {
+      "button": "Cuir a-mach an seòmar",
+      "confirm": "A bheil thu cinnteach gu bheil thu airson an seòmar fhàgail? Às deidh dhut fàgail, cha bhith e comasach dhut leantainn air adhart a 'faighinn teachdaireachdan bhon t-seòmar seo.",
+      "success": "Dh'fhuirich an seòmar gu soirbheachail",
+      "error": "Dh'fhàillig fàgail an t-seòmar, feuch ris a-rithist"
+    }
+  }
+}

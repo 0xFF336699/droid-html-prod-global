@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Eto yara",
+    "tabs": {
+      "basic": "Eto ipilẹ",
+      "permission": "Eto igbanilaaye",
+      "privacy": "Abala Awọn Eto",
+      "member": "Ọmọ ẹgbẹ ọmọ ẹgbẹ"
+    },
+    "loadError": "Kuna lati fifuye awọn eto yara",
+    "leaveRoom": {
+      "button": "Jade yara naa",
+      "confirm": "Ṣe o da ọ loju pe o fẹ lati jade kuro ni yara naa? Lẹhin ti o jade, iwọ kii yoo ni anfani lati tẹsiwaju gbigba awọn ifiranṣẹ lati yara yii.",
+      "success": "Ti gbe yara ni ifijišẹ",
+      "error": "Kuna lati jade yara naa, jọwọ gbiyanju lẹẹkansi"
+    }
+  }
+}

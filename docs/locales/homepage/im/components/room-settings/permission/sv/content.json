@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Tillståndsnivån som krävs för att skicka ett meddelande",
+        "tooltip": "0 betyder att alla medlemmar kan skicka meddelanden, och ju större antalet innebär att högre behörigheter krävs"
+      },
+      "invite": {
+        "label": "Tillståndsnivå krävs för att bjuda in nya medlemmar",
+        "tooltip": "Ställ in som kan bjuda in nya medlemmar till rummet"
+      },
+      "kick": {
+        "label": "Kick ut den nödvändiga tillståndsnivån",
+        "tooltip": "Ställ in som kan sparka ut rumsmedlemmarna"
+      },
+      "ban": {
+        "label": "Tillståndsnivå krävs för att blockera medlemmar",
+        "tooltip": "Ställ in som kan blockera rumsmedlemmar"
+      },
+      "roomSettings": {
+        "label": "Ändra den nödvändiga tillståndsnivån för rumsinställningar",
+        "tooltip": "Ställ in som kan ändra rumsinställningarna"
+      },
+      "submit": "Spara tillåtelseinställningar"
+    },
+    "description": "Tillståndsnivåområde: 0-100, desto större är antalet innebär att högre behörigheter krävs",
+    "toast": {
+      "success": "Tillståndsinställningar har uppdaterats",
+      "error": "Det gick inte att uppdatera tillståndsinställningar"
+    }
+  }
+}

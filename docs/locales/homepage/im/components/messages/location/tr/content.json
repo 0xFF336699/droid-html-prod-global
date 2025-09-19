@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Konum adı",
+    "viewMap": "Haritayı görüntüle",
+    "close": "kapanma"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Mevcut tarayıcı coğrafi konum alımını desteklemiyor",
+    "getLocationFailed": "Konumu alamadım, lütfen izin ayarlarını kontrol edin",
+    "myLocation": "Benim Konumum",
+    "shareLocation": "Paylaşım Konumu",
+    "getCurrentLocation": "Mevcut konumu alın",
+    "title": "Konum adı",
+    "description": "Ayrıntılı açıklama",
+    "descriptionPlaceholder": "Lütfen ayrıntılı bir açıklama girin (isteğe bağlı)",
+    "preview": "Konum Önizleme",
+    "latitude": "enlem",
+    "longitude": "boylam",
+    "cancel": "İptal etmek",
+    "send": "Göndermek",
+    "permissionPrompt": "Daha iyi hizmetler sunmak için konum bilgilerinizi almamız gerekiyor, izin veriliyor mu?",
+    "permissionDenied": "Konumlandırma izni reddedildi, lütfen tarayıcı ayarlarınızda konumlandırma iznini etkinleştirin",
+    "locationTimeout": "Konumlandırma Zaman aşımı, cihazın açık olduğundan emin olun ve yeniden kabul etmeye çalışın",
+    "locationUnavailable": "Geçerli konum elde edilemez, lütfen cihaz konum hizmetini kontrol edin"
+  }
+}

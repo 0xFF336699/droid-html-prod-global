@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "এই পদ্ধতি কেৱল Android ত কল কৰিব পাৰি",
+      "noMethod": "এই পদ্ধতি নাই"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Bayis",
+    "confirm": "Asmata",
+    "title": "afkan",
+    "content": "Atu tasmiteemi atu tah abtam faxxaa?"
+  },
+  "EditableText": {
+    "cancel": "Bayis",
+    "save": "wadiyya",
+    "title": "ceesayiyya"
+  }
+}

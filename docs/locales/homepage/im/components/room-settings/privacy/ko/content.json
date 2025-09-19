@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "공공 실",
+        "description": "공공 실은 다른 사용자가 검색 할 수 있습니다"
+      },
+      "allowGuestJoin": {
+        "label": "방문자가 가입하도록 허용합니다",
+        "description": "등록되지 않은 사용자가 손님으로 방에 가입하도록 허용합니다."
+      },
+      "isEncrypted": {
+        "label": "엔드 투 엔드 암호화를 활성화하십시오",
+        "description": "활성화되면 방의 메시지가 엔드 투 엔드 암호화됩니다.",
+        "alert": "객실에서 엔드 투 엔드 암호화가 활성화되어 있으며이 설정은 꺼질 수 없습니다."
+      },
+      "submit": "개인 정보 설정을 저장합니다"
+    },
+    "toast": {
+      "success": "개인 정보 설정이 업데이트되었습니다",
+      "error": "개인 정보 설정을 업데이트하지 못했습니다"
+    }
+  }
+}

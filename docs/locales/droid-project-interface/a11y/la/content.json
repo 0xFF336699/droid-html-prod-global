@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "agito",
+    "click": "Click",
+    "longClick": "Long Press",
+    "setText": "Set Text",
+    "tryClick": "Try elementum vel locus click",
+    "globalClick": "Location click"
+  }
+}

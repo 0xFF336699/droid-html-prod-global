@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "bab",
+    "phoneNumber": "Lamba ye",
+    "phoneNumberPlaceholder": "Martəgəne lamba wayabe yike",
+    "verificationCode": "Lamba tawattəgəbe",
+    "verificationCodePlaceholder": "Martəgəne code tawattəgəbedə yike",
+    "getVerificationCode": "Lamba tawattəgəbe fando",
+    "countdown": "{{seconds}} seconds waltə jarabtəro",
+    "register": "bab",
+    "errors": {
+      "phoneRequired": "Martəgəne lamba wayabe yike",
+      "phoneInvalid": "Lamba wayabedə kalkal gənyi",
+      "codeRequired": "Martəgəne code tawattəgəbedə yike",
+      "codeInvalid": "Fasal lamba tawattəgəbedə kalkal gənyi",
+      "requestFailed": "Isawu",
+      "verificationFailed": "Lamba tawattəgəbe fandodə faidatənyi",
+      "loginFailed": "Login faidatə"
+    },
+    "success": {
+      "verificationCodeSent": "Lamba tawattəgəbedə zuwatəna",
+      "registerSuccess": "Kǝnasarro rajista tǝdǝna"
+    }
+  }
+}

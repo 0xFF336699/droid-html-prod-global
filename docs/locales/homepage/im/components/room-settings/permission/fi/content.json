@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Viestin lähettämiseen tarvittava lupataso",
+        "tooltip": "0 tarkoittaa, että kaikki jäsenet voivat lähettää viestejä, ja mitä suurempi numero tarkoittaa, että korkeammat käyttöoikeudet vaaditaan"
+      },
+      "invite": {
+        "label": "Uusien jäsenten kutsumiseen vaaditaan lupataso",
+        "tooltip": "Aseta kuka voi kutsua uusia jäseniä huoneeseen"
+      },
+      "kick": {
+        "label": "Potkaise vaadittava lupataso",
+        "tooltip": "Aseta kuka voi potkaista huoneen jäsenet"
+      },
+      "ban": {
+        "label": "Jäsenten estämiseen tarvittava lupataso",
+        "tooltip": "Aseta, joka voi estää huoneen jäseniä"
+      },
+      "roomSettings": {
+        "label": "Muokkaa huoneen asetusten vaadittua lupatasoa",
+        "tooltip": "Aseta kuka voi muokata huoneen asetuksia"
+      },
+      "submit": "Tallenna lupa -asetukset"
+    },
+    "description": "Lupataso: 0-100, mitä suurempi lukumäärä tarkoittaa suurempia käyttöoikeuksia",
+    "toast": {
+      "success": "Lupa -asetukset on päivitetty",
+      "error": "Lupa -asetusten päivittäminen epäonnistui"
+    }
+  }
+}

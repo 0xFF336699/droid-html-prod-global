@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Rumsnamn"
+      },
+      "topic": {
+        "label": "Rumsintroduktion"
+      },
+      "avatar": {
+        "alt": "Rumsavatar"
+      },
+      "submit": "Spara inställningar"
+    },
+    "toast": {
+      "success": "Inställningar uppdaterade",
+      "error": {
+        "default": "Uppdateringsinställningar misslyckades",
+        "avatar": "Det gick inte att uppdatera avatar"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Nghyhoeddus",
+        "description": "Gall defnyddwyr eraill chwilio ystafelloedd cyhoeddus"
+      },
+      "allowGuestJoin": {
+        "label": "Caniatáu i ymwelwyr ymuno",
+        "description": "Caniatáu i ddefnyddwyr anghofrestredig ymuno â'r ystafell fel gwestai"
+      },
+      "isEncrypted": {
+        "label": "Galluogi amgryptio o'r dechrau i'r diwedd",
+        "description": "Pan fyddant wedi'u galluogi, bydd negeseuon yn yr ystafell yn cael eu hamgryptio o'r dechrau i'r diwedd",
+        "alert": "Mae amgryptio o'r dechrau i'r diwedd wedi'i alluogi yn yr ystafell, ac ni ellir diffodd y gosodiad hwn."
+      },
+      "submit": "Arbed Gosodiadau Preifatrwydd"
+    },
+    "toast": {
+      "success": "Mae gosodiadau preifatrwydd wedi'u diweddaru",
+      "error": "Wedi methu â diweddaru gosodiadau preifatrwydd"
+    }
+  }
+}

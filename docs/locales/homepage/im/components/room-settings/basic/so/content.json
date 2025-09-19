@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Magaca qolka"
+      },
+      "topic": {
+        "label": "Hordhac qolka"
+      },
+      "avatar": {
+        "alt": "Qolka avatar"
+      },
+      "submit": "Badbaadi goobaha"
+    },
+    "toast": {
+      "success": "Dejinta la cusbooneysiiyay",
+      "error": {
+        "default": "Dejinta Cusboonaysiinta Fashilmay",
+        "avatar": "Ku guuldareystay inuu cusboonaysiiyo avatar"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "منسوخ کریں",
+    "confirm": "یقینا",
+    "title": "اشارہ",
+    "content": "کیا آپ واقعی یہ کرنا چاہتے ہیں؟"
+  },
+  "EditableText": {
+    "cancel": "منسوخ کریں",
+    "save": "بچت کریں",
+    "title": "ترمیم کریں"
+  }
+}

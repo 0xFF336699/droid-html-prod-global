@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Isakhiwo",
+    "tabs": {
+      "basic": "#mgwaqo .",
+      "permission": "Fala i .",
+      "privacy": "Ikambiso ye .",
+      "member": "Hlala i-4"
+    },
+    "loadError": "Ubusuku ubukhulu ubukhulu uphawuka.",
+    "leaveRoom": {
+      "button": "-ama.",
+      "confirm": "Ufuna ukusiza njani ukuhlangana? I-asss, ililo, ililo, udinga ukuthi ukhona.",
+      "success": "Ubusuku amaviki kuzulu .",
+      "error": "Kuqala ukulala, uzama ukulala."
+    }
+  }
+}

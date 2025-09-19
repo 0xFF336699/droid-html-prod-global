@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Kadangi ši programa taikoma daugybei leidimų jūsų mobiliajame telefone, daugelis leidimų yra ypač rizikingi, todėl jų nekontremuokite ir nevykdykite aiškiai nežinodami rinkos ar scenarijaus rizikos. Įvedę turinį į „Rinkos kortelės įvadą“ arba „Rinkos nepriklausomo tinklalapio“ lauką žemiau, turinys bus nedelsiant vykdomas kaip kodas. Prašau būti atsargus.",
+    "setNewMarket": "Nustatykite naują rinką",
+    "settingPreview": "Nustatymų peržiūra",
+    "marketName": "Rinkos pavadinimas",
+    "marketSummary": "Rinkos įvadas",
+    "marketDescription": "Rinkos įvadas",
+    "itemMarket": "Rinkos kortelės įvadas",
+    "fullMarket": "Nepriklausomas rinkos tinklalapis",
+    "marketCardPreview": "Rinkos kortelės peržiūra",
+    "marketFullPreview": "„Rinkos nepriklausoma“ tinklalapio peržiūra",
+    "isNotSet": "Nenustatytas"
+  }
+}

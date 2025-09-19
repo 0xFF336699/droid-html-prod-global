@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Hingoa loki"
+      },
+      "topic": {
+        "label": "Loki Fakafe'iloaki"
+      },
+      "avatar": {
+        "alt": "avatar loki"
+      },
+      "submit": "Fakahaofi ʻa e ngaahi tuʻunga"
+    },
+    "toast": {
+      "success": "Ngaahi tu'unga fakafo'ou .",
+      "error": {
+        "default": "Naʻe ʻikai lava ʻa e ngaahi tuʻunga fakafoʻituituí .",
+        "avatar": "Ta'elava ke fakafo'ou 'a e avatar ."
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Rumindstillinger",
+    "tabs": {
+      "basic": "Grundlæggende indstillinger",
+      "permission": "Tilladelsesindstillinger",
+      "privacy": "Privatlivsindstillinger",
+      "member": "Medlemsledelse"
+    },
+    "loadError": "Kunne ikke indlæse værelsesindstillinger",
+    "leaveRoom": {
+      "button": "Gå ud af rummet",
+      "confirm": "Er du sikker på, at du vil forlade rummet? Når du har afsluttet, vil du ikke være i stand til at fortsætte med at modtage beskeder fra dette rum.",
+      "success": "Gik ud af rummet med succes",
+      "error": "Kunne ikke forlade rummet, prøv igen"
+    }
+  }
+}

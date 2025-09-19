@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "ثبتول",
+    "phoneNumber": "د تلیفون شمیره",
+    "phoneNumberPlaceholder": "مهرباني وکړئ د خپل ګرځنده تلیفون شمیره دننه کړئ",
+    "verificationCode": "د تایید کوډ",
+    "verificationCodePlaceholder": "مهرباني وکړئ د تایید کوډ دننه کړئ",
+    "getVerificationCode": "د تایید کوډ ترلاسه کړئ",
+    "countdown": "{{ثانیې}} Op ثانیې د بیا هڅه کولو لپاره",
+    "register": "ثبتول",
+    "errors": {
+      "phoneRequired": "مهرباني وکړئ د خپل ګرځنده تلیفون شمیره دننه کړئ",
+      "phoneInvalid": "د ګرځنده تلیفون شمیره ب format ه غلط ده",
+      "codeRequired": "مهرباني وکړئ د تایید کوډ دننه کړئ",
+      "codeInvalid": "د تایید کوډ ب format ه غلط ده",
+      "requestFailed": "غوښتنه ناکامه شوه",
+      "verificationFailed": "د تایید کوډ استملاک ناکام شو",
+      "loginFailed": "ننوتل ناکام شول"
+    },
+    "success": {
+      "verificationCodeSent": "د تایید کوډ لیږل شوی",
+      "registerSuccess": "په بریالیتوب ثبت شوی"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "Tilføj vedhæftede filer",
+    "emoji": "Vælg et udtryk",
+    "placeholder": "Indtast en besked ...",
+    "sendLocation": "Send placering",
+    "send": "sende"
+  }
+}

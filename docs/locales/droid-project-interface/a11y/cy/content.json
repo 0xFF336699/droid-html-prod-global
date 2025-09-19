@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "gweithreda ’",
+    "click": "Cliciwyd",
+    "longClick": "Gwasg Hir",
+    "setText": "Gosod testun",
+    "tryClick": "Rhowch gynnig ar elfen neu leoliad cliciwch",
+    "globalClick": "Lleoliad Cliciwch"
+  }
+}

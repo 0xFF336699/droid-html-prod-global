@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "Apondre de jonccions",
+    "emoji": "Seleccionatz una expression .",
+    "placeholder": "Picatz un messatge...",
+    "sendLocation": "Enviar la localizacion",
+    "send": "mandar"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Ver tilknýtt",
+        "helperText": "Um tú trýstir á leinkjuna Start, so halt leinkjuna. Hetta krevur uppmerksemi um, at leinkjan verður sett saman aftur áhaldandi, eftir at tað er slitið.",
+        "retryCount": "Tal av endurtøkum"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "Link URL, til dømis ws://192.168.0.2:7001, ella wws://dømi.com/leið",
+        "error": "Rætta slóðin er ein URL byrjandi við ws:// ella wws://"
+      }
+    },
+    "connectButton": {
+      "connect": "sambinda",
+      "disconnect": "Frásamband",
+      "status": {
+        "connecting": "Samband...",
+        "connected": "Samband",
+        "disconnecting": "At fáa samband... Frástøðu...",
+        "disconnected": "Ikki tilknýtt",
+        "waitRetry": "Bíða eftir endursambandi..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "handrit"
+  }
+}

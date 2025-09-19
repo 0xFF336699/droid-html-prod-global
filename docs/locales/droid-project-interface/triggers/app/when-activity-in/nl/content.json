@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Bij het invoeren van de opgegeven pagina",
+    "pnLabel": "Pakketnaam:",
+    "anLabel": "Activiteitsnaam:",
+    "cnLabel": "Klasnaam:",
+    "changeBtnLabel": "vervangen"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Bij het invoeren van de opgegeven pagina",
+    "pnLabel": "Pakketnaam:",
+    "anLabel": "Activiteitsnaam:",
+    "cnLabel": "Klasnaam:",
+    "changeBtnLabel": "vervangen"
+  }
+}

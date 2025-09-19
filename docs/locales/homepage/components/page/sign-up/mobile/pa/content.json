@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "ਰਜਿਸਟਰ ਕਰੋ",
+    "phoneNumber": "ਫੋਨ ਨੰਬਰ",
+    "phoneNumberPlaceholder": "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਮੋਬਾਈਲ ਫੋਨ ਨੰਬਰ ਦਾਖਲ ਕਰੋ",
+    "verificationCode": "ਪੜਤਾਲ ਕੋਡ",
+    "verificationCodePlaceholder": "ਕਿਰਪਾ ਕਰਕੇ ਤਸਦੀਕ ਕੋਡ ਦਾਖਲ ਕਰੋ",
+    "getVerificationCode": "ਤਸਦੀਕ ਕੋਡ ਪ੍ਰਾਪਤ ਕਰੋ",
+    "countdown": "{{ਸਕਿੰਟ}} ਸਕਿੰਟ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰਨ ਲਈ",
+    "register": "ਰਜਿਸਟਰ ਕਰੋ",
+    "errors": {
+      "phoneRequired": "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਮੋਬਾਈਲ ਫੋਨ ਨੰਬਰ ਦਾਖਲ ਕਰੋ",
+      "phoneInvalid": "ਮੋਬਾਈਲ ਫੋਨ ਨੰਬਰ ਦਾ ਫਾਰਮੈਟ ਗਲਤ ਹੈ",
+      "codeRequired": "ਕਿਰਪਾ ਕਰਕੇ ਤਸਦੀਕ ਕੋਡ ਦਾਖਲ ਕਰੋ",
+      "codeInvalid": "ਤਸਦੀਕ ਕੋਡ ਫਾਰਮੈਟ ਗਲਤ ਹੈ",
+      "requestFailed": "ਬੇਨਤੀ ਅਸਫਲ",
+      "verificationFailed": "ਤਸਦੀਕ ਕੋਡ ਐਕਵਾਇਰ ਅਸਫਲ",
+      "loginFailed": "ਲਾਗਿਨ ਅਸਫਲ ਰਿਹਾ"
+    },
+    "success": {
+      "verificationCodeSent": "ਤਸਦੀਕ ਕੋਡ ਭੇਜਿਆ ਗਿਆ ਹੈ",
+      "registerSuccess": "ਰਜਿਸਟਰਡ ਰਜਿਸਟਰਡ"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "ዓባሪዎችን ያክሉ",
+    "emoji": "መግለጫ ይምረጡ",
+    "placeholder": "መልእክት ያስገቡ ...",
+    "sendLocation": "ቦታ ይላኩ",
+    "send": "ላክ"
+  }
+}

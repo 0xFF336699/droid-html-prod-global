@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "При введенні вказаної сторінки",
+    "pnLabel": "Назва пакету:",
+    "anLabel": "Назва діяльності:",
+    "cnLabel": "Назва класу:",
+    "changeBtnLabel": "замінити"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "При введенні вказаної сторінки",
+    "pnLabel": "Назва пакету:",
+    "anLabel": "Назва діяльності:",
+    "cnLabel": "Назва класу:",
+    "changeBtnLabel": "замінити"
+  }
+}

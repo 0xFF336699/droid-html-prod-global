@@ -1,0 +1,7 @@
+{
+  "androidPermission": {
+    "denied": "hylätä",
+    "granted": "Valtuutettu",
+    "shouldAskAgain": "Luvaton"
+  }
+}

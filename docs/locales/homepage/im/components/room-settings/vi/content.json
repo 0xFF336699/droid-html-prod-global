@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Cài đặt phòng",
+    "tabs": {
+      "basic": "Cài đặt cơ bản",
+      "permission": "Cài đặt quyền",
+      "privacy": "Cài đặt quyền riêng tư",
+      "member": "Quản lý thành viên"
+    },
+    "loadError": "Không tải cài đặt phòng",
+    "leaveRoom": {
+      "button": "Thoát khỏi phòng",
+      "confirm": "Bạn có chắc là bạn muốn thoát khỏi phòng? Sau khi bạn thoát, bạn sẽ không thể tiếp tục nhận tin nhắn từ phòng này.",
+      "success": "Thoát khỏi căn phòng thành công",
+      "error": "Không thể thoát khỏi phòng, vui lòng thử lại"
+    }
+  }
+}

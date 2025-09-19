@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Habitación Pública .",
+        "description": "Habitaciones públicas nisqakunataqa huk llamk'aqkunam maskankuman ."
+      },
+      "allowGuestJoin": {
+        "label": "Watukuqkunaman hukllawakunankupaq saqiy .",
+        "description": "Permitiy mana registrado usuariokunata invitado hina cuartoman hukllawakunankupaq ."
+      },
+      "isEncrypted": {
+        "label": "Tukuymanta tukukuykama chiqapchayta atichiy .",
+        "description": "Atichisqa kaptinqa, cuartopi willakuykunaqa chifrasqa kanqa tukukuymanta tukukuykama .",
+        "alert": "Tukuchinamanta tukukuykama chifrayqa cuartopi atichisqa kachkan, kay churanataq mana wañuchisqachu kanman."
+      },
+      "submit": "Sapaqchasqa Ajustes nisqakunata waqaychay ."
+    },
+    "toast": {
+      "success": "Sapanchasqa churanakuna musuqchasqa kanku .",
+      "error": "Sapanchasqa churanakunata musuqchayta atirqan ."
+    }
+  }
+}

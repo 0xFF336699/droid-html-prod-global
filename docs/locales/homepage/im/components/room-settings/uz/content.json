@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Xona sozlamalari",
+    "tabs": {
+      "basic": "Asosiy sozlamalar",
+      "permission": "Ruxsatnoma sozlamalari",
+      "privacy": "Maxfiylik sozlamalari",
+      "member": "A'zo menejmenti"
+    },
+    "loadError": "Xona sozlamalarini yuklab bo'lmadi",
+    "leaveRoom": {
+      "button": "Xonadan chiqing",
+      "confirm": "Xonadan chiqishingizni xohlaysizmi? Siz chiqqandan keyin siz ushbu xonaning xabarlarini qabul qila olmaysiz.",
+      "success": "Xona muvaffaqiyatli chiqdi",
+      "error": "Xonadan chiqa olmadi, yana urinib ko'ring"
+    }
+  }
+}

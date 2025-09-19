@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Göstərilən səhifəyə girərkən",
+    "pnLabel": "Paketin adı:",
+    "anLabel": "Fəaliyyət adı:",
+    "cnLabel": "Sinif adı:",
+    "changeBtnLabel": "əvəz etmək"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Göstərilən səhifəyə girərkən",
+    "pnLabel": "Paketin adı:",
+    "anLabel": "Fəaliyyət adı:",
+    "cnLabel": "Sinif adı:",
+    "changeBtnLabel": "əvəz etmək"
+  }
+}

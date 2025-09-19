@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Пайвастшавӣ ...",
+    "connected": "Пайваст",
+    "disconnecting": "Қатъкунӣ ...",
+    "disconnected": "Алоқаманд нест",
+    "waitRetry": "Интизории такрорӣ ..."
+  }
+}

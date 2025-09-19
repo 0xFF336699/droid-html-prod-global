@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL nisqa patrón .",
+    "full": {
+      "url": "Qhatu url. Yaykusqa qillqakuna URL hina kargasqa kanqa, ama hina kaspa allinta qhaway.",
+      "html": "qhatu HTML nisqa contenido. Yaykusqa qillqakuna chaylla ruwasqa kanqa script hina, ama hina kaspa cuidadoyuq kay.",
+      "come": "Hamuychis ñuqaman .",
+      "myMarketName": "Qhatu suti .",
+      "stroll": "Puriyta ruwasun ."
+    },
+    "item": {
+      "url": "URL de la tarjeta de mercado. Yaykusqa qillqakuna URL hina kargasqa kanqa, ama hina kaspa allinta qhaway.",
+      "html": "qhatu HTML nisqa contenido. Yaykusqa qillqakuna chaylla ruwasqa kanqa script hina, ama hina kaspa cuidadoyuq kay.",
+      "come": "Hamuychis ñuqaman .",
+      "myMarketName": "Qhatu suti .",
+      "stroll": "Puriyta ruwasun ."
+    }
+  }
+}

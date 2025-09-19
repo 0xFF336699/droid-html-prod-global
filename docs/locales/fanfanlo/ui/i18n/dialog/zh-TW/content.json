@@ -1,0 +1,11 @@
+{
+  "content": {
+    "ok": "確定",
+    "cancel": "取消",
+    "delete": "刪除",
+    "edit": "編輯",
+    "save": "保存",
+    "close": "關閉",
+    "confirm": "確認"
+  }
+}

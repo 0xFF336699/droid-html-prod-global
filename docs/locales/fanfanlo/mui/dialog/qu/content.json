@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Sayachiy",
+    "confirm": "Chiqaq",
+    "title": "willay",
+    "content": "¿Segurochu kayta ruwayta munanki?"
+  },
+  "EditableText": {
+    "cancel": "Sayachiy",
+    "save": "waqaychay",
+    "title": "ruwapay"
+  }
+}

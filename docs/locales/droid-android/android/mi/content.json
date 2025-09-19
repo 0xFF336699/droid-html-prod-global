@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Ka taea anake te karanga i tenei tikanga i runga i te Android",
+      "noMethod": "Kaore tenei tikanga e noho"
+    }
+  }
+}

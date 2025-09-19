@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "ምዝገባ",
+    "phoneNumber": "ቁጽሪ ተሌፎን",
+    "phoneNumberPlaceholder": "ቁጽሪ ሞባይልኩም ኣእትዉ",
+    "verificationCode": "ናይ ምርግጋጽ ሕጊ",
+    "verificationCodePlaceholder": "በጃኹም ናይ ምርግጋጽ ኮድ ኣእትዉ",
+    "getVerificationCode": "ናይ ምርግጋጽ ኮድ ረኸቡ",
+    "countdown": "{{ካልኢታት}} ካልኢታት ዳግማይ ክትፍትን",
+    "register": "ምዝገባ",
+    "errors": {
+      "phoneRequired": "ቁጽሪ ሞባይልኩም ኣእትዉ",
+      "phoneInvalid": "እቲ ናይ ሞባይል ቴሌፎን ቁጽሪ ቅርጺ ጌጋ እዩ .",
+      "codeRequired": "በጃኹም ናይ ምርግጋጽ ኮድ ኣእትዉ",
+      "codeInvalid": "እቲ ናይ ምርግጋጽ ኮድ ቅርጺ ጌጋ እዩ .",
+      "requestFailed": "ሕቶ ፈሺሉ",
+      "verificationFailed": "ናይ ምርግጋጽ ኮድ ምግዛእ ኣይተዓወተን .",
+      "loginFailed": "ሎጊን ኣይተዓወተን ."
+    },
+    "success": {
+      "verificationCodeSent": "ናይ ምርግጋጽ ሕጊ ተላኢኹ ኣሎ ።",
+      "registerSuccess": "ብዓወት ተመዝጊቡ"
+    }
+  }
+}

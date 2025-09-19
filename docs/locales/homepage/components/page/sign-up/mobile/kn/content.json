@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "ನೋಂದಾಯಿಸು",
+    "phoneNumber": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
+    "phoneNumberPlaceholder": "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಮೊಬೈಲ್ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ",
+    "verificationCode": "ಪರಿಶೀಲನೆ ಕೋಡ್",
+    "verificationCodePlaceholder": "ದಯವಿಟ್ಟು ಪರಿಶೀಲನಾ ಕೋಡ್ ಅನ್ನು ನಮೂದಿಸಿ",
+    "getVerificationCode": "ಪರಿಶೀಲನಾ ಕೋಡ್ ಪಡೆಯಿರಿ",
+    "countdown": "{{ಸೆಕೆಂಡುಗಳು}} ಸೆಕೆಂಡುಗಳು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಲು",
+    "register": "ನೋಂದಾಯಿಸು",
+    "errors": {
+      "phoneRequired": "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಮೊಬೈಲ್ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ",
+      "phoneInvalid": "ಮೊಬೈಲ್ ಫೋನ್ ಸಂಖ್ಯೆ ಸ್ವರೂಪ ತಪ್ಪಾಗಿದೆ",
+      "codeRequired": "ದಯವಿಟ್ಟು ಪರಿಶೀಲನಾ ಕೋಡ್ ಅನ್ನು ನಮೂದಿಸಿ",
+      "codeInvalid": "ಪರಿಶೀಲನಾ ಕೋಡ್ ಸ್ವರೂಪ ತಪ್ಪಾಗಿದೆ",
+      "requestFailed": "ವಿನಂತಿ ವಿಫಲವಾಗಿದೆ",
+      "verificationFailed": "ಪರಿಶೀಲನೆ ಕೋಡ್ ಸ್ವಾಧೀನ ವಿಫಲವಾಗಿದೆ",
+      "loginFailed": "ಲಾಗಿನ್ ವಿಫಲವಾಗಿದೆ"
+    },
+    "success": {
+      "verificationCodeSent": "ಪರಿಶೀಲನಾ ಕೋಡ್ ಕಳುಹಿಸಲಾಗಿದೆ",
+      "registerSuccess": "ಯಶಸ್ವಿಯಾಗಿ ನೋಂದಾಯಿಸಲಾಗಿದೆ"
+    }
+  }
+}

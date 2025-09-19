@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Sala pública",
+        "description": "Salas públicas podem ser pesquisadas por outros usuários"
+      },
+      "allowGuestJoin": {
+        "label": "Permitir que os visitantes participem",
+        "description": "Permitir que usuários não registrados se juntem à sala como um convidado"
+      },
+      "isEncrypted": {
+        "label": "Ativar criptografia de ponta a ponta",
+        "description": "Quando ativado, as mensagens na sala serão criptografadas de ponta a ponta",
+        "alert": "A criptografia de ponta a ponta está ativada na sala e essa configuração não pode ser desligada."
+      },
+      "submit": "Salvar configurações de privacidade"
+    },
+    "toast": {
+      "success": "As configurações de privacidade foram atualizadas",
+      "error": "Falha ao atualizar as configurações de privacidade"
+    }
+  }
+}

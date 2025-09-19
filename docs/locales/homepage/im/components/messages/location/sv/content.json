@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Platsnamn",
+    "viewMap": "Visa kartan",
+    "close": "stängning"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Den nuvarande webbläsaren stöder inte förvärv av geolokalisering",
+    "getLocationFailed": "Det gick inte att få platsen, kontrollera tillåtelseinställningarna",
+    "myLocation": "Min plats",
+    "shareLocation": "Aktieplats",
+    "getCurrentLocation": "Få den nuvarande platsen",
+    "title": "Platsnamn",
+    "description": "Detaljerad beskrivning",
+    "descriptionPlaceholder": "Ange en detaljerad beskrivning (valfritt)",
+    "preview": "Platsförhandsvisning",
+    "latitude": "latitud",
+    "longitude": "longitud",
+    "cancel": "Avboka",
+    "send": "skicka",
+    "permissionPrompt": "Vi måste få din platsinformation för att tillhandahålla bättre tjänster, är det tillåtet?",
+    "permissionDenied": "Positioneringstillstånd nekas, vänligen aktivera positioneringstillstånd i dina webbläsarinställningar",
+    "locationTimeout": "Positionering av timeout, se till att enheten är aktiverad och försök att återkalla",
+    "locationUnavailable": "Den nuvarande platsen kan inte erhållas, kontrollera enhetens platstjänst"
+  }
+}

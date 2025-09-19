@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Nzo ya bantu yonso",
+        "description": "Ba suku ya bantu yonso lenda sosama na bantu ya nkaka ya ke sadilaka ."
+      },
+      "allowGuestJoin": {
+        "label": "Bika nde banzenza kuvukana",
+        "description": "Bika bantu yina me sonikisaka ve bazina na bo kukota na suku yina bonso nzenza ."
+      },
+      "isEncrypted": {
+        "label": "Kupesa nzila na encryption ya nsuka-nsuka",
+        "description": "Ntangu bo me pesa yo, bansangu yina kele na suku ta vanda ya kukangama na nsuka-nsuka .",
+        "alert": "Encryption ya nsuka tii na nsuka kele ya kukangula na suku, mpi kisika yai lenda fwa ve."
+      },
+      "submit": "Katula baparametre ya kinsweki"
+    },
+    "toast": {
+      "success": "Bo me yidika mambu ya ke tadila mambu ya kinsweki",
+      "error": "Kukonda kuyidika baparametre ya kinsweki"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "ITriggerTimeout": {
+    "title": "Zpožděné provedení",
+    "content_delay": "Zpoždění",
+    "content_milliseconds": "Provádějte v milisekundách"
+  }
+}

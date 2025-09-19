@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Ustawienia pokoju",
+    "tabs": {
+      "basic": "Podstawowe ustawienia",
+      "permission": "Ustawienia uprawnień",
+      "privacy": "Ustawienia prywatności",
+      "member": "Zarządzanie członkami"
+    },
+    "loadError": "Nie udało się załadować ustawień pokoju",
+    "leaveRoom": {
+      "button": "Wyjdź z pokoju",
+      "confirm": "Czy na pewno chcesz wyjść z pokoju? Po wyjściu nie będziesz mógł nadal otrzymywać wiadomości z tego pokoju.",
+      "success": "Pomyślnie wyszedł z pokoju",
+      "error": "Nie udało się wyjść z pokoju, spróbuj ponownie"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Login/Registreer",
+    "signOut": "Log oet",
+    "confirmContent": "Zien jullie zeker dat u wilt oetlogge?",
+    "confirmTitle": "hint",
+    "confirm": "Zeker",
+    "cancel": "Annulere",
+    "signoutOk": "Log oet",
+    "loadingData": "‘t Lade gebruuk vaan gebruukersgegeves"
+  }
+}

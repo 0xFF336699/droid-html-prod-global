@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "regsitreer",
+    "phoneNumber": "Telefoonnommer",
+    "phoneNumberPlaceholder": "Voer asseblief u selfoonnommer in",
+    "verificationCode": "Verifiëringskode",
+    "verificationCodePlaceholder": "Voer asseblief die verifikasiekode in",
+    "getVerificationCode": "Kry die verifikasiekode",
+    "countdown": "{{sekondes}} sekondes om weer te probeer",
+    "register": "regsitreer",
+    "errors": {
+      "phoneRequired": "Voer asseblief u selfoonnommer in",
+      "phoneInvalid": "Die selfoonnommerformaat is verkeerd",
+      "codeRequired": "Voer asseblief die verifikasiekode in",
+      "codeInvalid": "Die verifikasiekodeformaat is verkeerd",
+      "requestFailed": "Versoek het misluk",
+      "verificationFailed": "Verifiëringskode -verkryging het misluk",
+      "loginFailed": "Aanmelding het misluk"
+    },
+    "success": {
+      "verificationCodeSent": "Verifiëringskode is gestuur",
+      "registerSuccess": "Suksesvol geregistreer"
+    }
+  }
+}

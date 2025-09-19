@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Login/Enskri",
+    "signOut": "Log soti",
+    "confirmContent": "Èske ou sèten ou vle ale deyò?",
+    "confirmTitle": "tip",
+    "confirm": "Sèten",
+    "cancel": "Anile",
+    "signoutOk": "Log soti",
+    "loadingData": "Chaje done itilizatè"
+  }
+}

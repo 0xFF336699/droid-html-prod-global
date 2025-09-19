@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Sala Suti ."
+      },
+      "topic": {
+        "label": "Sala uñt’ayaña ."
+      },
+      "avatar": {
+        "alt": "Sala Avatar ."
+      },
+      "submit": "Configuración ukar qhispiyaña ."
+    },
+    "toast": {
+      "success": "Configuración ukax machaqar tukuyatawa .",
+      "error": {
+        "default": "Update Configuración ukax janiw phuqhaskiti .",
+        "avatar": "Avatar ukarux janiw machaqar tukuykiti ."
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "बजारमा थप्नुहोस्",
+    "url": "बजार URL",
+    "summary": "बजार सारांश",
+    "urlIsNotValid": "गलत बजार URL"
+  }
+}

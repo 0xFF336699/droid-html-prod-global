@@ -1,0 +1,9 @@
+{
+  "MemberDetailContent": {
+    "title": "회원 세부 사항",
+    "nickname": "별명",
+    "role": "역할",
+    "kick": "킥아웃",
+    "ban": "금지"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Informacija apie vartotoją",
+    "id": {
+      "name": "Id",
+      "copy": "kopijuoti",
+      "copied": "ID buvo nukopijuotas"
+    },
+    "notLoggedIn": "Neįsijungęs",
+    "name": "vardas",
+    "avatar": "Avataras"
+  }
+}

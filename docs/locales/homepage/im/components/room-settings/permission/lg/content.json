@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Omutendera gw'olukusa ogwetaagisa okuweereza obubaka .",
+        "tooltip": "0 kitegeeza nti bammemba bonna basobola okuweereza obubaka, era omuwendo gye gukoma okuba omunene kitegeeza nti olukusa olw’oku ntikko lwetaagibwa ."
+      },
+      "invite": {
+        "label": "Omutendera gw'olukusa ogwetaagisa okuyita bammemba abapya .",
+        "tooltip": "Teeka ani asobola okuyita bammemba abapya mu kisenge ."
+      },
+      "kick": {
+        "label": "Kick out omutendera gw'olukusa ogwetaagisa .",
+        "tooltip": "Teeka ani asobola okugoba bammemba b'ekisenge ."
+      },
+      "ban": {
+        "label": "Omutendera gw'olukusa ogwetaagisa okuziyiza bammemba .",
+        "tooltip": "Teeka ani asobola okuziyiza bammemba b'ekisenge ."
+      },
+      "roomSettings": {
+        "label": "Kyuusa omutendera ogwetaagisa ogw’olukusa lw’okuteekawo ekisenge .",
+        "tooltip": "Teeka ani asobola okukyusa ensengeka y'ekisenge ."
+      },
+      "submit": "Teeka Ensengeka z'olukusa ."
+    },
+    "description": "Olukusa Olukusa Olukusa: 0-100, omuwendo gye gukoma okutegeeza nti olukusa olw’oku ntikko lwetaagibwa .",
+    "toast": {
+      "success": "Enteekateeka z'olukusa zitereezeddwa .",
+      "error": "Kiremeddwa okutereeza ensengeka z'olukusa ."
+    }
+  }
+}

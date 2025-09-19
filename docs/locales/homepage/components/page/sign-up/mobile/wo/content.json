@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "bindu",
+    "phoneNumber": "Nimero telefon",
+    "phoneNumberPlaceholder": "Baalnu nga bind sa nimero telefon bi",
+    "verificationCode": "Kodu jàngat",
+    "verificationCodePlaceholder": "Baalnu nga bind kodu xool",
+    "getVerificationCode": "Wutal kodu xool",
+    "countdown": "{{seconds}} ay seconde ngir jéemaat",
+    "register": "bindu",
+    "errors": {
+      "phoneRequired": "Baalnu nga bind sa nimero telefon bi",
+      "phoneInvalid": "Xeetu nimero telefon bi amul benn yoon",
+      "codeRequired": "Baalnu nga bind kodu xool",
+      "codeInvalid": "Format kode kodu xool bi baaxul",
+      "requestFailed": "Laajte",
+      "verificationFailed": "Kodu jàngat bi dafa lajj",
+      "loginFailed": "Login daa lajj"
+    },
+    "success": {
+      "verificationCodeSent": "Yonne nañu kodu jàngat",
+      "registerSuccess": "Bindu"
+    }
+  }
+}

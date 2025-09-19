@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "regjistroj",
+    "phoneNumber": "Numër telefoni",
+    "phoneNumberPlaceholder": "Ju lutemi shkruani numrin tuaj të telefonit celular",
+    "verificationCode": "Kod verifikimi",
+    "verificationCodePlaceholder": "Ju lutemi shkruani kodin e verifikimit",
+    "getVerificationCode": "Merrni kodin e verifikimit",
+    "countdown": "{{sekonda}} sekonda për të provuar përsëri",
+    "register": "regjistroj",
+    "errors": {
+      "phoneRequired": "Ju lutemi shkruani numrin tuaj të telefonit celular",
+      "phoneInvalid": "Formati i numrit të telefonit celular është i pasaktë",
+      "codeRequired": "Ju lutemi shkruani kodin e verifikimit",
+      "codeInvalid": "Formati i kodit të verifikimit është i pasaktë",
+      "requestFailed": "Kërkesa dështoi",
+      "verificationFailed": "Blerja e kodit të verifikimit dështoi",
+      "loginFailed": "Hyrja dështoi"
+    },
+    "success": {
+      "verificationCodeSent": "Kodi i verifikimit është dërguar",
+      "registerSuccess": "Regjistruar me sukses"
+    }
+  }
+}

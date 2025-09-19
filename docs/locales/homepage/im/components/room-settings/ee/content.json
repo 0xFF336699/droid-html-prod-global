@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Xɔa ƒe Ðoɖowo .",
+    "tabs": {
+      "basic": "Ðoɖo veviwo .",
+      "permission": "Mɔɖeɖe ƒe Ðoɖowo .",
+      "privacy": "Ameŋunyatakakawo Ŋuti Ðoɖowo .",
+      "member": "Hameviwo Dzikpɔkpɔ ."
+    },
+    "loadError": "Do kpo xɔwo ƒe ɖoɖowo tsɔtsɔ de eme.",
+    "leaveRoom": {
+      "button": "Do le xɔa me .",
+      "confirm": "Èka ɖe edzi be yeado le xɔa mea? Ne èdo le eme vɔ la, màte ŋu ayi edzi axɔ gbedasiwo tso xɔ sia me o.",
+      "success": "do le xɔa me dzidzedzetɔe .",
+      "error": "Do kpo dodo le xɔa me, taflatse gate kpɔ ake ."
+    }
+  }
+}

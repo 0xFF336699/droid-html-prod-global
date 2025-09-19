@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "发送消息所需权限级别",
+        "tooltip": "0表示所有成员都可以发送消息，数字越大表示需要更高的权限"
+      },
+      "invite": {
+        "label": "邀请新成员所需权限级别",
+        "tooltip": "设置谁可以邀请新成员加入房间"
+      },
+      "kick": {
+        "label": "踢出成员所需权限级别",
+        "tooltip": "设置谁可以踢出房间成员"
+      },
+      "ban": {
+        "label": "封禁成员所需权限级别",
+        "tooltip": "设置谁可以封禁房间成员"
+      },
+      "roomSettings": {
+        "label": "修改房间设置所需权限级别",
+        "tooltip": "设置谁可以修改房间设置"
+      },
+      "submit": "保存权限设置"
+    },
+    "description": "权限级别范围：0-100，数字越大表示需要更高的权限",
+    "toast": {
+      "success": "权限设置已更新",
+      "error": "更新权限设置失败"
+    }
+  }
+}

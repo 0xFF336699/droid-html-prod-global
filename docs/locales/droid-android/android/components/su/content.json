@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Ngabatalkeun",
+    "ok": "Yakin",
+    "checkBoxText": "Pindah langsung ka otorisasi dina satengah bulan sareng henteu deui nunjukkeun jandela ieu",
+    "content": "Fungsi ieu butuh otorisasi fungsina. Upami anjeun hoyong ngarang, punten klik [OK]. Upami anjeun badé nyerah, punten klik [Bolay]",
+    "title": "Aplikasi otorisasi"
+  },
+  "floatPermission": {
+    "cancel": "Ngabatalkeun",
+    "ok": "Yakin",
+    "checkBoxText": "Pindah langsung ka otorisasi dina satengah bulan sareng henteu deui nunjukkeun jandela ieu",
+    "content": "Fungsi ieu butuh otorisasi fungsi anu ngambang. Upami anjeun hoyong ngarang, punten klik [OK]. Upami anjeun badé nyerah, punten klik [Bolay]",
+    "title": "Aplikasi otorisasi"
+  }
+}

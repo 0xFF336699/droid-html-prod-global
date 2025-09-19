@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Căutați membri"
+    },
+    "table": {
+      "columns": {
+        "name": "Numele membru",
+        "userId": "ID-ul de utilizator",
+        "actions": "operați"
+      },
+      "pagination": {
+        "rowsPerPage": "Numărul de rânduri pe pagină"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Ieșiți afară",
+        "ban": "Interzis"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Confirmați membrul de lovitură",
+        "content": "Ești sigur că vrei să -l dai pe membru din cameră?"
+      },
+      "ban": {
+        "title": "Confirmați calitatea de membru interzis",
+        "content": "Ești sigur că vrei să interzici acest membru? Membrul nu va putea să reintre în cameră după interdicție."
+      },
+      "buttons": {
+        "cancel": "Anula",
+        "confirm": "confirma"
+      }
+    },
+    "toast": {
+      "loadError": "Nu a reușit să încarce lista membrilor",
+      "kick": {
+        "success": "Membrii au fost dați afară din cameră",
+        "error": "Introducerea membrilor nu a reușit"
+      },
+      "ban": {
+        "success": "Membrii au blocat",
+        "error": "Nu a reușit să blocheze membrii"
+      }
+    },
+    "invite": {
+      "button": "Invitați membrii",
+      "title": "Invitați membrii să se alăture camerei",
+      "inputLabel": "Vă rugăm să introduceți ID -ul de utilizator Matrix (cum ar fi @user: matrix.org)",
+      "confirm": "invita",
+      "cancel": "Anula",
+      "loading": "Primitor ...",
+      "success": "Invitație trimisă!",
+      "error": "Invitația a eșuat, vă rugăm să verificați ID -ul utilizatorului sau permisiunile"
+    },
+    "empty": "Niciun membru încă",
+    "loading": "încărcare...",
+    "role": {
+      "owner": "Proprietar de casă",
+      "admin": "administrator",
+      "moderator": "Co-management",
+      "user": "membru"
+    }
+  }
+}

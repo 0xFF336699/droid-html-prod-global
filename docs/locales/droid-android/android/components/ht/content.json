@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Anile",
+    "ok": "Sèten",
+    "checkBoxText": "Ale dirèkteman pou otorize nan mwatye yon mwa epi pa montre fenèt sa a ankò",
+    "content": "Fonksyon sa a mande pou otorizasyon fonksyon oksilyè. Si ou vle otorize, tanpri klike sou [OK]. Si ou vle bay moute, tanpri klike sou [Anile]",
+    "title": "Aplikasyon otorizasyon"
+  },
+  "floatPermission": {
+    "cancel": "Anile",
+    "ok": "Sèten",
+    "checkBoxText": "Ale dirèkteman pou otorize nan mwatye yon mwa epi pa montre fenèt sa a ankò",
+    "content": "Fonksyon sa a mande pou otorizasyon nan fonksyon an fenèt k ap flote. Si ou vle otorize, tanpri klike sou [OK]. Si ou vle bay moute, tanpri klike sou [Anile]",
+    "title": "Aplikasyon otorizasyon"
+  }
+}

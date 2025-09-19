@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "Old sahifa",
+    "me": "meniki",
+    "settings": "sozlash; o'rnatish",
+    "script": "skript",
+    "store": "bozor",
+    "market": "bozor",
+    "create": "yaratmoq"
+  },
+  "tabbar": {
+    "test": "Pastki menyu paneli"
+  }
+}

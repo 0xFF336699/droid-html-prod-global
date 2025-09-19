@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Nama Lokasi",
+    "viewMap": "Lihat peta",
+    "close": "penutup"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Browser saat ini tidak mendukung akuisisi geolokasi",
+    "getLocationFailed": "Gagal mendapatkan lokasi, silakan periksa pengaturan izin",
+    "myLocation": "Lokasi saya",
+    "shareLocation": "Bagikan Lokasi",
+    "getCurrentLocation": "Dapatkan lokasi saat ini",
+    "title": "Nama Lokasi",
+    "description": "Deskripsi terperinci",
+    "descriptionPlaceholder": "Harap masukkan deskripsi terperinci (opsional)",
+    "preview": "Pratinjau Lokasi",
+    "latitude": "lintang",
+    "longitude": "garis bujur",
+    "cancel": "Membatalkan",
+    "send": "mengirim",
+    "permissionPrompt": "Kami perlu mendapatkan informasi lokasi Anda untuk memberikan layanan yang lebih baik, apakah diizinkan?",
+    "permissionDenied": "Izin penentuan posisi ditolak, harap aktifkan izin penentuan posisi di pengaturan browser Anda",
+    "locationTimeout": "Memposisikan batas waktu, pastikan perangkat dihidupkan dan cobalah untuk mendapatkan kembali",
+    "locationUnavailable": "Lokasi saat ini tidak dapat diperoleh, silakan periksa layanan lokasi perangkat"
+  }
+}

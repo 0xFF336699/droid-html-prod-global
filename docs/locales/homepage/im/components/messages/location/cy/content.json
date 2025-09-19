@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Enw Lleoliad",
+    "viewMap": "Gweld y map",
+    "close": "cau"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Nid yw'r porwr cyfredol yn cefnogi caffaeliad geolocation",
+    "getLocationFailed": "Wedi methu â chael y lleoliad, gwiriwch y gosodiadau caniatâd",
+    "myLocation": "Fy Lleoliad",
+    "shareLocation": "Lleoliad Rhannu",
+    "getCurrentLocation": "Cael y lleoliad presennol",
+    "title": "Enw Lleoliad",
+    "description": "Disgrifiad manwl",
+    "descriptionPlaceholder": "Rhowch ddisgrifiad manwl (dewisol)",
+    "preview": "Rhagolwg Lleoliad",
+    "latitude": "lledred",
+    "longitude": "hydred",
+    "cancel": "Chansliff",
+    "send": "hela ’",
+    "permissionPrompt": "Mae angen i ni gael eich gwybodaeth am leoliad i ddarparu gwasanaethau gwell, a ganiateir?",
+    "permissionDenied": "Gwrthodir caniatâd lleoli, galluogi caniatâd lleoli yn eich gosodiadau porwr",
+    "locationTimeout": "Amseru amser, gwnewch yn siŵr bod y ddyfais yn cael ei throi ymlaen a cheisiwch adweithio",
+    "locationUnavailable": "Ni ellir cael y lleoliad presennol, gwiriwch y Gwasanaeth Lleoliad Dyfais"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "piha'ai",
+        "description": "E nehenehe te tahi atu mau taata e imi i te mau piha huiraatira"
+      },
+      "allowGuestJoin": {
+        "label": "E tere atu te vahi mata'ita'i",
+        "description": "A vaiiho i te mau taata aita i ite i te reira ia amui atu i roto i te piha ei manihini"
+      },
+      "isEncrypted": {
+        "label": "Te mau rave'a no te faaoti",
+        "description": "Ia faati'ahia te mau poro'i i roto i te piha, e fariihia te mau poro'i i roto i te piha",
+        "alert": "Eita e nehenehe e tape'ahia i roto i te piha i roto i te piha."
+      },
+      "submit": "A haaputu i te mau faanahoraa taa ê"
+    },
+    "toast": {
+      "success": "Ua faaapîhia te mau faanahoraa o te mau hoho'a",
+      "error": "Te mau faanahoraa no te faaapî i te mau vahi taa ê"
+    }
+  }
+}

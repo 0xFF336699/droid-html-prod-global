@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Farmo ruuboonuh faxximta idinih caddo",
+        "tooltip": "0 yaanam inkih tan adoytit farmooma ruubaanam duudaanah, kee kaxxa ixxima yaanam fayyale idini faxxiima"
+      },
+      "invite": {
+        "label": "Qusba adoyti arcibisaanam faxximta",
+        "tooltip": "Qusba adoytit qarih arcibisam duuda set"
+      },
+      "kick": {
+        "label": "Faxxiima idinih caddo eyyeq",
+        "tooltip": "Footima qari adoytiitik eyyeq"
+      },
+      "ban": {
+        "label": "adoytiitih adoytit aliftuh faxximta.",
+        "tooltip": "footima adoytiitik alifu duuda."
+      },
+      "roomSettings": {
+        "label": "faxxiima idinih caddo footimah guddaaqak fayya haanama",
+        "tooltip": "Footimâ guddaaqa aydukumusam duudaah"
+      },
+      "submit": "idinih farmooma"
+    },
+    "description": "Permission caddo: 0-100, kaxxa ixxima le fayyale idini faxxiima",
+    "toast": {
+      "success": "Farmô guddaaqa asqassaabe",
+      "error": "idinih guddaaqa usqussubeh"
+    }
+  }
+}

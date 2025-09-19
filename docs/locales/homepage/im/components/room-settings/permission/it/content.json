@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Il livello di autorizzazione richiesto per inviare un messaggio",
+        "tooltip": "0 significa che tutti i membri possono inviare messaggi e maggiore è il numero significa che sono richieste autorizzazioni più elevate"
+      },
+      "invite": {
+        "label": "Livello di autorizzazione richiesto per invitare nuovi membri",
+        "tooltip": "Imposta chi può invitare nuovi membri nella stanza"
+      },
+      "kick": {
+        "label": "Fai il via al livello di autorizzazione richiesto",
+        "tooltip": "Set chi può dare il via ai membri della stanza"
+      },
+      "ban": {
+        "label": "Livello di autorizzazione richiesto per bloccare i membri",
+        "tooltip": "Set chi può bloccare i membri della stanza"
+      },
+      "roomSettings": {
+        "label": "Modifica il livello di autorizzazione richiesto delle impostazioni della stanza",
+        "tooltip": "Imposta chi può modificare le impostazioni della stanza"
+      },
+      "submit": "Salva le impostazioni dell'autorizzazione"
+    },
+    "description": "Intervallo di livello di autorizzazione: 0-100, maggiore è il numero significa autorizzazioni più elevate",
+    "toast": {
+      "success": "Le impostazioni di autorizzazione sono state aggiornate",
+      "error": "Impossibile aggiornare le impostazioni di autorizzazione"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Kutala interface ya kukota",
+    "howToUse": "Malongi ya kusadila",
+    "howToUseTooltip": "Na nsi kele ti mwa bikalulu ya kutula bidimbu ya node yai yina bo lenda sadila sambu na kupona bisalu, mu mbandu kubula, kufulusa na masonama, mpi buna na buna.\n\nNtalu ya attribut lenda vutukila na lutiti ya appli. Kana nge me kutana ti ba replications, pardo tula na zulu ya ba élections ya nkaka ya attribut sambu na kuzaba kimuntu ya kuswaswana.\n\nNgogo ya mbwaki ke monisa nde ntalu ya attribut ke vutukila, ngogo ya vert ke monisa nde ntalu ya kikalulu kele ya kuswaswana na kusosa ya lutiti ya ntangu yai, mpi ngogo ya ndombe ke monisa nde bo ke fwanisa ve mbala na mbala.",
+    "otherNodesSummary": "Ba node ya nkaka na kisika yai",
+    "moreNodes": "Tala mambu yina ke na kukuma nene.",
+    "nodeInfoDialogOkButton": "Kusala kisalu ya node yai",
+    "text": "Mukanda 2222"
+  }
+}

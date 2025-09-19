@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Almenningsherbergi",
+        "description": "Hægt er að leita í opinberum herbergjum af öðrum notendum"
+      },
+      "allowGuestJoin": {
+        "label": "Leyfa gestum að vera með",
+        "description": "Leyfa óskráðum notendum að ganga í herbergið sem gestur"
+      },
+      "isEncrypted": {
+        "label": "Virkja dulkóðun frá enda til enda",
+        "description": "Þegar það er virkt verða skilaboð í herberginu dulkóðuð",
+        "alert": "Encyption frá enda til enda er virkt í herberginu og ekki er hægt að slökkva á þessari stillingu."
+      },
+      "submit": "Vistaðu persónuverndarstillingar"
+    },
+    "toast": {
+      "success": "Persónuverndarstillingar hafa verið uppfærðar",
+      "error": "Ekki tókst að uppfæra persónuverndarstillingar"
+    }
+  }
+}

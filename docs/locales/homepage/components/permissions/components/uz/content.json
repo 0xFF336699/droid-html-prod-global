@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Vakolatli",
+    "notPass": "Ruxsatsiz",
+    "danger": "Xavfli",
+    "setting": "sozlash; o'rnatish"
+  }
+}

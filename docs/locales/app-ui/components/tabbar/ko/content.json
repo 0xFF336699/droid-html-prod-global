@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "첫 페이지",
+    "me": "내 거",
+    "settings": "설정",
+    "script": "스크립트",
+    "store": "시장",
+    "market": "시장",
+    "create": "만들다"
+  },
+  "tabbar": {
+    "test": "하단 메뉴 바"
+  }
+}

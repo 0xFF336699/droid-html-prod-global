@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Кіру / тіркелу",
+    "signOut": "Шығу",
+    "confirmContent": "Сіз жүйеден шыққыңыз келе ме?",
+    "confirmTitle": "тұспал",
+    "confirm": "Сенімді",
+    "cancel": "Күшін жою",
+    "signoutOk": "Шығу",
+    "loadingData": "Пайдаланушы деректерін жүктеу"
+  }
+}

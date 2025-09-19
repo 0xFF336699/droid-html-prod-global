@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Boluka ba membres ."
+    },
+    "table": {
+      "columns": {
+        "name": "Nkombo ya mosangani .",
+        "userId": "ID ya mosaleli .",
+        "actions": "Kosala mosala ."
+      },
+      "pagination": {
+        "rowsPerPage": "Motango ya milɔngɔ́ na lokasa moko ."
+      },
+      "avatar": {
+        "alt": "Avatar ."
+      },
+      "actions": {
+        "kick": "Kick Out .",
+        "ban": "Epekisami ."
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Confirmer membre ya kicking .",
+        "content": "Ozali na ntembe te ete olingi kobengana mosangani yango na shambre?"
+      },
+      "ban": {
+        "title": "Confirmer ba membres oyo epekisami .",
+        "content": "Ozali na kondima ete olingi kopekisa mosangani oyo? Mosangani akozala na makoki te ya kosangana lisusu na shambre nsima ya epekiseli."
+      },
+      "buttons": {
+        "cancel": "Kolongola",
+        "confirm": "kondimisa"
+      }
+    },
+    "toast": {
+      "loadError": "Elongi te ko charger liste ya ba membres .",
+      "kick": {
+        "success": "Ba membres babengani bango na chambre .",
+        "error": "Kobengana ba membres balongi te ."
+      },
+      "ban": {
+        "success": "Ba membres ba bloqué .",
+        "error": "Elongi te ko bloquer ba membres ."
+      }
+    },
+    "invite": {
+      "button": "Benga ba membres .",
+      "title": "Benga ba membres ba sangana na chambre .",
+      "inputLabel": "Svp kotisa ID ya mosaleli ya Matrix (lokola @user:matrix.org)",
+      "confirm": "kobengisa",
+      "cancel": "Kolongola",
+      "loading": "Kobengisa...",
+      "success": "Libyangi oyo etindami!",
+      "error": "Libyangi elongi te, tosengi otala ID ya mosaleli to ndingisa ."
+    },
+    "empty": "Membre moko te nanu .",
+    "loading": "Kozwa biloko...",
+    "role": {
+      "owner": "Nkolo ndako .",
+      "admin": "Mokambi .",
+      "moderator": "Co-gestion ya ba .",
+      "user": "Membre ."
+    }
+  }
+}

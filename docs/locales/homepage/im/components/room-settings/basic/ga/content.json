@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Ainm an tseomra"
+      },
+      "topic": {
+        "label": "Tabhairt isteach an tseomra"
+      },
+      "avatar": {
+        "alt": "Avatar seomra"
+      },
+      "submit": "Sábháil Socruithe"
+    },
+    "toast": {
+      "success": "Socruithe Nuashonraithe",
+      "error": {
+        "default": "Theip ar shocruithe nuashonraithe",
+        "avatar": "Theip ar Avatar a nuashonrú"
+      }
+    }
+  }
+}

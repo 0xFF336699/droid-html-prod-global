@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Nama lokasi",
+    "viewMap": "Lihat peta",
+    "close": "penutupan"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Pelayar semasa tidak menyokong pengambilalihan geolokasi",
+    "getLocationFailed": "Gagal mendapatkan lokasi, sila periksa tetapan kebenaran",
+    "myLocation": "Lokasi saya",
+    "shareLocation": "Kongsi lokasi",
+    "getCurrentLocation": "Dapatkan lokasi semasa",
+    "title": "Nama lokasi",
+    "description": "Penerangan terperinci",
+    "descriptionPlaceholder": "Sila masukkan penerangan terperinci (pilihan)",
+    "preview": "Pratonton lokasi",
+    "latitude": "lintang",
+    "longitude": "bujur",
+    "cancel": "Batalkan",
+    "send": "hantar",
+    "permissionPrompt": "Kami perlu mendapatkan maklumat lokasi anda untuk menyediakan perkhidmatan yang lebih baik, adakah ia dibenarkan?",
+    "permissionDenied": "Kebenaran kedudukan ditolak, sila aktifkan kebenaran kedudukan dalam tetapan penyemak imbas anda",
+    "locationTimeout": "Masa tamat kedudukan, pastikan peranti dihidupkan dan cuba disusun semula",
+    "locationUnavailable": "Lokasi semasa tidak dapat diperoleh, sila periksa perkhidmatan lokasi peranti"
+  }
+}

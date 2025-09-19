@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Üyeleri arayın"
+    },
+    "table": {
+      "columns": {
+        "name": "Üye adı",
+        "userId": "Kullanıcı kimliği",
+        "actions": "çalıştırmak"
+      },
+      "pagination": {
+        "rowsPerPage": "Sayfa başına satır sayısı"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Atılmak",
+        "ban": "Yaslanmış"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Tekme üyesini onaylayın",
+        "content": "Üyeyi odadan çıkarmak istediğinden emin misiniz?"
+      },
+      "ban": {
+        "title": "Yasaklı üyeliği onaylayın",
+        "content": "Bu üyesi yasaklamak istediğinden emin misiniz? Üye yasaktan sonra odaya yeniden katılamayacak."
+      },
+      "buttons": {
+        "cancel": "İptal etmek",
+        "confirm": "onaylamak"
+      }
+    },
+    "toast": {
+      "loadError": "Üye listesi yüklenemedi",
+      "kick": {
+        "success": "Üyeler odadan atıldı",
+        "error": "Üyeleri tekmelemek başarısız oldu"
+      },
+      "ban": {
+        "success": "Üyeler engellendi",
+        "error": "Üyeleri engelleyemedi"
+      }
+    },
+    "invite": {
+      "button": "Üyeleri davet et",
+      "title": "Üyeleri odaya katılmaya davet edin",
+      "inputLabel": "Lütfen Matrix Kullanıcı Kimliği'ni girin (@user: matrix.org gibi)",
+      "confirm": "davet etmek",
+      "cancel": "İptal etmek",
+      "loading": "Davetkar ...",
+      "success": "Davet Gönderildi!",
+      "error": "Davet başarısız oldu, lütfen kullanıcı kimliğini veya izinleri kontrol edin"
+    },
+    "empty": "Henüz üye yok",
+    "loading": "Yükleme ...",
+    "role": {
+      "owner": "Ev sahibi",
+      "admin": "yönetici",
+      "moderator": "Ortak yönetim",
+      "user": "üye"
+    }
+  }
+}

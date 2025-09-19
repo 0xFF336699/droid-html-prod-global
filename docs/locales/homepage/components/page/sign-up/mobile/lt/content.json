@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "Registruoti",
+    "phoneNumber": "Telefono numeris",
+    "phoneNumberPlaceholder": "Įveskite savo mobiliojo telefono numerį",
+    "verificationCode": "Patikrinimo kodas",
+    "verificationCodePlaceholder": "Įveskite patvirtinimo kodą",
+    "getVerificationCode": "Gaukite patvirtinimo kodą",
+    "countdown": "{{sekundės}} sekundes, kad bandytumėte dar kartą",
+    "register": "Registruoti",
+    "errors": {
+      "phoneRequired": "Įveskite savo mobiliojo telefono numerį",
+      "phoneInvalid": "Mobiliojo telefono numerio formatas yra neteisingas",
+      "codeRequired": "Įveskite patvirtinimo kodą",
+      "codeInvalid": "Patikrinimo kodo formatas yra neteisingas",
+      "requestFailed": "Užklausa nepavyko",
+      "verificationFailed": "Nepavyko patvirtinimo kodo įsigijimo",
+      "loginFailed": "Prisijungimas nepavyko"
+    },
+    "success": {
+      "verificationCodeSent": "Išsiųstas patikrinimo kodas",
+      "registerSuccess": "Sėkmingai registruota"
+    }
+  }
+}

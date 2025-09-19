@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Nuligi",
+    "confirm": "Certe",
+    "title": "aludo",
+    "content": "Ĉu vi certas, ke vi volas fari ĉi tion?"
+  },
+  "EditableText": {
+    "cancel": "Nuligi",
+    "save": "Konservu",
+    "title": "Redakti"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Fonksyon oksilyè",
+    "pass": "Otorize",
+    "notPass": "Inotorize",
+    "setting": "Mete kanpe",
+    "danger": "Danje",
+    "dangerDesc": "Otorizasyon sa a ka wè kontni sou ekran an epi klike sou telefòn ou. Enfim pèmisyon sa a si ou pa klèman konprann fonctionnalités a ak risk nan script la ou ap kouri oswa yo pral kouri."
+  }
+}

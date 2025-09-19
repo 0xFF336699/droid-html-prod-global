@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "ይመዝገቡ",
+    "phoneNumber": "የስልክ ቁጥር",
+    "phoneNumberPlaceholder": "እባክዎ የተንቀሳቃሽ ስልክ ቁጥርዎን ያስገቡ",
+    "verificationCode": "የማረጋገጫ ኮድ",
+    "verificationCodePlaceholder": "እባክዎ የማረጋገጫ ኮዱን ያስገቡ",
+    "getVerificationCode": "የማረጋገጫ ኮዱን ያግኙ",
+    "countdown": "{{ሰከንዶች}} እንደገና ለመሞከር ሰከንዶች",
+    "register": "ይመዝገቡ",
+    "errors": {
+      "phoneRequired": "እባክዎ የተንቀሳቃሽ ስልክ ቁጥርዎን ያስገቡ",
+      "phoneInvalid": "የሞባይል ስልክ ቁጥር ቅርጸት የተሳሳተ ነው",
+      "codeRequired": "እባክዎ የማረጋገጫ ኮዱን ያስገቡ",
+      "codeInvalid": "የማረጋገጫ ኮድ ቅርጸት የተሳሳተ ነው",
+      "requestFailed": "ጥያቄ አልተሳካም",
+      "verificationFailed": "የማረጋገጫ ኮድ ማግኛ አልተሳካም",
+      "loginFailed": "መግቢያ አልተሳካም"
+    },
+    "success": {
+      "verificationCodeSent": "የማረጋገጫ ኮድ ተልኳል",
+      "registerSuccess": "በተሳካ ሁኔታ ተመዝግቧል"
+    }
+  }
+}

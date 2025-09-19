@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Mampifandray ...",
+    "connected": "mifandray",
+    "disconnecting": "Fandriana ...",
+    "disconnected": "Tsy mifandray",
+    "waitRetry": "Miandry ny famerenana indray ..."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "T'inkisqa qhipakuy .",
+        "helperText": "Sichus qallariy t'inkipi ñit'inki, chaymanta t'inkita waqaychay. Kayqa t'inkiyta sapa kuti wakmanta t'inkisqa kaqta t'inkisqa kaptin qhawayta munan.",
+        "retryCount": "Yupay kutin tinkinakuykuna ."
+      },
+      "url": {
+        "name": "URL .",
+        "helperText": "Enlace url, por ejemplo ws://192.168.0.2:7001, o wws://example.com/path",
+        "error": "Chay allin URL nisqaqa huk URLmi WS:// wws nisqawan qallariq."
+      }
+    },
+    "connectButton": {
+      "connect": "tinkichiy",
+      "disconnect": "T'inkinakuy .",
+      "status": {
+        "connecting": "T'inkisqa...",
+        "connected": "T'inkisqa .",
+        "disconnecting": "Desconectando...",
+        "disconnected": "Mana tinkisqachu .",
+        "waitRetry": "Wakmanta t'inkinakuyta suyaspa..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "qillqa"
+  }
+}

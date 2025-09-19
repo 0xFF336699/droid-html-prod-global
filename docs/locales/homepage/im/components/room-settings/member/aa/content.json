@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "adoytiitik seece"
+    },
+    "table": {
+      "columns": {
+        "name": "Adoyta",
+        "userId": "Xoqoysima mamaxxaga",
+        "actions": "taamitta"
+      },
+      "pagination": {
+        "rowsPerPage": "rortal muggaqsimte"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "qid",
+        "ban": "Banned"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Kacanu le adoyta",
+        "content": "atu tasmiteh atu footimak yargiqem faxxam?"
+      },
+      "ban": {
+        "title": "unkaq muquk temeetem adoytiinu",
+        "content": "Atu ta adoytit waassam faxxa innaa? Adoyti waasoek lakal qari ciggiile."
+      },
+      "buttons": {
+        "cancel": "Bayis",
+        "confirm": "diggos"
+      }
+    },
+    "toast": {
+      "loadError": "adoytiitih rorta fan esgegey",
+      "kick": {
+        "success": "Adoytit qarik yewqeenih",
+        "error": "adoytit qidda"
+      },
+      "ban": {
+        "success": "Adoytit laqteh",
+        "error": "adoytit aliftuh soolis"
+      }
+    },
+    "invite": {
+      "button": "adoytiiti",
+      "title": "qarit tangaloonuh adoytiitik",
+      "inputLabel": "kumagan culus matrikis xoqoysima ID ( too @user: matrikis.org)",
+      "confirm": "kaayaanama",
+      "cancel": "Bayis",
+      "loading": "arciba....",
+      "success": "Raqtem rub!",
+      "error": "Maysaxxaga raddeh, kumagan cubbus xoqoysima ID hinnay idinitte"
+    },
+    "empty": "Aleey uxih",
+    "loading": "quuki...",
+    "role": {
+      "owner": "Buxa le num",
+      "admin": "xiinisso",
+      "moderator": "Ko-xiinisso",
+      "user": "adoyta"
+    }
+  }
+}

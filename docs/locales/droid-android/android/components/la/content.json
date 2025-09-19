@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Inrito",
+    "ok": "Certus",
+    "checkBoxText": "Ite directe ut auctor in dimidium a mensis et non display hoc fenestra",
+    "content": "Hoc munus requirit auxilia munus potestatem. Si vis, placere click [Bene]. Si vis dare sursum, placere click [Cancel]",
+    "title": "Application application"
+  },
+  "floatPermission": {
+    "cancel": "Inrito",
+    "ok": "Certus",
+    "checkBoxText": "Ite directe ut auctor in dimidium a mensis et non display hoc fenestra",
+    "content": "Hoc munus requirit potestatem de natantis fenestra munus. Si vis, placere click [Bene]. Si vis dare sursum, placere click [Cancel]",
+    "title": "Application application"
+  }
+}

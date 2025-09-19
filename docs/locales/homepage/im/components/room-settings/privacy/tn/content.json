@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Phaposi ya botlhe",
+        "description": "Diphaposi tsa botlhe di ka batliwa ke badirisi ba bangwe"
+      },
+      "allowGuestJoin": {
+        "label": "Letla baeng go tsenela",
+        "description": "Letla badirisi ba ba sa kwadisiwang go tsena mo phaposing e le moeng"
+      },
+      "isEncrypted": {
+        "label": "Kgontsha go tsenya khoutu kwa bofelong go ya kwa bofelong",
+        "description": "Fa e kgontshitswe, melaetsa e e mo phaposing e tla tsenngwa mo sephiring go tswa kwa bofelong go ya kwa bofelong",
+        "alert": "End-to-qetellong encryption e kgontshitswe ka phaposing, mme seting ena e ke ke ya timiswa."
+      },
+      "submit": "Boloka diseting tsa sephiri"
+    },
+    "toast": {
+      "success": "Diseting tsa sephiri di tlhabolotswe",
+      "error": "Ga go na sepe se se sa siamang go tlhabolola diseting tsa sephiri"
+    }
+  }
+}

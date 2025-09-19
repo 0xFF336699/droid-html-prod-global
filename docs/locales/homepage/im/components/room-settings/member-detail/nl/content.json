@@ -1,0 +1,9 @@
+{
+  "MemberDetailContent": {
+    "title": "Lidgegevens",
+    "nickname": "Bijnaam",
+    "role": "Rol",
+    "kick": "Uitkoppen",
+    "ban": "Verboden"
+  }
+}

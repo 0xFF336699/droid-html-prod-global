@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Navê Cihê",
+    "viewMap": "Nexşeyê binêrin",
+    "close": "girtinî"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Geroka heyî piştgiriyê nade wergirtina jeolocation",
+    "getLocationFailed": "Nekarîn cîhê bidest bixin, ji kerema xwe mîhengên destûrê kontrol bikin",
+    "myLocation": "Cîhê min",
+    "shareLocation": "Cihê parve bikin",
+    "getCurrentLocation": "Cihê heyî bistînin",
+    "title": "Navê Cihê",
+    "description": "Danasîna berfireh",
+    "descriptionPlaceholder": "Ji kerema xwe navnîşek berfireh binivîse (vebijarkî)",
+    "preview": "Pêşeka Cihê",
+    "latitude": "firehî",
+    "longitude": "dirêjî",
+    "cancel": "Bişûndekirin",
+    "send": "şandin",
+    "permissionPrompt": "Pêdivî ye ku em agahdariya cîhê we bistînin da ku karûbarên çêtir peyda bikin, ew destûr e?",
+    "permissionDenied": "Destûrdayîna destûrê tê înkarkirin, ji kerema xwe di mîhengên geroka we de destûr bide",
+    "locationTimeout": "Position Position, piştrast bikin ku cîhaz zivirî û hewl didin ku ji nû ve bidin",
+    "locationUnavailable": "Cihê heyî nayê wergirtin, ji kerema xwe karûbarê cîhê cîhazê kontrol bikin"
+  }
+}

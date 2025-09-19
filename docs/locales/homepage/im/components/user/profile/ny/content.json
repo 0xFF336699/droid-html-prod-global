@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Zambiri za ogwiritsa",
+    "id": {
+      "name": "Id",
+      "copy": "kukopa",
+      "copied": "ID yajambulidwa"
+    },
+    "notLoggedIn": "Osalowa",
+    "name": "dzina",
+    "avatar": "avatar"
+  }
+}

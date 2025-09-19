@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Přihlášení/registrace",
+    "signOut": "Odhlaste",
+    "confirmContent": "Jste si jisti, že se chcete odhlásit?",
+    "confirmTitle": "náznak",
+    "confirm": "Jistě",
+    "cancel": "Zrušit",
+    "signoutOk": "Odhlaste",
+    "loadingData": "Načítání uživatelských dat"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "O nivel de permiso necesario para enviar unha mensaxe",
+        "tooltip": "0 significa que todos os membros poden enviar mensaxes e canto maior sexa o número significa que se necesitan permisos máis altos"
+      },
+      "invite": {
+        "label": "Nivel de permiso necesario para invitar a novos membros",
+        "tooltip": "Establece quen pode invitar a novos membros á sala"
+      },
+      "kick": {
+        "label": "Pase o nivel de permiso requirido",
+        "tooltip": "Establecer quen pode expulsar aos membros da habitación"
+      },
+      "ban": {
+        "label": "Nivel de permiso necesario para bloquear os membros",
+        "tooltip": "Establecer quen pode bloquear os membros da habitación"
+      },
+      "roomSettings": {
+        "label": "Modifique o nivel de permiso requirido da configuración da habitación",
+        "tooltip": "Estableza quen pode modificar a configuración da habitación"
+      },
+      "submit": "Aforrar a configuración de permiso"
+    },
+    "description": "Rango de nivel de permiso: 0-100, canto maior sexa o número significa que son necesarios permisos máis altos",
+    "toast": {
+      "success": "Actualizáronse a configuración de permiso",
+      "error": "Non se puido actualizar a configuración de permisos"
+    }
+  }
+}

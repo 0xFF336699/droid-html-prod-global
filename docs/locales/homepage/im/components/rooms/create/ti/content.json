@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "ክፍሊ ምፍጣር ."
+    },
+    "dialog": {
+      "title": "ሓድሽ ክፍሊ ምፍጣር .",
+      "form": {
+        "userId": {
+          "label": "ናይ ተጠቃሚ መለለዪ",
+          "placeholder": "ናይ ተጠቃሚ መለለዪ ኣእቱ (ንኣብነት: @user:example.com)",
+          "error": {
+            "required": "ናይ ተጠቃሚ መለለዪ ባዶ ክኸውን ኣይክእልን",
+            "invalid": "ዘይሕጋዊ ናይ ተጠቃሚ መለለዪ ቅርጺ"
+          }
+        },
+        "roomName": {
+          "label": "ስም ክፍሊ (ኣማራጺ)",
+          "placeholder": "ስም ክፍሊ ኣእቱ"
+        },
+        "isEncrypted": {
+          "label": "ካብ መወዳእታ ናብ መወዳእታ ምስጢራዊ ምግባር ምኽኣል"
+        },
+        "isDirect": {
+          "label": "ቀጥታዊ መልእኽቲ"
+        },
+        "topic": {
+          "label": "ቴማ (ኣማራጺ)",
+          "placeholder": "ናብቲ ናይ ክፍሊ ቴማ ኣቲኹም"
+        }
+      },
+      "actions": {
+        "cancel": "ሰርዝ",
+        "create": "ፍጠር"
+      },
+      "success": "ክፍሊ ምፍጣር ብዓወት",
+      "error": "ክፍሊ ኣብ ዝፈጥርሉ እዋን ጌጋ ኣጋጢሙ: {ጌጋ}"
+    }
+  }
+}

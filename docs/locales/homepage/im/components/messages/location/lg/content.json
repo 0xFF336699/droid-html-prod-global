@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Erinnya ly'ekifo .",
+    "viewMap": "Laba maapu .",
+    "close": "Okuggalawo ."
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Browser eriwo kati tewagira geolocation acquisition .",
+    "getLocationFailed": "Kiremeddwa okufuna ekifo, nsaba okebere ensengeka z'olukusa .",
+    "myLocation": "Ekifo kyange .",
+    "shareLocation": "Share Ekifo .",
+    "getCurrentLocation": "Funa ekifo ekiriwo kati .",
+    "title": "Erinnya ly'ekifo .",
+    "description": "Ennyonyola enzijuvu .",
+    "descriptionPlaceholder": "Nsaba oyingize ennyonyola enzijuvu (optional)",
+    "preview": "Okusooka okulaba ekifo .",
+    "latitude": "Latitude .",
+    "longitude": "Longitude .",
+    "cancel": "okusazaamu",
+    "send": "okutuma",
+    "permissionPrompt": "Tulina okufuna ebikwata ku kifo kyo okusobola okuwa obuweereza obulungi, kikkirizibwa?",
+    "permissionDenied": "Olukusa lw'okuteeka mu kifo lugaaniddwa, nsaba osobozese olukusa mu nkola ya browser yo .",
+    "locationTimeout": "positioning timeout, kakasa nti ekyuma kikoleezeddwa era ogezeeko okuddamu okufuna",
+    "locationUnavailable": "Ekifo ekiriwo kati tekisobola kufunibwa, nsaba okebere empeereza y'ekifo ky'ekyuma ."
+  }
+}

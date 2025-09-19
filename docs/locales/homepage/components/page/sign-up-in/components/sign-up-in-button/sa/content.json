@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "लॉगिन/पञ्जीकरणम् २.",
+    "signOut": "लॉग आउट करें .",
+    "confirmContent": "किं भवन्तः निश्चयेन भवन्तः log out कर्तुम् इच्छन्ति?",
+    "confirmTitle": "संकेत",
+    "confirm": "निश्चयेन",
+    "cancel": "निरसयतु",
+    "signoutOk": "लॉग आउट करें .",
+    "loadingData": "उपयोक्तृदत्तांशं लोड् करणम् ."
+  }
+}

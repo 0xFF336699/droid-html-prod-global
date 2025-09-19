@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Mezgla izpilde",
+    "changeBtnLabel": "aizstāt",
+    "showNodeAllProperties": "Parādiet visus īpašumus",
+    "wait": {
+      "time": "Gaidīšanas laiks",
+      "interval": "Gaidīšanas intervāls",
+      "invisible": "Vai atklāt elementus ārpus ekrāna"
+    }
+  }
+}

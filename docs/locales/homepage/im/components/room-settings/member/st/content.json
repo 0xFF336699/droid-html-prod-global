@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Batla litho"
+    },
+    "table": {
+      "columns": {
+        "name": "Lebitso la Litho",
+        "userId": "Theneketso",
+        "actions": "sebetsa"
+      },
+      "pagination": {
+        "rowsPerPage": "Palo ea mela ka leqephe"
+      },
+      "avatar": {
+        "alt": "Avatar"
+      },
+      "actions": {
+        "kick": "Ho qala",
+        "ban": "Thibetsoe"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Netefatsa setho se ratoang",
+        "content": "Na u na le bonnete ba hore u batla ho raha setho ka kamoreng?"
+      },
+      "ban": {
+        "title": "Netefatsa setho se thibetsoeng",
+        "content": "Na u na le bonnete ba hore u batla ho thibela setho see? Setho se ke ke sa khona ho thaba ka mor'a thibelo."
+      },
+      "buttons": {
+        "cancel": "Hlakola",
+        "confirm": "Netefatsa"
+      }
+    },
+    "toast": {
+      "loadError": "Ha rea ​​atleha ho beha lethathamo la litho",
+      "kick": {
+        "success": "Litho li qapiloe ka phapusing",
+        "error": "Ho raha litho ho ile ha hloleha"
+      },
+      "ban": {
+        "success": "Litho tse koetsoeng",
+        "error": "Ha rea ​​atleha ho thibela litho"
+      }
+    },
+    "invite": {
+      "button": "Mema Litho",
+      "title": "Mema litho ho ba ka phapusing",
+      "inputLabel": "Ka kopo kenya ID ea mosebelisi ea Matrix (joalo ka @USer: Matrix.org)",
+      "confirm": "mema",
+      "cancel": "Hlakola",
+      "loading": "Ho e Boma ...",
+      "success": "Memo e rometsoeng!",
+      "error": "Memo e hlotsoe, ka kopo sheba ID ea mosebelisi kapa tumello"
+    },
+    "empty": "Ha ho na setho",
+    "loading": "E ntse e tsamaea ...",
+    "role": {
+      "owner": "Mong'a ntlo",
+      "admin": "Motsamaisi",
+      "moderator": "Co-Management",
+      "user": "setho"
+    }
+  }
+}

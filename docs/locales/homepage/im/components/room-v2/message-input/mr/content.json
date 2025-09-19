@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "संलग्नक जोडा",
+    "emoji": "अभिव्यक्ती निवडा",
+    "placeholder": "एक संदेश प्रविष्ट करा ...",
+    "sendLocation": "स्थान पाठवा",
+    "send": "पाठवा"
+  }
+}

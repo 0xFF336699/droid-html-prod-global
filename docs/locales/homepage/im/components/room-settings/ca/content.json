@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Configuració de l'habitació",
+    "tabs": {
+      "basic": "Configuració bàsica",
+      "permission": "Configuració de permís",
+      "privacy": "Configuració de privadesa",
+      "member": "Direcció de membres"
+    },
+    "loadError": "No s'ha pogut carregar la configuració de l'habitació",
+    "leaveRoom": {
+      "button": "Surt de l'habitació",
+      "confirm": "Esteu segur que voleu sortir de l'habitació? Després de sortir, no podreu continuar rebent missatges des d'aquesta habitació.",
+      "success": "Va sortir de la sala amb èxit",
+      "error": "No s'ha pogut sortir de l'habitació, torneu -ho a provar"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Kamore ea sechaba",
+        "description": "Likamore tsa sechaba li ka batloa ke basebelisi ba bang"
+      },
+      "allowGuestJoin": {
+        "label": "Lumella baeti hore ba ikopanye le",
+        "description": "Lumella basebelisi ba sa ngolisoang ho kenela kamore e le moeti"
+      },
+      "isEncrypted": {
+        "label": "Etsa hore ho be le mongolo o felisang oa ho qetela",
+        "description": "Ha melaetsa e ka kamoreng e tla ba le qetello ea pheletso ea ho qetela",
+        "alert": "Ho ngolisoa ho emisa ho thusa ka phapusing, 'me tlhophiso ena e ke ke ea tima."
+      },
+      "submit": "Boloka Litlhophiso tsa lekunutu"
+    },
+    "toast": {
+      "success": "Litlhophiso tsa lekunutu li ntlafalitsoe",
+      "error": "Ha rea ​​atleha ho ntlafatsa litlhophiso tsa lekunutu"
+    }
+  }
+}

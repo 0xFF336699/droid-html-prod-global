@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Ver við í kamarinum",
+      "inviteOnly": "Hetta er eitt privat kamar og krevur boð um at melda seg til",
+      "knockRequired": "Hetta rúmið krevur umsókn um at melda seg til. Trýst á knøttin niðanfyri fyri at senda join-fyrispurningin",
+      "canJoin": "Hetta er eitt alment kamar, tú kanst melda teg til beinleiðis",
+      "sendRequest": "Send eina join-umbøn",
+      "join": "Ver við í kamarinum"
+    },
+    "JoinRequestList": {
+      "noRequests": "Eingin jointing áheitan enn",
+      "accept": "góðtaka",
+      "reject": "kveistra burtur"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Skriva boð..."
+  },
+  "MessageList": {
+    "noMessages": "Enn eru eingi boð enn, send fyrstu boðini til at byrja samrøðuna!",
+    "loading": "lasting...",
+    "error": {
+      "loadFailed": "Mistist ikki at heinta boðini",
+      "retry": "Royn aftur"
+    },
+    "loadingHistory": "Lastandi søgu...",
+    "historyEnd": "Fyrstu tíðindini eru komin"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Enn eru eingi boð enn, send fyrstu boðini til at byrja samrøðuna!"
+  },
+  "RoomContent": {
+    "title": "Rúm"
+  },
+  "RoomHeader": {
+    "title": "Rúm",
+    "unnamedRoom": "Ónavngivin kamar",
+    "members": "limir",
+    "settings": "skipna",
+    "leaveRoom": "Lat kamarið vera",
+    "joinRoom": "Ver við í kamarinum"
+  },
+  "RoomMembers": {
+    "title": "Stovulimir",
+    "online": "Álinju",
+    "offline": "Offline",
+    "join": "vera við",
+    "invite": "bjóða",
+    "leave": "fara",
+    "ban": "Bannað",
+    "noMembers": "Eingin limur enn",
+    "loading": "lasting..."
+  }
+}

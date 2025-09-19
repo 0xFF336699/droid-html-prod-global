@@ -1,0 +1,11 @@
+{
+  "content": {
+    "ok": "Elbette",
+    "cancel": "İptal etmek",
+    "delete": "silmek",
+    "edit": "düzenlemek",
+    "save": "kaydetmek",
+    "close": "kapanma",
+    "confirm": "onaylamak"
+  }
+}

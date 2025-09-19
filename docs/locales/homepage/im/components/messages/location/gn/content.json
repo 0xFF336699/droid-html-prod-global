@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Ubicación réra .",
+    "viewMap": "Ehecha pe mápa .",
+    "close": "Ñemboty ."
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Pe kundahára ko’áĝagua ndoipytyvõi adquisición geolocalización rehegua .",
+    "getLocationFailed": "Ndohupytýiramo pe lugár, ehechami umi permiso ñemboheko .",
+    "myLocation": "Che reimeha .",
+    "shareLocation": "Compartir ubicación .",
+    "getCurrentLocation": "Ojehupyty pe lugár koʼag̃agua .",
+    "title": "Ubicación réra .",
+    "description": "Descripción detallada rehegua .",
+    "descriptionPlaceholder": "Emoinge peteĩ ñemombe’u detallado (opcional) .",
+    "preview": "Ubicación rehegua jehechauka .",
+    "latitude": "Latitud rehegua .",
+    "longitude": "Longitud rehegua .",
+    "cancel": "Heja",
+    "send": "rahauka",
+    "permissionPrompt": "Tekotevẽ jahupyty ne marandu tenda rehegua ome’ẽ hag̃ua servicio iporãvéva, ojehejápa?",
+    "permissionDenied": "Oñemboyke permiso posicionamiento rehegua, emboguata Permiso de posicionamiento nde navegador ñembohekopyrépe .",
+    "locationTimeout": "Posicionamiento tiempo de espera, easegura pe dispositivo oñembogue ha eñeha'ã ehupyty jey .",
+    "locationUnavailable": "Ko’áĝagua tenda ndaikatúi ojehupyty, ehechami pe servicio de ubicación de dispositivos ."
+  }
+}

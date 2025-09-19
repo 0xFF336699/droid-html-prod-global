@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "snarvei",
+    "title": "pakke og aktivitetsgjenkjenning",
+    "useBtn": "bruk",
+    "closeBtn": "Lukking",
+    "pnLabel": "Pakketavn",
+    "copyButtonText": "kopiere",
+    "anLabel": "aktivitet",
+    "clsLable": "klasse"
+  }
+}

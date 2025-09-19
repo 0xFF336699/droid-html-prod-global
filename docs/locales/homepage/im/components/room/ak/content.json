@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Kɔka dan no ho .",
+      "inviteOnly": "Eyi yɛ kokoam dan na ɛhwehwɛ sɛ wɔto nsa frɛ obi ansa na wabɛka ho .",
+      "knockRequired": "Saa dan yi hwehwɛ sɛ wode akwammisa krataa kɔ. Klik button a ɛwɔ aseɛ ha no so na fa join request no mena .",
+      "canJoin": "Eyi yɛ ɔmanfo dan, wubetumi akɔka ho tẽẽ .",
+      "sendRequest": "Fa join request mena .",
+      "join": "Kɔka dan no ho ."
+    },
+    "JoinRequestList": {
+      "noRequests": "No joining request biara nni hɔ .",
+      "accept": "gye to mu",
+      "reject": "po"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Hyehyɛ nkrasɛm bi..."
+  },
+  "MessageList": {
+    "noMessages": "Nkra biara nni hɔ a, fa nkrasɛm a edi kan no mena na ama woafi nkɔmmɔbɔ no ase!",
+    "loading": "Nneɛma a wɔde gu mu...",
+    "error": {
+      "loadFailed": "antumi anhyɛ nkrasɛm no mu .",
+      "retry": "Bɔ mmɔden bio ."
+    },
+    "loadingHistory": "Abakɔsɛm a wɔde gu mu...",
+    "historyEnd": "Asɛm a edi kan koraa no aba ."
+  },
+  "MessageVirturalList": {
+    "noMessages": "Nkra biara nni hɔ a, fa nkrasɛm a edi kan no mena na ama woafi nkɔmmɔbɔ no ase!"
+  },
+  "RoomContent": {
+    "title": "Dan mu"
+  },
+  "RoomHeader": {
+    "title": "Dan mu",
+    "unnamedRoom": "Pia a Wɔammɔ din .",
+    "members": "Ɔmannifoɔ .",
+    "settings": "hyehyɛ",
+    "leaveRoom": "Fi dan no mu .",
+    "joinRoom": "Kɔka dan no ho ."
+  },
+  "RoomMembers": {
+    "title": "Pia no mufo .",
+    "online": "Ntanɛte",
+    "offline": "Offline .",
+    "join": "Kɔka ho wɔ mu .",
+    "invite": "to nsa frɛ",
+    "leave": "ahomegyeɛ",
+    "ban": "Wɔabara .",
+    "noMembers": "No member biara nni hɔ .",
+    "loading": "Nneɛma a wɔde gu mu..."
+  }
+}

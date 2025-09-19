@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "enrollañ",
+    "phoneNumber": "Niverenn bellgomz",
+    "phoneNumberPlaceholder": "Lakait ho niverenn pellgomz hezoug",
+    "verificationCode": "Kod gwiriañ",
+    "verificationCodePlaceholder": "Enankit ar c'hod gwiriañ mar plij",
+    "getVerificationCode": "Kaout ar c'hod gwiriekaat",
+    "countdown": "{{eilennoù}} eilenn evit klask en-dro",
+    "register": "enrollañ",
+    "errors": {
+      "phoneRequired": "Lakait ho niverenn pellgomz hezoug",
+      "phoneInvalid": "Direizh eo ar stumm niverenn pellgomz hezoug .",
+      "codeRequired": "Enankit ar c'hod gwiriañ mar plij",
+      "codeInvalid": "Direizh eo ar furmad kod gwiriekaat .",
+      "requestFailed": "Goulenn c'hwitet",
+      "verificationFailed": "C'hwitet eo bet ar c'hementad kod gwiriañ",
+      "loginFailed": "C'hwitet eo ar c'hennaskañ"
+    },
+    "success": {
+      "verificationCodeSent": "Kaset eo bet kod ar gwiriekaat .",
+      "registerSuccess": "Enskrivet gant berzh"
+    }
+  }
+}

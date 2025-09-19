@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Tonda ekisenge ."
+    },
+    "dialog": {
+      "title": "Tonda ekisenge ekipya .",
+      "form": {
+        "userId": {
+          "label": "ID y'omukozesa .",
+          "placeholder": "Yingiza ID y'omukozesa (okugeza: @user:example.com)",
+          "error": {
+            "required": "ID y'omukozesa teyinza kuba njereere .",
+            "invalid": "Enkola ya ID y'omukozesa etali ntuufu ."
+          }
+        },
+        "roomName": {
+          "label": "Erinnya ly'ekisenge (Optional) .",
+          "placeholder": "Yingiza erinnya ly'ekisenge ."
+        },
+        "isEncrypted": {
+          "label": "Ssobozesa ensirifu okuva ku nkomerero okutuuka ku nkomerero ."
+        },
+        "isDirect": {
+          "label": "Obubaka obutereevu ."
+        },
+        "topic": {
+          "label": "Omulamwa (Optional) .",
+          "placeholder": "Yingira mu mulamwa gw'ekisenge ."
+        }
+      },
+      "actions": {
+        "cancel": "okusazaamu",
+        "create": "okutonda"
+      },
+      "success": "Okutonda ekisenge mu ngeri ennungi .",
+      "error": "Ensobi yabaddewo nga okola ekisenge: {Error}"
+    }
+  }
+}

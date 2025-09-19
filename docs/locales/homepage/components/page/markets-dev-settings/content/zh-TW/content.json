@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "保持連接",
+        "helperText": "如果點擊開始鏈接了，那就保持鏈接，這樣需要注意鏈接斷開後會不停重連。",
+        "retryCount": "重連次數"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "鏈接URL，例如ws://192.168.0.2:7001，或者wws://example.com/path",
+        "error": "正確的URL是ws://或wws://開頭的URL"
+      }
+    },
+    "connectButton": {
+      "connect": "連接",
+      "disconnect": "斷開連接",
+      "status": {
+        "connecting": "連接中...",
+        "connected": "已連接",
+        "disconnecting": "斷開中...",
+        "disconnected": "未連接",
+        "waitRetry": "等待重連..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "腳本"
+  }
+}

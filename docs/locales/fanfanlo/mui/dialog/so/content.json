@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Burin",
+    "confirm": "Hubanti ah",
+    "title": "guud-mar",
+    "content": "Ma hubtaa inaad rabto inaad tan sameyso?"
+  },
+  "EditableText": {
+    "cancel": "Burin",
+    "save": "badbaadin",
+    "title": "soo diyaarin"
+  }
+}

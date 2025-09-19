@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Jina la Chumba"
+      },
+      "topic": {
+        "label": "Utangulizi wa chumba"
+      },
+      "avatar": {
+        "alt": "Chumba avatar"
+      },
+      "submit": "Hifadhi Mipangilio"
+    },
+    "toast": {
+      "success": "Mipangilio imesasishwa",
+      "error": {
+        "default": "Sasisha Mipangilio imeshindwa",
+        "avatar": "Imeshindwa kusasisha Avatar"
+      }
+    }
+  }
+}

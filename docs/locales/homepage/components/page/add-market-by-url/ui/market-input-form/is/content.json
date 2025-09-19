@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL mynstur",
+    "full": {
+      "url": "Markaðsslóð. Sláðu inn persónurnar verða hlaðnar sem vefslóðir, vinsamlegast vertu varkár.",
+      "html": "Markaðs HTML efni. Persónurnar sem slegnar eru inn verða keyrðar strax sem forskriftir, vinsamlegast vertu varkár.",
+      "come": "Komdu til mín",
+      "myMarketName": "Markaðsheiti",
+      "stroll": "Tökum göngutúr"
+    },
+    "item": {
+      "url": "Vefslóð markaðskorts. Sláðu inn persónurnar verða hlaðnar sem vefslóðir, vinsamlegast vertu varkár.",
+      "html": "Markaðs HTML efni. Persónurnar sem slegnar eru inn verða keyrðar strax sem forskriftir, vinsamlegast vertu varkár.",
+      "come": "Komdu til mín",
+      "myMarketName": "Markaðsheiti",
+      "stroll": "Tökum göngutúr"
+    }
+  }
+}

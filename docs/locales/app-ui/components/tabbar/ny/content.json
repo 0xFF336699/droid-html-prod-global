@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "Tsamba lakutsogolo",
+    "me": "changa",
+    "settings": "khazikitsa",
+    "script": "zolembedwa",
+    "store": "msika",
+    "market": "msika",
+    "create": "lenga"
+  },
+  "tabbar": {
+    "test": "Pansi pa menyu"
+  }
+}

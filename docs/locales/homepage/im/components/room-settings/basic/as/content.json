@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "ৰুমৰ নাম"
+      },
+      "topic": {
+        "label": "ৰুমৰ পৰিচয়"
+      },
+      "avatar": {
+        "alt": "রুম Avatar"
+      },
+      "submit": "সংহতিসমূহ সংৰক্ষণ কৰক"
+    },
+    "toast": {
+      "success": "সংহতিসমূহ আপডেট কৰা হৈছে",
+      "error": {
+        "default": "আপডেইট সংহতিসমূহ ব্যৰ্থ",
+        "avatar": "অৱতাৰ আপডেট কৰাত ব্যৰ্থ"
+      }
+    }
+  }
+}

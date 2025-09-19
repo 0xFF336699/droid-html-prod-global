@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "register",
+    "phoneNumber": "Teal",
+    "phoneNumberPlaceholder": "Vuur uw mobiele telefoonnummer in",
+    "verificationCode": "Verificatiecode",
+    "verificationCodePlaceholder": "Vuur de controlecode op",
+    "getVerificationCode": "Krieg de controlecode",
+    "countdown": "{{vange} sekonde um nog ‘n keer te probere",
+    "register": "register",
+    "errors": {
+      "phoneRequired": "Vuur uw mobiele telefoonnummer in",
+      "phoneInvalid": "‘t Indeiling vaan ‘t mobiele telefoon is verkierd",
+      "codeRequired": "Vuur de controlecode op",
+      "codeInvalid": "‘t Verificatiecodeformaat is verkierd",
+      "requestFailed": "Verzeuke mislukde",
+      "verificationFailed": "De verwervingscode vaan ‘t verificatiecode mislukde",
+      "loginFailed": "Login mislukde"
+    },
+    "success": {
+      "verificationCodeSent": "Verificatiecode is gestuurd",
+      "registerSuccess": "mèt succès gerich op succes"
+    }
+  }
+}

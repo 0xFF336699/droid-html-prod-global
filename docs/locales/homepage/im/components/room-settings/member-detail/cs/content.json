@@ -1,0 +1,9 @@
+{
+  "MemberDetailContent": {
+    "title": "Podrobnosti členů",
+    "nickname": "Nick jméno",
+    "role": "Role",
+    "kick": "Kick Out",
+    "ban": "Zakázáno"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Вхід/реєстрація",
+    "signOut": "Виходити",
+    "confirmContent": "Ви впевнені, що хочете вийти?",
+    "confirmTitle": "підказка",
+    "confirm": "Упевнений",
+    "cancel": "Скасувати",
+    "signoutOk": "Виходити",
+    "loadingData": "Завантаження даних користувачів"
+  }
+}

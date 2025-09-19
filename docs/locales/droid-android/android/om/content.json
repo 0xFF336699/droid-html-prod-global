@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Malli kun Android qofa irratti waamamuu danda'a .",
+      "noMethod": "Malli kun hin jiru ."
+    }
+  }
+}

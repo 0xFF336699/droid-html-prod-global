@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Bí ar an seomra",
+      "inviteOnly": "Is seomra príobháideach é seo agus éilíonn sé cuirí páirt a ghlacadh",
+      "knockRequired": "Éilíonn an seomra seo iarratas a dhéanamh. Cliceáil ar an gcnaipe thíos chun an t -iarratas JOIN a sheoladh",
+      "canJoin": "Is seomra poiblí é seo, is féidir leat páirt a ghlacadh go díreach",
+      "sendRequest": "Seol iarratas isteach",
+      "join": "Bí ar an seomra"
+    },
+    "JoinRequestList": {
+      "noRequests": "Gan aon iarratas isteach fós",
+      "accept": "glac le",
+      "reject": "diúltú"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Iontráil teachtaireacht ..."
+  },
+  "MessageList": {
+    "noMessages": "Níl aon teachtaireacht fós ann, seol an chéad teachtaireacht chun an comhrá a thosú!",
+    "loading": "ag luchtú ...",
+    "error": {
+      "loadFailed": "Theip ar an teachtaireacht a luchtú",
+      "retry": "Bain triail eile as"
+    },
+    "loadingHistory": "Stair a luchtú ...",
+    "historyEnd": "Tá an nuacht is luaithe tagtha"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Níl aon teachtaireacht fós ann, seol an chéad teachtaireacht chun an comhrá a thosú!"
+  },
+  "RoomContent": {
+    "title": "Seomra codlata"
+  },
+  "RoomHeader": {
+    "title": "Seomra codlata",
+    "unnamedRoom": "Seomra gan ainm",
+    "members": "comhalta",
+    "settings": "Bunaithe",
+    "leaveRoom": "Fág an seomra",
+    "joinRoom": "Bí ar an seomra"
+  },
+  "RoomMembers": {
+    "title": "Baill sheomra",
+    "online": "Ar fud",
+    "offline": "As líne",
+    "join": "bí páirteach i",
+    "invite": "gríosaigh",
+    "leave": "ná bac le",
+    "ban": "Toirmeaste",
+    "noMembers": "Gan aon bhall fós",
+    "loading": "ag luchtú ..."
+  }
+}

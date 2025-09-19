@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Când introduceți pagina specificată",
+    "pnLabel": "Numele pachetului:",
+    "anLabel": "Numele activității:",
+    "cnLabel": "Numele clasei:",
+    "changeBtnLabel": "înlocui"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Când introduceți pagina specificată",
+    "pnLabel": "Numele pachetului:",
+    "anLabel": "Numele activității:",
+    "cnLabel": "Numele clasei:",
+    "changeBtnLabel": "înlocui"
+  }
+}

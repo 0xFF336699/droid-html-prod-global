@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Informácie o používateľovi",
+    "id": {
+      "name": "Id",
+      "copy": "kopírovať",
+      "copied": "Id bol skopírovaný"
+    },
+    "notLoggedIn": "Nie sú prihlásené",
+    "name": "menovať",
+    "avatar": "avatar"
+  }
+}

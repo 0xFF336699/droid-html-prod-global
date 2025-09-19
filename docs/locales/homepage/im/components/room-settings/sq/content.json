@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Ambientet e dhomës",
+    "tabs": {
+      "basic": "Cilësimet themelore",
+      "permission": "Cilësimet e lejes",
+      "privacy": "Cilësimet e privatësisë",
+      "member": "Menaxhim i anëtarëve"
+    },
+    "loadError": "Dështoi në ngarkimin e cilësimeve të dhomës",
+    "leaveRoom": {
+      "button": "Dilni nga dhoma",
+      "confirm": "A jeni i sigurt që doni të dilni nga dhoma? Pasi të dilni, nuk do të jeni në gjendje të vazhdoni të merrni mesazhe nga kjo dhomë.",
+      "success": "Dilte nga dhoma me sukses",
+      "error": "Dështoi të dilni nga dhoma, ju lutemi provoni përsëri"
+    }
+  }
+}

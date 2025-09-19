@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Verbindung mat ...",
+    "connected": "Bedstéiert",
+    "disconnecting": "Trennt detektéieren ...",
+    "disconnected": "Net bäidroen",
+    "waitRetry": "Waart op Erhuelung ..."
+  }
+}

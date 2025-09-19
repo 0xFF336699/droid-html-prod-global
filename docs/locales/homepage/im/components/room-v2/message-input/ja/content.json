@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "添付ファイルを追加します",
+    "emoji": "式を選択します",
+    "placeholder": "メッセージを入力してください...",
+    "sendLocation": "場所を送信します",
+    "send": "送信"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Kamerinstellings",
+    "tabs": {
+      "basic": "Basiese instellings",
+      "permission": "Toestemmingsinstellings",
+      "privacy": "Privaatheidsinstellings",
+      "member": "Lidbestuur"
+    },
+    "loadError": "Kon nie die kamerinstellings laai nie",
+    "leaveRoom": {
+      "button": "Verlaat die kamer",
+      "confirm": "Is u seker dat u die kamer wil verlaat? Nadat u uitgegaan het, sal u nie kan voortgaan om boodskappe uit hierdie kamer te ontvang nie.",
+      "success": "Het die kamer suksesvol verlaat",
+      "error": "Kon nie die kamer verlaat nie, probeer asseblief weer"
+    }
+  }
+}

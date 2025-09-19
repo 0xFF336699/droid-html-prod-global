@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "Pievienot pielikumus",
+    "emoji": "Atlasiet izteicienu",
+    "placeholder": "Ievadiet ziņojumu ...",
+    "sendLocation": "Nosūtīt atrašanās vietu",
+    "send": "nosūtīt"
+  }
+}

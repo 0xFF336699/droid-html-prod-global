@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Kansellere",
+    "ok": "Sikker",
+    "checkBoxText": "Gå direkte for å autorisere innen en halv måned og ikke lenger vise dette vinduet",
+    "content": "Denne funksjonen krever autorisasjon for ekstra funksjon. Hvis du vil autorisere, kan du klikke på [OK]. Hvis du vil gi opp, kan du klikke på [Avbryt]",
+    "title": "Autorisasjonssøknad"
+  },
+  "floatPermission": {
+    "cancel": "Kansellere",
+    "ok": "Sikker",
+    "checkBoxText": "Gå direkte for å autorisere innen en halv måned og ikke lenger vise dette vinduet",
+    "content": "Denne funksjonen krever autorisasjon av den flytende vindusfunksjonen. Hvis du vil autorisere, kan du klikke på [OK]. Hvis du vil gi opp, kan du klikke på [Avbryt]",
+    "title": "Autorisasjonssøknad"
+  }
+}

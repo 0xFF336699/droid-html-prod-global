@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Izilungiselelo zegumbi",
+    "tabs": {
+      "basic": "Izilungiselelo eziyisisekelo",
+      "permission": "Izilungiselelo zemvume",
+      "privacy": "Izilungiselelo Zobumfihlo",
+      "member": "Ukuphathwa Kwelungu"
+    },
+    "loadError": "Yehlulekile ukulayisha amasethingi egumbi",
+    "leaveRoom": {
+      "button": "Phuma egumbini",
+      "confirm": "Uqinisekile ukuthi ufuna ukuphuma egumbini? Ngemuva kokuphuma, ngeke ukwazi ukuqhubeka nokwamukela imiyalezo evela kuleli gumbi.",
+      "success": "Uphume ngekamelo ngempumelelo",
+      "error": "Yehlulekile ukuphuma egumbini, sicela uzame futhi"
+    }
+  }
+}

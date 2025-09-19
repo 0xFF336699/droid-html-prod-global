@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "အများပြည်သူအခန်း",
+        "description": "အများသုံးခန်းများကိုအခြားအသုံးပြုသူများကရှာဖွေနိုင်သည်"
+      },
+      "allowGuestJoin": {
+        "label": "visitors ည့်သည်များပူးပေါင်းရန်ခွင့်ပြုပါ",
+        "description": "မှတ်ပုံတင်ထားခြင်းမရှိသေးသောသုံးစွဲသူများအား room ည့်သည်အဖြစ်အခန်းထဲသို့ 0 င်ရန်ခွင့်ပြုပါ"
+      },
+      "isEncrypted": {
+        "label": "End-to-end encryption ကို enable လုပ်ပါ",
+        "description": "ဖွင့်သောအခါအခန်းထဲရှိမက်ဆေ့ခ်ျများကို encrypt လုပ်ထားသောအဆုံးသို့စာဝှက်ထားလိမ့်မည်",
+        "alert": "End-to-end encryption ကိုအခန်းထဲမှာဖွင့်ထားပြီးဒီ setting ကိုပိတ်ထားလို့မရဘူး။"
+      },
+      "submit": "privacy ဆက်တင်များကိုသိမ်းဆည်းပါ"
+    },
+    "toast": {
+      "success": "Privacy Settings ကို update လုပ်ပါပြီ",
+      "error": "privacy ဆက်တင်များကို update လုပ်ရန်ပျက်ကွက်ခဲ့သည်"
+    }
+  }
+}

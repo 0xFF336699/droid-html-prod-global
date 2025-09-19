@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Sumiiffimmi aqqa",
+    "viewMap": "Nunap assinga takuuk",
+    "close": "matuneq"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Ullumikkut browserip geolocation-imik pissarsineq tapersersorpaa",
+    "getLocationFailed": "Sumiiffiup pissarsiarineqannginnerani akuersissummik inissititernerit misissoruk",
+    "myLocation": "Uanga inissisimaffiga",
+    "shareLocation": "Share-mik sumiiffik",
+    "getCurrentLocation": "Ullumikkut inissisimaffik pissarsiariuk",
+    "title": "Sumiiffimmi aqqa",
+    "description": "Nassuiaat sukumiisoq",
+    "descriptionPlaceholder": "Nassuiaat sukumiisoq (aamma) allattukkit.",
+    "preview": "Sumiiffimmi Preview",
+    "latitude": "latitude",
+    "longitude": "longitude",
+    "cancel": "taamaatippaa",
+    "send": "nassiuppoq",
+    "permissionPrompt": "Pitsaanerusumik sullissisinnaajumalluta sumiiffimmi paasissutissat pissarsiarisariaqarpagut, salliunneqarpa?",
+    "permissionDenied": "Issiussinissamut akuersissut itigartinneqarpoq, browsererni inissititernermi Positioning-imik akuersissut atorsinnaalerlugu",
+    "locationTimeout": "Timeout-imik inissitsiterneq, qulakkeerlugu atortoq qaminneqarnissaa aammalu pissarsiornissaq misiliigit",
+    "locationUnavailable": "Ullumikkut inissisimaffik pissarsiarineqarsinnaanngilaq, apparatip sumiiffiani sullissivik misissorlugu"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Login / Register",
+    "signOut": "PRAETEREO",
+    "confirmContent": "Certus es tu vis log sicco?",
+    "confirmTitle": "admoneo",
+    "confirm": "Certus",
+    "cancel": "Inrito",
+    "signoutOk": "PRAETEREO",
+    "loadingData": "Loading User Data"
+  }
+}

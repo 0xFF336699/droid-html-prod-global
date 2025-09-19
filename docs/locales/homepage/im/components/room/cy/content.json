@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Ymunwch â'r Ystafell",
+      "inviteOnly": "Mae hon yn ystafell breifat ac mae angen gwahoddiadau i ymuno",
+      "knockRequired": "Mae'r ystafell hon yn gofyn am gais i ymuno. Cliciwch y botwm isod i anfon y cais ymuno",
+      "canJoin": "Ystafell gyhoeddus yw hon, gallwch ymuno yn uniongyrchol",
+      "sendRequest": "Anfon cais ymuno",
+      "join": "Ymunwch â'r Ystafell"
+    },
+    "JoinRequestList": {
+      "noRequests": "Dim cais ymuno eto",
+      "accept": "derbynion",
+      "reject": "wrthodem"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Rhowch neges ..."
+  },
+  "MessageList": {
+    "noMessages": "Nid oes neges eto, anfonwch y neges gyntaf i ddechrau'r sgwrs!",
+    "loading": "Llwytho ...",
+    "error": {
+      "loadFailed": "Wedi methu llwytho'r neges",
+      "retry": "Arddelir"
+    },
+    "loadingHistory": "Llwytho Hanes ...",
+    "historyEnd": "Mae'r newyddion cynharaf wedi cyrraedd"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Nid oes neges eto, anfonwch y neges gyntaf i ddechrau'r sgwrs!"
+  },
+  "RoomContent": {
+    "title": "Ystafelloedd"
+  },
+  "RoomHeader": {
+    "title": "Ystafelloedd",
+    "unnamedRoom": "Ystafell ddienw",
+    "members": "aelod",
+    "settings": "sefydlu",
+    "leaveRoom": "Gadewch yr ystafell",
+    "joinRoom": "Ymunwch â'r Ystafell"
+  },
+  "RoomMembers": {
+    "title": "Aelodau ystafell",
+    "online": "Ar -lein",
+    "offline": "All -lein",
+    "join": "ymunaf",
+    "invite": "wahoddet",
+    "leave": "ymadaelith",
+    "ban": "Gwaharddedig",
+    "noMembers": "Dim Aelod eto",
+    "loading": "Llwytho ..."
+  }
+}

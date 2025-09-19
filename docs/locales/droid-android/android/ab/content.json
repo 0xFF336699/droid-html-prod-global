@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Ари аметод ааԥхьара ҟалоит Android мацара",
+      "noMethod": "Ари аметод ыҟаӡам"
+    }
+  }
+}

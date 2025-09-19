@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Almenna kamar",
+        "description": "Almenn kømur kunnu leitast av øðrum brúkarum"
+      },
+      "allowGuestJoin": {
+        "label": "Loyv teimum vitjandi at melda seg til",
+        "description": "Loyv óskrásettum brúkarum at melda seg til kamarið sum gestur"
+      },
+      "isEncrypted": {
+        "label": "Slá enda-til-enda dulnevning",
+        "description": "Tá ið tað er virkið, verða boð í rúminum dulnevnd enda-til-enda",
+        "alert": "End-to-end dulnevning er virkin í rúminum, og henda innstillingin kann ikki sløkkjast."
+      },
+      "submit": "Goym privatlívsinnstillingar"
+    },
+    "toast": {
+      "success": "Persónligar innstillingar eru dagførdar",
+      "error": "Mistist ikki at dagføra privatlívsinnstillingarnar"
+    }
+  }
+}

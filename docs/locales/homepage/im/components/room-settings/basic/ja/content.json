@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "部屋の名前"
+      },
+      "topic": {
+        "label": "部屋の紹介"
+      },
+      "avatar": {
+        "alt": "ルームアバター"
+      },
+      "submit": "設定を保存します"
+    },
+    "toast": {
+      "success": "更新された設定",
+      "error": {
+        "default": "更新設定に失敗しました",
+        "avatar": "アバターの更新に失敗しました"
+      }
+    }
+  }
+}

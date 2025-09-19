@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "ضمیمه اضافه کړئ",
+    "emoji": "یو بیان غوره کړئ",
+    "placeholder": "پیغام دننه کړئ ...",
+    "sendLocation": "ځای واستوئ",
+    "send": "ولیږئ"
+  }
+}

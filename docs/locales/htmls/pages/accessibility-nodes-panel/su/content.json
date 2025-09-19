@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Ningali Inccoints",
+    "howToUse": "Parentah kanggo dianggo",
+    "howToUseTooltip": "Di handap aya hubunganana attakan tanda tina titik ieu anu tiasa dianggo pikeun milih operasi, sapertos ngaklik, ngeusian téks, jsb.\n\nNilai atrolasi tiasa disuksi dina halaman aplikasi. Upami anjeun mendakan duplikat, punten overlay pilihan anu sanés pikeun nangtukeun keunikan.\n\nKecap beureum nunjukkeun yén nilai atribi diulang, kecap héjo nunjukkeun yén hiji intelib unisyaan, sareng kecap hideung nunjukkeun yén moal aya perbandingan ulang.",
+    "otherNodesSummary": "Kodeu séjén dina lokasi ieu",
+    "moreNodes": "Ieu naon anu ditingkat.",
+    "nodeInfoDialogOkButton": "Édit operasi titik ieu",
+    "text": "Teks 2222"
+  }
+}

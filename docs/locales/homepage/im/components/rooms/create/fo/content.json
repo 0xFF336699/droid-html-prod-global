@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Stovna eitt kamar"
+    },
+    "dialog": {
+      "title": "Stovna eitt nýtt kamar",
+      "form": {
+        "userId": {
+          "label": "Brúkara-ID",
+          "placeholder": "Skriva brúkara-ID (til dømis: @user:dømi.com)",
+          "error": {
+            "required": "Brúkara-ID kann ikki vera tómt",
+            "invalid": "Ógyldugt brúkara-ID-snið"
+          }
+        },
+        "roomName": {
+          "label": "Kamarnavn (valfrítt)",
+          "placeholder": "Skriva eitt kamarsnavn"
+        },
+        "isEncrypted": {
+          "label": "Slá enda-til-enda dulnevning"
+        },
+        "isDirect": {
+          "label": "Beinleið"
+        },
+        "topic": {
+          "label": "Tema (valfrítt)",
+          "placeholder": "Skriva kamartema"
+        }
+      },
+      "actions": {
+        "cancel": "strika",
+        "create": "skapa"
+      },
+      "success": "Stovaskapanin væleydnað",
+      "error": "Ein feilur hendi, meðan hann skapti eitt rúm: {feil}"
+    }
+  }
+}

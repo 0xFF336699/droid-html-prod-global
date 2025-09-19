@@ -1,0 +1,9 @@
+{
+  "MemberDetailContent": {
+    "title": "Jäsenet",
+    "nickname": "Lempinimi",
+    "role": "Rooli",
+    "kick": "Potkaista ulos",
+    "ban": "Kielletty"
+  }
+}

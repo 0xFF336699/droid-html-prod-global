@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Sguir dheth",
+    "ok": "Cinnteach",
+    "checkBoxText": "Rach gu dìreach a cheadachadh taobh a-staigh leth-mhìos agus gun a bhith a 'taisbeanadh na h-uinneig seo tuilleadh",
+    "content": "Feumaidh an gnìomh seo ùghdarras neach-cuideachaidh taic. Ma tha thu airson ùghdarras a thoirt seachad, cliog air [OK]. Ma tha thu airson leigeil seachad, cliog air [Sguir dheth]",
+    "title": "Iarrtas ùghdarrachaidh"
+  },
+  "floatPermission": {
+    "cancel": "Sguir dheth",
+    "ok": "Cinnteach",
+    "checkBoxText": "Rach gu dìreach a cheadachadh taobh a-staigh leth-mhìos agus gun a bhith a 'taisbeanadh na h-uinneig seo tuilleadh",
+    "content": "Feumaidh an gnìomh seo cead a thoirt do ghnìomh an uinneig fleòdraidh. Ma tha thu airson ùghdarras a thoirt seachad, cliog air [OK]. Ma tha thu airson leigeil seachad, cliog air [Sguir dheth]",
+    "title": "Iarrtas ùghdarrachaidh"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Maak een kamer"
+    },
+    "dialog": {
+      "title": "Maak een nieuwe kamer",
+      "form": {
+        "userId": {
+          "label": "Gebruikers -ID",
+          "placeholder": "Voer de gebruikers -ID in (bijvoorbeeld: @USer: Example.com)",
+          "error": {
+            "required": "Gebruikers -ID kan niet leeg zijn",
+            "invalid": "Ongeldig gebruikers -ID -formaat"
+          }
+        },
+        "roomName": {
+          "label": "Roomnaam (optioneel)",
+          "placeholder": "Voer een kamernaam in"
+        },
+        "isEncrypted": {
+          "label": "End-to-end codering inschakelen"
+        },
+        "isDirect": {
+          "label": "Direct bericht"
+        },
+        "topic": {
+          "label": "Thema (optioneel)",
+          "placeholder": "Voer het kamerthema in"
+        }
+      },
+      "actions": {
+        "cancel": "Annuleren",
+        "create": "creëren"
+      },
+      "success": "Roomcreatie succesvol",
+      "error": "Er is een fout opgetreden bij het maken van een kamer: {error}"
+    }
+  }
+}

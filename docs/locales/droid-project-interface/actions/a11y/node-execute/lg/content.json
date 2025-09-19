@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Okutta node .",
+    "changeBtnLabel": "okuzzaawo",
+    "showNodeAllProperties": "Laga eby'obugagga byonna .",
+    "wait": {
+      "time": "Obudde bw'okulinda .",
+      "interval": "Okulinda ekiseera .",
+      "invisible": "Oba okuzuula elementi ebweru wa screen ."
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Awtorisado",
+    "notPass": "Hindi awtorisado",
+    "danger": "Panganib",
+    "setting": "I -set up"
+  }
+}

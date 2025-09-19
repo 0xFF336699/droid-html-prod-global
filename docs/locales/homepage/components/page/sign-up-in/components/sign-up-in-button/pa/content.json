@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "ਲਾਗਇਨ / ਰਜਿਸਟਰ",
+    "signOut": "ਲਾਗ ਆਉਟ",
+    "confirmContent": "ਕੀ ਤੁਸੀਂ ਲਾਗ ਆਉਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?",
+    "confirmTitle": "ਇਸ਼ਾਰਾ",
+    "confirm": "ਯਕੀਨਨ",
+    "cancel": "ਰੱਦ ਕਰੋ",
+    "signoutOk": "ਲਾਗ ਆਉਟ",
+    "loadingData": "ਯੂਜ਼ਰ ਡੇਟਾ ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
+  }
+}

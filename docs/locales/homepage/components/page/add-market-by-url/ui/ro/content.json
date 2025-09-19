@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Întrucât această aplicație se aplică pentru un număr mare de permisiuni pe telefonul dvs. mobil, multe permisiuni sunt extrem de riscante, deci nu le importați sau nu le executați fără a ști clar riscurile pieței sau scriptului. După ce introduceți conținut în caseta de text „Introducerea cardului de piață” sau „Pagina web independentă de piață” de mai jos, conținutul va fi executat imediat ca cod. Vă rugăm să fiți precaut.",
+    "setNewMarket": "Configurați o nouă piață",
+    "settingPreview": "Setări previzualizare",
+    "marketName": "Numele pieței",
+    "marketSummary": "Introducere pe piață",
+    "marketDescription": "Introducere pe piață",
+    "itemMarket": "Introducerea cardului de piață",
+    "fullMarket": "Pagina web independentă pe piață",
+    "marketCardPreview": "Previzualizarea cardului de piață",
+    "marketFullPreview": "Previzualizare a paginii web independente pe piață",
+    "isNotSet": "Nu este setat"
+  }
+}

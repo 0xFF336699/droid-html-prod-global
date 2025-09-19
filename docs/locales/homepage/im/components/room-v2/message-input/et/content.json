@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "Lisa manused",
+    "emoji": "Valige avaldis",
+    "placeholder": "Sisestage teade ...",
+    "sendLocation": "Saada asukoht",
+    "send": "saatma"
+  }
+}

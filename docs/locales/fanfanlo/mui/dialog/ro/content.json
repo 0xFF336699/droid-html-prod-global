@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Anula",
+    "confirm": "Sigur",
+    "title": "aluzie",
+    "content": "Ești sigur că vrei să faci asta?"
+  },
+  "EditableText": {
+    "cancel": "Anula",
+    "save": "salva",
+    "title": "edita"
+  }
+}

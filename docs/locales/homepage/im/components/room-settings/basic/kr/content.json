@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Su njim"
+      },
+      "topic": {
+        "label": "Badiyaram"
+      },
+      "avatar": {
+        "alt": "Diwal aretar"
+      },
+      "submit": "Save naptǝ"
+    },
+    "toast": {
+      "success": "Settings update tǝdǝna",
+      "error": {
+        "default": "Nashawa bǝlintǝgǝdǝ faidazǝnyi",
+        "avatar": "Avatar bəlintəgəro terəna"
+      }
+    }
+  }
+}

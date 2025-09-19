@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Oñemoĩve haguã",
+    "sub": {
+      "addScriptByUrl": "Oñemoĩve script URL rupive .",
+      "addScriptByText": "Oñemoĩve script jehaipyre rupive .",
+      "addMarket": "Ombojoapy mercado URL rupive .",
+      "addMarketByText": "Ombojoapy mercado texto rupive ."
+    }
+  }
+}

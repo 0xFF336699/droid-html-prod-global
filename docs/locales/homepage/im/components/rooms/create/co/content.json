@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Creà una stanza"
+    },
+    "dialog": {
+      "title": "Creà una nova stanza",
+      "form": {
+        "userId": {
+          "label": "ID d'Usuariu",
+          "placeholder": "Inserite l'ID d'Usuariu (per esempiu: @user: Eleplemple.com)",
+          "error": {
+            "required": "L'ID d'Usuariu ùn pò micca esse viotu",
+            "invalid": "Formatu d'ID d'Usuariu Invalidu"
+          }
+        },
+        "roomName": {
+          "label": "Nome di a stanza (opzionale)",
+          "placeholder": "Entre in un nome di stanza"
+        },
+        "isEncrypted": {
+          "label": "Habilita a criptografia finale"
+        },
+        "isDirect": {
+          "label": "Missaghju direttu"
+        },
+        "topic": {
+          "label": "Tema (opzionale)",
+          "placeholder": "Ingressu u tema di a stanza"
+        }
+      },
+      "actions": {
+        "cancel": "Annulla",
+        "create": "Crea da creà"
+      },
+      "success": "A creazione di a stanza cun successu",
+      "error": "Un errore hè accadutu mentre crea una stanza: {errore}"
+    }
+  }
+}

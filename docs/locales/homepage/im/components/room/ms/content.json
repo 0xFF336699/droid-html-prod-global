@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Sertailah bilik",
+      "inviteOnly": "Ini adalah bilik peribadi dan memerlukan jemputan untuk bergabung",
+      "knockRequired": "Bilik ini memerlukan permohonan untuk menyertai. Klik butang di bawah untuk menghantar permintaan Join",
+      "canJoin": "Ini adalah bilik awam, anda boleh menyertai secara langsung",
+      "sendRequest": "Hantarkan Permintaan Join",
+      "join": "Sertailah bilik"
+    },
+    "JoinRequestList": {
+      "noRequests": "Belum menyertai permintaan",
+      "accept": "menerima",
+      "reject": "menolak"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Masukkan mesej ..."
+  },
+  "MessageList": {
+    "noMessages": "Belum ada mesej, hantar mesej pertama untuk memulakan perbualan!",
+    "loading": "Memuatkan ...",
+    "error": {
+      "loadFailed": "Gagal memuatkan mesej",
+      "retry": "Cuba lagi"
+    },
+    "loadingHistory": "Memuat sejarah ...",
+    "historyEnd": "Berita terawal telah tiba"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Belum ada mesej, hantar mesej pertama untuk memulakan perbualan!"
+  },
+  "RoomContent": {
+    "title": "Bilik"
+  },
+  "RoomHeader": {
+    "title": "Bilik",
+    "unnamedRoom": "Bilik yang tidak dinamakan",
+    "members": "ahli",
+    "settings": "Sediakan",
+    "leaveRoom": "Tinggalkan bilik",
+    "joinRoom": "Sertailah bilik"
+  },
+  "RoomMembers": {
+    "title": "Ahli bilik",
+    "online": "Dalam talian",
+    "offline": "Di luar talian",
+    "join": "menyertai",
+    "invite": "jemput",
+    "leave": "pergi",
+    "ban": "Dilarang",
+    "noMembers": "Belum ada ahli",
+    "loading": "Memuatkan ..."
+  }
+}

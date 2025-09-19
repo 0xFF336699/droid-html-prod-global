@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Ingoa Ruma"
+      },
+      "topic": {
+        "label": "Kupu whakataki ruma"
+      },
+      "avatar": {
+        "alt": "Avatar ruma"
+      },
+      "submit": "Tiaki Tautuhinga"
+    },
+    "toast": {
+      "success": "Kua whakahoutia",
+      "error": {
+        "default": "I rahua nga tautuhinga whakahou",
+        "avatar": "I rahua te whakahou i avatar"
+      }
+    }
+  }
+}

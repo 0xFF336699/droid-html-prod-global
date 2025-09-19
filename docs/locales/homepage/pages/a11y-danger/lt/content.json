@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Ši funkcija gali atlikti operacijas, panašias į realaus asmens operacijas, įskaitant, bet tuo neapsiribojant, spustelėjimu, programų atidarymu ir tt. Kadangi kyla rizikos, kad bus įrašytos operacijos, mokėjimai ir pan., Mes labai rekomenduojame ją vykdyti tik tuo atveju, jei visiškai suprantate scenarijaus turinį.",
+    "txt2": "Kaip uždaryti šią funkciją: Atidarykite pagrindinį šios programos puslapį, pagrindinio puslapio nustatymuose galite nustoti naudotis pagalbine funkcija arba pagrindiniame puslapyje galite spustelėti mygtuką „Uždarykite visas užduotis ir išėjimo“. Šis mygtukas verčia uždaryti visas vykdomas užduotis ir priversti uždaryti šią programą.",
+    "txt3": "Priežastis, kodėl mes naudojame šią funkciją, yra ta, kad mūsų programa turi turėti galimybę atidaryti kitas programas ir jas valdyti, pavyzdžiui, naršant „Instagram“, ji gali automatiškai paslysti po vaizdo įrašo, patikrinkite, ar produktas parduodamas, ir reguliariai siųsti pranešimus internetiniams draugams ir tt, kurie yra įdomūs ar darbo taupymo operacijos.",
+    "iKnowDanger": "Aš žinau riziką - eik į rinkinį",
+    "title": "Pavojingos operacijos"
+  }
+}

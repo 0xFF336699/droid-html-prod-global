@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Korisničke informacije",
+    "id": {
+      "name": "Id",
+      "copy": "kopija",
+      "copied": "ID je kopiran"
+    },
+    "notLoggedIn": "Nije prijavljen",
+    "name": "ime",
+    "avatar": "avatar"
+  }
+}

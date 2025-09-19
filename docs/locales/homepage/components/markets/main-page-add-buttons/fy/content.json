@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Tafoegje oan",
+    "sub": {
+      "addScriptByUrl": "Foegje skripts ta fia URL",
+      "addScriptByText": "Foegje skripts fia tekst ta",
+      "addMarket": "Tafoegje merke fia URL",
+      "addMarketByText": "Tafoegje merk fia tekst"
+    }
+  }
+}

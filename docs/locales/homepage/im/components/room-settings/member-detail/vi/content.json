@@ -1,0 +1,9 @@
+{
+  "MemberDetailContent": {
+    "title": "Chi tiết thành viên",
+    "nickname": "Tên Nick",
+    "role": "Vai trò",
+    "kick": "Đá ra",
+    "ban": "Bị cấm"
+  }
+}

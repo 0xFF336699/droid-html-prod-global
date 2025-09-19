@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Aggiungi à",
+    "sub": {
+      "addScriptByUrl": "Aghjustate i script via URL",
+      "addScriptByText": "Aghjustate i scripts per mezu di u testu",
+      "addMarket": "Aggiungi u mercatu via URL",
+      "addMarketByText": "Aghjunghje u mercatu à traversu u testu"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Conectare/înregistrare",
+    "signOut": "Deconectați -vă",
+    "confirmContent": "Ești sigur că vrei să te deconectezi?",
+    "confirmTitle": "aluzie",
+    "confirm": "Sigur",
+    "cancel": "Anula",
+    "signoutOk": "Deconectați -vă",
+    "loadingData": "Încărcarea datelor utilizatorului"
+  }
+}

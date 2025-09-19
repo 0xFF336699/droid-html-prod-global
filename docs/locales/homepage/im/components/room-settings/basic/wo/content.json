@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "tur néeg"
+      },
+      "topic": {
+        "label": "néeg"
+      },
+      "avatar": {
+        "alt": "awaar bu kawe"
+      },
+      "submit": "Samm jekkal"
+    },
+    "toast": {
+      "success": "Restings yeesal",
+      "error": {
+        "default": "Yeesal jekkal yi jaarul yoon",
+        "avatar": "Ñàkka yeesal avatar"
+      }
+    }
+  }
+}

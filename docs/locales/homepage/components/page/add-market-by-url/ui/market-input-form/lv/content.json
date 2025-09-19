@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL modelis",
+    "full": {
+      "url": "Tirgus URL. Ievadītās rakstzīmes tiks ielādētas kā URL, lūdzu, esiet piesardzīgs.",
+      "html": "Tirgus HTML saturs. Ievadītās rakstzīmes tiks nekavējoties izpildītas kā skripti, lūdzu, esiet piesardzīgs.",
+      "come": "Nāc uz manu",
+      "myMarketName": "Tirgus nosaukums",
+      "stroll": "Pastaigāsim"
+    },
+    "item": {
+      "url": "Tirgus kartes URL. Ievadītās rakstzīmes tiks ielādētas kā URL, lūdzu, esiet piesardzīgs.",
+      "html": "Tirgus HTML saturs. Ievadītās rakstzīmes tiks nekavējoties izpildītas kā skripti, lūdzu, esiet piesardzīgs.",
+      "come": "Nāc uz manu",
+      "myMarketName": "Tirgus nosaukums",
+      "stroll": "Pastaigāsim"
+    }
+  }
+}

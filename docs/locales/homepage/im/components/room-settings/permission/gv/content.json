@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Yn rang-oardraghey ta feme er son cur testimony",
+        "tooltip": "0 ta shen dy ghra dy vod ooilley ny ballaghyn cur testimony, as ny smoo t'eh er ny yannoo dy vel ceadyn ard"
+      },
+      "invite": {
+        "label": "Va'n rang-oardagh er ny yannoo dy chur cuirrey da ballaghyn noa",
+        "tooltip": "Set c'raad t'ad uss 'sy room"
+      },
+      "kick": {
+        "label": "Kick out y level permission ta ry-hoi",
+        "tooltip": "Set c'raad t'ad ry-gheddyn ny ballaghyn"
+      },
+      "ban": {
+        "label": "level y ghraih ta feme er son y ghraih",
+        "tooltip": "Set c'raad t'ad uss 'sy room"
+      },
+      "roomSettings": {
+        "label": "Modify yn level permission ta ry-hoi",
+        "tooltip": "Set c'raad t'ad uss 'sy room"
+      },
+      "submit": "Slane-lhee"
+    },
+    "description": "rang-oardagh y rannagh: 0-100, ny smoo ta'n earroo shen cowraghey ceadyn ny s'yrjey",
+    "toast": {
+      "success": "Ta ny s'jerree er nyn ghlenney",
+      "error": "Cha nel eh er ny yannoo rish ymmyd jeh'n aght"
+    }
+  }
+}

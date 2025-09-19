@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Giriş / Hasaba alyş",
+    "signOut": "Hasapdan çykmak",
+    "confirmContent": "Hasaba girmek isleýändigiňize ynanýarsyňyzmy?",
+    "confirmTitle": "yşarat",
+    "confirm": "Elbetde",
+    "cancel": "Ýatyr",
+    "signoutOk": "Hasapdan çykmak",
+    "loadingData": "Ulanyjynyň maglumatlaryny ýüklemek"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Zostať v spojení",
+        "helperText": "Ak kliknete na odkaz Štart, uchovajte si odkaz. Vyžaduje si to pozornosť, aby sa spojenie po odpojení nepretržite znovu spojili.",
+        "retryCount": "Počet opätovných pripojení"
+      },
+      "url": {
+        "name": "Adresa",
+        "helperText": "Link URL, napríklad WS: //192.168.0.2: 7001 alebo wws: //example.com/path",
+        "error": "Správna adresa URL je URL začínajúca WS: // alebo wws: //"
+      }
+    },
+    "connectButton": {
+      "connect": "pripojiť",
+      "disconnect": "Odpojiť",
+      "status": {
+        "connecting": "Pripojenie ...",
+        "connected": "Prepojený",
+        "disconnecting": "Odpojenie ...",
+        "disconnected": "Nie je pripojený",
+        "waitRetry": "Čakanie na opätovné pripojenie ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "skript"
+  }
+}

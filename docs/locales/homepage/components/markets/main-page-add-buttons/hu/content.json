@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Hozzáad",
+    "sub": {
+      "addScriptByUrl": "Adjon hozzá szkripteket URL -en keresztül",
+      "addScriptByText": "Adjon hozzá szkripteket szövegen keresztül",
+      "addMarket": "Adjon hozzá piacot az URL -en keresztül",
+      "addMarketByText": "Adja hozzá a piacot a szövegen keresztül"
+    }
+  }
+}

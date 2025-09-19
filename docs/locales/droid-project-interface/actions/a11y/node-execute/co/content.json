@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "EXECUZIONE NODE",
+    "changeBtnLabel": "rimpiazzà",
+    "showNodeAllProperties": "Mostra tutte e proprietà",
+    "wait": {
+      "time": "Tempu di aspittà",
+      "interval": "Intervallu in attesa",
+      "invisible": "Sia da detectà elementi fora di u screnu"
+    }
+  }
+}

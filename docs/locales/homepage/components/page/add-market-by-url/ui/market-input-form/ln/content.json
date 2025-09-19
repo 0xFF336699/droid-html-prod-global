@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Motindo ya URL .",
+    "full": {
+      "url": "URL ya zando. Ba caractères oyo ekotisami ekozala chargé lokola ba URL, svp keba.",
+      "html": "Zando ya makambo ya HTML. Ba caractères oyo ekotisami ekozala exécuté mbala moko lokola ba scripts, svp bozala prudent.",
+      "come": "Boya na oyo ya ngai .",
+      "myMarketName": "Kombo ya zando .",
+      "stroll": "Tokende kotambola ."
+    },
+    "item": {
+      "url": "URL ya karte ya zando. Ba caractères oyo ekotisami ekozala chargé lokola ba URL, svp keba.",
+      "html": "Zando ya makambo ya HTML. Ba caractères oyo ekotisami ekozala exécuté mbala moko lokola ba scripts, svp bozala prudent.",
+      "come": "Boya na oyo ya ngai .",
+      "myMarketName": "Kombo ya zando .",
+      "stroll": "Tokende kotambola ."
+    }
+  }
+}

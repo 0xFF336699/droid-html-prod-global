@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "И кеп Android-на тӀехь бен кхайкха йиш яц .",
+      "noMethod": "И кеп яц ."
+    }
+  }
+}

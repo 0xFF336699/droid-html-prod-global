@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Efitra ho an'ny daholobe",
+        "description": "Ny efitrano ho an'ny daholobe dia azo tadiavina ny mpampiasa hafa"
+      },
+      "allowGuestJoin": {
+        "label": "Avelao hiditra ny mpitsidika",
+        "description": "Avelao ny mpampiasa tsy voasoratra anarana hanatevin-daharana ny efitrano ho toy ny vahiny"
+      },
+      "isEncrypted": {
+        "label": "Mampifanaraka ny encryption end-to-end",
+        "description": "Rehefa azo atao, ny hafatra ao amin'ny efitrano dia hasiana fiafaran'ny farany",
+        "alert": "Ny encryption farany farany dia azo atao ao amin'ny efitrano, ary tsy azo esorina io toe-javatra io."
+      },
+      "submit": "Tehirizo ny filaharana momba ny tsiambaratelo"
+    },
+    "toast": {
+      "success": "Nohavaozina ny filaharana momba ny tsiambaratelo",
+      "error": "Tsy nahavita nanavao ny toe-javatra manokana"
+    }
+  }
+}

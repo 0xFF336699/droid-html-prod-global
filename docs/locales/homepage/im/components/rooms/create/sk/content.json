@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Vytvorte izbu"
+    },
+    "dialog": {
+      "title": "Vytvorte novú miestnosť",
+      "form": {
+        "userId": {
+          "label": "ID používateľa",
+          "placeholder": "Zadajte ID používateľa (napríklad: @user: exament.com)",
+          "error": {
+            "required": "ID používateľa nemôže byť prázdny",
+            "invalid": "Neplatný formát ID používateľa"
+          }
+        },
+        "roomName": {
+          "label": "Názov miestnosti (voliteľné)",
+          "placeholder": "Zadajte názov miestnosti"
+        },
+        "isEncrypted": {
+          "label": "Povoliť šifrovanie koncového konca"
+        },
+        "isDirect": {
+          "label": "Priama správa"
+        },
+        "topic": {
+          "label": "Téma (voliteľné)",
+          "placeholder": "Vstúpte do témy miestnosti"
+        }
+      },
+      "actions": {
+        "cancel": "Zrušiť",
+        "create": "vytvárať"
+      },
+      "success": "Úspešne tvorba miestnosti",
+      "error": "Pri vytváraní miestnosti sa vyskytla chyba: {Error}"
+    }
+  }
+}

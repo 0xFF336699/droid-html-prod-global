@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "ስራሕ",
+    "click": "ጠውቑ",
+    "longClick": "ነዊሕ ፕረስ",
+    "setText": "ጽሑፍ ኣቐምጥ",
+    "tryClick": "ባእታ ወይ ቦታ ፈትኑ ምጥዋቕ",
+    "globalClick": "ቦታ ጠውቕ"
+  }
+}

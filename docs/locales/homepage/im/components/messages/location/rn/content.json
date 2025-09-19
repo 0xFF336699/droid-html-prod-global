@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Izina ry'aho hantu",
+    "viewMap": "Raba ikarita",
+    "close": "gufunga"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Umucukumbuzi w'ubu ntashigikira ugutora ubutaka .",
+    "getLocationFailed": "Utabanje kuronka aho hantu, usabwe kugenzura amabwirizwa y'uruhusha",
+    "myLocation": "Aho nanje",
+    "shareLocation": "Ahantu ho gusangira",
+    "getCurrentLocation": "Uronke aho ubu",
+    "title": "Izina ry'aho hantu",
+    "description": "Insobanuro y'ido n'ido",
+    "descriptionPlaceholder": "Turagusavye winjire mu ndondoro y'ido n'ido (ihitamwo)",
+    "preview": "Imbere y'aho hantu",
+    "latitude": "ubunini",
+    "longitude": "uburebure",
+    "cancel": "Guhagarika",
+    "send": "kurungika",
+    "permissionPrompt": "Turakeneye kuronka amakuru y’aho uri kugira ngo utanga ibikorwa vyiza, mbega vyemewe?",
+    "permissionDenied": "Uruhusha rwo gushingirako birahakanwa, ndagusavye ukoreshe uruhusha rwo Gushinga mu mirongo yawe y'umucukumbuzi",
+    "locationTimeout": "Gushinga igihe, urabe neza ko igikoresho gifunguka maze ugerageze gusubira kuronka",
+    "locationUnavailable": "Aho ubu ntishobora kuronswa, usabwe kugenzura igikorwa co gukoresha igikoresho"
+  }
+}

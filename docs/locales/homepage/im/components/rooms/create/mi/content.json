@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Waihangahia tetahi ruma"
+    },
+    "dialog": {
+      "title": "Waihangahia he ruma hou",
+      "form": {
+        "userId": {
+          "label": "ID Kaiwhakamahi",
+          "placeholder": "Whakauruhia te ID Kaiwhakamahi (hei tauira: @user: Tauira.com)",
+          "error": {
+            "required": "Kaore e taea e te ID kaiwhakamahi te waatea",
+            "invalid": "Hōputu ID Kaiwhakamahi"
+          }
+        },
+        "roomName": {
+          "label": "Ingoa Ruma (kōwhiri)",
+          "placeholder": "Whakauruhia he ingoa ruma"
+        },
+        "isEncrypted": {
+          "label": "Whakahohehia te whakamunatanga mutunga-ki te mutunga"
+        },
+        "isDirect": {
+          "label": "Karere tika"
+        },
+        "topic": {
+          "label": "Kaupapa (kōwhiri)",
+          "placeholder": "Whakauruhia te kaupapa ruma"
+        }
+      },
+      "actions": {
+        "cancel": "Whakakore",
+        "create": "hanga"
+      },
+      "success": "Ko te hangahanga o te rūma",
+      "error": "I puta he hapa i te wa e hanga ana i tetahi ruma: {te he}"
+    }
+  }
+}

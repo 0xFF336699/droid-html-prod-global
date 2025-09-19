@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Beim Eingeben der angegebenen Seite",
+    "pnLabel": "Paketname:",
+    "anLabel": "Aktivitätsname:",
+    "cnLabel": "Klassenname:",
+    "changeBtnLabel": "ersetzen"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Beim Eingeben der angegebenen Seite",
+    "pnLabel": "Paketname:",
+    "anLabel": "Aktivitätsname:",
+    "cnLabel": "Klassenname:",
+    "changeBtnLabel": "ersetzen"
+  }
+}

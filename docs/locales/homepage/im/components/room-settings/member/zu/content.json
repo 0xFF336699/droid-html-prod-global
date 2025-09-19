@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Sesha amalungu"
+    },
+    "table": {
+      "columns": {
+        "name": "Igama Lelungu",
+        "userId": "I-ID Yomsebenzisi",
+        "actions": "hlinza"
+      },
+      "pagination": {
+        "rowsPerPage": "Inani lemigqa ekhasini ngalinye"
+      },
+      "avatar": {
+        "alt": "isantambo"
+      },
+      "actions": {
+        "kick": "Khahlela iphume",
+        "ban": "Uqashiwe"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Qinisekisa ilungu lokukhahlela",
+        "content": "Uqinisekile ukuthi ufuna ukukhahlela ilungu egumbini?"
+      },
+      "ban": {
+        "title": "Qinisekisa ubulungu obuvinjelwe",
+        "content": "Uqinisekile ukuthi ufuna ukuvimba leli lungu? Ilungu ngeke likwazi ukujoyina igumbi ngemuva kokuvinjelwa."
+      },
+      "buttons": {
+        "cancel": "Hlikihla",
+        "confirm": "gcizelela"
+      }
+    },
+    "toast": {
+      "loadError": "Yehlulekile ukulayisha uhlu lwamalungu",
+      "kick": {
+        "success": "Amalungu akhishwe ngaphandle kwekamelo",
+        "error": "Ukukhahlela amalungu ahlulekile"
+      },
+      "ban": {
+        "success": "Amalungu avinjelwe",
+        "error": "Yehlulekile ukuvimba amalungu"
+      }
+    },
+    "invite": {
+      "button": "Mema amalungu",
+      "title": "Mema amalungu ukuthi ajoyine igumbi",
+      "inputLabel": "Sicela ufake i-ID yomsebenzisi we-matrix (efana ne-@user: matrix.org)",
+      "confirm": "mema",
+      "cancel": "Hlikihla",
+      "loading": "Ukumema ...",
+      "success": "Isimemo sithunyelwe!",
+      "error": "Isimemo sehlulekile, sicela uhlole i-ID yomsebenzisi noma izimvume"
+    },
+    "empty": "Alikho ilungu okwamanje",
+    "loading": "Iyalayisha ...",
+    "role": {
+      "owner": "Umninindlu",
+      "admin": "umsingathi",
+      "moderator": "Ukubambisana",
+      "user": "ilungu"
+    }
+  }
+}

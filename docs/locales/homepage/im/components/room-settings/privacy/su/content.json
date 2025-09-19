@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Rohangan umum",
+        "description": "Kamar umum tiasa dipilari ku pangguna anu sanés"
+      },
+      "allowGuestJoin": {
+        "label": "Ngidinan sémah pikeun gabung",
+        "description": "Ngidinan pangguna anu teu dikenal pikeun ngiluan kamar salaku tamu"
+      },
+      "isEncrypted": {
+        "label": "Aktifkeun Enkripsi Tungtung",
+        "description": "Nalika diaktipkeun, pesen di kamar bakal énkripsi ditungtungan",
+        "alert": "Enkripsi tungtung diaktipkeun di rohangan, sareng setting ieu henteu tiasa dipareuman."
+      },
+      "submit": "Simpen Setélan Privasi"
+    },
+    "toast": {
+      "success": "Setélan privasi tos diropéa",
+      "error": "Gagal ngénggalan setélan privasi"
+    }
+  }
+}

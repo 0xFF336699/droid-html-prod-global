@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Mikaroka ireo mpikambana"
+    },
+    "table": {
+      "columns": {
+        "name": "Anaran'ny mpikambana",
+        "userId": "Anara-mpampiasa",
+        "actions": "hiasa"
+      },
+      "pagination": {
+        "rowsPerPage": "Isan'ny andalana isaky ny pejy"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Kick out",
+        "ban": "voarara"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Hamarino ny mpikambana ao amin'ny kicking",
+        "content": "Azo antoka ve fa te-hikapoka ny mpikambana ao anaty efitrano ianao?"
+      },
+      "ban": {
+        "title": "Hamarino ny mpikambana voarara",
+        "content": "Azo antoka ve fa te handrara an'ity mpikambana ity ianao? Tsy ho afaka hampifaly ny efitrano ny mpikambana aorian'ny fandrarana."
+      },
+      "buttons": {
+        "cancel": "hanafoana",
+        "confirm": "Manamarina"
+      }
+    },
+    "toast": {
+      "loadError": "Tsy nahomby ny lisitry ny mpikambana mpikambana",
+      "kick": {
+        "success": "Noroahina tao anaty efitrano ireo mpikambana",
+        "error": "Tsy nahomby ny mpikambana ao amin'ny mpikambana"
+      },
+      "ban": {
+        "success": "Voasakana ny mpikambana",
+        "error": "Tsy nahavita nanakana ny mpikambana"
+      }
+    },
+    "invite": {
+      "button": "Asao ireo mpikambana",
+      "title": "Asao ny mpikambana hiditra ao amin'ny efitrano",
+      "inputLabel": "Azafady ampidiro ny ID mpampiasa Matrix (toa an'i @User: Matrix.org)",
+      "confirm": "Asao",
+      "cancel": "hanafoana",
+      "loading": "Manasa ...",
+      "success": "Fanasana izay nalefa!",
+      "error": "Tsy nahomby ny fanasana, azafady mba jereo ny ID na fahazoan-dàlana mpampiasa"
+    },
+    "empty": "Tsy misy mpikambana",
+    "loading": "Loading ...",
+    "role": {
+      "owner": "Homeeowner",
+      "admin": "mpandrindra",
+      "moderator": "mpiara-fitantanana",
+      "user": "FIANGONANA"
+    }
+  }
+}

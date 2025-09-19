@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Foncion asoxiliar .",
+    "pass": "Autorizat",
+    "notPass": "Non autorizat",
+    "setting": "metre en plaça",
+    "danger": "Perilh",
+    "dangerDesc": "Aquesta autorizacion pòt veire de contengut sus l'ecran e clicar sus vòstre telefòn. Desactivatz aquesta permission se comprenètz pas explicitament la foncionalitat e los risques de l'escript qu'executatz o que seràs en cors."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Saioa hasi / Izena eman",
+    "signOut": "S '",
+    "confirmContent": "Ziur saioa amaitu nahi duzula?",
+    "confirmTitle": "iradokizun",
+    "confirm": "Ziur",
+    "cancel": "Indargabetu",
+    "signoutOk": "S '",
+    "loadingData": "Erabiltzailearen datuak kargatzen"
+  }
+}

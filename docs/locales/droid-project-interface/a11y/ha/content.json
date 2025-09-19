@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "yi aiki da",
+    "click": "Danna",
+    "longClick": "Lullube latsawa",
+    "setText": "Saita rubutu",
+    "tryClick": "Gwada kashi ko danna Danna",
+    "globalClick": "Latsa wuri"
+  }
+}

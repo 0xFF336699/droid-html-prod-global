@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "izini hakɛ min ka kan ka ci walasa ka cikan ci .",
+        "tooltip": "0 kɔrɔ ye ko tɔndenw bɛɛ bɛ se ka cikanw ci, wa ni nimɔrɔ ka bon, o kɔrɔ ye ko yamaruyaw ka bon kosɛbɛ ."
+      },
+      "invite": {
+        "label": "Izini hakɛ min ka kan ka kɛ walasa ka tɔnden kuraw wele .",
+        "tooltip": "Set min bɛ se ka mɔgɔ kuraw wele ka na so kɔnɔ ."
+      },
+      "kick": {
+        "label": "Aw bɛ se ka yamaruya hakɛ min wajibiyalen don .",
+        "tooltip": "Set min bɛ se ka bɔ so kɔnɔmɔgɔw la ."
+      },
+      "ban": {
+        "label": "Izini hakɛ min ka kan ka kɛ mɔgɔw balili la .",
+        "tooltip": "Set min bɛ se ka so kɔnɔmɔgɔw bali ."
+      },
+      "roomSettings": {
+        "label": "Yɛlɛma don ka kɛɲɛ ni so sigicogo ye min wajibiyalen don .",
+        "tooltip": "Set min bɛ se ka so sigicogo sɛmɛntiya ."
+      },
+      "submit": "Aw ye yamaruyaw mara ."
+    },
+    "description": "Permis level range: 0-100, ni jate ka bon, o kɔrɔ ye ko izini caman bɛ ɲini",
+    "toast": {
+      "success": "Permisw ka sigicogo kura don .",
+      "error": "A ma se ka yamaruyaw di ."
+    }
+  }
+}

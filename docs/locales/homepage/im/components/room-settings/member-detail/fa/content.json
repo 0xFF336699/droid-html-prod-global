@@ -1,0 +1,9 @@
+{
+  "MemberDetailContent": {
+    "title": "جزئیات عضو",
+    "nickname": "نام مستعار",
+    "role": "نقش",
+    "kick": "بیرون رفتن",
+    "ban": "ممنوع"
+  }
+}

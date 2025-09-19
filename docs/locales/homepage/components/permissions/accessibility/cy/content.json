@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Swyddogaethau ategol",
+    "pass": "Awdurdodedig",
+    "notPass": "Anawdurdodedig",
+    "setting": "sefydlu",
+    "danger": "Berygl",
+    "dangerDesc": "Gall yr awdurdodiad hwn weld cynnwys ar y sgrin a chlicio ar eich ffôn. Analluoga'r caniatâd hwn os nad ydych yn deall yn benodol ymarferoldeb a risgiau'r sgript rydych chi'n ei rhedeg neu y byddwch chi'n ei rhedeg."
+  }
+}

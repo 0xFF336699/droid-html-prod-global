@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "ننوتل / راجستر",
+    "signOut": "وتل",
+    "confirmContent": "ایا تاسو باوري یاست چې ننوتل غواړئ؟",
+    "confirmTitle": "اشاره",
+    "confirm": "ډاډه یم",
+    "cancel": "لغوه کول",
+    "signoutOk": "وتل",
+    "loadingData": "د کاروونکي ډاټا پورته کول"
+  }
+}

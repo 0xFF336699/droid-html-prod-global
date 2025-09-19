@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Ensaluti/Registri",
+    "signOut": "Elsaluti",
+    "confirmContent": "Ĉu vi certas, ke vi volas elsaluti?",
+    "confirmTitle": "aludo",
+    "confirm": "Certe",
+    "cancel": "Nuligi",
+    "signoutOk": "Elsaluti",
+    "loadingData": "Ŝarĝante Uzantajn Datumojn"
+  }
+}

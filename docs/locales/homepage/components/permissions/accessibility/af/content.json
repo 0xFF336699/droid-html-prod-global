@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Hulpfunksies",
+    "pass": "Gemagtig",
+    "notPass": "Ongemagtig",
+    "setting": "opgestel",
+    "danger": "Gevaar",
+    "dangerDesc": "Hierdie magtiging kan inhoud op die skerm sien en op u foon klik. Deaktiveer hierdie toestemming as u nie die funksionaliteit en risiko's van die skrif wat u gebruik of sal loop, eksplisiet verstaan ​​nie."
+  }
+}

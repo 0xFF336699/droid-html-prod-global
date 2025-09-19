@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Tilgjengelighetsgrensesnittvisning",
+    "howToUse": "Instruksjoner for bruk",
+    "howToUseTooltip": "Nedenfor er noen markeringsattributter for denne noden som kan brukes til å velge operasjoner, for eksempel å klikke, fylle ut tekst osv.\n\nAttributtverdien kan dupliseres på app -siden. Hvis du møter duplikater, kan du legge over andre attributtvalg for å bestemme unikhet.\n\nEt rødt ord indikerer at attributtverdien gjentas, et grønt ord indikerer at attributtverdien er unik i det nåværende sidesøk, og et svart ord indikerer at det ikke er noen gjentatt sammenligning.",
+    "otherNodesSummary": "Andre noder på dette stedet",
+    "moreNodes": "Her er det som utvides.",
+    "nodeInfoDialogOkButton": "Rediger drift av denne noden",
+    "text": "Tekst 2222"
+  }
+}

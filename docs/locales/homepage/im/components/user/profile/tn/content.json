@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Tshedimosetso ya Modirisi",
+    "id": {
+      "name": "ID",
+      "copy": "kopisa",
+      "copied": "ID e kopisitswe"
+    },
+    "notLoggedIn": "Ga ke a tsena",
+    "name": "leina",
+    "avatar": "sebalanako"
+  }
+}

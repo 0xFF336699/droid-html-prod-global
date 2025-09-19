@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "メンバーを検索します"
+    },
+    "table": {
+      "columns": {
+        "name": "メンバー名",
+        "userId": "ユーザーID",
+        "actions": "動作します"
+      },
+      "pagination": {
+        "rowsPerPage": "ページあたりの行数"
+      },
+      "avatar": {
+        "alt": "アバター"
+      },
+      "actions": {
+        "kick": "キックアウト",
+        "ban": "禁止"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "キックメンバーを確認します",
+        "content": "メンバーを部屋から追い出したいですか？"
+      },
+      "ban": {
+        "title": "禁止されたメンバーシップを確認します",
+        "content": "このメンバーを禁止したいですか？メンバーは禁止後に部屋に再び参加することはできません。"
+      },
+      "buttons": {
+        "cancel": "キャンセル",
+        "confirm": "確認する"
+      }
+    },
+    "toast": {
+      "loadError": "メンバーリストの読み込みに失敗しました",
+      "kick": {
+        "success": "メンバーは部屋から追い出されました",
+        "error": "メンバーを蹴るには失敗しました"
+      },
+      "ban": {
+        "success": "メンバーはブロックされました",
+        "error": "メンバーのブロックに失敗しました"
+      }
+    },
+    "invite": {
+      "button": "メンバーを招待します",
+      "title": "部屋に参加するようにメンバーを招待します",
+      "inputLabel": "MatrixユーザーID（@user：matrix.orgなど）を入力してください",
+      "confirm": "招待する",
+      "cancel": "キャンセル",
+      "loading": "招待...",
+      "success": "招待状が送られます！",
+      "error": "招待状が失敗しました。ユーザーIDまたはアクセス許可を確認してください"
+    },
+    "empty": "メンバーはまだいません",
+    "loading": "読み込み...",
+    "role": {
+      "owner": "住宅所有者",
+      "admin": "管理者",
+      "moderator": "共同管理",
+      "user": "メンバー"
+    }
+  }
+}

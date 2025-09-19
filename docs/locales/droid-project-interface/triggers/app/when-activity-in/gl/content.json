@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Ao entrar na páxina especificada",
+    "pnLabel": "Nome do paquete:",
+    "anLabel": "Nome da actividade:",
+    "cnLabel": "Nome da clase:",
+    "changeBtnLabel": "Substituír"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Ao entrar na páxina especificada",
+    "pnLabel": "Nome do paquete:",
+    "anLabel": "Nome da actividade:",
+    "cnLabel": "Nome da clase:",
+    "changeBtnLabel": "Substituír"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Mantingueu -vos connectat",
+        "helperText": "Si feu clic a l’enllaç d’inici, manteniu l’enllaç. Això requereix una atenció que l'enllaç es tornarà a connectar contínuament després que es desconnecti.",
+        "retryCount": "Nombre de reconnexions"
+      },
+      "url": {
+        "name": "Url",
+        "helperText": "URL d’enllaç, per exemple ws: //192.168.0.2: 7001, o wws: //example.com/path",
+        "error": "L’URL correcte és un URL que comença per ws: // o wws: //"
+      }
+    },
+    "connectButton": {
+      "connect": "conectar",
+      "disconnect": "Desconectar",
+      "status": {
+        "connecting": "Connexió ...",
+        "connected": "Connectat",
+        "disconnecting": "Desconnectar ...",
+        "disconnected": "No connectat",
+        "waitRetry": "Esperant la reconnexió ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "manuscrit"
+  }
+}

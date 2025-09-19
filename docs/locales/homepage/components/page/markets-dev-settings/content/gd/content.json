@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Fuirich ceangailte",
+        "helperText": "Ma bhriogas tu air a 'cheangal Start, an uairsin cùm an ceangal. Feumaidh seo aire gun tèid an ceangal ath-cheangal gu leantainneach às deidh a bhith air a dhì-cheangal.",
+        "retryCount": "Àireamh Ath-cheangailte"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "Link URL, mar eisimpleir WS: //192.168.0.2: 7001, no wWS: //example.com/path",
+        "error": "Is e URL ceart URL a th 'ann an URL a' tòiseachadh le WS: // no WWS: //"
+      }
+    },
+    "connectButton": {
+      "connect": "Ceangail",
+      "disconnect": "Disconnect",
+      "status": {
+        "connecting": "A 'ceangal ...",
+        "connected": "Ceangailte",
+        "disconnecting": "Disconing ...",
+        "disconnected": "Gun cheangal",
+        "waitRetry": "A 'feitheamh ri ath-thogail ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "sgriobt"
+  }
+}

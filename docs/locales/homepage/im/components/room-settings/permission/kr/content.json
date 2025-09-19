@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Daraja izinibe məradətəna kawuli zutəye",
+        "tooltip": "0 ma’ananzə am samma soye raksa kawuli zuzayin, kuru lamba kura də ma’ananzə izini nguwu məradətəna"
+      },
+      "invite": {
+        "label": "Izin do ne membawa bəlin bowotəro məradətəna də",
+        "tooltip": "Nduwo raksə membawa bəlin suro njimdəyero bowojin"
+      },
+      "kick": {
+        "label": "Daraja izini məradətənadə tuluwuye",
+        "tooltip": "Nduwo raksə am njimdəga dujin dəga wune"
+      },
+      "ban": {
+        "label": "Wakiltə məradətəna membasawa daptəro",
+        "tooltip": "Nduwo raksə am njimma njimbe dabcin dəga wune"
+      },
+      "roomSettings": {
+        "label": "Fasal izinibe məradətənadəga faltə",
+        "tooltip": "Nduwo raksə settings njimdəye faljin dəga setin"
+      },
+      "submit": "Save izinwa savebe"
+    },
+    "description": "Range na cidabedə: 0-100, kuradə shima lambadə ma'ananzə izini ngəwu məradətəna",
+    "toast": {
+      "success": "Na cidabedə bəlintəgəna",
+      "error": "Settings izinibe bəlintəgəro terəna"
+    }
+  }
+}

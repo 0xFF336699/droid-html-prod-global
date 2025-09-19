@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "ያክሉ",
+    "sub": {
+      "addScriptByUrl": "በ URL በኩል እስክሪፕቶችን ያክሉ",
+      "addScriptByText": "ጽሑፎችን በጽሑፍ ያክሉ",
+      "addMarket": "በ URL በኩል ገበያው ያክሉ",
+      "addMarketByText": "በጽሑፍ በኩል ገበያ ያክሉ"
+    }
+  }
+}

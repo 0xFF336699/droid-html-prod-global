@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Setélan kamar",
+    "tabs": {
+      "basic": "Setélan dasar",
+      "permission": "Updéntasi",
+      "privacy": "Setélan privasi",
+      "member": "Manajemén anggota"
+    },
+    "loadError": "Gagal pikeun muka setélan kamar",
+    "leaveRoom": {
+      "button": "Kaluar kamar",
+      "confirm": "Naha anjeun badé kaluar ka kamar? Saatos kaluar, anjeun moal tiasa teras neruskeun pesen ti rohangan ieu.",
+      "success": "Kaluar kamar suksés",
+      "error": "Gagal kaluar kamar, punten cobian deui"
+    }
+  }
+}

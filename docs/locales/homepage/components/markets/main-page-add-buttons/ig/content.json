@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "gbakwunye na",
+    "sub": {
+      "addScriptByUrl": "Tinye edemede site na URL",
+      "addScriptByText": "Tinye edemede site na ederede",
+      "addMarket": "Tinye Ahịa Via URL",
+      "addMarketByText": "Tinye ahia site na ederede"
+    }
+  }
+}

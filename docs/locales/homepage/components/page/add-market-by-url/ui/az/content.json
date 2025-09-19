@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Bu proqram mobil telefonunuzda çox sayda icazəyə tətbiq olunduğundan, bir çox icazəsi son dərəcə risklidir, buna görə bazar və ya skriptin risklərini dəqiq bilmədən idxal və ya icra etməyin. \"Bazar kartı Giriş\" və ya \"Bazar Müstəqil Veb Səhifəsi\" mətn qutusunda məzmunu daxil etdikdən sonra məzmun dərhal kod kimi yerinə yetiriləcəkdir. Xahiş edirəm ehtiyatlı olun.",
+    "setNewMarket": "Yeni bir bazar qurun",
+    "settingPreview": "Parametrlərin önizleme",
+    "marketName": "Bazar adı",
+    "marketSummary": "Bazara çıxışı",
+    "marketDescription": "Bazara çıxışı",
+    "itemMarket": "Bazar Kartı Giriş",
+    "fullMarket": "Market müstəqil veb səhifə",
+    "marketCardPreview": "Bazar kartı önizleme",
+    "marketFullPreview": "Bazar Müstəqil Veb Səhifə Görüşü",
+    "isNotSet": "Qurutmur"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Patrún URL",
+    "full": {
+      "url": "URL Margaidh. Déanfar na carachtair iontrála a luchtú mar URLanna, bí cúramach le do thoil.",
+      "html": "Ábhar Margaidh HTML. Déanfar na carachtair iontrála a fhorghníomhú láithreach mar scripteanna, bí cúramach le do thoil.",
+      "come": "Tar chugam",
+      "myMarketName": "Ainm an mhargaidh",
+      "stroll": "Déanaimis siúlóid"
+    },
+    "item": {
+      "url": "URL cárta margaidh. Déanfar na carachtair iontrála a luchtú mar URLanna, bí cúramach le do thoil.",
+      "html": "Ábhar Margaidh HTML. Déanfar na carachtair iontrála a fhorghníomhú láithreach mar scripteanna, bí cúramach le do thoil.",
+      "come": "Tar chugam",
+      "myMarketName": "Ainm an mhargaidh",
+      "stroll": "Déanaimis siúlóid"
+    }
+  }
+}

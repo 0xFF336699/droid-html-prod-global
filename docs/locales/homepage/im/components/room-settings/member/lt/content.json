@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Narių paieška"
+    },
+    "table": {
+      "columns": {
+        "name": "Nario vardas",
+        "userId": "Vartotojo ID",
+        "actions": "operuoti"
+      },
+      "pagination": {
+        "rowsPerPage": "Eilučių skaičius viename puslapyje"
+      },
+      "avatar": {
+        "alt": "Avataras"
+      },
+      "actions": {
+        "kick": "Išmesk",
+        "ban": "Uždrausta"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Patvirtinkite spardymo narį",
+        "content": "Ar tikrai norite išstumti narį iš kambario?"
+      },
+      "ban": {
+        "title": "Patvirtinkite uždraustą narystę",
+        "content": "Ar tikrai norite uždrausti šį narį? Po draudimo narys negalės vėl prisijungti prie kambario."
+      },
+      "buttons": {
+        "cancel": "Atšaukti",
+        "confirm": "patvirtinti"
+      }
+    },
+    "toast": {
+      "loadError": "Nepavyko įkelti narių sąrašo",
+      "kick": {
+        "success": "Nariai buvo išmesti iš kambario",
+        "error": "Narių spardymas nepavyko"
+      },
+      "ban": {
+        "success": "Nariai užblokavo",
+        "error": "Nepavyko užblokuoti narių"
+      }
+    },
+    "invite": {
+      "button": "Pakviesti narius",
+      "title": "Pakvieskite narius prisijungti prie kambario",
+      "inputLabel": "Įveskite „Matrix“ vartotojo ID (pvz., @USER: Matrix.org)",
+      "confirm": "pakviesti",
+      "cancel": "Atšaukti",
+      "loading": "Kviečia ...",
+      "success": "Kvietimas išsiųstas!",
+      "error": "Nepavyko kvietimo, patikrinkite vartotojo ID arba leidimus"
+    },
+    "empty": "Dar nė vienas narys",
+    "loading": "Pakrovimas ...",
+    "role": {
+      "owner": "Namų savininkas",
+      "admin": "administratorius",
+      "moderator": "Bendras valdymas",
+      "user": "narys"
+    }
+  }
+}

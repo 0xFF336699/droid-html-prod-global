@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>辅助功能-package和activity识别</title>
+    <script type="module" crossorigin src="/assets/accessibility-pn-an-info-BDdZaQsH.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/_commonjsHelpers-B-UnjaXt.js">
+    <link rel="modulepreload" crossorigin href="/assets/AutoWebViewJs-Dd6EJXHO.js">
+    <link rel="stylesheet" crossorigin href="/assets/accessibility-pn-an-info-DpPFM69q.css">
+  </head>
+  <body style="margin:0;background-color:transparent;width: 100vw">
+    <div id="root"  class="webviewMeatureContainer" style="padding-left:2px;padding-right:2px;width: 100%">
+      <form>
+        <div>
+          <label id="lpn" for="pn">package</label><br>
+          <input style="width: 100%" type="text" id="pn" name="pn" value="" placeholder="package name" readonly>
+          <a id="apn" href="#">copy</a>
+        </div>
+        <div>
+          <label id="lan" for="an">activity</label><br>
+          <input style="width: 100%" type="text" id="an" name="an" value=""
+          placeholder="activity name" readonly>
+          <a id="aan" href="#">copy</a>
+        </div>
+        <div>
+          <label id="lcls" for="cn">classname</label><br>
+          <input style="width: 100%" type="text" id="cls" name="cn" value=""
+          placeholder="class name" readonly>
+          <a id="acn" href="#">copy</a>
+        </div>
+      </form>
+      <div style="justify-content: center;align-items: center;display: flex;">
+        <div><a href="#" id="useBtn">使用</a></div>
+        <span style="width: 2rem;"></span>
+        <div><a href="#" id="closeBtn">关闭</a></div>
+      </div>
+    </div>
+<!--    <div style="width: 100vw;height: 2px"></div>-->
+    <script src="https://unpkg.com/iframe-resizer/js/iframeResizer.contentWindow.min.js"></script>
+</body>
+</html>
+<!--// src/htmls/single-template/index.html-->

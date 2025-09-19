@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "ការចុហបហ្ជី",
+    "phoneNumber": "លេខទូរស័ព្ទ",
+    "phoneNumberPlaceholder": "សូមបញ្ចូលលេខទូរស័ព្ទរបស់អ្នក",
+    "verificationCode": "លេខកូដផ្ទៀងផ្ទាត់",
+    "verificationCodePlaceholder": "សូមបញ្ចូលលេខកូដផ្ទៀងផ្ទាត់",
+    "getVerificationCode": "ទទួលបានលេខកូដផ្ទៀងផ្ទាត់",
+    "countdown": "{{វិនាទី}} វិនាទីដើម្បីព្យាយាមម្តងទៀត",
+    "register": "ការចុហបហ្ជី",
+    "errors": {
+      "phoneRequired": "សូមបញ្ចូលលេខទូរស័ព្ទរបស់អ្នក",
+      "phoneInvalid": "ទ្រង់ទ្រាយលេខទូរស័ព្ទចល័តមិនត្រឹមត្រូវទេ",
+      "codeRequired": "សូមបញ្ចូលលេខកូដផ្ទៀងផ្ទាត់",
+      "codeInvalid": "ទ្រង់ទ្រាយលេខកូដផ្ទៀងផ្ទាត់មិនត្រឹមត្រូវ",
+      "requestFailed": "ការស្នើសុំបានបរាជ័យ",
+      "verificationFailed": "ការទិញកូដផ្ទៀងផ្ទាត់បានបរាជ័យ",
+      "loginFailed": "បានបរាជ័យ"
+    },
+    "success": {
+      "verificationCodeSent": "លេខកូដផ្ទៀងផ្ទាត់ត្រូវបានផ្ញើ",
+      "registerSuccess": "ចុះឈ្មោះដោយជោគជ័យ"
+    }
+  }
+}

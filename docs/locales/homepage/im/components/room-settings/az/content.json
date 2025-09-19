@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Otaq parametrləri",
+    "tabs": {
+      "basic": "Əsas parametrlər",
+      "permission": "İcazə parametrləri",
+      "privacy": "Məxfilik parametrləri",
+      "member": "Üzv idarəçiliyi"
+    },
+    "loadError": "Otaq parametrlərini yükləyə bilmədi",
+    "leaveRoom": {
+      "button": "Otaqdan çıxın",
+      "confirm": "Otaqdan çıxmaq istədiyinizə əminsiniz? Çıxdıqdan sonra bu otaqdan mesaj almağa davam edə bilməyəcəksiniz.",
+      "success": "Otaqdan uğurla çıxdı",
+      "error": "Otaqdan çıxa bilmədi, yenidən cəhd edin"
+    }
+  }
+}

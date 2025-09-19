@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Urugero rw'uruhusha rusabwa kugira ngo ubutumwa",
+        "tooltip": "0 bisigura ko abagize umuryango bose bashobora kohereza ubutumwa, kandi uko umubare usobanura ko hakenewe uruhusha rwo hejuru ."
+      },
+      "invite": {
+        "label": "Urugero rw'ukwinjira rusabwa kugira ngo rutumire abagize umuryango mushasha .",
+        "tooltip": "Ni nde ashobora gutumira abashasha mu cumba"
+      },
+      "kick": {
+        "label": "Ushireho urugero rw'uruhusha rusabwa",
+        "tooltip": "Ni nde ashobora gukuraho abagize icumba"
+      },
+      "ban": {
+        "label": "Urugero rw'injira rukenewe kugira ngo abanywanyi",
+        "tooltip": "Ni nde ashobora kubuza abagize icumba"
+      },
+      "roomSettings": {
+        "label": "Guhindura urugero rw'uruhusha rukenewe",
+        "tooltip": "Ni nde ashobora guhindura ivyumba"
+      },
+      "submit": "Bika ivyagezwe vy'uruhusha"
+    },
+    "description": "Urugero rw'urugero rw'injira: 0-100, uko umubare munini usobanura uruhusha rwo hejuru",
+    "toast": {
+      "success": "Ivyagezwe vy'injira vyahinduwe",
+      "error": "Yananiwe guhindura amategeko y'uruhusha"
+    }
+  }
+}

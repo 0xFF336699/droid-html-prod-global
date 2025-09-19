@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Heja",
+    "confirm": "Upeichaite",
+    "title": "kuaaukavy",
+    "content": "¿Reime seguro rejaposeha ko mbaʼe?"
+  },
+  "EditableText": {
+    "cancel": "Heja",
+    "save": "pysyrõ",
+    "title": "moambue"
+  }
+}

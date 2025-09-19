@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Krijoni një dhomë"
+    },
+    "dialog": {
+      "title": "Krijoni një dhomë të re",
+      "form": {
+        "userId": {
+          "label": "ID e përdoruesit",
+          "placeholder": "Vendosni ID -në e përdoruesit (për shembull: @User: Shembull.com)",
+          "error": {
+            "required": "ID e përdoruesit nuk mund të jetë bosh",
+            "invalid": "Formati i pavlefshëm i identitetit të përdoruesit"
+          }
+        },
+        "roomName": {
+          "label": "Emri i dhomës (opsional)",
+          "placeholder": "Futni një emër të dhomës"
+        },
+        "isEncrypted": {
+          "label": "Aktivizo kriptimin nga fundi në fund"
+        },
+        "isDirect": {
+          "label": "Mesazh i drejtpërdrejtë"
+        },
+        "topic": {
+          "label": "Temë (opsionale)",
+          "placeholder": "Hyni në temën e dhomës"
+        }
+      },
+      "actions": {
+        "cancel": "Anuloj",
+        "create": "krijoj"
+      },
+      "success": "Krijimi i dhomës me sukses",
+      "error": "Ndodhi një gabim gjatë krijimit të një dhome: {gabim}"
+    }
+  }
+}

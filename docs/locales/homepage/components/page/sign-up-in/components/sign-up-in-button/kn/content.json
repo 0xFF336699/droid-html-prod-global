@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "ಲಾಗಿನ್/ರಿಜಿಸ್ಟರ್",
+    "signOut": "ಲಾಗ್ out ಟ್",
+    "confirmContent": "ನೀವು ಲಾಗ್ out ಟ್ ಮಾಡಲು ಬಯಸುತ್ತೀರಾ?",
+    "confirmTitle": "ಸುಳಿವು",
+    "confirm": "ಖಚಿತ",
+    "cancel": "ರದ್ದುಮಾಡು",
+    "signoutOk": "ಲಾಗ್ out ಟ್",
+    "loadingData": "ಬಳಕೆದಾರರ ಡೇಟಾವನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ"
+  }
+}

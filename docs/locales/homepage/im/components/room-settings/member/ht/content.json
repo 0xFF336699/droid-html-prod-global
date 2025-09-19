@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Rechèch pou manm yo"
+    },
+    "table": {
+      "columns": {
+        "name": "Non Manm",
+        "userId": "ID itilizatè",
+        "actions": "opere"
+      },
+      "pagination": {
+        "rowsPerPage": "Kantite ranje pou chak paj"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Choute soti",
+        "ban": "Pwouve"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Konfime manm lan kikin",
+        "content": "Èske ou sèten ou vle choute manm lan soti nan sal la?"
+      },
+      "ban": {
+        "title": "Konfime manm yo entèdi",
+        "content": "Èske ou sèten ou vle entèdi manm sa a? Manm lan pa pral kapab retounen nan sal la apre entèdiksyon an."
+      },
+      "buttons": {
+        "cancel": "Anile",
+        "confirm": "konfime"
+      }
+    },
+    "toast": {
+      "loadError": "Echwe pou pou chaje lis manm",
+      "kick": {
+        "success": "Manm yo te kouri dèyè li nan sal la",
+        "error": "Kikin soti manm echwe"
+      },
+      "ban": {
+        "success": "Manm bloke",
+        "error": "Echwe pou pou bloke manm yo"
+      }
+    },
+    "invite": {
+      "button": "Envite manm yo",
+      "title": "Envite manm yo rantre nan sal la",
+      "inputLabel": "Tanpri antre ID itilizatè matris la (tankou @user: matrix.org)",
+      "confirm": "envite",
+      "cancel": "Anile",
+      "loading": "Envite ...",
+      "success": "Envitasyon voye!",
+      "error": "Envitasyon echwe, tanpri tcheke ID itilizatè oswa autorisations"
+    },
+    "empty": "Pa gen manm ankò",
+    "loading": "Loading ...",
+    "role": {
+      "owner": "Mèt kay",
+      "admin": "administratè",
+      "moderator": "Ko-jesyon",
+      "user": "manb"
+    }
+  }
+}

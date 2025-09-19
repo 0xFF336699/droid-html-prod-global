@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Teƒea ƒe ŋkɔ .",
+    "viewMap": "Kpɔ anyigbatataa ɖa .",
+    "close": "Nuwuwu ."
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Browser si li fifia mewɔa dɔ le geolocation acquisition ŋu o .",
+    "getLocationFailed": "Ne mèxɔ teƒea o la, taflatse lé ŋku ɖe mɔɖeɖe ƒe ɖoɖowo ŋu .",
+    "myLocation": "Afisi mele .",
+    "shareLocation": "Ma teƒe si wòle .",
+    "getCurrentLocation": "Na teƒe si nèle fifia la nasu asiwò .",
+    "title": "Teƒea ƒe ŋkɔ .",
+    "description": "Numeɖeɖe tsitotsito .",
+    "descriptionPlaceholder": "Taflatse ŋlɔ numeɖeɖe tsitotsito (ne ètiae) .",
+    "preview": "Teƒe si wole ƒe ŋgɔdonya .",
+    "latitude": "Latitude .",
+    "longitude": "Didime .",
+    "cancel": "Te fli ɖe eme",
+    "send": "dᴐ",
+    "permissionPrompt": "Ele be míaxɔ wò afi si nèle ŋuti nyatakakawo be míana dɔ nyuiwo wɔwɔ, ɖe woɖe mɔ ɖe eŋua?",
+    "permissionDenied": "Wogbe mɔɖeɖe ɖe ɖoƒe si woaɖo ɖe teƒe ŋu, taflatse na mɔɖeɖe ɖe ɖoƒe ɖoɖo ŋu nawɔ dɔ le wò web-browser ƒe ɖoɖowo me .",
+    "locationTimeout": "Ne èɖo ɣeyiɣi si woatsɔ awɔ dɔae la, kpɔ egbɔ be woʋu mɔ̃a eye nàdze agbagba agbugbɔ axɔ .",
+    "locationUnavailable": "Womate ŋu akpɔ teƒe si wole fifia o, taflatse lé ŋku ɖe mɔ̃a ƒe teƒe si wole ŋu ."
+  }
+}

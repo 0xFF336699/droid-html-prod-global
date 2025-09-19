@@ -1,0 +1,7 @@
+{
+  "RoomContentV2": {
+    "waitingForLogin": "Log eerst in",
+    "loadingRoomInfo": "Roominformatie laden ...",
+    "roomNotFound": "De kamer is niet gevonden"
+  }
+}

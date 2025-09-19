@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Opret et værelse"
+    },
+    "dialog": {
+      "title": "Opret et nyt rum",
+      "form": {
+        "userId": {
+          "label": "Bruger -id",
+          "placeholder": "Indtast bruger -ID (for eksempel: @User: eksempel.com)",
+          "error": {
+            "required": "Bruger -ID kan ikke være tomt",
+            "invalid": "Ugyldigt bruger -ID -format"
+          }
+        },
+        "roomName": {
+          "label": "Rumnavn (valgfrit)",
+          "placeholder": "Indtast et rumnavn"
+        },
+        "isEncrypted": {
+          "label": "Aktivér ende-til-ende-kryptering"
+        },
+        "isDirect": {
+          "label": "Direkte besked"
+        },
+        "topic": {
+          "label": "Tema (valgfrit)",
+          "placeholder": "Gå ind i rumtemaet"
+        }
+      },
+      "actions": {
+        "cancel": "Ophæve",
+        "create": "skabe"
+      },
+      "success": "Roomreation med succes",
+      "error": "Der opstod en fejl under oprettelse af et rum: {Fejl}"
+    }
+  }
+}

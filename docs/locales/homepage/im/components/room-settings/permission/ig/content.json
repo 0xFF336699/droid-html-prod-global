@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Ikikere ikike iji zipu ozi",
+        "tooltip": "0 pụtara na ndị otu niile nwere ike izipu ozi, yana ọnụ ọgụgụ buru ibu pụtara na achọrọ ikikere dị elu"
+      },
+      "invite": {
+        "label": "Ikike ikike iji kpọọ ndị otu ọhụrụ",
+        "tooltip": "Debe onye nwere ike ịkpọ ndị ọhụrụ n'ụlọ ahụ"
+      },
+      "kick": {
+        "label": "Gbapụta ọkwa ikike achọrọ",
+        "tooltip": "Debe onye gawara ndị otu ahụ"
+      },
+      "ban": {
+        "label": "Ọkwa ikike achọrọ maka ndị otu igbochi",
+        "tooltip": "Debe onye nwere ike igbochi ndị otu ụlọ"
+      },
+      "roomSettings": {
+        "label": "Gbanwee ọkwa ikike achọrọ",
+        "tooltip": "Debe onye nwere ike gbanwee ntọala ụlọ"
+      },
+      "submit": "Chekwaa Ntọala ikike"
+    },
+    "description": "Ikikere ọkwa dị: 0-100, ka ukwuu ọnụ ọgụgụ ka ọnụọgụ dị elu achọrọ",
+    "toast": {
+      "success": "Emelitela ntọala ikike",
+      "error": "Enweghi ike imelite ntọala ikike"
+    }
+  }
+}

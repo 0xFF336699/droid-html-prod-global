@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "rejista",
+    "phoneNumber": "Nhamba yenhare",
+    "phoneNumberPlaceholder": "Ndokumbira utore yako nhare mbozha nhamba",
+    "verificationCode": "Kodhi yekodhi",
+    "verificationCodePlaceholder": "Ndokumbira utore kodhi yekuzivisa",
+    "getVerificationCode": "Tora kodhi yekuzivisa",
+    "countdown": "{{masekondi} masekondi kuyedza zvakare",
+    "register": "rejista",
+    "errors": {
+      "phoneRequired": "Ndokumbira utore yako nhare mbozha nhamba",
+      "phoneInvalid": "Nhare mbozha nhamba yemhando haina kunaka",
+      "codeRequired": "Ndokumbira utore kodhi yekuzivisa",
+      "codeInvalid": "Iyo yekuzivisa kodhi fomati haina kunaka",
+      "requestFailed": "Chikumbiro chakundikana",
+      "verificationFailed": "Verified Code Kuwanikwa Kwakatadza",
+      "loginFailed": "Kupinda kwakundikana"
+    },
+    "success": {
+      "verificationCodeSent": "Verified kodhi yatumirwa",
+      "registerSuccess": "Rakanyoreswa zvinobudirira"
+    }
+  }
+}

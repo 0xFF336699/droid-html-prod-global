@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "Pirmasis puslapis",
+    "me": "mano",
+    "settings": "Nustatykite",
+    "script": "scenarijus",
+    "store": "rinka",
+    "market": "rinka",
+    "create": "sukurti"
+  },
+  "tabbar": {
+    "test": "Apatinė meniu juosta"
+  }
+}

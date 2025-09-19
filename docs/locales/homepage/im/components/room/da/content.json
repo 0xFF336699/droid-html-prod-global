@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Deltag i lokalet",
+      "inviteOnly": "Dette er et privat rum og kræver invitationer til at deltage",
+      "knockRequired": "Dette rum kræver, at ansøgningen tilslutter sig. Klik på knappen nedenfor for at sende anmodningen om sammenføjning",
+      "canJoin": "Dette er et offentligt rum, du kan deltage direkte",
+      "sendRequest": "Send en JOIN -anmodning",
+      "join": "Deltag i lokalet"
+    },
+    "JoinRequestList": {
+      "noRequests": "Ingen tilmeldingsanmodning endnu",
+      "accept": "acceptere",
+      "reject": "afvise"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Indtast en besked ..."
+  },
+  "MessageList": {
+    "noMessages": "Der er endnu ingen besked, send den første besked for at starte samtalen!",
+    "loading": "Indlæser ...",
+    "error": {
+      "loadFailed": "Kunne ikke indlæse beskeden",
+      "retry": "Prøv igen"
+    },
+    "loadingHistory": "Indlæser historie ...",
+    "historyEnd": "Den tidligste nyhed er ankommet"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Der er endnu ingen besked, send den første besked for at starte samtalen!"
+  },
+  "RoomContent": {
+    "title": "Værelse"
+  },
+  "RoomHeader": {
+    "title": "Værelse",
+    "unnamedRoom": "Navnlig værelse",
+    "members": "medlem",
+    "settings": "opsæt",
+    "leaveRoom": "Forlad rummet",
+    "joinRoom": "Deltag i lokalet"
+  },
+  "RoomMembers": {
+    "title": "Rummedlemmer",
+    "online": "Online",
+    "offline": "Offline",
+    "join": "Deltag i",
+    "invite": "invitere",
+    "leave": "forlade",
+    "ban": "Forbudt",
+    "noMembers": "Intet medlem endnu",
+    "loading": "Indlæser ..."
+  }
+}

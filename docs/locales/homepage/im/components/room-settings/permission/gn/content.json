@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Pe nivel de permiso oñeikotevẽva oñemondo hag̃ua peteĩ marandu .",
+        "tooltip": "0 heꞌise opavave miembro ikatuha omondo marandu, ha tuichavévo papapy heꞌise oñeikotevẽha permiso yvateve ."
+      },
+      "invite": {
+        "label": "Nivel de permiso oñeikotevëva oinvita haguã miembro pyahu .",
+        "tooltip": "Set ikatúva oinvita miembro pyahu koty'ípe ."
+      },
+      "kick": {
+        "label": "Emosẽ pe nivel de permiso oñeikotevẽva .",
+        "tooltip": "Oñemohenda mávapa ikatu omosẽ umi miembro koty ."
+      },
+      "ban": {
+        "label": "Nivel de permiso oñeikotevẽva ojejoko hag̃ua umi miembro .",
+        "tooltip": "Conjunto Mávapa ikatu omboty umi miembro koty ."
+      },
+      "roomSettings": {
+        "label": "Emoambue pe nivel de permiso oñeikotevẽva umi koty ñemboheko rehegua .",
+        "tooltip": "Oñemohenda mávapa ikatu omoambue koty ñemboheko ."
+      },
+      "submit": "Eñongatu permiso ñemboheko ."
+    },
+    "description": "Rango de nivel de permiso: 0-100, tuichavévo papapy heꞌise oñeikotevẽha permiso yvateve .",
+    "toast": {
+      "success": "Oñembopyahu umi permiso ñemboheko .",
+      "error": "Ndojejapói ñembopyahu permiso ñemboheko ."
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Abuur qol"
+    },
+    "dialog": {
+      "title": "Abuuro qol cusub",
+      "form": {
+        "userId": {
+          "label": "Aqoonsiga Adeegsiga",
+          "placeholder": "Gali Aqoonsiga isticmaale (tusaale ahaan: @USER: Tusaale ahaan)",
+          "error": {
+            "required": "Aqoonsiga isticmaale ma noqon karo madhan",
+            "invalid": "Qaabka Aqoonsiga Adeegsiga khaldan"
+          }
+        },
+        "roomName": {
+          "label": "Magaca Qolka (ikhtiyaari)",
+          "placeholder": "Gali magac qol"
+        },
+        "isEncrypted": {
+          "label": "Awood u yeelo dhamaadka dhamaadka-dhamaadka-dhamaadka"
+        },
+        "isDirect": {
+          "label": "Farriin toos ah"
+        },
+        "topic": {
+          "label": "Mawduuca (ikhtiyaari)",
+          "placeholder": "Gali mawduuca qolka"
+        }
+      },
+      "actions": {
+        "cancel": "Burin",
+        "create": "abuurid"
+      },
+      "success": "Abuurista qolka si guul leh",
+      "error": "Khalad ayaa dhacay markii la abuurayo qol: {Khalad}"
+    }
+  }
+}

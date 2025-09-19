@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Nome stanza"
+      },
+      "topic": {
+        "label": "Introduzione della stanza"
+      },
+      "avatar": {
+        "alt": "Avatar della stanza"
+      },
+      "submit": "Salva impostazioni"
+    },
+    "toast": {
+      "success": "Impostazioni aggiornate",
+      "error": {
+        "default": "Impostazioni di aggiornamento non riuscite",
+        "avatar": "Impossibile aggiornare Avatar"
+      }
+    }
+  }
+}

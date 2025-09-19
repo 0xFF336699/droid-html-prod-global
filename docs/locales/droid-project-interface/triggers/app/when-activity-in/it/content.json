@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Quando si entra nella pagina specificata",
+    "pnLabel": "Nome del pacchetto:",
+    "anLabel": "Nome attività:",
+    "cnLabel": "Nome della classe:",
+    "changeBtnLabel": "sostituire"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Quando si entra nella pagina specificata",
+    "pnLabel": "Nome del pacchetto:",
+    "anLabel": "Nome attività:",
+    "cnLabel": "Nome della classe:",
+    "changeBtnLabel": "sostituire"
+  }
+}

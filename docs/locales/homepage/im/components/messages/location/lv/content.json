@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Atrašanās vietas nosaukums",
+    "viewMap": "Skatīt karti",
+    "close": "slēgšana"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Pašreizējais pārlūks neatbalsta ģeogrāfiskās atrašanās vietas iegūšanu",
+    "getLocationFailed": "Neizdevās iegūt atrašanās vietu, lūdzu, pārbaudiet atļaujas iestatījumus",
+    "myLocation": "Mana atrašanās vieta",
+    "shareLocation": "Kopīgot atrašanās vietu",
+    "getCurrentLocation": "Iegūstiet pašreizējo atrašanās vietu",
+    "title": "Atrašanās vietas nosaukums",
+    "description": "Detalizēts apraksts",
+    "descriptionPlaceholder": "Lūdzu, ievadiet detalizētu aprakstu (pēc izvēles)",
+    "preview": "Atrašanās vietas priekšskatījums",
+    "latitude": "platums",
+    "longitude": "garums",
+    "cancel": "Atcelt",
+    "send": "nosūtīt",
+    "permissionPrompt": "Mums ir jāsaņem jūsu atrašanās vietas informācija, lai sniegtu labākus pakalpojumus, vai tas ir atļauts?",
+    "permissionDenied": "Pozicionēšanas atļauja tiek liegta, lūdzu, iespējojiet pozicionēšanas atļauju pārlūkprogrammas iestatījumos",
+    "locationTimeout": "Noilguma noildze, pārliecinieties, vai ierīce ir ieslēgta, un mēģiniet atkārtoti iekļūt",
+    "locationUnavailable": "Pašreizējo atrašanās vietu nevar iegūt, lūdzu, pārbaudiet ierīces atrašanās vietas pakalpojumu"
+  }
+}

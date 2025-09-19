@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Eżekuzzjoni tal-għoqda",
+    "changeBtnLabel": "ibdel",
+    "showNodeAllProperties": "Uri l-proprjetajiet kollha",
+    "wait": {
+      "time": "Ħin ta 'stennija",
+      "interval": "Intervall ta 'stennija",
+      "invisible": "Jekk tiskoprix elementi barra l-iskrin"
+    }
+  }
+}

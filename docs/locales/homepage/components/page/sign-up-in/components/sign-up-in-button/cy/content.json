@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Mewngofnodi/Cofrestru",
+    "signOut": "Allgofnodiff",
+    "confirmContent": "Ydych chi'n siŵr eich bod chi am allgofnodi?",
+    "confirmTitle": "hawgrymu",
+    "confirm": "Sicr",
+    "cancel": "Chansliff",
+    "signoutOk": "Allgofnodiff",
+    "loadingData": "Llwytho data defnyddwyr"
+  }
+}

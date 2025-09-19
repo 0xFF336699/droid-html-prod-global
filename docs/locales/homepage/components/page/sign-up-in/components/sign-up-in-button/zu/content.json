@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Ngena / Bhalisa",
+    "signOut": "Phuma",
+    "confirmContent": "Uqinisekile ukuthi ufuna ukuphuma?",
+    "confirmTitle": "izwi lokuqhweba",
+    "confirm": "-Noma kanjani",
+    "cancel": "Hlikihla",
+    "signoutOk": "Phuma",
+    "loadingData": "Iyalayisha idatha yomsebenzisi"
+  }
+}

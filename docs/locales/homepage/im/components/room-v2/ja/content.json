@@ -1,0 +1,7 @@
+{
+  "RoomContentV2": {
+    "waitingForLogin": "最初にログインしてください",
+    "loadingRoomInfo": "室内情報の読み込み...",
+    "roomNotFound": "部屋は見つかりませんでした"
+  }
+}

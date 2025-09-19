@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "ngāue",
+    "click": "Lomi'i",
+    "longClick": "Lisia loloa",
+    "setText": "Seti",
+    "tryClick": "Feinga'i 'a e 'elemeniti pe feitu'u lomi'i .",
+    "globalClick": "Nofo'anga"
+  }
+}

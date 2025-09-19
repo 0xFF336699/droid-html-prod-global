@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Lisätä jtk",
+    "sub": {
+      "addScriptByUrl": "Lisää skriptejä URL -osoitteen kautta",
+      "addScriptByText": "Lisää skriptejä tekstin läpi",
+      "addMarket": "Lisää markkinoita URL -osoitteen kautta",
+      "addMarketByText": "Lisää markkinoita tekstin kautta"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "部屋を作成します"
+    },
+    "dialog": {
+      "title": "新しい部屋を作成します",
+      "form": {
+        "userId": {
+          "label": "ユーザーID",
+          "placeholder": "ユーザーIDを入力します（例：@user：Example.com）",
+          "error": {
+            "required": "ユーザーIDを空にすることはできません",
+            "invalid": "無効なユーザーID形式"
+          }
+        },
+        "roomName": {
+          "label": "部屋名（オプション）",
+          "placeholder": "部屋の名前を入力します"
+        },
+        "isEncrypted": {
+          "label": "エンドツーエンドの暗号化を有効にします"
+        },
+        "isDirect": {
+          "label": "直接メッセージ"
+        },
+        "topic": {
+          "label": "テーマ（オプション）",
+          "placeholder": "部屋のテーマを入力してください"
+        }
+      },
+      "actions": {
+        "cancel": "キャンセル",
+        "create": "作成する"
+      },
+      "success": "部屋の作成に成功しました",
+      "error": "部屋の作成中にエラーが発生しました：{エラー}"
+    }
+  }
+}

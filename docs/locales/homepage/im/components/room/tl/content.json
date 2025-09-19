@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Sumali sa silid",
+      "inviteOnly": "Ito ay isang pribadong silid at nangangailangan ng mga imbitasyon na sumali",
+      "knockRequired": "Ang silid na ito ay nangangailangan ng application upang sumali. I -click ang pindutan sa ibaba upang maipadala ang kahilingan sa pagsali",
+      "canJoin": "Ito ay isang pampublikong silid, maaari kang sumali nang direkta",
+      "sendRequest": "Magpadala ng isang kahilingan sa pagsali",
+      "join": "Sumali sa silid"
+    },
+    "JoinRequestList": {
+      "noRequests": "Wala pang pagsali sa kahilingan",
+      "accept": "tanggapin",
+      "reject": "tanggihan"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Magpasok ng isang mensahe ..."
+  },
+  "MessageList": {
+    "noMessages": "Wala pang mensahe, ipadala ang unang mensahe upang simulan ang pag -uusap!",
+    "loading": "Naglo -load ...",
+    "error": {
+      "loadFailed": "Nabigong i -load ang mensahe",
+      "retry": "Subukang muli"
+    },
+    "loadingHistory": "Naglo -load ng Kasaysayan ...",
+    "historyEnd": "Ang pinakaunang balita ay dumating"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Wala pang mensahe, ipadala ang unang mensahe upang simulan ang pag -uusap!"
+  },
+  "RoomContent": {
+    "title": "Silid"
+  },
+  "RoomHeader": {
+    "title": "Silid",
+    "unnamedRoom": "Hindi pinangalanan na silid",
+    "members": "miyembro",
+    "settings": "I -set up",
+    "leaveRoom": "Umalis sa silid",
+    "joinRoom": "Sumali sa silid"
+  },
+  "RoomMembers": {
+    "title": "Mga miyembro ng silid",
+    "online": "Online",
+    "offline": "Offline",
+    "join": "Sumali sa",
+    "invite": "anyayahan",
+    "leave": "umalis",
+    "ban": "Pinagbawalan",
+    "noMembers": "Wala pang miyembro",
+    "loading": "Naglo -load ..."
+  }
+}

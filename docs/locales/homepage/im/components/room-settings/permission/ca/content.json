@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "El nivell de permís necessari per enviar un missatge",
+        "tooltip": "0 significa que tots els membres poden enviar missatges i, com més gran, el nombre significa que calen permisos més elevats"
+      },
+      "invite": {
+        "label": "Nivell de permís necessari per convidar nous membres",
+        "tooltip": "Estableix qui pot convidar nous membres a la sala"
+      },
+      "kick": {
+        "label": "Introduïu el nivell de permís requerit",
+        "tooltip": "Estableix qui pot expulsar els membres de la sala"
+      },
+      "ban": {
+        "label": "Nivell de permís necessari per bloquejar els membres",
+        "tooltip": "Estableix qui pot bloquejar els membres de la sala"
+      },
+      "roomSettings": {
+        "label": "Modifiqueu el nivell de permís requerit de la configuració de l'habitació",
+        "tooltip": "Estableix qui pot modificar la configuració de l'habitació"
+      },
+      "submit": "Desa la configuració de permís"
+    },
+    "description": "Interval de nivell de permís: 0-100, més gran és necessari el nombre significa permisos més alts",
+    "toast": {
+      "success": "La configuració de permís s'ha actualitzat",
+      "error": "No s'ha pogut actualitzar la configuració del permís"
+    }
+  }
+}

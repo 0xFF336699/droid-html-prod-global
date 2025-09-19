@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Ustvari sobo"
+    },
+    "dialog": {
+      "title": "Ustvari novo sobo",
+      "form": {
+        "userId": {
+          "label": "ID uporabnika",
+          "placeholder": "Vnesite ID uporabnika (na primer: @User: example.com)",
+          "error": {
+            "required": "ID uporabnika ne more biti prazen",
+            "invalid": "Neveljaven format ID -ja uporabnika"
+          }
+        },
+        "roomName": {
+          "label": "Ime sobe (neobvezno)",
+          "placeholder": "Vnesite ime sobe"
+        },
+        "isEncrypted": {
+          "label": "Omogočite šifriranje od konca do konca"
+        },
+        "isDirect": {
+          "label": "Neposredno sporočilo"
+        },
+        "topic": {
+          "label": "Tema (neobvezno)",
+          "placeholder": "Vnesite temo sobe"
+        }
+      },
+      "actions": {
+        "cancel": "Odpovedati",
+        "create": "Ustvari"
+      },
+      "success": "Ustvarjanje sobe uspešno",
+      "error": "Med ustvarjanjem sobe je prišlo do napake: {error}"
+    }
+  }
+}

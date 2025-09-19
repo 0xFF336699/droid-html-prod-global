@@ -1,0 +1,7 @@
+{
+  "androidPermission": {
+    "denied": "དང་ལེན་མི་བྱེད",
+    "granted": "དབང་འཛིན་པ།",
+    "shouldAskAgain": "ཆོག་མཆན་མེད་པ།"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "に追加",
+    "sub": {
+      "addScriptByUrl": "URLを介してスクリプトを追加します",
+      "addScriptByText": "テキストを介してスクリプトを追加します",
+      "addMarket": "URL経由で市場を追加します",
+      "addMarketByText": "テキストを介して市場を追加します"
+    }
+  }
+}

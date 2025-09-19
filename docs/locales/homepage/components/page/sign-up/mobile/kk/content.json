@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "тіркеу",
+    "phoneNumber": "Телефон нөмірі",
+    "phoneNumberPlaceholder": "Ұялы телефон нөмірін енгізіңіз",
+    "verificationCode": "Тексеру коды",
+    "verificationCodePlaceholder": "Тексеру кодын енгізіңіз",
+    "getVerificationCode": "Тексеру кодын алыңыз",
+    "countdown": "Қайталап көру үшін {{SECKS}} секунд",
+    "register": "тіркеу",
+    "errors": {
+      "phoneRequired": "Ұялы телефон нөмірін енгізіңіз",
+      "phoneInvalid": "Ұялы телефон нөмірінің форматы дұрыс емес",
+      "codeRequired": "Тексеру кодын енгізіңіз",
+      "codeInvalid": "Тексеру кодының форматы дұрыс емес",
+      "requestFailed": "Сұрау орындалмады",
+      "verificationFailed": "Растау кодын алу сәтсіз аяқталды",
+      "loginFailed": "Логин кірмеді"
+    },
+    "success": {
+      "verificationCodeSent": "Тексеру коды жіберілді",
+      "registerSuccess": "Сәтті тіркелді"
+    }
+  }
+}

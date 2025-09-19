@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Ukungena / irejista",
+    "signOut": "Phuma",
+    "confirmContent": "Uqinisekile ukuba ufuna ukuphuma?",
+    "confirmTitle": "icebo",
+    "confirm": "Ngokuqinisekileyo",
+    "cancel": "Rhoxisa",
+    "signoutOk": "Phuma",
+    "loadingData": "Ukulayisha idatha yomsebenzisi"
+  }
+}

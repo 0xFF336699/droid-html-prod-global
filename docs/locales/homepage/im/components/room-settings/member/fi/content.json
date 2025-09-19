@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Jäsenten etsiminen"
+    },
+    "table": {
+      "columns": {
+        "name": "Jäsenenimi",
+        "userId": "Käyttäjätunnus",
+        "actions": "toimia"
+      },
+      "pagination": {
+        "rowsPerPage": "Rivien lukumäärä sivua kohti"
+      },
+      "avatar": {
+        "alt": "avataari"
+      },
+      "actions": {
+        "kick": "Potkaista ulos",
+        "ban": "Kielletty"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Vahvista potkurijäsen",
+        "content": "Haluatko varmasti potkaista jäsenen huoneesta?"
+      },
+      "ban": {
+        "title": "Vahvista kielletty jäsenyys",
+        "content": "Haluatko varmasti kieltää tämän jäsenen? Jäsen ei voi enää liittyä huoneeseen kiellon jälkeen."
+      },
+      "buttons": {
+        "cancel": "Peruuttaa",
+        "confirm": "vahvistaa"
+      }
+    },
+    "toast": {
+      "loadError": "Jäsenluettelon lataaminen epäonnistui",
+      "kick": {
+        "success": "Jäsenet on potkattu huoneesta",
+        "error": "Jäsenten potkiminen epäonnistui"
+      },
+      "ban": {
+        "success": "Jäsenet estetty",
+        "error": "Jäsenten estäminen epäonnistui"
+      }
+    },
+    "invite": {
+      "button": "Kutsua jäseniä",
+      "title": "Kutsu jäseniä liittymään huoneeseen",
+      "inputLabel": "Anna matriisin käyttäjätunnus (kuten @user: matrix.org)",
+      "confirm": "kutsua",
+      "cancel": "Peruuttaa",
+      "loading": "Kutsu ...",
+      "success": "Kutsu lähetetty!",
+      "error": "Kutsu epäonnistui, tarkista käyttäjätunnus tai käyttöoikeudet"
+    },
+    "empty": "Ei vielä jäsen",
+    "loading": "lataaminen ...",
+    "role": {
+      "owner": "Asunnonomistaja",
+      "admin": "ylläpitäjä",
+      "moderator": "Yhteishallinta",
+      "user": "jäsen"
+    }
+  }
+}

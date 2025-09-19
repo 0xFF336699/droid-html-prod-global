@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Faʻu ha loki ."
+    },
+    "dialog": {
+      "title": "Faʻu ha loki foʻou .",
+      "form": {
+        "userId": {
+          "label": "ID 'o e tokotaha ngaue'aki",
+          "placeholder": "Fakahu 'a e ID 'o e tokotaha 'oku ne ngaue'aki (hange ko 'eni: @user:faka'ata)",
+          "error": {
+            "required": "He'ikai lava ke 'ata'ataa 'a e ID 'o e tokotaha ngaue .",
+            "invalid": "Founga ID 'oku 'ikai ke 'aonga ."
+          }
+        },
+        "roomName": {
+          "label": "Hingoa loki (fili)",
+          "placeholder": "Fakahu ha hingoa ʻo e lokí"
+        },
+        "isEncrypted": {
+          "label": "Fakaʻatā ʻa e fakapulipuli ʻo e ngataʻangá ki he ngataʻangá ."
+        },
+        "isDirect": {
+          "label": "fekau fakahangatonu"
+        },
+        "topic": {
+          "label": "Kaveinga (fili)",
+          "placeholder": "Fakahu ʻa e kaveinga ʻo e lokí"
+        }
+      },
+      "actions": {
+        "cancel": "Kaniseli",
+        "create": "ngaahi"
+      },
+      "success": "Fa'u 'o e loki lavame'a .",
+      "error": "Naʻe hoko ha fehālaaki lolotonga hono faʻu ha loki: {hala}"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "公開房間",
+        "description": "公開房間可以被其他用戶搜索到"
+      },
+      "allowGuestJoin": {
+        "label": "允許訪客加入",
+        "description": "允許未註冊的用戶以訪客身份加入房間"
+      },
+      "isEncrypted": {
+        "label": "啟用端到端加密",
+        "description": "啟用後，房間內的消息將被端到端加密",
+        "alert": "房間已啟用端到端加密，此設置無法關閉。"
+      },
+      "submit": "保存隱私設置"
+    },
+    "toast": {
+      "success": "隱私設置已更新",
+      "error": "更新隱私設置失敗"
+    }
+  }
+}

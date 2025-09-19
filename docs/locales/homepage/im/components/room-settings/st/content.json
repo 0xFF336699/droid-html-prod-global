@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Litlhophiso tsa kamore",
+    "tabs": {
+      "basic": "Litlhophiso tsa mantlha",
+      "permission": "Litlhophiso tsa tumello",
+      "privacy": "Litlhophiso tsa lekunutu",
+      "member": "Tsamaiso ea Litho"
+    },
+    "loadError": "Ha rea ​​atleha ho beha li-setting tsa kamore",
+    "leaveRoom": {
+      "button": "Tsoa ka phapusing",
+      "confirm": "Na u na le bonnete ba hore u batla ho tsoa ka phapusing? Kamora ho tsoa, ​​u ke ke ua khona ho tsoela pele ho amohela melaetsa e tsoang ka phapusing ena.",
+      "success": "O Kopa Kamore Katleho",
+      "error": "Ha rea ​​atleha ho tsoa ka phapusing, ka kopo leka hape"
+    }
+  }
+}

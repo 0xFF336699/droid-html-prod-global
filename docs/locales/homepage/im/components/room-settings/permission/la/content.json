@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Permission planum requiritur mittere nuntium",
+        "tooltip": "0 significat quod omnia membra mittere nuntios, et maior numerus significat quod altior Permissionibus non requiritur"
+      },
+      "invite": {
+        "label": "Permission gradu requiritur ad invitare novum membra",
+        "tooltip": "Set quis invitare novum membra ad cubiculum"
+      },
+      "kick": {
+        "label": "Calcei de requiritur licentia gradu",
+        "tooltip": "Set quis potest calcitrare de locus sodales"
+      },
+      "ban": {
+        "label": "Permission gradu requiritur ad obturans membra",
+        "tooltip": "Set quis potest angustos locus sodales"
+      },
+      "roomSettings": {
+        "label": "Modify requiritur permission campester of locus occasus",
+        "tooltip": "Set quis potest mutare locus occasus"
+      },
+      "submit": "Servo permission occasus"
+    },
+    "description": "Permission gradu range: 0-100, quod maior numerus est altior Permissionibus non requiritur",
+    "toast": {
+      "success": "Leudicio occasus sunt updated",
+      "error": "Defecit ad update permission occasus"
+    }
+  }
+}

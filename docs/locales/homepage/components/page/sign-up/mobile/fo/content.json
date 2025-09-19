@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "skrá",
+    "phoneNumber": "Telefonnummar",
+    "phoneNumberPlaceholder": "Vinarliga skriva fartelefonnummarið á",
+    "verificationCode": "Sannroyndarkoda",
+    "verificationCodePlaceholder": "Vinarliga skriva váttanarkotuna",
+    "getVerificationCode": "Fá váttanarkotuna",
+    "countdown": "{fi",
+    "register": "skrá",
+    "errors": {
+      "phoneRequired": "Vinarliga skriva fartelefonnummarið á",
+      "phoneInvalid": "Fartelefonnummarsniðið er skeivt",
+      "codeRequired": "Vinarliga skriva váttanarkotuna",
+      "codeInvalid": "Vannroyndarkotuformatið er skeivt",
+      "requestFailed": "Áheitanin miseydnaðist",
+      "verificationFailed": "Sannroyndarkotu- og upptøka miseydnaðist",
+      "loginFailed": "Login miseydnaðist"
+    },
+    "success": {
+      "verificationCodeSent": "Sannroyndarkoda er send",
+      "registerSuccess": "Skrásett væleydnað"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Savienošana ...",
+    "connected": "Sakarsēts",
+    "disconnecting": "Atvienojot ...",
+    "disconnected": "Nav savienots",
+    "waitRetry": "Gaida atkārtotu savienojumu ..."
+  }
+}

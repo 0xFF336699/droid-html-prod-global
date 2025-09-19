@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "ennym"
+      },
+      "topic": {
+        "label": "Room Introduction"
+      },
+      "avatar": {
+        "alt": "Seihll avatar"
+      },
+      "submit": "Save settings"
+    },
+    "toast": {
+      "success": "Setts currit er",
+      "error": {
+        "default": "Cha dod ny s'cadjin",
+        "avatar": "Cha nel eh ry-gheddyn dy chur avatar"
+      }
+    }
+  }
+}

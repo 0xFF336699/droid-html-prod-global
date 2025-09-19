@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Engeza ku",
+    "sub": {
+      "addScriptByUrl": "Faka imibhalo nge-URL",
+      "addScriptByText": "Engeza imibhalo ngombhalo",
+      "addMarket": "Faka imakethe nge-URL",
+      "addMarketByText": "Faka imakethe ngombhalo"
+    }
+  }
+}

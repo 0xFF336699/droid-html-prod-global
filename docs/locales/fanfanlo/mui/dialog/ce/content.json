@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "дӀадакха",
+    "confirm": "Дера",
+    "title": "дӀаалар",
+    "content": "Хьо тешна ву, хьайна хӀара дан лаьа?"
+  },
+  "EditableText": {
+    "cancel": "дӀадакха",
+    "save": "Ӏалашдан",
+    "title": "тадан"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Cuir ris",
+    "sub": {
+      "addScriptByUrl": "Cuir sgriobtaichean tro URL",
+      "addScriptByText": "Cuir sgriobtaichean tro theacsa",
+      "addMarket": "Cuir margaidh ris tro URL",
+      "addMarketByText": "Cuir margaidh ris tro theacsa"
+    }
+  }
+}

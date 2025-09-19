@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Visualização da interface de acessibilidade",
+    "howToUse": "Instruções para uso",
+    "howToUseTooltip": "Abaixo estão alguns atributos de marcação deste nó que podem ser usados ​​para selecionar operações, como clicar, preencher o texto, etc.\n\nO valor do atributo pode ser duplicado na página do aplicativo. Se você encontrar duplicatas, sobreponha outras seleções de atributos para determinar a singularidade.\n\nUma palavra vermelha indica que o valor do atributo é repetido, uma palavra verde indica que o valor do atributo é exclusivo na pesquisa atual da página e uma palavra preta indica que não há comparação repetida.",
+    "otherNodesSummary": "Outros nós neste local",
+    "moreNodes": "Aqui está o que está sendo expandido.",
+    "nodeInfoDialogOkButton": "Editar operação deste nó",
+    "text": "Texto 2222"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL",
+    "full": {
+      "url": "URL. Inyuguti zinjiye zizitwarwa nka urls, nyamuneka witonde.",
+      "html": "Isoko html. Inyuguti zinjiye zizicwa ako kanya nkibyanditswe, nyamuneka witondere.",
+      "come": "Ngwino",
+      "myMarketName": "Izina ry'isoko",
+      "stroll": "Reka dufate urugendo"
+    },
+    "item": {
+      "url": "Ikarita y'isoko URL. Inyuguti zinjiye zizitwarwa nka urls, nyamuneka witonde.",
+      "html": "Isoko html. Inyuguti zinjiye zizicwa ako kanya nkibyanditswe, nyamuneka witondere.",
+      "come": "Ngwino",
+      "myMarketName": "Izina ry'isoko",
+      "stroll": "Reka dufate urugendo"
+    }
+  }
+}

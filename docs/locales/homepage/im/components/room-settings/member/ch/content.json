@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Nadao para"
+    },
+    "table": {
+      "columns": {
+        "name": "Membro Mambi",
+        "userId": "tinas",
+        "actions": "probasion"
+      },
+      "pagination": {
+        "rowsPerPage": "Numero gi i fila siha ."
+      },
+      "avatar": {
+        "alt": "gaige"
+      },
+      "actions": {
+        "kick": "chuda",
+        "ban": "Si Banland si Bann"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Konfitma i patten patte",
+        "content": "Siguruyu` na ti siña un` patte i membro gi kuartu?"
+      },
+      "ban": {
+        "title": "Konfitma i para un` prohibi?",
+        "content": "Siguru na un` prohibi hao para un` prohibi. I membron familia ti u fan siña man-ma-ayuda gi kuarto dispues de prohibision."
+      },
+      "buttons": {
+        "cancel": "Kansela",
+        "confirm": "confitma"
+      }
+    },
+    "toast": {
+      "loadError": "Manma'ayek para u fanma'ayek",
+      "kick": {
+        "success": "Membro siha manma’a’ñao gi i kuatton-ñiha .",
+        "error": "I para un` fan man-ma`gas gi membron ."
+      },
+      "ban": {
+        "success": "Membro siha manma blokeha",
+        "error": "Fa'tinas para un bloke"
+      }
+    },
+    "invite": {
+      "button": "Invita",
+      "title": "I manma’gas para u fanma’ayuda gi i kuatto?",
+      "inputLabel": "På'go, na'halom i Matrix (put hemplo, @user:matrix.org)",
+      "confirm": "kombida",
+      "cancel": "Kansela",
+      "loading": "Invita",
+      "success": "Imbitasion para ta na’hanao?",
+      "error": "Imbitasion falla, fabot ID pat permisu ."
+    },
+    "empty": "Ni uno gi membro",
+    "loading": "loman",
+    "role": {
+      "owner": "man-na'i",
+      "admin": "amensu",
+      "moderator": "Ko-manmana",
+      "user": "membro"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "cláraigh",
+    "phoneNumber": "Uimhir ghutháin",
+    "phoneNumberPlaceholder": "Iontráil d’uimhir ghutháin phóca le do thoil",
+    "verificationCode": "Cód fíoraithe",
+    "verificationCodePlaceholder": "Iontráil an cód fíoraithe le do thoil",
+    "getVerificationCode": "Faigh an cód fíoraithe",
+    "countdown": "{{{soicind}} soicind chun triail a bhaint as arís",
+    "register": "cláraigh",
+    "errors": {
+      "phoneRequired": "Iontráil d’uimhir ghutháin phóca le do thoil",
+      "phoneInvalid": "Tá formáid na huimhreach fón póca mícheart",
+      "codeRequired": "Iontráil an cód fíoraithe le do thoil",
+      "codeInvalid": "Tá formáid an Chóid Fíoraithe mícheart",
+      "requestFailed": "Theip ar iarratas",
+      "verificationFailed": "Theip ar éadáil cód fíoraithe",
+      "loginFailed": "Theip ar logáil isteach"
+    },
+    "success": {
+      "verificationCodeSent": "Tá cód fíoraithe seolta",
+      "registerSuccess": "Cláraithe go rathúil"
+    }
+  }
+}

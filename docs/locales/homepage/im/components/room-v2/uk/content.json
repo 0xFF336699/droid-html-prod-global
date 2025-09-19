@@ -1,0 +1,7 @@
+{
+  "RoomContentV2": {
+    "waitingForLogin": "Будь ласка, увійдіть спочатку",
+    "loadingRoomInfo": "Інформація про завантаження кімнати ...",
+    "roomNotFound": "Кімната не знайшла"
+  }
+}

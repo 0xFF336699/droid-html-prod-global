@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "kenyeletsa ho",
+    "sub": {
+      "addScriptByUrl": "Kenya lingoloa ka URL",
+      "addScriptByText": "Kenya lingoloa ka mongolo",
+      "addMarket": "Eketsa 'maraka ka URL",
+      "addMarketByText": "Kenya 'marakeng ka mongolo"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "جڑنے ...",
+    "connected": "منسلک",
+    "disconnecting": "منقطع کرنا ...",
+    "disconnected": "منسلک نہیں",
+    "waitRetry": "اتحاد کا انتظار کرنا ..."
+  }
+}

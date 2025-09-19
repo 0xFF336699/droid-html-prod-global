@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Umehluko omkhulu u- ."
+    },
+    "table": {
+      "columns": {
+        "name": "Umthombo:",
+        "userId": "Umthombo:",
+        "actions": "i"
+      },
+      "pagination": {
+        "rowsPerPage": "Ubujamo"
+      },
+      "avatar": {
+        "alt": "i"
+      },
+      "actions": {
+        "kick": "i",
+        "ban": "i"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Umehluko omkhulu.",
+        "content": "Uyazini ukuthi udinga ukuthi ukhona ukuthi unjani?"
+      },
+      "ban": {
+        "title": "Ukuhlolwa kwe- .",
+        "content": "Ufuna ukuthi udinga ukuthi unjani? Inkongo evame ukupheka, igalo."
+      },
+      "buttons": {
+        "cancel": "Sula",
+        "confirm": "qinisekisa"
+      }
+    },
+    "toast": {
+      "loadError": "Lokhu ubukhulu ubukhulu uzulu .",
+      "kick": {
+        "success": "Umkakhe alala emkakhe.",
+        "error": "Umehluko, umehluko."
+      },
+      "ban": {
+        "success": "#",
+        "error": "Lokhu ubukhulu ubukhulu ."
+      }
+    },
+    "invite": {
+      "button": "Umehluko omkhulu .",
+      "title": "Iqembu elandelayo abizwa ngokuthi udinga ukulala.",
+      "inputLabel": "“Ukusiba 1: “Umsisi 1::1 .",
+      "confirm": "mema",
+      "cancel": "Sula",
+      "loading": "ukuqabula.",
+      "success": "Umehluko omkhulu!",
+      "error": "Lokhu, kudinga ukusiza, udinga ukuvukakaka."
+    },
+    "empty": "Lokhu kuhlukile.",
+    "loading": "ukufala.",
+    "role": {
+      "owner": "I",
+      "admin": "i",
+      "moderator": "#",
+      "user": "i"
+    }
+  }
+}

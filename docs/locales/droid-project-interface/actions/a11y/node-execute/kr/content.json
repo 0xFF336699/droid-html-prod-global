@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Node ye cida diwo",
+    "changeBtnLabel": "faltə",
+    "showNodeAllProperties": "Karewa samma fəletə",
+    "wait": {
+      "time": "Loktu jetə",
+      "interval": "Kate jetə",
+      "invisible": "Waneye awowa diya screenben asutin"
+    }
+  }
+}

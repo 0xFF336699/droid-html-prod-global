@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Csomópont végrehajtás",
+    "changeBtnLabel": "cserél",
+    "showNodeAllProperties": "Mutasd meg az összes tulajdonságot",
+    "wait": {
+      "time": "Várakozási idő",
+      "interval": "Várakozási intervallum",
+      "invisible": "A képernyőn kívüli elemek észlelése"
+    }
+  }
+}

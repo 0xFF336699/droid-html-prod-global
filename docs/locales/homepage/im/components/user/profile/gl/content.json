@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Información do usuario",
+    "id": {
+      "name": "Id",
+      "copy": "copia",
+      "copied": "ID copiouse"
+    },
+    "notLoggedIn": "Non iniciado sesión",
+    "name": "Nome",
+    "avatar": "Avatar"
+  }
+}

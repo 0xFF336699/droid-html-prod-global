@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Thực thi nút",
+    "changeBtnLabel": "thay thế",
+    "showNodeAllProperties": "Hiển thị tất cả các thuộc tính",
+    "wait": {
+      "time": "Thời gian chờ đợi",
+      "interval": "Khoảng thời gian chờ đợi",
+      "invisible": "Có phát hiện các yếu tố bên ngoài màn hình không"
+    }
+  }
+}

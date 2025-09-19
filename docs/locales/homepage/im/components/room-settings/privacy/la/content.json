@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Publica",
+        "description": "Public Rooms potest searched ab aliis users"
+      },
+      "allowGuestJoin": {
+        "label": "Patitur visitors ad iungere",
+        "description": "Liceat unregistered users ad iungere locus ut hospitium"
+      },
+      "isEncrypted": {
+        "label": "Enable Endryption Endryption ad-ut-",
+        "description": "Cum enabled, nuntiis in locus erit encrypted finem-ut-finem",
+        "alert": "Endryption est enabled ad finem-ad-ad-ad-finem locus, et hoc occasum non convertitur off."
+      },
+      "submit": "Servo Privacy Occasus"
+    },
+    "toast": {
+      "success": "Privacy occasus fuisse updated",
+      "error": "Deficio ut update Privacy Occasus"
+    }
+  }
+}

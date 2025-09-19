@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Leidimo lygis, reikalingas pranešimui siųsti",
+        "tooltip": "0 reiškia, kad visi nariai gali siųsti pranešimus, o kuo didesnis skaičius reiškia, kad reikia didesnių leidimų"
+      },
+      "invite": {
+        "label": "Leidimo lygis, reikalingas norint pakviesti naujus narius",
+        "tooltip": "Nustatykite, kas gali pakviesti naujus narius į kambarį"
+      },
+      "kick": {
+        "label": "Išmeskite reikiamą leidimo lygį",
+        "tooltip": "Nustatykite, kas gali išstumti kambario narius"
+      },
+      "ban": {
+        "label": "Leidimo lygis, reikalingas blokuoti narius",
+        "tooltip": "Nustatykite, kas gali blokuoti kambario narius"
+      },
+      "roomSettings": {
+        "label": "Pakeiskite reikiamą kambario nustatymų leidimo lygį",
+        "tooltip": "Nustatykite, kas gali modifikuoti kambario nustatymus"
+      },
+      "submit": "Išsaugokite leidimo nustatymus"
+    },
+    "description": "Leidimo lygio diapazonas: 0–100, tuo didesnis skaičius reiškia didesnius leidimus",
+    "toast": {
+      "success": "Leidimo nustatymai buvo atnaujinti",
+      "error": "Nepavyko atnaujinti leidimo nustatymų"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Tingkat ijin anu diperyogikeun pikeun ngirim pesen",
+        "tooltip": "0 hartosna yén sadaya anggota tiasa ngirim pesen, sareng anu langkung ageung hartosna yén ijin anu langkung ageung diperyogikeun"
+      },
+      "invite": {
+        "label": "Tingkat Ijin Diperyogikeun pikeun ngajak anggota anyar",
+        "tooltip": "Setél anu tiasa ngajak anggota anyar ka kamar"
+      },
+      "kick": {
+        "label": "Kick kaluar tingkat ijin anu diperyogikeun",
+        "tooltip": "Atur anu tiasa nyepak anggota kamar"
+      },
+      "ban": {
+        "label": "Tingkat Ijin Diperyogikeun pikeun Blok Anggota",
+        "tooltip": "Setél anu tiasa ngintunkeun anggota kamar"
+      },
+      "roomSettings": {
+        "label": "Ngarobih tingkat ijin anu diperyogikeun",
+        "tooltip": "Setél anu tiasa ngarobih setélan kamar"
+      },
+      "submit": "Simpen setélan ijin"
+    },
+    "description": "Kariksa tingkat idin: 0-100, jumlah anu langkung ageung hartosna ijin anu langkung ageung diperyogikeun",
+    "toast": {
+      "success": "Setélan ijin parantos diénggalan",
+      "error": "Gagal ngénggalkeun setélan izin"
+    }
+  }
+}

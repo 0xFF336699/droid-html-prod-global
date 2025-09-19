@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Niveau sañ-sañu yónnee mesaas",
+        "tooltip": "0 dafay tekki ni bépp ndaw bu mëna yónnee mesaas, te limu gëna bari ci lim bi dafay tekki ni dañu soxla ndigal yu gëna rëy"
+      },
+      "invite": {
+        "label": "Niveau de permition bi ngay soxla ngir invite nit ñu bees",
+        "tooltip": "Séddali nit ñu bees ci néeg bi"
+      },
+      "kick": {
+        "label": "Lakk ko",
+        "tooltip": "Taxawal ci nit ñi mën nañu dàq nit ñi ci néeg bi"
+      },
+      "ban": {
+        "label": "Niveau permisioŋ bi war ngir bloke ndaw yi",
+        "tooltip": "Séttalal nit ñi ci néeg bi"
+      },
+      "roomSettings": {
+        "label": "Soppi dayo bi war ci jekkal néeg",
+        "tooltip": "Ki mëna soppi jekkal néeg bi"
+      },
+      "submit": "Defal ay jekkal joxe ndigal"
+    },
+    "description": "Niveau de permisioŋ: 0-100, lim bi gëna rëy bi dafay tekki ni li gëna am solo lañu soxla",
+    "toast": {
+      "success": "yeesali jekkal yi dañu yeesal",
+      "error": "Ñàkk nañu yeesal jekkal ndigal yi"
+    }
+  }
+}

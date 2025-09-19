@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Логин/Регистер",
+    "signOut": "ДӀадовла",
+    "confirmContent": "Хьо тешна ву, хьайна лаахь?",
+    "confirmTitle": "дӀаалар",
+    "confirm": "Дера",
+    "cancel": "дӀадакха",
+    "signoutOk": "ДӀадовла",
+    "loadingData": "Декъашхочун даннаш дохкар ."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Żid ma '",
+    "sub": {
+      "addScriptByUrl": "Żid skripts permezz tal-URL",
+      "addScriptByText": "Żid skripts permezz tat-test",
+      "addMarket": "Żid is-suq permezz tal-URL",
+      "addMarketByText": "Żid is-suq permezz tat-test"
+    }
+  }
+}

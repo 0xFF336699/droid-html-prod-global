@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Yara ita gbangba",
+        "description": "Awọn yara gbangba le wa awọn olumulo miiran"
+      },
+      "allowGuestJoin": {
+        "label": "Gba awọn alejo lati darapọ mọ",
+        "description": "Gba awọn olumulo ti ko tọ lati darapọ mọ iyẹwu naa"
+      },
+      "isEncrypted": {
+        "label": "Mu enmorption ipari si-opin si-opin",
+        "description": "Nigbati awọn ifiranṣẹ, awọn ifiranṣẹ ninu yara yoo wa ni ti parowo-si-ipari",
+        "alert": "Idiwọle Ipari-si-opin ti ṣiṣẹ ninu yara naa, ati pe eto yii ko le pa."
+      },
+      "submit": "Fi awọn eto aṣiri pamọ"
+    },
+    "toast": {
+      "success": "Awọn eto aṣiri ti ni imudojuiwọn",
+      "error": "Kuna lati ṣe imudojuiwọn awọn eto ipamọ"
+    }
+  }
+}

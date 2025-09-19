@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Нэвтрэх / Бүртгүүлэх",
+    "signOut": "Гарах",
+    "confirmContent": "Та гарахыг хүсч байна уу?",
+    "confirmTitle": "дохио",
+    "confirm": "Баттай",
+    "cancel": "Цуаах",
+    "signoutOk": "Гарах",
+    "loadingData": "Хэрэглэгчийн өгөгдлийг ачаалж байна"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Dala igumbi"
+    },
+    "dialog": {
+      "title": "Dala igumbi elisha",
+      "form": {
+        "userId": {
+          "label": "I-ID Yomsebenzisi",
+          "placeholder": "Faka i-ID yomsebenzisi (ngokwesibonelo: @user: exper.com)",
+          "error": {
+            "required": "I-ID Yomsebenzisi ayinakuba nalutho",
+            "invalid": "Ifomethi ye-ID yomsebenzisi engavumelekile"
+          }
+        },
+        "roomName": {
+          "label": "Igama Lekamelo (Ngokuzithandela)",
+          "placeholder": "Faka igama lekamelo"
+        },
+        "isEncrypted": {
+          "label": "Nika amandla ukubethelwa kokuphela kokuphela"
+        },
+        "isDirect": {
+          "label": "Umlayezo oqondile"
+        },
+        "topic": {
+          "label": "Ingqikithi (Ngokuzithandela)",
+          "placeholder": "Faka isihloko segumbi"
+        }
+      },
+      "actions": {
+        "cancel": "Hlikihla",
+        "create": "dala"
+      },
+      "success": "Indalo yegumbi ngempumelelo",
+      "error": "Kuvele iphutha ngenkathi kudala igumbi: {iphutha}"
+    }
+  }
+}

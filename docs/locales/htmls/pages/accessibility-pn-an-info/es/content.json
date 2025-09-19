@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "atajo",
+    "title": "Reconocimiento de paquetes y actividades",
+    "useBtn": "usar",
+    "closeBtn": "cierre",
+    "pnLabel": "Nombre del paquete",
+    "copyButtonText": "Copiar",
+    "anLabel": "actividad",
+    "clsLable": "clase"
+  }
+}

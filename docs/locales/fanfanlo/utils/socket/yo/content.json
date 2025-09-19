@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Sisopọ ...",
+    "connected": "Sopọ",
+    "disconnecting": "Ṣiṣẹpọ ...",
+    "disconnected": "Ko sopọ",
+    "waitRetry": "Nduro fun atunlo ..."
+  }
+}

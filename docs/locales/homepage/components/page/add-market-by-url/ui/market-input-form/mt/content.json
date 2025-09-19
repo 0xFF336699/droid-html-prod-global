@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Disinn tal-URL",
+    "full": {
+      "url": "URL tas-Suq. Il-karattri mdaħħla se jkunu mgħobbija bħala URLs, jekk jogħġbok oqgħod attent.",
+      "html": "Kontenut HTML tas-Suq. Il-karattri mdaħħla se jiġu eżegwiti immedjatament bħala skripts, jekk jogħġbok kun prudenti.",
+      "come": "Ejja tiegħi",
+      "myMarketName": "Isem tas-Suq",
+      "stroll": "Ejja nieħdu mixja"
+    },
+    "item": {
+      "url": "URL tal-Karta tas-Suq. Il-karattri mdaħħla se jkunu mgħobbija bħala URLs, jekk jogħġbok oqgħod attent.",
+      "html": "Kontenut HTML tas-Suq. Il-karattri mdaħħla se jiġu eżegwiti immedjatament bħala skripts, jekk jogħġbok kun prudenti.",
+      "come": "Ejja tiegħi",
+      "myMarketName": "Isem tas-Suq",
+      "stroll": "Ejja nieħdu mixja"
+    }
+  }
+}

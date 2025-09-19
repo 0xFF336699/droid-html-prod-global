@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>accessibility info buttons</title>
+    <script type="module" crossorigin src="/assets/accessibility-info-buttons-BJGnjgkc.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/_commonjsHelpers-B-UnjaXt.js">
+    <link rel="modulepreload" crossorigin href="/assets/AutoWebViewJs-Dd6EJXHO.js">
+    <link rel="modulepreload" crossorigin href="/assets/androidDispatchers-BsATMfwW.js">
+  </head>
+  <body style="margin:0;padding:0;background-color:transparent">
+    <div id="root" class="webviewMeatureContainer" style="
+      background-color: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(8px);
+      border-radius: 12px;
+      padding: 12px 0.3rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      display: inline-flex;
+      flex-direction: column;
+      gap: 12px;
+      width: auto;
+      min-width: max-content;
+      margin: 0 auto;
+    ">
+      <a href="#" id="layout" class="btn">
+        <span class="btn-text">布局2</span>
+      </a>
+      <a href="#" id="appInfo" class="btn">
+        <span class="btn-text">App信息</span>
+      </a>
+      <a href="#" id="close" class="btn btn-close">
+        <span class="btn-text">关闭</span>
+      </a>
+    </div>
+    <style>
+      .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px 0.3rem;
+        font-size: 1.1rem;
+        color: #333;
+        text-decoration: none;
+        background-color: #f5f5f5;
+        border-radius: 8px;
+        transition: all 0.2s ease;
+        border: 1px solid #e0e0e0;
+      }
+      .btn:hover {
+        background-color: #e8e8e8;
+        transform: translateY(-1px);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+      .btn:active {
+        transform: translateY(0);
+      }
+      .btn-close {
+        background-color: #ffebee;
+        color: #d32f2f;
+        border-color: #ffcdd2;
+      }
+      .btn-close:hover {
+        background-color: #ffcdd2;
+      }
+      .btn-text {
+        position: relative;
+        z-index: 1;
+      }
+    </style>
+    <script src="https://unpkg.com/iframe-resizer/js/iframeResizer.contentWindow.min.js"></script>
+</body>
+</html>
+<!--// src/htmls/single-template/index.html-->

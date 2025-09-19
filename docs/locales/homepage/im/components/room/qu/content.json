@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Habitación nisqaman hukllaway .",
+      "inviteOnly": "Kayqa huk privado cuartom hinaspapas invitacionkunatam necesitan hukllawakunankupaq .",
+      "knockRequired": "Kay cuartoqa mañakun solicitudta hukllawakunanpaq. Uraypi kaq botonta ñit'iy, chaywanmi hukllanakuy mañakuyta apachinki .",
+      "canJoin": "Kayqa huk cuarto pública, directamente .",
+      "sendRequest": "Huk t'inkisqa mañakuyta apachiy .",
+      "join": "Habitación nisqaman hukllaway ."
+    },
+    "JoinRequestList": {
+      "noRequests": "Manaraqmi hukllanakuy mañakuytaraqchu .",
+      "accept": "uyakuy",
+      "reject": "kutichipuy"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Huk willakuyta qillqay..."
+  },
+  "MessageList": {
+    "noMessages": "Manaraqmi willakuy kanchu, ñawpaq willakuyta apachiy rimayta qallarinanpaq!",
+    "loading": "Cargando...",
+    "error": {
+      "loadFailed": "Willayta kargayta mana atirqanchu.",
+      "retry": "Hukmanta kallpachakuy ."
+    },
+    "loadingHistory": "Historia de carga...",
+    "historyEnd": "Aswan ñawpaq willakuymi chayamun ."
+  },
+  "MessageVirturalList": {
+    "noMessages": "Manaraqmi willakuy kanchu, ñawpaq willakuyta apachiy rimayta qallarinanpaq!"
+  },
+  "RoomContent": {
+    "title": "Habitacion"
+  },
+  "RoomHeader": {
+    "title": "Habitacion",
+    "unnamedRoom": "Mana sutiyuq cuarto .",
+    "members": "Miembro .",
+    "settings": "tupachiy",
+    "leaveRoom": "Saqiy cuartomanta .",
+    "joinRoom": "Habitación nisqaman hukllaway ."
+  },
+  "RoomMembers": {
+    "title": "Habitación nisqapi kaq runakuna .",
+    "online": "Tinkisqa",
+    "offline": "Mana internetpi kaq .",
+    "join": "hukllanakuy .",
+    "invite": "minkay",
+    "leave": "saqiy",
+    "ban": "hark'asqa .",
+    "noMembers": "Manaraqmi miembrupas .",
+    "loading": "Cargando..."
+  }
+}

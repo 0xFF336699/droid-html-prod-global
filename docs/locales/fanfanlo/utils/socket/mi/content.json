@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Te Hononga ...",
+    "connected": "Hono",
+    "disconnecting": "Moroni ...",
+    "disconnected": "E kore e hono",
+    "waitRetry": "Kei te tatari mo te hono ano ..."
+  }
+}

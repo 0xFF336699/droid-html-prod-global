@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Nodo exekuzioa",
+    "changeBtnLabel": "ordezkatu",
+    "showNodeAllProperties": "Erakutsi propietate guztiak",
+    "wait": {
+      "time": "Itxaron denbora",
+      "interval": "Itxarote tartea",
+      "invisible": "Pantailatik kanpoko elementuak hautematea ala ez"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Stayd kianglagh",
+        "helperText": "Mannagh click oo er y link Start, gow y linney. Ta shen goaill stiagh dy bee y link ry-cheilley dy kinjagh erreish da ve disconnected.",
+        "retryCount": "Earroo jeh reconnect"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "URL ceaghley, myr sampleyr, ws://192.0.2:7001, ny wws://s'coontey",
+        "error": "Ta'n URL cheddin ry-akin lesh ws:// ny wwws://"
+      }
+    },
+    "connectButton": {
+      "connect": "co-niemmey",
+      "disconnect": "Dicagh",
+      "status": {
+        "connecting": "Conneckey...",
+        "connected": "Co-chionnit",
+        "disconnecting": "Disconning...",
+        "disconnected": "Chanoddym",
+        "waitRetry": "Ta mee er n'eiyrt son reconnect..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "Skriu"
+  }
+}

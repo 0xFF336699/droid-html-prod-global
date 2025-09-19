@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "Ek ekle",
+    "emoji": "Bir İfade Seçin",
+    "placeholder": "Bir mesaj girin ...",
+    "sendLocation": "Konumu Gönder",
+    "send": "Göndermek"
+  }
+}

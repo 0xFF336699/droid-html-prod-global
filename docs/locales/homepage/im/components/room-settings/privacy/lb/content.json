@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Ëffentlech Zëmmer",
+        "description": "Ëffentlech Zëmmeren kënnen vun anere Benotzer gesicht ginn"
+      },
+      "allowGuestJoin": {
+        "label": "Erlaabt de Besucher matzemaachen",
+        "description": "Erlaabt net ugemellte Benotzer fir de Raum ze sinn als Gaascht"
+      },
+      "isEncrypted": {
+        "label": "Aktivéiert Enn-bis-Endverschlësselung",
+        "description": "Wann et aktivéiert, Messagen am Raum ass op en Enn-bis-Enn verschlësselt ginn",
+        "alert": "End-zu-end Verschlësselung ass am Raum aktivéiert, an dëst Astellung kann net ausgeschalt ginn."
+      },
+      "submit": "Späichert Privatsphär Astellunge"
+    },
+    "toast": {
+      "success": "Privatsphär Astellunge goufen aktualiséiert",
+      "error": "Feeler beim Update Privatsphär Astellunge"
+    }
+  }
+}

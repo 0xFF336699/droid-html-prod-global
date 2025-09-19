@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "რეგისტრირება",
+    "phoneNumber": "ტელეფონის ნომერი",
+    "phoneNumberPlaceholder": "გთხოვთ, შეიყვანოთ თქვენი მობილური ტელეფონის ნომერი",
+    "verificationCode": "გადამოწმების კოდი",
+    "verificationCodePlaceholder": "გთხოვთ, შეიყვანოთ გადამოწმების კოდი",
+    "getVerificationCode": "მიიღეთ გადამოწმების კოდი",
+    "countdown": "{{წამი}} წამები ისევ სცადოთ",
+    "register": "რეგისტრირება",
+    "errors": {
+      "phoneRequired": "გთხოვთ, შეიყვანოთ თქვენი მობილური ტელეფონის ნომერი",
+      "phoneInvalid": "მობილური ტელეფონის ნომრის ფორმატი არასწორია",
+      "codeRequired": "გთხოვთ, შეიყვანოთ გადამოწმების კოდი",
+      "codeInvalid": "გადამოწმების კოდის ფორმატი არასწორია",
+      "requestFailed": "მოთხოვნა ვერ მოხერხდა",
+      "verificationFailed": "გადამოწმების კოდის შეძენა ვერ მოხერხდა",
+      "loginFailed": "შესვლა ვერ მოხერხდა"
+    },
+    "success": {
+      "verificationCodeSent": "გადამოწმების კოდი გაიგზავნა",
+      "registerSuccess": "წარმატებით დარეგისტრირდა"
+    }
+  }
+}

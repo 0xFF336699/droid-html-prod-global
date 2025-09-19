@@ -1,0 +1,7 @@
+{
+  "androidPermission": {
+    "denied": "ກະເດັນ",
+    "granted": "ໄດ້ຮັບອະນຸຍາດ",
+    "shouldAskAgain": "ທີ່ບໍ່ໄດ້ຮັບອະນຸຍາດ"
+  }
+}

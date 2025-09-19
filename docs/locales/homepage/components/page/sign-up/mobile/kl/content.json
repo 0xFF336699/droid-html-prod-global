@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "nalunaarsuiffik",
+    "phoneNumber": "Telefonnummeri",
+    "phoneNumberPlaceholder": "Mobiltelefon-ip normua allassinnaavat",
+    "verificationCode": "Uppernarsaatitut kode",
+    "verificationCodePlaceholder": "Uppernarsaanermut kode allattukkit",
+    "getVerificationCode": "Uppernarsaatitut kode pissarsiariuk",
+    "countdown": "{{sekundit}} sekundit misilerarniarlugit",
+    "register": "nalunaarsuiffik",
+    "errors": {
+      "phoneRequired": "Mobiltelefon-ip normua allassinnaavat",
+      "phoneInvalid": "Mobiltelefonip normua eqqumiinngilaq",
+      "codeRequired": "Uppernarsaanermut kode allattukkit",
+      "codeInvalid": "Uppernarsaatitut kode-mik formati eqqunngilaq",
+      "requestFailed": "Request-i iluatsinngilaq",
+      "verificationFailed": "Uppernarsaatinik kode-mik pissarsineq iluatsinngilaq",
+      "loginFailed": "Login iluatsinngilaq"
+    },
+    "success": {
+      "verificationCodeSent": "Uppernarsaatitut kode nassiunneqarpoq",
+      "registerSuccess": "Angusaqarluartumik nalunaarsorneqarpoq"
+    }
+  }
+}

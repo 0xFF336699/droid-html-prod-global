@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Anslutning ...",
+    "connected": "Ansluten",
+    "disconnecting": "Koppla bort ...",
+    "disconnected": "Inte ansluten",
+    "waitRetry": "Väntar på återanslutning ..."
+  }
+}

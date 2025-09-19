@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Кога внесувате наведена страница",
+    "pnLabel": "Име на пакет:",
+    "anLabel": "Име на активност:",
+    "cnLabel": "Име на час:",
+    "changeBtnLabel": "Заменете"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Кога внесувате наведена страница",
+    "pnLabel": "Име на пакет:",
+    "anLabel": "Име на активност:",
+    "cnLabel": "Име на час:",
+    "changeBtnLabel": "Заменете"
+  }
+}

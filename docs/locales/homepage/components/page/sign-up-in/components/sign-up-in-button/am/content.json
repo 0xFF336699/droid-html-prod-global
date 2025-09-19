@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "መግቢያ / ምዝገባ",
+    "signOut": "ውጣ",
+    "confirmContent": "እርግጠኛ ነዎት ዘግተው መውጣት ይፈልጋሉ?",
+    "confirmTitle": "ፍንጭ",
+    "confirm": "እርግጠኛ",
+    "cancel": "ይቅር",
+    "signoutOk": "ውጣ",
+    "loadingData": "የተጠቃሚ ውሂብን በመጫን ላይ"
+  }
+}

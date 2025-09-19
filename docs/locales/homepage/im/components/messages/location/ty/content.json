@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "i'",
+    "viewMap": "Hi'o i te hoho'a fenua",
+    "close": "tātōnō"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Aita te rave'a hi'opo'araa i teie nei e tauturu ra i te haamaitai i te fenua",
+    "getLocationFailed": "A hi'o na i te mau vahi fariiraa parau no te farii i te vahi",
+    "myLocation": "Oe",
+    "shareLocation": "Ā'ati'a",
+    "getCurrentLocation": "A hoo mai i te vahi",
+    "title": "i'",
+    "description": "Fa'a'ofa'a",
+    "descriptionPlaceholder": "A hi'o na i te hoê faataaraa taa maitai (mational)",
+    "preview": "Hi'opo'araa i te vahi",
+    "latitude": "ōfa'i",
+    "longitude": "Fa'atere; Tau",
+    "cancel": "Tautea",
+    "send": "Tuku",
+    "permissionPrompt": "E tia ia tatou ia farii i te mau haamaramaramaraa no nia i to outou vahi no te horoa i te mau ohipa maitai a'e?",
+    "permissionDenied": "E faaorehia te parau faati'a no te faati'araa, a faaohipa na i te parau faati'a i roto i ta outou mau vahi hi'opo'araa",
+    "locationTimeout": "A tamata i te faaho'i-faahou-raa mai i te rave'a no te farii",
+    "locationUnavailable": "Eita e nehenehe e farii i te vahi i teie nei, a hi'o na i te taviniraa i te vahi nohoraa"
+  }
+}

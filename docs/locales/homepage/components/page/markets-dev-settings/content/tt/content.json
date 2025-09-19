@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Тоташтырылган",
+        "helperText": "Старт сылтамасына бассагыз, сылтаманы саклагыз. Моның өчен сылтама өзелгәннән соң өзлексез кабатланыр дигән игътибар таләп итә.",
+        "retryCount": "Констанция саны"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "Мисал өчен URL, мәсәлән: //192.168.0.2: 7001, яки WWS: //example.com/path",
+        "error": "Дөрес URL - WS белән башлау URL: // / WWS: //"
+      }
+    },
+    "connectButton": {
+      "connect": "тоташу",
+      "disconnect": "Өзелү",
+      "status": {
+        "connecting": "Тоташу ...",
+        "connected": "Тоташтырылган",
+        "disconnecting": "Өзелү ...",
+        "disconnected": "Тоташмаган",
+        "waitRetry": "Телефонны көтеп калам ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "сценарий"
+  }
+}

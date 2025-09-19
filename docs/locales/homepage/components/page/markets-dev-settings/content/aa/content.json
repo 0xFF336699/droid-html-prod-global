@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "akmek ongoorowe",
+        "helperText": "Atu qimbol xukku tekkek, lakal yasgaarawi dacris. tah hangi kah taceem too yasgaarawi qagitak garayele fooca fan toh angaarawak lakal.",
+        "retryCount": "qagaaqagitte qagaaqagitte"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "URL, ceelalloh ws://192.168.0.2:7001, hinnay wws:////gitta",
+        "error": "massat tan URL yaanam URL qimbiss:// akkek wws:////"
+      }
+    },
+    "connectButton": {
+      "connect": "xakbis",
+      "disconnect": "walala",
+      "status": {
+        "connecting": "angaaraw...",
+        "connected": "garayta",
+        "disconnecting": "angaaraw...",
+        "disconnected": "garayta",
+        "waitRetry": "Qagitaak angaaraw abaanam...."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "ransa"
+  }
+}

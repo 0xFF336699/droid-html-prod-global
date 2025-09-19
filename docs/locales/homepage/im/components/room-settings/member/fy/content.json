@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Sykje nei leden"
+    },
+    "table": {
+      "columns": {
+        "name": "Lidnamme",
+        "userId": "Brûker-ID",
+        "actions": "operearje"
+      },
+      "pagination": {
+        "rowsPerPage": "Oantal rigen per pagina"
+      },
+      "avatar": {
+        "alt": "Avatar"
+      },
+      "actions": {
+        "kick": "Útkomme",
+        "ban": "Ferbean"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Befêstigje it traapslid",
+        "content": "Binne jo wis dat jo it lid fan 'e keamer wolle traapje?"
+      },
+      "ban": {
+        "title": "Befêstigje it ferbean lidmaatskip",
+        "content": "Binne jo wis dat jo dit lid wolle ferbiede? It lid sil de keamer net opnij kinne wurde nei it ferbod."
+      },
+      "buttons": {
+        "cancel": "Opheffe",
+        "confirm": "bekrêftigje"
+      }
+    },
+    "toast": {
+      "loadError": "It laden fan lidlist is mislearre",
+      "kick": {
+        "success": "Leden binne út 'e keamer skopt",
+        "error": "Skopen út leden mislearre"
+      },
+      "ban": {
+        "success": "Leden blokkeare",
+        "error": "Leden mislearre"
+      }
+    },
+    "invite": {
+      "button": "Leden útnoegje",
+      "title": "Útnoegje leden om mei te dwaan oan 'e keamer",
+      "inputLabel": "Fier de Matrix-brûkers-ID yn (lykas @USER: Matrix.org)",
+      "confirm": "noegje",
+      "cancel": "Opheffe",
+      "loading": "Útnoegje ...",
+      "success": "Utnoeging ferstjoerd!",
+      "error": "Utnoeging mislearre, kontrolearje asjebleaft brûkers-ID as tagongsrjochten"
+    },
+    "empty": "Noch gjin lid noch",
+    "loading": "Loading ...",
+    "role": {
+      "owner": "Hûseigner",
+      "admin": "bestjoerster",
+      "moderator": "Co-management",
+      "user": "lid"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Nome da localização",
+    "viewMap": "Veja o mapa",
+    "close": "encerramento"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "O navegador atual não suporta aquisição de geolocalização",
+    "getLocationFailed": "Falha ao obter o local, verifique as configurações de permissão",
+    "myLocation": "Minha localização",
+    "shareLocation": "Compartilhe a localização",
+    "getCurrentLocation": "Obtenha o local atual",
+    "title": "Nome da localização",
+    "description": "Descrição detalhada",
+    "descriptionPlaceholder": "Por favor, insira uma descrição detalhada (opcional)",
+    "preview": "Visualização de localização",
+    "latitude": "latitude",
+    "longitude": "longitude",
+    "cancel": "Cancelar",
+    "send": "enviar",
+    "permissionPrompt": "Precisamos obter as informações de localização para fornecer melhores serviços, é permitido?",
+    "permissionDenied": "A permissão de posicionamento é negado, ative a permissão de posicionamento nas configurações do seu navegador",
+    "locationTimeout": "Posicionando o tempo limite, verifique se o dispositivo está ligado e tente regair",
+    "locationUnavailable": "O local atual não pode ser obtido, verifique o serviço de localização do dispositivo"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Node oetvoering",
+    "changeBtnLabel": "vervànge",
+    "showNodeAllProperties": "Toon alle eigesjappe",
+    "wait": {
+      "time": "Door tied",
+      "interval": "Interwijl interval",
+      "invisible": "Of ‘t nu eleminte boete ‘t sjerm detectere"
+    }
+  }
+}

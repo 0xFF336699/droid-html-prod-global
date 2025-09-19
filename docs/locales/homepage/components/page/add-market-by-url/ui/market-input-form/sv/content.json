@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Url -mönster",
+    "full": {
+      "url": "Marknads -URL. De inmatade tecknen kommer att laddas som URL: er, var försiktig.",
+      "html": "Marknad HTML -innehåll. De angivna karaktärerna kommer att utföras omedelbart som skript, var försiktig.",
+      "come": "Komma till min",
+      "myMarketName": "Marknadsnamn",
+      "stroll": "Låt oss ta en promenad"
+    },
+    "item": {
+      "url": "Marknadskort URL. De inmatade tecknen kommer att laddas som URL: er, var försiktig.",
+      "html": "Marknad HTML -innehåll. De angivna karaktärerna kommer att utföras omedelbart som skript, var försiktig.",
+      "come": "Komma till min",
+      "myMarketName": "Marknadsnamn",
+      "stroll": "Låt oss ta en promenad"
+    }
+  }
+}

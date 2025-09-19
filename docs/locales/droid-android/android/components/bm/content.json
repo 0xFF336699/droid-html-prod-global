@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "ka dankari",
+    "ok": "Jaati",
+    "checkBoxText": "Aw bɛ taa ɲɛ ka yamaruya di kalo tilancɛ kɔnɔ ani aw kana nin finɛtiri in jira tugun .",
+    "content": "O baara in bɛ baarakɛcogo dɛmɛnan de wajibiya. N’i ​​b’a fɛ ka yamaruya di, i ka [OK] digi. N’i ​​b’a fɛ ka i dabila, i ka [Cancel] digi.",
+    "title": "yamaruyasɛbɛn baarakɛcogo ."
+  },
+  "floatPermission": {
+    "cancel": "ka dankari",
+    "ok": "Jaati",
+    "checkBoxText": "Aw bɛ taa ɲɛ ka yamaruya di kalo tilancɛ kɔnɔ ani aw kana nin finɛtiri in jira tugun .",
+    "content": "O baara in bɛ ɲini ka yamaruya di finɛtiri baarakɛcogo ma min bɛ panpan. N’i ​​b’a fɛ ka yamaruya di, i ka [OK] digi. N’i ​​b’a fɛ ka i dabila, i ka [Cancel] digi.",
+    "title": "yamaruyasɛbɛn baarakɛcogo ."
+  }
+}

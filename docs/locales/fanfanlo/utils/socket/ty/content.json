@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Te taairaa...",
+    "connected": "ōhipa",
+    "disconnecting": "Te taa-ê-raa..",
+    "disconnected": "Aita; mau taairaa",
+    "waitRetry": "Te tia'i nei i te taairaa..."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Awdurdodedig",
+    "notPass": "Anawdurdodedig",
+    "danger": "Berygl",
+    "setting": "sefydlu"
+  }
+}

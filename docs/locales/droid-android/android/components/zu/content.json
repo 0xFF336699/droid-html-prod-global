@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Hlikihla",
+    "ok": "-Noma kanjani",
+    "checkBoxText": "Iya ngqo ukuze ugunyaze ngaphakathi kwengxenye ngenyanga futhi ungabe usaboniswa leli windi",
+    "content": "Lo msebenzi udinga ukugunyazwa kokusebenza kokusebenza. Uma ufuna ukugunyaza, sicela uchofoze [KULUNGILE]. Uma ufuna ukunikela, sicela uchofoze [Khansela]",
+    "title": "Isicelo sokugunyazwa"
+  },
+  "floatPermission": {
+    "cancel": "Hlikihla",
+    "ok": "-Noma kanjani",
+    "checkBoxText": "Iya ngqo ukuze ugunyaze ngaphakathi kwengxenye ngenyanga futhi ungabe usaboniswa leli windi",
+    "content": "Lo msebenzi udinga ukugunyazwa komsebenzi wewindows ontantayo. Uma ufuna ukugunyaza, sicela uchofoze [KULUNGILE]. Uma ufuna ukunikela, sicela uchofoze [Khansela]",
+    "title": "Isicelo sokugunyazwa"
+  }
+}

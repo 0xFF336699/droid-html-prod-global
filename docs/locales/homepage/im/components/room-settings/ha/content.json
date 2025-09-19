@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Saitunan dakin",
+    "tabs": {
+      "basic": "Saitunan asali",
+      "permission": "Saitunan izini",
+      "privacy": "Saitin Sirri",
+      "member": "Member Gudanar da"
+    },
+    "loadError": "Ba a yi nasarar sa saiti saiti ba",
+    "leaveRoom": {
+      "button": "Fita dakin",
+      "confirm": "Ka tabbata kana son fita daga dakin? Bayan kun fita, ba za ku iya ci gaba da karɓar saƙonni daga wannan ɗakin ba.",
+      "success": "Ya kai dakin cikin nasara",
+      "error": "Ya kasa fita daga dakin, don Allah a sake gwadawa"
+    }
+  }
+}

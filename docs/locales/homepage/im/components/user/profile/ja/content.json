@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "ユーザー情報",
+    "id": {
+      "name": "id",
+      "copy": "コピー",
+      "copied": "IDがコピーされました"
+    },
+    "notLoggedIn": "ログインしていません",
+    "name": "名前",
+    "avatar": "アバター"
+  }
+}

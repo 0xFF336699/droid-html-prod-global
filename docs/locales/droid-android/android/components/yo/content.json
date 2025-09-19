@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Fagilee",
+    "ok": "Daniloju",
+    "checkBoxText": "Lọ taara si fun laṣẹ laarin idaji oṣu kan ati pe ko ṣe afihan window yii mọ",
+    "content": "Iṣẹ yii nilo aṣẹ iṣẹ iṣẹ aṣebiakọ. Ti o ba fẹ gba aṣẹ, jọwọ tẹ [Ok]. Ti o ba fẹ fi silẹ, jọwọ tẹ [fagile]",
+    "title": "Ohun elo Aṣẹ"
+  },
+  "floatPermission": {
+    "cancel": "Fagilee",
+    "ok": "Daniloju",
+    "checkBoxText": "Lọ taara si fun laṣẹ laarin idaji oṣu kan ati pe ko ṣe afihan window yii mọ",
+    "content": "Iṣẹ yii nilo ase ti Floofo window iṣẹ iṣẹ. Ti o ba fẹ gba aṣẹ, jọwọ tẹ [Ok]. Ti o ba fẹ fi silẹ, jọwọ tẹ [fagile]",
+    "title": "Ohun elo Aṣẹ"
+  }
+}

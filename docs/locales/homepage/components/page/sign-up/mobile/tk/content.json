@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "hasaba al",
+    "phoneNumber": "Telefon belgisi",
+    "phoneNumberPlaceholder": "Jübi telefon belgiňizi giriziň",
+    "verificationCode": "Barlag kody",
+    "verificationCodePlaceholder": "Barlag koduny giriziň",
+    "getVerificationCode": "Barlag koduny alyň",
+    "countdown": "{{{sekunt}} gaýtadan synanyşmak üçin sekunt",
+    "register": "hasaba al",
+    "errors": {
+      "phoneRequired": "Jübi telefon belgiňizi giriziň",
+      "phoneInvalid": "Jübi telefon belgisiniň formaty nädogry",
+      "codeRequired": "Barlag koduny giriziň",
+      "codeInvalid": "Barlamak kody formaty nädogry",
+      "requestFailed": "Haýyş şowsuz boldy",
+      "verificationFailed": "Barlamak kody ele almak şowsuz",
+      "loginFailed": "Giriş şowsuz"
+    },
+    "success": {
+      "verificationCodeSent": "Barlag kody iberildi",
+      "registerSuccess": "Üstünlikli hasaba alyndy"
+    }
+  }
+}

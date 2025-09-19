@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Aquest mètode només es pot cridar a Android",
+      "noMethod": "Aquest mètode no existeix"
+    }
+  }
+}

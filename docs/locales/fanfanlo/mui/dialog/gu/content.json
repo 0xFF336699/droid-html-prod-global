@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "રદ કરવું",
+    "confirm": "ચોક્કસ",
+    "title": "સંકેત",
+    "content": "શું તમે ખરેખર આ કરવા માંગો છો?"
+  },
+  "EditableText": {
+    "cancel": "રદ કરવું",
+    "save": "બચત કરવી",
+    "title": "સંપાદન કરવું"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "funcionar",
+    "click": "Hacer clic",
+    "longClick": "Prensa larga",
+    "setText": "Texto establecido",
+    "tryClick": "Pruebe el elemento o la ubicación Haga clic en",
+    "globalClick": "Ubicación Haga clic"
+  }
+}

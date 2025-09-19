@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Ligumbi lesive",
+        "description": "Emagumbi emmango angaseshwa ngulabanye basebentisi ."
+      },
+      "allowGuestJoin": {
+        "label": "Vumela tivakashi kutsi tijoyine .",
+        "description": "Vumela basebentisi labangakabhalisi kutsi bajoyine leligumbi njengesivakashi ."
+      },
+      "isEncrypted": {
+        "label": "Vumela ninika kubhala phansi kuya ekugcineni",
+        "description": "Uma inikwe emandla, imilayeto kuleligumbi itawubhalwa phansi ekugcineni kuya ekugcineni .",
+        "alert": "Kubhala phansi kuya ekugcineni kuniketwe emandla ekamelweni, futsi loku kusetha angeke kucinywe."
+      },
+      "submit": "Gcina tilungiselelo tebumfihlo"
+    },
+    "toast": {
+      "success": "Tilungiselelo tetimfihlo tibuyeketiwe",
+      "error": "Kwehlulekile kuvuselela tilungiselelo tetimfihlo"
+    }
+  }
+}

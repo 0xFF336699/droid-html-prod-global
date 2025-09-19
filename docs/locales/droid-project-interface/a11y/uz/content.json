@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "ishlamoq",
+    "click": "Bosmoq",
+    "longClick": "Uzoq matbuot",
+    "setText": "Matnni o'rnating",
+    "tryClick": "Elementni yoki joylashuvni bosing",
+    "globalClick": "Joylashuvni bosing"
+  }
+}

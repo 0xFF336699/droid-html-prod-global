@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Ƙirƙiri daki"
+    },
+    "dialog": {
+      "title": "Airƙiri sabon daki",
+      "form": {
+        "userId": {
+          "label": "ID na mai amfani",
+          "placeholder": "Shigar da ID na mai amfani (alal misali: @user: misali.com)",
+          "error": {
+            "required": "IDAN mai amfani ba zai iya zama komai ba",
+            "invalid": "Tsarin ID na mai amfani mara amfani"
+          }
+        },
+        "roomName": {
+          "label": "Sunan Room (Zabi)",
+          "placeholder": "Shigar da sunan daki"
+        },
+        "isEncrypted": {
+          "label": "Kunna ENTER-TOPRY ENTRAPLENCCKPPENCCENCKPENCKPENCCENCCENCKPENCKPENCKPENCCENCCKPPENCE"
+        },
+        "isDirect": {
+          "label": "Saƙo kai tsaye"
+        },
+        "topic": {
+          "label": "Jigo (Zabi)",
+          "placeholder": "Shigar da taken daki"
+        }
+      },
+      "actions": {
+        "cancel": "Warware",
+        "create": "halitta"
+      },
+      "success": "Dakin halitta cikin nasara",
+      "error": "Wani kuskure ya faru yayin ƙirƙirar daki: {kuskure}"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "የአካባቢ ስም",
+    "viewMap": "ካርታውን ይመልከቱ",
+    "close": "መዘጋት"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "የአሁኑ አሳሽ የጂዮላይዜሽን ማግኛ አይደግፍም",
+    "getLocationFailed": "ቦታውን ማግኘት አልተሳካም, እባክዎን የፍቃድ ቅንብሮችን ያረጋግጡ",
+    "myLocation": "የእኔ ሥፍራ",
+    "shareLocation": "አካባቢን ያጋሩ",
+    "getCurrentLocation": "የአሁኑን ቦታ ያግኙ",
+    "title": "የአካባቢ ስም",
+    "description": "ዝርዝር መግለጫ",
+    "descriptionPlaceholder": "እባክዎ ዝርዝር መግለጫ ያስገቡ (አማራጭ)",
+    "preview": "የአካባቢ ቅድመ እይታ",
+    "latitude": "ኬክሮስ",
+    "longitude": "ኬንትሮስ",
+    "cancel": "ይቅር",
+    "send": "ላክ",
+    "permissionPrompt": "የተሻሉ አገልግሎቶችን ለማቅረብ የአካባቢዎን መረጃ ማግኘት አለብን, ይፈቀዳል?",
+    "permissionDenied": "የመኖርያ ፈቃድ ተከልክሏል, እባክዎን በአሳሽዎ ቅንብሮችዎ ውስጥ የመኖርን ፈቃድ ያንቁ",
+    "locationTimeout": "የሥራ መደቡ መጠበቂያ ቦታ, መሣሪያው መበራቱን እና እንደገና ለማራመድ መሞከርዎን ያረጋግጡ",
+    "locationUnavailable": "የአሁኑ አካባቢ ማግኘት አይቻልም, እባክዎ የመሣሪያውን ሥፍራ አገልግሎት ያረጋግጡ"
+  }
+}

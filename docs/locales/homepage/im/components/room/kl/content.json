@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Inissaq ilaaffigiuk",
+      "inviteOnly": "Tamanna privatimik inimik ingerlanneqarpoq, ilaasortanngornissamut qaaqqusissutinik pisariaqartitsilluni",
+      "knockRequired": "Inissaq taanna ilaasortanngornissamut qinnuteqaat pisariaqartinneqarpoq. Ataani toortagaq tooruk, join-imik qinnuteqaat nassiunniarlugu",
+      "canJoin": "Tamanna public room-iuvoq, toqqaannartumik ilaasortanngorsinnaavutit",
+      "sendRequest": "Send-imik join-imik piumasaqarneq",
+      "join": "Inissaq ilaaffigiuk"
+    },
+    "JoinRequestList": {
+      "noRequests": "Suli ilaasortanngornissamik piumasaqaateqanngilaq",
+      "accept": "akuersineq",
+      "reject": "itigartippaa"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Allaaserisaq allaguk..."
+  },
+  "MessageList": {
+    "noMessages": "Suli nalunaaruteqartoqanngilaq, oqaloqatigiinnermik aallartitsisussaq siulleq nassiuk!",
+    "loading": "loading...",
+    "error": {
+      "loadFailed": "Oqaaseqaatip ilanngunneqarnissaanut kukkuneq",
+      "retry": "Misilittakkit"
+    },
+    "loadingHistory": "Oqaluttuarisaanerup iluani...",
+    "historyEnd": "Nutaarsiassaq siullerpaaq tikippoq"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Suli nalunaaruteqartoqanngilaq, oqaloqatigiinnermik aallartitsisussaq siulleq nassiuk!"
+  },
+  "RoomContent": {
+    "title": "Ini"
+  },
+  "RoomHeader": {
+    "title": "Ini",
+    "unnamedRoom": "Inissaq aqqinik ateqanngitsoq",
+    "members": "ilaasortaq",
+    "settings": "aaqqissuussineq",
+    "leaveRoom": "Init qimakkit",
+    "joinRoom": "Inissaq ilaaffigiuk"
+  },
+  "RoomMembers": {
+    "title": "Inissaq ilaasortat",
+    "online": "Onlinekkut isersimavoq",
+    "offline": "Offline",
+    "join": "ilaasortanngorneq",
+    "invite": "qaaqqusissut",
+    "leave": "ingerlavoq",
+    "ban": "Innaallagiaqarsimavoq",
+    "noMembers": "Suli ilaasortaanngilaq",
+    "loading": "loading..."
+  }
+}

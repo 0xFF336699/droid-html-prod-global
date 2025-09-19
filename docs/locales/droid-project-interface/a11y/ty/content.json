@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "Tū'ura",
+    "click": "pāpā",
+    "longClick": "Tāuru; Taia'i",
+    "setText": "Tāpapa",
+    "tryClick": "A tamata i te mau hu'ahu'a e aore râ, i te vahi",
+    "globalClick": "Hi'opo'a i te vahi"
+  }
+}

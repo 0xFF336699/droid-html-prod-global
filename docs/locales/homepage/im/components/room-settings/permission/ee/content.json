@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Mɔɖeɖe ƒe ɖoɖo si hiã be woatsɔ aɖo gbedasi aɖe ɖa .",
+        "tooltip": "0 fia be hameviwo katã ate ŋu aɖo gbedasiwo ɖa, eye zi alesi xexlẽmea loloe la, efia be wobia mɔɖeɖe geɖe wu ."
+      },
+      "invite": {
+        "label": "Mɔɖeɖe ƒe ɖoɖo si hiã be woatsɔ akpe hamevi yeyewo .",
+        "tooltip": "Set si ate ŋu akpe hamevi yeyewo va xɔa me ."
+      },
+      "kick": {
+        "label": "Ðe mɔɖeɖe ƒe seƒe si wobia tso asiwò la ɖa .",
+        "tooltip": "Set Amekae Ate Ŋu Aɖe Xɔa Me Tɔwo ɖa ."
+      },
+      "ban": {
+        "label": "Mɔɖeɖe ƒe seƒe si wobia be woatsɔ axe mɔ ɖe hameviwo nu .",
+        "tooltip": "Set Amekae ate ŋu axe mɔ na xɔa me tɔwo ."
+      },
+      "roomSettings": {
+        "label": "Trɔ asi le mɔɖeɖe ƒe seƒe si wobia tso xɔa ƒe ɖoɖowo ŋu .",
+        "tooltip": "Ðo amesi ate ŋu atrɔ asi le xɔa ƒe ɖoɖowo ŋu ."
+      },
+      "submit": "Ðe mɔɖeɖe ƒe ɖoɖowo ɖa ."
+    },
+    "description": "Mɔɖeɖe ƒe ɖoɖo ƒe didime: 0-100, zi alesi xexlẽdzesia loloe la, zi nenemae wobiaa mɔɖeɖe kɔkɔwo .",
+    "toast": {
+      "success": "Wotrɔ asi le mɔɖeɖe ƒe ɖoɖowo ŋu .",
+      "error": "Do kpo mɔɖeɖe ƒe ɖoɖowo ɖɔɖɔɖo ."
+    }
+  }
+}

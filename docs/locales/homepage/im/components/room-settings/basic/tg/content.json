@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Номи ҳуҷра"
+      },
+      "topic": {
+        "label": "Муқаддима"
+      },
+      "avatar": {
+        "alt": "Ҳуҷраҳои Avatar"
+      },
+      "submit": "Танзимотро захира кунед"
+    },
+    "toast": {
+      "success": "Танзимот навсозӣ",
+      "error": {
+        "default": "Танзимоти навсозӣ ноком шуд",
+        "avatar": "Навсозӣ аватар"
+      }
+    }
+  }
+}

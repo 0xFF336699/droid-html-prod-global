@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "위치 이름",
+    "viewMap": "지도를보십시오",
+    "close": "폐쇄"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "현재 브라우저는 지리적 위치 획득을 지원하지 않습니다",
+    "getLocationFailed": "위치를 얻지 못하면 허가 설정을 확인하십시오.",
+    "myLocation": "내 위치",
+    "shareLocation": "위치를 공유하십시오",
+    "getCurrentLocation": "현재 위치를 얻으십시오",
+    "title": "위치 이름",
+    "description": "자세한 설명",
+    "descriptionPlaceholder": "자세한 설명을 입력하십시오 (선택 사항)",
+    "preview": "위치 미리보기",
+    "latitude": "위도",
+    "longitude": "경도",
+    "cancel": "취소",
+    "send": "보내다",
+    "permissionPrompt": "더 나은 서비스를 제공하려면 위치 정보를 얻어야합니다. 허용됩니까?",
+    "permissionDenied": "포지셔닝 허가가 거부되면 브라우저 설정에서 포지셔닝 권한을 활성화하십시오.",
+    "locationTimeout": "위치 시간 초과 포지셔닝, 장치가 켜져 있는지 확인하고 재확인을 시도하십시오.",
+    "locationUnavailable": "현재 위치를 얻을 수 없습니다. 장치 위치 서비스를 확인하십시오."
+  }
+}

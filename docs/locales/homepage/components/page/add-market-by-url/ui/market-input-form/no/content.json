@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL -mønster",
+    "full": {
+      "url": "Markedsadress. De angitte tegnene vil bli lastet som nettadresser, vær forsiktig.",
+      "html": "Marked HTML -innhold. De angitte tegnene vil bli utført umiddelbart som skript, vær forsiktig.",
+      "come": "Kom til min",
+      "myMarketName": "Markedsnavn",
+      "stroll": "La oss ta en tur"
+    },
+    "item": {
+      "url": "Markedskort -URL. De angitte tegnene vil bli lastet som nettadresser, vær forsiktig.",
+      "html": "Marked HTML -innhold. De angitte tegnene vil bli utført umiddelbart som skript, vær forsiktig.",
+      "come": "Kom til min",
+      "myMarketName": "Markedsnavn",
+      "stroll": "La oss ta en tur"
+    }
+  }
+}

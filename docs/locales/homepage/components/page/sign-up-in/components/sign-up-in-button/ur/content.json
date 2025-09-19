@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "لاگ ان/رجسٹر",
+    "signOut": "لاگ آؤٹ",
+    "confirmContent": "کیا آپ واقعی لاگ آؤٹ کرنا چاہتے ہیں؟",
+    "confirmTitle": "اشارہ",
+    "confirm": "یقینا",
+    "cancel": "منسوخ کریں",
+    "signoutOk": "لاگ آؤٹ",
+    "loadingData": "صارف کا ڈیٹا لوڈ ہو رہا ہے"
+  }
+}

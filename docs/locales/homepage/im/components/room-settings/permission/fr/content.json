@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Le niveau d'autorisation requis pour envoyer un message",
+        "tooltip": "0 signifie que tous les membres peuvent envoyer des messages et plus le nombre signifie que des autorisations plus élevées sont nécessaires"
+      },
+      "invite": {
+        "label": "Niveau d'autorisation requis pour inviter de nouveaux membres",
+        "tooltip": "Définir qui peut inviter de nouveaux membres dans la salle"
+      },
+      "kick": {
+        "label": "Lancer le niveau d'autorisation requis",
+        "tooltip": "Définir qui peut lancer les membres de la pièce"
+      },
+      "ban": {
+        "label": "Niveau d'autorisation requis pour bloquer les membres",
+        "tooltip": "Définir qui peut bloquer les membres de la chambre"
+      },
+      "roomSettings": {
+        "label": "Modifier le niveau d'autorisation requis des paramètres de la pièce",
+        "tooltip": "Définir qui peut modifier les paramètres de la pièce"
+      },
+      "submit": "Enregistrer les paramètres d'autorisation"
+    },
+    "description": "Plage de niveau d'autorisation: 0-100, plus le nombre signifie que des autorisations plus élevées sont nécessaires",
+    "toast": {
+      "success": "Les paramètres d'autorisation ont été mis à jour",
+      "error": "Échec de la mise à jour des paramètres d'autorisation"
+    }
+  }
+}

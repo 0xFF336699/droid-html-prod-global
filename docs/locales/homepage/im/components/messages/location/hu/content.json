@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Hely neve",
+    "viewMap": "Tekintse meg a térképet",
+    "close": "bezárás"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "A jelenlegi böngésző nem támogatja a földrajzi helyzet megszerzését",
+    "getLocationFailed": "Nem sikerült megszereznie a helyet, kérjük, ellenőrizze az engedélybeállításokat",
+    "myLocation": "A helyem",
+    "shareLocation": "Ossza meg a helyszínt",
+    "getCurrentLocation": "Szerezd meg az aktuális helyet",
+    "title": "Hely neve",
+    "description": "Részletes leírás",
+    "descriptionPlaceholder": "Kérjük, adjon meg egy részletes leírást (opcionális)",
+    "preview": "Helyszín előnézete",
+    "latitude": "szélesség",
+    "longitude": "hosszúság",
+    "cancel": "Töröl",
+    "send": "elküld",
+    "permissionPrompt": "Meg kell szereznünk az Ön helyadatait, hogy jobb szolgáltatásokat nyújtson, megengedett?",
+    "permissionDenied": "A pozicionálási engedélyt megtagadják, kérjük, engedélyezze a pozicionálási engedélyt a böngésző beállításaiban",
+    "locationTimeout": "A helymeghatározás időkorlátja, ellenőrizze, hogy az eszköz bekapcsol -e, és próbálja meg újra felismerni",
+    "locationUnavailable": "Az aktuális hely nem érhető el, kérjük, ellenőrizze az eszköz helyének szolgáltatását"
+  }
+}

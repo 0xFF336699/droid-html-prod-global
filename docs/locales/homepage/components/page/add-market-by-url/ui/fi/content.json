@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Koska tämä sovellus koskee suurta määrää käyttöoikeuksia matkapuhelimellasi, monet käyttöoikeudet ovat erittäin riskialttiita, joten älä tuota tai suorita niitä tietämättä selvästi markkinoiden tai käsikirjoituksen riskejä. Kun olet kirjoittanut sisältöä alla olevaan \"Market -kortin esittely\" tai \"Market Independent Web -sivu\" -tekstiruutuun, sisältö suoritetaan välittömästi koodina. Ole varovainen.",
+    "setNewMarket": "Perustaa uudet markkinat",
+    "settingPreview": "Asetusten esikatselu",
+    "marketName": "Markkinoidenimi",
+    "marketSummary": "Markkinoiden esittely",
+    "marketDescription": "Markkinoiden esittely",
+    "itemMarket": "Markkinakortin esittely",
+    "fullMarket": "Markkinat riippumaton verkkosivu",
+    "marketCardPreview": "Markkinakortin esikatselu",
+    "marketFullPreview": "Markkinoiden riippumaton verkkosivujen esikatselu",
+    "isNotSet": "Ei asetettu"
+  }
+}

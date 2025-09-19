@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Ofbriechen",
+    "ok": "Sonndesrei",
+    "checkBoxText": "Gitt direkt an d'Autorisatioun an der Halschent vum Mount an net méi dës Fënster ze weisen",
+    "content": "Dës Funktioun erfuerdert Errébelfunktioun Autorisatioun. Wann Dir wëllt autoriséieren, da klickt op [OK]. Wann Dir opginn wëllt, da klickt op [Ofbriechen]",
+    "title": "Autorisatioun Applikatioun"
+  },
+  "floatPermission": {
+    "cancel": "Ofbriechen",
+    "ok": "Sonndesrei",
+    "checkBoxText": "Gitt direkt an d'Autorisatioun an der Halschent vum Mount an net méi dës Fënster ze weisen",
+    "content": "Dës Funktioun erfuerdert Autorisatioun vun der schwiewender Fënster Funktioun. Wann Dir wëllt autoriséieren, da klickt op [OK]. Wann Dir opginn wëllt, da klickt op [Ofbriechen]",
+    "title": "Autorisatioun Applikatioun"
+  }
+}

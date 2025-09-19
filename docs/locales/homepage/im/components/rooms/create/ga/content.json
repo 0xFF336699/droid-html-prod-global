@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Cruthaigh seomra"
+    },
+    "dialog": {
+      "title": "Cruthaigh seomra nua",
+      "form": {
+        "userId": {
+          "label": "Aitheantas Úsáideora",
+          "placeholder": "Iontráil an ID Úsáideora (mar shampla: @User: Sampla.com)",
+          "error": {
+            "required": "Ní féidir Aitheantas Úsáideora a bheith folamh",
+            "invalid": "Formáid neamhbhailí id úsáideora"
+          }
+        },
+        "roomName": {
+          "label": "Ainm an tSeomra (Roghnach)",
+          "placeholder": "Iontráil ainm seomra"
+        },
+        "isEncrypted": {
+          "label": "Cumasaigh criptiú ó cheann go ceann"
+        },
+        "isDirect": {
+          "label": "Teachtaireacht dhíreach"
+        },
+        "topic": {
+          "label": "Téama (roghnach)",
+          "placeholder": "Cuir isteach téama an tseomra"
+        }
+      },
+      "actions": {
+        "cancel": "Cealaigh",
+        "create": "cruthaigh"
+      },
+      "success": "Cruthú seomra go rathúil",
+      "error": "Tharla earráid agus seomra á chruthú: {earráid}"
+    }
+  }
+}

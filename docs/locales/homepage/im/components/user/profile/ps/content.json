@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "د کاروونکي معلومات",
+    "id": {
+      "name": "شناخت",
+      "copy": "کاپي",
+      "copied": "ID کاپي شوی"
+    },
+    "notLoggedIn": "ننوتل",
+    "name": "نوم",
+    "avatar": "اوتار"
+  }
+}

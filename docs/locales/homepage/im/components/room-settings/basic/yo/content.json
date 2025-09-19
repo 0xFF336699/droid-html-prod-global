@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Orukọ yara"
+      },
+      "topic": {
+        "label": "Ifihan yara yara"
+      },
+      "avatar": {
+        "alt": "Yara avatar yara"
+      },
+      "submit": "Fi awọn eto pamọ"
+    },
+    "toast": {
+      "success": "Eto imudojuiwọn",
+      "error": {
+        "default": "Eto imudojuiwọn kuna",
+        "avatar": "Kuna lati mu avatar mu"
+      }
+    }
+  }
+}

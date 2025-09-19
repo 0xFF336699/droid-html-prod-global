@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Ühendamine ...",
+    "connected": "Ühendatud",
+    "disconnecting": "Ühendamine ...",
+    "disconnected": "Pole ühendatud",
+    "waitRetry": "Ootab uuesti ühendamist ..."
+  }
+}

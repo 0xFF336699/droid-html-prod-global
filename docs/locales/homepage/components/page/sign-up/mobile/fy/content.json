@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "register",
+    "phoneNumber": "Telefoannûmer",
+    "phoneNumberPlaceholder": "Fier jo mobile telefoannûmer yn",
+    "verificationCode": "Ferifikaasjekoade",
+    "verificationCodePlaceholder": "Fier de ferifikaasjekoade yn",
+    "getVerificationCode": "Krij de ferifikaasjekoade",
+    "countdown": "{{sekonden}} sekonden om opnij te besykjen",
+    "register": "register",
+    "errors": {
+      "phoneRequired": "Fier jo mobile telefoannûmer yn",
+      "phoneInvalid": "It mobile telefoannûmerformaat is ferkeard",
+      "codeRequired": "Fier de ferifikaasjekoade yn",
+      "codeInvalid": "It ferifikaasjekoade-formaat is ferkeard",
+      "requestFailed": "Fersyk mislearre",
+      "verificationFailed": "Ferifikaasjekoade oankeap mislearre",
+      "loginFailed": "Oanmelde mislearre"
+    },
+    "success": {
+      "verificationCodeSent": "Ferifikaasjekoade is ferstjoerd",
+      "registerSuccess": "Mei súkses registrearre"
+    }
+  }
+}

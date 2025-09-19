@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "የአንዴድ አፈፃፀም",
+    "changeBtnLabel": "ይተኩ",
+    "showNodeAllProperties": "ሁሉንም ንብረቶች አሳይ",
+    "wait": {
+      "time": "የጥበቃ ጊዜ",
+      "interval": "የመጠባበቂያ ጊዜ",
+      "invisible": "ከማያ ገጹ ውጭ ክፍሎችን ለመለየት"
+    }
+  }
+}

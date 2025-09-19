@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "See funktsioon võib teostada reaalse inimese toimingutega sarnaseid toiminguid, sealhulgas, kuid mitte ainult klõpsamisega, rakenduste avamise jms oma telefonis, ning võib avada ka mõned makserakendused. Kuna tegemist on toimingute, maksete jms tegemise riskidega, soovitame tungivalt seda täita ainult siis, kui mõistate skripti sisu täielikult.",
+    "txt2": "Kuidas seda funktsiooni sulgeda: avage selle rakenduse avaleht, saate avalehe seadetes lisafunktsiooni kasutamise lõpetada või klõpsata avalehel nuppu \"Sulgege kõik ülesanded ja väljumise\". See nupp sunnib kõiki täidetavaid ülesandeid sulgema ja sunnib seda rakendust sulgema.",
+    "txt3": "Selle funktsiooni kasutamise põhjuseks on see, et meie rakendusel peab olema võimalus avada muid rakendusi ja neid kontrollida, näiteks Instagrami sirvimisel saab see automaatselt libiseda pärast video mängimist, kontrollida, kas toode on müügis, ja saata veebis sõpradele regulaarselt sõnumeid jne, mis on huvitavad või tööjõudude säästvad toimingud.",
+    "iKnowDanger": "Ma tean riske - minge setti",
+    "title": "Ohtlikud operatsioonid"
+  }
+}

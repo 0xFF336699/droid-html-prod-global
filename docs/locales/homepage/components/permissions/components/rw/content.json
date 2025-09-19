@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Byemewe",
+    "notPass": "Utabifitiye uburenganzira",
+    "danger": "Akaga",
+    "setting": "gushiraho"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Værelsets navn"
+      },
+      "topic": {
+        "label": "Room Introduktion"
+      },
+      "avatar": {
+        "alt": "Room Avatar"
+      },
+      "submit": "Gem indstillinger"
+    },
+    "toast": {
+      "success": "Indstillinger opdateret",
+      "error": {
+        "default": "Opdateringsindstillinger mislykkedes",
+        "avatar": "Kunne ikke opdatere avatar"
+      }
+    }
+  }
+}

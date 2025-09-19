@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Cuir le",
+    "sub": {
+      "addScriptByUrl": "Cuir scripteanna trí URL",
+      "addScriptByText": "Cuir scripteanna trí théacs",
+      "addMarket": "Cuir margadh leis an URL",
+      "addMarketByText": "Cuir an margadh leis an téacs"
+    }
+  }
+}

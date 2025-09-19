@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Stovuinnstillingar",
+    "tabs": {
+      "basic": "Grundleggjandi innstillingar",
+      "permission": "Loyvisinnstillingar",
+      "privacy": "Persónligar innstillingar",
+      "member": "Limaumsiting"
+    },
+    "loadError": "Um innstillingarnar ikki lasta rúm.",
+    "leaveRoom": {
+      "button": "Far úr kamarinum",
+      "confirm": "Ert tú vísur í, at tú vilt fara úr kamarinum? Eftir at tú ert farin úr, sleppur tú ikki at halda fram at fáa boð frá hesum rúminum.",
+      "success": "Farið úr rúminum væleydnað",
+      "error": "Mislettaðist við at fara úr kamarinum, royn endiliga aftur"
+    }
+  }
+}

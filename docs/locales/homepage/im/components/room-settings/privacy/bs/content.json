@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Javna soba",
+        "description": "Javne sobe mogu pretraživati ​​drugi korisnici"
+      },
+      "allowGuestJoin": {
+        "label": "Dopustite posetiocima da se pridruže",
+        "description": "Dopustite neregistriranim korisnicima da se pridruže sobi kao gost"
+      },
+      "isEncrypted": {
+        "label": "Omogućiti enkripciju krajnjeg do kraja",
+        "description": "Kada je omogućeno, poruke u sobi bit će šifrirano krajnji kraj",
+        "alert": "Enkripcija krajnjeg do kraja omogućena je u sobi, a ova postavka se ne može isključiti."
+      },
+      "submit": "Spremite postavke privatnosti"
+    },
+    "toast": {
+      "success": "Postavke privatnosti su ažurirane",
+      "error": "Nije uspjelo ažuriranje postavki privatnosti"
+    }
+  }
+}

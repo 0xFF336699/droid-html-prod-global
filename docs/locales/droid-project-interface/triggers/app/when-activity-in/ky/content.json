@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Көрсөтүлгөн баракка киргенде",
+    "pnLabel": "Пакеттин аты:",
+    "anLabel": "Аты-жөнү:",
+    "cnLabel": "Класстын аты:",
+    "changeBtnLabel": "алмаштыруу"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Көрсөтүлгөн баракка киргенде",
+    "pnLabel": "Пакеттин аты:",
+    "anLabel": "Аты-жөнү:",
+    "cnLabel": "Класстын аты:",
+    "changeBtnLabel": "алмаштыруу"
+  }
+}

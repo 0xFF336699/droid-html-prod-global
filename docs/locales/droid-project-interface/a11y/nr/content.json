@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "i",
+    "click": "#",
+    "longClick": "-",
+    "setText": "Hlolo .",
+    "tryClick": "Ngaqala ukuxazulula kokuxazulula .",
+    "globalClick": "#"
+  }
+}

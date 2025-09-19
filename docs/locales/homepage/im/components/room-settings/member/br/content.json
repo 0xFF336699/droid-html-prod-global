@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Klask an izili"
+    },
+    "table": {
+      "columns": {
+        "name": "Anv ezel",
+        "userId": "ID implijer",
+        "actions": "oberiañ"
+      },
+      "pagination": {
+        "rowsPerPage": "Niver a linennoù dre bajenn"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Kick out",
+        "ban": "Difennet"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Kadarnait an ezel kicking",
+        "content": "Sur oc’h e fell deoc’h lakaat an ezel da vont er-maez eus ar sal ?"
+      },
+      "ban": {
+        "title": "Kadarnait an izili difennet",
+        "content": "Sur oc'h e fell deoc'h difenn an ezel-mañ ? Ne c’hello ket an ezel adkemer er sal goude ar bann."
+      },
+      "buttons": {
+        "cancel": "Nullañ",
+        "confirm": "kadarnaat"
+      }
+    },
+    "toast": {
+      "loadError": "C'hwitet e roll ar roll izili",
+      "kick": {
+        "success": "Lakaet eo bet an izili er-maez eus ar sal .",
+        "error": "C'hwitañ a reas izili ar c'hoari-se ."
+      },
+      "ban": {
+        "success": "Izili stanket",
+        "error": "C'hwitet e voe d'an izili ."
+      }
+    },
+    "invite": {
+      "button": "Pediñ izili",
+      "title": "Pediñ izili da gemer perzh er sal .",
+      "inputLabel": "Lakait ID implijer Matrix (evel @user:matrix.org)",
+      "confirm": "pediñ",
+      "cancel": "Nullañ",
+      "loading": "Pediñ...",
+      "success": "Pediñ kaset!",
+      "error": "Faziet eo bet ar bedadenn, gwiriit ID an implijer pe an aotreoù"
+    },
+    "empty": "Ezel ebet c'hoazh",
+    "loading": "kargañ...",
+    "role": {
+      "owner": "Perc'henn an ti",
+      "admin": "implijad",
+      "moderator": "Kenrenerezh",
+      "user": "ezel"
+    }
+  }
+}

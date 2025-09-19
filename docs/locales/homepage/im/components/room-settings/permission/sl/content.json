@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Raven dovoljenja, potrebna za pošiljanje sporočila",
+        "tooltip": "0 pomeni, da lahko vsi člani pošiljajo sporočila, večja pa pomeni, da so potrebna večja dovoljenja"
+      },
+      "invite": {
+        "label": "Raven dovoljenja, potrebna za povabilo novih članov",
+        "tooltip": "Set, ki lahko povabi nove člane v sobo"
+      },
+      "kick": {
+        "label": "Izdelajte zahtevano raven dovoljenja",
+        "tooltip": "Set, ki lahko izstreli člane sobe"
+      },
+      "ban": {
+        "label": "Raven dovoljenja, potrebna za blokiranje članov",
+        "tooltip": "Nastavite, kdo lahko blokira člane sobe"
+      },
+      "roomSettings": {
+        "label": "Spremenite zahtevano raven dovoljenja nastavitev sob",
+        "tooltip": "Nastavite, kdo lahko spremeni nastavitve sobe"
+      },
+      "submit": "Shrani nastavitve dovoljenja"
+    },
+    "description": "Razpon ravni dovoljenja: 0-100, večje število pomeni, da so potrebna večja dovoljenja",
+    "toast": {
+      "success": "Nastavitve dovoljenja so posodobljene",
+      "error": "Ni uspelo posodobiti nastavitev dovoljenja"
+    }
+  }
+}

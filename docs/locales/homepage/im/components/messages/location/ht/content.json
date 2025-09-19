@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Non kote",
+    "viewMap": "Gade kat la",
+    "close": "fermeti"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Navigatè aktyèl la pa sipòte akizisyon jeolokalizasyon",
+    "getLocationFailed": "Echwe pou pou jwenn kote a, tanpri tcheke anviwònman yo pèmisyon",
+    "myLocation": "Kote mwen",
+    "shareLocation": "Pataje Kote",
+    "getCurrentLocation": "Jwenn kote aktyèl la",
+    "title": "Non kote",
+    "description": "Deskripsyon detaye",
+    "descriptionPlaceholder": "Tanpri antre yon deskripsyon detaye (si ou vle)",
+    "preview": "Kote Preview",
+    "latitude": "latitid",
+    "longitude": "lonjitid",
+    "cancel": "Anile",
+    "send": "voye",
+    "permissionPrompt": "Nou bezwen jwenn enfòmasyon kote ou ye pou bay pi bon sèvis, èske li pèmèt?",
+    "permissionDenied": "Se pèmisyon pozisyon refize, tanpri pèmèt pèmisyon pwezante nan anviwònman navigatè ou a",
+    "locationTimeout": "Pozisyon poz, asire w ke aparèy la vire sou epi eseye reacquire",
+    "locationUnavailable": "Kote aktyèl la pa ka jwenn, tanpri tcheke sèvis la kote aparèy"
+  }
+}

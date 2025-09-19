@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Adaugă la",
+    "sub": {
+      "addScriptByUrl": "Adăugați scripturi prin URL",
+      "addScriptByText": "Adăugați scripturi prin text",
+      "addMarket": "Adăugați piața prin URL",
+      "addMarketByText": "Adăugați piața prin text"
+    }
+  }
+}

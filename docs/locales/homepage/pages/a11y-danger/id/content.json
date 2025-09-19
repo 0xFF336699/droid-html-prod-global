@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Fungsi ini dapat melakukan operasi yang mirip dengan operasi orang nyata termasuk, tetapi tidak terbatas pada klik, membuka aplikasi, dll. Di ponsel Anda, dan juga dapat membuka beberapa aplikasi pembayaran untuk pembayaran. Karena ada risiko yang direkam operasi, melakukan pembayaran, dll., Kami sangat menyarankan agar Anda hanya menjalankannya jika Anda sepenuhnya memahami konten skrip.",
+    "txt2": "Cara Menutup Fungsi Ini: Buka Halaman Beranda dari Aplikasi ini, Anda dapat berhenti menggunakan fungsi tambahan di pengaturan halaman beranda, atau Anda dapat mengklik tombol \"Tutup semua tugas dan keluar\" di halaman beranda. Tombol ini memaksa penutupan semua tugas yang dieksekusi dan memaksa menutup aplikasi ini.",
+    "txt3": "Alasan kami menggunakan fungsi ini adalah bahwa aplikasi kami perlu memiliki kemampuan untuk membuka aplikasi lain dan mengendalikannya, seperti ketika menjelajahi Instagram, itu dapat secara otomatis meluncur ke atas setelah video diputar, periksa apakah suatu produk dijual, dan mengirim pesan ke teman online secara teratur, dll., Yang menarik atau operasi penghematan tenaga kerja.",
+    "iKnowDanger": "Saya tahu risikonya - pergi ke set",
+    "title": "Operasi Berbahaya"
+  }
+}

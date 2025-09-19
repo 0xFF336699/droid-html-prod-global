@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Haquu",
+    "ok": "Sirrii",
+    "checkBoxText": "Walakkaa ji'aa keessatti kallattiin hayyamamuutti deemii kana booda foddaa kana hin agarsiifnu .",
+    "content": "Faankishiniin kun hayyama faankishinii gargaaraa barbaada. Yoo hayyamuu barbaaddan [OK] cuqaasaa. Yoo harka kennachuu barbaaddan [Cancel] cuqaasaa.",
+    "title": "Iyyannoo hayyamaa ."
+  },
+  "floatPermission": {
+    "cancel": "Haquu",
+    "ok": "Sirrii",
+    "checkBoxText": "Walakkaa ji'aa keessatti kallattiin hayyamamuutti deemii kana booda foddaa kana hin agarsiifnu .",
+    "content": "Faankishiniin kun faankishinii foddaa lola'aa hayyama barbaada. Yoo hayyamuu barbaaddan [OK] cuqaasaa. Yoo harka kennachuu barbaaddan [Cancel] cuqaasaa.",
+    "title": "Iyyannoo hayyamaa ."
+  }
+}

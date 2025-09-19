@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "ਜਦੋਂ ਨਿਰਧਾਰਤ ਪੰਨੇ ਦਾਖਲ ਹੁੰਦਾ ਹੈ",
+    "pnLabel": "ਪੈਕੇਜ ਦਾ ਨਾਮ:",
+    "anLabel": "ਗਤੀਵਿਧੀ ਦਾ ਨਾਮ:",
+    "cnLabel": "ਕਲਾਸ ਦਾ ਨਾਮ:",
+    "changeBtnLabel": "ਬਦਲੋ"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "ਜਦੋਂ ਨਿਰਧਾਰਤ ਪੰਨੇ ਦਾਖਲ ਹੁੰਦਾ ਹੈ",
+    "pnLabel": "ਪੈਕੇਜ ਦਾ ਨਾਮ:",
+    "anLabel": "ਗਤੀਵਿਧੀ ਦਾ ਨਾਮ:",
+    "cnLabel": "ਕਲਾਸ ਦਾ ਨਾਮ:",
+    "changeBtnLabel": "ਬਦਲੋ"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Informații despre utilizator",
+    "id": {
+      "name": "Id",
+      "copy": "copie",
+      "copied": "ID a fost copiat"
+    },
+    "notLoggedIn": "Nu este conectat",
+    "name": "nume",
+    "avatar": "Avatar"
+  }
+}

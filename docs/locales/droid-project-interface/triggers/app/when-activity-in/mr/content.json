@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "निर्दिष्ट पृष्ठ प्रविष्ट करताना",
+    "pnLabel": "पॅकेज नाव:",
+    "anLabel": "क्रियाकलाप नाव:",
+    "cnLabel": "वर्ग नाव:",
+    "changeBtnLabel": "पुनर्स्थित करा"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "निर्दिष्ट पृष्ठ प्रविष्ट करताना",
+    "pnLabel": "पॅकेज नाव:",
+    "anLabel": "क्रियाकलाप नाव:",
+    "cnLabel": "वर्ग नाव:",
+    "changeBtnLabel": "पुनर्स्थित करा"
+  }
+}

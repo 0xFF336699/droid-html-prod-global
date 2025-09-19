@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <title>辅助功能界面查看</title>
+  <script type="module" crossorigin src="/assets/accessibility-nodes-panel-CA6k90XR.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/_commonjsHelpers-B-UnjaXt.js">
+  <link rel="modulepreload" crossorigin href="/assets/AutoWebViewJs-Dd6EJXHO.js">
+  <link rel="modulepreload" crossorigin href="/assets/androidDispatchers-BsATMfwW.js">
+  <link rel="stylesheet" crossorigin href="/assets/accessibility-nodes-panel-DdWsKCLz.css">
+</head>
+<body style="margin:0px;padding:0px;width:100%;">
+<div id="root" class="webviewMeatureContainer"
+     style="width:100%;padding:0px;maggin:0px;margin-bottom:0px;position:fixed;top:0px">
+    <div id="layout" style="margin-bottom:0px;padding: 0px"></div>
+</div>
+
+<dialog id="nodeInfoDialog" style="width: 90%;height:70vh">
+    <div class="box">
+        <div >
+          <span>
+              <span class="tooltip">
+                <span id="howToUse">使用说明</span>
+                <span id="howToUseTooltip" class="tooltiptext">
+              <span>下面是该节点的一些标记属性，可以用来选择进行操作，如点击、填入文字等。<br></span>
+              <span>
+                  属性值在app页面中可能会有重复的，如遇到重复的请叠加其它属性选择来进行确定唯一性。
+                  红色的字表示该属性值有重复，绿色字表示该属性值在当前页面检索中是唯一的，黑色字表示没做重复对比。
+              </span>
+          </span></span>
+
+          </span>
+            <span>
+<!--              <button id="nodeInfoDialogCloseButton" value="cancel" formmethod="dialog">放弃</button>-->
+              <button id="nodeInfoDialogOkButton" value="default">编辑操作该节点</button>
+          </span>
+            <span>
+                <details>
+                  <summary id="otherNodesSummary">该位置其它节点</summary>
+                  <p id="moreNodes">这里是被展开的内容。</p>
+                </details>
+            </span>
+<!--            <span>-->
+<!--                <details>-->
+<!--                    <summary>操作</summary>-->
+<!--                    <div style="padding-left: 1rem;">-->
+<!--                        <div id="execClickNodeBtn">点击</div>-->
+<!--                        <div data-clipboard-text="abcde" id="clipboarddiv">设置文本</div>-->
+<!--                        <div>复制它的文本</div>-->
+<!--                    </div>-->
+<!--                </details>-->
+<!--            </span>-->
+        </div>
+<!--        <div><textarea cols="20" rows="20"></textarea></div>-->
+        <form class="auto-fill">
+            <div id="propertiesContainer">
+
+            </div>
+            <div>
+                <div>
+                    <span>pn:</span>
+                    <span id="pn"></span>
+                </div>
+                <div>
+                    <span>an:</span>
+                    <span id="an"></span>
+                </div>
+                <div>
+                    <span>cn:</span>
+                    <span id="cn"></span>
+                </div>
+            </div>
+        </form>
+        <div id="nodeInfoDialogCloseButton" class="dialogCloseButton"></div>
+        <!--        <div class="auto-fill" style2="width: 100%;height: 93%;overflow-y: auto">-->
+        <!--            -->
+        <!--        </div>-->
+    </div>
+</dialog>
+  <script src="https://unpkg.com/iframe-resizer/js/iframeResizer.contentWindow.min.js"></script>
+</body>
+</html>
+<!--// src/htmls/single-template/index.html-->

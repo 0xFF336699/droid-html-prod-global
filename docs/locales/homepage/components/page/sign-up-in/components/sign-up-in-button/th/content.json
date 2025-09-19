@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "เข้าสู่ระบบ/ลงทะเบียน",
+    "signOut": "ออกจากระบบ",
+    "confirmContent": "แน่ใจหรือว่าต้องการออกจากระบบ?",
+    "confirmTitle": "คำใบ้",
+    "confirm": "แน่นอน",
+    "cancel": "ยกเลิก",
+    "signoutOk": "ออกจากระบบ",
+    "loadingData": "กำลังโหลดข้อมูลผู้ใช้"
+  }
+}

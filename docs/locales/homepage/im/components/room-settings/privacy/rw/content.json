@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Icyumba cya Leta",
+        "description": "Ibyumba rusange birashobora gushakishwa nabandi bakoresha"
+      },
+      "allowGuestJoin": {
+        "label": "Emerera abashyitsi kwinjira",
+        "description": "Emerera abakoresha bitanditswe kwinjira mucyumba nkumushyitsi"
+      },
+      "isEncrypted": {
+        "label": "Gushoboza encryption-irangira",
+        "description": "Iyo bishoboka, ubutumwa mucyumba buzabikwa burundu-kugeza-impera",
+        "alert": "Excryption-irangira-irangizwa mucyumba, kandi iyi miterere ntishobora kuzimwa."
+      },
+      "submit": "Bika Igenamiterere"
+    },
+    "toast": {
+      "success": "Igenamiterere ryibanga ryavuguruwe",
+      "error": "Kunanirwa kuvugurura igenamiterere ryibanga"
+    }
+  }
+}

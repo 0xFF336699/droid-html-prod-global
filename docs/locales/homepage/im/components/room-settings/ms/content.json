@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Tetapan bilik",
+    "tabs": {
+      "basic": "Tetapan asas",
+      "permission": "Tetapan kebenaran",
+      "privacy": "Tetapan Privasi",
+      "member": "Pengurusan Ahli"
+    },
+    "loadError": "Gagal memuatkan tetapan bilik",
+    "leaveRoom": {
+      "button": "Keluar dari bilik",
+      "confirm": "Adakah anda pasti mahu keluar dari bilik? Selepas anda keluar, anda tidak akan dapat terus menerima mesej dari bilik ini.",
+      "success": "Keluar dari bilik dengan jayanya",
+      "error": "Gagal keluar dari bilik, sila cuba lagi"
+    }
+  }
+}

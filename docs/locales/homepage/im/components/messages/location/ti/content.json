@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "ናይ ቦታ ስም",
+    "viewMap": "ካርታ ርአ",
+    "close": "ምዕጻው"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "እቲ ናይ ሕጂ መርበብ ሓበሬታ ንጂኦሎኬሽን ምጥራይ ኣይድግፍን እዩ ።",
+    "getLocationFailed": "ነቲ ቦታ ምርካብ ኣይከኣልኩን፣ በጃኹም ኣብቲ ናይ ፍቓድ ቅጥዕታት መርምሩ",
+    "myLocation": "ናተይ ቦታ",
+    "shareLocation": "Share Location",
+    "getCurrentLocation": "ናይ ሕጂ ቦታ ርኸብ",
+    "title": "ናይ ቦታ ስም",
+    "description": "ዝርዝር መግለጺ",
+    "descriptionPlaceholder": "ዝርዝር መግለጺ ኣእትዉ (ኣማራጺ)",
+    "preview": "ቅድመ ምርኢት ቦታ",
+    "latitude": "ላቲቱድ",
+    "longitude": "ሎንጊቱድ",
+    "cancel": "ሰርዝ",
+    "send": "ስደድ",
+    "permissionPrompt": "ዝሓሸ ኣገልግሎት ንምሃብ ናይ ቦታኻ ሓበሬታ ክንረክብ ኣለና፣ ይፍቀድ ድዩ?",
+    "permissionDenied": "ፍቓድ ኣቀማምጣ ይኽልከል፣ በጃኻ ኣብ ቅጥዕታት መርበብ ሓበሬታኻ ፍቓድ ኣቀማምጣ ኣንቅሕ",
+    "locationTimeout": "ናይ ግዜ ምውዳእ፡ እቲ መሳርሒ ከም ዝበርህ ኣረጋግጽ እሞ ዳግማይ ክትረኽቦ ፈትን።",
+    "locationUnavailable": "እቲ ሕጂ ዘሎ ቦታ ክረክብ ኣይክእልን እዩ፣ በጃኹም ኣገልግሎት ቦታ መሳርሒ መርምሩ"
+  }
+}

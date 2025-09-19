@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "Magrehistro",
+    "phoneNumber": "Numero ng telepono",
+    "phoneNumberPlaceholder": "Mangyaring ipasok ang iyong numero ng mobile phone",
+    "verificationCode": "Verification Code",
+    "verificationCodePlaceholder": "Mangyaring ipasok ang verification code",
+    "getVerificationCode": "Kunin ang Verification Code",
+    "countdown": "{{segundo}} segundo upang subukang muli",
+    "register": "Magrehistro",
+    "errors": {
+      "phoneRequired": "Mangyaring ipasok ang iyong numero ng mobile phone",
+      "phoneInvalid": "Ang format ng numero ng mobile phone ay hindi tama",
+      "codeRequired": "Mangyaring ipasok ang verification code",
+      "codeInvalid": "Ang format ng verification code ay hindi tama",
+      "requestFailed": "Nabigo ang kahilingan",
+      "verificationFailed": "Nabigo ang pagkuha ng code ng verification",
+      "loginFailed": "Nabigo ang pag -login"
+    },
+    "success": {
+      "verificationCodeSent": "Ipinadala ang Verification Code",
+      "registerSuccess": "Matagumpay na nakarehistro"
+    }
+  }
+}

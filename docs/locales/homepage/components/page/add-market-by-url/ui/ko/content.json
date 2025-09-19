@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "이 응용 프로그램은 휴대폰에 대한 많은 권한에 적용되므로 많은 권한이 매우 위험하므로 시장이나 스크립트의 위험을 명확하게 모르고 가져 오거나 실행하지 마십시오. 아래의 \"시장 카드 소개\"또는 \"Market Independent Web Page\"텍스트 상자에 컨텐츠를 입력하면 콘텐츠가 즉시 코드로 실행됩니다. 조심하세요.",
+    "setNewMarket": "새로운 시장을 설정하십시오",
+    "settingPreview": "설정 미리보기",
+    "marketName": "시장 이름",
+    "marketSummary": "시장 소개",
+    "marketDescription": "시장 소개",
+    "itemMarket": "시장 카드 소개",
+    "fullMarket": "시장 독립적 인 웹 페이지",
+    "marketCardPreview": "시장 카드 미리보기",
+    "marketFullPreview": "시장 독립적 인 웹 페이지 미리보기",
+    "isNotSet": "설정되지 않았습니다"
+  }
+}

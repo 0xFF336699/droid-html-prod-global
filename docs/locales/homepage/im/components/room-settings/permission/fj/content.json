@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Na veivakadonui e gadrevi kina me vakau e dua na itukutuku .",
+        "tooltip": "0 e kena ibalebale ni ra rawa ni vakauta na itukutuku kece na lewenilotu, ka levu cake na iwiliwili e kena ibalebale ni sa gadrevi na veivakadonui e cecere cake ."
+      },
+      "invite": {
+        "label": "Na ivakatagedegede ni kaulotu e gadrevi me sureti ira na lewenilotu vou .",
+        "tooltip": "O ira era rawa ni sureti ira na lewenilotu vou ki na rumu ."
+      },
+      "kick": {
+        "label": "Mo rawata na ivakatagedegede ni veivakadonui .",
+        "tooltip": "Isini e rawa ni ra taura mai na lewe ni rumu na lewe ni rumu ."
+      },
+      "ban": {
+        "label": "Vakayacori na ivakatagedegede ni kaulotu e gadrevi me baleti ira na lewe ni blocking .",
+        "tooltip": "Na Sema e rawa ni o bub-bso na rumu ni buloko ."
+      },
+      "roomSettings": {
+        "label": "Modi vakadeitaka na ivakatagedegede ni veivakadonui e gadrevi ni ituvatuva ni rumu .",
+        "tooltip": "Vakasema e rawa ni moica na ituvatuva ni rumu ."
+      },
+      "submit": "Sa solia na veivakadonui ."
+    },
+    "description": "Na ivakatagedegede ni kaulotu: 0-100, na levu cake na iwiliwili e kena ibalebale na veivakadonui e cecere cake na veivakadonui e gadrevi .",
+    "toast": {
+      "success": "Na ituvatuva ni kaulotu sa mai vakavoui .",
+      "error": "Tuvanaka ki na ituvatuva ni veivakadonui ni veivakadonui ."
+    }
+  }
+}

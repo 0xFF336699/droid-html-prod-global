@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Maemo a tetlelelo a a tlhokegang go romela molaetsa",
+        "tooltip": "0 e raya gore maloko otlhe a ka romela melaetsa, mme fa palo e le kgolo e raya gore go tlhokega ditetlelelo tse di kwa godimo ."
+      },
+      "invite": {
+        "label": "Selekanyo sa tetlelelo se se tlhokegang go laletsa maloko a mašwa",
+        "tooltip": "Tlhoma gore ke mang yo o ka laletsang maloko a masha kwa phaposing"
+      },
+      "kick": {
+        "label": "Raga maemo a tetlelelo a a tlhokegang",
+        "tooltip": "Tlhoma gore ke mang yo o ka lelekang maloko a kamore"
+      },
+      "ban": {
+        "label": "Selekanyo sa tetlelelo se se tlhokegang go thibela maloko",
+        "tooltip": "Tlhoma gore ke mang yo o ka thibelang maloko a kamore"
+      },
+      "roomSettings": {
+        "label": "Fetola maemo a tetlelelo a a tlhokegang a diseting tsa phaposi",
+        "tooltip": "Seta gore ke mang yo o ka fetolang diseting tsa phaposi"
+      },
+      "submit": "Boloka diseting tsa tetlelelo"
+    },
+    "description": "Selekanyo sa selekanyo sa tetla: 0-100, ke fa palo e le kgolo go tlhokega ditetlelelo tse di kwa godimo",
+    "toast": {
+      "success": "Diseting tsa tetlelelo di tlhabolotswe",
+      "error": "Go palelwa ke go tlhabolola diseting tsa tetlelelo"
+    }
+  }
+}

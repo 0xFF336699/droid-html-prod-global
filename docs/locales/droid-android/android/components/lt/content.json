@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Atšaukti",
+    "ok": "Žinoma",
+    "checkBoxText": "Eikite tiesiai į leidimą per pusę mėnesio ir neberodykite šio lango",
+    "content": "Ši funkcija reikalauja pagalbinės funkcijos leidimo. Jei norite įgalioti, spustelėkite [Gerai]. Jei norite atsisakyti, spustelėkite [Atšaukti]",
+    "title": "Autorizacijos paraiška"
+  },
+  "floatPermission": {
+    "cancel": "Atšaukti",
+    "ok": "Žinoma",
+    "checkBoxText": "Eikite tiesiai į leidimą per pusę mėnesio ir neberodykite šio lango",
+    "content": "Ši funkcija reikalauja leidimo gauti plūduriuojančio lango funkciją. Jei norite įgalioti, spustelėkite [Gerai]. Jei norite atsisakyti, spustelėkite [Atšaukti]",
+    "title": "Autorizacijos paraiška"
+  }
+}

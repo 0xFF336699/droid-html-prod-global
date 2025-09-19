@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Miembronkuna maskay ."
+    },
+    "table": {
+      "columns": {
+        "name": "Miembropa sutin .",
+        "userId": "ID de usuario .",
+        "actions": "Operar ."
+      },
+      "pagination": {
+        "rowsPerPage": "Yupay filakuna sapa p'anqapi ."
+      },
+      "avatar": {
+        "alt": "Avatar ."
+      },
+      "actions": {
+        "kick": "Saqiy .",
+        "ban": "hark'asqa ."
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Tutamanta kaq runata takyachiy .",
+        "content": "¿Segurochu kanki chay miembrota chay cuartomanta qarqoyta munasqaykita?"
+      },
+      "ban": {
+        "title": "hark'asqa miembron kayta takyachiy .",
+        "content": "¿Segurochu kanki kay miembrota prohibiyta munanki? Chay miembroqa manan hark’akusqan qhepaman cuartoman kutiyta atinqachu."
+      },
+      "buttons": {
+        "cancel": "Sayachiy",
+        "confirm": "yuyachiy"
+      }
+    },
+    "toast": {
+      "loadError": "Mana atirqanchu miembrukunap listanta kargayta .",
+      "kick": {
+        "success": "Miembros nisqakunan qarqosqa kanku chay cuartomanta .",
+        "error": "Miembronkunata qarquspa mana atirqanchu ."
+      },
+      "ban": {
+        "success": "Miembros bloqueados .",
+        "error": "Mana atirqanchu miembrukuna hark'ayta ."
+      }
+    },
+    "invite": {
+      "button": "Invita a miembros .",
+      "title": "Invita a los miembros a unirse a la habitación .",
+      "inputLabel": "Ama hina kaspa, ID de usuario de matriz nisqa qillqay (kayhina @user:matrix.org)",
+      "confirm": "minkay",
+      "cancel": "Sayachiy",
+      "loading": "Invitando...",
+      "success": "Invitación enviado!",
+      "error": "Invitacionqa mana atisqachu, ama hina kaspa ID de usuario utaq permisokuna qhaway ."
+    },
+    "empty": "Manaraqmi miembrupas .",
+    "loading": "Cargando...",
+    "role": {
+      "owner": "Wasiyuq .",
+      "admin": "Kamachiq .",
+      "moderator": "Kuska kamachiy .",
+      "user": "Miembro ."
+    }
+  }
+}

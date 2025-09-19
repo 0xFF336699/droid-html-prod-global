@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Crea una stanza"
+    },
+    "dialog": {
+      "title": "Crea una nuova stanza",
+      "form": {
+        "userId": {
+          "label": "ID utente",
+          "placeholder": "Immettere l'ID utente (ad esempio: @USER: Esempio.com)",
+          "error": {
+            "required": "L'ID utente non può essere vuoto",
+            "invalid": "Formato ID utente non valido"
+          }
+        },
+        "roomName": {
+          "label": "Nome stanza (opzionale)",
+          "placeholder": "Inserisci un nome di una stanza"
+        },
+        "isEncrypted": {
+          "label": "Abilita la crittografia end-to-end"
+        },
+        "isDirect": {
+          "label": "Messaggio diretto"
+        },
+        "topic": {
+          "label": "Tema (opzionale)",
+          "placeholder": "Entra nel tema della stanza"
+        }
+      },
+      "actions": {
+        "cancel": "Cancellare",
+        "create": "creare"
+      },
+      "success": "Creazione della stanza con successo",
+      "error": "Si è verificato un errore durante la creazione di una stanza: {errore}"
+    }
+  }
+}

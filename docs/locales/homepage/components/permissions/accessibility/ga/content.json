@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Feidhmeanna cúnta",
+    "pass": "Údaraithe",
+    "notPass": "Neamhúdaraithe",
+    "setting": "Bunaithe",
+    "danger": "Baol",
+    "dangerDesc": "Is féidir leis an údarú seo ábhar a fheiceáil ar an scáileán agus cliceáil ar do ghuthán. Díchumasaigh an cead seo mura dtuigeann tú go sainráite feidhmiúlacht agus rioscaí an script atá á reáchtáil agat nó a bheidh ag rith."
+  }
+}

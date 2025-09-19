@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Zikhazikiko za chipinda",
+    "tabs": {
+      "basic": "Zikhazikiko Zoyambira",
+      "permission": "Zosintha Zololeza",
+      "privacy": "Makonda achinsinsi",
+      "member": "Kuwongolera mamembala"
+    },
+    "loadError": "Talephera kuyika zikhazikiko",
+    "leaveRoom": {
+      "button": "Tulukani m'chipindacho",
+      "confirm": "Mukutsimikiza kuti mukufuna kutuluka m'chipindacho? Mukatuluka, simudzapitiliza kulandira mauthenga kuchokera kuchipinda chino.",
+      "success": "Anathawira kuchipinda bwino",
+      "error": "Talephera kutuluka m'chipindacho, chonde yesaninso"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "androidPermission": {
+    "denied": "de Kapp refuséieren",
+    "granted": "Autoriséiert",
+    "shouldAskAgain": "Net autoriséiert"
+  }
+}

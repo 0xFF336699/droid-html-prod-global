@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Icumba ca bose",
+        "description": "Ivyumba vya bose birashobora gushakishwa n’abandi bakoresha ."
+      },
+      "allowGuestJoin": {
+        "label": "Reka abashitsi binjire",
+        "description": "Reka abakoresha batandikishijwe kwinjira mu cumba nk'umushyitsi"
+      },
+      "isEncrypted": {
+        "label": "Gushoboza kw'iherezo kugeza ku mpera",
+        "description": "Iyo bishobotse, ubutumwa bwo mu cumba buzoba bushizweko iherezo ry’iherezo .",
+        "alert": "Iherezo ry’iherezo ry’ibanga rirakoreshwa mu cumba, kandi iki kibanza ntigishobora kuzimwa."
+      },
+      "submit": "Bika amategeko y'ubuzima bwite"
+    },
+    "toast": {
+      "success": "Ivyigwa vy'ibanga vyavuguruwe",
+      "error": "Kunanirwa guhindura amategeko y'ubuzima bwite"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Salle publique .",
+        "description": "Bashambre ya leta ekoki kolukama na basaleli mosusu ."
+      },
+      "allowGuestJoin": {
+        "label": "Tika ete bapaya bákɔta .",
+        "description": "Tika basaleli oyo bakomi te bákɔta na shambre lokola mopaya ."
+      },
+      "isEncrypted": {
+        "label": "Activer encryption ya suka na suka .",
+        "description": "Ntango efungolami, bansango oyo ezali na kati ya shambre ekozala encrypté na nsuka na nsuka .",
+        "alert": "Encryption ya suka na suka ezali activé na chambre, mpe paramètre oyo ekoki ko boma te."
+      },
+      "submit": "Bomba makambo oyo etali kobatela makambo ya moto ye moko ."
+    },
+    "toast": {
+      "success": "Ba paramètres ya confidentialité esalemi mise à jour .",
+      "error": "Elongaki te kosala ete ba paramètres ya makambo ya moto ezala ya sika ."
+    }
+  }
+}

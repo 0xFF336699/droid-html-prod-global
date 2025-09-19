@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "اضافه کردن به بازار",
+    "url": "نشانی اینترنتی",
+    "summary": "خلاصه بازار",
+    "urlIsNotValid": "URL نادرست بازار"
+  }
+}

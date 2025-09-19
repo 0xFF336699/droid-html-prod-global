@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Opheffe",
+    "ok": "Wis",
+    "checkBoxText": "Gean direkt om binnen in heal moanne te autorisearjen en dit finster net mear te werjaan",
+    "content": "Dizze funksje fereasket AUXILIARY-funksje Autorisaasje. As jo ​​wolle autorisearje, klik dan op [OK]. As jo ​​wolle opjaan, klik dan op [Ofbrekke]",
+    "title": "Autorisaasje-applikaasje"
+  },
+  "floatPermission": {
+    "cancel": "Opheffe",
+    "ok": "Wis",
+    "checkBoxText": "Gean direkt om binnen in heal moanne te autorisearjen en dit finster net mear te werjaan",
+    "content": "Dizze funksje fereasket autorisaasje fan 'e driuwende finsterfunksje. As jo ​​wolle autorisearje, klik dan op [OK]. As jo ​​wolle opjaan, klik dan op [Ofbrekke]",
+    "title": "Autorisaasje-applikaasje"
+  }
+}

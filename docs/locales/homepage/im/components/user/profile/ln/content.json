@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Basango ya mosaleli .",
+    "id": {
+      "name": "ID .",
+      "copy": "Kopi ya .",
+      "copied": "ID esili kosala kopi ."
+    },
+    "notLoggedIn": "Kokɔta na kati te .",
+    "name": "nkombo",
+    "avatar": "Avatar ."
+  }
+}

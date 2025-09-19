@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Aplikazio hau zure telefono mugikorrean baimen ugari aplikatuz gero, baimen asko oso arriskutsuak dira, beraz ez inportatu edo gauzatu, merkatuaren edo gidoien arriskuak garbi jakin gabe. Beheko \"Merkatu Txartela Sarrera\" edo \"Merkatuko web orrialde independentea\" testu-koadroan sartu ondoren, edukia berehala exekutatuko da kode gisa. Kontuz ibili mesedez.",
+    "setNewMarket": "Ezarri merkatu berria",
+    "settingPreview": "Ezarpenak Aurrebista",
+    "marketName": "Merkatuaren izena",
+    "marketSummary": "Merkatuaren sarrera",
+    "marketDescription": "Merkatuaren sarrera",
+    "itemMarket": "Merkatu Txartela Sarrera",
+    "fullMarket": "Merkatuko web orrialde independentea",
+    "marketCardPreview": "Merkatu txartelaren aurrebista",
+    "marketFullPreview": "Merkatuko web orriaren aurrebista independentea",
+    "isNotSet": "Ez ezarri"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "Notaðu",
+    "click": "Smelltu",
+    "longClick": "Lang ýta á",
+    "setText": "Settu texta",
+    "tryClick": "Prófaðu Element eða Location Smelltu",
+    "globalClick": "Staðsetning smell"
+  }
+}

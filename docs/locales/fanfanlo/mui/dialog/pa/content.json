@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "ਰੱਦ ਕਰੋ",
+    "confirm": "ਯਕੀਨਨ",
+    "title": "ਇਸ਼ਾਰਾ",
+    "content": "ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ ਇਹ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+  },
+  "EditableText": {
+    "cancel": "ਰੱਦ ਕਰੋ",
+    "save": "ਸੇਵ",
+    "title": "ਸੋਧ"
+  }
+}

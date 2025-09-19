@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Valtuutettu",
+    "notPass": "Luvaton",
+    "danger": "Vaara",
+    "setting": "asentaa"
+  }
+}

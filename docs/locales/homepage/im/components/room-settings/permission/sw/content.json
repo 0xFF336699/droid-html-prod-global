@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Kiwango cha ruhusa kinachohitajika kutuma ujumbe",
+        "tooltip": "0 inamaanisha kuwa washiriki wote wanaweza kutuma ujumbe, na idadi kubwa inamaanisha kuwa ruhusa za juu zinahitajika"
+      },
+      "invite": {
+        "label": "Kiwango cha ruhusa kinachohitajika kukaribisha wanachama wapya",
+        "tooltip": "Weka ambao wanaweza kuwaalika washiriki wapya kwenye chumba"
+      },
+      "kick": {
+        "label": "Piga kiwango cha ruhusa kinachohitajika",
+        "tooltip": "Weka ni nani anayeweza kupiga nje washiriki wa chumba"
+      },
+      "ban": {
+        "label": "Kiwango cha ruhusa kinachohitajika kwa wanachama wa kuzuia",
+        "tooltip": "Weka ni nani anayeweza kuzuia washiriki wa chumba"
+      },
+      "roomSettings": {
+        "label": "Rekebisha kiwango cha ruhusa kinachohitajika cha mipangilio ya chumba",
+        "tooltip": "Weka ni nani anayeweza kurekebisha mipangilio ya chumba"
+      },
+      "submit": "Hifadhi mipangilio ya ruhusa"
+    },
+    "description": "Kiwango cha idhini ya kiwango: 0-100, kubwa nambari inamaanisha ruhusa za juu zinahitajika",
+    "toast": {
+      "success": "Mipangilio ya ruhusa imesasishwa",
+      "error": "Imeshindwa kusasisha mipangilio ya ruhusa"
+    }
+  }
+}

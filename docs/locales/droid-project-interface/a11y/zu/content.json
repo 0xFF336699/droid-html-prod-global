@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "hlinza",
+    "click": "Chofoza",
+    "longClick": "Umshini omude",
+    "setText": "Setha umbhalo",
+    "tryClick": "Zama into noma indawo chofoza",
+    "globalClick": "Indawo chofoza"
+  }
+}

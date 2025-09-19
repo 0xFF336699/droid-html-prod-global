@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Romnavn"
+      },
+      "topic": {
+        "label": "Rom introduksjon"
+      },
+      "avatar": {
+        "alt": "Romavatar"
+      },
+      "submit": "Lagre innstillinger"
+    },
+    "toast": {
+      "success": "Innstillinger oppdatert",
+      "error": {
+        "default": "Oppdateringsinnstillinger mislyktes",
+        "avatar": "Kunne ikke oppdatere Avatar"
+      }
+    }
+  }
+}

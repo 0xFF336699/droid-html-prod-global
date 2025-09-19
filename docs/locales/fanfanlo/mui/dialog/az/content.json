@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Ləğv etmək",
+    "confirm": "Əlimdən gəlmək",
+    "title": "işarə",
+    "content": "Bunu etmək istədiyinizə əminsiniz?"
+  },
+  "EditableText": {
+    "cancel": "Ləğv etmək",
+    "save": "qurtarmaq",
+    "title": "redaktə etmək"
+  }
+}

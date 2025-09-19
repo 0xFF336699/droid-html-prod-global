@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Informācija par lietotājiem",
+    "id": {
+      "name": "Personas apliecība",
+      "copy": "kopija",
+      "copied": "Id ir kopēts"
+    },
+    "notLoggedIn": "Nav pieteicies",
+    "name": "nosaukt",
+    "avatar": "iemiesojums"
+  }
+}

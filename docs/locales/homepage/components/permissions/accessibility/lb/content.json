@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Auxiliary Funktiounen",
+    "pass": "Autoriséiert",
+    "notPass": "Net autoriséiert",
+    "setting": "ageriicht",
+    "danger": "Gefor",
+    "dangerDesc": "Dës Autorisatioun kann Inhalt um Écran gesinn a klickt op Ärem Telefon. Desaktivéiere dës Erlaabnis wann Dir net explizit d'Funktionalitéit a Risiken vun der Skript verstinn, sidd Dir lafen oder leeft."
+  }
+}

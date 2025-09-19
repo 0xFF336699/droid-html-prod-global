@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Mesaj göndermek için gereken izin seviyesi",
+        "tooltip": "0, tüm üyelerin mesaj gönderebileceği anlamına gelir ve sayı o kadar büyük olursa, daha yüksek izinlerin gerekli olduğu anlamına gelir"
+      },
+      "invite": {
+        "label": "Yeni üyeleri davet etmek için izin seviyesi gerekli",
+        "tooltip": "Yeni üyeleri odaya kim davet edebilecek set"
+      },
+      "kick": {
+        "label": "Gerekli izin seviyesini atın",
+        "tooltip": "Oda üyelerini kim atabilecek set"
+      },
+      "ban": {
+        "label": "Üyeleri engellemek için gerekli izin seviyesi",
+        "tooltip": "Oda üyelerini kim engelleyebileceğini ayarlayın"
+      },
+      "roomSettings": {
+        "label": "Oda ayarlarının gerekli izin seviyesini değiştirin",
+        "tooltip": "Oda ayarlarını kim değiştirebileceğini ayarlayın"
+      },
+      "submit": "İzin Ayarlarını Kaydet"
+    },
+    "description": "İzin Seviyesi Aralığı: 0-100, sayı o kadar büyük olursa, daha yüksek izinler gerektiği anlamına gelir",
+    "toast": {
+      "success": "İzin ayarları güncellendi",
+      "error": "İzin ayarlarını güncellemedi"
+    }
+  }
+}

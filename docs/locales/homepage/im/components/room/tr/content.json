@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Odaya Katılın",
+      "inviteOnly": "Bu özel bir oda ve davetiyelerin katılmasını gerektiriyor",
+      "knockRequired": "Bu oda katılımı uygulamak gerektirir. Birleştirme isteğini göndermek için aşağıdaki düğmeyi tıklayın",
+      "canJoin": "Bu halka açık bir oda, doğrudan katılabilirsiniz",
+      "sendRequest": "Bir Katılım İsteği Gönder",
+      "join": "Odaya Katılın"
+    },
+    "JoinRequestList": {
+      "noRequests": "Henüz katılma isteği yok",
+      "accept": "kabul etmek",
+      "reject": "reddetmek"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Bir mesaj girin ..."
+  },
+  "MessageList": {
+    "noMessages": "Henüz mesaj yok, sohbete başlamak için ilk mesajı gönderin!",
+    "loading": "Yükleme ...",
+    "error": {
+      "loadFailed": "Mesajı yükleyemedi",
+      "retry": "Tekrar deneyin"
+    },
+    "loadingHistory": "Yükleme Geçmişi ...",
+    "historyEnd": "En eski haber geldi"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Henüz mesaj yok, sohbete başlamak için ilk mesajı gönderin!"
+  },
+  "RoomContent": {
+    "title": "Oda"
+  },
+  "RoomHeader": {
+    "title": "Oda",
+    "unnamedRoom": "İsimsiz oda",
+    "members": "üye",
+    "settings": "kurmak",
+    "leaveRoom": "Odayı terk etmek",
+    "joinRoom": "Odaya Katılın"
+  },
+  "RoomMembers": {
+    "title": "Oda üyeleri",
+    "online": "Çevrimiçi",
+    "offline": "Çevrimdışı",
+    "join": "katılmak",
+    "invite": "davet etmek",
+    "leave": "ayrılmak",
+    "ban": "Yaslanmış",
+    "noMembers": "Henüz üye yok",
+    "loading": "Yükleme ..."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Identifikohu/Regjistrohu",
+    "signOut": "Dal",
+    "confirmContent": "A jeni i sigurt që doni të dilni?",
+    "confirmTitle": "aluzion",
+    "confirm": "I sigurt",
+    "cancel": "Anuloj",
+    "signoutOk": "Dal",
+    "loadingData": "Duke ngarkuar të dhënat e përdoruesit"
+  }
+}

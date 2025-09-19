@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Hingoa 'o e feitu'u",
+    "viewMap": "Vakai ki he mape .",
+    "close": "tāpuni"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "'Oku 'ikai poupou'i 'e he browser lolotonga 'a e ma'u 'o e geolocation .",
+    "getLocationFailed": "Naʻe ʻikai ke maʻu ʻa e feituʻú, kātaki ʻo vakaiʻi ʻa e ngaahi fokotuʻutuʻu fakangofua .",
+    "myLocation": "hoku feitu'u",
+    "shareLocation": "Fevahevahe'aki 'a e feitu'u",
+    "getCurrentLocation": "Ma'u 'a e feitu'u lolotonga .",
+    "title": "Hingoa 'o e feitu'u",
+    "description": "Fakamatala fakaikiiki",
+    "descriptionPlaceholder": "Kataki 'o fakahu ha fakamatala fakaikiiki (fili)",
+    "preview": "Feitu'u Toe Vakai'i",
+    "latitude": "latitude",
+    "longitude": "faka'amu; faka'amu",
+    "cancel": "Kaniseli",
+    "send": "lī",
+    "permissionPrompt": "'Oku fie ma'u ke mau ma'u ho'o fakamatala 'i he feitu'u ke 'oatu ha ngaahi ngaue lelei ange, 'oku faka'ata ia?",
+    "permissionDenied": "'Oku faka'ikai'i 'a e ngofua 'o e tu'unga, kataki 'o faka'ata 'a e ngofua 'o e tu'unga 'i ho'o ngaahi tu'unga browser .",
+    "locationTimeout": "Tu'u 'a e taimi, fakapapau'i 'oku fakamo'ui 'a e device pea feinga ke toe ma'u .",
+    "locationUnavailable": "'Oku 'ikai lava ke ma'u 'a e feitu'u lolotonga, kataki 'o vakai'i 'a e sevesi 'o e feitu'u 'o e device ."
+  }
+}

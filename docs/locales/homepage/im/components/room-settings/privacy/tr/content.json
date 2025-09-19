@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Kamu odası",
+        "description": "Halka açık odalar diğer kullanıcılar tarafından aranabilir"
+      },
+      "allowGuestJoin": {
+        "label": "Ziyaretçilerin katılmasına izin verin",
+        "description": "Kayıtsız kullanıcıların konuk olarak odaya katılmasına izin verin"
+      },
+      "isEncrypted": {
+        "label": "Uçtan uca şifrelemeyi etkinleştirin",
+        "description": "Etkinleştirildiğinde, odadaki mesajlar uçtan uca şifrelenecektir",
+        "alert": "Odada uçtan uca şifreleme etkinleştirilir ve bu ayar kapatılamaz."
+      },
+      "submit": "Gizlilik Ayarlarını Kaydet"
+    },
+    "toast": {
+      "success": "Gizlilik ayarları güncellendi",
+      "error": "Gizlilik ayarlarını güncelleyemedi"
+    }
+  }
+}

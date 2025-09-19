@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Njimma tandəmne"
+    },
+    "dialog": {
+      "title": "Njimma bǝlin kuwune",
+      "form": {
+        "userId": {
+          "label": "ID faidatəmaye",
+          "placeholder": "ID faidatəmayero yike (misallo: @user: misallo.com)",
+          "error": {
+            "required": "User ID də dero waljinba",
+            "invalid": "Fasal ID faidatəmaye kalkal gənyi"
+          }
+        },
+        "roomName": {
+          "label": "Su njimbe (karno)",
+          "placeholder": "Su njimbe yike"
+        },
+        "isEncrypted": {
+          "label": "Dareram-dareram-dareramro encryption"
+        },
+        "isDirect": {
+          "label": "Kawuli daataro"
+        },
+        "topic": {
+          "label": "Mauduwu (karno)",
+          "placeholder": "Mauduwu njimdǝro yike"
+        }
+      },
+      "actions": {
+        "cancel": "Dawartə",
+        "create": "alaktə"
+      },
+      "success": "Diwalla tandodə kənasartəna",
+      "error": "Talla laa wakawono loktu njim laaben: {error}"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Emrin e dhomës"
+      },
+      "topic": {
+        "label": "Hyrje në dhomë"
+      },
+      "avatar": {
+        "alt": "Avatar i dhomës"
+      },
+      "submit": "Ruani cilësimet"
+    },
+    "toast": {
+      "success": "Cilësimet e azhurnuara",
+      "error": {
+        "default": "Cilësimet e azhurnimit dështuan",
+        "avatar": "Nuk arriti të azhurnojë avatarin"
+      }
+    }
+  }
+}

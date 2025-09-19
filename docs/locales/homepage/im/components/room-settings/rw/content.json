@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Igenamiterere",
+    "tabs": {
+      "basic": "Igenamiterere ryibanze",
+      "permission": "Igenamiterere",
+      "privacy": "Igenamiterere",
+      "member": "Gucunga Umunyamuryango"
+    },
+    "loadError": "Kunanirwa gupakira Igenamiterere ryubuzima",
+    "leaveRoom": {
+      "button": "Sohoka mucyumba",
+      "confirm": "Uzi neza ko ushaka gusohoka mucyumba? Nyuma yo gusohoka, ntuzashobora gukomeza kubona ubutumwa muri iki cyumba.",
+      "success": "Yasohotse icyumba neza",
+      "error": "Kunanirwa gusohoka mucyumba, nyamuneka gerageza"
+    }
+  }
+}

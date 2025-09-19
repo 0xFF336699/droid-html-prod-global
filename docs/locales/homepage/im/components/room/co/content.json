@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "Unisci a stanza",
+      "inviteOnly": "Questa hè una stanza privata è esige inviti à unisce",
+      "knockRequired": "Sta stanza richiede l'applicazione per unisce. Cliccate nantu à u buttone sottu per mandà l'unione di a dumanda",
+      "canJoin": "Questa hè una stanza publica, pudete unisce direttamente",
+      "sendRequest": "Mandate un Richiesta Unita",
+      "join": "Unisci a stanza"
+    },
+    "JoinRequestList": {
+      "noRequests": "Ùn unisce micca ancu a dumanda",
+      "accept": "Acepta",
+      "reject": "rifiutà"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "Inserite un missaghju ..."
+  },
+  "MessageList": {
+    "noMessages": "Ùn ci hè mancu messagiu, mandate u primu messagiu per inizià a cunversazione!",
+    "loading": "Caricendu ...",
+    "error": {
+      "loadFailed": "Fiascatu à carricà u messagiu",
+      "retry": "Prova dinò"
+    },
+    "loadingHistory": "Caricamentu di a Storia ...",
+    "historyEnd": "A prima nutizia hè ghjunta"
+  },
+  "MessageVirturalList": {
+    "noMessages": "Ùn ci hè mancu messagiu, mandate u primu messagiu per inizià a cunversazione!"
+  },
+  "RoomContent": {
+    "title": "Sala"
+  },
+  "RoomHeader": {
+    "title": "Sala",
+    "unnamedRoom": "Stanza senza nome",
+    "members": "Membru",
+    "settings": "istituisci",
+    "leaveRoom": "Lasciate a stanza",
+    "joinRoom": "Unisci a stanza"
+  },
+  "RoomMembers": {
+    "title": "Membri di stanza",
+    "online": "In ligna",
+    "offline": "Offline",
+    "join": "uniti in",
+    "invite": "invità",
+    "leave": "FAZZA",
+    "ban": "Pruibitu",
+    "noMembers": "Nisun membru ancora",
+    "loading": "Caricendu ..."
+  }
+}

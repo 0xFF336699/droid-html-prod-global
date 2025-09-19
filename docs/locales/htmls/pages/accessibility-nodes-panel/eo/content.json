@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Vidado de alirebleco",
+    "howToUse": "Instrukcioj por uzo",
+    "howToUseTooltip": "Malsupre estas kelkaj markaj atributoj de ĉi tiu nodo uzebla por elekti operaciojn, kiel klaki, plenigi tekston, ktp.\n\nLa atributa valoro povas esti duplikata en la paĝo de la app. Se vi renkontas duplikatojn, bonvolu superkovri aliajn atributajn elektojn por determini unikecon.\n\nRuĝa vorto indikas, ke la atributa valoro ripetiĝas, verda vorto indikas, ke la atributa valoro estas unika en la aktuala paĝo -serĉo, kaj nigra vorto indikas, ke ne ekzistas ripetita komparo.",
+    "otherNodesSummary": "Aliaj nodoj en ĉi tiu loko",
+    "moreNodes": "Jen kio estas pligrandigita.",
+    "nodeInfoDialogOkButton": "Redakti operacion de ĉi tiu nodo",
+    "text": "Teksto 2222"
+  }
+}

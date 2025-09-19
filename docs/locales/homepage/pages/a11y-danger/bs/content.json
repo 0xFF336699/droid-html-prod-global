@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Ova funkcija može izvršiti operacije slične operacijama stvarnog lica, uključujući, ali ne ograničavajući se na klikovanje, otvaranje aplikacija itd. Na vašem telefonu, a može otvoriti i neke aplikacije za plaćanje za plaćanje. Budući da postoje rizici da se evidentiraju operacije, plaćaju plaćanja itd., Toplo preporučujemo da ga izvršavate samo ako u potpunosti razumijete sadržaj skripte.",
+    "txt2": "Kako zatvoriti ovu funkciju: otvorite početnu stranicu ove aplikacije, možete prestati koristiti pomoćnu funkciju u postavkama početne stranice ili možete kliknuti na gumb \"Zatvori sve zadatke i izlaz\" na početnoj stranici. Ovo dugme prisiljava zatvaranje svih zadataka koji se izvršavaju i prisiljavaju zatvori ovu aplikaciju.",
+    "txt3": "Razlog za koji koristimo ovu funkciju je taj što naša aplikacija mora imati mogućnost otvaranja drugih aplikacija i kontrolirati ih, poput pregledavanja Instagrama, on se može automatski pomaknuti nakon što se video reprodukuje, a redovito šaljete poruke na internetskim prijateljima itd.",
+    "iKnowDanger": "Znam rizike - idi na set",
+    "title": "Opasne operacije"
+  }
+}

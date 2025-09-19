@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Prilikom unosa navedene stranice",
+    "pnLabel": "Naziv paketa:",
+    "anLabel": "Naziv aktivnosti:",
+    "cnLabel": "Naziv klase:",
+    "changeBtnLabel": "zamijeniti"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Prilikom unosa navedene stranice",
+    "pnLabel": "Naziv paketa:",
+    "anLabel": "Naziv aktivnosti:",
+    "cnLabel": "Naziv klase:",
+    "changeBtnLabel": "zamijeniti"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Staðsetningarheiti",
+    "viewMap": "Skoðaðu kortið",
+    "close": "Lokun"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Núverandi vafri styður ekki landfræðilega yfirtöku",
+    "getLocationFailed": "Ekki tókst að fá staðsetningu, vinsamlegast athugaðu leyfisstillingarnar",
+    "myLocation": "Staðsetning mín",
+    "shareLocation": "Deildu staðsetningu",
+    "getCurrentLocation": "Fáðu núverandi staðsetningu",
+    "title": "Staðsetningarheiti",
+    "description": "Ítarleg lýsing",
+    "descriptionPlaceholder": "Vinsamlegast sláðu inn ítarlega lýsingu (valfrjálst)",
+    "preview": "Forsýning á staðsetningu",
+    "latitude": "breiddargráðu",
+    "longitude": "lengdargráðu",
+    "cancel": "Hætta við",
+    "send": "Senda",
+    "permissionPrompt": "Við verðum að fá staðsetningarupplýsingar þínar til að veita betri þjónustu, er það leyfilegt?",
+    "permissionDenied": "Staðsetningarleyfi er hafnað, vinsamlegast virkjaðu staðsetningu leyfi í vafrastillingunum þínum",
+    "locationTimeout": "Staðsetja tímamörk, vertu viss um að kveikja á tækinu og reyndu að koma aftur",
+    "locationUnavailable": "Ekki er hægt að fá núverandi staðsetningu, vinsamlegast athugaðu staðsetningarþjónustu tækisins"
+  }
+}

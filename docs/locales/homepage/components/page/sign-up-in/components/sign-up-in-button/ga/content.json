@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Logáil isteach/Cláraigh",
+    "signOut": "Logáil Amach",
+    "confirmContent": "An bhfuil tú cinnte gur mhaith leat logáil amach?",
+    "confirmTitle": "leid",
+    "confirm": "Ar ndóigh",
+    "cancel": "Cealaigh",
+    "signoutOk": "Logáil Amach",
+    "loadingData": "Sonraí Úsáideora a Luchtú"
+  }
+}

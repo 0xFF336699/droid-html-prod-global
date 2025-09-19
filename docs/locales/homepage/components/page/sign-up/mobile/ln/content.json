@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "kokomisa nkombo",
+    "phoneNumber": "Numéro ya téléphone .",
+    "phoneNumberPlaceholder": "Svp kotisa numéro ya téléphone na yo ya maboko .",
+    "verificationCode": "Code ya vérification .",
+    "verificationCodePlaceholder": "Svp kotia code ya vérification .",
+    "getVerificationCode": "Bozua code ya vérification .",
+    "countdown": "{{seconds}} secondes mpo na komeka lisusu .",
+    "register": "kokomisa nkombo",
+    "errors": {
+      "phoneRequired": "Svp kotisa numéro ya téléphone na yo ya maboko .",
+      "phoneInvalid": "Format ya nimero ya telefone ya mabɔkɔ ezali malamu te .",
+      "codeRequired": "Svp kotia code ya vérification .",
+      "codeInvalid": "Format ya code ya vérification ezali ya mabe .",
+      "requestFailed": "Lisengi elongi te .",
+      "verificationFailed": "Bozwi ya code ya vérification elongi te .",
+      "loginFailed": "Login elongi te ."
+    },
+    "success": {
+      "verificationCodeSent": "Code ya vérification esili kotindama .",
+      "registerSuccess": "Enregistré na succès ."
+    }
+  }
+}

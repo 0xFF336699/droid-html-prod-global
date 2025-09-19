@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Buscar miembros"
+    },
+    "table": {
+      "columns": {
+        "name": "Nombre de miembro",
+        "userId": "ID de usuario",
+        "actions": "funcionar"
+      },
+      "pagination": {
+        "rowsPerPage": "Número de filas por página"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Echar",
+        "ban": "Prohibido"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Confirma al miembro de patadas",
+        "content": "¿Estás seguro de que quieres sacar al miembro de la habitación?"
+      },
+      "ban": {
+        "title": "Confirmar la membresía prohibida",
+        "content": "¿Estás seguro de que quieres prohibir a este miembro? El miembro no podrá unirse a la habitación después de la prohibición."
+      },
+      "buttons": {
+        "cancel": "Cancelar",
+        "confirm": "confirmar"
+      }
+    },
+    "toast": {
+      "loadError": "No se pudo cargar la lista de miembros",
+      "kick": {
+        "success": "Los miembros han sido expulsados ​​de la habitación",
+        "error": "Patear a los miembros falló"
+      },
+      "ban": {
+        "success": "Miembros bloqueados",
+        "error": "No se pudo bloquear a los miembros"
+      }
+    },
+    "invite": {
+      "button": "Invitar miembros",
+      "title": "Invitar a los miembros a unirse a la sala",
+      "inputLabel": "Ingrese la ID de usuario de Matrix (como @user: matrix.org)",
+      "confirm": "invitar",
+      "cancel": "Cancelar",
+      "loading": "Atractivo...",
+      "success": "Invitación enviada!",
+      "error": "Falló en la invitación, verifique la identificación del usuario o los permisos"
+    },
+    "empty": "No hay miembro todavía",
+    "loading": "cargando...",
+    "role": {
+      "owner": "Dueño de casa",
+      "admin": "administrador",
+      "moderator": "Co-gestión",
+      "user": "miembro"
+    }
+  }
+}

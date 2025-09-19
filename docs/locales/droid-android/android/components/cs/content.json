@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Zrušit",
+    "ok": "Jistě",
+    "checkBoxText": "Jděte přímo autorizovat do půl měsíce a již toto okno nezobrazí",
+    "content": "Tato funkce vyžaduje autorizaci pomocné funkce. Pokud chcete autorizovat, klikněte na [OK]. Pokud se chcete vzdát, klikněte na [Zrušit]",
+    "title": "Autorizační aplikace"
+  },
+  "floatPermission": {
+    "cancel": "Zrušit",
+    "ok": "Jistě",
+    "checkBoxText": "Jděte přímo autorizovat do půl měsíce a již toto okno nezobrazí",
+    "content": "Tato funkce vyžaduje autorizaci funkce plovoucího okna. Pokud chcete autorizovat, klikněte na [OK]. Pokud se chcete vzdát, klikněte na [Zrušit]",
+    "title": "Autorizační aplikace"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Otorisasi",
+    "notPass": "Henteu sah",
+    "danger": "Bahaya",
+    "setting": "disetél"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Inachagai",
+    "viewMap": "Guaha na biahi na",
+    "close": "ga'la'"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "I browser på'go ti ha na'suha i inayek-ña.",
+    "getLocationFailed": "Ti siña un sodda' i lugat, ya un li'e' i lugåt siha.",
+    "myLocation": "Múpli",
+    "shareLocation": "sagpapa'",
+    "getCurrentLocation": "Påra i på'go na tiempo",
+    "title": "Inachagai",
+    "description": "Desedida ma'a'atan",
+    "descriptionPlaceholder": "På'go na tiempo, siña un hålom gi un deskripsion ni' ma'a'atan (option)",
+    "preview": "Gi i tutuhon",
+    "latitude": "llas",
+    "longitude": "långhet",
+    "cancel": "Kansela",
+    "send": "na hanao",
+    "permissionPrompt": "Debi di ta na’guaha infotmasion gi i lugat para ta na’guaha mas maolek na setbisio siha, kao siña?",
+    "permissionDenied": "Posision na permiso para u ma na’i, ya un na’i i Posision permisu gi i browser-mu .",
+    "locationTimeout": "Posision timeout, asegura na i disposision ha bira gui’ ya ha probecha para u reacquire .",
+    "locationUnavailable": "I lugat på’go ti siña ma na’guaha, fa’na’an i setbisio na lugåt gi i disposision ."
+  }
+}

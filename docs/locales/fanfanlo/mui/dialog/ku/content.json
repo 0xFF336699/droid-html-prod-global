@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Bişûndekirin",
+    "confirm": "Emîn",
+    "title": "geşî",
+    "content": "Ma hûn guman dikin ku hûn dixwazin vê bikin?"
+  },
+  "EditableText": {
+    "cancel": "Bişûndekirin",
+    "save": "rizgarkirin",
+    "title": "weşandin"
+  }
+}

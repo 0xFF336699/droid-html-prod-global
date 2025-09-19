@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Wiri ta 'interface ta' aċċessibilità",
+    "howToUse": "Struzzjonijiet għall-użu",
+    "howToUseTooltip": "Hawn taħt hawn xi attributi ta 'mmarkar ta' dan l-għoqda li jistgħu jintużaw biex jintgħażlu operazzjonijiet, bħalma huma l-ikklikkjar, il-mili ta 'test, eċċ.\n\nIl-valur tal-attribut jista 'jiġi duplikat fil-paġna tal-app. Jekk tiltaqa 'ma' duplikati, jekk jogħġbok overlay selezzjonijiet oħra ta 'attributi biex tiddetermina l-uniċità.\n\nKelma ħamra tindika li l-valur tal-attribut huwa ripetut, kelma ħadra tindika li l-valur tal-attribut huwa uniku fit-tfittxija tal-paġna attwali, u kelma sewda tindika li m'hemm l-ebda paragun ripetut.",
+    "otherNodesSummary": "Nodi oħra f'dan il-post",
+    "moreNodes": "Hawn hu dak li qed jiġi estiż.",
+    "nodeInfoDialogOkButton": "Editja t-tħaddim ta 'dan in-nodu",
+    "text": "Test 2222"
+  }
+}

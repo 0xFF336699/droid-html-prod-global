@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Tlhahisoleseling ea mosebelisi",
+    "id": {
+      "name": "Id",
+      "copy": "Khopi",
+      "copied": "ID e kopitsoe"
+    },
+    "notLoggedIn": "Ha e kene ho",
+    "name": "Lebitso",
+    "avatar": "Avatar"
+  }
+}

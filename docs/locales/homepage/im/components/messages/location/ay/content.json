@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Uka chiqanx sutipax .",
+    "viewMap": "Mapa uñakipt’aña .",
+    "close": "jist’antaña ."
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Jichha uñakipirix janiw geolocalización ukan adquisición ukar yanapt’kiti .",
+    "getLocationFailed": "Uka chiqa katuqañax janiw wakiskiti, permiso configuración ukar uñakipt’añamawa .",
+    "myLocation": "Nayan uñt’ataja .",
+    "shareLocation": "Uñt’ayaña 1.1.",
+    "getCurrentLocation": "Jichhajj kawkhansa jikjjatasi uk katoqañamawa .",
+    "title": "Uka chiqanx sutipax .",
+    "description": "Suma qhanañchtʼäwi .",
+    "descriptionPlaceholder": "Mä qhanañcht’awi qillqt’aña (Opcional) .",
+    "preview": "Uka chiqanx nayrïr uñacht’äwiw utji.",
+    "latitude": "Latitud ukax .",
+    "longitude": "Longitud ukax .",
+    "cancel": "Kansilaña",
+    "send": "apayaña",
+    "permissionPrompt": "Jiwasax juk’amp suma yanapt’awinak churañatakix kawkhantix utjki uka yatiyäwinak katuqañasawa, ¿ukax jaysatäpachati?",
+    "permissionDenied": "Permiso de posicionamiento ukax janiw wakiskiti, ukax mä permiso de posicionamiento ukar ch’amanchatawa, ukax configuración de navegador ukankiwa .",
+    "locationTimeout": "Posicionamiento tiempo de tiempo, asegurar el aparato ON ukat yantʼañamawa .",
+    "locationUnavailable": "Jichhax kawkhantix utjki ukax janiw jikxataskaspati, Servicio de ubicación de dispositivos ukar uñakipt’añamawa ."
+  }
+}

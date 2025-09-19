@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Emrin e vendndodhjes",
+    "viewMap": "Shikoni hartën",
+    "close": "mbyllje"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Shfletuesi aktual nuk e mbështet blerjen e gjeolokimit",
+    "getLocationFailed": "Dështoi për të marrë vendndodhjen, ju lutemi kontrolloni cilësimet e lejes",
+    "myLocation": "Vendndodhja ime",
+    "shareLocation": "Ndani vendndodhjen",
+    "getCurrentLocation": "Merrni vendndodhjen aktuale",
+    "title": "Emrin e vendndodhjes",
+    "description": "Përshkrimi i hollësishëm",
+    "descriptionPlaceholder": "Ju lutemi shkruani një përshkrim të hollësishëm (opsional)",
+    "preview": "Paraqitja e vendndodhjes",
+    "latitude": "gjerësi",
+    "longitude": "gjatësi",
+    "cancel": "Anuloj",
+    "send": "vë",
+    "permissionPrompt": "Ne kemi nevojë për të marrë informacionin tuaj për vendndodhjen për të ofruar shërbime më të mira, a lejohet?",
+    "permissionDenied": "Leja e pozicionimit refuzohet, ju lutemi aktivizoni lejen e pozicionimit në cilësimet e shfletuesit tuaj",
+    "locationTimeout": "Kohëzgjatja e pozicionimit, sigurohuni që pajisja të jetë e ndezur dhe të përpiqet të rivlerësojë",
+    "locationUnavailable": "Vendndodhja aktuale nuk mund të merret, ju lutemi kontrolloni shërbimin e vendndodhjes së pajisjes"
+  }
+}

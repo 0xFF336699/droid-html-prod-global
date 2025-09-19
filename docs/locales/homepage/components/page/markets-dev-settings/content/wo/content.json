@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Degluleen",
+        "helperText": "Soo bësee ci lëkkalekaay bi tàmbali, kon tëyeel lien bi. Loolu dafay laaj nga bàyyi xel ni lëkkalekaay bi dina wéy di lëkkaloo ginaaw biñu ko tasee.",
+        "retryCount": "Limu lëkkaloo"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "URL link, ci misaal ws://192.168.0.0.0.2:7001, wala wws://exmple.com/yoon",
+        "error": "URL bu dëggu bi mooy URL bi ñuy tàmbalee ci ws:// wala wws://"
+      }
+    },
+    "connectButton": {
+      "connect": "lekk",
+      "disconnect": "Deggante",
+      "status": {
+        "connecting": "Jokkoo...",
+        "connected": "Jokkoo",
+        "disconnecting": "Deggante...",
+        "disconnected": "Du lëkkaloo ak",
+        "waitRetry": "Xaarandi reconnesion..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "mbind"
+  }
+}

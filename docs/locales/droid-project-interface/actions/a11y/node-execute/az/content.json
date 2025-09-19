@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Node icrası",
+    "changeBtnLabel": "əvəz etmək",
+    "showNodeAllProperties": "Bütün xüsusiyyətləri göstərin",
+    "wait": {
+      "time": "Gözləmə müddəti",
+      "interval": "Gözləmə intervalı",
+      "invisible": "Ekranın xaricindəki elementləri aşkar etmək istər"
+    }
+  }
+}

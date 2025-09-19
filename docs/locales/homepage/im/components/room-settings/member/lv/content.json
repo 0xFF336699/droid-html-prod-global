@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Meklēt biedrus"
+    },
+    "table": {
+      "columns": {
+        "name": "Locekļa vārds",
+        "userId": "Lietotāja ID",
+        "actions": "darboties"
+      },
+      "pagination": {
+        "rowsPerPage": "Rindu skaits vienā lappusē"
+      },
+      "avatar": {
+        "alt": "iemiesojums"
+      },
+      "actions": {
+        "kick": "Izsvītrot",
+        "ban": "Aizliegts"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Apstipriniet kicking locekli",
+        "content": "Vai esat pārliecināts, ka vēlaties izmest dalībnieku no istabas?"
+      },
+      "ban": {
+        "title": "Apstipriniet aizliegto dalību",
+        "content": "Vai esat pārliecināts, ka vēlaties aizliegt šo dalībnieku? Loceklis pēc aizlieguma nevarēs atkal pievienoties istabai."
+      },
+      "buttons": {
+        "cancel": "Atcelt",
+        "confirm": "apstiprināt"
+      }
+    },
+    "toast": {
+      "loadError": "Neizdevās ielādēt dalībnieku sarakstu",
+      "kick": {
+        "success": "Locekļi ir izmesti no istabas",
+        "error": "Izdošanas locekļi neizdevās"
+      },
+      "ban": {
+        "success": "Locekļi bloķēja",
+        "error": "Neizdevās bloķēt dalībniekus"
+      }
+    },
+    "invite": {
+      "button": "Uzaicināt biedrus",
+      "title": "Uzaiciniet dalībniekus pievienoties istabai",
+      "inputLabel": "Lūdzu, ievadiet matricas lietotāja ID (piemēram, @User: Matrix.org)",
+      "confirm": "uzaicināt",
+      "cancel": "Atcelt",
+      "loading": "Uzaicinošs ...",
+      "success": "Sūtīts ielūgums!",
+      "error": "Uzaicinājums neizdevās, lūdzu, pārbaudiet lietotāja ID vai atļaujas"
+    },
+    "empty": "Vēl nav locekļa",
+    "loading": "iekraušana ...",
+    "role": {
+      "owner": "Māju īpašnieks",
+      "admin": "administrators",
+      "moderator": "Līdzvērtība",
+      "user": "loceklis"
+    }
+  }
+}

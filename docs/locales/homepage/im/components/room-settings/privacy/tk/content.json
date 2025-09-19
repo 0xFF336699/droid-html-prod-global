@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Jemgyýetçilik otagy",
+        "description": "Jemgyýetçilik otaglary beýleki ulanyjylar tarapyndan gözläp bolýar"
+      },
+      "allowGuestJoin": {
+        "label": "Gelýänlere goşulmaga rugsat beriň",
+        "description": "Hasaba alynmadyk ulanyjylary myhman hökmünde şähere goşulmaga rugsat beriň"
+      },
+      "isEncrypted": {
+        "label": "Ahyrky şifrlemegi işjeňleşdiriň",
+        "description": "Işledilende, otagdaky habarlar soňky ahyrky ahyrky ahyrky",
+        "alert": "Otagda ahyrky şifrlemek işlediler we bu sazlama öçürilip bilinmez."
+      },
+      "submit": "Gizlinlik sazlamalaryny ýazdyryň"
+    },
+    "toast": {
+      "success": "Gizlinlik sazlamalary täzelendi",
+      "error": "Gizlinlik sazlamalaryny täzeläp bilmedi"
+    }
+  }
+}

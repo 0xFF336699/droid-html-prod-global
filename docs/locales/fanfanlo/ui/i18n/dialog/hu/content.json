@@ -1,0 +1,11 @@
+{
+  "content": {
+    "ok": "Persze",
+    "cancel": "Töröl",
+    "delete": "töröl",
+    "edit": "szerkeszt",
+    "save": "megtakarítás",
+    "close": "bezárás",
+    "confirm": "megerősít"
+  }
+}

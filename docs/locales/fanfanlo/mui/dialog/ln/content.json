@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Kolongola",
+    "confirm": "Solo",
+    "title": "elembo",
+    "content": "Ozali na ntembe te ete olingi kosala likambo yango?"
+  },
+  "EditableText": {
+    "cancel": "Kolongola",
+    "save": "kobikisa",
+    "title": "kokoma"
+  }
+}

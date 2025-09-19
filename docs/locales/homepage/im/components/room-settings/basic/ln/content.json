@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Kombo ya shambre ."
+      },
+      "topic": {
+        "label": "Ndako ya Maloba ya ebandeli ."
+      },
+      "avatar": {
+        "alt": "Avatar ya chambre ."
+      },
+      "submit": "Bomba ba paramètres ."
+    },
+    "toast": {
+      "success": "Paramètres oyo ezongisami na mikolo .",
+      "error": {
+        "default": "Ba paramètres ya mise à jour elongi te .",
+        "avatar": "Elongi te kosala mise à jour ya Avatar ."
+      }
+    }
+  }
+}

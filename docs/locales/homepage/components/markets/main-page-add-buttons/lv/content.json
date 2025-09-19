@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Pievienot",
+    "sub": {
+      "addScriptByUrl": "Pievienojiet skriptus, izmantojot URL",
+      "addScriptByText": "Pievienojiet skriptus caur tekstu",
+      "addMarket": "Pievienojiet tirgu, izmantojot URL",
+      "addMarketByText": "Pievienojiet tirgu caur tekstu"
+    }
+  }
+}

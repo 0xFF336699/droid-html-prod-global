@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Sula",
+    "ok": "Mbala",
+    "checkBoxText": "I-assssssssssssssssssssssss.",
+    "content": "Lokhu ubukhulu ubukhulu i-osi. Nxa ungakwenza, ngenzeni, chawu. Nxa ngifuna ukusiza ukusiza!",
+    "title": "Hlala ubujamo i ."
+  },
+  "floatPermission": {
+    "cancel": "Sula",
+    "ok": "Mbala",
+    "checkBoxText": "I-assssssssssssssssssssssss.",
+    "content": "Lokhu kuhlala i-osisssssssss. Nxa ungakwenza, ngenzeni, chawu. Nxa ngifuna ukusiza ukusiza!",
+    "title": "Hlala ubujamo i ."
+  }
+}

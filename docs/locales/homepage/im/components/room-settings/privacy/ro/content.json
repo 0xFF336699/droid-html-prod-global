@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Cameră publică",
+        "description": "Camerele publice pot fi căutate de alți utilizatori"
+      },
+      "allowGuestJoin": {
+        "label": "Permiteți vizitatorilor să se alăture",
+        "description": "Permiteți utilizatorilor neînregistrați să se alăture camerei ca oaspete"
+      },
+      "isEncrypted": {
+        "label": "Activați criptarea end-to-end",
+        "description": "Când sunt activate, mesajele din cameră vor fi criptate end-to-end",
+        "alert": "Criptarea end-to-end este activată în cameră, iar această setare nu poate fi dezactivată."
+      },
+      "submit": "Salvați setările de confidențialitate"
+    },
+    "toast": {
+      "success": "Setările de confidențialitate au fost actualizate",
+      "error": "Nu a reușit să actualizeze setările de confidențialitate"
+    }
+  }
+}

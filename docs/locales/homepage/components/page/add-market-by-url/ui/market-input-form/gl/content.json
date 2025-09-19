@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Patrón de URL",
+    "full": {
+      "url": "URL do mercado. Os caracteres introducidos cargaranse como URL, ten coidado.",
+      "html": "Contido HTML de mercado. Os personaxes introducidos serán executados de inmediato como guións, por favor, teña precaución.",
+      "come": "Veña á miña",
+      "myMarketName": "Nome do mercado",
+      "stroll": "Damos un paseo"
+    },
+    "item": {
+      "url": "URL de tarxeta de mercado. Os caracteres introducidos cargaranse como URL, ten coidado.",
+      "html": "Contido HTML de mercado. Os personaxes introducidos serán executados de inmediato como guións, por favor, teña precaución.",
+      "come": "Veña á miña",
+      "myMarketName": "Nome do mercado",
+      "stroll": "Damos un paseo"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "content": {
+    "JoinRequestDialog": {
+      "title": "ኣብቲ ክፍሊ ተጸንበሩ",
+      "inviteOnly": "እዚ ናይ ብሕቲ ክፍሊ ኮይኑ ንኽጽንበር ዕድመ ዝሓትት ’ ዩ።",
+      "knockRequired": "እዚ ክፍሊ እዚ ንኽጽንበር መመልከቲ ይሓትት። ነቲ ናይ Join Request ንምልኣኽ ኣብ ታሕቲ ዘሎ ቁልፊ ጠውቕ",
+      "canJoin": "እዚ ህዝባዊ ክፍሊ እዩ፣ ብቐጥታ ክትጽንበሩ ትኽእሉ ኢኹም",
+      "sendRequest": "ናይ Join Request ስደዱ",
+      "join": "ኣብቲ ክፍሊ ተጸንበሩ"
+    },
+    "JoinRequestList": {
+      "noRequests": "ክሳብ ሕጂ ናይ ምጽንባር ሕቶ የለን",
+      "accept": "ተቀበል",
+      "reject": "ምንጻግ"
+    }
+  },
+  "MessageInput": {
+    "placeholder": "መልእኽቲ ኣእቱ..."
+  },
+  "MessageList": {
+    "noMessages": "ክሳብ ሕጂ መልእኽቲ የለን፣ ዕላል ንምጅማር ናይ መጀመርታ መልእኽቲ ስደድ!",
+    "loading": "ይጽዕን ኣሎ...",
+    "error": {
+      "loadFailed": "ነቲ መልእኽቲ ምጽዓን ኣይከኣለን .",
+      "retry": "እንደገና ፈትኑ"
+    },
+    "loadingHistory": "ታሪኽ ምጽዓን...",
+    "historyEnd": "እቲ ዝቐልጠፈ ዜና በጺሑ ኣሎ ።"
+  },
+  "MessageVirturalList": {
+    "noMessages": "ክሳብ ሕጂ መልእኽቲ የለን፣ ዕላል ንምጅማር ናይ መጀመርታ መልእኽቲ ስደድ!"
+  },
+  "RoomContent": {
+    "title": "ክፍሊ"
+  },
+  "RoomHeader": {
+    "title": "ክፍሊ",
+    "unnamedRoom": "ስም ዘይብሉ ክፍሊ",
+    "members": "ኣባል",
+    "settings": "ምድላው",
+    "leaveRoom": "ካብቲ ክፍሊ ወጹ",
+    "joinRoom": "ኣብቲ ክፍሊ ተጸንበሩ"
+  },
+  "RoomMembers": {
+    "title": "ኣባላት ክፍሊ",
+    "online": "ኦንላይን",
+    "offline": "ካብ መስመር ወጻኢ",
+    "join": "ኣብ 2019 ተጸንበሩ",
+    "invite": "ምዕዳም",
+    "leave": "ውፃእ",
+    "ban": "ተኣጊዱ",
+    "noMembers": "ገና ኣባል የለን",
+    "loading": "ይጽዕን ኣሎ..."
+  }
+}

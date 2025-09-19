@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Orukọ ipo",
+    "viewMap": "Wo maapu naa",
+    "close": "opin"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Aṣàwákiri ti isiyi ko ṣe atilẹyin ohun-ini idapọmọra",
+    "getLocationFailed": "Kuna lati gba ipo naa, jọwọ ṣayẹwo awọn eto igbanilaaye",
+    "myLocation": "Ipo mi",
+    "shareLocation": "Pin Ipo",
+    "getCurrentLocation": "Gba ipo lọwọlọwọ",
+    "title": "Orukọ ipo",
+    "description": "Alaye alaye",
+    "descriptionPlaceholder": "Jọwọ tẹ apejuwe alaye (iyan)",
+    "preview": "Awotẹlẹ ipo",
+    "latitude": "olooro",
+    "longitude": "olooro",
+    "cancel": "Fagilee",
+    "send": "firanṣẹ",
+    "permissionPrompt": "A nilo lati gba alaye ipo rẹ lati pese awọn iṣẹ to dara julọ, ni o gba laaye?",
+    "permissionDenied": "Idaniloju ipo ti sẹ, jọwọ ṣiṣẹ igbanilaaye ipo ninu awọn eto aṣawakiri rẹ",
+    "locationTimeout": "Aago ipo, rii daju pe ẹrọ naa wa ni titan ati gbiyanju lati reacquere",
+    "locationUnavailable": "Ipo ti isiyi ko le gba, jọwọ ṣayẹwo iṣẹ ipo ẹrọ"
+  }
+}

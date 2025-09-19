@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Hlikihla",
+    "confirm": "-Noma kanjani",
+    "title": "izwi lokuqhweba",
+    "content": "Uqinisekile ukuthi ufuna ukwenza lokhu?"
+  },
+  "EditableText": {
+    "cancel": "Hlikihla",
+    "save": "hlenga",
+    "title": "hlela"
+  }
+}

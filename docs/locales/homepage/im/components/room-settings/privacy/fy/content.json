@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Iepenbiere keamer",
+        "description": "Iepenbiere keamers kinne wurde socht troch oare brûkers"
+      },
+      "allowGuestJoin": {
+        "label": "Tastean besikers om mei te dwaan",
+        "description": "Tastean dat unregistreare brûkers tastean om mei te dwaan oan 'e keamer as gast"
+      },
+      "isEncrypted": {
+        "label": "Ynskeakelje en-oan-ein-fersifering ynskeakelje",
+        "description": "As ynskeakele, sil berjochten yn 'e keamer yn' e keamer end-oan-ein wurde fersifere",
+        "alert": "Eind-oan-ein-fersifering is yn 'e keamer ynskeakele, en dizze ynstelling kin net útskeakele wurde."
+      },
+      "submit": "Bewarje privacy-ynstellings"
+    },
+    "toast": {
+      "success": "Ynstellings foar privacy binne bywurke",
+      "error": "Mislearre om privacy-ynstellingen te fernijen"
+    }
+  }
+}

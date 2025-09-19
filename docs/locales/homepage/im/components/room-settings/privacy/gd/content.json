@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Seòmar phoblach",
+        "description": "Faodar seòmraichean poblach a sgrùdadh le luchd-cleachdaidh eile"
+      },
+      "allowGuestJoin": {
+        "label": "Leig le luchd-tadhail a dhol còmhla",
+        "description": "Leig le luchd-cleachdaidh neo-chlàraichte a dhol a-steach don t-seòmar mar aoigh"
+      },
+      "isEncrypted": {
+        "label": "Dèan comas air crioptachadh deireadh a 'ghràin",
+        "description": "Nuair a thèid a chomasachadh, bidh teachdaireachdan san t-seòmar air a chrioptachadh deireadh gu ceann",
+        "alert": "Tha crioptachadh deireadh gu deireadh air a chomasachadh san t-seòmar, agus chan urrainnear an suidheachadh seo a chuir dheth."
+      },
+      "submit": "Sàbhail Roghainnean prìobhaideachd"
+    },
+    "toast": {
+      "success": "Chaidh Roghainnean prìobhaideachd ùrachadh",
+      "error": "Dh'fhàillig ùrachadh roghainnean prìobhaideachd ùrachadh"
+    }
+  }
+}

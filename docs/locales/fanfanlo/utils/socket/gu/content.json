@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "કનેક્ટ ...",
+    "connected": "જોડાયેલું",
+    "disconnecting": "ડિસ્કનેક્ટિંગ ...",
+    "disconnected": "જોડાયેલ નથી",
+    "waitRetry": "ફરીથી જોડાણની રાહ જોવી ..."
+  }
+}

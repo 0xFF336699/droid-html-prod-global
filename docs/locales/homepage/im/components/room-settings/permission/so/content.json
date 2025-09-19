@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Heerka ogolaanshaha loo baahan yahay inuu farriinta diro",
+        "tooltip": "0 macnaheedu waa in dhammaan xubnaha ay soo diri karaan farriimaha, iyo tirada weyn ee tirada macnaheedu waa in rukhsadaha sare loo baahan yahay"
+      },
+      "invite": {
+        "label": "Heerka ogolaanshaha loo baahan yahay in lagu casuumo xubno cusub",
+        "tooltip": "Deji cidda ku casuumi karta xubno cusub qolka"
+      },
+      "kick": {
+        "label": "Ku qor heerka rukhsadda ee loo baahan yahay",
+        "tooltip": "Deji yaa qori kara xubnaha qolka"
+      },
+      "ban": {
+        "label": "Heerka ogolaanshaha looga baahan yahay xannibaadda xubnaha",
+        "tooltip": "Deji yaa xannibi kara xubnaha qolka"
+      },
+      "roomSettings": {
+        "label": "Wax ka beddel heerka rukhsadda ee loo baahan yahay ee rukhsadaha qolka",
+        "tooltip": "Deji yaa wax ka beddeli kara goobaha qolka"
+      },
+      "submit": "Badbaadi goobaha oggolaanshaha"
+    },
+    "description": "Heerka ogolaanshaha Range: 0-100, tirada weyn ee tirada macnaheedu waa rukhsad sare ayaa loo baahan yahay",
+    "toast": {
+      "success": "Goobaha ogolaanshaha ayaa la cusbooneysiiyay",
+      "error": "Ku guuldareystay inuu cusboonaysiiyo goobaha ogolaanshaha"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Compleksi simpat",
+    "changeBtnLabel": "ngagentos",
+    "showNodeAllProperties": "Nunjukkeun sadaya pasipatan",
+    "wait": {
+      "time": "Uan pajunggai",
+      "interval": "Ngantosan interval",
+      "invisible": "Naha ngadeteksi unsur di luar layar"
+    }
+  }
+}

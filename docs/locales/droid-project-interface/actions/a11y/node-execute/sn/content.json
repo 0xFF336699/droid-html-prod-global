@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Node kuuraya",
+    "changeBtnLabel": "kutsiva",
+    "showNodeAllProperties": "Ratidza zvese zvivakwa",
+    "wait": {
+      "time": "Nguva yekumirira",
+      "interval": "Kumirira nguva",
+      "invisible": "Kunyangwe kuona zvinhu zviri kunze kwechidzitiro"
+    }
+  }
+}

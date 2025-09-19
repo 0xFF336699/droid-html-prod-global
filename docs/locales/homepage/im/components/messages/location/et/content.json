@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Asukohanimi",
+    "viewMap": "Vaata kaarti",
+    "close": "sulgemine"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Praegune brauser ei toeta geograafilise asukoha omandamist",
+    "getLocationFailed": "Asukoha hankimine ebaõnnestus, kontrollige lubade sätteid",
+    "myLocation": "Minu asukoht",
+    "shareLocation": "Aktsia asukoht",
+    "getCurrentLocation": "Hankige praegune asukoht",
+    "title": "Asukohanimi",
+    "description": "Üksikasjalik kirjeldus",
+    "descriptionPlaceholder": "Sisestage üksikasjalik kirjeldus (valikuline)",
+    "preview": "Asukoha eelvaade",
+    "latitude": "laius",
+    "longitude": "pikkuskraad",
+    "cancel": "Tühistama",
+    "send": "saatma",
+    "permissionPrompt": "Paremate teenuste pakkumiseks peame hankima teie asukohateabe, kas see on lubatud?",
+    "permissionDenied": "Positsioneerimisluba keelatakse, lubage oma brauseri seadetes positsioneerimisluba",
+    "locationTimeout": "Aegade aegumistähtaeg, veenduge, et seade oleks sisse lülitatud, ja proovige uuesti tõmmata",
+    "locationUnavailable": "Praegust asukohta ei saa hankida, kontrollige seadme asukohateenust"
+  }
+}

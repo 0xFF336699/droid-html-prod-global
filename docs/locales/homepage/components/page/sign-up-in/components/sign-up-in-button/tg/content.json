@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Вуруд / Феҳрист",
+    "signOut": "Баромадан",
+    "confirmContent": "Шумо мутмаин ҳастед, ки мехоҳед берун оед?",
+    "confirmTitle": "киноя",
+    "confirm": "Бешӯъ",
+    "cancel": "Манъ кардан",
+    "signoutOk": "Баромадан",
+    "loadingData": "Боркунии маълумоти корбар"
+  }
+}

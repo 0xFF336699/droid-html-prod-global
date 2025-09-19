@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Su",
+    "viewMap": "Map dǝga wune",
+    "close": "zaktə"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Browser kərmaye adə banazəyin ba geolocation fandodə",
+    "getLocationFailed": "Nadəga fandoro terəna, martəgəne settings izinibedə wune",
+    "myLocation": "Nanyi",
+    "shareLocation": "Na’a share",
+    "getCurrentLocation": "Na kərmayero fandəmin",
+    "title": "Su",
+    "description": "Bayan kəzəkkə",
+    "descriptionPlaceholder": "Martəgəne bayan kəzəkkə (karno)",
+    "preview": "Naptǝram Naptǝne",
+    "latitude": "nəmkuli",
+    "longitude": "nəmkasuwa luwoma",
+    "cancel": "Dawartə",
+    "send": "zuwatə",
+    "permissionPrompt": "Andeye bayan nanǝmbe sǝbandinro mǝradǝnyiyena cidawa ngǝla-ngǝlaro, kasattin wa?",
+    "permissionDenied": "Izin kənjodə kasattənyi, martəgəne izini Positioningbe suro browserben",
+    "locationTimeout": "Loktu gənatə, tawatkəgəne nauradə watə kuru waltəm fando jarabne",
+    "locationUnavailable": "Na kərmaye adə raktə təbandinba, martawa na nauradəbedə wune"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "prečac",
+    "title": "Prepoznavanje paketa i aktivnosti",
+    "useBtn": "koristiti",
+    "closeBtn": "zatvarač",
+    "pnLabel": "Naziv paketa",
+    "copyButtonText": "kopija",
+    "anLabel": "aktivnost",
+    "clsLable": "klasa"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Nawa njimbe",
+    "tabs": {
+      "basic": "Nashawa",
+      "permission": "Na cidabe",
+      "privacy": "Nasha nzǝliwobe",
+      "member": "Membaro cista"
+    },
+    "loadError": "Na njim gǝnatǝye tǝragǝna",
+    "leaveRoom": {
+      "button": "Njimdən luwune",
+      "confirm": "Tawadəro njimdən suluwumiya raamma wa? Ngawo luwumiya, raksə kawuliwa suro njim adəyen səbandinba.",
+      "success": "Njimdən suluwuna kənasarro",
+      "error": "Njimdən suluwuro terəna, martəgəne waltə jarabne"
+    }
+  }
+}

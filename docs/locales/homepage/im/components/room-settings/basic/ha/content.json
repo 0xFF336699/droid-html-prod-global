@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Sunan gida"
+      },
+      "topic": {
+        "label": "Gabatarwar daki"
+      },
+      "avatar": {
+        "alt": "Avatar Room"
+      },
+      "submit": "Ajiye Saituna"
+    },
+    "toast": {
+      "success": "Saitunan sabuntawa",
+      "error": {
+        "default": "Saitunan sabuntawa sun kasa",
+        "avatar": "Ba a yi nasarar sabunta Avatar ba"
+      }
+    }
+  }
+}

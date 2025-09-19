@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "winduugo",
+    "phoneNumber": "Limre Telefoŋ",
+    "phoneNumberPlaceholder": "Eɗen ñaagi on, naata e limoore telefoŋ mon",
+    "verificationCode": "Kod hoolkisaare",
+    "verificationCodePlaceholder": "Eɗen ñaagi on, naatnu kode hoolkiso",
+    "getVerificationCode": "Heɓde kode hoolkiso",
+    "countdown": "{{seconds}} ko sekonndeeji ngam jarribaade",
+    "register": "winduugo",
+    "errors": {
+      "phoneRequired": "Eɗen ñaagi on, naata e limoore telefoŋ mon",
+      "phoneInvalid": "Nokku limoore telefoŋ cinndel ina selli",
+      "codeRequired": "Eɗen ñaagi on, naatnu kode hoolkiso",
+      "codeInvalid": "Format kod hoolkiso oo ina selli",
+      "requestFailed": "Ɗaɓɓaande ndee ronkii",
+      "verificationFailed": "Keɓgol kode yamre ndee ronkii",
+      "loginFailed": "Login ronki"
+    },
+    "success": {
+      "verificationCodeSent": "Kod version neldaama",
+      "registerSuccess": "Winnditaade e nafoore"
+    }
+  }
+}

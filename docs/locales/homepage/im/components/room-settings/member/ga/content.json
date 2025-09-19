@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Cuardaigh baill"
+    },
+    "table": {
+      "columns": {
+        "name": "Ball -ainm",
+        "userId": "Aitheantas Úsáideora",
+        "actions": "oibriú"
+      },
+      "pagination": {
+        "rowsPerPage": "Líon na sraitheanna in aghaidh an leathanaigh"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Cic",
+        "ban": "Toirmeaste"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Deimhnigh an ball ciceáil",
+        "content": "An bhfuil tú cinnte gur mhaith leat an ball a chiceáil amach as an seomra?"
+      },
+      "ban": {
+        "title": "Deimhnigh an bhallraíocht toirmiscthe",
+        "content": "An bhfuil tú cinnte gur mhaith leat an comhalta seo a thoirmeasc? Ní bheidh an comhalta in ann dul ar ais sa seomra tar éis an toirmisc."
+      },
+      "buttons": {
+        "cancel": "Cealaigh",
+        "confirm": "daingnigh"
+      }
+    },
+    "toast": {
+      "loadError": "Theip ar Liosta Ball a luchtú",
+      "kick": {
+        "success": "Cuireadh baill amach as an seomra",
+        "error": "Theip ar chomhaltaí a chiceáil amach"
+      },
+      "ban": {
+        "success": "Baill bac",
+        "error": "Theip ar bhaill a bhlocáil"
+      }
+    },
+    "invite": {
+      "button": "Tabhair cuireadh do bhaill",
+      "title": "Tabhair cuireadh do bhaill a bheith páirteach sa seomra",
+      "inputLabel": "Iontráil ID Úsáideora Matrix (ar nós @User: Matrix.org)",
+      "confirm": "gríosaigh",
+      "cancel": "Cealaigh",
+      "loading": "Ag tabhairt cuireadh ...",
+      "success": "Cuireadh seolta!",
+      "error": "Theip ar chuireadh, seiceáil Aitheantas úsáideora nó ceadanna le do thoil"
+    },
+    "empty": "Gan aon bhall fós",
+    "loading": "ag luchtú ...",
+    "role": {
+      "owner": "Úinéir tí",
+      "admin": "riarthóir",
+      "moderator": "Comhbhainistíocht",
+      "user": "comhalta"
+    }
+  }
+}

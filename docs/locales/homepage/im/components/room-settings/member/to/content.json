@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Fekumi ki he kau mēmipa ."
+    },
+    "table": {
+      "columns": {
+        "name": "Hingoa ʻo e Mēmipá",
+        "userId": "ID 'o e tokotaha ngaue'aki",
+        "actions": "ngāue"
+      },
+      "pagination": {
+        "rowsPerPage": "Fika 'o e ngaahi laine 'i he peesi ."
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "kiʻi ʻai ki tuʻa",
+        "ban": "Banned"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Fakapapau'i 'a e memipa 'oku kicking .",
+        "content": "ʻOkú ke fakapapauʻi ʻokú ke fie tuli ʻa e mēmipá mei he lokí?"
+      },
+      "ban": {
+        "title": "Fakapapauʻi ʻa e mēmipa ʻoku tapui .",
+        "content": "ʻOkú ke fakapapauʻi ʻokú ke fie tapui ʻa e mēmipa ko ʻení? He ʻikai lava ʻe he mēmipá ʻo toe kau ʻi he lokí hili ʻa e tapuí."
+      },
+      "buttons": {
+        "cancel": "Kaniseli",
+        "confirm": "fakapapau'i"
+      }
+    },
+    "toast": {
+      "loadError": "Naʻe ʻikai ke ʻi ai ha lisi ʻo e kāingalotú .",
+      "kick": {
+        "success": "Kuo tuli ʻa e kāingalotú mei he lokí .",
+        "error": "Naʻe ʻikai lava ʻa e kau mēmipa ʻo e kicking out ."
+      },
+      "ban": {
+        "success": "poloka ʻa e kāingalotú",
+        "error": "Ta'elava ke poloka 'a e kau memipa ."
+      }
+    },
+    "invite": {
+      "button": "Fakaafeʻi e kāingalotú",
+      "title": "Fakaafeʻi e kāingalotú ke nau kau ki he lokí .",
+      "inputLabel": "Kataki 'o fakahu 'a e ID 'o e tokotaha ngaue 'a e Matrix (hange ko e @user:matrix.org)",
+      "confirm": "fakaafe",
+      "cancel": "Kaniseli",
+      "loading": "Fakaafe'i...",
+      "success": "Naʻe fekauʻi atu ʻa e fakaafeʻí!",
+      "error": "Naʻe ʻikai lava ʻa e Fakaafeʻi, kātaki ʻo vakaiʻi ʻa e ID ʻo e tokotaha fakaʻaongaʻí pe ngaahi ngofua ."
+    },
+    "empty": "ʻOku teʻeki ke ʻi ai ha mēmipa",
+    "loading": "uta...",
+    "role": {
+      "owner": "Ko e tokotaha ʻoku ʻaʻana ʻa e ʻapí",
+      "admin": "pule",
+      "moderator": "Pule'i fakataha",
+      "user": "mēmipa"
+    }
+  }
+}

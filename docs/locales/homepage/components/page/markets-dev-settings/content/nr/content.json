@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "#",
+        "helperText": "Kuyinto, usebenzisa i-Asssssssssss. Kuyinto, ililo csssssssssssssssssssss .",
+        "retryCount": "# ε ."
+      },
+      "url": {
+        "name": "Ukukhiqila |",
+        "helperText": "10 U-10:10 10:10 10:1.",
+        "error": "UKANGALU :0:10 ."
+      }
+    },
+    "connectButton": {
+      "connect": "hlanganisa",
+      "disconnect": "i",
+      "status": {
+        "connecting": "Kholalo.",
+        "connected": "i",
+        "disconnecting": "Khola.",
+        "disconnected": "# .",
+        "waitRetry": "Ukuzivocavocavoca akungekho."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "isikribhu"
+  }
+}

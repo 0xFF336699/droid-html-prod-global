@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Ṣẹda yara kan"
+    },
+    "dialog": {
+      "title": "Ṣẹda yara tuntun",
+      "form": {
+        "userId": {
+          "label": "Idanimọ olumulo",
+          "placeholder": "Tẹ ID olumulo sii (fun apẹẹrẹ: @user: Exafo.com)",
+          "error": {
+            "required": "ID olumulo ko le ṣofo",
+            "invalid": "Ọna kika ID ti ko wulo"
+          }
+        },
+        "roomName": {
+          "label": "Orukọ yara (iyan)",
+          "placeholder": "Tẹ orukọ yara kan"
+        },
+        "isEncrypted": {
+          "label": "Mu enmorption ipari si-opin si-opin"
+        },
+        "isDirect": {
+          "label": "Ifiranṣẹ taara"
+        },
+        "topic": {
+          "label": "Akori (iyan)",
+          "placeholder": "Tẹ akori yara naa"
+        }
+      },
+      "actions": {
+        "cancel": "Fagilee",
+        "create": "lati ṣẹda"
+      },
+      "success": "Ṣiṣẹda yara ni ifijišẹ",
+      "error": "Aṣiṣe kan waye lakoko ṣiṣẹda yara kan: {aṣiṣe}"
+    }
+  }
+}

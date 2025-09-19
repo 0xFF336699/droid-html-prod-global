@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Stu metudu pò esse chjamatu solu in Android",
+      "noMethod": "Stu metudu ùn esiste micca"
+    }
+  }
+}

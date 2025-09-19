@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Hætta við",
+    "confirm": "Jú",
+    "title": "Vísbending",
+    "content": "Ertu viss um að þú viljir gera þetta?"
+  },
+  "EditableText": {
+    "cancel": "Hætta við",
+    "save": "Vista",
+    "title": "EDIT"
+  }
+}

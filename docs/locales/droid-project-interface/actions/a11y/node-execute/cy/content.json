@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Dienyddiad nod",
+    "changeBtnLabel": "amnewidia ’",
+    "showNodeAllProperties": "Dangoswch yr holl eiddo",
+    "wait": {
+      "time": "Amser Aros",
+      "interval": "Cyfnod Aros",
+      "invisible": "P'un ai i ganfod elfennau y tu allan i'r sgrin"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Ngaahi feitu'u 'o e loki",
+    "tabs": {
+      "basic": "Ngaahi tu'unga tefito",
+      "permission": "Ngaahi tuʻunga ʻo e ngofua",
+      "privacy": "Ngaahi tu'unga fakataautaha",
+      "member": "Puleʻi ʻo e kāingalotú"
+    },
+    "loadError": "Ta'elava ke uta 'a e ngaahi tu'unga 'o e loki .",
+    "leaveRoom": {
+      "button": "Ma'u 'a e loki .",
+      "confirm": "‘Okú ke fakapapau‘i ‘okú ke loto ke mavahe mei he lokí? Hili hoʻo hū ki tuʻá, he ʻikai ke ke lava ʻo hokohoko atu hono maʻu ha ngaahi pōpoaki mei he loki ko ʻení.",
+      "success": "Naʻe ʻi ai ʻa e lokí ʻi he lavameʻa .",
+      "error": "Naʻe ʻikai ke ke mavahe mei he lokí, kātaki ʻo toe ʻahiʻahi ."
+    }
+  }
+}

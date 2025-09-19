@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Bir otaq yaratmaq"
+    },
+    "dialog": {
+      "title": "Yeni bir otaq yaradın",
+      "form": {
+        "userId": {
+          "label": "İstifadəçi ID",
+          "placeholder": "İstifadəçi identifikatorunu daxil edin (məsələn: @user: Isison.com)",
+          "error": {
+            "required": "İstifadəçi idisi boş ola bilməz",
+            "invalid": "Yanlış istifadəçi id formatı"
+          }
+        },
+        "roomName": {
+          "label": "Otaq adı (isteğe bağlı)",
+          "placeholder": "Bir otaq adını daxil edin"
+        },
+        "isEncrypted": {
+          "label": "Sonuncu şifrələməni aktivləşdirin"
+        },
+        "isDirect": {
+          "label": "Birbaşa mesaj"
+        },
+        "topic": {
+          "label": "Mövzu (isteğe bağlı)",
+          "placeholder": "Otaq mövzusunu daxil edin"
+        }
+      },
+      "actions": {
+        "cancel": "Ləğv etmək",
+        "create": "yaratmaq"
+      },
+      "success": "Otaq yaradılması uğurla",
+      "error": "Bir otaq yaratarkən xəta baş verdi: {səhv}"
+    }
+  }
+}

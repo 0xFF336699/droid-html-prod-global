@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Mabasa ebetsero",
+    "pass": "Yakatenderwa",
+    "notPass": "Zvisingatenderwe",
+    "setting": "gadzirira",
+    "danger": "Njodzi",
+    "dangerDesc": "Iyi mvumo inogona kuona zvirimo pachiratidziro uye tinya pafoni yako. Dzima mvumo iyi kana iwe usinganzwisise zvakajeka mashandiro uye njodzi dzechiratidzo iwe uri kumhanya kana uchimhanya."
+  }
+}

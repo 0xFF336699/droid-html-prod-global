@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "operacii",
+    "click": "Alklaku",
+    "longClick": "Longa gazetaro",
+    "setText": "Agordu Tekston",
+    "tryClick": "Provu elementon aŭ lokon alklaku",
+    "globalClick": "Loko Alklaku"
+  }
+}

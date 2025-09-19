@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Ĉambraj agordoj",
+    "tabs": {
+      "basic": "Bazaj Agordoj",
+      "permission": "Permesaj Agordoj",
+      "privacy": "Privatecaj Agordoj",
+      "member": "Membro -Administrado"
+    },
+    "loadError": "Malsukcesis ŝarĝi ĉambrajn agordojn",
+    "leaveRoom": {
+      "button": "Eliru el la ĉambro",
+      "confirm": "Ĉu vi certas, ke vi volas forlasi la ĉambron? Post kiam vi eliros, vi ne povos plu ricevi mesaĝojn de ĉi tiu ĉambro.",
+      "success": "Eliris el la ĉambro sukcese",
+      "error": "Malsukcesis eliri el la ĉambro, bonvolu reprovi"
+    }
+  }
+}

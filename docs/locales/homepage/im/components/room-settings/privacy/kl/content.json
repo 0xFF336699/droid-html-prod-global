@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Oqaluussineq",
+        "description": "Inissiat allat atuisunit ujartorneqarsinnaapput"
+      },
+      "allowGuestJoin": {
+        "label": "Pulaartut ilaasinnaalissapput",
+        "description": "Atuisut nalunaarsorneqanngitsut inimut ilaalersinnissaat akuerisaavoq"
+      },
+      "isEncrypted": {
+        "label": "End-to-end-imik kryptering-imik atuisinnaaneq",
+        "description": "Aktiveqarpat inimi nalunaarutit end-to-end-imik kryptereqartassapput",
+        "alert": "End-to-end-imik kryptering inimi atuutilersinneqartarpoq, aammalu taanna inissititerneq qaminneqarsinnaanngilaq."
+      },
+      "submit": "Personlige indstilling-it annaakkit"
+    },
+    "toast": {
+      "success": "Personlige inissititernerit nutarterneqarput",
+      "error": "Imminut pisinnaatitaaffiit pillugit inissititernerit nutarternissaannut"
+    }
+  }
+}

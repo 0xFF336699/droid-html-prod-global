@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "പട്ടികയുണ്ടാക്കുക",
+    "phoneNumber": "ഫോൺ നമ്പർ",
+    "phoneNumberPlaceholder": "നിങ്ങളുടെ മൊബൈൽ ഫോൺ നമ്പർ നൽകുക",
+    "verificationCode": "പരിശോധിച്ചുറപ്പിക്കൽ കോഡ്",
+    "verificationCodePlaceholder": "സ്ഥിരീകരണ കോഡ് നൽകുക",
+    "getVerificationCode": "സ്ഥിരീകരണ കോഡ് നേടുക",
+    "countdown": "{{സെക്കൻഡ്}}}} sam സെക്കൻഡ്",
+    "register": "പട്ടികയുണ്ടാക്കുക",
+    "errors": {
+      "phoneRequired": "നിങ്ങളുടെ മൊബൈൽ ഫോൺ നമ്പർ നൽകുക",
+      "phoneInvalid": "മൊബൈൽ ഫോൺ നമ്പർ ഫോർമാറ്റ് തെറ്റാണ്",
+      "codeRequired": "സ്ഥിരീകരണ കോഡ് നൽകുക",
+      "codeInvalid": "സ്ഥിരീകരണ കോഡ് ഫോർമാറ്റ് തെറ്റാണ്",
+      "requestFailed": "അഭ്യർത്ഥന പരാജയപ്പെട്ടു",
+      "verificationFailed": "സ്ഥിരീകരണ കോഡ് ഏറ്റെടുക്കൽ പരാജയപ്പെട്ടു",
+      "loginFailed": "ലോഗിൻ ചെയ്യുന്നത് പരാജയപ്പെട്ടു"
+    },
+    "success": {
+      "verificationCodeSent": "സ്ഥിരീകരണ കോഡ് അയച്ചു",
+      "registerSuccess": "വിജയകരമായി രജിസ്റ്റർ ചെയ്തു"
+    }
+  }
+}

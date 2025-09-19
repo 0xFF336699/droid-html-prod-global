@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "Aldonu ligojn",
+    "emoji": "Elektu esprimon",
+    "placeholder": "Enigu mesaĝon ...",
+    "sendLocation": "Sendu lokon",
+    "send": "Sendu"
+  }
+}

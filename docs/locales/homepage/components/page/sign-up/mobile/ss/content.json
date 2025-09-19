@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "bhalisa",
+    "phoneNumber": "Luphawu",
+    "phoneNumberPlaceholder": "Sicela ufake inombolo yakho yeselula",
+    "verificationCode": "Ikhodi yekucinisekisa",
+    "verificationCodePlaceholder": "Sicela ufake ikhodi yekucinisekisa",
+    "getVerificationCode": "Tfola ikhodi yekucinisekisa",
+    "countdown": "{{seconds}} imizuzwane yekuphindze uzame .",
+    "register": "bhalisa",
+    "errors": {
+      "phoneRequired": "Sicela ufake inombolo yakho yeselula",
+      "phoneInvalid": "Ifomethi yenombolo yeselula ayilungile",
+      "codeRequired": "Sicela ufake ikhodi yekucinisekisa",
+      "codeInvalid": "Ifomethi yekhodi yekucinisekisa ayilungile",
+      "requestFailed": "Sicelo sehlulekile",
+      "verificationFailed": "Kutfola ikhodi yekucinisekisa yehlulekile",
+      "loginFailed": "Kungena kungehluleka"
+    },
+    "success": {
+      "verificationCodeSent": "Ikhodi yekucinisekisa itfunyelwe",
+      "registerSuccess": "Kubhalisiwe ngemphumelelo"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Liggingnaam",
+    "viewMap": "Kyk na die kaart",
+    "close": "afsluiting"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Die huidige blaaier ondersteun nie die verkryging van die geolokasie nie",
+    "getLocationFailed": "Kon nie die ligging verkry nie, kyk na die toestemmingsinstellings",
+    "myLocation": "My ligging",
+    "shareLocation": "Deel ligging",
+    "getCurrentLocation": "Kry die huidige ligging",
+    "title": "Liggingnaam",
+    "description": "Gedetailleerde beskrywing",
+    "descriptionPlaceholder": "Voer asseblief 'n gedetailleerde beskrywing in (opsioneel)",
+    "preview": "Liggingvoorskou",
+    "latitude": "breedtegraad",
+    "longitude": "lengtegraad",
+    "cancel": "Kanselleer",
+    "send": "stuur",
+    "permissionPrompt": "Ons moet u liggingsinligting bekom om beter dienste te lewer, is dit toegelaat?",
+    "permissionDenied": "Posisioneringstoestemming word geweier, stel die posisioneringstoestemming in u blaaierinstellings in",
+    "locationTimeout": "Posisionerings -time -out, maak seker dat die toestel aangeskakel is en probeer om te herwin",
+    "locationUnavailable": "Die huidige ligging kan nie verkry word nie, kyk na die liggingsdiens vir toestelle"
+  }
+}

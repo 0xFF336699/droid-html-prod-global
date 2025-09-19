@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "Titelseite",
+    "me": "meins",
+    "settings": "aufstellen",
+    "script": "Skript",
+    "store": "Markt",
+    "market": "Markt",
+    "create": "erstellen"
+  },
+  "tabbar": {
+    "test": "Untere Menüleiste"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "A 'ceangal ...",
+    "connected": "Ceangailte",
+    "disconnecting": "Disconing ...",
+    "disconnected": "Gun cheangal",
+    "waitRetry": "A 'feitheamh ri ath-thogail ..."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "регистр",
+    "phoneNumber": "телефон",
+    "phoneNumberPlaceholder": "Пожалуйста, введите номер мобильного телефон",
+    "verificationCode": "Код эндификация",
+    "verificationCodePlaceholder": "Пожалуйста, введите код проверки",
+    "getVerificationCode": "Код босе проверительный код .",
+    "countdown": "{{секундс}} секунды, чтобы попробовать еще",
+    "register": "регистр",
+    "errors": {
+      "phoneRequired": "Пожалуйста, введите номер мобильного телефон",
+      "phoneInvalid": "Мобильнияб телефоналъул номералъул формат мекъи",
+      "codeRequired": "Пожалуйста, введите код проверки",
+      "codeInvalid": "Формат верификация правильно правильно",
+      "requestFailed": "гьаре",
+      "verificationFailed": "эдификациялъул код босичӀо",
+      "loginFailed": "Лъин кӀвелаан"
+    },
+    "success": {
+      "verificationCodeSent": "Проверка кода битӀана .",
+      "registerSuccess": "хъвай-хъвагӀай гьабуна"
+    }
+  }
+}

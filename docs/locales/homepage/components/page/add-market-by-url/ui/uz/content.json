@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Ushbu ilova sizning mobil telefoningizda ko'p sonli ruxsatnomalar uchun qo'llanilganligi sababli, ko'plab ruxsatnomalar juda xavfli, shuning uchun ularni bozor yoki skriptni yoki skriptni aniq bilmasdan olib qo'ymang yoki bajarmang. \"Bozor kartalarini joriy etish\" yoki \"Bozorning mustaqil veb-sahifasi\" tarkibidagi tarkibni kiritsangiz, tarkib darhol kod sifatida amalga oshiriladi. Iltimos, ehtiyot bo'ling.",
+    "setNewMarket": "Yangi bozorni o'rnating",
+    "settingPreview": "Sozlamalarni oldindan ko'rish",
+    "marketName": "Bozor nomi",
+    "marketSummary": "Bozorni joriy etish",
+    "marketDescription": "Bozorni joriy etish",
+    "itemMarket": "Bozor kartasi kirish",
+    "fullMarket": "Bozor mustaqil veb-sahifasi",
+    "marketCardPreview": "Bozor kartasini ko'rib chiqish",
+    "marketFullPreview": "Bozor mustaqil veb-sahifa oldindan ko'rish",
+    "isNotSet": "O'rnatilmagan"
+  }
+}

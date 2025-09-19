@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Alaye olumulo",
+    "id": {
+      "name": "Id",
+      "copy": "ẹda",
+      "copied": "ID ti daakọ"
+    },
+    "notLoggedIn": "Ko wọle",
+    "name": "orukọ",
+    "avatar": "avatar"
+  }
+}

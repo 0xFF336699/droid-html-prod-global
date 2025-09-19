@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "skratka",
+    "title": "Balíček a rozpoznávanie aktivít",
+    "useBtn": "využitie",
+    "closeBtn": "zatvorenie",
+    "pnLabel": "Názov balíka",
+    "copyButtonText": "kopírovať",
+    "anLabel": "činnosť",
+    "clsLable": "triedny"
+  }
+}

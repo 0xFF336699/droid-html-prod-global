@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "naslovna strana",
+    "me": "moji",
+    "settings": "postaviti",
+    "script": "scenarij",
+    "store": "tržište",
+    "market": "tržište",
+    "create": "stvoriti"
+  },
+  "tabbar": {
+    "test": "Donja traka izbornika"
+  }
+}

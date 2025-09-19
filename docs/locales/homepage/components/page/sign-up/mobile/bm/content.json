@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "tɔgɔwelekaye",
+    "phoneNumber": "Telefɔni nimɔrɔ .",
+    "phoneNumberPlaceholder": "Aw ye aw ka telefɔni selilɛri nimɔrɔ sɛbɛn .",
+    "verificationCode": "Kode sɛgɛsɛgɛli .",
+    "verificationCodePlaceholder": "Aw ye sɛgɛsɛgɛli kode sɛbɛn .",
+    "getVerificationCode": "Aw ye sɛgɛsɛgɛli kode sɔrɔ .",
+    "countdown": "{{seconds}} seginw ka a ɲini kokura .",
+    "register": "tɔgɔwelekaye",
+    "errors": {
+      "phoneRequired": "Aw ye aw ka telefɔni selilɛri nimɔrɔ sɛbɛn .",
+      "phoneInvalid": "Telefɔni selilɛri nimɔrɔ cogoya tɛ bɛn .",
+      "codeRequired": "Aw ye sɛgɛsɛgɛli kode sɛbɛn .",
+      "codeInvalid": "sɛgɛsɛgɛli kode cogoya tɛ bɛn .",
+      "requestFailed": "Demande ma se .",
+      "verificationFailed": "Verification code sɔrɔli ma ɲɛ .",
+      "loginFailed": "Login dɛsɛra ."
+    },
+    "success": {
+      "verificationCodeSent": "Verification Code (Sɛgɛsɛgɛli Kode) cilen don .",
+      "registerSuccess": "A tɔgɔ sɛbɛnna ka ɲɛ ."
+    }
+  }
+}

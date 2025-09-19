@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Search for Sodales"
+    },
+    "table": {
+      "columns": {
+        "name": "Nomen",
+        "userId": "Id usor id",
+        "actions": "agito"
+      },
+      "pagination": {
+        "rowsPerPage": "Numerus ordines per page"
+      },
+      "avatar": {
+        "alt": "Avatar"
+      },
+      "actions": {
+        "kick": "Calcitrare",
+        "ban": "PRAESTRICTUS"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Confirmare kicking socius",
+        "content": "Tu es certus vos volo ad calcitrare de membrum e locus?"
+      },
+      "ban": {
+        "title": "Confirmare interdictum membership",
+        "content": "Tu certus vis ad movebo hoc membrum? Et socius non poterit ad locum post ban."
+      },
+      "buttons": {
+        "cancel": "Inrito",
+        "confirm": "confirmo"
+      }
+    },
+    "toast": {
+      "loadError": "Deficio ad load Member List",
+      "kick": {
+        "success": "Sodales sunt calce de locus",
+        "error": "Kicking de membris defuit"
+      },
+      "ban": {
+        "success": "Membra clausus",
+        "error": "Deficio ad obstructionum membra"
+      }
+    },
+    "invite": {
+      "button": "Invitare membra",
+      "title": "Invitare membra ad iungere locus",
+      "inputLabel": "Please enter matrix user id (ut @user, matrix.org)",
+      "confirm": "invite",
+      "cancel": "Inrito",
+      "loading": "Invitant ...",
+      "success": "Invitatio misit!",
+      "error": "Invitatio defecit, placere reprehendo usor id aut Permissionibus"
+    },
+    "empty": "Nulla membrum tamen",
+    "loading": "Loading ...",
+    "role": {
+      "owner": "Homeowner",
+      "admin": "administrator",
+      "moderator": "Cooperator",
+      "user": "membrum"
+    }
+  }
+}

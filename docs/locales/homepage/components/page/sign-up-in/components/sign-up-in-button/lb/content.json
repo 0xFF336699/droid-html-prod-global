@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Login / Registréieren",
+    "signOut": "Ausloggen",
+    "confirmContent": "Sidd Dir sécher, datt Dir wëllt aloggen?",
+    "confirmTitle": "nachblëtz",
+    "confirm": "Sonndesrei",
+    "cancel": "Ofbriechen",
+    "signoutOk": "Ausloggen",
+    "loadingData": "Luede Benotzerdaten"
+  }
+}

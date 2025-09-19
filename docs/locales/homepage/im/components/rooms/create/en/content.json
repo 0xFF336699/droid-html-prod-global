@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Create a room"
+    },
+    "dialog": {
+      "title": "Create a new room",
+      "form": {
+        "userId": {
+          "label": "User ID",
+          "placeholder": "Enter the user ID (for example: @user:example.com)",
+          "error": {
+            "required": "User ID cannot be empty",
+            "invalid": "Invalid user ID format"
+          }
+        },
+        "roomName": {
+          "label": "Room name (optional)",
+          "placeholder": "Enter a room name"
+        },
+        "isEncrypted": {
+          "label": "Enable end-to-end encryption"
+        },
+        "isDirect": {
+          "label": "Direct message"
+        },
+        "topic": {
+          "label": "Theme (optional)",
+          "placeholder": "Enter the room theme"
+        }
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "create": "create"
+      },
+      "success": "Room creation successfully",
+      "error": "An error occurred while creating a room: {error}"
+    }
+  }
+}

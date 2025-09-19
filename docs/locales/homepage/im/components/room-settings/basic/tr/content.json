@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Oda adı"
+      },
+      "topic": {
+        "label": "Oda Giriş"
+      },
+      "avatar": {
+        "alt": "Oda avatarı"
+      },
+      "submit": "Ayarları Kaydet"
+    },
+    "toast": {
+      "success": "Ayarlar Güncellendi",
+      "error": {
+        "default": "Güncelleme ayarları başarısız oldu",
+        "avatar": "Avatar'ı güncelleyemedi"
+      }
+    }
+  }
+}

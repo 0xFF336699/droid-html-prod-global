@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Kambario vardas"
+      },
+      "topic": {
+        "label": "Kambario įvadas"
+      },
+      "avatar": {
+        "alt": "Kambario avataras"
+      },
+      "submit": "Išsaugoti nustatymus"
+    },
+    "toast": {
+      "success": "Nustatymai atnaujinti",
+      "error": {
+        "default": "Atnaujinimo nustatymai nepavyko",
+        "avatar": "Nepavyko atnaujinti avataro"
+      }
+    }
+  }
+}

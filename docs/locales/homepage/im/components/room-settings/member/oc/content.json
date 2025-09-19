@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Cerca de membres"
+    },
+    "table": {
+      "columns": {
+        "name": "Nom de membre",
+        "userId": "ID de l'utilizaire",
+        "actions": "explotar; realizar"
+      },
+      "pagination": {
+        "rowsPerPage": "Nombre de filas per pagina"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Faltar",
+        "ban": "Enebit"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Confirmar lo membre de còp de pè .",
+        "content": "Sètz segur que volètz far sortir lo membre de la sala?"
+      },
+      "ban": {
+        "title": "Confirmar la membresia enebida .",
+        "content": "Sètz segur que volètz enebir aquel membre? Lo membre poirà pas tornar rejónher la sala après l’interdiccion."
+      },
+      "buttons": {
+        "cancel": "Anullar",
+        "confirm": "confirmar"
+      }
+    },
+    "toast": {
+      "loadError": "Frachut a la lista dels membres de carga .",
+      "kick": {
+        "success": "Los membres son estats fotuts de la sala .",
+        "error": "Balhar de membres fracassèt ."
+      },
+      "ban": {
+        "success": "Membres blocats",
+        "error": "Fracassat als membres de blocatge ."
+      }
+    },
+    "invite": {
+      "button": "Convidar los membres",
+      "title": "Convidar los miembros a unirse a la sala .",
+      "inputLabel": "Entratz l'ID d'utilizaire de Matrix (coma @user:matritz.org)",
+      "confirm": "convidar",
+      "cancel": "Anullar",
+      "loading": "Enviar...",
+      "success": "Invitacion enviada!",
+      "error": "L'invitacion a fracassat, mercés de verificar l'ID de l'utilizaire o de las permissions ."
+    },
+    "empty": "Pas de membre encara",
+    "loading": "cargament...",
+    "role": {
+      "owner": "Proprietari",
+      "admin": "administrator",
+      "moderator": "Co-gestion",
+      "user": "afar"
+    }
+  }
+}

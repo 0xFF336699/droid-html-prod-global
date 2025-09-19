@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "Adăugați atașamente",
+    "emoji": "Selectați o expresie",
+    "placeholder": "Introduceți un mesaj ...",
+    "sendLocation": "Trimite locație",
+    "send": "trimite"
+  }
+}

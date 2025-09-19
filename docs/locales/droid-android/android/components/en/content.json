@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Cancel",
+    "ok": "Sure",
+    "checkBoxText": "Go directly to authorize within half a month and no longer display this window",
+    "content": "This function requires auxiliary function authorization. If you want to authorize, please click [OK]. If you want to give up, please click [Cancel]",
+    "title": "Authorization application"
+  },
+  "floatPermission": {
+    "cancel": "Cancel",
+    "ok": "Sure",
+    "checkBoxText": "Go directly to authorize within half a month and no longer display this window",
+    "content": "This function requires authorization of the floating window function. If you want to authorize, please click [OK]. If you want to give up, please click [Cancel]",
+    "title": "Authorization application"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "注册",
+    "phoneNumber": "手机号",
+    "phoneNumberPlaceholder": "请输入手机号",
+    "verificationCode": "验证码",
+    "verificationCodePlaceholder": "请输入验证码",
+    "getVerificationCode": "获取验证码",
+    "countdown": "{{seconds}}秒后重试",
+    "register": "注册",
+    "errors": {
+      "phoneRequired": "请输入手机号",
+      "phoneInvalid": "手机号格式不正确",
+      "codeRequired": "请输入验证码",
+      "codeInvalid": "验证码格式不正确",
+      "requestFailed": "请求失败",
+      "verificationFailed": "验证码获取失败",
+      "loginFailed": "登录失败"
+    },
+    "success": {
+      "verificationCodeSent": "验证码已发送",
+      "registerSuccess": "注册成功"
+    }
+  }
+}

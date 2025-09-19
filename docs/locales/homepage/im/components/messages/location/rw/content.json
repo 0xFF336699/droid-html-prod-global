@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Izina ryaho",
+    "viewMap": "Reba ikarita",
+    "close": "gufunga"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Mucukumbuzi iriho ntabwo ashyigikira ibibazo bya geolocation",
+    "getLocationFailed": "Kunanirwa kubona ahantu, nyamuneka reba indangagaciro",
+    "myLocation": "Aho mherereye",
+    "shareLocation": "Sangira Ahantu",
+    "getCurrentLocation": "Shakisha aho uherereye",
+    "title": "Izina ryaho",
+    "description": "Ibisobanuro birambuye",
+    "descriptionPlaceholder": "Nyamuneka andika ibisobanuro birambuye (bidashoboka)",
+    "preview": "Ikibanza",
+    "latitude": "ubunini",
+    "longitude": "Uburebure",
+    "cancel": "Guhagarika",
+    "send": "ohereza",
+    "permissionPrompt": "Tugomba kubona amakuru aharyo yo gutanga serivisi nziza, biramwemewe?",
+    "permissionDenied": "Uruhushya rwo guhakana, nyamuneka Gushoboza Uruhushya muri Igenamiterere rya mushakisha yawe",
+    "locationTimeout": "Umwanya washize, menya neza ko igikoresho gifunguye hanyuma ugerageze kubyakira",
+    "locationUnavailable": "Ikibanza kiriho ntigishobora kuboneka, nyamuneka reba serivise yigihugu"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "RoomContentV2": {
+    "waitingForLogin": "Logga in först",
+    "loadingRoomInfo": "Laddar rumsinformation ...",
+    "roomNotFound": "Rummet hittades inte"
+  }
+}

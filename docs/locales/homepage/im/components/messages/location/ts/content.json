@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Vito ra Ndhawu .",
+    "viewMap": "Vona mepe .",
+    "close": "Ku pfala ."
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Xihlamusela-marito xa sweswi a xi seketeli ku kumiwa ka geolocation .",
+    "getLocationFailed": "Ku tsandzeka ku kuma ndhawu, hi kombela u languta swiyimiso swa mpfumelelo .",
+    "myLocation": "Ndhawu ya mina .",
+    "shareLocation": "Share Ndhawu .",
+    "getCurrentLocation": "Kuma ndhawu ya sweswi .",
+    "title": "Vito ra Ndhawu .",
+    "description": "Nhlamuselo ya vuxokoxoko .",
+    "descriptionPlaceholder": "Hi kombela u nghenisa nhlamuselo ya vuxokoxoko (ya ku hlawula) .",
+    "preview": "Ndhawu ya xikombiso xa le mahlweni .",
+    "latitude": "Latitude .",
+    "longitude": "Longitude .",
+    "cancel": "Khansela",
+    "send": "rhumela",
+    "permissionPrompt": "Hi fanele ku kuma vuxokoxoko bya wena bya ndhawu ku nyika vukorhokeri byo antswa, xana swa pfumeleriwa?",
+    "permissionDenied": "Mpfumelelo wo veka xiyimo wu ariwile, hi kombela u pfumelela mpfumelelo wo veka ndhawu eka swiyimiso swa wena swa xihlamusela-marito .",
+    "locationTimeout": "Positioning timeout, tiyisisa leswaku xitirhisiwa xi pfuriwile naswona ringeta ku tlhela u kuma .",
+    "locationUnavailable": "Ndhawu ya sweswi a yi nge kumiwi, hi kombela u kambela vukorhokeri bya ndhawu ya xitirhisiwa ."
+  }
+}

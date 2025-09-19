@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "ռեստ",
+    "phoneNumber": "Հեռախոսահամար",
+    "phoneNumberPlaceholder": "Մուտքագրեք ձեր բջջային հեռախոսի համարը",
+    "verificationCode": "Ստուգման կոդ",
+    "verificationCodePlaceholder": "Մուտքագրեք հաստատման կոդը",
+    "getVerificationCode": "Ստացեք ստուգման ծածկագիրը",
+    "countdown": "{{վայրկյան}} վայրկյաններ կրկին փորձելու համար",
+    "register": "ռեստ",
+    "errors": {
+      "phoneRequired": "Մուտքագրեք ձեր բջջային հեռախոսի համարը",
+      "phoneInvalid": "Բջջային հեռախոսահամարի ձեւաչափը սխալ է",
+      "codeRequired": "Մուտքագրեք հաստատման կոդը",
+      "codeInvalid": "Ստուգման կոդի ձեւաչափը սխալ է",
+      "requestFailed": "Հայցը ձախողվեց",
+      "verificationFailed": "Ստուգման ծածկագրի ձեռքբերումը ձախողվեց",
+      "loginFailed": "Մուտքը ձախողվեց"
+    },
+    "success": {
+      "verificationCodeSent": "Ստուգման ծածկագիրը ուղարկվել է",
+      "registerSuccess": "Գրանցված հաջողությամբ"
+    }
+  }
+}

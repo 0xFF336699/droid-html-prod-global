@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Toa seaded",
+    "tabs": {
+      "basic": "Põhisätted",
+      "permission": "Loa sätted",
+      "privacy": "Privaatsuse sätted",
+      "member": "Liikmete juhtkond"
+    },
+    "loadError": "Ruumi seadete laadimine ebaõnnestus",
+    "leaveRoom": {
+      "button": "Toast väljuma",
+      "confirm": "Kas olete kindel, et soovite ruumist väljuda? Pärast väljumist ei saa te sellest toast sõnumite saamist jätkata.",
+      "success": "Väljus toast edukalt",
+      "error": "Ruumist väljumine ebaõnnestus, palun proovige uuesti"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Configurações da sala",
+    "tabs": {
+      "basic": "Configurações básicas",
+      "permission": "Configurações de permissão",
+      "privacy": "Configurações de privacidade",
+      "member": "Gerenciamento de membros"
+    },
+    "loadError": "Falha ao carregar as configurações da sala",
+    "leaveRoom": {
+      "button": "Saia da sala",
+      "confirm": "Tem certeza de que deseja sair da sala? Depois de sair, você não poderá continuar recebendo mensagens desta sala.",
+      "success": "Saiu da sala com sucesso",
+      "error": "Falha ao sair da sala, tente novamente"
+    }
+  }
+}

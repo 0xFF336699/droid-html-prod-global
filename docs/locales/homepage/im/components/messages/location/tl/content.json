@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Pangalan ng Lokasyon",
+    "viewMap": "Tingnan ang mapa",
+    "close": "pagsasara"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Ang kasalukuyang browser ay hindi sumusuporta sa pagkuha ng geolocation",
+    "getLocationFailed": "Nabigong makuha ang lokasyon, mangyaring suriin ang mga setting ng pahintulot",
+    "myLocation": "Ang lokasyon ko",
+    "shareLocation": "Ibahagi ang lokasyon",
+    "getCurrentLocation": "Kunin ang kasalukuyang lokasyon",
+    "title": "Pangalan ng Lokasyon",
+    "description": "Detalyadong paglalarawan",
+    "descriptionPlaceholder": "Mangyaring magpasok ng isang detalyadong paglalarawan (opsyonal)",
+    "preview": "Preview ng lokasyon",
+    "latitude": "latitude",
+    "longitude": "Longitude",
+    "cancel": "Kanselahin",
+    "send": "ipadala",
+    "permissionPrompt": "Kailangan naming makuha ang iyong impormasyon sa lokasyon upang magbigay ng mas mahusay na mga serbisyo, pinapayagan ba ito?",
+    "permissionDenied": "Ang pahintulot sa pagpoposisyon ay tinanggihan, mangyaring paganahin ang pahintulot sa pagpoposisyon sa iyong mga setting ng browser",
+    "locationTimeout": "Pagpoposisyon ng oras, siguraduhin na ang aparato ay naka -on at subukang mag -reacquire",
+    "locationUnavailable": "Hindi makuha ang kasalukuyang lokasyon, mangyaring suriin ang serbisyo ng lokasyon ng aparato"
+  }
+}

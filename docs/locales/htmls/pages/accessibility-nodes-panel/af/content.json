@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Toeganklikheid koppelvlakbesigtiging",
+    "howToUse": "Instruksies vir gebruik",
+    "howToUseTooltip": "Hieronder is 'n paar merkkenmerke van hierdie node wat gebruik kan word om bewerkings te kies, soos klik, invul, ens.\n\nDie attribuutwaarde kan op die app -bladsy gedupliseer word. As u duplikate teëkom, moet u ander attribuutkeuses oortrek om die uniekheid te bepaal.\n\n'N Rooi woord dui aan dat die attribuutwaarde herhaal word, 'n groen woord dui aan dat die attribuutwaarde uniek is in die huidige bladsy -soektog, en 'n swart woord dui aan dat daar geen herhaalde vergelyking is nie.",
+    "otherNodesSummary": "Ander nodusse op hierdie plek",
+    "moreNodes": "Hier is wat uitgebrei word.",
+    "nodeInfoDialogOkButton": "Wysig die werking van hierdie node",
+    "text": "Teks 2222"
+  }
+}

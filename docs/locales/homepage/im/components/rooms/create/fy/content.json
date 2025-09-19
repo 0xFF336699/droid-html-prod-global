@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Meitsje in keamer"
+    },
+    "dialog": {
+      "title": "Meitsje in nije keamer",
+      "form": {
+        "userId": {
+          "label": "Brûker-ID",
+          "placeholder": "Fier de brûkers-ID yn (bygelyks: @USER: FIORM.COM)",
+          "error": {
+            "required": "Brûker-ID kin net leech wêze",
+            "invalid": "Unjildich brûkers-ID-formaat"
+          }
+        },
+        "roomName": {
+          "label": "Keamer Namme (opsjoneel)",
+          "placeholder": "Fier in keamernamme yn"
+        },
+        "isEncrypted": {
+          "label": "Ynskeakelje en-oan-ein-fersifering ynskeakelje"
+        },
+        "isDirect": {
+          "label": "Direkt berjocht"
+        },
+        "topic": {
+          "label": "Tema (opsjoneel)",
+          "placeholder": "Fier it keamer tema yn"
+        }
+      },
+      "actions": {
+        "cancel": "Opheffe",
+        "create": "meitsje"
+      },
+      "success": "Keamermeisje mei súkses",
+      "error": "In flater barde by it meitsjen fan in keamer: {ERROR}"
+    }
+  }
+}

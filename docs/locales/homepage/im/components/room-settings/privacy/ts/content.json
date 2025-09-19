@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Kamara ra mani na mani .",
+        "description": "Tikamara ta mani na mani ti nga laviwa hi vatirhisi van’wana ."
+      },
+      "allowGuestJoin": {
+        "label": "Pfumelela vaendzi ku joyina .",
+        "description": "Pfumelela vatirhisi lava nga tsarisiwangiki ku joyina kamara tanihi muendzi ."
+      },
+      "isEncrypted": {
+        "label": "Endla leswaku ku va ni ku fihla ka makumu ku ya eka makumu .",
+        "description": "Loko swi tirhisiwa, marungula lama nga ekamareni ma ta va ma pfaleriwe hi makumu ku ya fika emakumu .",
+        "alert": "Ku fihla ka makumu ku ya emakumu ku tirhisiwa ekamareni, naswona xiyimiso lexi a xi nge timiwi."
+      },
+      "submit": "Hlayisa Switirhisiwa Swa Vuhlayiseki ."
+    },
+    "toast": {
+      "success": "Switirhisiwa swa vuhlayiseki swi pfuxetiwile .",
+      "error": "Ku tsandzekile ku pfuxeta swiyimiso swa vuhlayiseki ."
+    }
+  }
+}

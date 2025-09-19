@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "motif URL",
+    "full": {
+      "url": "URL ci marse bi. Personaas yi ci dugg dina ñu ko sargal ni URL, nga moytu leen.",
+      "html": "Ëmbiitu HTML ci marse bi. Personaas yi ci biir dañu leen di def ci saasi ni script, nga moytu leen.",
+      "come": "ñëw ci sama",
+      "myMarketName": "Turu marse",
+      "stroll": "Nanga am aw doxantu"
+    },
+    "item": {
+      "url": "URL kartu marse. Personaas yi ci dugg dina ñu ko sargal ni URL, nga moytu leen.",
+      "html": "Ëmbiitu HTML ci marse bi. Personaas yi ci biir dañu leen di def ci saasi ni script, nga moytu leen.",
+      "come": "ñëw ci sama",
+      "myMarketName": "Turu marse",
+      "stroll": "Nanga am aw doxantu"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Kamernaam"
+      },
+      "topic": {
+        "label": "Kamerintroductie"
+      },
+      "avatar": {
+        "alt": "Kamer avatar"
+      },
+      "submit": "Instellingen opslaan"
+    },
+    "toast": {
+      "success": "Instellingen bijgewerkt",
+      "error": {
+        "default": "Update -instellingen zijn mislukt",
+        "avatar": "Kan Avatar niet bijwerken"
+      }
+    }
+  }
+}

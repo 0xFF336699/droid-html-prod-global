@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Бетерү",
+    "confirm": "Ышанычлы",
+    "title": "ишарә",
+    "content": "Сез моны эшләргә телисезме?"
+  },
+  "EditableText": {
+    "cancel": "Бетерү",
+    "save": "саклагыз",
+    "title": "үзгәртү"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Njimma jamaye",
+        "description": "Njimma jamayedə am gadeye kulassayin"
+      },
+      "allowGuestJoin": {
+        "label": "hurratasodə istat kumba sodə kəltayin",
+        "description": "Am faidatəmaso rajista'a kolzə njimdəro kəlta kəsoto ro"
+      },
+      "isEncrypted": {
+        "label": "Dareram-dareram-dareramro encryption",
+        "description": "Loktu shiga tǝkkǝnaro waljiya, kawuliwa suro njimdǝben dagǝnadǝ encrypted ro waljin.",
+        "alert": "End-to-end encryption də suro njim dəyen tədin, kuru na adə raktə təmzayin ba."
+      },
+      "submit": "Settings sirrabe Savebe"
+    },
+    "toast": {
+      "success": "Settings privacybedə bəlintəgəna",
+      "error": "Settings sirribe bəlintəgəro terəna"
+    }
+  }
+}

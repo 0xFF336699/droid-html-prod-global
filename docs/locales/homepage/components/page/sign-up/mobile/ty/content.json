@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "rēhiti",
+    "phoneNumber": "te mau numera'a",
+    "phoneNumberPlaceholder": "A tomo na i roto i ta outou niuniu afa'ifa'i",
+    "verificationCode": "Hi'opo'a",
+    "verificationCodePlaceholder": "A hi'o na i te waehere haapapûraa",
+    "getVerificationCode": "A rave i te waehere hi'opo'araa",
+    "countdown": "{{te mau hi'opo'araa}} tetoni no te tamata faahou",
+    "register": "rēhiti",
+    "errors": {
+      "phoneRequired": "A tomo na i roto i ta outou niuniu afa'ifa'i",
+      "phoneInvalid": "E mea hape te hoho'a niuniu afa'ifa'i e te mau niuniu afa'ifa'i",
+      "codeRequired": "A hi'o na i te waehere haapapûraa",
+      "codeInvalid": "E mea hape te huru o te code no te hi'opo'araa",
+      "requestFailed": "Aita i manuïa",
+      "verificationFailed": "Aita te hooraa i te mau ture i manuïa",
+      "loginFailed": "Aita i manuïa a'e"
+    },
+    "success": {
+      "verificationCodeSent": "Ua tonohia te waehere no te faataa i te mau",
+      "registerSuccess": "Ua manuïa maitai te reira"
+    }
+  }
+}

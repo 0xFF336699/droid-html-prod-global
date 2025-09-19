@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "የፊት ገጽ",
+    "me": "የኔ",
+    "settings": "ማዋቀር",
+    "script": "ስክሪፕት",
+    "store": "ገበያ",
+    "market": "ገበያ",
+    "create": "ፍጠር"
+  },
+  "tabbar": {
+    "test": "የታችኛው ምናሌ አሞሌ"
+  }
+}

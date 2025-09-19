@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "إضافة المرفقات",
+    "emoji": "حدد تعبيرًا",
+    "placeholder": "أدخل رسالة ...",
+    "sendLocation": "إرسال الموقع",
+    "send": "يرسل"
+  }
+}

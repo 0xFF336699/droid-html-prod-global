@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Nom de la ubicació",
+    "viewMap": "Consulteu el mapa",
+    "close": "clausura"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "El navegador actual no admet l’adquisició de geolocalització",
+    "getLocationFailed": "No s'ha pogut obtenir la ubicació, comproveu la configuració de permís",
+    "myLocation": "La meva ubicació",
+    "shareLocation": "Comparteix la ubicació",
+    "getCurrentLocation": "Obteniu la ubicació actual",
+    "title": "Nom de la ubicació",
+    "description": "Descripció detallada",
+    "descriptionPlaceholder": "Introduïu una descripció detallada (opcional)",
+    "preview": "Vista prèvia de la ubicació",
+    "latitude": "latitud",
+    "longitude": "longitud",
+    "cancel": "Cancel·lar",
+    "send": "enviar",
+    "permissionPrompt": "Hem d’obtenir la informació d’ubicació per proporcionar millors serveis, està permès?",
+    "permissionDenied": "Es denega el permís de posicionament, permeteu el permís de posicionament a la configuració del navegador",
+    "locationTimeout": "Temps de posicionament, assegureu -vos que el dispositiu estigui encès i intenteu obtenir un rendiment",
+    "locationUnavailable": "No es pot obtenir la ubicació actual, comproveu el servei d'ubicació del dispositiu"
+  }
+}

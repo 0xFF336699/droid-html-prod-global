@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Annulla",
+    "confirm": "SIUTU",
+    "title": "suggerimentu",
+    "content": "Hè sicura chì vulete fà questu?"
+  },
+  "EditableText": {
+    "cancel": "Annulla",
+    "save": "salvata",
+    "title": "edità"
+  }
+}

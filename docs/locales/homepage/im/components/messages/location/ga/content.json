@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Ainm suímh",
+    "viewMap": "Féach ar an léarscáil",
+    "close": "dúnadh"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Ní thacaíonn an brabhsálaí reatha le sealbhú geolocation",
+    "getLocationFailed": "Theip ar an suíomh a fháil, seiceáil na socruithe ceada",
+    "myLocation": "Mo Suíomh",
+    "shareLocation": "Suíomh Comhroinnte",
+    "getCurrentLocation": "Faigh an suíomh reatha",
+    "title": "Ainm suímh",
+    "description": "Cur síos mionsonraithe",
+    "descriptionPlaceholder": "Iontráil tuairisc mhionsonraithe (roghnach) le do thoil",
+    "preview": "Réamhamharc suímh",
+    "latitude": "domhanleithead",
+    "longitude": "domhanfhad",
+    "cancel": "Cealaigh",
+    "send": "seol",
+    "permissionPrompt": "Ní mór dúinn do chuid faisnéise suímh a fháil chun seirbhísí níos fearr a sholáthar, an gceadaítear é?",
+    "permissionDenied": "Diúltaítear cead suiteála, cuir ar chumas cead suímh i do shuíomhanna brabhsálaí le do thoil",
+    "locationTimeout": "Teorainn ama a shuíomh, déan cinnte go ndéantar an gléas a chasadh air agus déan iarracht é a athmhúnlú",
+    "locationUnavailable": "Ní féidir an suíomh reatha a fháil, seiceáil an tseirbhís suíomh feiste le do thoil"
+  }
+}

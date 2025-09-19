@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Ainm an t-seòmair"
+      },
+      "topic": {
+        "label": "Ro-ràdh rùm"
+      },
+      "avatar": {
+        "alt": "Avatar seòmar"
+      },
+      "submit": "Sàbhail Roghainnean"
+    },
+    "toast": {
+      "success": "Roghainnean air an ùrachadh",
+      "error": {
+        "default": "Dh'fhàillig roghainnean ùrachadh",
+        "avatar": "Dh'fhàillig ùrachadh avatar ùrachadh"
+      }
+    }
+  }
+}

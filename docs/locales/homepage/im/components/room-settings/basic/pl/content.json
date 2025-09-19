@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Nazwa pokoju"
+      },
+      "topic": {
+        "label": "Wprowadzenie do pokoju"
+      },
+      "avatar": {
+        "alt": "Awatar pokoju"
+      },
+      "submit": "Zapisz ustawienia"
+    },
+    "toast": {
+      "success": "Ustawienia zaktualizowane",
+      "error": {
+        "default": "Ustawienia aktualizacji nie powiodły się",
+        "avatar": "Nie udało się zaktualizować awatara"
+      }
+    }
+  }
+}

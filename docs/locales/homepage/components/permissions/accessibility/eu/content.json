@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Funtzio osagarriak",
+    "pass": "Baimendu",
+    "notPass": "Ez baimendu",
+    "setting": "konfiguratu",
+    "danger": "Arrisku",
+    "dangerDesc": "Baimen honek edukia pantailan ikus dezake eta telefonoan klik egin dezake. Desgaitu baimen hau exekutatzen ari zaren edo exekutatzen ari zaren gidoiaren funtzionaltasuna eta arriskuak modu esplizituki ulertzen ez badituzu."
+  }
+}

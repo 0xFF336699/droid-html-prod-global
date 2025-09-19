@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Imisebenzi Eyisisekelo",
+    "pass": "Igunyaziwe",
+    "notPass": "-Ngaphandle kwemvume",
+    "setting": "Setha",
+    "danger": "Ingozi",
+    "dangerDesc": "Lokhu kugunyazwa kungabona okuqukethwe esikrinini bese uqhafaza kwifoni yakho. Disable this permission if you do not explicitly understand the functionality and risks of the script you are running or will be running."
+  }
+}

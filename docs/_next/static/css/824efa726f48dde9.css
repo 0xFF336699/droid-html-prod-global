@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  nextjs-portal {
+    display: none;
+  }
+.js-script-code{-webkit-text-decoration:underline red 1px;text-decoration:underline red 1px}.js-comment{font-size:1rem}.js-script-background{padding:1rem;background-color:#f8f8ff;border:1px solid #ccc}.anchor-animation-enter{animation-duration:3s;animation-name:slidein}@keyframes slidein{from{margin-left:100%;width:100%}to{margin-left:0%;width:100%}}*{scroll-margin-top:6rem}html,body{margin:0;height:100%}.autoImage{max-width:100%}.doc-variable-text{font-weight:bold;background-color:#ccc;padding:.2rem;border-radius:.2rem}body [data-nextjs-toast]{display:none !important}.next-error-hide{display:none !important}body{overflow:auto !important;padding-right:0 !important}
+
+/*# sourceMappingURL=824efa726f48dde9.css.map*/

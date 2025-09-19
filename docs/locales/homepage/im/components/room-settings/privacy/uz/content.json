@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Jamoat xonasi",
+        "description": "Xalq xonalari boshqa foydalanuvchilar tomonidan tintuv qilish mumkin"
+      },
+      "allowGuestJoin": {
+        "label": "Tashrif buyuruvchilarga qo'shilishiga ruxsat bering",
+        "description": "Ro'yxatdan o'tmagan foydalanuvchilarga xonaga mehmon sifatida qo'shilishga ruxsat bering"
+      },
+      "isEncrypted": {
+        "label": "End-ni oxirigacha shifrlashni yoqing",
+        "description": "Xonadagi xabarlar yoqilganda shifrlangan oxir-oqibat bo'ladi",
+        "alert": "Xonada oxir-oqibat shifrlash yoqilgan va ushbu sozlama o'chirib bo'lmaydi."
+      },
+      "submit": "Maxfiylik sozlamalarini saqlang"
+    },
+    "toast": {
+      "success": "Maxfiylik sozlamalari yangilandi",
+      "error": "Maxfiylik sozlamalarini yangilay olmadi"
+    }
+  }
+}

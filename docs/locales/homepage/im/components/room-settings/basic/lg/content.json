@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Erinnya ly'ekisenge ."
+      },
+      "topic": {
+        "label": "Ekisenge Enyanjula ."
+      },
+      "avatar": {
+        "alt": "Ekisenge Avatar ."
+      },
+      "submit": "Teeka ensengeka ."
+    },
+    "toast": {
+      "success": "Enteekateeka zitereezeddwa .",
+      "error": {
+        "default": "Ensengeka z'okulongoosa ziremeddwa .",
+        "avatar": "Kiremeddwa okutereeza Avatar ."
+      }
+    }
+  }
+}

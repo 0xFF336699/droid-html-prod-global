@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Dala igumbi"
+    },
+    "dialog": {
+      "title": "Dala igumbi lelisha",
+      "form": {
+        "userId": {
+          "label": "ID Yemsebentisi",
+          "placeholder": "Faka ID yemsebentisi (sibonelo: @user:sibonelo)",
+          "error": {
+            "required": "ID yemsebentisi angeke ibe yintfo lengenalutfo",
+            "invalid": "Ifomethi ye-ID yemsebentisi lengasebenti"
+          }
+        },
+        "roomName": {
+          "label": "Ligama leligumbi (lelingakhetsa)",
+          "placeholder": "Faka ligama leligumbi"
+        },
+        "isEncrypted": {
+          "label": "Vumela ninika kubhala phansi kuya ekugcineni"
+        },
+        "isDirect": {
+          "label": "Umlayeto locondzile"
+        },
+        "topic": {
+          "label": "Ingcikitsi (ngekukhetsa)",
+          "placeholder": "Ngena ingcikitsi yegumbi"
+        }
+      },
+      "actions": {
+        "cancel": "Khansela",
+        "create": "sungula"
+      },
+      "success": "Kudala emagumbini ngemphumelelo",
+      "error": "Kwenteka liphutsa ngesikhatsi udala igumbi: {liphutsa}"
+    }
+  }
+}

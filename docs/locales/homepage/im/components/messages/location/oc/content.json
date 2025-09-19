@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Localizacion nombre",
+    "viewMap": "Vejatz lo mapa",
+    "close": "barradura; barrar"
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Lo navigador actual pren pas en carga l'aquisicion de la geolocalizacion .",
+    "getLocationFailed": "Fracassat per obténer l'emplaçament, mercés de verificar los paramètres de permission",
+    "myLocation": "Mon emplaçament",
+    "shareLocation": "localizacion de partatge",
+    "getCurrentLocation": "Obtener la ubicacion actual",
+    "title": "Localizacion nombre",
+    "description": "Descripcion detalhada",
+    "descriptionPlaceholder": "Por favor introduzca una descripcion detallada (opcional)",
+    "preview": "Apercebut de localizacion",
+    "latitude": "latitud",
+    "longitude": "longitud",
+    "cancel": "Anullar",
+    "send": "mandar",
+    "permissionPrompt": "Nos cal obténer vòstras informacions de localizacion per provesir de melhors servicis, es permés?",
+    "permissionDenied": "La permission de posicionacion es negada, mercés d'activar lo permís de Posicionacion dins vòstres paramètres del navigador .",
+    "locationTimeout": "Posicionar l'espèra, asseguratz-vos que lo periferic es activat e ensajatz de reaquesir .",
+    "locationUnavailable": "L'emplaçament actual pòt pas èsser obtengut, mercés de verificar lo servici d'emplaçament del periferic"
+  }
+}

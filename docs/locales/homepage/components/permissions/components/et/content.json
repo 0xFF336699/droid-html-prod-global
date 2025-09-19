@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Volitatud",
+    "notPass": "Volitamata",
+    "danger": "Oht",
+    "setting": "püstitama"
+  }
+}

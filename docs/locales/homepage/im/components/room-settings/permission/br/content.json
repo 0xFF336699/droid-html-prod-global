@@ -1,0 +1,32 @@
+{
+  "PermissionSettingsContent": {
+    "form": {
+      "sendMessages": {
+        "label": "Al live aotreoù ret evit kas ur gemennadenn .",
+        "tooltip": "0 a dalvez e c'hall an holl izili kas kemennadennoù, ha brasoc'h eo an niver a dalvez e vez ezhomm eus aotreoù uheloc'h ."
+      },
+      "invite": {
+        "label": "Live an aotreoù ret evit pediñ izili nevez",
+        "tooltip": "Lakaat piv a c'hell pediñ izili nevez d'ar sal ."
+      },
+      "kick": {
+        "label": "Kick out al live aotreoù ret",
+        "tooltip": "Lakaat piv a c'hell lakaat izili ar sal da vont er-maez"
+      },
+      "ban": {
+        "label": "Live an aotreoù ret evit stankañ an izili",
+        "tooltip": "Lakaat piv a c'hell stankañ izili ar sal"
+      },
+      "roomSettings": {
+        "label": "Kemmañ al live aotreoù ret evit arventennoù ar sal",
+        "tooltip": "Lakaat piv a c'hell kemmañ arventennoù ar sal"
+      },
+      "submit": "Enrollañ arventennoù an aotre"
+    },
+    "description": "Rann live an aotre : 0-100, brasoc'h eo an niver a dalvez aotreoù uheloc'h",
+    "toast": {
+      "success": "Hizivaet eo bet arventennoù an aotre",
+      "error": "C'hwitet en deus da hizivaat arventennoù an aotreoù"
+    }
+  }
+}

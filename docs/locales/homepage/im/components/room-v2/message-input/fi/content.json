@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "Lisää liitteet",
+    "emoji": "Valitse lauseke",
+    "placeholder": "Kirjoita viesti ...",
+    "sendLocation": "Lähettää sijainti",
+    "send": "lähettää"
+  }
+}

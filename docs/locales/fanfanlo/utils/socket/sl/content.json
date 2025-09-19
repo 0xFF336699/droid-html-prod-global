@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Povezovanje ...",
+    "connected": "Povezan",
+    "disconnecting": "Odklop ...",
+    "disconnected": "Ni povezan",
+    "waitRetry": "Čakanje na ponovno povezavo ..."
+  }
+}

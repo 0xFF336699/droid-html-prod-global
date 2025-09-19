@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Bi ve girêdayî bimînin",
+        "helperText": "Heke hûn li ser zencîreya destpêkirinê bikirtînin, wê hingê girêdan bigirin. Vê hewceyê balê bikişîne ku girêdan piştî ku ew veqetandî ye dê bi domdarî were paşguh kirin.",
+        "retryCount": "Hejmara Reconnections"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "URL Link, Mînak WS: //192.168.0.2: 7001, an WWS: //example.com/path",
+        "error": "URL ya rastîn URL-ê bi WS re dest pê dike: // an WWS: //"
+      }
+    },
+    "connectButton": {
+      "connect": "bihevgirêdan",
+      "disconnect": "Hevqetandin",
+      "status": {
+        "connecting": "Girêdan ...",
+        "connected": "Ve girêdayî ye",
+        "disconnecting": "Disconnecting ...",
+        "disconnected": "Ne girêdayî ye",
+        "waitRetry": "Li benda Reconnection ..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "nivîs"
+  }
+}

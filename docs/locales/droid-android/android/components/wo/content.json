@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Bàyyi",
+    "ok": "Wóor",
+    "checkBoxText": "Demal ci saasi ngir am ndigal ci diiru genn-wàllu weer te doo gis palanteer bii",
+    "content": "Fonction bii dafay laaj nga may fonctionnement uneliaire bi. Soo bëggee nangu, bësal [OK]. Soo bëggee bàyyi, bësal [Cancel]",
+    "title": "aplikaasioŋu may"
+  },
+  "floatPermission": {
+    "cancel": "Bàyyi",
+    "ok": "Wóor",
+    "checkBoxText": "Demal ci saasi ngir am ndigal ci diiru genn-wàllu weer te doo gis palanteer bii",
+    "content": "Fonction bii dafay laaj nga may fonction palanteer biy féey. Soo bëggee nangu, bësal [OK]. Soo bëggee bàyyi, bësal [Cancel]",
+    "title": "aplikaasioŋu may"
+  }
+}

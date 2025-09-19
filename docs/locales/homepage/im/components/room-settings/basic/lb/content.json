@@ -1,0 +1,23 @@
+{
+  "BasicSettingsContent": {
+    "form": {
+      "name": {
+        "label": "Zazatioun"
+      },
+      "topic": {
+        "label": "Raum Aféierung"
+      },
+      "avatar": {
+        "alt": "Raum Avatar"
+      },
+      "submit": "Späichert Astellungen"
+    },
+    "toast": {
+      "success": "Settytatiouns-Uschloss un",
+      "error": {
+        "default": "Update Astellunge gescheitert",
+        "avatar": "De Avatar ass net aktualiséiert"
+      }
+    }
+  }
+}

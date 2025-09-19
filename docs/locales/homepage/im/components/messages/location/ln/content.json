@@ -1,0 +1,26 @@
+{
+  "LocationMessage": {
+    "title": "Kombo ya esika .",
+    "viewMap": "Tala karte .",
+    "close": "Bokangami ."
+  },
+  "LocationPicker": {
+    "geolocationNotSupported": "Navigateur ya lelo esimbaka te acquisition ya géolocalisation .",
+    "getLocationFailed": "Elongi te kozwa esika yango, tosɛngi yo otala ba paramètres ya ndingisa .",
+    "myLocation": "Esika na ngai .",
+    "shareLocation": "Bokabola esika .",
+    "getCurrentLocation": "Bozua esika ya lelo .",
+    "title": "Kombo ya esika .",
+    "description": "Bolimbisi ya sikisiki .",
+    "descriptionPlaceholder": "Svp kotisa ndimbola ya sikisiki (ekoki kozala) .",
+    "preview": "Esika ya liboso ya kotala esika .",
+    "latitude": "Latitude .",
+    "longitude": "Longitude .",
+    "cancel": "Kolongola",
+    "send": "kotinda",
+    "permissionPrompt": "Tosengeli kozwa ba sango ya esika ozali mpo na kopesa misala ya malamu koleka, ezali na nzela?",
+    "permissionDenied": "Ndingisa ya positionnement eboyami, s’il vous plaît activer permission ya positionnement na ba paramètres ya navigateur na yo .",
+    "locationTimeout": "Positionnement Timeout, sala que appareil efungolama pe meka ko réacquire .",
+    "locationUnavailable": "Esika ya lelo ekoki kozwama te, tosengi otala service ya esika ya dispositif ."
+  }
+}

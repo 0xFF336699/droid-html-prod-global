@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Cette fonction peut effectuer des opérations similaires aux opérations de la personne réelle, y compris, mais sans s'y limiter, cliquer, ouvrir des applications, etc. sur votre téléphone, et peut également ouvrir certaines demandes de paiement pour le paiement. Parce qu'il y a des risques d'être enregistrés, effectuant des paiements, etc., nous vous recommandons fortement de l'exécuter uniquement si vous comprenez pleinement le contenu du script.",
+    "txt2": "Comment fermer cette fonction: ouvrez la page d'accueil de cette application, vous pouvez arrêter d'utiliser la fonction auxiliaire dans les paramètres de la page d'accueil, ou vous pouvez cliquer sur le bouton \"Fermer toutes les tâches et quitter\" sur la page d'accueil. Ce bouton force la clôture de toutes les tâches exécutées et forcent la fermeture de cette application.",
+    "txt3": "La raison pour laquelle nous utilisons cette fonction est que notre application doit avoir la possibilité d'ouvrir d'autres applications et de les contrôler, par exemple lors de la navigation sur Instagram, elle peut automatiquement glisser après la lecture de la vidéo, vérifiez si un produit est en vente et envoyer des messages à des amis en ligne régulièrement, etc., qui sont des opérations intéressantes ou de sauvetage.",
+    "iKnowDanger": "Je connais les risques - allez pour régler",
+    "title": "Opérations dangereuses"
+  }
+}

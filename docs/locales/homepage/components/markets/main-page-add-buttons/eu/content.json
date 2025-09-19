@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Gehitu",
+    "sub": {
+      "addScriptByUrl": "Gehitu scriptak URL bidez",
+      "addScriptByText": "Gehitu gidoiak testuaren bidez",
+      "addMarket": "Gehitu merkatua URL bidez",
+      "addMarketByText": "Gehitu merkatua testuaren bidez"
+    }
+  }
+}

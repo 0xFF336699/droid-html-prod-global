@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "搜索成員"
+    },
+    "table": {
+      "columns": {
+        "name": "成員名稱",
+        "userId": "用戶ID",
+        "actions": "操作"
+      },
+      "pagination": {
+        "rowsPerPage": "每頁行數"
+      },
+      "avatar": {
+        "alt": "頭像"
+      },
+      "actions": {
+        "kick": "踢出",
+        "ban": "封禁"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "確認踢出成員",
+        "content": "確定要將該成員踢出房間嗎？"
+      },
+      "ban": {
+        "title": "確認封禁成員",
+        "content": "確定要封禁該成員嗎？封禁後該成員將無法重新加入房間。"
+      },
+      "buttons": {
+        "cancel": "取消",
+        "confirm": "確認"
+      }
+    },
+    "toast": {
+      "loadError": "加載成員列表失敗",
+      "kick": {
+        "success": "已將成員踢出房間",
+        "error": "踢出成員失敗"
+      },
+      "ban": {
+        "success": "已封禁成員",
+        "error": "封禁成員失敗"
+      }
+    },
+    "invite": {
+      "button": "邀請成員",
+      "title": "邀請成員加入房間",
+      "inputLabel": "請輸入 Matrix 用戶ID（如 @user:matrix.org）",
+      "confirm": "邀請",
+      "cancel": "取消",
+      "loading": "邀請中...",
+      "success": "邀請已發送！",
+      "error": "邀請失敗，請檢查用戶ID或權限"
+    },
+    "empty": "暫無成員",
+    "loading": "載入中...",
+    "role": {
+      "owner": "房主",
+      "admin": "管理員",
+      "moderator": "協管",
+      "user": "成員"
+    }
+  }
+}

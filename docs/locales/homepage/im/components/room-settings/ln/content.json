@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Paramètres ya chambre .",
+    "tabs": {
+      "basic": "Ba paramètres ya base .",
+      "permission": "Ba paramètres ya ndingisa .",
+      "privacy": "Paramètres ya makambo ya moto ye moko .",
+      "member": "Bokambami ya bandimi ."
+    },
+    "loadError": "Elongi te ko charger ba paramètres ya chambre .",
+    "leaveRoom": {
+      "button": "Bima na chambre .",
+      "confirm": "Ozali na ntembe te ete olingi kobima na shambre? Nsima ya kobima, okozala na likoki te ya kokoba kozwa bansango oyo euti na shambre oyo.",
+      "success": "Abimaki na shambre na elonga .",
+      "error": "Elongaki te kobima na shambre, tosɛngi yo omeka lisusu ."
+    }
+  }
+}

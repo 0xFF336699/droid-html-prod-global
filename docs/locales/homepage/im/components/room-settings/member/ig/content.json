@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Choo ndi otu"
+    },
+    "table": {
+      "columns": {
+        "name": "Otu aha",
+        "userId": "Njirimara Onye Ọrụ",
+        "actions": "igwo"
+      },
+      "pagination": {
+        "rowsPerPage": "Onu ogugu nke ahịrị"
+      },
+      "avatar": {
+        "alt": "avata"
+      },
+      "actions": {
+        "kick": "Pụọ",
+        "ban": "Mmachichi"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Kwenye onye na-agba akwụkwọ",
+        "content": "Ì ji n'aka na ịchọrọ ka ịgba bọọlụ n'ime ụlọ ahụ?"
+      },
+      "ban": {
+        "title": "Kwenye otu ndị amachibidoro iwu",
+        "content": "Ì ji n'aka na ịchọrọ ị machibido onye otu a? Onye otu ahụ agaghị enwe ike ị rejoụlọ ahụ mgbe mmachibido iwu ahụ gasịrị."
+      },
+      "buttons": {
+        "cancel": "Ikansulu",
+        "confirm": "ikwete"
+      }
+    },
+    "toast": {
+      "loadError": "Emeghị ka ibu ndepụta otu",
+      "kick": {
+        "success": "A chụpụ ndị otu n'ime ụlọ ahụ",
+        "error": "Na-agba ndị mmadụ kụrụ afọ n'ala"
+      },
+      "ban": {
+        "success": "Ndị otu gbochiri",
+        "error": "Emeghị ndị otu"
+      }
+    },
+    "invite": {
+      "button": "Kpọọ ndị otu",
+      "title": "Kpọọ ndị otu ka ha sonyere n'ime ụlọ ahụ",
+      "inputLabel": "Biko tinye onye ọrụ Matrix (dịka @uster: Matrix.org)",
+      "confirm": "ikpo oku",
+      "cancel": "Ikansulu",
+      "loading": "Na-akpọ ...",
+      "success": "Zitere oku!",
+      "error": "Ọkpụkpọ na-ada, biko lelee njirimara onye ọrụ ma ọ bụ ikikere"
+    },
+    "empty": "Onweghi onye obula",
+    "loading": "Na-eburu ...",
+    "role": {
+      "owner": "Onye nwe ulo",
+      "admin": "onye ochichi",
+      "moderator": "Njikwa",
+      "user": "otu"
+    }
+  }
+}

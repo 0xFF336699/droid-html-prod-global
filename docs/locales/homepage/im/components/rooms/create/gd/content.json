@@ -1,0 +1,40 @@
+{
+  "CreateRoomButton": {
+    "button": {
+      "name": "Cruthaich seòmar"
+    },
+    "dialog": {
+      "title": "Cruthaich seòmar ùr",
+      "form": {
+        "userId": {
+          "label": "ID cleachdaiche",
+          "placeholder": "Cuir a-steach ID a 'chleachdaiche (mar eisimpleir: @USER: Eisimpleir.com)",
+          "error": {
+            "required": "Chan urrainn ID cleachdaiche a bhith falamh",
+            "invalid": "Cruth ID cleachdaiche mì-dhligheach"
+          }
+        },
+        "roomName": {
+          "label": "Ainm seòmar (roghainneil)",
+          "placeholder": "Cuir a-steach ainm seòmar"
+        },
+        "isEncrypted": {
+          "label": "Dèan comas air crioptachadh deireadh a 'ghràin"
+        },
+        "isDirect": {
+          "label": "Teachdaireachd dhìreach"
+        },
+        "topic": {
+          "label": "Cuspair (roghainneil)",
+          "placeholder": "Cuir a-steach Cuspair an t-seòmair"
+        }
+      },
+      "actions": {
+        "cancel": "Sguir dheth",
+        "create": "cruthaich"
+      },
+      "success": "Cruthachadh Seòmar gu soirbheachail",
+      "error": "Thachair mearachd fhad 's a bha e a' cruthachadh seòmar: {mearachd}"
+    }
+  }
+}

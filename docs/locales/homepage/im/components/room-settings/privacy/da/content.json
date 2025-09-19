@@ -1,0 +1,24 @@
+{
+  "PrivacySettingsContent": {
+    "form": {
+      "isPublic": {
+        "label": "Offentligt værelse",
+        "description": "Offentlige værelser kan søges af andre brugere"
+      },
+      "allowGuestJoin": {
+        "label": "Tillad besøgende at deltage",
+        "description": "Tillad uregistrerede brugere at deltage i rummet som gæst"
+      },
+      "isEncrypted": {
+        "label": "Aktivér ende-til-ende-kryptering",
+        "description": "Når de er aktiveret, vil meddelelser i rummet blive krypteret",
+        "alert": "End-to-End-kryptering er aktiveret i rummet, og denne indstilling kan ikke slukkes."
+      },
+      "submit": "Gem indstillinger for privatlivets fred"
+    },
+    "toast": {
+      "success": "Indstillinger for privatlivets fred er blevet opdateret",
+      "error": "Kunne ikke opdatere privatlivets indstillinger"
+    }
+  }
+}

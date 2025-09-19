@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Vì ứng dụng này áp dụng cho một số lượng lớn quyền trên điện thoại di động của bạn, nhiều quyền rất rủi ro, vì vậy không nhập hoặc thực hiện chúng mà không biết rõ các rủi ro của thị trường hoặc kịch bản. Khi bạn nhập nội dung vào hộp văn bản \"Giới thiệu thẻ thị trường\" hoặc \"Trang web độc lập thị trường\" bên dưới, nội dung sẽ được thực thi ngay lập tức dưới dạng mã. Hãy thận trọng.",
+    "setNewMarket": "Thiết lập một thị trường mới",
+    "settingPreview": "Cài đặt xem trước",
+    "marketName": "Tên thị trường",
+    "marketSummary": "Giới thiệu thị trường",
+    "marketDescription": "Giới thiệu thị trường",
+    "itemMarket": "Giới thiệu thẻ thị trường",
+    "fullMarket": "Trang web độc lập thị trường",
+    "marketCardPreview": "Xem trước thẻ thị trường",
+    "marketFullPreview": "Xem trước trang web độc lập thị trường",
+    "isNotSet": "Không đặt"
+  }
+}

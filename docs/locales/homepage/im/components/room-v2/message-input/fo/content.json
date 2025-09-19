@@ -1,0 +1,9 @@
+{
+  "MessageInput": {
+    "attachFile": "Legg tilknýti til",
+    "emoji": "Vel eitt úttrykk",
+    "placeholder": "Skriva boð...",
+    "sendLocation": "Send staðseting",
+    "send": "senda"
+  }
+}

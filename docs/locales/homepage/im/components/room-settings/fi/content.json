@@ -1,0 +1,18 @@
+{
+  "RoomSettingsContent": {
+    "title": "Huoneasetukset",
+    "tabs": {
+      "basic": "Perusasetukset",
+      "permission": "Lupa -asetukset",
+      "privacy": "Tietosuoja -asetukset",
+      "member": "Jäsenen hallinta"
+    },
+    "loadError": "Huoneen asetusten lataaminen epäonnistui",
+    "leaveRoom": {
+      "button": "Poistua huoneesta",
+      "confirm": "Haluatko varmasti poistua huoneesta? Kun olet poistunut, et voi jatkaa viestien vastaanottamista tästä huoneesta.",
+      "success": "Poistui huoneesta onnistuneesti",
+      "error": "Huoneen poistuminen epäonnistui, yritä uudelleen"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "Leita eftir limum"
+    },
+    "table": {
+      "columns": {
+        "name": "Limnavn",
+        "userId": "Brúkara-ID",
+        "actions": "virka"
+      },
+      "pagination": {
+        "rowsPerPage": "Tal av røðum á síðuni"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Sparka út",
+        "ban": "Bannað"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Staðfest sparilimin",
+        "content": "Ert tú vísur í, at tú vilt sparka limin út úr kamarinum?"
+      },
+      "ban": {
+        "title": "Staðfest tann bannaða limaskapin",
+        "content": "Ert tú vísur í, at tú vilt banna hesum liminum? Limurin fer ikki at kunna koma aftur í kamarið eftir forboðið."
+      },
+      "buttons": {
+        "cancel": "strika",
+        "confirm": "vátta"
+      }
+    },
+    "toast": {
+      "loadError": "Ikki eydnaðist at heinta limalista",
+      "kick": {
+        "success": "Limir eru koyrdir úr stovuni",
+        "error": "At sparka út limir miseydnaðust"
+      },
+      "ban": {
+        "success": "Limir sperraðir",
+        "error": "Blokeraði ikki limir"
+      }
+    },
+    "invite": {
+      "button": "Biðið limir",
+      "title": "Bjóða limum at koma inn á kamarið",
+      "inputLabel": "Vinarliga skriva Matrix brúkara-ID (so sum @user:matrix.org)",
+      "confirm": "bjóða",
+      "cancel": "strika",
+      "loading": "Innbjóðandi...",
+      "success": "Innbjóðing send!",
+      "error": "Innbjóðingin miseydnaðist, vinarliga kanna brúkara-ID ella loyvi"
+    },
+    "empty": "Eingin limur enn",
+    "loading": "lasting...",
+    "role": {
+      "owner": "Húsaeigari",
+      "admin": "umsitari",
+      "moderator": "Samleiðsla",
+      "user": "limir"
+    }
+  }
+}

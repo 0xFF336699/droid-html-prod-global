@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Khansela",
+    "confirm": "Tiyisisa",
+    "title": "ringanyeta",
+    "content": "Xana wa tiyiseka leswaku u lava ku endla leswi?"
+  },
+  "EditableText": {
+    "cancel": "Khansela",
+    "save": "hlayisa",
+    "title": "hlela"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "реєстрація",
+    "phoneNumber": "Номер телефону",
+    "phoneNumberPlaceholder": "Введіть номер мобільного телефону",
+    "verificationCode": "Код перевірки",
+    "verificationCodePlaceholder": "Введіть код підтвердження",
+    "getVerificationCode": "Отримайте код підтвердження",
+    "countdown": "{{секунди}} секунди, щоб спробувати ще раз",
+    "register": "реєстрація",
+    "errors": {
+      "phoneRequired": "Введіть номер мобільного телефону",
+      "phoneInvalid": "Формат номера мобільного телефону неправильний",
+      "codeRequired": "Введіть код підтвердження",
+      "codeInvalid": "Формат коду підтвердження невірний",
+      "requestFailed": "Запит не вдалося",
+      "verificationFailed": "Не вдалося придбати код підтвердження",
+      "loginFailed": "Вхід не вдалося"
+    },
+    "success": {
+      "verificationCodeSent": "Код перевірки надіслано",
+      "registerSuccess": "Зареєстровано успішно"
+    }
+  }
+}

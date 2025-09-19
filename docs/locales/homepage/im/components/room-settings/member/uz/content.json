@@ -1,0 +1,67 @@
+{
+  "MemberManagementContent": {
+    "search": {
+      "placeholder": "A'zolarni qidirish"
+    },
+    "table": {
+      "columns": {
+        "name": "A'zo nomi",
+        "userId": "Foydalanuvchi IDsi",
+        "actions": "ishlamoq"
+      },
+      "pagination": {
+        "rowsPerPage": "Bir sahifada qatorlar soni"
+      },
+      "avatar": {
+        "alt": "avatar"
+      },
+      "actions": {
+        "kick": "Tepmoq",
+        "ban": "Taqiqlangan"
+      }
+    },
+    "confirmDialog": {
+      "kick": {
+        "title": "Tog'chi a'zoni tasdiqlang",
+        "content": "Haqiqatan ham xonani xonadan tepmoqchimisiz?"
+      },
+      "ban": {
+        "title": "Taqiqlangan a'zolikni tasdiqlang",
+        "content": "Haqiqatan ham ushbu a'zoni taqiqlashni xohlaysizmi? A'zo taqiqdan keyin xonada ham qayta uchrasholmaydi."
+      },
+      "buttons": {
+        "cancel": "Bekor qilmoq",
+        "confirm": "tasdiqlamoq"
+      }
+    },
+    "toast": {
+      "loadError": "A'zolar ro'yxatini yuklab bo'lmadi",
+      "kick": {
+        "success": "A'zolar xonadan boshlandi",
+        "error": "A'zolarni tepish muvaffaqiyatsiz tugadi"
+      },
+      "ban": {
+        "success": "A'zolar bloklandi",
+        "error": "A'zolarni bloklamagan"
+      }
+    },
+    "invite": {
+      "button": "A'zolarni taklif qiling",
+      "title": "A'zolarni xonaga qo'shilishga taklif qiling",
+      "inputLabel": "Iltimos, matritsano foydalanuvchi identifikatorini kiriting (@USERER: Matrix.org)",
+      "confirm": "taklif qilmoq",
+      "cancel": "Bekor qilmoq",
+      "loading": "Taklif qiluvchi ...",
+      "success": "Taklif yuborildi!",
+      "error": "Taklif amalga oshmadi, iltimos, foydalanuvchi identifikatorini yoki ruxsatlarini tekshiring"
+    },
+    "empty": "Hali a'zo yo'q",
+    "loading": "yuklash ...",
+    "role": {
+      "owner": "Uy egasi",
+      "admin": "administrator",
+      "moderator": "Muvofiqlik",
+      "user": "a'zo"
+    }
+  }
+}

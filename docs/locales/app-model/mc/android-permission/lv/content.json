@@ -1,0 +1,7 @@
+{
+  "androidPermission": {
+    "denied": "noraidīt",
+    "granted": "Pilnvarots",
+    "shouldAskAgain": "Neatļauts"
+  }
+}

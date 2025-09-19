@@ -1,0 +1,13 @@
+{
+  "UserProfile": {
+    "title": "Atuisut pillugit paasissutissat",
+    "id": {
+      "name": "ID",
+      "copy": "kopi",
+      "copied": "ID kopierneqarsimavoq"
+    },
+    "notLoggedIn": "Logiseqartinneqanngilaq",
+    "name": "ateq",
+    "avatar": "avatar"
+  }
+}
