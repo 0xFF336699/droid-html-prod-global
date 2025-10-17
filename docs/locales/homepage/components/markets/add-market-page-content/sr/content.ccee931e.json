@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "додати тржиште",
+    "url": "Маркет УРЛ",
+    "summary": "сажетак тржишта",
+    "urlIsNotValid": "Маркет УРЛ је нетачан"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "إضافة السوق",
+    "url": "عنوان URL للسوق",
+    "summary": "ملخص السوق",
+    "urlIsNotValid": "عنوان URL للسوق غير صحيح"
+  }
+}

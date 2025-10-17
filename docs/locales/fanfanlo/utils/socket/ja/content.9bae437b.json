@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "接続中...",
+    "connected": "接続済み",
+    "disconnecting": "切断中...",
+    "disconnected": "接続されていません",
+    "waitRetry": "再接続を待っています..."
+  }
+}

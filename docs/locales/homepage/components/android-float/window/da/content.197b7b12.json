@@ -1,0 +1,38 @@
+{
+  "AddWindow": {
+    "add": "Tilføj flydende vindue",
+    "urlPlaceholder": "Indtast URL eller HTML-kode",
+    "nameLabel": "vinduets navn",
+    "nameHelper": "Globalt unik, bruges til at identificere vinduer og åbne/lukke vinduer",
+    "contentHelper": "Den udfyldte URL eller HTML vil blive indlæst i det flydende vindue",
+    "widthLabel": "vindues bredde",
+    "heightLabel": "vindueshøjde",
+    "widthHelper": "Enhed: pixel, kan ikke være negativ",
+    "heightHelper": "Enhed: pixel, kan ikke være negativ",
+    "addButton": "Tilføj til",
+    "cancelButton": "Ophæve",
+    "editSaveButton": "spare",
+    "errorEmptyName": "Vinduets navn må ikke være tomt",
+    "errorDuplicateName": "Vinduets navn findes allerede",
+    "errorEmptyContent": "URL/HTML-indhold må ikke være tomt",
+    "errorInvalidContent": "Indtast venligst en gyldig URL eller HTML-kode",
+    "errorNegativeWidth": "Vinduesbredden kan ikke være negativ",
+    "errorNegativeHeight": "Vindueshøjden kan ikke være negativ"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "Flydende Android-vindue"
+  },
+  "WindowList": {
+    "title": "Liste over flydende vinduer",
+    "edit": "redigere",
+    "delete": "slette",
+    "deleteConfirm": "Er du sikker på, at du vil slette denne flydende vindueskonfiguration?",
+    "cancel": "Ophæve",
+    "confirm": "bekræfte",
+    "empty": "Ingen flydende vindueskonfiguration endnu",
+    "description": "Tryk og hold på det flydende vindue i 10 sekunder. Efter frigivelse lukkes det flydende vindue."
+  },
+  "WindowPageContent": {
+    "title": "Flydende Android-vindue"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "προσθέστε αγορά",
+    "url": "URL αγοράς",
+    "summary": "περίληψη της αγοράς",
+    "urlIsNotValid": "Η διεύθυνση URL αγοράς είναι εσφαλμένη"
+  }
+}

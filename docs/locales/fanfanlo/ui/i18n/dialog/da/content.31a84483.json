@@ -1,0 +1,11 @@
+{
+  "content": {
+    "ok": "Sikker",
+    "cancel": "Ophæve",
+    "delete": "slette",
+    "edit": "redigere",
+    "save": "spare",
+    "close": "lukning",
+    "confirm": "bekræfte"
+  }
+}

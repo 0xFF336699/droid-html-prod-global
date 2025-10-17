@@ -1,0 +1,38 @@
+{
+  "AddWindow": {
+    "add": "Adicionar janela flutuante",
+    "urlPlaceholder": "Insira o URL ou código HTML",
+    "nameLabel": "nome da janela",
+    "nameHelper": "Globalmente exclusivo, usado para identificar janelas e abrir/fechar janelas",
+    "contentHelper": "O URL ou HTML preenchido será carregado na janela flutuante",
+    "widthLabel": "largura da janela",
+    "heightLabel": "altura da janela",
+    "widthHelper": "Unidade: pixel, não pode ser negativo",
+    "heightHelper": "Unidade: pixel, não pode ser negativo",
+    "addButton": "adicionar à",
+    "cancelButton": "Cancelar",
+    "editSaveButton": "salvar",
+    "errorEmptyName": "O nome da janela não pode ficar vazio",
+    "errorDuplicateName": "O nome da janela já existe",
+    "errorEmptyContent": "O conteúdo URL/HTML não pode ficar vazio",
+    "errorInvalidContent": "Insira um URL ou código HTML válido",
+    "errorNegativeWidth": "A largura da janela não pode ser negativa",
+    "errorNegativeHeight": "A altura da janela não pode ser negativa"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "Janela flutuante do Android"
+  },
+  "WindowList": {
+    "title": "Lista de janelas flutuantes",
+    "edit": "editar",
+    "delete": "excluir",
+    "deleteConfirm": "Tem certeza de que deseja excluir esta configuração de janela flutuante?",
+    "cancel": "Cancelar",
+    "confirm": "confirmar",
+    "empty": "Nenhuma configuração de janela flutuante ainda",
+    "description": "Pressione e segure a janela flutuante por 10 segundos. Após liberar, a janela flutuante será fechada."
+  },
+  "WindowPageContent": {
+    "title": "Janela flutuante do Android"
+  }
+}

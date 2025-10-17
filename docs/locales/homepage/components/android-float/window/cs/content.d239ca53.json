@@ -1,0 +1,38 @@
+{
+  "AddWindow": {
+    "add": "Přidat plovoucí okno",
+    "urlPlaceholder": "Zadejte URL nebo HTML kód",
+    "nameLabel": "název okna",
+    "nameHelper": "Globálně unikátní, používá se k identifikaci oken a otevírání/zavírání oken",
+    "contentHelper": "Vyplněná URL nebo HTML se načtou do plovoucího okna",
+    "widthLabel": "šířka okna",
+    "heightLabel": "výška okna",
+    "widthHelper": "Jednotka: pixel, nemůže být záporná",
+    "heightHelper": "Jednotka: pixel, nemůže být záporná",
+    "addButton": "Přidat do",
+    "cancelButton": "Zrušit",
+    "editSaveButton": "uložit",
+    "errorEmptyName": "Název okna nemůže být prázdný",
+    "errorDuplicateName": "Název okna již existuje",
+    "errorEmptyContent": "Obsah URL/HTML nemůže být prázdný",
+    "errorInvalidContent": "Zadejte prosím platnou adresu URL nebo kód HTML",
+    "errorNegativeWidth": "Šířka okna nemůže být záporná",
+    "errorNegativeHeight": "Výška okna nemůže být záporná"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "Plovoucí okno pro Android"
+  },
+  "WindowList": {
+    "title": "Seznam plovoucích oken",
+    "edit": "upravit",
+    "delete": "vymazat",
+    "deleteConfirm": "Opravdu chcete smazat tuto konfiguraci plovoucího okna?",
+    "cancel": "Zrušit",
+    "confirm": "potvrdit",
+    "empty": "Zatím žádná konfigurace plovoucího okna",
+    "description": "Stiskněte a podržte plovoucí okno po dobu 10 sekund. Po uvolnění se plovoucí okno zavře."
+  },
+  "WindowPageContent": {
+    "title": "Plovoucí okno pro Android"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "content": {
+    "create": "创建",
+    "delete": "删除",
+    "confirmDelete": "确认要删除此项目吗？",
+    "cancel": "放弃",
+    "title": "警告"
+  }
+}

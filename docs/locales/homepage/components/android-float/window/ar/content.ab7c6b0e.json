@@ -1,0 +1,38 @@
+{
+  "AddWindow": {
+    "add": "إضافة نافذة عائمة",
+    "urlPlaceholder": "أدخل عنوان URL أو رمز HTML",
+    "nameLabel": "اسم النافذة",
+    "nameHelper": "فريد عالميًا، يستخدم لتحديد النوافذ وفتح/إغلاق النوافذ",
+    "contentHelper": "سيتم تحميل عنوان URL أو HTML المملوء في النافذة العائمة",
+    "widthLabel": "عرض النافذة",
+    "heightLabel": "ارتفاع النافذة",
+    "widthHelper": "الوحدة: بكسل، لا يمكن أن تكون سلبية",
+    "heightHelper": "الوحدة: بكسل، لا يمكن أن تكون سلبية",
+    "addButton": "اضف إليه",
+    "cancelButton": "يلغي",
+    "editSaveButton": "يحفظ",
+    "errorEmptyName": "لا يمكن أن يكون اسم النافذة فارغًا",
+    "errorDuplicateName": "اسم النافذة موجود بالفعل",
+    "errorEmptyContent": "لا يمكن أن يكون محتوى URL/HTML فارغًا",
+    "errorInvalidContent": "الرجاء إدخال عنوان URL أو كود HTML صالح",
+    "errorNegativeWidth": "لا يمكن أن يكون عرض النافذة سالبًا",
+    "errorNegativeHeight": "لا يمكن أن يكون ارتفاع النافذة سالبًا"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "نافذة الروبوت العائمة"
+  },
+  "WindowList": {
+    "title": "قائمة النوافذ العائمة",
+    "edit": "يحرر",
+    "delete": "يمسح",
+    "deleteConfirm": "هل أنت متأكد أنك تريد حذف تكوين النافذة العائمة هذا؟",
+    "cancel": "يلغي",
+    "confirm": "يتأكد",
+    "empty": "لا يوجد تكوين نافذة عائمة حتى الآن",
+    "description": "اضغط مع الاستمرار على النافذة العائمة لمدة 10 ثوانٍ. بعد التحرير، سيتم إغلاق النافذة العائمة."
+  },
+  "WindowPageContent": {
+    "title": "نافذة الروبوت العائمة"
+  }
+}

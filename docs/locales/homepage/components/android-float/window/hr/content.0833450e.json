@@ -1,0 +1,38 @@
+{
+  "AddWindow": {
+    "add": "Dodajte plutajući prozor",
+    "urlPlaceholder": "Unesite URL ili HTML kod",
+    "nameLabel": "naziv prozora",
+    "nameHelper": "Globalno jedinstven, koristi se za identifikaciju prozora i otvaranje/zatvaranje prozora",
+    "contentHelper": "Ispunjeni URL ili HTML bit će učitan u plutajući prozor",
+    "widthLabel": "širina prozora",
+    "heightLabel": "visina prozora",
+    "widthHelper": "Jedinica: piksel, ne može biti negativan",
+    "heightHelper": "Jedinica: piksel, ne može biti negativan",
+    "addButton": "Dodaj u",
+    "cancelButton": "Otkazati",
+    "editSaveButton": "uštedjeti",
+    "errorEmptyName": "Naziv prozora ne može biti prazan",
+    "errorDuplicateName": "Naziv prozora već postoji",
+    "errorEmptyContent": "URL/HTML sadržaj ne može biti prazan",
+    "errorInvalidContent": "Unesite važeći URL ili HTML kod",
+    "errorNegativeWidth": "Širina prozora ne može biti negativna",
+    "errorNegativeHeight": "Visina prozora ne može biti negativna"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "Android plutajući prozor"
+  },
+  "WindowList": {
+    "title": "Plutajući popis prozora",
+    "edit": "urediti",
+    "delete": "izbrisati",
+    "deleteConfirm": "Jeste li sigurni da želite izbrisati ovu konfiguraciju plutajućeg prozora?",
+    "cancel": "Otkazati",
+    "confirm": "potvrditi",
+    "empty": "Još nema konfiguracije plutajućeg prozora",
+    "description": "Pritisnite i držite plutajući prozor 10 sekundi. Nakon otpuštanja, plutajući prozor će se zatvoriti."
+  },
+  "WindowPageContent": {
+    "title": "Android plutajući prozor"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "AddWindow": {
+    "add": "เพิ่มหน้าต่างลอย",
+    "urlPlaceholder": "ป้อน URL หรือโค้ด HTML",
+    "nameLabel": "ชื่อหน้าต่าง",
+    "nameHelper": "ไม่ซ้ำกันทั่วโลก ใช้เพื่อระบุหน้าต่างและเปิด/ปิดหน้าต่าง",
+    "contentHelper": "URL หรือ HTML ที่กรอกจะถูกโหลดลงในหน้าต่างลอย",
+    "widthLabel": "ความกว้างของหน้าต่าง",
+    "heightLabel": "ความสูงของหน้าต่าง",
+    "widthHelper": "หน่วย: พิกเซล ไม่สามารถเป็นค่าลบได้",
+    "heightHelper": "หน่วย: พิกเซล ไม่สามารถเป็นค่าลบได้",
+    "addButton": "เพิ่มไปที่",
+    "cancelButton": "ยกเลิก",
+    "editSaveButton": "บันทึก",
+    "errorEmptyName": "ชื่อหน้าต่างต้องไม่เว้นว่าง",
+    "errorDuplicateName": "มีชื่อหน้าต่างอยู่แล้ว",
+    "errorEmptyContent": "เนื้อหา URL/HTML ต้องไม่เว้นว่าง",
+    "errorInvalidContent": "โปรดป้อน URL หรือรหัส HTML ที่ถูกต้อง",
+    "errorNegativeWidth": "ความกว้างของหน้าต่างไม่สามารถเป็นค่าลบได้",
+    "errorNegativeHeight": "ความสูงของหน้าต่างไม่สามารถเป็นค่าลบได้"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "หน้าต่างลอยของ Android"
+  },
+  "WindowList": {
+    "title": "รายการหน้าต่างลอย",
+    "edit": "แก้ไข",
+    "delete": "ลบ",
+    "deleteConfirm": "คุณแน่ใจหรือไม่ว่าต้องการลบการกำหนดค่าหน้าต่างแบบลอยนี้",
+    "cancel": "ยกเลิก",
+    "confirm": "ยืนยัน",
+    "empty": "ยังไม่มีการกำหนดค่าหน้าต่างแบบลอย",
+    "description": "กดหน้าต่างลอยค้างไว้เป็นเวลา 10 วินาที หลังจากปล่อย หน้าต่างลอยจะปิดลง"
+  },
+  "WindowPageContent": {
+    "title": "หน้าต่างลอยของ Android"
+  }
+}

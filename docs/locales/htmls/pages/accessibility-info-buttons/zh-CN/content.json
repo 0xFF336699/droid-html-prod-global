@@ -1,0 +1,11 @@
+{
+  "content": {
+    "close": "关闭",
+    "layout": "布局",
+    "fullInfo": "完整数据",
+    "title": "读取a11y信息按钮组",
+    "multiWindow": "多窗口",
+    "appWindow": "单窗口",
+    "store": "储存"
+  }
+}

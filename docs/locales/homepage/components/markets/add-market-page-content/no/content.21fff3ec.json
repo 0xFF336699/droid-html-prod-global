@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "legge til marked",
+    "url": "Markeds-URL",
+    "summary": "markedssammendrag",
+    "urlIsNotValid": "Markedsadressen er feil"
+  }
+}

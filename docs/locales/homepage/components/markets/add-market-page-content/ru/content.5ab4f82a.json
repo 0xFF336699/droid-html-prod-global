@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "добавить рынок",
+    "url": "URL-адрес рынка",
+    "summary": "обзор рынка",
+    "urlIsNotValid": "URL-адрес рынка неверен."
+  }
+}

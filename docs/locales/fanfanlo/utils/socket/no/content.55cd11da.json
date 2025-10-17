@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Kobler til...",
+    "connected": "Tilkoblet",
+    "disconnecting": "Kobler fra ...",
+    "disconnected": "Ikke tilkoblet",
+    "waitRetry": "Venter på ny tilkobling..."
+  }
+}

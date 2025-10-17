@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL模式",
+    "full": {
+      "url": "市场URL。输入的字符将会被当作URL加载，请谨慎。",
+      "html": "市场HTML内容。输入的字符将会被当作脚本立即执行，请谨慎。",
+      "come": "来我的 ",
+      "myMarketName": "市场名称",
+      "stroll": " 逛逛吧"
+    },
+    "item": {
+      "url": "市场卡片URL。输入的字符将会被当作URL加载，请谨慎。",
+      "html": "市场HTML内容。输入的字符将会被当作脚本立即执行，请谨慎。",
+      "come": "来我的 ",
+      "myMarketName": "市场名称",
+      "stroll": " 逛逛吧"
+    }
+  }
+}

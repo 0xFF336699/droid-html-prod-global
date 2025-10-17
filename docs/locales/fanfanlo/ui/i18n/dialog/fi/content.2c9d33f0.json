@@ -1,0 +1,11 @@
+{
+  "content": {
+    "ok": "Varma",
+    "cancel": "Peruuttaa",
+    "delete": "poistaa",
+    "edit": "muokata",
+    "save": "tallentaa",
+    "close": "päättäminen",
+    "confirm": "vahvistaa"
+  }
+}

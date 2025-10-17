@@ -1,0 +1,38 @@
+{
+  "AddWindow": {
+    "add": "پنجره شناور را اضافه کنید",
+    "urlPlaceholder": "URL یا کد HTML را وارد کنید",
+    "nameLabel": "نام پنجره",
+    "nameHelper": "در سطح جهانی منحصر به فرد است که برای شناسایی پنجره ها و باز/بستن پنجره ها استفاده می شود",
+    "contentHelper": "URL یا HTML پر شده در پنجره شناور بارگذاری می شود",
+    "widthLabel": "عرض پنجره",
+    "heightLabel": "ارتفاع پنجره",
+    "widthHelper": "واحد: پیکسل، نمی تواند منفی باشد",
+    "heightHelper": "واحد: پیکسل، نمی تواند منفی باشد",
+    "addButton": "اضافه کردن به",
+    "cancelButton": "لغو کنید",
+    "editSaveButton": "ذخیره کنید",
+    "errorEmptyName": "نام پنجره نمی تواند خالی باشد",
+    "errorDuplicateName": "نام پنجره از قبل وجود دارد",
+    "errorEmptyContent": "محتوای URL/HTML نمی تواند خالی باشد",
+    "errorInvalidContent": "لطفاً یک URL یا کد HTML معتبر وارد کنید",
+    "errorNegativeWidth": "عرض پنجره نمی تواند منفی باشد",
+    "errorNegativeHeight": "ارتفاع پنجره نمی تواند منفی باشد"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "پنجره شناور اندروید"
+  },
+  "WindowList": {
+    "title": "لیست پنجره شناور",
+    "edit": "ویرایش کنید",
+    "delete": "حذف کنید",
+    "deleteConfirm": "آیا مطمئن هستید که می خواهید این پیکربندی پنجره شناور را حذف کنید؟",
+    "cancel": "لغو کنید",
+    "confirm": "تایید کنید",
+    "empty": "هنوز پیکربندی پنجره شناور وجود ندارد",
+    "description": "پنجره شناور را به مدت 10 ثانیه فشار داده و نگه دارید. پس از رها کردن، پنجره شناور بسته می شود."
+  },
+  "WindowPageContent": {
+    "title": "پنجره شناور اندروید"
+  }
+}

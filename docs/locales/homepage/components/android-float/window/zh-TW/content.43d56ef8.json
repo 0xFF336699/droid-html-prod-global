@@ -1,0 +1,38 @@
+{
+  "AddWindow": {
+    "add": "添加浮窗",
+    "urlPlaceholder": "輸入URL或HTML代碼",
+    "nameLabel": "窗口名稱",
+    "nameHelper": "全局唯一，用來識別窗口和打開/關閉窗口",
+    "contentHelper": "填寫的URL或HTML都會被加載到懸浮窗中",
+    "widthLabel": "窗口寬度",
+    "heightLabel": "窗口高度",
+    "widthHelper": "單位：像素，不能為負數",
+    "heightHelper": "單位：像素，不能為負數",
+    "addButton": "添加",
+    "cancelButton": "取消",
+    "editSaveButton": "保存",
+    "errorEmptyName": "窗口名稱不能為空",
+    "errorDuplicateName": "窗口名稱已存在",
+    "errorEmptyContent": "URL/HTML內容不能為空",
+    "errorInvalidContent": "請輸入有效的URL或HTML代碼",
+    "errorNegativeWidth": "窗口寬度不能為負數",
+    "errorNegativeHeight": "窗口高度不能為負數"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "安卓懸浮窗"
+  },
+  "WindowList": {
+    "title": "懸浮窗列表",
+    "edit": "編輯",
+    "delete": "刪除",
+    "deleteConfirm": "確定要刪除此浮窗配置嗎？",
+    "cancel": "取消",
+    "confirm": "確認",
+    "empty": "暫無浮窗配置",
+    "description": "懸浮窗上長按10秒，鬆開後會關閉懸浮窗"
+  },
+  "WindowPageContent": {
+    "title": "安卓懸浮窗"
+  }
+}

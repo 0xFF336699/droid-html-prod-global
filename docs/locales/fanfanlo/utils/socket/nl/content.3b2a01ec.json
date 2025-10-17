@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Verbinden...",
+    "connected": "Aangesloten",
+    "disconnecting": "Verbinding verbreken...",
+    "disconnected": "Niet verbonden",
+    "waitRetry": "Wachten op herverbinding..."
+  }
+}

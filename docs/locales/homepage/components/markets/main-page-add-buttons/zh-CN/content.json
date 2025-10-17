@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "添加",
+    "sub": {
+      "addScriptByUrl": "通过URL添加脚本",
+      "addScriptByText": "通过文本添加脚本",
+      "addMarket": "通过URL添加市场",
+      "addMarketByText": "通过文本添加市场"
+    }
+  }
+}

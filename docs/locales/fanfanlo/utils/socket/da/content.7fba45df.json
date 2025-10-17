@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Opretter forbindelse...",
+    "connected": "Forbundet",
+    "disconnecting": "Afbryder forbindelsen...",
+    "disconnected": "Ikke forbundet",
+    "waitRetry": "Venter på genforbindelse..."
+  }
+}

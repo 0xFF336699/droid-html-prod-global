@@ -1,0 +1,38 @@
+{
+  "AddWindow": {
+    "add": "부동 창 추가",
+    "urlPlaceholder": "URL 또는 HTML 코드를 입력하세요.",
+    "nameLabel": "창 이름",
+    "nameHelper": "전역적으로 고유하며 창을 식별하고 창을 열거나 닫는 데 사용됩니다.",
+    "contentHelper": "채워진 URL 또는 HTML이 부동 창에 로드됩니다.",
+    "widthLabel": "창 너비",
+    "heightLabel": "창 높이",
+    "widthHelper": "단위: 픽셀, 음수일 수 없음",
+    "heightHelper": "단위: 픽셀, 음수일 수 없음",
+    "addButton": "다음에 추가",
+    "cancelButton": "취소",
+    "editSaveButton": "구하다",
+    "errorEmptyName": "창 이름은 비워둘 수 없습니다.",
+    "errorDuplicateName": "창 이름이 이미 존재합니다.",
+    "errorEmptyContent": "URL/HTML 콘텐츠는 비워둘 수 없습니다.",
+    "errorInvalidContent": "유효한 URL 또는 HTML 코드를 입력하세요.",
+    "errorNegativeWidth": "창 너비는 음수일 수 없습니다.",
+    "errorNegativeHeight": "창 높이는 음수일 수 없습니다."
+  },
+  "AndroidFloatWindowLink": {
+    "name": "안드로이드 플로팅 윈도우"
+  },
+  "WindowList": {
+    "title": "부동 창 목록",
+    "edit": "편집하다",
+    "delete": "삭제",
+    "deleteConfirm": "이 부동 창 구성을 삭제하시겠습니까?",
+    "cancel": "취소",
+    "confirm": "확인하다",
+    "empty": "아직 부동 창 구성이 없습니다.",
+    "description": "떠 있는 창을 10초 동안 길게 누르세요. 놓으면 부동 창이 닫힙니다."
+  },
+  "WindowPageContent": {
+    "title": "안드로이드 플로팅 윈도우"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "adauga piata",
+    "url": "Adresa URL a pieței",
+    "summary": "rezumatul pieței",
+    "urlIsNotValid": "Adresa URL a pieței este incorectă"
+  }
+}

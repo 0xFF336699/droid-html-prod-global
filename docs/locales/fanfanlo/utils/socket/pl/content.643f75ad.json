@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Złączony...",
+    "connected": "Połączony",
+    "disconnecting": "Rozłączanie...",
+    "disconnected": "Nie podłączony",
+    "waitRetry": "Oczekiwanie na ponowne połączenie..."
+  }
+}

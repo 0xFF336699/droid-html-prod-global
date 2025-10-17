@@ -1,0 +1,38 @@
+{
+  "AddWindow": {
+    "add": "フローティングウィンドウを追加する",
+    "urlPlaceholder": "URLまたはHTMLコードを入力してください",
+    "nameLabel": "ウィンドウ名",
+    "nameHelper": "グローバルに一意であり、ウィンドウの識別とウィンドウの開閉に使用されます。",
+    "contentHelper": "入力された URL または HTML がフローティング ウィンドウにロードされます。",
+    "widthLabel": "ウィンドウの幅",
+    "heightLabel": "窓の高さ",
+    "widthHelper": "単位: ピクセル、負の値は指定できません",
+    "heightHelper": "単位: ピクセル、負の値は指定できません",
+    "addButton": "に追加",
+    "cancelButton": "キャンセル",
+    "editSaveButton": "保存",
+    "errorEmptyName": "ウィンドウ名を空にすることはできません",
+    "errorDuplicateName": "ウィンドウ名はすでに存在します",
+    "errorEmptyContent": "URL/HTML コンテンツを空にすることはできません",
+    "errorInvalidContent": "有効な URL または HTML コードを入力してください",
+    "errorNegativeWidth": "ウィンドウ幅を負の値にすることはできません",
+    "errorNegativeHeight": "ウィンドウの高さを負の値にすることはできません"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "Android フローティング ウィンドウ"
+  },
+  "WindowList": {
+    "title": "フローティングウィンドウリスト",
+    "edit": "編集",
+    "delete": "消去",
+    "deleteConfirm": "このフローティング ウィンドウ構成を削除してもよろしいですか?",
+    "cancel": "キャンセル",
+    "confirm": "確認する",
+    "empty": "フローティング ウィンドウの設定はまだありません",
+    "description": "フローティング ウィンドウを 10 秒間押し続けます。放すと、フローティング ウィンドウが閉じます。"
+  },
+  "WindowPageContent": {
+    "title": "Android フローティング ウィンドウ"
+  }
+}

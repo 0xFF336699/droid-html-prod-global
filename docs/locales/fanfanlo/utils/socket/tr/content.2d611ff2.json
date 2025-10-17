@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Bağlanıyor...",
+    "connected": "Bağlı",
+    "disconnecting": "Bağlantı kesiliyor...",
+    "disconnected": "Bağlı değil",
+    "waitRetry": "Yeniden bağlanmayı bekliyorum..."
+  }
+}

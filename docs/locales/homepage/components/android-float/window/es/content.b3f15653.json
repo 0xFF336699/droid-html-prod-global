@@ -1,0 +1,38 @@
+{
+  "AddWindow": {
+    "add": "Agregar ventana flotante",
+    "urlPlaceholder": "Ingrese la URL o el código HTML",
+    "nameLabel": "nombre de la ventana",
+    "nameHelper": "Único a nivel mundial, utilizado para identificar ventanas y abrir/cerrar ventanas",
+    "contentHelper": "La URL o HTML completada se cargará en la ventana flotante.",
+    "widthLabel": "ancho de ventana",
+    "heightLabel": "altura de la ventana",
+    "widthHelper": "Unidad: píxel, no puede ser negativo",
+    "heightHelper": "Unidad: píxel, no puede ser negativo",
+    "addButton": "añadir",
+    "cancelButton": "Cancelar",
+    "editSaveButton": "ahorrar",
+    "errorEmptyName": "El nombre de la ventana no puede estar vacío",
+    "errorDuplicateName": "El nombre de la ventana ya existe",
+    "errorEmptyContent": "El contenido URL/HTML no puede estar vacío",
+    "errorInvalidContent": "Por favor introduce una URL válida o un código HTML",
+    "errorNegativeWidth": "El ancho de la ventana no puede ser negativo",
+    "errorNegativeHeight": "La altura de la ventana no puede ser negativa."
+  },
+  "AndroidFloatWindowLink": {
+    "name": "ventana flotante de android"
+  },
+  "WindowList": {
+    "title": "Lista de ventanas flotantes",
+    "edit": "editar",
+    "delete": "borrar",
+    "deleteConfirm": "¿Está seguro de que desea eliminar esta configuración de ventana flotante?",
+    "cancel": "Cancelar",
+    "confirm": "confirmar",
+    "empty": "Aún no hay configuración de ventana flotante",
+    "description": "Mantenga presionada la ventana flotante durante 10 segundos. Después de soltarlo, la ventana flotante se cerrará."
+  },
+  "WindowPageContent": {
+    "title": "ventana flotante de android"
+  }
+}

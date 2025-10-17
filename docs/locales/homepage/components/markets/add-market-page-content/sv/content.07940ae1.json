@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "lägga till marknad",
+    "url": "Marknadsadress",
+    "summary": "marknadssammanfattning",
+    "urlIsNotValid": "Marknadsadressen är felaktig"
+  }
+}

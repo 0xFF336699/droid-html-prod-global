@@ -1,0 +1,38 @@
+{
+  "AddWindow": {
+    "add": "Tambahkan jendela mengambang",
+    "urlPlaceholder": "Masukkan URL atau kode HTML",
+    "nameLabel": "nama jendela",
+    "nameHelper": "Unik secara global, digunakan untuk mengidentifikasi jendela dan membuka/menutup jendela",
+    "contentHelper": "URL atau HTML yang diisi akan dimuat ke jendela mengambang",
+    "widthLabel": "lebar jendela",
+    "heightLabel": "tinggi jendela",
+    "widthHelper": "Satuan: piksel, tidak boleh negatif",
+    "heightHelper": "Satuan: piksel, tidak boleh negatif",
+    "addButton": "Tambahkan ke",
+    "cancelButton": "Membatalkan",
+    "editSaveButton": "menyimpan",
+    "errorEmptyName": "Nama jendela tidak boleh kosong",
+    "errorDuplicateName": "Nama jendela sudah ada",
+    "errorEmptyContent": "Konten URL/HTML tidak boleh kosong",
+    "errorInvalidContent": "Silakan masukkan URL atau kode HTML yang valid",
+    "errorNegativeWidth": "Lebar jendela tidak boleh negatif",
+    "errorNegativeHeight": "Ketinggian jendela tidak boleh negatif"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "Jendela mengambang Android"
+  },
+  "WindowList": {
+    "title": "Daftar jendela mengambang",
+    "edit": "sunting",
+    "delete": "menghapus",
+    "deleteConfirm": "Apakah Anda yakin ingin menghapus konfigurasi jendela mengambang ini?",
+    "cancel": "Membatalkan",
+    "confirm": "mengonfirmasi",
+    "empty": "Belum ada konfigurasi jendela mengambang",
+    "description": "Tekan dan tahan jendela mengambang selama 10 detik. Setelah dilepaskan, jendela mengambang akan ditutup."
+  },
+  "WindowPageContent": {
+    "title": "Jendela mengambang Android"
+  }
+}
