@@ -1,9 +1,0 @@
-{
-  "content": {
-    "txt1": "Tato funkce může provádět operace podobné operacím skutečné osoby, včetně, ale neomezeno na kliknutí, otevírání aplikací atd. V telefonu a může také otevřít některé platební aplikace pro platbu. Protože existují rizika zaznamenávání operací, provádění plateb atd., Důrazně doporučujeme, abyste jej provedli, pouze pokud plně porozumíte obsahu skriptu.",
-    "txt2": "Jak zavřít tuto funkci: Otevřete domovskou stránku této aplikace, můžete přestat používat pomocnou funkci v nastavení domovské stránky, nebo můžete na domovské stránce kliknout na tlačítko „Zavřít všechny úkoly a ukončit“. Toto tlačítko tlačí uzavření všech prováděných úkolů a vynuceně tuto aplikaci zavře.",
-    "txt3": "Důvodem, proč tuto funkci používáme, je to, že naše aplikace musí mít schopnost otevírat další aplikace a ovládat je, například při procházení Instagramu, může se automaticky posunout po přehrávání videa, zkontrolovat, zda je produkt v prodeji v prodeji, a pravidelně posílat zprávy online přátelům atd., Které jsou zajímavé nebo práce s prací.",
-    "iKnowDanger": "Znám rizika - jděte na set",
-    "title": "Nebezpečné operace"
-  }
-}

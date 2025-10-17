@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Widok interfejsu dostępności",
+    "howToUse": "Instrukcje użytkowania",
+    "howToUseTooltip": "Poniżej znajdują się niektóre atrybuty znaku tego węzła, które można wykorzystać do wybierania operacji, takich jak kliknięcie, wypełnienie tekstu itp.\n\nWartości atrybutów mogą zostać zduplikowane na stronie aplikacji. W przypadku napotkania duplikatów należy nałożyć inne wartości atrybutów, aby określić niepowtarzalność.\n\nCzerwone słowa oznaczają, że wartość atrybutu się powtarza, zielone słowa oznaczają, że wartość atrybutu jest unikalna podczas wyszukiwania na bieżącej stronie, a czarne słowa oznaczają, że nie są przeprowadzane żadne powtarzające się porównania.",
+    "otherNodesSummary": "Inne węzły w tej lokalizacji",
+    "moreNodes": "Oto rozszerzona treść.",
+    "nodeInfoDialogOkButton": "Edytuj węzeł",
+    "text": "Tekst 2222"
+  }
+}

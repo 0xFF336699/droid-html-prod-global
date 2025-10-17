@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Бастдзинад...",
-    "connected": "Баст",
-    "disconnecting": "Æнæбастдзинад...",
-    "disconnected": "Нæ баст",
-    "waitRetry": "Æнхъæлмæ кæсын ногæй бастдзинадмæ..."
-  }
-}

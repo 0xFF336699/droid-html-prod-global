@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "Сервис фотоальбомов",
+    "serverStatus": "Статус услуги",
+    "running": "Бег",
+    "stopped": "Остановлено",
+    "port": "порт",
+    "token": "токен доступа",
+    "permissionType": "режим разрешения",
+    "contentResolver": "Системные разрешения",
+    "saf": "платформа доступа к файлам",
+    "startService": "Запустить службу",
+    "stopService": "Остановить службу",
+    "checkPermissions": "Проверьте разрешения",
+    "requestPermissions": "Подать заявку на разрешение",
+    "openAlbum": "Открыть фотоальбом",
+    "copyToken": "копировать токен",
+    "copyUrl": "Копировать адрес",
+    "permissionGranted": "Разрешение получено",
+    "permissionDenied": "Доступ запрещен",
+    "serviceStarted": "Служба запущена",
+    "serviceStopped": "Служба остановлена",
+    "error": "ошибка"
+  }
+}

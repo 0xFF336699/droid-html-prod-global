@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "फोटो एलबम सेवा",
+    "serverStatus": "सेवा की स्थिति",
+    "running": "दौड़ना",
+    "stopped": "रुक गया",
+    "port": "पत्तन",
+    "token": "एक्सेस टोकन",
+    "permissionType": "अनुमति मोड",
+    "contentResolver": "सिस्टम अनुमतियाँ",
+    "saf": "फ़ाइल पहुँच ढाँचा",
+    "startService": "सेवा प्रारंभ करें",
+    "stopService": "सेवा रोकें",
+    "checkPermissions": "अनुमतियाँ जांचें",
+    "requestPermissions": "अनुमति के लिए आवेदन करें",
+    "openAlbum": "फोटो एलबम खोलें",
+    "copyToken": "टोकन कॉपी करें",
+    "copyUrl": "पता कॉपी करें",
+    "permissionGranted": "की अनुमति दी",
+    "permissionDenied": "अनुमति नहीं मिली",
+    "serviceStarted": "सेवा शुरू हो गई है",
+    "serviceStopped": "सेवा बंद हो गई है",
+    "error": "गलती"
+  }
+}

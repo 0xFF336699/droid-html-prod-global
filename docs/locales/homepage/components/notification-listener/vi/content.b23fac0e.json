@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "Trình nghe thanh thông tin",
+    "settingsButtonLabel": "cài đặt",
+    "clientsNum": "Đã kết nối:",
+    "notificationReadable": "Quyền đọc:",
+    "notificationReadableYes": "Đã bật rồi",
+    "notificationReadableNo": "Chưa bật",
+    "socketServerStatus": "Máy chủ ổ cắm:",
+    "socketServerRunning": "Đang chạy",
+    "socketServerStopped": "Đã dừng",
+    "socketServerStartButton": "Khởi động máy chủ",
+    "socketServerStopButton": "Dừng máy chủ",
+    "foregroundService": {
+      "title": "Dịch vụ nghe thông báo",
+      "content": "Lắng nghe thông báo hệ thống",
+      "reason": "<h3>Dịch vụ nghe thông báo</h3><p>Dịch vụ này cần tiếp tục chạy ở chế độ nền để:</p><ul><li>Đọc thông báo hệ thống trong thời gian thực</li><li>Đẩy tới máy khách thông qua Ổ cắm</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "Cài đặt thanh thông tin"
+  },
+  "ScaneQRCodeButton": {
+    "name": "Quét mã để kết nối"
+  },
+  "SettingPanel": {
+    "modalTitle": "Cài đặt trình nghe",
+    "description": "Chức năng này khởi động một dịch vụ cục bộ để nhận và xử lý tin nhắn thông báo trên thanh trạng thái hệ thống Android. Hãy chắc chắn rằng cổng không bị chiếm đóng.",
+    "riskWarning": "Cảnh báo rủi ro: Bật tính năng này sẽ cho phép ứng dụng đọc tất cả tin nhắn thông báo của bạn, trong đó có thể chứa thông tin nhạy cảm. Vui lòng sử dụng một cách thận trọng.",
+    "portLabel": "cảng dịch vụ",
+    "portRangeError": "Cổng phải là số nguyên trong khoảng từ 1025 đến 65535.",
+    "tokenLabel": "Mã thông báo truy cập",
+    "cancelButton": "bỏ cuộc",
+    "applyButton": "sử dụng"
+  }
+}

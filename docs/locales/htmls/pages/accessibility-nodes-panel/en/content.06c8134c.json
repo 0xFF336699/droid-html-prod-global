@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Accessibility interface view",
+    "howToUse": "Instructions for use",
+    "howToUseTooltip": "Below are some mark attributes of this node, which can be used to select operations, such as clicking, filling in text, etc.\n\nAttribute values ​​may be duplicated in the app page. If duplicates are encountered, please overlay other attribute values ​​to determine uniqueness.\n\nThe red words indicate that the attribute value is repeated, the green words indicate that the attribute value is unique in the current page search, and the black words indicate that no repeated comparisons are made.",
+    "otherNodesSummary": "Other nodes at this location",
+    "moreNodes": "Here is the expanded content.",
+    "nodeInfoDialogOkButton": "Edit the node",
+    "text": "Text 2222"
+  }
+}

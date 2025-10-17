@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Verbinde...",
-    "connected": "Verkrege",
-    "disconnecting": "Ontkoppele...",
-    "disconnected": "Neet verbonde",
-    "waitRetry": "Wachte veur herverbinding..."
-  }
-}

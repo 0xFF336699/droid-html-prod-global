@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "Bleiben Sie in Verbindung",
+        "helperText": "Wenn Sie auf klicken, um den Link zu starten, behalten Sie den Link bei. Sie müssen also darauf achten, dass der Link nach dem Trennen immer wieder hergestellt wird.",
+        "retryCount": "Anzahl der Wiederverbindungen"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "Link-URL, z. B. ws://192.168.0.2:7001 oder wws://example.com/path",
+        "error": "Die richtige URL ist eine URL, die mit ws:// oder wwws:// beginnt."
+      }
+    },
+    "connectButton": {
+      "connect": "verbinden",
+      "disconnect": "Trennen",
+      "status": {
+        "connecting": "Verbinden...",
+        "connected": "Verbunden",
+        "disconnecting": "Verbindung trennen...",
+        "disconnected": "Nicht verbunden",
+        "waitRetry": "Warten auf Wiederverbindung..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "Skript"
+  }
+}

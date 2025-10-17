@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Modelul URL",
+    "full": {
+      "url": "Adresa URL a pieței. Caracterele introduse vor fi încărcate ca URL, vă rugăm să fiți atenți.",
+      "html": "Piața conținut HTML. Caracterele introduse vor fi tratate ca un script și executate imediat, vă rugăm să fiți atenți.",
+      "come": "Vino la mine",
+      "myMarketName": "Numele pieței",
+      "stroll": "Face o plimbare"
+    },
+    "item": {
+      "url": "Adresa URL a cardului de piață. Caracterele introduse vor fi încărcate ca URL, vă rugăm să fiți atenți.",
+      "html": "Piața conținut HTML. Caracterele introduse vor fi tratate ca un script și executate imediat, vă rugăm să fiți atenți.",
+      "come": "Vino la mine",
+      "myMarketName": "Numele pieței",
+      "stroll": "Face o plimbare"
+    }
+  }
+}

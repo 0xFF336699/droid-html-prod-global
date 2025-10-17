@@ -1,8 +1,0 @@
-{
-  "WebViewJs": {
-    "error": {
-      "notInAndroid": "Ezt a módszert csak Androidon lehet felhívni",
-      "noMethod": "Ez a módszer nem létezik"
-    }
-  }
-}

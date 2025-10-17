@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "operere",
+    "click": "Klikk",
+    "longClick": "Langt trykk",
+    "setText": "Angi tekst",
+    "tryClick": "Prøv element eller posisjonsklikk",
+    "globalClick": "plasseringsklikk"
+  }
+}

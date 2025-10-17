@@ -1,0 +1,42 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Az a szám, amelyre szöveges üzeneteket szeretne küldeni vagy kimenő hívásokat kezdeményezni",
+          "label": "telefonszám",
+          "helperText": "Az a szám, amelyre szöveges üzeneteket szeretne küldeni vagy kimenő hívásokat kezdeményezni"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Kicsit rosszul érzem magam, gyere hozzám gyorsan! ! !",
+          "label": "SMS tartalom",
+          "helperText": "SMS tartalom"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS címzettek listája"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Vevő mobilszáma",
+          "label": "Vevő mobilszáma",
+          "helperText": "Vevő mobilszáma"
+        }
+      }
+    }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Hozzon létre egy egykattintásos hívást a segítségért",
+      "description": "Hozzon létre egy parancsikont a telefon asztalán"
+    },
+    "launcherName": "segélyhívás"
+  },
+  "SelectedContackList": {
+    "title": "vészhelyzeti kapcsolat"
+  }
+}

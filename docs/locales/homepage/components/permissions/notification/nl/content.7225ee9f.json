@@ -1,0 +1,7 @@
+{
+  "NotificationOpenButton": {
+    "name": "Meldingsbalk leest",
+    "description": "Schakel de leesrechten in de notificatiebalk in",
+    "setting": "opgezet"
+  }
+}

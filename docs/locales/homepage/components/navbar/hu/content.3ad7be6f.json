@@ -1,0 +1,11 @@
+{
+  "NavBar": {
+    "home": "címlapon",
+    "me": "enyém",
+    "settings": "felállítani",
+    "script": "forgatókönyv",
+    "store": "piac",
+    "market": "piac",
+    "create": "teremt"
+  }
+}

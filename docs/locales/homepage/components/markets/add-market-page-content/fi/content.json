@@ -1,8 +1,0 @@
-{
-  "AddMarketPageContent": {
-    "title": "Lisätä",
-    "url": "Markkinoiden URL -osoite",
-    "summary": "Markkinoiden yhteenveto",
-    "urlIsNotValid": "Virheelliset markkinoiden URL -osoitteet"
-  }
-}

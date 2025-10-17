@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Saat memasuki halaman yang ditentukan",
+    "pnLabel": "Nama paket:",
+    "anLabel": "Nama kegiatan:",
+    "cnLabel": "Nama kelas:",
+    "changeBtnLabel": "mengganti"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Saat memasuki halaman yang ditentukan",
+    "pnLabel": "Nama paket:",
+    "anLabel": "Nama kegiatan:",
+    "cnLabel": "Nama kelas:",
+    "changeBtnLabel": "mengganti"
+  }
+}

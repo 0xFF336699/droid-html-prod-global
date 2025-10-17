@@ -1,7 +1,0 @@
-{
-  "androidPermission": {
-    "denied": "từ chối",
-    "granted": "Được ủy quyền",
-    "shouldAskAgain": "Trái phép"
-  }
-}

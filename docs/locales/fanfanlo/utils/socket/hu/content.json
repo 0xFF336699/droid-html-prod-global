@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Csatlakozó ...",
-    "connected": "Összekapcsolt",
-    "disconnecting": "Leválasztás ...",
-    "disconnected": "Nem kapcsolódva",
-    "waitRetry": "Várakozás az újracsatlakozásra ..."
-  }
-}

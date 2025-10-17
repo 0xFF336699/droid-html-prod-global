@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Միացում ...",
-    "connected": "Միացված",
-    "disconnecting": "Անջատելը ...",
-    "disconnected": "Միացված չէ",
-    "waitRetry": "Սպասում եմ վերամշակմանը ..."
-  }
-}

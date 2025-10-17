@@ -1,8 +1,0 @@
-{
-  "AddMarketPageContent": {
-    "title": "Pridėti į rinką",
-    "url": "Rinkos URL",
-    "summary": "Rinkos santrauka",
-    "urlIsNotValid": "Neteisingas rinkos URL"
-  }
-}

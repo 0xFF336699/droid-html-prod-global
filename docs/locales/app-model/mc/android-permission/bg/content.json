@@ -1,7 +1,0 @@
-{
-  "androidPermission": {
-    "denied": "отхвърляне",
-    "granted": "Разрешен",
-    "shouldAskAgain": "Неоторизиран"
-  }
-}

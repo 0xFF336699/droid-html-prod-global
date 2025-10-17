@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Nyambungkeun ...",
-    "connected": "Nyambungkeun",
-    "disconnecting": "Pegatkeun ...",
-    "disconnected": "Teu nyambung",
-    "waitRetry": "Ngantosan sambungkeun deui ..."
-  }
-}

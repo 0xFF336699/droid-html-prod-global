@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "شنونده نوار اطلاعات",
+    "settingsButtonLabel": "راه اندازی کرد",
+    "clientsNum": "متصل:",
+    "notificationReadable": "اجازه خواندن:",
+    "notificationReadableYes": "قبلاً روشن شده است",
+    "notificationReadableNo": "روشن نشده است",
+    "socketServerStatus": "سرور سوکت:",
+    "socketServerRunning": "در حال دویدن",
+    "socketServerStopped": "متوقف شد",
+    "socketServerStartButton": "سرور را راه اندازی کنید",
+    "socketServerStopButton": "سرور را متوقف کنید",
+    "foregroundService": {
+      "title": "سرویس گوش دادن به اعلان ها",
+      "content": "گوش دادن به اعلان های سیستم",
+      "reason": "<h3>سرویس گوش دادن به اعلان‌ها</h3><p>این سرویس باید در پس‌زمینه به کار خود ادامه دهد تا:</p><ul><li>اعلان‌های سیستم را در زمان واقعی بخواند</li><li>از طریق Socket به مشتری ارسال شود</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "تنظیمات نوار اطلاعات"
+  },
+  "ScaneQRCodeButton": {
+    "name": "برای اتصال کد را اسکن کنید"
+  },
+  "SettingPanel": {
+    "modalTitle": "تنظیمات شنونده",
+    "description": "این عملکرد یک سرویس محلی را برای دریافت و پردازش پیام های اعلان در نوار وضعیت سیستم Android راه اندازی می کند. لطفا مطمئن شوید که پورت اشغال نشده است.",
+    "riskWarning": "هشدار خطر: روشن کردن این ویژگی به برنامه امکان می‌دهد همه پیام‌های اعلان شما را که ممکن است حاوی اطلاعات حساس باشد، بخواند. لطفا با احتیاط استفاده کنید",
+    "portLabel": "پورت خدمات",
+    "portRangeError": "پورت باید یک عدد صحیح بین 1025 و 65535 باشد.",
+    "tokenLabel": "رمز دسترسی",
+    "cancelButton": "تسلیم شدن",
+    "applyButton": "استفاده کنید"
+  }
+}

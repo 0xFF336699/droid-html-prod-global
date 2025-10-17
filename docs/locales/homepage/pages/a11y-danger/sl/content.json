@@ -1,9 +1,0 @@
-{
-  "content": {
-    "txt1": "Ta funkcija lahko opravlja operacije, podobne operacijam v resnični osebi, vključno s klikom, odpiranjem aplikacij itd. V telefonu, poleg tega pa lahko odpre tudi nekaj plačilnih aplikacij za plačilo. Ker obstajajo tveganja za snemanje operacij, plačila itd., Toplo priporočamo, da ga izvedete le, če vsebino v celoti razumete vsebino skripta.",
-    "txt2": "Kako zapreti to funkcijo: Odprite domačo stran te aplikacije, v nastavitvah domače strani lahko nehate uporabljati pomožno funkcijo ali na domači strani kliknite gumb \"Zaprite vse naloge in izstop\". Ta gumb prisili zapiranje vseh opravil, ki se izvajajo, in prisilno zapre to aplikacijo.",
-    "txt3": "Razlog, da uporabljamo to funkcijo, je v tem, da mora naša aplikacija imeti možnost odpreti druge aplikacije in jih nadzorovati, na primer pri brskanju po Instagramu, lahko samodejno zdrsne po predvajanju videoposnetka, preverite, ali je izdelek v prodaji, in redno pošiljajo sporočila spletnim prijateljem itd.",
-    "iKnowDanger": "Poznam tveganja - pojdi na set",
-    "title": "Nevarne operacije"
-  }
-}

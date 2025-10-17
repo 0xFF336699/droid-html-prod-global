@@ -1,9 +1,0 @@
-{
-  "MessageInput": {
-    "attachFile": "Thêm tệp đính kèm",
-    "emoji": "Chọn một biểu thức",
-    "placeholder": "Nhập tin nhắn ...",
-    "sendLocation": "Gửi vị trí",
-    "send": "gửi"
-  }
-}

@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "scorciatoia",
+    "title": "Identificazione del pacchetto e dell'attività",
+    "useBtn": "utilizzo",
+    "closeBtn": "chiusura",
+    "pnLabel": "nome del pacchetto",
+    "copyButtonText": "copia",
+    "anLabel": "attività",
+    "clsLable": "classe"
+  }
+}

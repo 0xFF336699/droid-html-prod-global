@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Aksesibilitas",
+    "pass": "Resmi",
+    "notPass": "Tidak sah",
+    "setting": "mendirikan",
+    "danger": "Bahaya",
+    "dangerDesc": "Otorisasi ini memungkinkan Anda melihat apa yang ada di layar dan melakukan klik pada ponsel Anda. Harap nonaktifkan izin ini jika Anda tidak memahami dengan jelas fungsi dan risiko skrip yang sedang atau akan Anda jalankan."
+  }
+}

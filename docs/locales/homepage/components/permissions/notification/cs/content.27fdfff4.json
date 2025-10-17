@@ -1,0 +1,7 @@
+{
+  "NotificationOpenButton": {
+    "name": "Notifikační lišta čte",
+    "description": "Zapněte oprávnění ke čtení na oznamovací liště",
+    "setting": "nastavit"
+  }
+}

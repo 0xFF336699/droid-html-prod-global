@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Den här funktionen kan utföra mänskliga operationer på din mobiltelefon, inklusive men inte begränsat till att klicka, öppna applikationer etc. Den kan också öppna vissa betalningsapplikationer för betalning. Eftersom det finns en risk för att spela in operationer, göra betalningar etc. rekommenderar vi starkt att du endast kör det om du förstår innehållet i skriptet till fullo.",
+    "txt2": "Så här stänger du av den här funktionen: Öppna startsidan för denna applikation, du kan sluta använda extrafunktionen i startsidans inställningar, eller så kan du klicka på knappen \"Stäng alla uppgifter och avsluta\" på hemsidan. Den här knappen stänger med kraft alla pågående uppgifter och stänger appen.",
+    "txt3": "Anledningen till att vi använder den här funktionen är att vår applikation måste kunna öppna andra applikationer och utföra vissa operationer på dem. Till exempel, när du surfar på Instagram kan den automatiskt glida upp efter att videon har spelats upp, kontrollera om en viss produkt är till salu, regelbundet skicka meddelanden till vänner online och andra intressanta eller arbetsbesparande operationer.",
+    "iKnowDanger": "Jag är medveten om riskerna - gå till inställningar",
+    "title": "Farlig operation"
+  }
+}

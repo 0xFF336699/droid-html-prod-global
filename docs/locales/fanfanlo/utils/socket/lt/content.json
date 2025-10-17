@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Jungiamasis ...",
-    "connected": "Prijungtas",
-    "disconnecting": "Atjunkite ...",
-    "disconnected": "Neprijungtas",
-    "waitRetry": "Laukiu vėl prisijungimo ..."
-  }
-}

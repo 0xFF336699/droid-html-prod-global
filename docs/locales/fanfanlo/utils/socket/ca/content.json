@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Connexió ...",
-    "connected": "Connectat",
-    "disconnecting": "Desconnectar ...",
-    "disconnected": "No connectat",
-    "waitRetry": "Esperant la reconnexió ..."
-  }
-}

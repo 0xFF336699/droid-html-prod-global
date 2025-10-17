@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "사진앨범 서비스",
+    "serverStatus": "서비스 상태",
+    "running": "달리기",
+    "stopped": "중지됨",
+    "port": "포트",
+    "token": "액세스 토큰",
+    "permissionType": "권한 모드",
+    "contentResolver": "시스템 권한",
+    "saf": "파일 액세스 프레임워크",
+    "startService": "서비스 시작",
+    "stopService": "서비스 중지",
+    "checkPermissions": "권한 확인",
+    "requestPermissions": "허가 신청",
+    "openAlbum": "사진 앨범 열기",
+    "copyToken": "토큰 복사",
+    "copyUrl": "주소 복사",
+    "permissionGranted": "허가가 부여되었습니다",
+    "permissionDenied": "허가가 거부되었습니다",
+    "serviceStarted": "서비스가 시작되었습니다",
+    "serviceStopped": "서비스가 중지되었습니다",
+    "error": "실수"
+  }
+}

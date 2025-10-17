@@ -1,0 +1,8 @@
+{
+  "content": {
+    "createButton": "tạo nên",
+    "noProjects": "Chưa có dự án nào trong danh sách dự án, bạn có thể tạo dự án mới",
+    "orFindFromMarket": "Hoặc tìm các mặt hàng bạn cần từ thị trường",
+    "projects": "Danh sách dự án"
+  }
+}

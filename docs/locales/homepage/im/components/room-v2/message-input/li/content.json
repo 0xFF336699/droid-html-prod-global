@@ -1,9 +1,0 @@
-{
-  "MessageInput": {
-    "attachFile": "bevestiginge",
-    "emoji": "Selecteer ‘n expressie",
-    "placeholder": "Voer ‘n boodsjap in...",
-    "sendLocation": "De locatie",
-    "send": "sjture"
-  }
-}

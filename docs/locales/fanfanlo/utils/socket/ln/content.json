@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Kozala na boyokani...",
-    "connected": "Ekangami .",
-    "disconnecting": "Kokata boyokani...",
-    "disconnected": "Ezali na boyokani te .",
-    "waitRetry": "Kozela reconnexion..."
-  }
-}

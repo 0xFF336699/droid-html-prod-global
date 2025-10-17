@@ -1,8 +1,0 @@
-{
-  "WebViewJs": {
-    "error": {
-      "notInAndroid": "Seda meetodit saab kutsuda ainult Androidi",
-      "noMethod": "Seda meetodit pole olemas"
-    }
-  }
-}

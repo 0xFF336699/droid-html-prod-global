@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "कनेक्ट करना ...",
-    "connected": "जुड़े हुए",
-    "disconnecting": "डिस्कनेक्ट करना ...",
-    "disconnected": "जुड़े नहीं हैं",
-    "waitRetry": "पुन: संयोजन की प्रतीक्षा में ..."
-  }
-}

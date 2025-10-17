@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "nyilvántartás",
+    "phoneNumber": "Telefonszám",
+    "phoneNumberPlaceholder": "Kérjük, adja meg a mobiltelefon számát",
+    "verificationCode": "Ellenőrző kód",
+    "verificationCodePlaceholder": "Kérjük, adja meg az ellenőrző kódot",
+    "getVerificationCode": "Szerezzen ellenőrző kódot",
+    "countdown": "Próbálja újra {{seconds}} másodperc múlva",
+    "register": "nyilvántartás",
+    "errors": {
+      "phoneRequired": "Kérjük, adja meg a mobiltelefon számát",
+      "phoneInvalid": "A mobiltelefonszám formátuma helytelen",
+      "codeRequired": "Kérjük, adja meg az ellenőrző kódot",
+      "codeInvalid": "Az ellenőrző kód formátuma helytelen",
+      "requestFailed": "A kérés sikertelen",
+      "verificationFailed": "Nem sikerült megszerezni az ellenőrző kódot",
+      "loginFailed": "Sikertelen bejelentkezés"
+    },
+    "success": {
+      "verificationCodeSent": "Ellenőrző kód elküldve",
+      "registerSuccess": "Sikeres regisztráció"
+    }
+  }
+}

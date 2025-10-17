@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Konektatzea ...",
-    "connected": "Konektatuta",
-    "disconnecting": "Deskonektatu ...",
-    "disconnected": "Ez dago konektatuta",
-    "waitRetry": "Konexioaren zain ..."
-  }
-}

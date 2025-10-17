@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Chức năng này có thể thực hiện các thao tác giống con người trên điện thoại di động của bạn, bao gồm nhưng không giới hạn việc nhấp chuột, mở ứng dụng, v.v. Nó cũng có thể mở một số ứng dụng thanh toán để thanh toán. Vì có nguy cơ ghi lại các thao tác, thực hiện thanh toán, v.v. nên chúng tôi đặc biệt khuyên bạn chỉ nên thực hiện nếu bạn hiểu rõ nội dung của tập lệnh.",
+    "txt2": "Cách tắt chức năng này: Mở trang chủ của ứng dụng này, bạn có thể ngừng sử dụng chức năng phụ trợ trong cài đặt trang chủ hoặc bạn có thể nhấp vào nút \"Đóng tất cả tác vụ và thoát\" trên trang chủ. Nút này sẽ đóng mạnh tất cả các tác vụ đang diễn ra và đóng ứng dụng một cách mạnh mẽ.",
+    "txt3": "Lý do chúng tôi sử dụng chức năng này là vì ứng dụng của chúng tôi cần có khả năng mở các ứng dụng khác và thực hiện một số thao tác trên chúng. Ví dụ: khi duyệt Instagram, nó có thể tự động trượt lên sau khi phát video, kiểm tra xem một sản phẩm nào đó có đang giảm giá hay không, thường xuyên gửi tin nhắn cho bạn bè trực tuyến và các hoạt động thú vị hoặc tiết kiệm sức lao động khác.",
+    "iKnowDanger": "Tôi nhận thức được những rủi ro - hãy vào phần cài đặt",
+    "title": "Hoạt động nguy hiểm"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "NavBar": {
+    "home": "förstasidan",
+    "me": "mina",
+    "settings": "inrätta",
+    "script": "manus",
+    "store": "marknadsföra",
+    "market": "marknadsföra",
+    "create": "skapa"
+  }
+}

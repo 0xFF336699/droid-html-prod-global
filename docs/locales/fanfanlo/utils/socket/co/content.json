@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Cunnettendu ...",
-    "connected": "Cunnessu",
-    "disconnecting": "Disconnect a ...",
-    "disconnected": "Micca cunnessu",
-    "waitRetry": "Aspettendu di reconneczione ..."
-  }
-}

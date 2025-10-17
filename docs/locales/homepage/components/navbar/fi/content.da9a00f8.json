@@ -1,0 +1,11 @@
+{
+  "NavBar": {
+    "home": "etusivulle",
+    "me": "minun",
+    "settings": "perustaa",
+    "script": "käsikirjoitus",
+    "store": "markkinoida",
+    "market": "markkinoida",
+    "create": "luoda"
+  }
+}

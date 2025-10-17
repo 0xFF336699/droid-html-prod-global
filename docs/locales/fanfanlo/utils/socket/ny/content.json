@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Kulumikiza ...",
-    "connected": "Olumikizidwa",
-    "disconnecting": "Tsitsani ...",
-    "disconnected": "Osalumikizidwa",
-    "waitRetry": "Kudikirira kuyanjana ..."
-  }
-}

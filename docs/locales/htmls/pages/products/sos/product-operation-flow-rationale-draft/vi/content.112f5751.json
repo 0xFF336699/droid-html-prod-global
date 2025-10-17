@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "phím tắt",
+    "title": "Nhận dạng gói và hoạt động",
+    "useBtn": "sử dụng",
+    "closeBtn": "đóng cửa",
+    "pnLabel": "tên gói",
+    "copyButtonText": "sao chép",
+    "anLabel": "hoạt động ",
+    "clsLable": "lớp học"
+  }
+}

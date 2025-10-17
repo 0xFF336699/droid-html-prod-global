@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "フォトアルバムサービス",
+    "serverStatus": "サービス状況",
+    "running": "ランニング",
+    "stopped": "停止しました",
+    "port": "ポート",
+    "token": "アクセストークン",
+    "permissionType": "許可モード",
+    "contentResolver": "システム権限",
+    "saf": "ファイルアクセスフレームワーク",
+    "startService": "サービス開始",
+    "stopService": "サービスを停止する",
+    "checkPermissions": "権限を確認する",
+    "requestPermissions": "許可を申請する",
+    "openAlbum": "フォトアルバムを開く",
+    "copyToken": "トークンをコピーする",
+    "copyUrl": "アドレスをコピーする",
+    "permissionGranted": "許可が与えられました",
+    "permissionDenied": "許可が拒否されました",
+    "serviceStarted": "サービスを開始しました",
+    "serviceStopped": "サービスが停止されました",
+    "error": "間違い"
+  }
+}

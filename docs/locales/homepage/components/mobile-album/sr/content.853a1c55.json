@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "Услуга фото албума",
+    "serverStatus": "Статус услуге",
+    "running": "Трчање",
+    "stopped": "Заустављено",
+    "port": "лука",
+    "token": "приступни токен",
+    "permissionType": "режим дозволе",
+    "contentResolver": "Системске дозволе",
+    "saf": "оквир за приступ фајловима",
+    "startService": "Започните услугу",
+    "stopService": "Зауставите услугу",
+    "checkPermissions": "Проверите дозволе",
+    "requestPermissions": "Пријавите се за дозволу",
+    "openAlbum": "Отворите фото албум",
+    "copyToken": "копија токен",
+    "copyUrl": "Копирај адресу",
+    "permissionGranted": "Дозвола је дата",
+    "permissionDenied": "Дозвола одбијена",
+    "serviceStarted": "Услуга је почела",
+    "serviceStopped": "Услуга је заустављена",
+    "error": "грешка"
+  }
+}

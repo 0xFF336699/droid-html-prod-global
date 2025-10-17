@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Esteettömyyskäyttöliittymänäkymä",
+    "howToUse": "Käyttöohjeet",
+    "howToUseTooltip": "Alla on joitain tämän solmun merkkiattribuutteja, joilla voidaan valita toimintoja, kuten napsautusta, tekstin täyttämistä jne.\n\nAttribuuttien arvot voivat olla päällekkäisiä sovellussivulla. Jos havaitset päällekkäisyyksiä, määritä yksilöllisyyden lisääminen muiden attribuuttiarvojen päälle.\n\nPunaiset sanat osoittavat, että määritteen arvo toistuu, vihreät sanat osoittavat, että määritteen arvo on ainutlaatuinen nykyisessä sivuhaussa, ja mustat sanat osoittavat, että toistuvia vertailuja ei tehdä.",
+    "otherNodesSummary": "Muut solmut tässä paikassa",
+    "moreNodes": "Tässä on laajennettu sisältö.",
+    "nodeInfoDialogOkButton": "Muokkaa solmua",
+    "text": "Teksti 2222"
+  }
+}

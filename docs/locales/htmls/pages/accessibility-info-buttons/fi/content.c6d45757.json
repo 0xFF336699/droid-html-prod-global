@@ -1,0 +1,11 @@
+{
+  "content": {
+    "close": "päättäminen",
+    "layout": "layout",
+    "fullInfo": "täydelliset tiedot",
+    "title": "Lue a11y tietopainikeryhmä",
+    "multiWindow": "useita ikkunoita",
+    "appWindow": "yksi ikkuna",
+    "store": "tallentaa"
+  }
+}

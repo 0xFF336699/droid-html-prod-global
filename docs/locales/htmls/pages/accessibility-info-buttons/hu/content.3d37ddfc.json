@@ -1,0 +1,11 @@
+{
+  "content": {
+    "close": "bezárás",
+    "layout": "elrendezés",
+    "fullInfo": "teljes adatok",
+    "title": "Olvassa el a11y információs gombcsoportot",
+    "multiWindow": "több ablak",
+    "appWindow": "egyetlen ablak",
+    "store": "bolt"
+  }
+}

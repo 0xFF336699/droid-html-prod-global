@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Okuyunga...",
-    "connected": "Eyungiddwa .",
-    "disconnecting": "Okukutula...",
-    "disconnected": "Teziyungiddwa ku .",
-    "waitRetry": "Okulindirira okuddamu okuyungibwa..."
-  }
-}

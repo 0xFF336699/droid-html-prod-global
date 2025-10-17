@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Isku xirka ...",
-    "connected": "Ku xiran",
-    "disconnecting": "Kala goynta ...",
-    "disconnected": "Kuma xirna",
-    "waitRetry": "Sugitaanka dib-u-habeynta ..."
-  }
-}

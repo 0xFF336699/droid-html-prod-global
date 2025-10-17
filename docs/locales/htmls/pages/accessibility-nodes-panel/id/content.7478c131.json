@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Tampilan antarmuka aksesibilitas",
+    "howToUse": "Petunjuk Penggunaan",
+    "howToUseTooltip": "Di bawah ini adalah beberapa atribut tanda dari node ini, yang dapat digunakan untuk memilih operasi, seperti mengklik, mengisi teks, dll.\n\nNilai atribut dapat diduplikasi di halaman aplikasi. Jika ditemukan duplikat, harap overlay nilai atribut lainnya untuk menentukan keunikannya.\n\nKata berwarna merah menunjukkan bahwa nilai atribut diulang, kata hijau menunjukkan bahwa nilai atribut unik dalam pencarian halaman saat ini, dan kata hitam menunjukkan bahwa tidak ada perbandingan berulang yang dilakukan.",
+    "otherNodesSummary": "Node lain di lokasi ini",
+    "moreNodes": "Berikut adalah konten yang diperluas.",
+    "nodeInfoDialogOkButton": "Edit simpulnya",
+    "text": "Teks 2222"
+  }
+}

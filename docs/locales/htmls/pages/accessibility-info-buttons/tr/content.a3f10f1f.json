@@ -1,0 +1,11 @@
+{
+  "content": {
+    "close": "kapatma",
+    "layout": "düzen",
+    "fullInfo": "verileri tamamla",
+    "title": "a11y bilgilerini oku düğme grubu",
+    "multiWindow": "birden fazla pencere",
+    "appWindow": "tek pencere",
+    "store": "mağaza"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "ITriggerTimeout": {
+    "title": "지연된 실행",
+    "content_delay": "지연",
+    "content_milliseconds": "밀리초 후에 실행"
+  }
+}

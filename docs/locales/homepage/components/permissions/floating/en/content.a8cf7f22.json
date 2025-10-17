@@ -1,0 +1,6 @@
+{
+  "FloatingInfo": {
+    "name": "floating window",
+    "dangerDesc": "This authorization allows this app to be suspended or obscured on top of other apps. You need to guard against malicious scripts using this permission."
+  }
+}

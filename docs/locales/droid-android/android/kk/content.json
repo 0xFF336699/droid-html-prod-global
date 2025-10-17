@@ -1,8 +1,0 @@
-{
-  "WebViewJs": {
-    "error": {
-      "notInAndroid": "Бұл әдісті тек Android-де шақыруға болады",
-      "noMethod": "Бұл әдіс жоқ"
-    }
-  }
-}

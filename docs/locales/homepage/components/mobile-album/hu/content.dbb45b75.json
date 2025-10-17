@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "Fotóalbum szolgáltatás",
+    "serverStatus": "Szolgáltatás állapota",
+    "running": "Futás",
+    "stopped": "Megállt",
+    "port": "kikötő",
+    "token": "hozzáférési token",
+    "permissionType": "engedélyezési mód",
+    "contentResolver": "Rendszerengedélyek",
+    "saf": "fájl hozzáférési keretrendszer",
+    "startService": "Indítsa el a szolgáltatást",
+    "stopService": "Állítsa le a szolgáltatást",
+    "checkPermissions": "Ellenőrizze az engedélyeket",
+    "requestPermissions": "Kérjen engedélyt",
+    "openAlbum": "Nyissa meg a fényképalbumot",
+    "copyToken": "token másolása",
+    "copyUrl": "Cím másolása",
+    "permissionGranted": "Engedély megadva",
+    "permissionDenied": "Engedély megtagadva",
+    "serviceStarted": "A szolgáltatás elindult",
+    "serviceStopped": "A szolgáltatás leállt",
+    "error": "hiba"
+  }
+}

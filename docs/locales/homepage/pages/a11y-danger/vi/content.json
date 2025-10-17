@@ -1,9 +1,0 @@
-{
-  "content": {
-    "txt1": "Chức năng này có thể thực hiện các hoạt động tương tự như các hoạt động của người thực, nhưng không giới hạn ở việc nhấp, mở ứng dụng, v.v. trên điện thoại của bạn và cũng có thể mở một số ứng dụng thanh toán để thanh toán. Bởi vì có những rủi ro khi được ghi lại các hoạt động, thực hiện thanh toán, v.v., chúng tôi thực sự khuyên bạn chỉ nên thực hiện nó nếu bạn hoàn toàn hiểu nội dung của tập lệnh.",
-    "txt2": "Cách đóng chức năng này: Mở trang chủ của ứng dụng này, bạn có thể ngừng sử dụng chức năng phụ trợ trong cài đặt trang chủ hoặc bạn có thể nhấp vào nút \"Đóng tất cả các tác vụ và thoát\" trên trang chủ. Nút này buộc đóng tất cả các tác vụ được thực hiện và buộc đóng ứng dụng này.",
-    "txt3": "Lý do chúng tôi sử dụng chức năng này là vì ứng dụng của chúng tôi cần có khả năng mở các ứng dụng khác và kiểm soát chúng, chẳng hạn như khi duyệt Instagram, nó có thể tự động trượt lên sau khi phát video, hãy kiểm tra xem một sản phẩm có được bán hay không và gửi tin nhắn cho bạn bè trực tuyến thường xuyên, v.v.",
-    "iKnowDanger": "Tôi biết những rủi ro - đi đến thiết lập",
-    "title": "Hoạt động nguy hiểm"
-  }
-}

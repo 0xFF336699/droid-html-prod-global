@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "scurtătură",
+    "title": "Identificarea pachetului și a activității",
+    "useBtn": "utilizare",
+    "closeBtn": "închidere",
+    "pnLabel": "numele pachetului",
+    "copyButtonText": "copie",
+    "anLabel": "activitate",
+    "clsLable": "clasă"
+  }
+}

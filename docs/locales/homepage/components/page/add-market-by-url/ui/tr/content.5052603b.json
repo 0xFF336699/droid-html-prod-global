@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Bu uygulama cep telefonunuzdaki çok sayıda izin için geçerli olduğundan, birçok izin son derece risklidir, bu nedenle lütfen piyasanın veya komut dosyasının risklerini açıkça bilmeden bunları içe aktarmayın veya çalıştırmayın. Aşağıdaki \"Market Kartı Tanıtımı\" veya \"Piyasadan Bağımsız Web Sayfası\" metin kutusuna içerik girdiğinizde içerik hemen kod olarak yürütülecektir, bu nedenle lütfen dikkatli işlem yapın.",
+    "setNewMarket": "Yeni pazar oluştur",
+    "settingPreview": "Önizlemeyi ayarla",
+    "marketName": "Pazar adı",
+    "marketSummary": "Pazara giriş",
+    "marketDescription": "Pazara giriş",
+    "itemMarket": "Pazar kartı tanıtımı",
+    "fullMarket": "Piyasadan bağımsız web sayfası",
+    "marketCardPreview": "Pazar kartı önizlemesi",
+    "marketFullPreview": "Piyasadan bağımsız web sayfası önizlemesi",
+    "isNotSet": "ayarlanmamış"
+  }
+}

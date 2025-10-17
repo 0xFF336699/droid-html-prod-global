@@ -1,0 +1,7 @@
+{
+  "NotificationOpenButton": {
+    "name": "Notification bar reads",
+    "description": "Turn on notification bar read permission",
+    "setting": "set up"
+  }
+}

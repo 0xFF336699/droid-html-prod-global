@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Konesu",
-    "connected": "Koneksion",
-    "disconnecting": "Dimensionat yu’?",
-    "disconnected": "Ti siña chagi",
-    "waitRetry": "Malago' hao para i rekonektas?"
-  }
-}

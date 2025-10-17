@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Jokkondiral...",
-    "connected": "Jokkondiral",
-    "disconnecting": "Taƴre...",
-    "disconnected": "Jokkondiral ngal jokkondirtaa",
-    "waitRetry": "Yiɗde jokkondire..."
-  }
-}

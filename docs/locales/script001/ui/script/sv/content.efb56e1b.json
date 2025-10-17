@@ -1,0 +1,42 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Numret du vill skicka textmeddelanden eller ringa utgående samtal till",
+          "label": "telefonnummer",
+          "helperText": "Numret du vill skicka textmeddelanden eller ringa utgående samtal till"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Jag mår lite illa, kom snabbt till mig! ! !",
+          "label": "SMS-innehåll",
+          "helperText": "SMS-innehåll"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS-mottagarelista"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Mottagarens mobilnummer",
+          "label": "Mottagarens mobilnummer",
+          "helperText": "Mottagarens mobilnummer"
+        }
+      }
+    }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Skapa en genväg för att ringa om hjälp med ett klick",
+      "description": "Skapa en genväg på telefonens skrivbord"
+    },
+    "launcherName": "nödsamtal"
+  },
+  "SelectedContackList": {
+    "title": "nödkontakt"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "pysy yhteydessä",
+        "helperText": "Jos napsautat aloittaaksesi linkin, säilytä linkki, joten sinun on kiinnitettävä huomiota siihen, että linkki muodostaa yhteyden uudelleen sen jälkeen, kun se on katkaistu.",
+        "retryCount": "Uudelleenliitäntöjen määrä"
+      },
+      "url": {
+        "name": "URL-osoite",
+        "helperText": "Linkin URL-osoite, kuten ws://192.168.0.2:7001 tai wws://example.com/path",
+        "error": "Oikea URL-osoite on ws:// tai wwws:// alkava URL-osoite"
+      }
+    },
+    "connectButton": {
+      "connect": "yhdistä",
+      "disconnect": "Katkaise yhteys",
+      "status": {
+        "connecting": "Yhdistetään...",
+        "connected": "Yhdistetty",
+        "disconnecting": "Katkaistaan...",
+        "disconnected": "Ei yhdistetty",
+        "waitRetry": "Odotetaan yhteyttä uudelleen..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "käsikirjoitus"
+  }
+}

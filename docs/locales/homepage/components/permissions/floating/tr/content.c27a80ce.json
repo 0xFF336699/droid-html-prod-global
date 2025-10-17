@@ -1,0 +1,6 @@
+{
+  "FloatingInfo": {
+    "name": "yüzen pencere",
+    "dangerDesc": "Bu yetkilendirme, bu uygulamanın diğer uygulamalarla birlikte askıya alınmasına veya gizlenmesine olanak tanır. Bu izni kullanarak kötü amaçlı komut dosyalarına karşı koruma sağlamanız gerekir."
+  }
+}

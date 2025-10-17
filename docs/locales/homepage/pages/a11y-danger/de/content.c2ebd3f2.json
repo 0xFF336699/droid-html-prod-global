@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Diese Funktion kann menschenähnliche Vorgänge auf Ihrem Mobiltelefon ausführen, einschließlich, aber nicht beschränkt auf, Klicken, Öffnen von Anwendungen usw. Sie kann auch einige Zahlungsanwendungen zum Bezahlen öffnen. Da das Risiko besteht, Vorgänge aufzuzeichnen, Zahlungen durchzuführen usw., empfehlen wir Ihnen dringend, es nur auszuführen, wenn Sie den Inhalt des Skripts vollständig verstanden haben.",
+    "txt2": "So deaktivieren Sie diese Funktion: Öffnen Sie die Homepage dieser Anwendung. Sie können die Verwendung der Hilfsfunktion in den Homepage-Einstellungen beenden oder auf der Homepage auf die Schaltfläche „Alle Aufgaben schließen und beenden“ klicken. Mit dieser Schaltfläche werden alle laufenden Aufgaben zwangsweise geschlossen und die App wird zwangsweise geschlossen.",
+    "txt3": "Der Grund, warum wir diese Funktion verwenden, besteht darin, dass unsere Anwendung in der Lage sein muss, andere Anwendungen zu öffnen und einige Vorgänge für sie auszuführen. Wenn Sie beispielsweise auf Instagram surfen, können Sie nach dem Abspielen des Videos automatisch nach oben rutschen, prüfen, ob ein bestimmtes Produkt im Angebot ist, regelmäßig Nachrichten an Online-Freunde senden und andere interessante oder arbeitssparende Vorgänge ausführen.",
+    "iKnowDanger": "Ich bin mir der Risiken bewusst – gehen Sie zu den Einstellungen",
+    "title": "Gefährlicher Betrieb"
+  }
+}

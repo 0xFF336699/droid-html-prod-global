@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Pagkonekta ...",
-    "connected": "Konektado",
-    "disconnecting": "Pag -disconnect ...",
-    "disconnected": "Hindi konektado",
-    "waitRetry": "Naghihintay para sa muling pagkonekta ..."
-  }
-}

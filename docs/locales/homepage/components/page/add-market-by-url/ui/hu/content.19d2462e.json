@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Mivel ez az alkalmazás nagyszámú engedélyre vonatkozik a mobiltelefonján, sok engedély rendkívül kockázatos, ezért kérjük, ne importálja vagy hajtsa végre azokat anélkül, hogy egyértelműen ismerné a piac vagy a szkript kockázatait. Miután beírta a tartalmat az alábbi \"Piackártya bemutatása\" vagy \"Piacfüggetlen weblap\" szövegmezőbe, a tartalom azonnal kódként fut le, ezért kérjük, legyen körültekintő.",
+    "setNewMarket": "Új piac létrehozása",
+    "settingPreview": "Előnézet beállítása",
+    "marketName": "Piac neve",
+    "marketSummary": "Piaci bevezetés",
+    "marketDescription": "Piaci bevezetés",
+    "itemMarket": "Piaci kártya bemutatkozása",
+    "fullMarket": "Piactól független weboldal",
+    "marketCardPreview": "Piac kártya előnézete",
+    "marketFullPreview": "Piactól független weboldal előnézet",
+    "isNotSet": "nincs beállítva"
+  }
+}

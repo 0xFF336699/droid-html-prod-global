@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Vue de l'interface d'accessibilité",
+    "howToUse": "Mode d'emploi",
+    "howToUseTooltip": "Vous trouverez ci-dessous quelques attributs de marque de ce nœud, qui peuvent être utilisés pour sélectionner des opérations, telles que cliquer, remplir du texte, etc.\n\nLes valeurs d'attribut peuvent être dupliquées dans la page de l'application. Si des doublons sont rencontrés, veuillez superposer d'autres valeurs d'attribut pour déterminer l'unicité.\n\nLes mots rouges indiquent que la valeur de l'attribut est répétée, les mots verts indiquent que la valeur de l'attribut est unique dans la page de recherche en cours et les mots noirs indiquent qu'aucune comparaison répétée n'est effectuée.",
+    "otherNodesSummary": "Autres nœuds à cet emplacement",
+    "moreNodes": "Voici le contenu développé.",
+    "nodeInfoDialogOkButton": "Modifier le nœud",
+    "text": "Texte 2222"
+  }
+}

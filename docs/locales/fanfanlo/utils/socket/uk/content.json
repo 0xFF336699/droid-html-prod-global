@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "З'єднання ...",
-    "connected": "З'єднаний",
-    "disconnecting": "Від'єднання ...",
-    "disconnected": "Не підключений",
-    "waitRetry": "Чекаємо на повторне з'єднання ..."
-  }
-}

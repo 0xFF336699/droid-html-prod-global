@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "Pendengar infobar",
+    "settingsButtonLabel": "Sediakan",
+    "clientsNum": "Bersambung:",
+    "notificationReadable": "Baca Kebenaran:",
+    "notificationReadableYes": "Sudah dihidupkan",
+    "notificationReadableNo": "Tidak dihidupkan",
+    "socketServerStatus": "Pelayan soket:",
+    "socketServerRunning": "Berlari",
+    "socketServerStopped": "Berhenti",
+    "socketServerStartButton": "Mulakan pelayan",
+    "socketServerStopButton": "Hentikan pelayan",
+    "foregroundService": {
+      "title": "Perkhidmatan pendengaran pemberitahuan",
+      "content": "Mendengarkan Pemberitahuan Sistem",
+      "reason": "<h3> Perkhidmatan Mendengarkan Pemberitahuan </h3> <p> Perkhidmatan ini perlu terus berjalan di latar belakang untuk: </p> <ul> <li> Membaca pemberitahuan sistem dalam masa nyata </li> <li> Tolak kepada klien melalui soket </li> </ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "Tetapan bar maklumat"
+  },
+  "ScaneQRCodeButton": {
+    "name": "Imbasan kod untuk menyambung"
+  },
+  "SettingPanel": {
+    "modalTitle": "Tetapan pendengar",
+    "description": "Fungsi ini memulakan perkhidmatan tempatan untuk menerima dan memproses mesej pemberitahuan dalam bar status sistem Android. Sila pastikan pelabuhan tidak diduduki.",
+    "riskWarning": "Amaran Risiko: Menghidupkan ciri ini akan membolehkan aplikasi membaca semua mesej pemberitahuan anda, yang mungkin mengandungi maklumat sensitif. Sila gunakan dengan berhati -hati.",
+    "portLabel": "port perkhidmatan",
+    "portRangeError": "Pelabuhan mestilah integer antara 1025 dan 65535.",
+    "tokenLabel": "Akses token",
+    "cancelButton": "menyerah",
+    "applyButton": "gunakan"
+  }
+}

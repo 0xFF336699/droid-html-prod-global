@@ -1,0 +1,6 @@
+{
+  "FloatingInfo": {
+    "name": "úszó ablak",
+    "dangerDesc": "Ez a felhatalmazás lehetővé teszi az alkalmazás felfüggesztését vagy kitakarását más alkalmazások mellett. Ezzel az engedéllyel védekeznie kell a rosszindulatú szkriptek ellen."
+  }
+}

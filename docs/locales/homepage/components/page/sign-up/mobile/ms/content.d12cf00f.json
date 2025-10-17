@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "Daftar",
+    "phoneNumber": "Nombor telefon",
+    "phoneNumberPlaceholder": "Sila masukkan nombor telefon bimbit",
+    "verificationCode": "Kod pengesahan",
+    "verificationCodePlaceholder": "Sila masukkan kod pengesahan",
+    "getVerificationCode": "Dapatkan kod pengesahan",
+    "countdown": "Cuba lagi dalam {{saat}} saat",
+    "register": "Daftar",
+    "errors": {
+      "phoneRequired": "Sila masukkan nombor telefon bimbit",
+      "phoneInvalid": "Format nombor telefon bimbit tidak betul",
+      "codeRequired": "Sila masukkan kod pengesahan",
+      "codeInvalid": "Format kod pengesahan tidak betul",
+      "requestFailed": "Permintaan gagal",
+      "verificationFailed": "Gagal mendapatkan kod pengesahan",
+      "loginFailed": "Log masuk gagal"
+    },
+    "success": {
+      "verificationCodeSent": "Kod pengesahan dihantar",
+      "registerSuccess": "Pendaftaran berjaya"
+    }
+  }
+}

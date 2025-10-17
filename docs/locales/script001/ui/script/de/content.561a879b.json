@@ -1,0 +1,42 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Die Nummer, an die Sie Textnachrichten senden oder ausgehende Anrufe tätigen möchten",
+          "label": "Telefonnummer",
+          "helperText": "Die Nummer, an die Sie Textnachrichten senden oder ausgehende Anrufe tätigen möchten"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Mir geht es etwas unwohl, komm schnell zu mir! ! !",
+          "label": "SMS-Inhalt",
+          "helperText": "SMS-Inhalt"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS-Empfängerliste"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Mobiltelefonnummer des Empfängers",
+          "label": "Mobiltelefonnummer des Empfängers",
+          "helperText": "Mobiltelefonnummer des Empfängers"
+        }
+      }
+    }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Erstellen Sie eine Ein-Klick-Hilfe-Verknüpfung",
+      "description": "Erstellen Sie eine Verknüpfung auf dem Desktop Ihres Telefons"
+    },
+    "launcherName": "Notruf"
+  },
+  "SelectedContackList": {
+    "title": "Notfallkontakt"
+  }
+}

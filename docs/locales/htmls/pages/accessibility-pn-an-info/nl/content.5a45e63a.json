@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "snelkoppeling",
+    "title": "Identificatie van pakket en activiteit",
+    "useBtn": "gebruik",
+    "closeBtn": "sluiting",
+    "pnLabel": "pakketnaam",
+    "copyButtonText": "kopiëren",
+    "anLabel": "activiteit",
+    "clsLable": "klas"
+  }
+}

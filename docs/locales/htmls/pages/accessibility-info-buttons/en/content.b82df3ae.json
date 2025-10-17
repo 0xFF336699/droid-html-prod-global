@@ -1,0 +1,11 @@
+{
+  "content": {
+    "close": "closure",
+    "layout": "layout",
+    "fullInfo": "complete data",
+    "title": "Read a11y information button group",
+    "multiWindow": "multiple windows",
+    "appWindow": "single window",
+    "store": "store"
+  }
+}

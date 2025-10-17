@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "hålla kontakten",
+        "helperText": "Om du klickar för att starta länken, behåll sedan länken, så du måste vara uppmärksam på att länken kommer att fortsätta att återansluta efter att den har kopplats bort.",
+        "retryCount": "Antal återanslutningar"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "Länkadress, till exempel ws://192.168.0.2:7001 eller wws://example.com/sökväg",
+        "error": "Rätt URL är en URL som börjar med ws:// eller wwws://"
+      }
+    },
+    "connectButton": {
+      "connect": "ansluta",
+      "disconnect": "Koppla från",
+      "status": {
+        "connecting": "Ansluter...",
+        "connected": "Ansluten",
+        "disconnecting": "Kopplar från...",
+        "disconnected": "Ej ansluten",
+        "waitRetry": "Väntar på återanslutning..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "manus"
+  }
+}

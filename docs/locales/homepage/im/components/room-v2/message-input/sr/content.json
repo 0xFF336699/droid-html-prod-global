@@ -1,9 +1,0 @@
-{
-  "MessageInput": {
-    "attachFile": "Додајте прилоге",
-    "emoji": "Изаберите израз",
-    "placeholder": "Унесите поруку ...",
-    "sendLocation": "Пошаљи локацију",
-    "send": "пошаљи"
-  }
-}

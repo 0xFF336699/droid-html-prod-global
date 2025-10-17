@@ -1,7 +1,0 @@
-{
-  "RoomContentV2": {
-    "waitingForLogin": "Please log in first",
-    "loadingRoomInfo": "Loading room information...",
-    "roomNotFound": "The room was not found"
-  }
-}

@@ -1,0 +1,6 @@
+{
+  "FloatingInfo": {
+    "name": "flytende vindu",
+    "dangerDesc": "Denne autorisasjonen gjør at denne appen kan suspenderes eller skjules på toppen av andre apper. Du må beskytte deg mot ondsinnede skript ved å bruke denne tillatelsen."
+  }
+}

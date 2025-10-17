@@ -1,9 +1,0 @@
-{
-  "content": {
-    "txt1": "Denne funktion kan udføre operationer, der ligner realpersonsoperationer, herunder, men ikke begrænset til at klikke, åbne apps osv. På din telefon og kan også åbne nogle betalingsapplikationer til betaling. Fordi der er risici ved at blive registreret operationer, foretage betalinger osv., Anbefaler vi kraftigt, at du kun udfører det, hvis du fuldt ud forstår indholdet af scriptet.",
-    "txt2": "Sådan lukker du denne funktion: Åbn startsiden for denne applikation, du kan stoppe med at bruge hjælpefunktionen i hjemmesideindstillingerne, eller du kan klikke på knappen \"Luk alle opgaver og exit\" på hjemmesiden. Denne knap tvinger lukningen af ​​alle opgaver, der udføres, og tvinger luk denne app.",
-    "txt3": "Årsagen til, at vi bruger denne funktion, er, at vores applikation skal have mulighed for at åbne andre applikationer og kontrollere dem, f.eks. Når du browser Instagram, kan den automatisk glide op, når videoen er spillet, kontrollere, om et produkt er til salg, og sende beskeder til online venner regelmæssigt osv., Som er interessante eller arbejdsbesparende operationer.",
-    "iKnowDanger": "Jeg kender risikoen - gå til at sætte",
-    "title": "Farlige operationer"
-  }
-}

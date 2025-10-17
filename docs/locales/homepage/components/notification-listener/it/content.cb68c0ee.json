@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "Ascoltatore della barra delle informazioni",
+    "settingsButtonLabel": "impostare",
+    "clientsNum": "Collegato:",
+    "notificationReadable": "Permesso di lettura:",
+    "notificationReadableYes": "Già acceso",
+    "notificationReadableNo": "Non acceso",
+    "socketServerStatus": "Server presa:",
+    "socketServerRunning": "Corsa",
+    "socketServerStopped": "Fermato",
+    "socketServerStartButton": "Avviare il server",
+    "socketServerStopButton": "Arrestare il server",
+    "foregroundService": {
+      "title": "Servizio di ascolto delle notifiche",
+      "content": "Ascolto delle notifiche di sistema",
+      "reason": "<h3>Servizio di ascolto delle notifiche</h3><p>Questo servizio deve continuare a funzionare in background per:</p><ul><li>Leggere le notifiche di sistema in tempo reale</li><li>Push al client tramite Socket</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "Impostazioni della barra delle informazioni"
+  },
+  "ScaneQRCodeButton": {
+    "name": "Scansiona il codice per connetterti"
+  },
+  "SettingPanel": {
+    "modalTitle": "Impostazioni dell'ascoltatore",
+    "description": "Questa funzione avvia un servizio locale per la ricezione e l'elaborazione dei messaggi di notifica nella barra di stato del sistema Android. Assicurati che il porto non sia occupato.",
+    "riskWarning": "Avviso di rischio: l'attivazione di questa funzione consentirà all'app di leggere tutti i messaggi di notifica, che potrebbero contenere informazioni sensibili. Si prega di utilizzare con cautela.",
+    "portLabel": "porto di servizio",
+    "portRangeError": "La porta deve essere un numero intero compreso tra 1025 e 65535.",
+    "tokenLabel": "Gettone di accesso",
+    "cancelButton": "abbandonare",
+    "applyButton": "utilizzo"
+  }
+}

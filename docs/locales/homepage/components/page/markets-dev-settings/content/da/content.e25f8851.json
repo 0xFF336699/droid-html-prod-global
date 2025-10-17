@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "holde forbindelsen",
+        "helperText": "Hvis du klikker for at starte linket, så behold linket, så du skal være opmærksom på, at linket bliver ved med at oprette forbindelse igen, efter at det er afbrudt.",
+        "retryCount": "Antal genforbindelser"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "Link-URL, såsom ws://192.168.0.2:7001 eller wws://example.com/sti",
+        "error": "Den korrekte URL er en URL, der starter med ws:// eller wwws://"
+      }
+    },
+    "connectButton": {
+      "connect": "forbinde",
+      "disconnect": "Afbryde",
+      "status": {
+        "connecting": "Opretter forbindelse...",
+        "connected": "Forbundet",
+        "disconnecting": "Afbryder forbindelsen...",
+        "disconnected": "Ikke forbundet",
+        "waitRetry": "Venter på genforbindelse..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "manuskript"
+  }
+}

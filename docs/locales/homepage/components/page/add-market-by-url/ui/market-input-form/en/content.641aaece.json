@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL pattern",
+    "full": {
+      "url": "Market URL. The characters entered will be loaded as a URL, please be careful.",
+      "html": "Market HTML content. The characters entered will be treated as a script and executed immediately, please be careful.",
+      "come": "Come to me",
+      "myMarketName": "Market name",
+      "stroll": "Take a walk"
+    },
+    "item": {
+      "url": "Market card URL. The characters entered will be loaded as a URL, please be careful.",
+      "html": "Market HTML content. The characters entered will be treated as a script and executed immediately, please be careful.",
+      "come": "Come to me",
+      "myMarketName": "Market name",
+      "stroll": "Take a walk"
+    }
+  }
+}

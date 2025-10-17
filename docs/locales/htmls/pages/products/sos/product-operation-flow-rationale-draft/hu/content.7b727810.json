@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "parancsikont",
+    "title": "Csomag és tevékenység azonosítása",
+    "useBtn": "használat",
+    "closeBtn": "bezárás",
+    "pnLabel": "csomag neve",
+    "copyButtonText": "másolat",
+    "anLabel": "tevékenység",
+    "clsLable": "osztály"
+  }
+}

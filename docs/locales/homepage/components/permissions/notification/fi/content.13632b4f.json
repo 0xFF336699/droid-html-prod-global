@@ -1,0 +1,7 @@
+{
+  "NotificationOpenButton": {
+    "name": "Ilmoituspalkki lukee",
+    "description": "Ota ilmoituspalkin lukuoikeus käyttöön",
+    "setting": "perustaa"
+  }
+}

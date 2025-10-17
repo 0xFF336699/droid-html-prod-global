@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "titulná strana",
+    "me": "môj",
+    "settings": "nastaviť",
+    "script": "skript",
+    "store": "trhu",
+    "market": "trhu",
+    "create": "vytvoriť"
+  },
+  "tabbar": {
+    "test": "Spodný panel ponuky"
+  }
+}

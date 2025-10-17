@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "Infobar listener",
+    "settingsButtonLabel": "set up",
+    "clientsNum": "Connected:",
+    "notificationReadable": "Read permission:",
+    "notificationReadableYes": "Already turned on",
+    "notificationReadableNo": "Not turned on",
+    "socketServerStatus": "Socket server:",
+    "socketServerRunning": "Running",
+    "socketServerStopped": "Stopped",
+    "socketServerStartButton": "Start the server",
+    "socketServerStopButton": "Stop the server",
+    "foregroundService": {
+      "title": "Notification listening service",
+      "content": "Listening for system notifications",
+      "reason": "<h3>Notification listening service</h3><p>This service needs to keep running in the background in order to:</p><ul><li>Read system notifications in real time</li><li>Push to the client through Socket</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "Information bar settings"
+  },
+  "ScaneQRCodeButton": {
+    "name": "Scan code to connect"
+  },
+  "SettingPanel": {
+    "modalTitle": "Listener settings",
+    "description": "This function starts a local service for receiving and processing notification messages in the Android system status bar. Please make sure the port is not occupied.",
+    "riskWarning": "Risk warning: Turning this feature on will allow the app to read all your notification messages, which may contain sensitive information. Please use with caution.",
+    "portLabel": "service port",
+    "portRangeError": "The port must be an integer between 1025 and 65535.",
+    "tokenLabel": "Access Token",
+    "cancelButton": "give up",
+    "applyButton": "use"
+  }
+}

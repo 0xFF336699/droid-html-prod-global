@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Chế độ xem giao diện trợ năng",
+    "howToUse": "Hướng dẫn sử dụng",
+    "howToUseTooltip": "Dưới đây là một số thuộc tính nhãn hiệu của nút này, có thể được sử dụng để chọn các thao tác, chẳng hạn như nhấp chuột, điền văn bản, v.v.\n\nGiá trị thuộc tính có thể bị trùng lặp trong trang ứng dụng. Nếu gặp sự trùng lặp, vui lòng phủ các giá trị thuộc tính khác để xác định tính duy nhất.\n\nCác từ màu đỏ cho biết giá trị thuộc tính được lặp lại, các từ màu xanh lá cây cho biết giá trị thuộc tính là duy nhất trong tìm kiếm trang hiện tại và các từ màu đen cho biết rằng không có so sánh lặp lại nào được thực hiện.",
+    "otherNodesSummary": "Các nút khác tại vị trí này",
+    "moreNodes": "Đây là nội dung mở rộng.",
+    "nodeInfoDialogOkButton": "Chỉnh sửa nút",
+    "text": "Văn bản 2222"
+  }
+}

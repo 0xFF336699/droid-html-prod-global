@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "Abkürzung",
+    "title": "Identifizierung von Paketen und Aktivitäten",
+    "useBtn": "verwenden",
+    "closeBtn": "Schließung",
+    "pnLabel": "Paketname",
+    "copyButtonText": "Kopie",
+    "anLabel": "Aktivität",
+    "clsLable": "Klasse"
+  }
+}

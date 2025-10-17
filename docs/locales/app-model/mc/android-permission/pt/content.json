@@ -1,7 +1,0 @@
-{
-  "androidPermission": {
-    "denied": "rejeitar",
-    "granted": "Autorizado",
-    "shouldAskAgain": "Não autorizado"
-  }
-}

@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "This function can perform human-like operations on your mobile phone, including but not limited to clicking, opening applications, etc. It can also open some payment applications for payment. Because there is a risk of recording operations, making payments, etc., we strongly recommend that you only execute it if you fully understand the content of the script.",
+    "txt2": "How to turn off this function: Open the homepage of this application, you can stop using the auxiliary function in the homepage settings, or you can click the \"Close all tasks and exit\" button on the homepage. This button will forcefully close all ongoing tasks and forcefully close the app.",
+    "txt3": "The reason we use this function is that our application needs to be able to open other applications and perform some operations on them. For example, when browsing Instagram, it can automatically slide up after the video is played, check whether a certain product is on sale, regularly send messages to online friends, and other interesting or labor-saving operations.",
+    "iKnowDanger": "I'm aware of the risks - go to settings",
+    "title": "Dangerous operation"
+  }
+}

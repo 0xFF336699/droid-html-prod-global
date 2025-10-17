@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Ho hokela ...",
-    "connected": "Amanang",
-    "disconnecting": "Ho hana ...",
-    "disconnected": "Ha e hokahane",
-    "waitRetry": "Ho emela Remontiction ..."
-  }
-}

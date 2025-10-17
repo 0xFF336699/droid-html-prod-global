@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "Υπηρεσία άλμπουμ φωτογραφιών",
+    "serverStatus": "Κατάσταση υπηρεσίας",
+    "running": "Τρέξιμο",
+    "stopped": "Σταμάτησε",
+    "port": "λιμάνι",
+    "token": "διακριτικό πρόσβασης",
+    "permissionType": "λειτουργία άδειας",
+    "contentResolver": "Δικαιώματα συστήματος",
+    "saf": "πλαίσιο πρόσβασης σε αρχείο",
+    "startService": "Ξεκινήστε την υπηρεσία",
+    "stopService": "Σταματήστε την υπηρεσία",
+    "checkPermissions": "Ελέγξτε τις άδειες",
+    "requestPermissions": "Κάντε αίτηση για άδεια",
+    "openAlbum": "Ανοίξτε το άλμπουμ φωτογραφιών",
+    "copyToken": "διακριτικό αντιγραφής",
+    "copyUrl": "Αντιγραφή διεύθυνσης",
+    "permissionGranted": "Χορηγήθηκε άδεια",
+    "permissionDenied": "Η άδεια απορρίφθηκε",
+    "serviceStarted": "Η εξυπηρέτηση ξεκίνησε",
+    "serviceStopped": "Το σέρβις έχει σταματήσει",
+    "error": "λάθος"
+  }
+}

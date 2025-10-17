@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "register",
+    "phoneNumber": "Telefonnummer",
+    "phoneNumberPlaceholder": "Vennligst skriv inn mobiltelefonnummer",
+    "verificationCode": "Bekreftelseskode",
+    "verificationCodePlaceholder": "Vennligst skriv inn bekreftelseskoden",
+    "getVerificationCode": "Få bekreftelseskode",
+    "countdown": "Prøv igjen om {{seconds}} sekunder",
+    "register": "register",
+    "errors": {
+      "phoneRequired": "Vennligst skriv inn mobiltelefonnummer",
+      "phoneInvalid": "Mobilnummerformatet er feil",
+      "codeRequired": "Vennligst skriv inn bekreftelseskoden",
+      "codeInvalid": "Verifikasjonskodeformatet er feil",
+      "requestFailed": "Forespørselen mislyktes",
+      "verificationFailed": "Kunne ikke hente bekreftelseskoden",
+      "loginFailed": "Innlogging mislyktes"
+    },
+    "success": {
+      "verificationCodeSent": "Bekreftelseskode sendt",
+      "registerSuccess": "Registrering vellykket"
+    }
+  }
+}

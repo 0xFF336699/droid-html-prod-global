@@ -1,8 +1,0 @@
-{
-  "Components": {
-    "pass": "Autorisé",
-    "notPass": "Non autorisé",
-    "danger": "Danger",
-    "setting": "installation"
-  }
-}

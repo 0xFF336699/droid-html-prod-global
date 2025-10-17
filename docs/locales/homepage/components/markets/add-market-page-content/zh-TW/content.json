@@ -1,8 +1,0 @@
-{
-  "AddMarketPageContent": {
-    "title": "添加市場",
-    "url": "市場URL",
-    "summary": "市場摘要",
-    "urlIsNotValid": "市場URL不正確"
-  }
-}

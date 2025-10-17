@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Добавете към",
+    "sub": {
+      "addScriptByUrl": "Добавете скрипт чрез URL",
+      "addScriptByText": "Добавяне на скрипт чрез текст",
+      "addMarket": "Добавете пазар по URL адрес",
+      "addMarketByText": "Добавете пазар чрез текст"
+    }
+  }
+}

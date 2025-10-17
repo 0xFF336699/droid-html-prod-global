@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "קאַנעקטינג ...",
-    "connected": "פארבונדן",
-    "disconnecting": "דיסקאַנעקטינג ...",
-    "disconnected": "ניט פארבונדן",
-    "waitRetry": "ווארטן אויף ריקאַנעקשאַן ..."
-  }
-}

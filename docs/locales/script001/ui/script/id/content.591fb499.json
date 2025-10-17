@@ -1,0 +1,42 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Nomor yang ingin Anda kirimi pesan teks atau panggilan keluar",
+          "label": "nomor telepon",
+          "helperText": "Nomor yang ingin Anda kirimi pesan teks atau panggilan keluar"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Aku merasa sedikit tidak enak badan, cepat datang padaku! ! !",
+          "label": "konten SMS",
+          "helperText": "konten SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Daftar penerima SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Nomor ponsel penerima",
+          "label": "Nomor ponsel penerima",
+          "helperText": "Nomor ponsel penerima"
+        }
+      }
+    }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Buat pintasan panggilan bantuan sekali klik",
+      "description": "Buat pintasan di desktop ponsel Anda"
+    },
+    "launcherName": "panggilan darurat"
+  },
+  "SelectedContackList": {
+    "title": "kontak darurat"
+  }
+}

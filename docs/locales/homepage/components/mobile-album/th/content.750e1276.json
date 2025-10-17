@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "บริการอัลบั้มรูป",
+    "serverStatus": "สถานะการบริการ",
+    "running": "วิ่ง",
+    "stopped": "หยุดแล้ว",
+    "port": "ท่าเรือ",
+    "token": "โทเค็นการเข้าถึง",
+    "permissionType": "โหมดการอนุญาต",
+    "contentResolver": "สิทธิ์ของระบบ",
+    "saf": "กรอบการเข้าถึงไฟล์",
+    "startService": "เริ่มให้บริการ",
+    "stopService": "หยุดให้บริการ",
+    "checkPermissions": "ตรวจสอบสิทธิ์",
+    "requestPermissions": "ขออนุญาต",
+    "openAlbum": "เปิดอัลบั้มภาพ",
+    "copyToken": "โทเค็นการคัดลอก",
+    "copyUrl": "คัดลอกที่อยู่",
+    "permissionGranted": "ได้รับอนุญาตแล้ว",
+    "permissionDenied": "การอนุญาตถูกปฏิเสธ",
+    "serviceStarted": "เริ่มให้บริการแล้ว",
+    "serviceStopped": "หยุดให้บริการแล้ว",
+    "error": "ความผิดพลาด"
+  }
+}

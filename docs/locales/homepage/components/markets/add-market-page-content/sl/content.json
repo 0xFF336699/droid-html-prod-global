@@ -1,8 +1,0 @@
-{
-  "AddMarketPageContent": {
-    "title": "Dodaj na trg",
-    "url": "Tržni URL",
-    "summary": "Povzetek trga",
-    "urlIsNotValid": "Napačen URL na trgu"
-  }
-}

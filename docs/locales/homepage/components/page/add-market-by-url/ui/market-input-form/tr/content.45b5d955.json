@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL modeli",
+    "full": {
+      "url": "Pazar URL'si. Girilen karakterler URL olarak yüklenecektir, lütfen dikkatli olun.",
+      "html": "HTML içeriğini pazarlayın. Girilen karakterler bir komut dosyası gibi değerlendirilecek ve hemen yürütülecektir, lütfen dikkatli olun.",
+      "come": "bana gel",
+      "myMarketName": "Pazar adı",
+      "stroll": "Yürüyüşe çık"
+    },
+    "item": {
+      "url": "Pazar kartı URL'si. Girilen karakterler URL olarak yüklenecektir, lütfen dikkatli olun.",
+      "html": "HTML içeriğini pazarlayın. Girilen karakterler bir komut dosyası gibi değerlendirilecek ve hemen yürütülecektir, lütfen dikkatli olun.",
+      "come": "bana gel",
+      "myMarketName": "Pazar adı",
+      "stroll": "Yürüyüşe çık"
+    }
+  }
+}

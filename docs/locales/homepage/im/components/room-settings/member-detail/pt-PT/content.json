@@ -1,9 +1,0 @@
-{
-  "MemberDetailContent": {
-    "title": "Detalhes dos membros",
-    "nickname": "Apelido",
-    "role": "Papel",
-    "kick": "Expulsar",
-    "ban": "Banido"
-  }
-}

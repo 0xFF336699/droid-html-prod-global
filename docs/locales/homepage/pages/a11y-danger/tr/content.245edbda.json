@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Bu işlev, cep telefonunuzda tıklama, uygulama açma vb. dahil ancak bunlarla sınırlı olmamak üzere insan benzeri işlemler gerçekleştirebilir. Ayrıca ödeme için bazı ödeme uygulamalarını da açabilir. İşlemleri kaydetme, ödeme yapma vb. riskler bulunduğundan, bunu yalnızca komut dosyasının içeriğini tam olarak anladığınızda gerçekleştirmenizi önemle tavsiye ederiz.",
+    "txt2": "Bu fonksiyon nasıl kapatılır: Bu uygulamanın ana sayfasını açın, ana sayfa ayarlarından yardımcı fonksiyonu kullanmayı bırakabilir veya ana sayfadaki \"Tüm görevleri kapat ve çık\" butonuna tıklayabilirsiniz. Bu düğme devam eden tüm görevleri zorla kapatacak ve uygulamayı zorla kapatacaktır.",
+    "txt3": "Bu fonksiyonu kullanmamızın nedeni uygulamamızın diğer uygulamaları açabilmesi ve bunlar üzerinde bazı işlemler yapabilmesi gerektiğidir. Örneğin Instagram'da gezinirken, video oynatıldıktan sonra otomatik olarak yukarı kayabilir, belirli bir ürünün indirimde olup olmadığını kontrol edebilir, çevrimiçi arkadaşlara düzenli olarak mesaj gönderebilir ve diğer ilginç veya emek tasarrufu sağlayan işlemler yapabilir.",
+    "iKnowDanger": "Risklerin farkındayım - ayarlara gidin",
+    "title": "Tehlikeli operasyon"
+  }
+}

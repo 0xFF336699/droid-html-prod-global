@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "להישאר מחובר",
+        "helperText": "אם תלחץ כדי להתחיל את הקישור, אז שמור את הקישור, אז אתה צריך לשים לב לעובדה שהקישור ימשיך להתחבר מחדש לאחר ניתוק.",
+        "retryCount": "מספר חיבורים מחדש"
+      },
+      "url": {
+        "name": "כתובת אתר",
+        "helperText": "כתובת אתר של קישור, כגון ws://192.168.0.2:7001, או wws://example.com/path",
+        "error": "כתובת האתר הנכונה היא כתובת אתר שמתחילה ב-ws:// או wwws://"
+      }
+    },
+    "connectButton": {
+      "connect": "לְחַבֵּר",
+      "disconnect": "לְנַתֵק",
+      "status": {
+        "connecting": "מְקַשֵׁר...",
+        "connected": "מְחוּבָּר",
+        "disconnecting": "מתנתק...",
+        "disconnected": "לא מחובר",
+        "waitRetry": "ממתין לחיבור מחדש..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "תַסרִיט"
+  }
+}

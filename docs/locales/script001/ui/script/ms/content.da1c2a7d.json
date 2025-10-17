@@ -1,0 +1,42 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Nombor yang anda mahu menghantar mesej teks atau membuat panggilan keluar",
+          "label": "nombor telefon",
+          "helperText": "Nombor yang anda mahu menghantar mesej teks atau membuat panggilan keluar"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Saya berasa sedikit tidak sihat, datang kepada saya dengan cepat! ! !",
+          "label": "Kandungan SMS",
+          "helperText": "Kandungan SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Senarai Penerima SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Nombor mudah alih penerima",
+          "label": "Nombor mudah alih penerima",
+          "helperText": "Nombor mudah alih penerima"
+        }
+      }
+    }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Buat panggilan satu klik untuk pintasan bantuan",
+      "description": "Buat jalan pintas di desktop telefon anda"
+    },
+    "launcherName": "Panggilan kecemasan"
+  },
+  "SelectedContackList": {
+    "title": "kenalan kecemasan"
+  }
+}

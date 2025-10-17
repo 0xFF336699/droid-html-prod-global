@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Budući da se ova aplikacija odnosi na velik broj dopuštenja na vašem mobilnom telefonu, mnoga su dopuštenja iznimno rizična, stoga ih nemojte uvoziti ili izvršavati bez jasnog poznavanja rizika tržišta ili skripte. Nakon što unesete sadržaj u tekstni okvir \"Uvod u tržišnu karticu\" ili \"Tržišna neovisna web-stranica\" u nastavku, sadržaj će se odmah izvršiti kao kod, pa vas molimo da radite s oprezom.",
+    "setNewMarket": "Postavite novo tržište",
+    "settingPreview": "Postavi pregled",
+    "marketName": "Naziv tržišta",
+    "marketSummary": "Uvođenje na tržište",
+    "marketDescription": "Uvođenje na tržište",
+    "itemMarket": "Uvod u tržišnu karticu",
+    "fullMarket": "Web stranica neovisna o tržištu",
+    "marketCardPreview": "Pregled tržišne kartice",
+    "marketFullPreview": "Pregled web stranice neovisne o tržištu",
+    "isNotSet": "nije postavljeno"
+  }
+}

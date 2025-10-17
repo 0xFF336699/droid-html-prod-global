@@ -1,7 +1,0 @@
-{
-  "androidPermission": {
-    "denied": "одбити",
-    "granted": "Овлашћен",
-    "shouldAskAgain": "Неовлашћен"
-  }
-}

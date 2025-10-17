@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Konnessjoni ...",
-    "connected": "Konnessi",
-    "disconnecting": "Skonnettjar ...",
-    "disconnected": "Mhux konness",
-    "waitRetry": "Stennija għar-rikonnettjar ..."
-  }
-}

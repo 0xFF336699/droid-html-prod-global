@@ -1,0 +1,42 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "O número para o qual você deseja enviar mensagens de texto ou fazer chamadas",
+          "label": "número de telefone",
+          "helperText": "O número para o qual você deseja enviar mensagens de texto ou fazer chamadas"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Estou me sentindo um pouco mal, venha até mim rapidamente! ! !",
+          "label": "Conteúdo SMS",
+          "helperText": "Conteúdo SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Lista de destinatários de SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Número do celular do receptor",
+          "label": "Número do celular do receptor",
+          "helperText": "Número do celular do receptor"
+        }
+      }
+    }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Crie um atalho de chamada de ajuda com um clique",
+      "description": "Crie um atalho na área de trabalho do seu telefone"
+    },
+    "launcherName": "chamada de emergência"
+  },
+  "SelectedContackList": {
+    "title": "contato de emergência"
+  }
+}

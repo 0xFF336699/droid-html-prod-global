@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Zugänglichkeit",
+    "pass": "Autorisiert",
+    "notPass": "Nicht autorisiert",
+    "setting": "aufstellen",
+    "danger": "Gefahr",
+    "dangerDesc": "Mit dieser Berechtigung können Sie sehen, was auf dem Bildschirm angezeigt wird, und Klicks auf Ihrem Telefon ausführen. Bitte deaktivieren Sie diese Berechtigung, wenn Sie die Funktionalität und Risiken des Skripts, das Sie ausführen oder ausführen möchten, nicht genau verstehen."
+  }
+}

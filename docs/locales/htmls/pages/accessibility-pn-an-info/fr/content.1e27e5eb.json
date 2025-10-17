@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "raccourci",
+    "title": "Identification des forfaits et des activités",
+    "useBtn": "utiliser",
+    "closeBtn": "fermeture",
+    "pnLabel": "nom du paquet",
+    "copyButtonText": "copie",
+    "anLabel": "activité",
+    "clsLable": "classe"
+  }
+}

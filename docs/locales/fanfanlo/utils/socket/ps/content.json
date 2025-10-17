@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "نښلول ...",
-    "connected": "پیوستون",
-    "disconnecting": "بحثونه ...",
-    "disconnected": "پیوست شوی",
-    "waitRetry": "د بیا ..."
-  }
-}

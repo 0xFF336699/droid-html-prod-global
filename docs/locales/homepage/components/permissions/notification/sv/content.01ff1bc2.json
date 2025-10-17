@@ -1,0 +1,7 @@
+{
+  "NotificationOpenButton": {
+    "name": "Meddelandefältet läses",
+    "description": "Aktivera läsbehörighet för meddelandefältet",
+    "setting": "inrätta"
+  }
+}

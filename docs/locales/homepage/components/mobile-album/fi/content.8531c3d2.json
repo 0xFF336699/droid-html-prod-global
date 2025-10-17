@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "Valokuva-albumipalvelu",
+    "serverStatus": "Palvelun tila",
+    "running": "Juoksemassa",
+    "stopped": "Pysähtynyt",
+    "port": "portti",
+    "token": "pääsytunnus",
+    "permissionType": "lupatila",
+    "contentResolver": "Järjestelmän käyttöoikeudet",
+    "saf": "tiedostojen käyttökehys",
+    "startService": "Aloita palvelu",
+    "stopService": "Lopeta palvelu",
+    "checkPermissions": "Tarkista käyttöoikeudet",
+    "requestPermissions": "Hae lupaa",
+    "openAlbum": "Avaa valokuva-albumi",
+    "copyToken": "kopioi tunnus",
+    "copyUrl": "Kopioi osoite",
+    "permissionGranted": "Lupa myönnetty",
+    "permissionDenied": "Lupa evätty",
+    "serviceStarted": "Palvelu on alkanut",
+    "serviceStopped": "Palvelu on pysähtynyt",
+    "error": "virhe"
+  }
+}

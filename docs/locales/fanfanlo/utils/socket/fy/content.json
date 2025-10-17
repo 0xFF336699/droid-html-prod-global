@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Ferbine ...",
-    "connected": "Ferbûn",
-    "disconnecting": "DisconnCecting ...",
-    "disconnected": "Net ferbûn",
-    "waitRetry": "Wachtsje op werferzje ..."
-  }
-}

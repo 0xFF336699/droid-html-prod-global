@@ -1,0 +1,7 @@
+{
+  "NotificationOpenButton": {
+    "name": "Bilah notifikasi berbunyi",
+    "description": "Aktifkan izin baca bilah notifikasi",
+    "setting": "mendirikan"
+  }
+}

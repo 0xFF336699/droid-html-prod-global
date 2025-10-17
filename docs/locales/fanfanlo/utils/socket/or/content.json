@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "ସଂଯୋଗ ...",
-    "connected": "ସଂଯୁକ୍ତ |",
-    "disconnecting": "ବିଚ୍ଛିନ୍ନ ...",
-    "disconnected": "ସଂଯୋଗ ହୋଇନାହିଁ |",
-    "waitRetry": "ପୁନ on ସଂଯୋଗକୁ ଅପେକ୍ଷା ..."
-  }
-}

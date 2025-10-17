@@ -1,8 +1,0 @@
-{
-  "WebViewJs": {
-    "error": {
-      "notInAndroid": "Тайӧ методсӧ позьӧ корны сӧмын Android .",
-      "noMethod": "Тайӧ методыс абу ."
-    }
-  }
-}

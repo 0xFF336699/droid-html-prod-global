@@ -1,8 +1,0 @@
-{
-  "WebViewJs": {
-    "error": {
-      "notInAndroid": "Túto metódu je možné volať iba na Android",
-      "noMethod": "Táto metóda neexistuje"
-    }
-  }
-}

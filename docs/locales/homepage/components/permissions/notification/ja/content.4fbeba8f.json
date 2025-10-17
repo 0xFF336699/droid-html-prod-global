@@ -1,0 +1,7 @@
+{
+  "NotificationOpenButton": {
+    "name": "通知バーの読み取り",
+    "description": "通知バーの読み取り許可をオンにする",
+    "setting": "設定"
+  }
+}

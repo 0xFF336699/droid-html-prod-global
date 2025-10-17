@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Erişilebilirlik arayüzü görünümü",
+    "howToUse": "Kullanım talimatları",
+    "howToUseTooltip": "Aşağıda, bu düğümün tıklama, metin doldurma vb. işlemleri seçmek için kullanılabilecek bazı işaret özellikleri verilmiştir.\n\nÖzellik değerleri uygulama sayfasında kopyalanabilir. Yinelenen kopyalarla karşılaşılırsa benzersizliği belirlemek için lütfen diğer özellik değerlerinin üzerine bindirin.\n\nKırmızı kelimeler özellik değerinin tekrarlandığını, yeşil kelimeler geçerli sayfa aramasında özellik değerinin benzersiz olduğunu, siyah kelimeler ise tekrarlanan karşılaştırmaların yapılmadığını belirtir.",
+    "otherNodesSummary": "Bu konumdaki diğer düğümler",
+    "moreNodes": "İşte genişletilmiş içerik.",
+    "nodeInfoDialogOkButton": "Düğümü düzenleyin",
+    "text": "Metin 2222"
+  }
+}

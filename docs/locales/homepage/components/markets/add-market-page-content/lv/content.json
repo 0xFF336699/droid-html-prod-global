@@ -1,8 +1,0 @@
-{
-  "AddMarketPageContent": {
-    "title": "Pievienot tirgum",
-    "url": "Tirgus URL",
-    "summary": "Tirgus kopsavilkums",
-    "urlIsNotValid": "Nepareizs tirgus URL"
-  }
-}

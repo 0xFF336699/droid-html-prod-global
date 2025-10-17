@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Kuunganisha ...",
-    "connected": "Imeunganishwa",
-    "disconnecting": "Kukata ...",
-    "disconnected": "Haijaunganishwa",
-    "waitRetry": "Kusubiri unganisho ..."
-  }
-}

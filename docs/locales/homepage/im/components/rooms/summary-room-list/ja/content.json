@@ -1,8 +1,0 @@
-{
-  "SummaryRoomList": {
-    "title": "セッションリスト",
-    "noRooms": "表示されるセッションはありません",
-    "acceptInvite": "招待状を受け入れます",
-    "rejectInvite": "招待を拒否します"
-  }
-}

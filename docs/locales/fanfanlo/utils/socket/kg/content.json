@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Kukutana...",
-    "connected": "Kukangama",
-    "disconnecting": "Kukatula...",
-    "disconnected": "Kukonda kuwakana",
-    "waitRetry": "Kuvingila nde bo vutukila kusala yo..."
-  }
-}

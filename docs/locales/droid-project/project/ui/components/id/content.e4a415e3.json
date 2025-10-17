@@ -1,0 +1,9 @@
+{
+  "content": {
+    "create": "membuat",
+    "delete": "menghapus",
+    "confirmDelete": "Apakah Anda yakin ingin menghapus item ini?",
+    "cancel": "menyerah",
+    "title": "memperingatkan"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Accesibilidad",
+    "pass": "Autorizado",
+    "notPass": "No autorizado",
+    "setting": "configuración",
+    "danger": "Peligro",
+    "dangerDesc": "Esta autorización le permite ver lo que hay en la pantalla y realizar clics en su teléfono. Desactive este permiso si no comprende claramente la funcionalidad y los riesgos del script que está ejecutando o que está a punto de ejecutar."
+  }
+}

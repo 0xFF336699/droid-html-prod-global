@@ -1,8 +1,0 @@
-{
-  "WebViewJs": {
-    "error": {
-      "notInAndroid": "Le ndlela ingabizwa kuphela ku-Android",
-      "noMethod": "Le ndlela ayikho"
-    }
-  }
-}

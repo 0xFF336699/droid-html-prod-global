@@ -1,9 +1,0 @@
-{
-  "content": {
-    "txt1": "Denna funktion kan utföra operationer som liknar verkliga operationer inklusive, men inte begränsat till att klicka, öppna appar etc. på din telefon och kan också öppna vissa betalningsansökningar för betalning. Eftersom det finns risker för att bli inspelade verksamheter, göra betalningar etc., rekommenderar vi starkt att du bara kör det om du helt förstår innehållet i skriptet.",
-    "txt2": "Så här stänger du den här funktionen: Öppna hemsidan för den här applikationen, du kan sluta använda hjälpfunktionen i inställningarna för hemsidan, eller så kan du klicka på knappen \"Stäng alla uppgifter och utgång\" på hemsidan. Denna knapp tvingar stängningen av alla uppgifter som utförs och tvingar stäng denna app.",
-    "txt3": "Anledningen till att vi använder den här funktionen är att vår applikation måste ha förmågan att öppna andra applikationer och kontrollera dem, till exempel när du bläddrar i Instagram, kan den automatiskt glida upp efter att videon har spelats, kontrollera om en produkt är till försäljning och skicka meddelanden till online-vänner regelbundet, etc. som är intressanta eller arbetsparande operationer.",
-    "iKnowDanger": "Jag känner till riskerna - gå till set",
-    "title": "Farlig verksamhet"
-  }
-}

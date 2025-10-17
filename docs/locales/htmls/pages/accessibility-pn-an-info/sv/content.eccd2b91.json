@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "genväg",
+    "title": "Paket- och aktivitetsidentifiering",
+    "useBtn": "använda",
+    "closeBtn": "stängning",
+    "pnLabel": "paketnamn",
+    "copyButtonText": "kopiera",
+    "anLabel": "aktivitet",
+    "clsLable": "klass"
+  }
+}

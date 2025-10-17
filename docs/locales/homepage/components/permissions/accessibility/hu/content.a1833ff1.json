@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Megközelíthetőség",
+    "pass": "Felhatalmazott",
+    "notPass": "Jogosulatlan",
+    "setting": "felállítani",
+    "danger": "Veszély",
+    "dangerDesc": "Ez az engedélyezés lehetővé teszi, hogy megnézze, mi van a képernyőn, és kattintásokat hajthat végre a telefonján. Kérjük, tiltsa le ezt az engedélyt, ha nem érti egyértelműen a futtatott vagy futni készülő szkript funkcióit és kockázatait."
+  }
+}

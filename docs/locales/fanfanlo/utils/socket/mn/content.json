@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Холбож байна ...",
-    "connected": "Холбоотой",
-    "disconnecting": "Салгах ...",
-    "disconnected": "Холбогдоогүй",
-    "waitRetry": "Дахин тохирууллаа хүлээж байна ..."
-  }
-}

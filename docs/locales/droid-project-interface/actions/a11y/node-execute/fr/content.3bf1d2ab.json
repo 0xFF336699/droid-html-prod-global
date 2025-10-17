@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Exécution du nœud",
+    "changeBtnLabel": "remplacer",
+    "showNodeAllProperties": "Afficher toutes les propriétés",
+    "wait": {
+      "time": "temps d'attente",
+      "interval": "intervalle d'attente",
+      "invisible": "S'il faut détecter des éléments hors écran"
+    }
+  }
+}

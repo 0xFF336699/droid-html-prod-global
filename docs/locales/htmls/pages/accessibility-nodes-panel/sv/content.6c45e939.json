@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Tillgänglighetsgränssnittsvy",
+    "howToUse": "Bruksanvisning",
+    "howToUseTooltip": "Nedan finns några markeringsattribut för denna nod, som kan användas för att välja operationer, som att klicka, fylla i text, etc.\n\nAttributvärden kan dupliceras på appsidan. Om dubbletter påträffas, lägg över andra attributvärden för att avgöra unikhet.\n\nDe röda orden anger att attributvärdet upprepas, de gröna orden anger att attributvärdet är unikt i den aktuella sidsökningen och de svarta orden anger att inga upprepade jämförelser görs.",
+    "otherNodesSummary": "Andra noder på denna plats",
+    "moreNodes": "Här är det utökade innehållet.",
+    "nodeInfoDialogOkButton": "Redigera noden",
+    "text": "Sms:a 2222"
+  }
+}

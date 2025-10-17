@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "ချိတ်ဆက် ...",
-    "connected": "ချိတ်ဆက်ထားသော",
-    "disconnecting": "အဆက်ဖြတ်ခြင်း ...",
-    "disconnected": "ချိတ်ဆက်မထားပါ",
-    "waitRetry": "reconnection ကိုစောင့်ဆိုင်း ..."
-  }
-}

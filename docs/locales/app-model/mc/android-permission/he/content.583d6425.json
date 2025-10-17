@@ -1,0 +1,7 @@
+{
+  "androidPermission": {
+    "denied": "לִדחוֹת",
+    "granted": "מוּסמָך",
+    "shouldAskAgain": "לא מורשה"
+  }
+}

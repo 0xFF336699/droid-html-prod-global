@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "संयोजक...",
-    "connected": "संयोजित 1 .",
-    "disconnecting": "विच्छिन्न करता है...",
-    "disconnected": "न संबद्धः .",
-    "waitRetry": "पुनः संयोजनस्य प्रतीक्षा..."
-  }
-}

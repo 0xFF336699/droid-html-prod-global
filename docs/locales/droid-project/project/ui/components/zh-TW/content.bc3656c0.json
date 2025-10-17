@@ -1,0 +1,9 @@
+{
+  "content": {
+    "create": "創建",
+    "delete": "刪除",
+    "confirmDelete": "確認要刪除此項目嗎？",
+    "cancel": "放棄",
+    "title": "警告"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "kısayol",
+    "title": "Paket ve etkinlik tanımlama",
+    "useBtn": "kullanmak",
+    "closeBtn": "kapatma",
+    "pnLabel": "paket adı",
+    "copyButtonText": "kopyala",
+    "anLabel": "aktivite",
+    "clsLable": "sınıf"
+  }
+}

@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Go golagana...",
-    "connected": "Go golaganya",
-    "disconnecting": "Go kgaoganya...",
-    "disconnected": "Ga e a golaganngwa",
-    "waitRetry": "Go leta go golagana gape..."
-  }
-}

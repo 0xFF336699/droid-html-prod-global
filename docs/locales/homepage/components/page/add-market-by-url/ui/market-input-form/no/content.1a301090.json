@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL-mønster",
+    "full": {
+      "url": "Markeds-URL. Tegnene som legges inn vil bli lastet inn som en URL, vær forsiktig.",
+      "html": "Markedsfør HTML-innhold. Karakterene som legges inn vil bli behandlet som et skript og utført umiddelbart, vær forsiktig.",
+      "come": "Kom til meg",
+      "myMarketName": "Markedsnavn",
+      "stroll": "Ta en tur"
+    },
+    "item": {
+      "url": "Nettadresse for markedskort. Tegnene som legges inn vil bli lastet inn som en URL, vær forsiktig.",
+      "html": "Markedsfør HTML-innhold. Karakterene som legges inn vil bli behandlet som et skript og utført umiddelbart, vær forsiktig.",
+      "come": "Kom til meg",
+      "myMarketName": "Markedsnavn",
+      "stroll": "Ta en tur"
+    }
+  }
+}

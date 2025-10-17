@@ -1,9 +1,0 @@
-{
-  "MessageInput": {
-    "attachFile": "Voeg aanhangsels by",
-    "emoji": "Kies 'n uitdrukking",
-    "placeholder": "Voer 'n boodskap in ...",
-    "sendLocation": "Stuur ligging",
-    "send": "stuur"
-  }
-}

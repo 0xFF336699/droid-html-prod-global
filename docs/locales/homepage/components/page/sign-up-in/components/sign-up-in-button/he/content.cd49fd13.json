@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "כניסה/הרשמה",
+    "signOut": "התנתק",
+    "confirmContent": "האם אתה בטוח שאתה רוצה להתנתק?",
+    "confirmTitle": "רֶמֶז",
+    "confirm": "בַּטוּחַ",
+    "cancel": "לְבַטֵל",
+    "signoutOk": "התנתק",
+    "loadingData": "טוען נתוני משתמש"
+  }
+}

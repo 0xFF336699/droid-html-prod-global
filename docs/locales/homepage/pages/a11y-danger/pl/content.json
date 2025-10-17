@@ -1,9 +1,0 @@
-{
-  "content": {
-    "txt1": "Ta funkcja może wykonywać operacje podobne do operacji rzeczywistych, w tym między innymi kliknięcie, otwieranie aplikacji itp. Na telefonie, a także może otworzyć niektóre wnioski o płatności w celu zapłaty. Ponieważ istnieje ryzyko rejestrowania operacji, dokonywania płatności itp., Zdecydowanie zalecamy wykonanie go tylko wtedy, gdy w pełni rozumiesz treść skryptu.",
-    "txt2": "Jak zamknąć tę funkcję: Otwórz stronę główną tej aplikacji, możesz przestać korzystać z funkcji pomocniczej w ustawieniach strony głównej lub możesz kliknąć przycisk „Zamknij wszystkie zadania i wyjść” na stronie głównej. Ten przycisk wymusza zamknięcie wszystkich wykonywanych zadań i zmusza zamknięcie tej aplikacji.",
-    "txt3": "Powodem, dla którego używamy tej funkcji, jest to, że nasza aplikacja musi mieć możliwość otwarcia innych aplikacji i ich kontrolowania, na przykład podczas przeglądania Instagrama, może automatycznie zsunąć się po odtworzeniu filmu, sprawdzić, czy produkt jest w sprzedaży, i regularnie wysyłać wiadomości do znajomych online itp., Które są interesujące lub oszczędzające pracę.",
-    "iKnowDanger": "Znam ryzyko - przejdź do zestawu",
-    "title": "Niebezpieczne operacje"
-  }
-}

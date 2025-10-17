@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Jokkoo...",
-    "connected": "Jokkoo",
-    "disconnecting": "Deggante...",
-    "disconnected": "Du lëkkaloo ak",
-    "waitRetry": "Xaarandi reconnesion..."
-  }
-}

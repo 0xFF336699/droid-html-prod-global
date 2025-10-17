@@ -1,9 +1,0 @@
-{
-  "content": {
-    "txt1": "Această funcție poate efectua operațiuni similare cu operațiunile cu persoane reale, inclusiv, dar fără a se limita la clic, deschiderea aplicațiilor, etc. pe telefonul dvs. și poate deschide, de asemenea, unele aplicații de plată pentru plată. Deoarece există riscuri de a fi înregistrate operațiuni, de a efectua plăți etc., vă recomandăm cu tărie să îl executați doar dacă înțelegeți pe deplin conținutul scriptului.",
-    "txt2": "Cum să închideți această funcție: Deschideți pagina principală a acestei aplicații, puteți opri utilizarea funcției auxiliare în setările paginii de pornire sau puteți face clic pe butonul „Închideți toate sarcinile și ieșirea” de pe pagina principală. Acest buton obligă închiderea tuturor sarcinilor executate și forțează să închidă această aplicație.",
-    "txt3": "Motivul pentru care folosim această funcție este că aplicația noastră trebuie să aibă posibilitatea de a deschide alte aplicații și de a le controla, cum ar fi la navigarea Instagram, poate aluneca automat după redare a videoclipului, verificând dacă un produs este la vânzare și trimite mesaje către prietenii online în mod regulat, etc., care sunt operațiuni interesante sau care economisesc forța de muncă.",
-    "iKnowDanger": "Cunosc riscurile - mergeți la set",
-    "title": "Operații periculoase"
-  }
-}

@@ -1,0 +1,6 @@
+{
+  "FloatingInfo": {
+    "name": "plovoucí okno",
+    "dangerDesc": "Tato autorizace umožňuje, aby byla tato aplikace pozastavena nebo skryta nad ostatními aplikacemi. Pomocí tohoto oprávnění se musíte chránit před škodlivými skripty."
+  }
+}

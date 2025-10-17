@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Toevoegen aan",
+    "sub": {
+      "addScriptByUrl": "Script toevoegen via URL",
+      "addScriptByText": "Script via tekst toevoegen",
+      "addMarket": "Voeg een markt toe via URL",
+      "addMarketByText": "Voeg markt toe via tekst"
+    }
+  }
+}

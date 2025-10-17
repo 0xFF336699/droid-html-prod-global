@@ -1,0 +1,8 @@
+{
+  "content": {
+    "createButton": "stvoriti",
+    "noProjects": "Na popisu projekata još nema nijednog projekta, možete izraditi novi projekt",
+    "orFindFromMarket": "Ili pronađite artikle koje trebate na tržištu",
+    "projects": "Popis projekata"
+  }
+}

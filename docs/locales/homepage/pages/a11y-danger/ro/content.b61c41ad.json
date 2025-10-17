@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Această funcție poate efectua operațiuni asemănătoare unui om pe telefonul dvs. mobil, inclusiv, dar fără a se limita la, clic, deschiderea aplicațiilor etc. Poate deschide și unele aplicații de plată pentru plată. Deoarece există riscul de a înregistra operațiuni, de a efectua plăți etc., vă recomandăm insistent să îl executați numai dacă înțelegeți pe deplin conținutul scriptului.",
+    "txt2": "Cum să dezactivați această funcție: Deschideți pagina de pornire a acestei aplicații, puteți opri utilizarea funcției auxiliare în setările paginii de pornire sau puteți face clic pe butonul „Închideți toate sarcinile și ieșiți” de pe pagina de pornire. Acest buton va închide forțat toate sarcinile în curs și va închide forțat aplicația.",
+    "txt3": "Motivul pentru care folosim această funcție este că aplicația noastră trebuie să poată deschide alte aplicații și să efectueze unele operațiuni asupra lor. De exemplu, atunci când răsfoiți Instagram, acesta poate glisa automat în sus după redarea videoclipului, poate verifica dacă un anumit produs este la vânzare, poate trimite în mod regulat mesaje prietenilor online și alte operațiuni interesante sau care economisesc forța de muncă.",
+    "iKnowDanger": "Sunt conștient de riscuri - accesați setări",
+    "title": "Operare periculoasă"
+  }
+}

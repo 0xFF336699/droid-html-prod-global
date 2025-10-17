@@ -1,0 +1,7 @@
+{
+  "ITriggerTimeout": {
+    "title": "עיכוב בביצוע",
+    "content_delay": "לְעַכֵּב",
+    "content_milliseconds": "בצע לאחר אלפיות שניות"
+  }
+}

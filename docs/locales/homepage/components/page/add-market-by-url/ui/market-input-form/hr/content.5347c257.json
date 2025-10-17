@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL obrazac",
+    "full": {
+      "url": "URL tržišta. Uneseni znakovi će se učitati kao URL, budite oprezni.",
+      "html": "Market HTML sadržaj. Uneseni znakovi bit će tretirani kao skripta i odmah će se izvršiti, budite oprezni.",
+      "come": "Dođi k meni",
+      "myMarketName": "Naziv tržišta",
+      "stroll": "Prošetati"
+    },
+    "item": {
+      "url": "URL tržišne kartice. Uneseni znakovi će se učitati kao URL, budite oprezni.",
+      "html": "Market HTML sadržaj. Uneseni znakovi bit će tretirani kao skripta i odmah će se izvršiti, budite oprezni.",
+      "come": "Dođi k meni",
+      "myMarketName": "Naziv tržišta",
+      "stroll": "Prošetati"
+    }
+  }
+}

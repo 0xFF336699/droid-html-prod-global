@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "Pendengar bilah info",
+    "settingsButtonLabel": "mendirikan",
+    "clientsNum": "Terhubung:",
+    "notificationReadable": "Izin membaca:",
+    "notificationReadableYes": "Sudah dihidupkan",
+    "notificationReadableNo": "Tidak dihidupkan",
+    "socketServerStatus": "Server soket:",
+    "socketServerRunning": "Berlari",
+    "socketServerStopped": "Berhenti",
+    "socketServerStartButton": "Mulai servernya",
+    "socketServerStopButton": "Hentikan servernya",
+    "foregroundService": {
+      "title": "Layanan mendengarkan notifikasi",
+      "content": "Mendengarkan notifikasi sistem",
+      "reason": "<h3>Layanan mendengarkan notifikasi</h3><p>Layanan ini harus tetap berjalan di latar belakang untuk:</p><ul><li>Membaca notifikasi sistem secara real-time</li><li>Mendorong ke klien melalui Socket</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "Pengaturan bilah informasi"
+  },
+  "ScaneQRCodeButton": {
+    "name": "Pindai kode untuk terhubung"
+  },
+  "SettingPanel": {
+    "modalTitle": "Pengaturan pendengar",
+    "description": "Fungsi ini memulai layanan lokal untuk menerima dan memproses pesan notifikasi di bilah status sistem Android. Harap pastikan port tidak ditempati.",
+    "riskWarning": "Peringatan risiko: Mengaktifkan fitur ini akan memungkinkan aplikasi membaca semua pesan notifikasi Anda, yang mungkin berisi informasi sensitif. Silakan gunakan dengan hati-hati.",
+    "portLabel": "pelabuhan layanan",
+    "portRangeError": "Port harus berupa bilangan bulat antara 1025 dan 65535.",
+    "tokenLabel": "Akses Token",
+    "cancelButton": "menyerah",
+    "applyButton": "menggunakan"
+  }
+}

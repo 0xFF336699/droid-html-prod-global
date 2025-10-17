@@ -1,0 +1,7 @@
+{
+  "NotificationOpenButton": {
+    "name": "La barre de notification lit",
+    "description": "Activer l'autorisation de lecture dans la barre de notification",
+    "setting": "installation"
+  }
+}

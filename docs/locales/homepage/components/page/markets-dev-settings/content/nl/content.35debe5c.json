@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "blijf verbonden",
+        "helperText": "Als u klikt om de link te starten, bewaar dan de link. Houd er dus rekening mee dat de link opnieuw verbinding blijft maken nadat deze is verbroken.",
+        "retryCount": "Aantal herverbindingen"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "Link-URL, zoals ws://192.168.0.2:7001 of wws://example.com/path",
+        "error": "De juiste URL is een URL die begint met ws:// of wwws://"
+      }
+    },
+    "connectButton": {
+      "connect": "verbinden",
+      "disconnect": "Verbreek de verbinding",
+      "status": {
+        "connecting": "Verbinden...",
+        "connected": "Aangesloten",
+        "disconnecting": "Verbinding verbreken...",
+        "disconnected": "Niet verbonden",
+        "waitRetry": "Wachten op herverbinding..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "script"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Da diese Anwendung eine große Anzahl von Berechtigungen auf Ihrem Mobiltelefon erfordert, sind viele Berechtigungen äußerst riskant. Importieren oder führen Sie sie daher nicht aus, ohne die Risiken des Marktes oder des Skripts genau zu kennen. Sobald Sie Inhalte in das Textfeld „Market Card Introduction“ oder „Market Independent Web Page“ unten eingeben, wird der Inhalt sofort als Code ausgeführt. Gehen Sie daher bitte vorsichtig vor.",
+    "setNewMarket": "Neuen Markt aufbauen",
+    "settingPreview": "Vorschau festlegen",
+    "marketName": "Marktname",
+    "marketSummary": "Markteinführung",
+    "marketDescription": "Markteinführung",
+    "itemMarket": "Einführung der Marktkarte",
+    "fullMarket": "Marktunabhängige Webseite",
+    "marketCardPreview": "Vorschau der Marktkarte",
+    "marketFullPreview": "Marktunabhängige Webseitenvorschau",
+    "isNotSet": "nicht eingestellt"
+  }
+}

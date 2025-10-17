@@ -1,0 +1,7 @@
+{
+  "NotificationOpenButton": {
+    "name": "Pasek powiadomień czyta",
+    "description": "Włącz uprawnienia do odczytu paska powiadomień",
+    "setting": "organizować coś"
+  }
+}

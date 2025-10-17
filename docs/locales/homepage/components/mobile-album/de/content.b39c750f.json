@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "Fotoalbum-Service",
+    "serverStatus": "Servicestatus",
+    "running": "Läuft",
+    "stopped": "Angehalten",
+    "port": "Hafen",
+    "token": "Zugriffstoken",
+    "permissionType": "Berechtigungsmodus",
+    "contentResolver": "Systemberechtigungen",
+    "saf": "Dateizugriffs-Framework",
+    "startService": "Dienst starten",
+    "stopService": "Stoppen Sie den Dienst",
+    "checkPermissions": "Überprüfen Sie die Berechtigungen",
+    "requestPermissions": "Beantragen Sie eine Genehmigung",
+    "openAlbum": "Fotoalbum öffnen",
+    "copyToken": "Token kopieren",
+    "copyUrl": "Adresse kopieren",
+    "permissionGranted": "Erlaubnis erteilt",
+    "permissionDenied": "Zugriff verweigert",
+    "serviceStarted": "Der Dienst hat begonnen",
+    "serviceStopped": "Der Dienst wurde gestoppt",
+    "error": "Fehler"
+  }
+}

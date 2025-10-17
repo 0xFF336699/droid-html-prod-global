@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "Bilgi çubuğu dinleyicisi",
+    "settingsButtonLabel": "kurmak",
+    "clientsNum": "Bağlı:",
+    "notificationReadable": "Okuma izni:",
+    "notificationReadableYes": "Zaten açık",
+    "notificationReadableNo": "Açık değil",
+    "socketServerStatus": "Soket sunucusu:",
+    "socketServerRunning": "Koşma",
+    "socketServerStopped": "Durduruldu",
+    "socketServerStartButton": "Sunucuyu başlat",
+    "socketServerStopButton": "Sunucuyu durdur",
+    "foregroundService": {
+      "title": "Bildirim dinleme hizmeti",
+      "content": "Sistem bildirimlerini dinleme",
+      "reason": "<h3>Bildirim dinleme hizmeti</h3><p>Bu hizmetin aşağıdaki amaçlar için arka planda çalışmaya devam etmesi gerekir:</p><ul><li>Sistem bildirimlerini gerçek zamanlı olarak okumak</li><li>Soket aracılığıyla istemciye göndermek</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "Bilgi çubuğu ayarları"
+  },
+  "ScaneQRCodeButton": {
+    "name": "Bağlanmak için kodu tarayın"
+  },
+  "SettingPanel": {
+    "modalTitle": "Dinleyici ayarları",
+    "description": "Bu işlev, Android sistem durum çubuğundaki bildirim mesajlarını almak ve işlemek için yerel bir hizmeti başlatır. Lütfen bağlantı noktasının dolu olmadığından emin olun.",
+    "riskWarning": "Risk uyarısı: Bu özelliği açmak, uygulamanın hassas bilgiler içerebilecek tüm bildirim mesajlarınızı okumasına olanak tanır. Lütfen dikkatli kullanın.",
+    "portLabel": "servis portu",
+    "portRangeError": "Bağlantı noktası 1025 ile 65535 arasında bir tam sayı olmalıdır.",
+    "tokenLabel": "Erişim Jetonu",
+    "cancelButton": "pes etmek",
+    "applyButton": "kullanmak"
+  }
+}

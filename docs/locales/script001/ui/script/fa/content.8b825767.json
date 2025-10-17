@@ -1,0 +1,42 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "شماره ای که می خواهید پیامک ارسال کنید یا با آن تماس های خروجی برقرار کنید",
+          "label": "شماره تلفن",
+          "helperText": "شماره ای که می خواهید پیامک ارسال کنید یا با آن تماس های خروجی برقرار کنید"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "یه کم حالم بد میشه سریع بیا پیشم! ! !",
+          "label": "محتوای پیامکی",
+          "helperText": "محتوای پیامکی"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "لیست گیرندگان اس ام اس"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "شماره موبایل گیرنده",
+          "label": "شماره موبایل گیرنده",
+          "helperText": "شماره موبایل گیرنده"
+        }
+      }
+    }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "یک میانبر تماس برای کمک با یک کلیک ایجاد کنید",
+      "description": "یک میانبر روی دسکتاپ گوشی خود ایجاد کنید"
+    },
+    "launcherName": "تماس اضطراری"
+  },
+  "SelectedContackList": {
+    "title": "تماس اضطراری"
+  }
+}

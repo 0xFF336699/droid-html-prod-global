@@ -1,0 +1,42 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Nummeret du vil sende tekstmeldinger eller foreta utgående anrop til",
+          "label": "telefonnummer",
+          "helperText": "Nummeret du vil sende tekstmeldinger eller foreta utgående anrop til"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Jeg føler meg litt uvel, kom raskt til meg! ! !",
+          "label": "SMS-innhold",
+          "helperText": "SMS-innhold"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS-mottakerliste"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Mottakers mobilnummer",
+          "label": "Mottakers mobilnummer",
+          "helperText": "Mottakers mobilnummer"
+        }
+      }
+    }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Opprett en ett-klikks snarvei for å ringe for hjelp",
+      "description": "Lag en snarvei på telefonens skrivebord"
+    },
+    "launcherName": "nødanrop"
+  },
+  "SelectedContackList": {
+    "title": "nødkontakt"
+  }
+}

@@ -1,7 +1,0 @@
-{
-  "RoomContentV2": {
-    "waitingForLogin": "กรุณาเข้าสู่ระบบก่อน",
-    "loadingRoomInfo": "กำลังโหลดข้อมูลห้อง ...",
-    "roomNotFound": "ไม่พบห้อง"
-  }
-}

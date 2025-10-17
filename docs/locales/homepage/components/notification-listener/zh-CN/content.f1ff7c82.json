@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "信息栏侦听器",
+    "settingsButtonLabel": "设置",
+    "clientsNum": "已连接：",
+    "notificationReadable": "读取权限：",
+    "notificationReadableYes": "已开启",
+    "notificationReadableNo": "未开启",
+    "socketServerStatus": "Socket服务器：",
+    "socketServerRunning": "运行中",
+    "socketServerStopped": "已停止",
+    "socketServerStartButton": "启动服务器",
+    "socketServerStopButton": "停止服务器",
+    "foregroundService": {
+      "title": "通知监听服务",
+      "content": "正在监听系统通知",
+      "reason": "<h3>通知监听服务</h3><p>该服务需要保持后台运行,以便:</p><ul><li>实时读取系统通知</li><li>通过Socket推送给客户端</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "信息栏设置"
+  },
+  "ScaneQRCodeButton": {
+    "name": "扫码连接"
+  },
+  "SettingPanel": {
+    "modalTitle": "侦听器设置",
+    "description": "此功能会启动一个本地服务，用于接收并处理安卓系统状态栏中的通知消息。请确保端口未被占用。",
+    "riskWarning": "风险提示：开启此功能将允许应用读取您所有的通知消息，这可能包含敏感信息。请谨慎使用。",
+    "portLabel": "服务端口",
+    "portRangeError": "端口必须是 1025 到 65535 之间的整数。",
+    "tokenLabel": "访问令牌 (Token)",
+    "cancelButton": "放弃",
+    "applyButton": "使用"
+  }
+}

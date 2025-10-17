@@ -1,0 +1,11 @@
+{
+  "content": {
+    "close": "閉鎖",
+    "layout": "レイアウト",
+    "fullInfo": "完全なデータ",
+    "title": "a11y情報読み取りボタングループ",
+    "multiWindow": "複数のウィンドウ",
+    "appWindow": "シングルウィンドウ",
+    "store": "店"
+  }
+}

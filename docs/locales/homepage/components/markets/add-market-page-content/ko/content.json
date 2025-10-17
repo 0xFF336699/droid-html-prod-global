@@ -1,8 +1,0 @@
-{
-  "AddMarketPageContent": {
-    "title": "시장에 추가하십시오",
-    "url": "시장 URL",
-    "summary": "시장 요약",
-    "urlIsNotValid": "잘못된 시장 URL"
-  }
-}

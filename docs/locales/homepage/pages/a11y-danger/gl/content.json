@@ -1,9 +1,0 @@
-{
-  "content": {
-    "txt1": "Esta función pode realizar operacións similares ás operacións de persoa real, pero sen limitarse a facer clic, abrir aplicacións, etc. no seu teléfono e tamén pode abrir algunhas solicitudes de pago para o pago. Debido a que hai riscos de ser rexistradas operacións, realizar pagamentos, etc., recomendamos encarecidamente que o executes só se entendes completamente o contido do guión.",
-    "txt2": "Como pechar esta función: abra a páxina de inicio desta aplicación, pode deixar de usar a función auxiliar na configuración da páxina de inicio ou pode facer clic no botón \"Pechar todas as tarefas e saír\" na páxina de inicio. Este botón obriga ao peche de todas as tarefas que se están executando e forzar a pechar esta aplicación.",
-    "txt3": "A razón pola que usamos esta función é que a nosa aplicación debe ter a posibilidade de abrir outras aplicacións e controlalas, como cando navega por Instagram, pode deslizarse automaticamente despois de que se reproduza o vídeo, comprobe se un produto está á venda e enviar mensaxes a amigos en liña regularmente, etc., que son interesantes ou operacións de salvamento laboral.",
-    "iKnowDanger": "Sei os riscos: vai a establecer",
-    "title": "Operacións perigosas"
-  }
-}

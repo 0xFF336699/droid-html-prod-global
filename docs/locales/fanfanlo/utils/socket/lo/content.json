@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "ເຊື່ອມຕໍ່ ...",
-    "connected": "ເຊື່ອມໂຍງ",
-    "disconnecting": "ຕັດການເຊື່ອມຕໍ່ ...",
-    "disconnected": "ບໍ່ເຊື່ອມຕໍ່",
-    "waitRetry": "ລໍຖ້າການເຊື່ອມຕໍ່ເຂົ້າກັນ ..."
-  }
-}

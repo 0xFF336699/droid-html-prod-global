@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "Servicio de álbum de fotos.",
+    "serverStatus": "Estado del servicio",
+    "running": "Correr",
+    "stopped": "Interrumpido",
+    "port": "puerto",
+    "token": "token de acceso",
+    "permissionType": "modo de permiso",
+    "contentResolver": "Permisos del sistema",
+    "saf": "marco de acceso a archivos",
+    "startService": "Iniciar servicio",
+    "stopService": "detener el servicio",
+    "checkPermissions": "comprobar permisos",
+    "requestPermissions": "Solicitar permiso",
+    "openAlbum": "Abrir álbum de fotos",
+    "copyToken": "copiar token",
+    "copyUrl": "Copiar dirección",
+    "permissionGranted": "Permiso concedido",
+    "permissionDenied": "Permiso denegado",
+    "serviceStarted": "El servicio ha comenzado",
+    "serviceStopped": "El servicio se ha detenido",
+    "error": "error"
+  }
+}

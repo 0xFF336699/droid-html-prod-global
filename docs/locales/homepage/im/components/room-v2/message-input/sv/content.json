@@ -1,9 +1,0 @@
-{
-  "MessageInput": {
-    "attachFile": "Lägg till bilagor",
-    "emoji": "Välj ett uttryck",
-    "placeholder": "Ange ett meddelande ...",
-    "sendLocation": "Skicka plats",
-    "send": "skicka"
-  }
-}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "register",
+    "phoneNumber": "Phone number",
+    "phoneNumberPlaceholder": "Please enter mobile phone number",
+    "verificationCode": "Verification code",
+    "verificationCodePlaceholder": "Please enter the verification code",
+    "getVerificationCode": "Get verification code",
+    "countdown": "Try again in {{seconds}} seconds",
+    "register": "register",
+    "errors": {
+      "phoneRequired": "Please enter mobile phone number",
+      "phoneInvalid": "Mobile phone number format is incorrect",
+      "codeRequired": "Please enter the verification code",
+      "codeInvalid": "Verification code format is incorrect",
+      "requestFailed": "Request failed",
+      "verificationFailed": "Failed to obtain verification code",
+      "loginFailed": "Login failed"
+    },
+    "success": {
+      "verificationCodeSent": "Verification code sent",
+      "registerSuccess": "Registration successful"
+    }
+  }
+}

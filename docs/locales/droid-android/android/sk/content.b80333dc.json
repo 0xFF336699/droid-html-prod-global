@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Túto metódu je možné volať iba v systéme Android",
+      "noMethod": "Táto metóda neexistuje"
+    }
+  }
+}

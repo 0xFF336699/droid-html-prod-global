@@ -1,0 +1,42 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Le numéro auquel vous souhaitez envoyer des SMS ou passer des appels sortants",
+          "label": "numéro de téléphone",
+          "helperText": "Le numéro auquel vous souhaitez envoyer des SMS ou passer des appels sortants"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Je me sens un peu mal, viens vite me voir ! ! !",
+          "label": "Contenu SMS",
+          "helperText": "Contenu SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Liste des destinataires SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Numéro de portable du destinataire",
+          "label": "Numéro de portable du destinataire",
+          "helperText": "Numéro de portable du destinataire"
+        }
+      }
+    }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Créer un raccourci d'appel à l'aide en un clic",
+      "description": "Créez un raccourci sur le bureau de votre téléphone"
+    },
+    "launcherName": "appel d'urgence"
+  },
+  "SelectedContackList": {
+    "title": "contact d'urgence"
+  }
+}

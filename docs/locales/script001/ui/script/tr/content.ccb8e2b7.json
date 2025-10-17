@@ -1,0 +1,42 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Kısa mesaj göndermek veya arama yapmak istediğiniz numara",
+          "label": "telefon numarası",
+          "helperText": "Kısa mesaj göndermek veya arama yapmak istediğiniz numara"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Kendimi biraz kötü hissediyorum, çabuk bana gelin! ! !",
+          "label": "SMS içeriği",
+          "helperText": "SMS içeriği"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS alıcı listesi"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Alıcı cep telefonu numarası",
+          "label": "Alıcı cep telefonu numarası",
+          "helperText": "Alıcı cep telefonu numarası"
+        }
+      }
+    }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Tek tıkla yardım çağrısı oluşturma kısayolu",
+      "description": "Telefonunuzun masaüstünde bir kısayol oluşturun"
+    },
+    "launcherName": "acil arama"
+  },
+  "SelectedContackList": {
+    "title": "acil durum irtibatı"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "NotificationOpenButton": {
+    "name": "يقرأ شريط الإعلام",
+    "description": "قم بتشغيل إذن قراءة شريط الإعلام",
+    "setting": "يثبت"
+  }
+}

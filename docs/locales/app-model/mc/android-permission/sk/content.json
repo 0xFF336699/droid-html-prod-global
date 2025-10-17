@@ -1,7 +1,0 @@
-{
-  "androidPermission": {
-    "denied": "zamietnutie",
-    "granted": "Oprávnený",
-    "shouldAskAgain": "Neoprávnený"
-  }
-}

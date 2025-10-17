@@ -1,0 +1,11 @@
+{
+  "content": {
+    "close": "cierre",
+    "layout": "disposición",
+    "fullInfo": "datos completos",
+    "title": "Leer todo el grupo de botones de información",
+    "multiWindow": "múltiples ventanas",
+    "appWindow": "ventana única",
+    "store": "almacenar"
+  }
+}

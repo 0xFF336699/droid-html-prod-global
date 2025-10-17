@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Prikaz sučelja pristupačnosti",
+    "howToUse": "Upute za uporabu",
+    "howToUseTooltip": "Ispod su neki atributi oznaka ovog čvora, koji se mogu koristiti za odabir operacija, kao što su klikanje, ispunjavanje teksta itd.\n\nVrijednosti atributa mogu se duplicirati na stranici aplikacije. Ako se naiđu na duplikate, prekrijte druge vrijednosti atributa kako biste utvrdili jedinstvenost.\n\nCrvene riječi označavaju da se vrijednost atributa ponavlja, zelene riječi označavaju da je vrijednost atributa jedinstvena u trenutnom pretraživanju stranice, a crne riječi označavaju da nema ponovljenih usporedbi.",
+    "otherNodesSummary": "Ostali čvorovi na ovoj lokaciji",
+    "moreNodes": "Evo proširenog sadržaja.",
+    "nodeInfoDialogOkButton": "Uredite čvor",
+    "text": "Tekst 2222"
+  }
+}

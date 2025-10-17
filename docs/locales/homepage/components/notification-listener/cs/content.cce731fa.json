@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "Posluchač informačního panelu",
+    "settingsButtonLabel": "nastavit",
+    "clientsNum": "Připojeno:",
+    "notificationReadable": "Oprávnění ke čtení:",
+    "notificationReadableYes": "Již zapnuto",
+    "notificationReadableNo": "Není zapnuto",
+    "socketServerStatus": "Soketový server:",
+    "socketServerRunning": "Běh",
+    "socketServerStopped": "Zastaveno",
+    "socketServerStartButton": "Spusťte server",
+    "socketServerStopButton": "Zastavte server",
+    "foregroundService": {
+      "title": "Služba poslechu oznámení",
+      "content": "Poslouchání oznámení systému",
+      "reason": "<h3>Služba naslouchání oznámení</h3><p>Tato služba musí běžet na pozadí, aby mohla:</p><ul><li>číst systémová oznámení v reálném čase,</li><li>doručit klientovi přes Socket</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "Nastavení informační lišty"
+  },
+  "ScaneQRCodeButton": {
+    "name": "Pro připojení naskenujte kód"
+  },
+  "SettingPanel": {
+    "modalTitle": "Nastavení posluchače",
+    "description": "Tato funkce spustí místní službu pro příjem a zpracování notifikačních zpráv ve stavovém řádku systému Android. Ujistěte se, že port není obsazený.",
+    "riskWarning": "Upozornění na riziko: Zapnutím této funkce umožníte aplikaci číst všechna vaše oznámení, která mohou obsahovat citlivé informace. Používejte prosím opatrně.",
+    "portLabel": "servisní port",
+    "portRangeError": "Port musí být celé číslo mezi 1025 a 65535.",
+    "tokenLabel": "Přístupový token",
+    "cancelButton": "vzdát se",
+    "applyButton": "použití"
+  }
+}

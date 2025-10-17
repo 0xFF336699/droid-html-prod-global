@@ -1,0 +1,11 @@
+{
+  "content": {
+    "close": "zatvaranje",
+    "layout": "raspored",
+    "fullInfo": "potpuni podaci",
+    "title": "Grupa gumba za čitanje svih informacija",
+    "multiWindow": "više prozora",
+    "appWindow": "jedan prozor",
+    "store": "trgovina"
+  }
+}

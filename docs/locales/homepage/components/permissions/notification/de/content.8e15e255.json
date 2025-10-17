@@ -1,0 +1,7 @@
+{
+  "NotificationOpenButton": {
+    "name": "In der Benachrichtigungsleiste wird Folgendes angezeigt:",
+    "description": "Aktivieren Sie die Leseberechtigung für die Benachrichtigungsleiste",
+    "setting": "aufstellen"
+  }
+}

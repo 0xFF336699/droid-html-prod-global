@@ -1,0 +1,9 @@
+{
+  "content": {
+    "create": "teremt",
+    "delete": "töröl",
+    "confirmDelete": "Biztosan törli ezt az elemet?",
+    "cancel": "feladni",
+    "title": "figyelmeztet"
+  }
+}

@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Samband...",
-    "connected": "Samband",
-    "disconnecting": "At fáa samband... Frástøðu...",
-    "disconnected": "Ikki tilknýtt",
-    "waitRetry": "Bíða eftir endursambandi..."
-  }
-}

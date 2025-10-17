@@ -1,0 +1,42 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "El número al que desea enviar mensajes de texto o realizar llamadas salientes",
+          "label": "número de teléfono",
+          "helperText": "El número al que desea enviar mensajes de texto o realizar llamadas salientes"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Me siento un poco mal, ¡ven a verme rápido! ! !",
+          "label": "Contenido SMS",
+          "helperText": "Contenido SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "lista de destinatarios de SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Número de móvil del receptor",
+          "label": "Número de móvil del receptor",
+          "helperText": "Número de móvil del receptor"
+        }
+      }
+    }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Cree un acceso directo de llamada de ayuda con un solo clic",
+      "description": "Crea un acceso directo en el escritorio de tu teléfono"
+    },
+    "launcherName": "llamada de emergencia"
+  },
+  "SelectedContackList": {
+    "title": "contacto de emergencia"
+  }
+}

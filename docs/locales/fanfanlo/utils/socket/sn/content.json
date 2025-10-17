@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Kubatanidza ...",
-    "connected": "Yakabatana",
-    "disconnecting": "Bvisa ...",
-    "disconnected": "Isina kubatana",
-    "waitRetry": "Kumirira kuyanana ..."
-  }
-}

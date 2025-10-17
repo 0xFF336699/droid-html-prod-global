@@ -1,0 +1,42 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Số bạn muốn gửi tin nhắn văn bản hoặc thực hiện cuộc gọi đi",
+          "label": "số điện thoại",
+          "helperText": "Số bạn muốn gửi tin nhắn văn bản hoặc thực hiện cuộc gọi đi"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Tôi cảm thấy hơi không khỏe, nhanh tới chỗ tôi nhé! ! !",
+          "label": "nội dung tin nhắn SMS",
+          "helperText": "nội dung tin nhắn SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "danh sách người nhận SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Số điện thoại di động của người nhận",
+          "label": "Số điện thoại di động của người nhận",
+          "helperText": "Số điện thoại di động của người nhận"
+        }
+      }
+    }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Tạo phím tắt gọi trợ giúp bằng một cú nhấp chuột",
+      "description": "Tạo lối tắt trên màn hình điện thoại của bạn"
+    },
+    "launcherName": "cuộc gọi khẩn cấp"
+  },
+  "SelectedContackList": {
+    "title": "liên lạc khẩn cấp"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "לְבַטֵל",
+    "confirm": "בַּטוּחַ",
+    "title": "רֶמֶז",
+    "content": "האם אתה בטוח שאתה רוצה לעשות זאת?"
+  },
+  "EditableText": {
+    "cancel": "לְבַטֵל",
+    "save": "לְהַצִיל",
+    "title": "לַעֲרוֹך"
+  }
+}

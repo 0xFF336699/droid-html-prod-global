@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "Écouteur de la barre d'informations",
+    "settingsButtonLabel": "installation",
+    "clientsNum": "Connecté :",
+    "notificationReadable": "Autorisation de lecture :",
+    "notificationReadableYes": "Déjà allumé",
+    "notificationReadableNo": "Pas allumé",
+    "socketServerStatus": "Serveur de sockets :",
+    "socketServerRunning": "En cours d'exécution",
+    "socketServerStopped": "Arrêté",
+    "socketServerStartButton": "Démarrer le serveur",
+    "socketServerStopButton": "Arrêtez le serveur",
+    "foregroundService": {
+      "title": "Service d'écoute des notifications",
+      "content": "Écoute des notifications système",
+      "reason": "<h3>Service d'écoute des notifications</h3><p>Ce service doit continuer à fonctionner en arrière-plan afin de :</p><ul><li>Lire les notifications système en temps réel</li><li>Passer au client via Socket</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "Paramètres de la barre d'informations"
+  },
+  "ScaneQRCodeButton": {
+    "name": "Scannez le code pour vous connecter"
+  },
+  "SettingPanel": {
+    "modalTitle": "Paramètres de l'écouteur",
+    "description": "Cette fonction démarre un service local pour recevoir et traiter les messages de notification dans la barre d'état du système Android. Veuillez vous assurer que le port n'est pas occupé.",
+    "riskWarning": "Avertissement de risque : l'activation de cette fonctionnalité permettra à l'application de lire tous vos messages de notification, qui peuvent contenir des informations sensibles. Veuillez utiliser avec prudence.",
+    "portLabel": "port de service",
+    "portRangeError": "Le port doit être un entier compris entre 1025 et 65535.",
+    "tokenLabel": "Jeton d'accès",
+    "cancelButton": "abandonner",
+    "applyButton": "utiliser"
+  }
+}

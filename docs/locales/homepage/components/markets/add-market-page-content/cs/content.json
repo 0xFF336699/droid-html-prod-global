@@ -1,8 +1,0 @@
-{
-  "AddMarketPageContent": {
-    "title": "Přidat na trh",
-    "url": "URL na trhu",
-    "summary": "Shrnutí trhu",
-    "urlIsNotValid": "Nesprávná URL na trhu"
-  }
-}

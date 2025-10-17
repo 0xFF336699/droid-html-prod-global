@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Birikdirmek ...",
-    "connected": "Birikdirilen",
-    "disconnecting": "Aýyrmak ...",
-    "disconnected": "Birikdirilmedik",
-    "waitRetry": "Gaýtalanmaga garaşýar ..."
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "androidPermission": {
-    "denied": "አለመቀበል",
-    "granted": "ተፈቅ .ል",
-    "shouldAskAgain": "ያልተፈቀደ"
-  }
-}

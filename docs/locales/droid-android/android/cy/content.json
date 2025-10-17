@@ -1,8 +1,0 @@
-{
-  "WebViewJs": {
-    "error": {
-      "notInAndroid": "Dim ond ar Android y gellir galw'r dull hwn",
-      "noMethod": "Nid yw'r dull hwn yn bodoli"
-    }
-  }
-}

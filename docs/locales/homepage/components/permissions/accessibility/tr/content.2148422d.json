@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Erişilebilirlik",
+    "pass": "Yetkili",
+    "notPass": "Yetkisiz",
+    "setting": "kurmak",
+    "danger": "Tehlike",
+    "dangerDesc": "Bu yetkilendirme, ekranda ne olduğunu görmenize ve telefonunuzda tıklama gerçekleştirmenize olanak tanır. Çalıştırdığınız veya çalıştırmak üzere olduğunuz betiğin işlevselliğini ve risklerini açıkça anlamıyorsanız lütfen bu izni devre dışı bırakın."
+  }
+}

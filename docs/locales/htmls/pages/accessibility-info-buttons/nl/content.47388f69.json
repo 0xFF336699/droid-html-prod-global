@@ -1,0 +1,11 @@
+{
+  "content": {
+    "close": "sluiting",
+    "layout": "indeling",
+    "fullInfo": "volledige gegevens",
+    "title": "Lees een informatieknopgroep",
+    "multiWindow": "meerdere vensters",
+    "appWindow": "enkel venster",
+    "store": "winkel"
+  }
+}

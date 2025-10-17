@@ -1,0 +1,9 @@
+{
+  "content": {
+    "projectNotExist": "Projekt ne postoji",
+    "clickToSetProjectName": "Neimenovani projekt",
+    "projectTools": {
+      "run": "implementirati"
+    }
+  }
+}

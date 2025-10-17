@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Denne funksjonen kan utføre menneskelignende operasjoner på mobiltelefonen din, inkludert men ikke begrenset til å klikke, åpne applikasjoner osv. Den kan også åpne noen betalingsapplikasjoner for betaling. Fordi det er en risiko for opptak av operasjoner, betalinger osv., anbefaler vi på det sterkeste at du bare utfører det hvis du forstår innholdet i skriptet fullt ut.",
+    "txt2": "Slik slår du av denne funksjonen: Åpne hjemmesiden til denne applikasjonen, du kan slutte å bruke tilleggsfunksjonen i innstillingene for hjemmesiden, eller du kan klikke på knappen \"Lukk alle oppgaver og avslutt\" på hjemmesiden. Denne knappen vil tvangslukke alle pågående oppgaver og tvangslukke appen.",
+    "txt3": "Grunnen til at vi bruker denne funksjonen er at applikasjonen vår må kunne åpne andre applikasjoner og utføre noen operasjoner på dem. For eksempel, når du surfer på Instagram, kan den automatisk gli opp etter at videoen er spilt av, sjekke om et bestemt produkt er på salg, regelmessig sende meldinger til venner på nettet og andre interessante eller arbeidsbesparende operasjoner.",
+    "iKnowDanger": "Jeg er klar over risikoen - gå til innstillinger",
+    "title": "Farlig operasjon"
+  }
+}

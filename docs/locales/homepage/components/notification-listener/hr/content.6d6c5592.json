@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "Slušatelj infotrake",
+    "settingsButtonLabel": "postaviti",
+    "clientsNum": "Povezano:",
+    "notificationReadable": "Dozvola za čitanje:",
+    "notificationReadableYes": "Već uključeno",
+    "notificationReadableNo": "Nije uključeno",
+    "socketServerStatus": "Socket poslužitelj:",
+    "socketServerRunning": "Trčanje",
+    "socketServerStopped": "Zaustavljeno",
+    "socketServerStartButton": "Pokrenite poslužitelj",
+    "socketServerStopButton": "Zaustavite poslužitelj",
+    "foregroundService": {
+      "title": "Usluga slušanja obavijesti",
+      "content": "Osluškuju se obavijesti sustava",
+      "reason": "<h3>Usluga za slušanje obavijesti</h3><p>Ova usluga mora nastaviti raditi u pozadini kako bi:</p><ul><li>čitala obavijesti sustava u stvarnom vremenu</li><li>slala klijentu putem utičnice</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "Postavke informacijske trake"
+  },
+  "ScaneQRCodeButton": {
+    "name": "Skenirajte kod za povezivanje"
+  },
+  "SettingPanel": {
+    "modalTitle": "Postavke slušatelja",
+    "description": "Ova funkcija pokreće lokalnu uslugu za primanje i obradu poruka obavijesti u statusnoj traci sustava Android. Provjerite je li luka zauzeta.",
+    "riskWarning": "Upozorenje o riziku: uključivanje ove značajke omogućit će aplikaciji čitanje svih vaših poruka obavijesti koje mogu sadržavati osjetljive informacije. Molimo koristite s oprezom.",
+    "portLabel": "servisna luka",
+    "portRangeError": "Port mora biti cijeli broj između 1025 i 65535.",
+    "tokenLabel": "Pristupni token",
+    "cancelButton": "odustati",
+    "applyButton": "koristiti"
+  }
+}

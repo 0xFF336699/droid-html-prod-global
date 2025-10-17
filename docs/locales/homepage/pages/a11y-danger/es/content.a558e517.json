@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Esta función puede realizar operaciones similares a las humanas en su teléfono móvil, que incluyen, entre otras, hacer clic, abrir aplicaciones, etc. También puede abrir algunas aplicaciones de pago para realizar pagos. Debido a que existe el riesgo de registrar operaciones, realizar pagos, etc., le recomendamos encarecidamente que solo lo ejecute si comprende completamente el contenido del script.",
+    "txt2": "Cómo desactivar esta función: abra la página de inicio de esta aplicación, puede dejar de usar la función auxiliar en la configuración de la página de inicio o puede hacer clic en el botón \"Cerrar todas las tareas y salir\" en la página de inicio. Este botón cerrará a la fuerza todas las tareas en curso y cerrará la aplicación a la fuerza.",
+    "txt3": "La razón por la que utilizamos esta función es que nuestra aplicación necesita poder abrir otras aplicaciones y realizar algunas operaciones en ellas. Por ejemplo, al navegar por Instagram, puede deslizarse automáticamente hacia arriba después de reproducir el vídeo, comprobar si un determinado producto está en oferta, enviar mensajes periódicamente a amigos en línea y otras operaciones interesantes o que ahorran trabajo.",
+    "iKnowDanger": "Soy consciente de los riesgos: vaya a configuración",
+    "title": "Operación peligrosa"
+  }
+}

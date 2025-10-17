@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Eksekusi simpul",
+    "changeBtnLabel": "mengganti",
+    "showNodeAllProperties": "Tampilkan semua properti",
+    "wait": {
+      "time": "waktu tunggu",
+      "interval": "interval tunggu",
+      "invisible": "Apakah akan mendeteksi elemen di luar layar"
+    }
+  }
+}

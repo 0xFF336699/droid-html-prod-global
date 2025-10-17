@@ -1,0 +1,11 @@
+{
+  "NavBar": {
+    "home": "titulní strana",
+    "me": "moje",
+    "settings": "nastavit",
+    "script": "skript",
+    "store": "trh",
+    "market": "trh",
+    "create": "vytvořit"
+  }
+}

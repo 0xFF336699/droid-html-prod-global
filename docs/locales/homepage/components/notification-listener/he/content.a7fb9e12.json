@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "מאזין סרגל מידע",
+    "settingsButtonLabel": "לְהַקִים",
+    "clientsNum": "מְחוּבָּר:",
+    "notificationReadable": "אישור קריאה:",
+    "notificationReadableYes": "כבר מופעל",
+    "notificationReadableNo": "לא מופעל",
+    "socketServerStatus": "שרת Socket:",
+    "socketServerRunning": "רִיצָה",
+    "socketServerStopped": "נֶעצָר",
+    "socketServerStartButton": "הפעל את השרת",
+    "socketServerStopButton": "עצור את השרת",
+    "foregroundService": {
+      "title": "שירות האזנה להודעות",
+      "content": "האזנה להודעות מערכת",
+      "reason": "<h3>שירות האזנה להודעות</h3><p>שירות זה צריך להמשיך לפעול ברקע כדי:</p><ul><li>לקרוא הודעות מערכת בזמן אמת</li><li>דחוף ללקוח דרך Socket</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "הגדרות סרגל המידע"
+  },
+  "ScaneQRCodeButton": {
+    "name": "סרוק קוד כדי להתחבר"
+  },
+  "SettingPanel": {
+    "modalTitle": "הגדרות מאזינים",
+    "description": "פונקציה זו מפעילה שירות מקומי לקבלת ועיבוד הודעות התראות בשורת המצב של מערכת אנדרואיד. נא לוודא שהיציאה לא תפוסה.",
+    "riskWarning": "אזהרת סיכון: הפעלת תכונה זו תאפשר לאפליקציה לקרוא את כל הודעות ההתראה שלך, שעשויות להכיל מידע רגיש. נא להשתמש בזהירות.",
+    "portLabel": "נמל שירות",
+    "portRangeError": "היציאה חייבת להיות מספר שלם בין 1025 ל-65535.",
+    "tokenLabel": "אסימון גישה",
+    "cancelButton": "לְוַתֵר",
+    "applyButton": "לְהִשְׁתַמֵשׁ"
+  }
+}

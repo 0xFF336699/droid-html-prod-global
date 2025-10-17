@@ -1,0 +1,9 @@
+{
+  "content": {
+    "projectNotExist": "Le projet n'existe pas",
+    "clickToSetProjectName": "Projet sans nom",
+    "projectTools": {
+      "run": "mettre en œuvre"
+    }
+  }
+}

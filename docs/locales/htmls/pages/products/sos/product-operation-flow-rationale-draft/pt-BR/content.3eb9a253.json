@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "atalho",
+    "title": "Identificação de pacote e atividade",
+    "useBtn": "usar",
+    "closeBtn": "encerramento",
+    "pnLabel": "nome do pacote",
+    "copyButtonText": "cópia",
+    "anLabel": "atividade",
+    "clsLable": "aula"
+  }
+}

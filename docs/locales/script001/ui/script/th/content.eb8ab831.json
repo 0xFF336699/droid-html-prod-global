@@ -1,0 +1,42 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "หมายเลขที่คุณต้องการส่งข้อความหรือโทรออก",
+          "label": "หมายเลขโทรศัพท์",
+          "helperText": "หมายเลขที่คุณต้องการส่งข้อความหรือโทรออก"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "ฉันรู้สึกไม่สบายนิดหน่อย รีบมาหาฉันเร็วเข้า! - -",
+          "label": "เนื้อหา SMS",
+          "helperText": "เนื้อหา SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "รายชื่อผู้รับ SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "หมายเลขโทรศัพท์มือถือของผู้รับ",
+          "label": "หมายเลขโทรศัพท์มือถือของผู้รับ",
+          "helperText": "หมายเลขโทรศัพท์มือถือของผู้รับ"
+        }
+      }
+    }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "สร้างทางลัดการโทรเพื่อขอความช่วยเหลือเพียงคลิกเดียว",
+      "description": "สร้างทางลัดบนเดสก์ท็อปของโทรศัพท์"
+    },
+    "launcherName": "โทรฉุกเฉิน"
+  },
+  "SelectedContackList": {
+    "title": "การติดต่อในกรณีฉุกเฉิน"
+  }
+}

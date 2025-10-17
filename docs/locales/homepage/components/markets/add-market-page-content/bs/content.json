@@ -1,8 +1,0 @@
-{
-  "AddMarketPageContent": {
-    "title": "Dodaj na tržište",
-    "url": "Tržišni url",
-    "summary": "Rezime tržišta",
-    "urlIsNotValid": "Netačan tržišni URL"
-  }
-}

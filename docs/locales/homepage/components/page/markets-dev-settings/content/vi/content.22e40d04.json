@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "duy trì kết nối",
+        "helperText": "Nếu click vào bắt đầu link thì giữ lại link nên bạn cần chú ý là link sẽ tiếp tục kết nối lại sau khi bị ngắt kết nối.",
+        "retryCount": "Số lần kết nối lại"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "URL liên kết, chẳng hạn như ws://192.168.0.2:7001 hoặc wws://example.com/path",
+        "error": "URL đúng là URL bắt đầu bằng ws:// hoặc wwws://"
+      }
+    },
+    "connectButton": {
+      "connect": "kết nối",
+      "disconnect": "Ngắt kết nối",
+      "status": {
+        "connecting": "Đang kết nối...",
+        "connected": "Đã kết nối",
+        "disconnecting": "Đang ngắt kết nối...",
+        "disconnected": "Không được kết nối",
+        "waitRetry": "Đang chờ kết nối lại..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "kịch bản"
+  }
+}

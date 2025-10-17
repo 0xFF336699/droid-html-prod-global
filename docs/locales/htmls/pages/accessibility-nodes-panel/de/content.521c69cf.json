@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Ansicht der Barrierefreiheitsschnittstelle",
+    "howToUse": "Gebrauchsanweisung",
+    "howToUseTooltip": "Nachfolgend sind einige Markierungsattribute dieses Knotens aufgeführt, mit denen Vorgänge wie Klicken, Ausfüllen von Text usw. ausgewählt werden können.\n\nAttributwerte können auf der App-Seite dupliziert werden. Wenn Duplikate auftreten, überlagern Sie bitte andere Attributwerte, um die Einzigartigkeit zu bestimmen.\n\nDie roten Wörter zeigen an, dass der Attributwert wiederholt wird, die grünen Wörter zeigen an, dass der Attributwert in der aktuellen Seitensuche eindeutig ist, und die schwarzen Wörter zeigen an, dass keine wiederholten Vergleiche durchgeführt werden.",
+    "otherNodesSummary": "Andere Knoten an diesem Standort",
+    "moreNodes": "Hier ist der erweiterte Inhalt.",
+    "nodeInfoDialogOkButton": "Bearbeiten Sie den Knoten",
+    "text": "Text 2222"
+  }
+}

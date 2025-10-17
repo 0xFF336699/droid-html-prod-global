@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Toegankelijkheidsinterfaceweergave",
+    "howToUse": "Instructies voor gebruik",
+    "howToUseTooltip": "Hieronder staan ​​enkele markeerattributen van dit knooppunt, die kunnen worden gebruikt om bewerkingen te selecteren, zoals klikken, tekst invullen, enz.\n\nKenmerkwaarden kunnen worden gedupliceerd op de app-pagina. Als er duplicaten worden aangetroffen, plaats dan andere attribuutwaarden over elkaar heen om de uniciteit te bepalen.\n\nDe rode woorden geven aan dat de attribuutwaarde wordt herhaald, de groene woorden geven aan dat de attribuutwaarde uniek is in de huidige paginazoekopdracht en de zwarte woorden geven aan dat er geen herhaalde vergelijkingen worden gemaakt.",
+    "otherNodesSummary": "Andere knooppunten op deze locatie",
+    "moreNodes": "Hier is de uitgebreide inhoud.",
+    "nodeInfoDialogOkButton": "Bewerk het knooppunt",
+    "text": "Tekst 2222"
+  }
+}

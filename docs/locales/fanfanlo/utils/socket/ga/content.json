@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Ag nascadh ...",
-    "connected": "Nasctha",
-    "disconnecting": "Dícheangail ...",
-    "disconnected": "Gan a nascadh",
-    "waitRetry": "Ag fanacht le hathcheangail ..."
-  }
-}

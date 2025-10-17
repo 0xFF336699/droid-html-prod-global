@@ -1,8 +1,0 @@
-{
-  "WebViewJs": {
-    "error": {
-      "notInAndroid": "Bu üsul yalnız Android-də zəng etmək olar",
-      "noMethod": "Bu üsul yoxdur"
-    }
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Guhuza...",
-    "connected": "Yahuye",
-    "disconnecting": "Gufatanya...",
-    "disconnected": "Nta sano",
-    "waitRetry": "Urindiriye gusubira guhura..."
-  }
-}

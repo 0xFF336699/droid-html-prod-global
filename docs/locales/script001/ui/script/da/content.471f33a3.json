@@ -1,0 +1,42 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Det nummer, du vil sende tekstbeskeder eller foretage udgående opkald til",
+          "label": "telefonnummer",
+          "helperText": "Det nummer, du vil sende tekstbeskeder eller foretage udgående opkald til"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Jeg har det lidt utilpas, kom hurtigt til mig! ! !",
+          "label": "SMS indhold",
+          "helperText": "SMS indhold"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "SMS-modtagerliste"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Modtagerens mobilnummer",
+          "label": "Modtagerens mobilnummer",
+          "helperText": "Modtagerens mobilnummer"
+        }
+      }
+    }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Opret en genvej til et opkald til hjælp med et enkelt klik",
+      "description": "Opret en genvej på din telefons skrivebord"
+    },
+    "launcherName": "nødopkald"
+  },
+  "SelectedContackList": {
+    "title": "nødkontakt"
+  }
+}

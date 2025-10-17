@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "registrieren",
+    "phoneNumber": "Telefonnummer",
+    "phoneNumberPlaceholder": "Bitte geben Sie die Mobiltelefonnummer ein",
+    "verificationCode": "Bestätigungscode",
+    "verificationCodePlaceholder": "Bitte geben Sie den Bestätigungscode ein",
+    "getVerificationCode": "Holen Sie sich den Bestätigungscode",
+    "countdown": "Versuchen Sie es in {{seconds}} Sekunden erneut",
+    "register": "registrieren",
+    "errors": {
+      "phoneRequired": "Bitte geben Sie die Mobiltelefonnummer ein",
+      "phoneInvalid": "Das Format der Mobiltelefonnummer ist falsch",
+      "codeRequired": "Bitte geben Sie den Bestätigungscode ein",
+      "codeInvalid": "Das Format des Bestätigungscodes ist falsch",
+      "requestFailed": "Die Anfrage ist fehlgeschlagen",
+      "verificationFailed": "Der Bestätigungscode konnte nicht abgerufen werden",
+      "loginFailed": "Fehler bei der Anmeldung"
+    },
+    "success": {
+      "verificationCodeSent": "Bestätigungscode gesendet",
+      "registerSuccess": "Registrierung erfolgreich"
+    }
+  }
+}

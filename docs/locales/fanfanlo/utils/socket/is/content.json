@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Tenging ...",
-    "connected": "Tengdur",
-    "disconnecting": "Aftengja ...",
-    "disconnected": "Ekki tengdur",
-    "waitRetry": "Bíð eftir tengingu aftur ..."
-  }
-}

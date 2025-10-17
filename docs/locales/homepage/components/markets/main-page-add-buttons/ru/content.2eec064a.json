@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "добавить в",
+    "sub": {
+      "addScriptByUrl": "Добавить скрипт через URL",
+      "addScriptByText": "Добавить скрипт через текст",
+      "addMarket": "Добавить рынок по URL",
+      "addMarketByText": "Добавить рынок через текст"
+    }
+  }
+}

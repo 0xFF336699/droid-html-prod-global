@@ -1,9 +1,0 @@
-{
-  "status": {
-    "connecting": "Conectar ukax...",
-    "connected": "Ukax mä juk’a .",
-    "disconnecting": "Desconexión ukax...",
-    "disconnected": "Janiw conectatäkiti .",
-    "waitRetry": "Reconexión ukat suyt’aña..."
-  }
-}

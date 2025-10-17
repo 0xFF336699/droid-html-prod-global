@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "इन्फोबार श्रोता",
+    "settingsButtonLabel": "स्थापित करना",
+    "clientsNum": "जुड़े हुए:",
+    "notificationReadable": "अनुमति पढ़ें:",
+    "notificationReadableYes": "पहले से ही चालू है",
+    "notificationReadableNo": "चालू नहीं हुआ",
+    "socketServerStatus": "सॉकेट सर्वर:",
+    "socketServerRunning": "दौड़ना",
+    "socketServerStopped": "रुक गया",
+    "socketServerStartButton": "सर्वर प्रारंभ करें",
+    "socketServerStopButton": "सर्वर बंद करो",
+    "foregroundService": {
+      "title": "अधिसूचना सुनने की सेवा",
+      "content": "सिस्टम नोटिफिकेशन सुनना",
+      "reason": "<h3>अधिसूचना सुनने की सेवा</h3><p>इस सेवा को पृष्ठभूमि में चलते रहने की आवश्यकता है ताकि:</p><ul><li>वास्तविक समय में सिस्टम सूचनाएं पढ़ें</li><li>सॉकेट के माध्यम से क्लाइंट को पुश करें</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "सूचना बार सेटिंग्स"
+  },
+  "ScaneQRCodeButton": {
+    "name": "कनेक्ट करने के लिए कोड स्कैन करें"
+  },
+  "SettingPanel": {
+    "modalTitle": "श्रोता सेटिंग्स",
+    "description": "यह फ़ंक्शन एंड्रॉइड सिस्टम स्टेटस बार में अधिसूचना संदेश प्राप्त करने और संसाधित करने के लिए एक स्थानीय सेवा शुरू करता है। कृपया सुनिश्चित करें कि बंदरगाह पर कब्जा नहीं है।",
+    "riskWarning": "जोखिम चेतावनी: इस सुविधा को चालू करने से ऐप आपके सभी अधिसूचना संदेशों को पढ़ने की अनुमति देगा, जिसमें संवेदनशील जानकारी हो सकती है। कृपया सावधानी से प्रयोग करें.",
+    "portLabel": "सेवा बंदरगाह",
+    "portRangeError": "पोर्ट 1025 और 65535 के बीच एक पूर्णांक होना चाहिए।",
+    "tokenLabel": "एक्सेस टोकन",
+    "cancelButton": "छोड़ देना",
+    "applyButton": "उपयोग"
+  }
+}

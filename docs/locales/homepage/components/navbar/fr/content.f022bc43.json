@@ -1,0 +1,11 @@
+{
+  "NavBar": {
+    "home": "première page",
+    "me": "le mien",
+    "settings": "installation",
+    "script": "scénario",
+    "store": "marché",
+    "market": "marché",
+    "create": "créer"
+  }
+}

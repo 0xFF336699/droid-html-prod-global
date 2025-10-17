@@ -1,0 +1,9 @@
+{
+  "content": {
+    "create": "crear",
+    "delete": "borrar",
+    "confirmDelete": "¿Está seguro de que desea eliminar este elemento?",
+    "cancel": "abandonar",
+    "title": "advertir"
+  }
+}

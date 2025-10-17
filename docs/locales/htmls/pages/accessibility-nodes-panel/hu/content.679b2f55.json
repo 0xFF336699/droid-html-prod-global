@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Kisegítő lehetőségek interfész nézet",
+    "howToUse": "Használati utasítás",
+    "howToUseTooltip": "Az alábbiakban ennek a csomópontnak néhány mark attribútuma látható, amelyek segítségével kiválaszthatók a műveletek, mint például a kattintás, a szöveg kitöltése stb.\n\nAz attribútumértékek megkettőzhetők az alkalmazás oldalán. Ha ismétlődéseket talál, kérjük, fedje le más attribútumértékeket az egyediség meghatározásához.\n\nA piros szavak azt jelzik, hogy az attribútumérték ismétlődik, a zöld szavak azt jelzik, hogy az attribútum értéke egyedi az aktuális oldalkeresésben, a fekete szavak pedig azt, hogy nem történik ismételt összehasonlítás.",
+    "otherNodesSummary": "Egyéb csomópontok ezen a helyen",
+    "moreNodes": "Íme a bővített tartalom.",
+    "nodeInfoDialogOkButton": "Szerkessze a csomópontot",
+    "text": "Szöveg 2222"
+  }
+}

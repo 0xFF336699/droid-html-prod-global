@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Annuleren",
+    "ok": "Zeker",
+    "checkBoxText": "Ga binnen een halve maand direct naar de machtiging en het venster wordt niet meer weergegeven.",
+    "content": "Voor deze functie is toegankelijkheidsautorisatie vereist. Als u wilt autoriseren, klikt u op [OK]. Als u wilt opgeven, klikt u op [Annuleren].",
+    "title": "Toestemming aanvraag"
+  },
+  "floatPermission": {
+    "cancel": "Annuleren",
+    "ok": "Zeker",
+    "checkBoxText": "Ga binnen een halve maand direct naar de machtiging en het venster wordt niet meer weergegeven.",
+    "content": "Voor deze functie is autorisatie van de zwevende vensterfunctie vereist. Als u wilt autoriseren, klikt u op [OK]. Als u wilt opgeven, klikt u op [Annuleren].",
+    "title": "Toestemming aanvraag"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Ovlašten",
+    "notPass": "Neovlašteno",
+    "danger": "Opasnost",
+    "setting": "postaviti"
+  }
+}

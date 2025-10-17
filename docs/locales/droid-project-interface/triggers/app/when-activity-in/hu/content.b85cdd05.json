@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Amikor belép a megadott oldalra",
+    "pnLabel": "Csomag neve:",
+    "anLabel": "Tevékenység neve:",
+    "cnLabel": "Osztály neve:",
+    "changeBtnLabel": "cserélje ki"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Amikor belép a megadott oldalra",
+    "pnLabel": "Csomag neve:",
+    "anLabel": "Tevékenység neve:",
+    "cnLabel": "Osztály neve:",
+    "changeBtnLabel": "cserélje ki"
+  }
+}
