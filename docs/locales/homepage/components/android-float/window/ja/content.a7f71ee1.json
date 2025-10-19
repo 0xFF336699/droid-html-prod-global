@@ -1,0 +1,124 @@
+{
+  "AddWindow": {
+    "add": "フローティングウィンドウを追加する",
+    "urlPlaceholder": "URLまたはHTMLコードを入力してください",
+    "nameLabel": "ウィンドウ名",
+    "nameHelper": "グローバルに一意であり、ウィンドウの識別とウィンドウの開閉に使用されます。",
+    "contentHelper": "入力された URL または HTML がフローティング ウィンドウにロードされます。",
+    "widthLabel": "ウィンドウの幅",
+    "heightLabel": "窓の高さ",
+    "widthHelper": "単位: ピクセル、負の値は指定できません",
+    "heightHelper": "単位: ピクセル、負の値は指定できません",
+    "addButton": "に追加",
+    "cancelButton": "キャンセル",
+    "editSaveButton": "保存",
+    "errorEmptyName": "ウィンドウ名を空にすることはできません",
+    "errorDuplicateName": "ウィンドウ名はすでに存在します",
+    "errorEmptyContent": "URL/HTML コンテンツを空にすることはできません",
+    "errorInvalidContent": "有効な URL または HTML コードを入力してください",
+    "errorNegativeWidth": "ウィンドウ幅を負の値にすることはできません",
+    "errorNegativeHeight": "ウィンドウの高さを負の値にすることはできません"
+  },
+  "AddWindowContent": {
+    "addButtonName": "に追加",
+    "cancelButtonName": "キャンセル"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "Android フローティング ウィンドウ"
+  },
+  "EditWindowContent": {
+    "noWindowId": "ウィンドウIDを入力してください",
+    "windowConfNotFound": "対応するウィンドウ構成が見つかりませんでした"
+  },
+  "Step1BasicInfo": {
+    "title": "基本情報を設定する",
+    "description": "窓の種類と識別名を選択します。識別名は、さまざまなウィンドウ構成を区別するために使用されます。",
+    "windowTypeLabel": "窓の種類",
+    "windowTypeDesc": "フローティング: フローティング ウィンドウ |ダイアログ: ダイアログボックス |システム: システムウィンドウ",
+    "floatDesc": "フローティング ウィンドウは画面上で自由にドラッグでき、コンテンツのリアルタイム表示に適しています。",
+    "dialogDesc": "ダイアログ ボックスは他のアプリケーションの上に重ねて表示され、重要なリマインダーに適しています。",
+    "systemDesc": "システム ウィンドウは最も高い権限を持つウィンドウであり、システム レベルの機能に適しています。",
+    "tagLabel": "ウィンドウID",
+    "tagDesc": "このウィンドウ構成を一意に識別するために使用されます",
+    "tagPlaceholder": "例: news_reader、floating_timer",
+    "tagHelper": "自分を識別するためのウィンドウ名。",
+    "descriptionLabel": "ウィンドウの説明",
+    "descriptionDesc": "このウィンドウ構成の目的を説明してください",
+    "descriptionPlaceholder": "このウィンドウの目的と機能について説明します。"
+  },
+  "Step2HtmlConf": {
+    "title": "HTMLコンテンツの構成",
+    "description": "ウィンドウに表示される内容を指定します。 Web ページは URL 経由でロードすることも、HTML コードを直接記述することもできます。",
+    "urlLabel": "コンテンツURL",
+    "urlDesc": "ロードする Web ページのアドレスまたはローカル URL",
+    "urlPlaceholder": "例: https://example.com または about:blank",
+    "htmlLabel": "HTMLコードを埋め込む",
+    "htmlDesc": "HTML コードを直接記述します (URL が指定されている場合はオーバーライドされます)。",
+    "htmlPlaceholder": "<h1>ハローワールド</h1>",
+    "htmlHelper": "URL と HTML コードのどちらかを選択し、少なくとも 1 つを指定してください",
+    "quickFill": "クイックフィル:",
+    "fillBlankPage": "空白のページ (about:blank) を使用する",
+    "fillExampleHtml": "サンプルHTMLの使用"
+  },
+  "Step3WindowType": {
+    "title": "ウィンドウ固有のオプションを構成する",
+    "description": "選択したウィンドウのタイプに基づいて特定のオプションを構成します。",
+    "floatConfig": "フロート構成",
+    "dialogConfig": "ダイアログ構成",
+    "systemConfig": "システムウィンドウ（システム）の設定"
+  },
+  "Step4Advanced": {
+    "title": "詳細オプションを構成する",
+    "description": "通常、これらのオプションにはデフォルト値があり、変更する必要はありません。必要な場合にのみ調整してください。",
+    "dismissTimeLabel": "強制シャットダウン時間 (ミリ秒)",
+    "dismissTimeDesc": "ウィンドウが自動的に閉じるまでの時間 (ミリ秒、0 は自動的に閉じないことを意味します)",
+    "dismissTimeHelper": "ウィンドウが自動的に閉じないことを示すには、空白のままにするか、0 を入力します。",
+    "webViewConfig": "WebViewの設定",
+    "completeSummary": "✓ 設定が完了しました。",
+    "summaryTag": "ロゴ：",
+    "summaryType": "タイプ：",
+    "summaryUrl": "URL:",
+    "summaryHtml": "HTML:"
+  },
+  "WindowConfList": {
+    "title": "ウィンドウ構成一覧",
+    "empty": "ウィンドウの設定がまだありません",
+    "deleteConfirmTitle": "削除の確認",
+    "deleteConfirmMessage": "このウィンドウ構成を削除してもよろしいですか?この操作は元に戻すことができません。",
+    "deleteCancel": "キャンセル",
+    "deleteConfirm": "消去"
+  },
+  "WindowConfPreview": {
+    "windowType": "窓の種類",
+    "contentType": "コンテンツタイプ",
+    "noDescription": "説明なし",
+    "windowId": "ID",
+    "forceDismissTime": "強制終了時間",
+    "detailEdit": "詳細編集",
+    "delete": "消去"
+  },
+  "WindowConfWizard": {
+    "basicInfo": "基本情報",
+    "htmlContent": "HTMLコンテンツ",
+    "windowConfig": "ウィンドウ構成",
+    "advancedOptions": "詳細オプション",
+    "cancel": "キャンセル",
+    "previousStep": "前のステップ",
+    "nextStep": "次のステップ",
+    "completeCreate": "完全な作成",
+    "validationError": "すべての必須フィールドに入力してください"
+  },
+  "WindowList": {
+    "title": "フローティングウィンドウリスト",
+    "edit": "編集",
+    "delete": "消去",
+    "deleteConfirm": "このフローティング ウィンドウ構成を削除してもよろしいですか?",
+    "cancel": "キャンセル",
+    "confirm": "確認する",
+    "empty": "フローティング ウィンドウの設定はまだありません",
+    "description": "フローティング ウィンドウを 10 秒間押し続けます。放すと、フローティング ウィンドウが閉じます。"
+  },
+  "WindowPageContent": {
+    "title": "Android フローティング ウィンドウ"
+  }
+}

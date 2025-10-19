@@ -1,0 +1,124 @@
+{
+  "AddWindow": {
+    "add": "Adăugați o fereastră plutitoare",
+    "urlPlaceholder": "Introduceți adresa URL sau codul HTML",
+    "nameLabel": "numele ferestrei",
+    "nameHelper": "Unic la nivel global, utilizat pentru identificarea ferestrelor și deschiderea/închiderea ferestrelor",
+    "contentHelper": "URL-ul sau HTML completat va fi încărcat în fereastra plutitoare",
+    "widthLabel": "lățimea ferestrei",
+    "heightLabel": "înălțimea ferestrei",
+    "widthHelper": "Unitate: pixel, nu poate fi negativ",
+    "heightHelper": "Unitate: pixel, nu poate fi negativ",
+    "addButton": "Adaugă la",
+    "cancelButton": "Anula",
+    "editSaveButton": "salva",
+    "errorEmptyName": "Numele ferestrei nu poate fi gol",
+    "errorDuplicateName": "Numele ferestrei există deja",
+    "errorEmptyContent": "Conținutul URL/HTML nu poate fi gol",
+    "errorInvalidContent": "Vă rugăm să introduceți o adresă URL sau un cod HTML valid",
+    "errorNegativeWidth": "Lățimea ferestrei nu poate fi negativă",
+    "errorNegativeHeight": "Înălțimea ferestrei nu poate fi negativă"
+  },
+  "AddWindowContent": {
+    "addButtonName": "Adaugă la",
+    "cancelButtonName": "Anula"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "Fereastra plutitoare Android"
+  },
+  "EditWindowContent": {
+    "noWindowId": "Vă rugăm să furnizați ID-ul ferestrei",
+    "windowConfNotFound": "Configurația ferestrei corespunzătoare nu a fost găsită"
+  },
+  "Step1BasicInfo": {
+    "title": "Configurați informațiile de bază",
+    "description": "Selectați tipul ferestrei și numele de identificare. Numele de identificare sunt folosite pentru a distinge diferite configurații de ferestre.",
+    "windowTypeLabel": "tip de fereastră",
+    "windowTypeDesc": "Plutitor: fereastra plutitoare | Dialog: caseta de dialog | Sistem: fereastra de sistem",
+    "floatDesc": "Ferestrele plutitoare pot fi trase liber pe ecran, potrivite pentru afișarea în timp real a conținutului",
+    "dialogDesc": "Caseta de dialog va fi suprapusă peste alte aplicații, potrivite pentru mementouri importante",
+    "systemDesc": "Fereastra de sistem este fereastra cu cea mai înaltă autoritate și este potrivită pentru funcțiile la nivel de sistem.",
+    "tagLabel": "ID fereastră",
+    "tagDesc": "Folosit pentru a identifica în mod unic această configurație de fereastră",
+    "tagPlaceholder": "De exemplu: news_reader, floating_timer",
+    "tagHelper": "Numele ferestrei pentru propria dvs. identificare.",
+    "descriptionLabel": "Descrierea ferestrei",
+    "descriptionDesc": "Descrieți scopul acestei configurații de fereastră",
+    "descriptionPlaceholder": "Descrieți scopul și funcționalitatea acestei ferestre"
+  },
+  "Step2HtmlConf": {
+    "title": "Configurați conținutul HTML",
+    "description": "Specifică ce afișează fereastra. Paginile web pot fi încărcate prin URL sau codul HTML poate fi scris direct.",
+    "urlLabel": "Adresa URL a conținutului",
+    "urlDesc": "Adresa paginii web sau adresa URL locală de încărcat",
+    "urlPlaceholder": "De exemplu: https://example.com sau despre:blank",
+    "htmlLabel": "Încorporați codul HTML",
+    "htmlDesc": "Scrieți codul HTML direct (URL-ul va fi înlocuit dacă este furnizat)",
+    "htmlPlaceholder": "<h1>Bună lume</h1>",
+    "htmlHelper": "Alegeți între URL și cod HTML, furnizați cel puțin unul",
+    "quickFill": "Umplere rapidă:",
+    "fillBlankPage": "Utilizați o pagină goală (despre:blank)",
+    "fillExampleHtml": "Folosind exemplul HTML"
+  },
+  "Step3WindowType": {
+    "title": "Configurați opțiunile specifice ferestrei",
+    "description": "Configurați opțiuni specifice în funcție de tipul de fereastră selectat.",
+    "floatConfig": "Configurație flotant",
+    "dialogConfig": "Configurare dialog",
+    "systemConfig": "Configurarea ferestrei de sistem (sistem)."
+  },
+  "Step4Advanced": {
+    "title": "Configurați opțiuni avansate",
+    "description": "Aceste opțiuni au de obicei valori implicite și nu trebuie modificate. Reglați doar când este necesar.",
+    "dismissTimeLabel": "Timp de oprire forțată (ms)",
+    "dismissTimeDesc": "Timpul de închidere automată a ferestrei (milisecunde, 0 înseamnă să nu se închidă automat)",
+    "dismissTimeHelper": "Lăsați necompletat sau completați 0 pentru a indica faptul că fereastra nu se va închide automat.",
+    "webViewConfig": "Configurare WebView",
+    "completeSummary": "✓ Configurare finalizată!",
+    "summaryTag": "Logo:",
+    "summaryType": "tip:",
+    "summaryUrl": "URL:",
+    "summaryHtml": "HTML:"
+  },
+  "WindowConfList": {
+    "title": "Lista de configurare a ferestrei",
+    "empty": "Nicio configurație de fereastră încă",
+    "deleteConfirmTitle": "Confirmați ștergerea",
+    "deleteConfirmMessage": "Sigur doriți să ștergeți această configurație de fereastră? Această acțiune nu poate fi anulată.",
+    "deleteCancel": "Anula",
+    "deleteConfirm": "şterge"
+  },
+  "WindowConfPreview": {
+    "windowType": "tip de fereastră",
+    "contentType": "Tip de conținut",
+    "noDescription": "Fără descriere",
+    "windowId": "ID",
+    "forceDismissTime": "Ora de închidere forțată",
+    "detailEdit": "Editare detaliată",
+    "delete": "şterge"
+  },
+  "WindowConfWizard": {
+    "basicInfo": "Informații de bază",
+    "htmlContent": "conținut HTML",
+    "windowConfig": "Configurarea ferestrei",
+    "advancedOptions": "Opțiuni avansate",
+    "cancel": "Anula",
+    "previousStep": "Pasul anterior",
+    "nextStep": "Următorul pas",
+    "completeCreate": "Creație completă",
+    "validationError": "Vă rugăm să completați toate câmpurile obligatorii"
+  },
+  "WindowList": {
+    "title": "Lista ferestre plutitoare",
+    "edit": "edita",
+    "delete": "şterge",
+    "deleteConfirm": "Sigur doriți să ștergeți această configurație a ferestrei plutitoare?",
+    "cancel": "Anula",
+    "confirm": "confirma",
+    "empty": "Nicio configurație de fereastră plutitoare încă",
+    "description": "Apăsați și mențineți apăsat fereastra plutitoare timp de 10 secunde. După eliberare, fereastra plutitoare se va închide."
+  },
+  "WindowPageContent": {
+    "title": "Fereastra plutitoare Android"
+  }
+}

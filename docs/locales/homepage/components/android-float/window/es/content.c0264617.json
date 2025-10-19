@@ -1,0 +1,124 @@
+{
+  "AddWindow": {
+    "add": "Agregar ventana flotante",
+    "urlPlaceholder": "Ingrese la URL o el código HTML",
+    "nameLabel": "nombre de la ventana",
+    "nameHelper": "Único a nivel mundial, utilizado para identificar ventanas y abrir/cerrar ventanas",
+    "contentHelper": "La URL o HTML completada se cargará en la ventana flotante.",
+    "widthLabel": "ancho de ventana",
+    "heightLabel": "altura de la ventana",
+    "widthHelper": "Unidad: píxel, no puede ser negativo",
+    "heightHelper": "Unidad: píxel, no puede ser negativo",
+    "addButton": "añadir",
+    "cancelButton": "Cancelar",
+    "editSaveButton": "ahorrar",
+    "errorEmptyName": "El nombre de la ventana no puede estar vacío",
+    "errorDuplicateName": "El nombre de la ventana ya existe",
+    "errorEmptyContent": "El contenido URL/HTML no puede estar vacío",
+    "errorInvalidContent": "Por favor introduce una URL válida o un código HTML",
+    "errorNegativeWidth": "El ancho de la ventana no puede ser negativo",
+    "errorNegativeHeight": "La altura de la ventana no puede ser negativa."
+  },
+  "AddWindowContent": {
+    "addButtonName": "añadir",
+    "cancelButtonName": "Cancelar"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "ventana flotante de android"
+  },
+  "EditWindowContent": {
+    "noWindowId": "Proporcione el ID de la ventana",
+    "windowConfNotFound": "No se encontró la configuración de ventana correspondiente"
+  },
+  "Step1BasicInfo": {
+    "title": "Configurar información básica",
+    "description": "Seleccione el tipo de ventana y el nombre de identificación. Los nombres de identificación se utilizan para distinguir diferentes configuraciones de ventanas.",
+    "windowTypeLabel": "tipo de ventana",
+    "windowTypeDesc": "Flotador: ventana flotante | Diálogo: cuadro de diálogo | Sistema: ventana del sistema",
+    "floatDesc": "Las ventanas flotantes se pueden arrastrar libremente en la pantalla, adecuadas para la visualización de contenido en tiempo real",
+    "dialogDesc": "El cuadro de diálogo se superpondrá sobre otras aplicaciones, adecuado para recordatorios importantes.",
+    "systemDesc": "La ventana del sistema es la ventana con mayor autoridad y es adecuada para funciones a nivel del sistema.",
+    "tagLabel": "ID de ventana",
+    "tagDesc": "Se utiliza para identificar de forma única esta configuración de ventana.",
+    "tagPlaceholder": "Por ejemplo: lector_noticias, temporizador_flotante",
+    "tagHelper": "Nombre de ventana para su propia identificación.",
+    "descriptionLabel": "Descripción de la ventana",
+    "descriptionDesc": "Describe el propósito de la configuración de esta ventana.",
+    "descriptionPlaceholder": "Describe el propósito y la funcionalidad de esta ventana."
+  },
+  "Step2HtmlConf": {
+    "title": "Configurar contenido HTML",
+    "description": "Especifica lo que muestra la ventana. Las páginas web se pueden cargar a través de URL o se puede escribir código HTML directamente.",
+    "urlLabel": "URL de contenido",
+    "urlDesc": "La dirección de la página web o URL local para cargar",
+    "urlPlaceholder": "Por ejemplo: https://example.com o about:blank",
+    "htmlLabel": "Insertar código HTML",
+    "htmlDesc": "Escriba el código HTML directamente (la URL se anulará si se proporciona)",
+    "htmlPlaceholder": "<h1>Hola mundo</h1>",
+    "htmlHelper": "Elija entre código URL y HTML, proporcione al menos uno",
+    "quickFill": "Relleno rápido:",
+    "fillBlankPage": "Utilice una página en blanco (acerca de: en blanco)",
+    "fillExampleHtml": "Usando el HTML de muestra"
+  },
+  "Step3WindowType": {
+    "title": "Configurar opciones específicas de la ventana",
+    "description": "Configure opciones específicas según el tipo de ventana seleccionado.",
+    "floatConfig": "Configuración flotante",
+    "dialogConfig": "Configuración de diálogo",
+    "systemConfig": "Configuración de la ventana del sistema (Sistema)"
+  },
+  "Step4Advanced": {
+    "title": "Configurar opciones avanzadas",
+    "description": "Estas opciones suelen tener valores predeterminados y no es necesario modificarlas. Ajuste sólo cuando sea necesario.",
+    "dismissTimeLabel": "Tiempo de apagado forzado (ms)",
+    "dismissTimeDesc": "El tiempo para que la ventana se cierre automáticamente (milisegundos, 0 significa que no se cierra automáticamente)",
+    "dismissTimeHelper": "Déjelo en blanco o complete 0 para indicar que la ventana no se cerrará automáticamente.",
+    "webViewConfig": "Configuración de vista web",
+    "completeSummary": "✓ ¡Configuración completada!",
+    "summaryTag": "Logo:",
+    "summaryType": "tipo:",
+    "summaryUrl": "URL:",
+    "summaryHtml": "HTML:"
+  },
+  "WindowConfList": {
+    "title": "Lista de configuración de ventanas",
+    "empty": "Aún no hay configuración de ventana",
+    "deleteConfirmTitle": "Confirmar eliminación",
+    "deleteConfirmMessage": "¿Está seguro de que desea eliminar la configuración de esta ventana? Esta acción no se puede deshacer.",
+    "deleteCancel": "Cancelar",
+    "deleteConfirm": "borrar"
+  },
+  "WindowConfPreview": {
+    "windowType": "tipo de ventana",
+    "contentType": "tipo de contenido",
+    "noDescription": "Sin descripción",
+    "windowId": "IDENTIFICACIÓN",
+    "forceDismissTime": "Hora de cierre forzoso",
+    "detailEdit": "Edición detallada",
+    "delete": "borrar"
+  },
+  "WindowConfWizard": {
+    "basicInfo": "Información básica",
+    "htmlContent": "contenido HTML",
+    "windowConfig": "Configuración de ventana",
+    "advancedOptions": "Opciones avanzadas",
+    "cancel": "Cancelar",
+    "previousStep": "Paso anterior",
+    "nextStep": "Siguiente paso",
+    "completeCreate": "Creación completa",
+    "validationError": "Por favor complete todos los campos requeridos"
+  },
+  "WindowList": {
+    "title": "Lista de ventanas flotantes",
+    "edit": "editar",
+    "delete": "borrar",
+    "deleteConfirm": "¿Está seguro de que desea eliminar esta configuración de ventana flotante?",
+    "cancel": "Cancelar",
+    "confirm": "confirmar",
+    "empty": "Aún no hay configuración de ventana flotante",
+    "description": "Mantenga presionada la ventana flotante durante 10 segundos. Después de soltarlo, la ventana flotante se cerrará."
+  },
+  "WindowPageContent": {
+    "title": "ventana flotante de android"
+  }
+}

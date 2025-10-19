@@ -1,0 +1,124 @@
+{
+  "AddWindow": {
+    "add": "Tambah tetingkap terapung",
+    "urlPlaceholder": "Masukkan Kod URL atau HTML",
+    "nameLabel": "Nama tetingkap",
+    "nameHelper": "Unik di seluruh dunia, digunakan untuk mengenal pasti tingkap dan tingkap terbuka/tutup",
+    "contentHelper": "URL yang diisi atau HTML akan dimuatkan ke dalam tetingkap terapung",
+    "widthLabel": "lebar tetingkap",
+    "heightLabel": "ketinggian tingkap",
+    "widthHelper": "Unit: Pixel, tidak boleh negatif",
+    "heightHelper": "Unit: Pixel, tidak boleh negatif",
+    "addButton": "Tambah ke",
+    "cancelButton": "Batalkan",
+    "editSaveButton": "Simpan",
+    "errorEmptyName": "Nama tetingkap tidak boleh kosong",
+    "errorDuplicateName": "Nama tetingkap sudah ada",
+    "errorEmptyContent": "Kandungan URL/HTML tidak boleh kosong",
+    "errorInvalidContent": "Sila masukkan Kod URL atau HTML yang sah",
+    "errorNegativeWidth": "Lebar tetingkap tidak boleh negatif",
+    "errorNegativeHeight": "Ketinggian tetingkap tidak boleh negatif"
+  },
+  "AddWindowContent": {
+    "addButtonName": "Tambah ke",
+    "cancelButtonName": "Batalkan"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "Tetingkap terapung Android"
+  },
+  "EditWindowContent": {
+    "noWindowId": "Sila berikan ID tetingkap",
+    "windowConfNotFound": "Konfigurasi tetingkap yang sepadan tidak dijumpai"
+  },
+  "Step1BasicInfo": {
+    "title": "Konfigurasikan maklumat asas",
+    "description": "Pilih jenis tetingkap dan nama pengenalan. Nama pengenalan digunakan untuk membezakan konfigurasi tetingkap yang berbeza.",
+    "windowTypeLabel": "Jenis tetingkap",
+    "windowTypeDesc": "Terapung: Tetingkap Terapung | Dialog: Kotak Dialog | Sistem: Tetingkap Sistem",
+    "floatDesc": "Tingkap terapung boleh diseret secara bebas di skrin, sesuai untuk paparan kandungan masa nyata",
+    "dialogDesc": "Kotak dialog akan dilapisi di atas aplikasi lain, sesuai untuk peringatan penting",
+    "systemDesc": "Tetingkap sistem adalah tetingkap dengan pihak berkuasa tertinggi dan sesuai untuk fungsi peringkat sistem.",
+    "tagLabel": "ID tetingkap",
+    "tagDesc": "Digunakan untuk mengenal pasti konfigurasi tetingkap ini secara unik",
+    "tagPlaceholder": "Contohnya: News_reader, Floating_Timer",
+    "tagHelper": "Nama tetingkap untuk pengenalan anda sendiri.",
+    "descriptionLabel": "Penerangan Tetingkap",
+    "descriptionDesc": "Terangkan tujuan konfigurasi tetingkap ini",
+    "descriptionPlaceholder": "Terangkan tujuan dan fungsi tetingkap ini"
+  },
+  "Step2HtmlConf": {
+    "title": "Konfigurasikan kandungan HTML",
+    "description": "Menentukan apa yang dipaparkan oleh tetingkap. Halaman web boleh dimuatkan melalui URL, atau kod HTML boleh ditulis secara langsung.",
+    "urlLabel": "URL Kandungan",
+    "urlDesc": "Alamat laman web atau URL tempatan untuk dimuatkan",
+    "urlPlaceholder": "Contohnya: https://example.com atau kira -kira: kosong",
+    "htmlLabel": "Kod HTML Benamkan",
+    "htmlDesc": "Tulis kod HTML secara langsung (URL akan ditindih jika disediakan)",
+    "htmlPlaceholder": "<h1> Hello World </h1>",
+    "htmlHelper": "Pilih antara kod URL dan HTML, berikan sekurang -kurangnya satu",
+    "quickFill": "Isi cepat:",
+    "fillBlankPage": "Gunakan halaman kosong (kira -kira: kosong)",
+    "fillExampleHtml": "Menggunakan sampel HTML"
+  },
+  "Step3WindowType": {
+    "title": "Konfigurasikan pilihan khusus tetingkap",
+    "description": "Konfigurasikan pilihan khusus berdasarkan jenis tetingkap yang dipilih.",
+    "floatConfig": "Konfigurasi terapung",
+    "dialogConfig": "Konfigurasi dialog",
+    "systemConfig": "Konfigurasi tetingkap sistem (sistem)"
+  },
+  "Step4Advanced": {
+    "title": "Konfigurasikan pilihan lanjutan",
+    "description": "Pilihan ini biasanya mempunyai nilai lalai dan tidak perlu diubah suai. Laraskan hanya apabila diperlukan.",
+    "dismissTimeLabel": "Masa penutupan paksa (MS)",
+    "dismissTimeDesc": "Masa untuk tetingkap untuk ditutup secara automatik (milisaat, 0 bermaksud tidak menutup secara automatik)",
+    "dismissTimeHelper": "Tinggalkan kosong atau isi 0 untuk menunjukkan bahawa tetingkap tidak akan ditutup secara automatik.",
+    "webViewConfig": "Konfigurasi WebView",
+    "completeSummary": "✓ Konfigurasi selesai!",
+    "summaryTag": "Logo:",
+    "summaryType": "Jenis:",
+    "summaryUrl": "URL:",
+    "summaryHtml": "Html:"
+  },
+  "WindowConfList": {
+    "title": "Senarai Konfigurasi Tetingkap",
+    "empty": "Belum ada konfigurasi tetingkap",
+    "deleteConfirmTitle": "Sahkan penghapusan",
+    "deleteConfirmMessage": "Adakah anda pasti mahu memadamkan konfigurasi tetingkap ini? Tindakan ini tidak dapat dibatalkan.",
+    "deleteCancel": "Batalkan",
+    "deleteConfirm": "Padam"
+  },
+  "WindowConfPreview": {
+    "windowType": "Jenis tetingkap",
+    "contentType": "Jenis Kandungan",
+    "noDescription": "Tiada keterangan",
+    "windowId": "Id",
+    "forceDismissTime": "Masa tutup paksa",
+    "detailEdit": "Penyuntingan terperinci",
+    "delete": "Padam"
+  },
+  "WindowConfWizard": {
+    "basicInfo": "Maklumat asas",
+    "htmlContent": "Kandungan HTML",
+    "windowConfig": "Konfigurasi tetingkap",
+    "advancedOptions": "Pilihan lanjutan",
+    "cancel": "Batalkan",
+    "previousStep": "Langkah sebelumnya",
+    "nextStep": "Langkah seterusnya",
+    "completeCreate": "Penciptaan lengkap",
+    "validationError": "Sila isi semua bidang yang diperlukan"
+  },
+  "WindowList": {
+    "title": "Senarai Tetingkap Terapung",
+    "edit": "edit",
+    "delete": "Padam",
+    "deleteConfirm": "Adakah anda pasti mahu memadam konfigurasi tetingkap terapung ini?",
+    "cancel": "Batalkan",
+    "confirm": "mengesahkan",
+    "empty": "Belum ada konfigurasi tetingkap terapung",
+    "description": "Tekan dan tahan tetingkap terapung selama 10 saat. Selepas melepaskan, tetingkap terapung akan ditutup."
+  },
+  "WindowPageContent": {
+    "title": "Tetingkap terapung Android"
+  }
+}

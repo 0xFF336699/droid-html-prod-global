@@ -1,0 +1,124 @@
+{
+  "AddWindow": {
+    "add": "Adicionar janela flutuante",
+    "urlPlaceholder": "Insira o URL ou código HTML",
+    "nameLabel": "nome da janela",
+    "nameHelper": "Globalmente exclusivo, usado para identificar janelas e abrir/fechar janelas",
+    "contentHelper": "O URL ou HTML preenchido será carregado na janela flutuante",
+    "widthLabel": "largura da janela",
+    "heightLabel": "altura da janela",
+    "widthHelper": "Unidade: pixel, não pode ser negativo",
+    "heightHelper": "Unidade: pixel, não pode ser negativo",
+    "addButton": "adicionar à",
+    "cancelButton": "Cancelar",
+    "editSaveButton": "salvar",
+    "errorEmptyName": "O nome da janela não pode ficar vazio",
+    "errorDuplicateName": "O nome da janela já existe",
+    "errorEmptyContent": "O conteúdo URL/HTML não pode ficar vazio",
+    "errorInvalidContent": "Insira um URL ou código HTML válido",
+    "errorNegativeWidth": "A largura da janela não pode ser negativa",
+    "errorNegativeHeight": "A altura da janela não pode ser negativa"
+  },
+  "AddWindowContent": {
+    "addButtonName": "adicionar à",
+    "cancelButtonName": "Cancelar"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "Janela flutuante do Android"
+  },
+  "EditWindowContent": {
+    "noWindowId": "Forneça o ID da janela",
+    "windowConfNotFound": "A configuração da janela correspondente não foi encontrada"
+  },
+  "Step1BasicInfo": {
+    "title": "Configurar informações básicas",
+    "description": "Selecione o tipo de janela e o nome de identificação. Nomes de identificação são usados ​​para distinguir diferentes configurações de janela.",
+    "windowTypeLabel": "tipo de janela",
+    "windowTypeDesc": "Float: janela flutuante | Diálogo: caixa de diálogo | Sistema: janela do sistema",
+    "floatDesc": "As janelas flutuantes podem ser arrastadas livremente na tela, adequadas para exibição de conteúdo em tempo real",
+    "dialogDesc": "A caixa de diálogo será sobreposta a outros aplicativos, adequada para lembretes importantes",
+    "systemDesc": "A janela do sistema é a janela com autoridade máxima e é adequada para funções no nível do sistema.",
+    "tagLabel": "ID da janela",
+    "tagDesc": "Usado para identificar exclusivamente esta configuração de janela",
+    "tagPlaceholder": "Por exemplo: leitor_de_notícias, temporizador_flutuante",
+    "tagHelper": "Nome da janela para sua própria identificação.",
+    "descriptionLabel": "Descrição da janela",
+    "descriptionDesc": "Descreva o propósito desta configuração de janela",
+    "descriptionPlaceholder": "Descreva a finalidade e a funcionalidade desta janela"
+  },
+  "Step2HtmlConf": {
+    "title": "Configurar conteúdo HTML",
+    "description": "Especifica o que a janela exibe. As páginas da Web podem ser carregadas via URL ou o código HTML pode ser escrito diretamente.",
+    "urlLabel": "URL de conteúdo",
+    "urlDesc": "O endereço da página da web ou URL local para carregar",
+    "urlPlaceholder": "Por exemplo: https://example.com ou about:blank",
+    "htmlLabel": "Incorporar código HTML",
+    "htmlDesc": "Escreva o código HTML diretamente (o URL será substituído se fornecido)",
+    "htmlPlaceholder": "<h1>Olá, mundo</h1>",
+    "htmlHelper": "Escolha entre URL e código HTML, forneça pelo menos um",
+    "quickFill": "Preenchimento rápido:",
+    "fillBlankPage": "Use uma página em branco (about:blank)",
+    "fillExampleHtml": "Usando o HTML de exemplo"
+  },
+  "Step3WindowType": {
+    "title": "Configurar opções específicas da janela",
+    "description": "Configure opções específicas com base no tipo de janela selecionado.",
+    "floatConfig": "Configuração flutuante",
+    "dialogConfig": "Configuração de diálogo",
+    "systemConfig": "Configuração da janela do sistema (sistema)"
+  },
+  "Step4Advanced": {
+    "title": "Configurar opções avançadas",
+    "description": "Essas opções geralmente possuem valores padrão e não precisam ser modificadas. Ajuste apenas quando necessário.",
+    "dismissTimeLabel": "Tempo de desligamento forçado (ms)",
+    "dismissTimeDesc": "O tempo para a janela fechar automaticamente (milissegundos, 0 significa não fechar automaticamente)",
+    "dismissTimeHelper": "Deixe em branco ou preencha 0 para indicar que a janela não fechará automaticamente.",
+    "webViewConfig": "Configuração do WebView",
+    "completeSummary": "✓ Configuração concluída!",
+    "summaryTag": "Logotipo:",
+    "summaryType": "tipo:",
+    "summaryUrl": "URL:",
+    "summaryHtml": "HTML:"
+  },
+  "WindowConfList": {
+    "title": "Lista de configuração de janela",
+    "empty": "Nenhuma configuração de janela ainda",
+    "deleteConfirmTitle": "Confirmar exclusão",
+    "deleteConfirmMessage": "Tem certeza de que deseja excluir esta configuração de janela? Esta ação não pode ser desfeita.",
+    "deleteCancel": "Cancelar",
+    "deleteConfirm": "excluir"
+  },
+  "WindowConfPreview": {
+    "windowType": "tipo de janela",
+    "contentType": "Tipo de conteúdo",
+    "noDescription": "Sem descrição",
+    "windowId": "EU IA",
+    "forceDismissTime": "Hora de fechamento forçado",
+    "detailEdit": "Edição detalhada",
+    "delete": "excluir"
+  },
+  "WindowConfWizard": {
+    "basicInfo": "Informações básicas",
+    "htmlContent": "Conteúdo HTML",
+    "windowConfig": "Configuração da janela",
+    "advancedOptions": "Opções avançadas",
+    "cancel": "Cancelar",
+    "previousStep": "Etapa anterior",
+    "nextStep": "Próxima etapa",
+    "completeCreate": "Criação completa",
+    "validationError": "Por favor preencha todos os campos obrigatórios"
+  },
+  "WindowList": {
+    "title": "Lista de janelas flutuantes",
+    "edit": "editar",
+    "delete": "excluir",
+    "deleteConfirm": "Tem certeza de que deseja excluir esta configuração de janela flutuante?",
+    "cancel": "Cancelar",
+    "confirm": "confirmar",
+    "empty": "Nenhuma configuração de janela flutuante ainda",
+    "description": "Pressione e segure a janela flutuante por 10 segundos. Após liberar, a janela flutuante será fechada."
+  },
+  "WindowPageContent": {
+    "title": "Janela flutuante do Android"
+  }
+}

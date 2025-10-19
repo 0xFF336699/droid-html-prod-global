@@ -1,0 +1,124 @@
+{
+  "AddWindow": {
+    "add": "Tambahkan jendela mengambang",
+    "urlPlaceholder": "Masukkan URL atau kode HTML",
+    "nameLabel": "nama jendela",
+    "nameHelper": "Unik secara global, digunakan untuk mengidentifikasi jendela dan membuka/menutup jendela",
+    "contentHelper": "URL atau HTML yang diisi akan dimuat ke jendela mengambang",
+    "widthLabel": "lebar jendela",
+    "heightLabel": "tinggi jendela",
+    "widthHelper": "Satuan: piksel, tidak boleh negatif",
+    "heightHelper": "Satuan: piksel, tidak boleh negatif",
+    "addButton": "Tambahkan ke",
+    "cancelButton": "Membatalkan",
+    "editSaveButton": "menyimpan",
+    "errorEmptyName": "Nama jendela tidak boleh kosong",
+    "errorDuplicateName": "Nama jendela sudah ada",
+    "errorEmptyContent": "Konten URL/HTML tidak boleh kosong",
+    "errorInvalidContent": "Silakan masukkan URL atau kode HTML yang valid",
+    "errorNegativeWidth": "Lebar jendela tidak boleh negatif",
+    "errorNegativeHeight": "Ketinggian jendela tidak boleh negatif"
+  },
+  "AddWindowContent": {
+    "addButtonName": "Tambahkan ke",
+    "cancelButtonName": "Membatalkan"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "Jendela mengambang Android"
+  },
+  "EditWindowContent": {
+    "noWindowId": "Harap berikan ID jendela",
+    "windowConfNotFound": "Konfigurasi jendela yang sesuai tidak ditemukan"
+  },
+  "Step1BasicInfo": {
+    "title": "Konfigurasikan informasi dasar",
+    "description": "Pilih jenis jendela dan nama identifikasi. Nama identifikasi digunakan untuk membedakan konfigurasi jendela yang berbeda.",
+    "windowTypeLabel": "tipe jendela",
+    "windowTypeDesc": "Mengapung: jendela mengambang | Dialog: kotak dialog | Sistem: jendela sistem",
+    "floatDesc": "Jendela mengambang dapat diseret dengan bebas di layar, cocok untuk menampilkan konten secara real-time",
+    "dialogDesc": "Kotak dialog akan dihamparkan di atas aplikasi lain, cocok untuk pengingat penting",
+    "systemDesc": "Jendela sistem adalah jendela dengan otoritas tertinggi dan cocok untuk fungsi tingkat sistem.",
+    "tagLabel": "ID Jendela",
+    "tagDesc": "Digunakan untuk mengidentifikasi secara unik konfigurasi jendela ini",
+    "tagPlaceholder": "Misalnya: pembaca_berita, pengatur waktu_mengambang",
+    "tagHelper": "Nama jendela untuk identifikasi Anda sendiri.",
+    "descriptionLabel": "Deskripsi jendela",
+    "descriptionDesc": "Jelaskan tujuan konfigurasi jendela ini",
+    "descriptionPlaceholder": "Jelaskan tujuan dan fungsi jendela ini"
+  },
+  "Step2HtmlConf": {
+    "title": "Konfigurasikan konten HTML",
+    "description": "Menentukan apa yang ditampilkan jendela. Halaman web dapat dimuat melalui URL, atau kode HTML dapat ditulis secara langsung.",
+    "urlLabel": "URL Konten",
+    "urlDesc": "Alamat halaman web atau URL lokal yang akan dimuat",
+    "urlPlaceholder": "Misalnya: https://example.com atau about:blank",
+    "htmlLabel": "Sematkan kode HTML",
+    "htmlDesc": "Tulis kode HTML secara langsung (URL akan diganti jika disediakan)",
+    "htmlPlaceholder": "<h1>Halo Dunia</h1>",
+    "htmlHelper": "Pilih antara URL dan kode HTML, berikan setidaknya satu",
+    "quickFill": "Isi cepat:",
+    "fillBlankPage": "Gunakan halaman kosong (about:blank)",
+    "fillExampleHtml": "Menggunakan contoh HTML"
+  },
+  "Step3WindowType": {
+    "title": "Konfigurasikan opsi khusus jendela",
+    "description": "Konfigurasikan opsi spesifik berdasarkan jenis jendela yang dipilih.",
+    "floatConfig": "Konfigurasi mengambang",
+    "dialogConfig": "Konfigurasi dialog",
+    "systemConfig": "Konfigurasi jendela sistem (Sistem)."
+  },
+  "Step4Advanced": {
+    "title": "Konfigurasikan opsi lanjutan",
+    "description": "Opsi ini biasanya memiliki nilai default dan tidak perlu diubah. Sesuaikan hanya bila diperlukan.",
+    "dismissTimeLabel": "Waktu pematian paksa (ms)",
+    "dismissTimeDesc": "Waktu jendela menutup otomatis (milidetik, 0 berarti tidak menutup otomatis)",
+    "dismissTimeHelper": "Biarkan kosong atau isi 0 untuk menunjukkan bahwa jendela tidak akan tertutup secara otomatis.",
+    "webViewConfig": "Konfigurasi Tampilan Web",
+    "completeSummary": "✓ Konfigurasi selesai!",
+    "summaryTag": "logo:",
+    "summaryType": "jenis:",
+    "summaryUrl": "URL:",
+    "summaryHtml": "HTML:"
+  },
+  "WindowConfList": {
+    "title": "Daftar konfigurasi jendela",
+    "empty": "Belum ada konfigurasi jendela",
+    "deleteConfirmTitle": "Konfirmasikan penghapusan",
+    "deleteConfirmMessage": "Apakah Anda yakin ingin menghapus konfigurasi jendela ini? Tindakan ini tidak dapat dibatalkan.",
+    "deleteCancel": "Membatalkan",
+    "deleteConfirm": "menghapus"
+  },
+  "WindowConfPreview": {
+    "windowType": "tipe jendela",
+    "contentType": "Jenis konten",
+    "noDescription": "Tidak ada deskripsi",
+    "windowId": "PENGENAL",
+    "forceDismissTime": "Waktu penutupan paksa",
+    "detailEdit": "Pengeditan mendetail",
+    "delete": "menghapus"
+  },
+  "WindowConfWizard": {
+    "basicInfo": "Informasi dasar",
+    "htmlContent": "konten HTML",
+    "windowConfig": "Konfigurasi jendela",
+    "advancedOptions": "Opsi lanjutan",
+    "cancel": "Membatalkan",
+    "previousStep": "Langkah sebelumnya",
+    "nextStep": "Langkah selanjutnya",
+    "completeCreate": "Penciptaan lengkap",
+    "validationError": "Silakan isi semua bidang yang wajib diisi"
+  },
+  "WindowList": {
+    "title": "Daftar jendela mengambang",
+    "edit": "sunting",
+    "delete": "menghapus",
+    "deleteConfirm": "Apakah Anda yakin ingin menghapus konfigurasi jendela mengambang ini?",
+    "cancel": "Membatalkan",
+    "confirm": "mengonfirmasi",
+    "empty": "Belum ada konfigurasi jendela mengambang",
+    "description": "Tekan dan tahan jendela mengambang selama 10 detik. Setelah dilepaskan, jendela mengambang akan ditutup."
+  },
+  "WindowPageContent": {
+    "title": "Jendela mengambang Android"
+  }
+}

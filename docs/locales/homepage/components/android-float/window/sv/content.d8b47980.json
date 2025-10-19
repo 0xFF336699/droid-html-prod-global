@@ -1,0 +1,124 @@
+{
+  "AddWindow": {
+    "add": "Lägg till flytande fönster",
+    "urlPlaceholder": "Ange URL eller HTML-kod",
+    "nameLabel": "fönsternamn",
+    "nameHelper": "Globalt unik, används för att identifiera fönster och öppna/stänga fönster",
+    "contentHelper": "Den ifyllda URL:en eller HTML-koden kommer att laddas in i det flytande fönstret",
+    "widthLabel": "fönsterbredd",
+    "heightLabel": "fönsterhöjd",
+    "widthHelper": "Enhet: pixel, kan inte vara negativ",
+    "heightHelper": "Enhet: pixel, kan inte vara negativ",
+    "addButton": "Lägg till",
+    "cancelButton": "Avboka",
+    "editSaveButton": "spara",
+    "errorEmptyName": "Fönsternamnet får inte vara tomt",
+    "errorDuplicateName": "Fönsternamnet finns redan",
+    "errorEmptyContent": "URL/HTML-innehåll får inte vara tomt",
+    "errorInvalidContent": "Ange en giltig URL eller HTML-kod",
+    "errorNegativeWidth": "Fönsterbredden kan inte vara negativ",
+    "errorNegativeHeight": "Fönsterhöjden kan inte vara negativ"
+  },
+  "AddWindowContent": {
+    "addButtonName": "Lägg till",
+    "cancelButtonName": "Avboka"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "Android flytande fönster"
+  },
+  "EditWindowContent": {
+    "noWindowId": "Ange fönster-ID",
+    "windowConfNotFound": "Motsvarande fönsterkonfiguration hittades inte"
+  },
+  "Step1BasicInfo": {
+    "title": "Konfigurera grundläggande information",
+    "description": "Välj fönstertyp och identifieringsnamn. Identifieringsnamn används för att särskilja olika fönsterkonfigurationer.",
+    "windowTypeLabel": "fönstertyp",
+    "windowTypeDesc": "Float: flytande fönster | Dialog: dialogruta | System: systemfönster",
+    "floatDesc": "Flytande fönster kan dras fritt på skärmen, lämpligt för realtidsvisning av innehåll",
+    "dialogDesc": "Dialogrutan kommer att läggas ovanpå andra applikationer, lämpliga för viktiga påminnelser",
+    "systemDesc": "Systemfönstret är fönstret med högsta auktoritet och lämpar sig för funktioner på systemnivå.",
+    "tagLabel": "Fönster-ID",
+    "tagDesc": "Används för att unikt identifiera denna fönsterkonfiguration",
+    "tagPlaceholder": "Till exempel: news_reader, floating_timer",
+    "tagHelper": "Fönsternamn för din egen identifiering.",
+    "descriptionLabel": "Fönsterbeskrivning",
+    "descriptionDesc": "Beskriv syftet med denna fönsterkonfiguration",
+    "descriptionPlaceholder": "Beskriv syftet och funktionen för detta fönster"
+  },
+  "Step2HtmlConf": {
+    "title": "Konfigurera HTML-innehåll",
+    "description": "Anger vad fönstret visar. Webbsidor kan laddas via URL eller HTML-kod kan skrivas direkt.",
+    "urlLabel": "Webbadress till innehåll",
+    "urlDesc": "Webbsidans adress eller lokala URL som ska laddas",
+    "urlPlaceholder": "Till exempel: https://example.com eller about:blank",
+    "htmlLabel": "Bädda in HTML-kod",
+    "htmlDesc": "Skriv HTML-kod direkt (URL kommer att åsidosättas om tillhandahållen)",
+    "htmlPlaceholder": "<h1>Hej världen</h1>",
+    "htmlHelper": "Välj mellan URL och HTML-kod, ange minst en",
+    "quickFill": "Snabbfyllning:",
+    "fillBlankPage": "Använd en tom sida (about:blank)",
+    "fillExampleHtml": "Använda HTML-exemplet"
+  },
+  "Step3WindowType": {
+    "title": "Konfigurera fönsterspecifika alternativ",
+    "description": "Konfigurera specifika alternativ baserat på den valda fönstertypen.",
+    "floatConfig": "Flytkonfiguration",
+    "dialogConfig": "Dialogkonfiguration",
+    "systemConfig": "Systemfönster (System) konfiguration"
+  },
+  "Step4Advanced": {
+    "title": "Konfigurera avancerade alternativ",
+    "description": "Dessa alternativ har vanligtvis standardvärden och behöver inte ändras. Justera endast när det behövs.",
+    "dismissTimeLabel": "Tvingad avstängningstid (ms)",
+    "dismissTimeDesc": "Tiden för fönstret att stängas automatiskt (millisekunder, 0 betyder att inte stängas automatiskt)",
+    "dismissTimeHelper": "Lämna tomt eller fyll i 0 för att indikera att fönstret inte stängs automatiskt.",
+    "webViewConfig": "WebView-konfiguration",
+    "completeSummary": "✓ Konfigurationen är klar!",
+    "summaryTag": "Logotyp:",
+    "summaryType": "typ:",
+    "summaryUrl": "URL:",
+    "summaryHtml": "HTML:"
+  },
+  "WindowConfList": {
+    "title": "Fönsterkonfigurationslista",
+    "empty": "Ingen fönsterkonfiguration ännu",
+    "deleteConfirmTitle": "Bekräfta borttagning",
+    "deleteConfirmMessage": "Är du säker på att du vill ta bort den här fönsterkonfigurationen? Denna åtgärd kan inte ångras.",
+    "deleteCancel": "Avboka",
+    "deleteConfirm": "radera"
+  },
+  "WindowConfPreview": {
+    "windowType": "fönstertyp",
+    "contentType": "Innehållstyp",
+    "noDescription": "Ingen beskrivning",
+    "windowId": "ID",
+    "forceDismissTime": "Forcerad stängningstid",
+    "detailEdit": "Detaljerad redigering",
+    "delete": "radera"
+  },
+  "WindowConfWizard": {
+    "basicInfo": "Grundläggande information",
+    "htmlContent": "HTML-innehåll",
+    "windowConfig": "Fönsterkonfiguration",
+    "advancedOptions": "Avancerade alternativ",
+    "cancel": "Avboka",
+    "previousStep": "Föregående steg",
+    "nextStep": "Nästa steg",
+    "completeCreate": "Komplett skapande",
+    "validationError": "Vänligen fyll i alla obligatoriska fält"
+  },
+  "WindowList": {
+    "title": "Flytande fönsterlista",
+    "edit": "redigera",
+    "delete": "radera",
+    "deleteConfirm": "Är du säker på att du vill ta bort denna flytande fönsterkonfiguration?",
+    "cancel": "Avboka",
+    "confirm": "bekräfta",
+    "empty": "Ingen flytande fönsterkonfiguration ännu",
+    "description": "Tryck och håll på det flytande fönstret i 10 sekunder. Efter att ha släppt stängs det flytande fönstret."
+  },
+  "WindowPageContent": {
+    "title": "Android flytande fönster"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "AddWindow": {
+    "add": "Lisää kelluva ikkuna",
+    "urlPlaceholder": "Anna URL-osoite tai HTML-koodi",
+    "nameLabel": "ikkunan nimi",
+    "nameHelper": "Maailmanlaajuisesti ainutlaatuinen, käytetään ikkunoiden tunnistamiseen ja ikkunoiden avaamiseen/sulkemiseen",
+    "contentHelper": "Täytetty URL-osoite tai HTML ladataan kelluvaan ikkunaan",
+    "widthLabel": "ikkunan leveys",
+    "heightLabel": "ikkunan korkeus",
+    "widthHelper": "Yksikkö: pikseli, ei voi olla negatiivinen",
+    "heightHelper": "Yksikkö: pikseli, ei voi olla negatiivinen",
+    "addButton": "Lisää",
+    "cancelButton": "Peruuttaa",
+    "editSaveButton": "tallentaa",
+    "errorEmptyName": "Ikkunan nimi ei voi olla tyhjä",
+    "errorDuplicateName": "Ikkunan nimi on jo olemassa",
+    "errorEmptyContent": "URL-/HTML-sisältö ei voi olla tyhjä",
+    "errorInvalidContent": "Anna kelvollinen URL-osoite tai HTML-koodi",
+    "errorNegativeWidth": "Ikkunan leveys ei voi olla negatiivinen",
+    "errorNegativeHeight": "Ikkunan korkeus ei voi olla negatiivinen"
+  },
+  "AddWindowContent": {
+    "addButtonName": "Lisää",
+    "cancelButtonName": "Peruuttaa"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "Android kelluva ikkuna"
+  },
+  "EditWindowContent": {
+    "noWindowId": "Anna ikkunan tunnus",
+    "windowConfNotFound": "Vastaavaa ikkunakokoonpanoa ei löytynyt"
+  },
+  "Step1BasicInfo": {
+    "title": "Määritä perustiedot",
+    "description": "Valitse ikkunan tyyppi ja tunnistenimi. Tunnistusnimiä käytetään erottamaan eri ikkunakokoonpanot.",
+    "windowTypeLabel": "ikkunan tyyppi",
+    "windowTypeDesc": "Float: kelluva ikkuna | Valintaikkuna: valintaikkuna | Järjestelmä: järjestelmäikkuna",
+    "floatDesc": "Kelluvia ikkunoita voidaan vetää vapaasti näytöllä, mikä sopii sisällön reaaliaikaiseen näyttämiseen",
+    "dialogDesc": "Valintaikkuna peitetään muiden sovellusten päällä, mikä sopii tärkeille muistutuksille",
+    "systemDesc": "Järjestelmäikkuna on ikkuna, jolla on korkein auktoriteetti, ja se sopii järjestelmätason toimintoihin.",
+    "tagLabel": "Ikkunan tunnus",
+    "tagDesc": "Käytetään yksilöimään tämä ikkunakokoonpano",
+    "tagPlaceholder": "Esimerkiksi: news_reader, floating_timer",
+    "tagHelper": "Ikkunan nimi omaa tunnistusta varten.",
+    "descriptionLabel": "Ikkunan kuvaus",
+    "descriptionDesc": "Kuvaile tämän ikkunakokoonpanon tarkoitusta",
+    "descriptionPlaceholder": "Kuvaile tämän ikkunan tarkoitusta ja toiminnallisuutta"
+  },
+  "Step2HtmlConf": {
+    "title": "Määritä HTML-sisältö",
+    "description": "Määrittää, mitä ikkuna näyttää. Web-sivut voidaan ladata URL-osoitteen kautta tai HTML-koodi voidaan kirjoittaa suoraan.",
+    "urlLabel": "Sisällön URL-osoite",
+    "urlDesc": "Ladattava verkkosivun osoite tai paikallinen URL-osoite",
+    "urlPlaceholder": "Esimerkki: https://example.com tai about:blank",
+    "htmlLabel": "Upota HTML-koodi",
+    "htmlDesc": "Kirjoita HTML-koodi suoraan (URL-osoite ohitetaan, jos se on annettu)",
+    "htmlPlaceholder": "<h1>Hei maailma</h1>",
+    "htmlHelper": "Valitse URL- tai HTML-koodi ja anna vähintään yksi",
+    "quickFill": "Pikatäyttö:",
+    "fillBlankPage": "Käytä tyhjää sivua (noin:tyhjä)",
+    "fillExampleHtml": "Käyttämällä esimerkki-HTML-koodia"
+  },
+  "Step3WindowType": {
+    "title": "Määritä ikkunakohtaiset asetukset",
+    "description": "Määritä tietyt asetukset valitun ikkunatyypin perusteella.",
+    "floatConfig": "Float-kokoonpano",
+    "dialogConfig": "Dialogin konfigurointi",
+    "systemConfig": "Järjestelmäikkunan (Järjestelmän) konfigurointi"
+  },
+  "Step4Advanced": {
+    "title": "Määritä lisäasetukset",
+    "description": "Näillä vaihtoehdoilla on yleensä oletusarvot, eikä niitä tarvitse muuttaa. Säädä vain tarvittaessa.",
+    "dismissTimeLabel": "Pakkosammutusaika (ms)",
+    "dismissTimeDesc": "Aika, jonka kuluessa ikkuna sulkeutuu automaattisesti (millisekuntia, 0 tarkoittaa, että ikkuna ei sulkeudu automaattisesti)",
+    "dismissTimeHelper": "Jätä tyhjäksi tai täytä 0 osoittaaksesi, että ikkuna ei sulkeudu automaattisesti.",
+    "webViewConfig": "WebView-määritys",
+    "completeSummary": "✓ Konfigurointi valmis!",
+    "summaryTag": "Logo:",
+    "summaryType": "tyyppi:",
+    "summaryUrl": "URL-osoite:",
+    "summaryHtml": "HTML:"
+  },
+  "WindowConfList": {
+    "title": "Ikkunan asetusluettelo",
+    "empty": "Ei ikkunan asetuksia vielä",
+    "deleteConfirmTitle": "Vahvista poisto",
+    "deleteConfirmMessage": "Haluatko varmasti poistaa tämän ikkunan määrityksen? Tätä toimintoa ei voi kumota.",
+    "deleteCancel": "Peruuttaa",
+    "deleteConfirm": "poistaa"
+  },
+  "WindowConfPreview": {
+    "windowType": "ikkunan tyyppi",
+    "contentType": "Sisällön tyyppi",
+    "noDescription": "Ei kuvausta",
+    "windowId": "ID",
+    "forceDismissTime": "Pakotettu sulkemisaika",
+    "detailEdit": "Yksityiskohtainen editointi",
+    "delete": "poistaa"
+  },
+  "WindowConfWizard": {
+    "basicInfo": "Perustiedot",
+    "htmlContent": "HTML-sisältöä",
+    "windowConfig": "Ikkunan konfigurointi",
+    "advancedOptions": "Lisäasetukset",
+    "cancel": "Peruuttaa",
+    "previousStep": "Edellinen vaihe",
+    "nextStep": "Seuraava askel",
+    "completeCreate": "Täydellinen luominen",
+    "validationError": "Täytä kaikki pakolliset kentät"
+  },
+  "WindowList": {
+    "title": "Kelluva ikkunaluettelo",
+    "edit": "muokata",
+    "delete": "poistaa",
+    "deleteConfirm": "Haluatko varmasti poistaa tämän kelluvan ikkunan määrityksen?",
+    "cancel": "Peruuttaa",
+    "confirm": "vahvistaa",
+    "empty": "Ei vielä kelluvan ikkunan asetuksia",
+    "description": "Paina kelluvaa ikkunaa ja pidä sitä painettuna 10 sekunnin ajan. Vapautuksen jälkeen kelluva ikkuna sulkeutuu."
+  },
+  "WindowPageContent": {
+    "title": "Android kelluva ikkuna"
+  }
+}
