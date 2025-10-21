@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>挂钟时钟</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        html, body {
+            width: 100px !important;
+            height: 50px !important;
+            min-width: 100px !important;
+            min-height: 50px !important;
+            background: transparent;
+            overflow: hidden;
+            position: relative;
+            font-family: 'Courier New', monospace;
+        }
+
+        .clock-container {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            width: calc(100% - 16px);
+            height: calc(100% - 16px);
+            max-width: 84px;
+            max-height: 28px;
+            background: linear-gradient(145deg, #2c1810, #1a0f08);
+            border-radius: 8px;
+            box-shadow: 
+                0 4px 12px rgba(0,0,0,0.5),
+                inset 0 1px 0 rgba(255,255,255,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #8B4513;
+        }
+
+        .clock {
+            width: 84px !important;
+            height: 28px !important;
+            background: linear-gradient(135deg, #D2691E 0%, #8B4513 100%);
+            border-radius: 6px;
+            position: relative;
+            box-shadow: 
+                inset 0 2px 4px rgba(0,0,0,0.3),
+                0 2px 6px rgba(0,0,0,0.4);
+        }
+
+        .time {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #FFF8DC;
+            font-size: 16px;
+            font-weight: bold;
+            text-shadow: 
+                1px 1px 3px rgba(0,0,0,0.8),
+                0 0 6px rgba(255,215,0,0.4);
+            font-family: 'Courier New', 'Consolas', monospace;
+            letter-spacing: 0px;
+            line-height: 1;
+            text-align: center;
+            width: 84px;
+            height: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            white-space: nowrap;
+            -webkit-text-stroke: 0.2px rgba(0,0,0,0.4);
+        }
+
+        /* 静音状态 */
+        .muted .time {
+            color: #D4AF37 !important;
+        }
+
+        .second-tick .clock {
+            animation: pendulum 0.6s ease-in-out;
+        }
+
+        @keyframes pendulum {
+            0%, 100% { transform: translateX(0px); }
+            25% { transform: translateX(-0.5px); }
+            75% { transform: translateX(0.5px); }
+        }
+
+        .half-hour .clock { animation: chime 0.4s ease-out; }
+        .full-hour .clock { animation: big-chime 0.8s ease-out; }
+
+        @keyframes chime {
+            0%, 100% { transform: scale(1); box-shadow: inset 0 2px 4px rgba(0,0,0,0.3), 0 2px 6px rgba(0,0,0,0.4); }
+            50% { transform: scale(1.03); box-shadow: inset 0 2px 4px rgba(0,0,0,0.3), 0 4px 10px rgba(255,215,0,0.4); }
+        }
+
+        @keyframes big-chime {
+            0%, 100% { transform: scale(1); box-shadow: inset 0 2px 4px rgba(0,0,0,0.3), 0 2px 6px rgba(0,0,0,0.4); }
+            25%, 75% { transform: scale(1.05); box-shadow: inset 0 2px 4px rgba(0,0,0,0.3), 0 6px 15px rgba(255,69,0,0.6); }
+        }
+    </style>
+</head>
+<body>
+    <div style="position: absolute; width: 100px; height: 50px; opacity: 0;"></div>
+    
+    <div class="clock-container" id="clockContainer">
+        <div class="clock" id="clock">
+            <div class="time" id="time">00:00:00</div>
+        </div>
+    </div>
+
+    <script>
+        let isMuted = true;  // 初始静音
+        let audioContext = null;
+
+        // 🔥 清脆秒针声
+        function playTick() {
+            if (isMuted) return;
+            
+            if (!audioContext) {
+                audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            }
+            
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            oscillator.frequency.setValueAtTime(2000, audioContext.currentTime);
+            oscillator.type = 'triangle';
+            gainNode.gain.setValueAtTime(0.15, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.08);
+            
+            oscillator.start(audioContext.currentTime);
+            oscillator.stop(audioContext.currentTime + 0.08);
+        }
+
+        // 半点叮
+        function playHalfChime() {
+            if (isMuted) return;
+            const audio = new Audio('data:audio/wav;base64,UklGRl9vAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdJivrJBhNjVgodDbq2EcBj+a2/LDciUFLIHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwhAYUFAgBCQQABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdJivrJBhNjVgodDbq2EcBj+a2/LDciUFLIHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwhAYUFAgBCQQ==');
+            audio.volume = 0.5;
+            audio.play();
+        }
+
+        // 整点钟
+        function playFullChime(hour) {
+            if (isMuted) return;
+            hour = hour === 0 ? 12 : hour;
+            for(let i = 0; i < hour; i++) {
+                setTimeout(() => {
+                    const audio = new Audio('data:audio/wav;base64,UklGRmQYAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdJivrJBhNjVgodDbq2EcBj+a2/LDciUFLIHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwhAYUFAgBCQQABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdJivrJBhNjVgodDbq2EcBj+a2/LDciUFLIHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwhAYUFAgBCQQ==');
+                    audio.volume = 0.6;
+                    audio.play();
+                }, i * 800);
+            }
+        }
+
+        // 🔥 Body点击切换声音
+        function toggleSound() {
+            isMuted = !isMuted;
+            const container = document.getElementById('clockContainer');
+            
+            if (isMuted) {
+                container.classList.add('muted');
+                console.log('🔇 静音');
+            } else {
+                container.classList.remove('muted');
+                console.log('🔊 有声');
+                playTick();  // 立即测试音
+            }
+        }
+
+        // 🔥 Body响应所有点击事件
+        document.body.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            toggleSound();
+        });
+
+        // 🔥 Body响应触摸事件（手机）
+        document.body.addEventListener('touchstart', function(e) {
+            e.preventDefault();
+            toggleSound();
+        }, { passive: false });
+
+        function updateClock() {
+            const now = new Date();
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const seconds = now.getSeconds().toString().padStart(2, '0');
+            const timeString = `${hours}:${minutes}:${seconds}`;
+            
+            document.getElementById('time').textContent = timeString;
+            
+            const clockEl = document.getElementById('clock');
+            
+            // 秒针哒哒 + 晃动
+            playTick();
+            clockEl.classList.add('second-tick');
+            setTimeout(() => clockEl.classList.remove('second-tick'), 600);
+            
+            // 半点叮
+            if (minutes === '30' && seconds === '00') {
+                playHalfChime();
+                clockEl.classList.add('half-hour');
+                setTimeout(() => clockEl.classList.remove('half-hour'), 400);
+            }
+            
+            // 整点钟
+            if (minutes === '00' && seconds === '00') {
+                const hour = parseInt(hours);
+                playFullChime(hour);
+                clockEl.classList.add('full-hour');
+                setTimeout(() => clockEl.classList.remove('full-hour'), 800);
+            }
+        }
+
+        updateClock();
+        setInterval(updateClock, 1000);
+    </script>
+  <script src="https://unpkg.com/iframe-resizer/js/iframeResizer.contentWindow.min.js"></script>
+</body>
+</html>
