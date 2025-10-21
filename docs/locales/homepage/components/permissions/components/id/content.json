@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Resmi",
+    "notPass": "Tidak sah",
+    "danger": "Bahaya",
+    "setting": "mendirikan"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "ITriggerTimeout": {
+    "title": "Odgođeno izvršenje",
+    "content_delay": "Odgoditi",
+    "content_milliseconds": "Izvrši nakon milisekundi"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "اجرای گره",
+    "changeBtnLabel": "جایگزین کنید",
+    "showNodeAllProperties": "نمایش تمام خواص",
+    "wait": {
+      "time": "زمان انتظار",
+      "interval": "فاصله انتظار",
+      "invisible": "آیا برای شناسایی عناصر خارج از صفحه نمایش"
+    }
+  }
+}

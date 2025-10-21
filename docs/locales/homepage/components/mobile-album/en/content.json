@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "Photo album service",
+    "serverStatus": "Service status",
+    "running": "Running",
+    "stopped": "Stopped",
+    "port": "port",
+    "token": "access token",
+    "permissionType": "permission mode",
+    "contentResolver": "System permissions",
+    "saf": "file access framework",
+    "startService": "Start service",
+    "stopService": "Stop service",
+    "checkPermissions": "Check permissions",
+    "requestPermissions": "Apply for permission",
+    "openAlbum": "Open photo album",
+    "copyToken": "copy token",
+    "copyUrl": "Copy address",
+    "permissionGranted": "Permission granted",
+    "permissionDenied": "Permission denied",
+    "serviceStarted": "Service has started",
+    "serviceStopped": "Service has stopped",
+    "error": "mistake"
+  }
+}

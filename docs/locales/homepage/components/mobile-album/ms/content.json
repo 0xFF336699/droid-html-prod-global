@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "Perkhidmatan album foto",
+    "serverStatus": "Status perkhidmatan",
+    "running": "Berlari",
+    "stopped": "Berhenti",
+    "port": "pelabuhan",
+    "token": "Akses token",
+    "permissionType": "mod kebenaran",
+    "contentResolver": "Kebenaran Sistem",
+    "saf": "Rangka Kerja Akses Fail",
+    "startService": "Memulakan perkhidmatan",
+    "stopService": "Berhenti Perkhidmatan",
+    "checkPermissions": "Periksa kebenaran",
+    "requestPermissions": "Memohon kebenaran",
+    "openAlbum": "Buka album foto",
+    "copyToken": "Salin token",
+    "copyUrl": "Salin Alamat",
+    "permissionGranted": "Kebenaran yang diberikan",
+    "permissionDenied": "Kebenaran ditolak",
+    "serviceStarted": "Perkhidmatan telah bermula",
+    "serviceStopped": "Perkhidmatan telah berhenti",
+    "error": "kesilapan"
+  }
+}

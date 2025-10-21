@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Esteettömyys",
+    "pass": "Valtuutettu",
+    "notPass": "Luvaton",
+    "setting": "perustaa",
+    "danger": "Vaara",
+    "dangerDesc": "Tämän valtuutuksen avulla voit nähdä, mitä näytöllä on, ja tehdä napsautuksia puhelimellasi. Poista tämä lupa käytöstä, jos et selvästi ymmärrä käyttämäsi tai ajettavan komentosarjan toimintoja ja riskejä."
+  }
+}

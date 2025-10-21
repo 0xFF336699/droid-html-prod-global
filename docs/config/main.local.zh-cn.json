@@ -1,0 +1,12 @@
+{
+  "region": "zh-cn",
+  "env": "local",
+  "matrix": {
+    "homeserver": "https://website-droid-dev.droidlego.com"
+  },
+  "livekit": {
+    "wsUrl": "wss://dev-server-element-call-im-droid-7880.droidlego.com",
+    "tokenEndpoint": "dev-server-element-call-livekit-auth-im-droid.droidlego.com",
+    "jwt":"//droid-go-livekit-jwt-service-dev.droidlego.com"
+  }
+} 

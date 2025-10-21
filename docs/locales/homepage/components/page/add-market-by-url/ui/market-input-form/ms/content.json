@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Corak URL",
+    "full": {
+      "url": "URL PASARAN. Watak -watak yang dimasukkan akan dimuatkan sebagai URL, sila berhati -hati.",
+      "html": "Kandungan HTML Pasar. Watak -watak yang dimasukkan akan dianggap sebagai skrip dan dilaksanakan dengan segera, sila berhati -hati.",
+      "come": "Datanglah kepada saya",
+      "myMarketName": "Nama pasaran",
+      "stroll": "Berjalan -jalan"
+    },
+    "item": {
+      "url": "URL Kad Pasar. Watak -watak yang dimasukkan akan dimuatkan sebagai URL, sila berhati -hati.",
+      "html": "Kandungan HTML Pasar. Watak -watak yang dimasukkan akan dianggap sebagai skrip dan dilaksanakan dengan segera, sila berhati -hati.",
+      "come": "Datanglah kepada saya",
+      "myMarketName": "Nama pasaran",
+      "stroll": "Berjalan -jalan"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "לִרְשׁוֹם",
+    "phoneNumber": "מספר טלפון",
+    "phoneNumberPlaceholder": "נא להזין מספר טלפון נייד",
+    "verificationCode": "קוד אימות",
+    "verificationCodePlaceholder": "נא להזין את קוד האימות",
+    "getVerificationCode": "קבל קוד אימות",
+    "countdown": "נסה שוב בעוד {{שניות}} שניות",
+    "register": "לִרְשׁוֹם",
+    "errors": {
+      "phoneRequired": "נא להזין מספר טלפון נייד",
+      "phoneInvalid": "פורמט מספר הטלפון הנייד שגוי",
+      "codeRequired": "נא להזין את קוד האימות",
+      "codeInvalid": "פורמט קוד האימות שגוי",
+      "requestFailed": "הבקשה נכשלה",
+      "verificationFailed": "השגת קוד האימות נכשלה",
+      "loginFailed": "הכניסה נכשלה"
+    },
+    "success": {
+      "verificationCodeSent": "קוד אימות נשלח",
+      "registerSuccess": "ההרשמה הצליחה"
+    }
+  }
+}

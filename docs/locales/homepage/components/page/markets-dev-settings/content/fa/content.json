@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "متصل بمانید",
+        "helperText": "اگر برای شروع لینک کلیک کردید، سپس پیوند را نگه دارید، بنابراین باید به این نکته توجه کنید که پس از قطع شدن پیوند، دوباره وصل می شود.",
+        "retryCount": "تعداد اتصالات مجدد"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "URL پیوند، مانند ws://192.168.0.2:7001، یا wws://example.com/path",
+        "error": "URL صحیح یک URL است که با ws:// یا wwws:// شروع می شود."
+      }
+    },
+    "connectButton": {
+      "connect": "اتصال",
+      "disconnect": "قطع کن",
+      "status": {
+        "connecting": "در حال اتصال...",
+        "connected": "متصل شد",
+        "disconnecting": "در حال قطع شدن...",
+        "disconnected": "متصل نیست",
+        "waitRetry": "در انتظار اتصال مجدد..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "اسکریپت"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "您要發送短信或向外撥打電話的號碼",
+          "label": "手機號碼",
+          "helperText": "您要發送短信或向外撥打電話的號碼"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "我身體有些不適，快來我這裡！ ！ ！",
+          "label": "短信內容",
+          "helperText": "短信內容"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "短信接收者列表"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "接收者手機號碼",
+          "label": "接收者手機號碼",
+          "helperText": "接收者手機號碼"
+        }
+      }
+    }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "創建一鍵呼救快捷方式",
+      "description": "在手機桌面上創建快捷方式"
+    },
+    "launcherName": "緊急呼救"
+  },
+  "SelectedContackList": {
+    "title": "緊急聯繫人"
+  }
+}

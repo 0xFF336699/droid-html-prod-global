@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "Layanan album foto",
+    "serverStatus": "Status layanan",
+    "running": "Berlari",
+    "stopped": "Berhenti",
+    "port": "pelabuhan",
+    "token": "token akses",
+    "permissionType": "modus izin",
+    "contentResolver": "Izin sistem",
+    "saf": "kerangka akses file",
+    "startService": "Mulai layanan",
+    "stopService": "Hentikan layanan",
+    "checkPermissions": "Periksa izin",
+    "requestPermissions": "Ajukan permohonan izin",
+    "openAlbum": "Buka album foto",
+    "copyToken": "salin token",
+    "copyUrl": "Salin alamat",
+    "permissionGranted": "Izin diberikan",
+    "permissionDenied": "Izin ditolak",
+    "serviceStarted": "Layanan telah dimulai",
+    "serviceStopped": "Layanan telah berhenti",
+    "error": "kesalahan"
+  }
+}

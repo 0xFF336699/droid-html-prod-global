@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "register",
+    "phoneNumber": "Telefoonnummer",
+    "phoneNumberPlaceholder": "Voer uw mobiele telefoonnummer in",
+    "verificationCode": "Verificatiecode",
+    "verificationCodePlaceholder": "Voer de verificatiecode in",
+    "getVerificationCode": "Verificatiecode verkrijgen",
+    "countdown": "Probeer het over {{seconds}} seconden opnieuw",
+    "register": "register",
+    "errors": {
+      "phoneRequired": "Voer uw mobiele telefoonnummer in",
+      "phoneInvalid": "Het formaat van het mobiele telefoonnummer is onjuist",
+      "codeRequired": "Voer de verificatiecode in",
+      "codeInvalid": "Het formaat van de verificatiecode is onjuist",
+      "requestFailed": "Verzoek mislukt",
+      "verificationFailed": "Kan verificatiecode niet verkrijgen",
+      "loginFailed": "Inloggen mislukt"
+    },
+    "success": {
+      "verificationCodeSent": "Verificatiecode verzonden",
+      "registerSuccess": "Registratie succesvol"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "rekisteröidy",
+    "phoneNumber": "Puhelinnumero",
+    "phoneNumberPlaceholder": "Anna matkapuhelinnumero",
+    "verificationCode": "Vahvistuskoodi",
+    "verificationCodePlaceholder": "Anna vahvistuskoodi",
+    "getVerificationCode": "Hanki vahvistuskoodi",
+    "countdown": "Yritä uudelleen {{seconds}} sekunnin kuluttua",
+    "register": "rekisteröidy",
+    "errors": {
+      "phoneRequired": "Anna matkapuhelinnumero",
+      "phoneInvalid": "Matkapuhelinnumeron muoto on väärä",
+      "codeRequired": "Anna vahvistuskoodi",
+      "codeInvalid": "Vahvistuskoodin muoto on virheellinen",
+      "requestFailed": "Pyyntö epäonnistui",
+      "verificationFailed": "Vahvistuskoodin saaminen epäonnistui",
+      "loginFailed": "Kirjautuminen epäonnistui"
+    },
+    "success": {
+      "verificationCodeSent": "Vahvistuskoodi lähetetty",
+      "registerSuccess": "Rekisteröinti onnistui"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Numero, johon haluat lähettää tekstiviestejä tai soittaa lähteviä puheluita",
+          "label": "puhelinnumero",
+          "helperText": "Numero, johon haluat lähettää tekstiviestejä tai soittaa lähteviä puheluita"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Minulla on vähän huono olo, tule luokseni nopeasti! ! !",
+          "label": "SMS-sisältö",
+          "helperText": "SMS-sisältö"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Tekstiviestien vastaanottajien luettelo"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Vastaanottimen matkapuhelinnumero",
+          "label": "Vastaanottimen matkapuhelinnumero",
+          "helperText": "Vastaanottimen matkapuhelinnumero"
+        }
+      }
+    }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Luo pikakuvake yhdellä napsautuksella",
+      "description": "Luo pikakuvake puhelimesi työpöydälle"
+    },
+    "launcherName": "hätäpuhelu"
+  },
+  "SelectedContackList": {
+    "title": "hätäyhteys"
+  }
+}

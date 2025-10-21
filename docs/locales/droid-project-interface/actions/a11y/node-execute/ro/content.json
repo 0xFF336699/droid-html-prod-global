@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Execuția nodului",
+    "changeBtnLabel": "înlocui",
+    "showNodeAllProperties": "Afișați toate proprietățile",
+    "wait": {
+      "time": "timp de așteptare",
+      "interval": "interval de așteptare",
+      "invisible": "Indiferent dacă să detecteze elemente în afara ecranului"
+    }
+  }
+}

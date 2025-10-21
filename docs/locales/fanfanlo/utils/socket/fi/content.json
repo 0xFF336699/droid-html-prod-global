@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Yhdistetään...",
+    "connected": "Yhdistetty",
+    "disconnecting": "Katkaistaan...",
+    "disconnected": "Ei yhdistetty",
+    "waitRetry": "Odotetaan yhteyttä uudelleen..."
+  }
+}

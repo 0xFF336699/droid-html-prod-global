@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "adicionar à",
+    "sub": {
+      "addScriptByUrl": "Adicionar script via URL",
+      "addScriptByText": "Adicionar script via texto",
+      "addMarket": "Adicione um mercado por URL",
+      "addMarketByText": "Adicionar mercado via texto"
+    }
+  }
+}

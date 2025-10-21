@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Omdat deze applicatie een groot aantal machtigingen op uw mobiele telefoon aanvraagt, zijn veel machtigingen uiterst riskant. Importeer of voer ze dus niet uit zonder duidelijk de risico's van de markt of het script te kennen. Zodra u inhoud invoert in het onderstaande tekstvak 'Market Card Introduction' of 'Market Independent Web Page', wordt de inhoud onmiddellijk als code uitgevoerd. Wees dus voorzichtig.",
+    "setNewMarket": "Nieuwe markt opzetten",
+    "settingPreview": "Voorbeeld instellen",
+    "marketName": "Marktnaam",
+    "marketSummary": "Marktintroductie",
+    "marketDescription": "Marktintroductie",
+    "itemMarket": "Introductie van de marktkaart",
+    "fullMarket": "Marktonafhankelijke webpagina",
+    "marketCardPreview": "Voorbeeld van een marktkaart",
+    "marketFullPreview": "Marktonafhankelijk webpaginavoorbeeld",
+    "isNotSet": "niet ingesteld"
+  }
+}

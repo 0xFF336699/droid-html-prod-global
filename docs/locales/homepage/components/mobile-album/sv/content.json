@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "Fotoalbumtjänst",
+    "serverStatus": "Servicestatus",
+    "running": "Spring",
+    "stopped": "Slutade",
+    "port": "hamn",
+    "token": "åtkomsttoken",
+    "permissionType": "behörighetsläge",
+    "contentResolver": "Systembehörigheter",
+    "saf": "ramverk för filåtkomst",
+    "startService": "Starta service",
+    "stopService": "Stoppa tjänsten",
+    "checkPermissions": "Kontrollera behörigheter",
+    "requestPermissions": "Ansök om tillstånd",
+    "openAlbum": "Öppna fotoalbum",
+    "copyToken": "kopiera token",
+    "copyUrl": "Kopiera adress",
+    "permissionGranted": "Tillstånd beviljat",
+    "permissionDenied": "Tillstånd nekad",
+    "serviceStarted": "Tjänsten har startat",
+    "serviceStopped": "Tjänsten har upphört",
+    "error": "misstag"
+  }
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful 24-Hour Clock</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: transparent; /* 适合悬浮窗，透明背景 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #clock {
+            font-size: 48px; /* 大字体，便于查看 */
+            font-weight: bold;
+            color: #ffffff; /* 白色文字，适合暗色背景 */
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), /* 发光效果 */
+                         0 0 20px rgba(0, 200, 255, 0.6),
+                         0 0 30px rgba(0, 150, 255, 0.4);
+            background: rgba(0, 0, 0, 0.5); /* 半透明黑色背景 */
+            padding: 20px 40px;
+            border-radius: 20px; /* 圆角边框 */
+            border: 3px solid rgba(0, 200, 255, 0.8); /* 青蓝色发光边框 */
+            box-shadow: 
+                0 0 15px rgba(0, 200, 255, 0.7) inset, /* 内发光 */
+                0 0 30px rgba(0, 200, 255, 0.5), /* 外发光 */
+                0 4px 10px rgba(0, 0, 0, 0.3); /* 阴影提升立体感 */
+            letter-spacing: 4px; /* 字符间距 */
+            transition: all 0.3s ease; /* 平滑过渡效果 */
+            position: relative;
+            overflow: hidden;
+        }
+
+        #clock::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(0, 200, 255, 0.2) 0%, transparent 70%);
+            animation: rotate 20s linear infinite;
+            pointer-events: none;
+        }
+
+        #clock:hover {
+            transform: scale(1.05); /* 鼠标悬停放大，增强互动（可选，在触屏上无效，但无害） */
+            box-shadow: 0 0 40px rgba(0, 200, 255, 0.8);
+        }
+
+        /* 背景旋转动画，增加动态美感 */
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* 数字脉动动画，每秒轻微闪烁 */
+        @keyframes pulse {
+            0% { opacity: 1; text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(0, 200, 255, 0.6), 0 0 30px rgba(0, 150, 255, 0.4); }
+            50% { opacity: 0.9; text-shadow: 0 0 15px rgba(255, 255, 255, 1), 0 0 25px rgba(0, 200, 255, 0.8), 0 0 35px rgba(0, 150, 255, 0.6); }
+            100% { opacity: 1; text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(0, 200, 255, 0.6), 0 0 30px rgba(0, 150, 255, 0.4); }
+        }
+
+        .pulsing {
+            animation: pulse 1s ease-in-out infinite;
+        }
+
+        /* 媒体查询，适配小屏幕（如安卓悬浮窗） */
+        @media (max-width: 300px) {
+            #clock {
+                font-size: 32px;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="clock">00:00:00</div>
+
+    <script>
+        function updateClock() {
+            const clockElement = document.getElementById('clock');
+            const now = new Date();
+            
+            // 获取24小时制时间
+            let hours = now.getHours().toString().padStart(2, '0');
+            let minutes = now.getMinutes().toString().padStart(2, '0');
+            let seconds = now.getSeconds().toString().padStart(2, '0');
+            
+            // 更新显示
+            clockElement.textContent = `${hours}:${minutes}:${seconds}`;
+            
+            // 添加脉动动画类（每秒重置动画）
+            clockElement.classList.remove('pulsing');
+            void clockElement.offsetWidth; // 触发重绘
+            clockElement.classList.add('pulsing');
+        }
+
+        // 初始调用
+        updateClock();
+        
+        // 每秒更新一次
+        setInterval(updateClock, 1000);
+    </script>
+  <script src="https://unpkg.com/iframe-resizer/js/iframeResizer.contentWindow.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "خدمة البوم الصور",
+    "serverStatus": "حالة الخدمة",
+    "running": "جري",
+    "stopped": "توقف",
+    "port": "ميناء",
+    "token": "رمز الوصول",
+    "permissionType": "وضع الإذن",
+    "contentResolver": "أذونات النظام",
+    "saf": "إطار الوصول إلى الملفات",
+    "startService": "ابدأ الخدمة",
+    "stopService": "إيقاف الخدمة",
+    "checkPermissions": "تحقق من الأذونات",
+    "requestPermissions": "التقدم بطلب للحصول على إذن",
+    "openAlbum": "افتح ألبوم الصور",
+    "copyToken": "رمز النسخ",
+    "copyUrl": "انسخ العنوان",
+    "permissionGranted": "تم منح الإذن",
+    "permissionDenied": "تم رفض الإذن",
+    "serviceStarted": "بدأت الخدمة",
+    "serviceStopped": "توقفت الخدمة",
+    "error": "خطأ"
+  }
+}

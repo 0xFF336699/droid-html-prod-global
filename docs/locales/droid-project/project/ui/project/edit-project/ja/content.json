@@ -1,0 +1,9 @@
+{
+  "content": {
+    "projectNotExist": "プロジェクトが存在しません",
+    "clickToSetProjectName": "名前のないプロジェクト",
+    "projectTools": {
+      "run": "埋め込む"
+    }
+  }
+}

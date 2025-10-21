@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "добавете пазар",
+    "url": "URL адрес на пазара",
+    "summary": "обобщение на пазара",
+    "urlIsNotValid": "URL адресът на пазара е неправилен"
+  }
+}

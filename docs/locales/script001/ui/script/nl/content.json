@@ -1,0 +1,42 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Het nummer waarnaar u sms-berichten wilt verzenden of uitgaand wilt bellen",
+          "label": "telefoonnummer",
+          "helperText": "Het nummer waarnaar u sms-berichten wilt verzenden of uitgaand wilt bellen"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Ik voel me een beetje onwel, kom snel naar mij toe! ! !",
+          "label": "SMS-inhoud",
+          "helperText": "SMS-inhoud"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Lijst met sms-ontvangers"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Mobiel nummer van de ontvanger",
+          "label": "Mobiel nummer van de ontvanger",
+          "helperText": "Mobiel nummer van de ontvanger"
+        }
+      }
+    }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Creëer een snelkoppeling voor een hulpoproep met één klik",
+      "description": "Maak een snelkoppeling op het bureaublad van uw telefoon"
+    },
+    "launcherName": "noodoproep"
+  },
+  "SelectedContackList": {
+    "title": "contactpersoon voor noodgevallen"
+  }
+}

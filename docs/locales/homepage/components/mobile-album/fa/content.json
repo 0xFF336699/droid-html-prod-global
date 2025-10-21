@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "سرویس آلبوم عکس",
+    "serverStatus": "وضعیت خدمات",
+    "running": "در حال دویدن",
+    "stopped": "متوقف شد",
+    "port": "بندر",
+    "token": "نشانه دسترسی",
+    "permissionType": "حالت مجوز",
+    "contentResolver": "مجوزهای سیستم",
+    "saf": "چارچوب دسترسی به فایل",
+    "startService": "سرویس را شروع کنید",
+    "stopService": "سرویس را متوقف کنید",
+    "checkPermissions": "مجوزها را بررسی کنید",
+    "requestPermissions": "درخواست اجازه دهید",
+    "openAlbum": "آلبوم عکس را باز کنید",
+    "copyToken": "توکن کپی",
+    "copyUrl": "آدرس را کپی کنید",
+    "permissionGranted": "اجازه داده شد",
+    "permissionDenied": "اجازه رد شد",
+    "serviceStarted": "خدمات شروع شده است",
+    "serviceStopped": "سرویس متوقف شده است",
+    "error": "اشتباه"
+  }
+}

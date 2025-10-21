@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "Infobar lyssnare",
+    "settingsButtonLabel": "inrätta",
+    "clientsNum": "Ansluten:",
+    "notificationReadable": "Lästillstånd:",
+    "notificationReadableYes": "Redan påslagen",
+    "notificationReadableNo": "Inte påslagen",
+    "socketServerStatus": "Socket server:",
+    "socketServerRunning": "Spring",
+    "socketServerStopped": "Slutade",
+    "socketServerStartButton": "Starta servern",
+    "socketServerStopButton": "Stoppa servern",
+    "foregroundService": {
+      "title": "Avlyssningstjänst för meddelanden",
+      "content": "Lyssnar efter systemaviseringar",
+      "reason": "<h3>Avlyssningstjänst för meddelanden</h3><p>Den här tjänsten måste fortsätta att köras i bakgrunden för att:</p><ul><li>Läsa systemaviseringar i realtid</li><li>Push till klienten via Socket</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "Inställningar för informationsfältet"
+  },
+  "ScaneQRCodeButton": {
+    "name": "Skanna koden för att ansluta"
+  },
+  "SettingPanel": {
+    "modalTitle": "Lyssnarinställningar",
+    "description": "Denna funktion startar en lokal tjänst för att ta emot och bearbeta aviseringsmeddelanden i Android-systemets statusfält. Se till att porten inte är upptagen.",
+    "riskWarning": "Riskvarning: Om du aktiverar den här funktionen kan appen läsa alla dina aviseringsmeddelanden, som kan innehålla känslig information. Använd med försiktighet.",
+    "portLabel": "servicehamn",
+    "portRangeError": "Porten måste vara ett heltal mellan 1025 och 65535.",
+    "tokenLabel": "Access Token",
+    "cancelButton": "ge upp",
+    "applyButton": "använda"
+  }
+}

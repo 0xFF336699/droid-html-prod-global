@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Otkazati",
+    "confirm": "Naravno",
+    "title": "savjet",
+    "content": "Jeste li sigurni da to želite učiniti?"
+  },
+  "EditableText": {
+    "cancel": "Otkazati",
+    "save": "uštedjeti",
+    "title": "urediti"
+  }
+}

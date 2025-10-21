@@ -1,0 +1,42 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "המספר שאליו ברצונך לשלוח הודעות טקסט או לבצע שיחות יוצאות",
+          "label": "מספר טלפון",
+          "helperText": "המספר שאליו ברצונך לשלוח הודעות טקסט או לבצע שיחות יוצאות"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "אני מרגישה קצת לא טוב, תבוא אליי מהר! ! !",
+          "label": "תוכן SMS",
+          "helperText": "תוכן SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "רשימת נמעני SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "מספר נייד של מקלט",
+          "label": "מספר נייד של מקלט",
+          "helperText": "מספר נייד של מקלט"
+        }
+      }
+    }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "צור קיצור דרך לקריאה בלחיצה אחת לעזרה",
+      "description": "צור קיצור דרך בשולחן העבודה של הטלפון שלך"
+    },
+    "launcherName": "שיחת חירום"
+  },
+  "SelectedContackList": {
+    "title": "קשר חירום"
+  }
+}

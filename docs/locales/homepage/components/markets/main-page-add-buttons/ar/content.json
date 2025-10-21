@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "اضف إليه",
+    "sub": {
+      "addScriptByUrl": "إضافة البرنامج النصي عبر URL",
+      "addScriptByText": "إضافة البرنامج النصي عبر النص",
+      "addMarket": "إضافة السوق عن طريق URL",
+      "addMarketByText": "إضافة السوق عبر النص"
+    }
+  }
+}

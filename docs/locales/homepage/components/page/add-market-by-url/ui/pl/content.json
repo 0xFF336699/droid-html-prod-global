@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Ponieważ ta aplikacja dotyczy dużej liczby uprawnień na Twoim telefonie komórkowym, wiele zezwoleń jest niezwykle ryzykownych, więc nie importuj ich ani nie uruchamiaj bez dokładnej wiedzy o ryzyku związanym z rynkiem lub skryptem. Po wprowadzeniu treści w poniższym polu tekstowym „Wprowadzenie do karty rynkowej” lub „Niezależna od rynku strona internetowa” treść zostanie natychmiast wykonana w postaci kodu, dlatego należy zachować ostrożność.",
+    "setNewMarket": "Skonfiguruj nowy rynek",
+    "settingPreview": "Ustaw podgląd",
+    "marketName": "Nazwa rynkowa",
+    "marketSummary": "Wprowadzenie na rynek",
+    "marketDescription": "Wprowadzenie na rynek",
+    "itemMarket": "Wprowadzenie karty targowej",
+    "fullMarket": "Niezależna od rynku strona internetowa",
+    "marketCardPreview": "Podgląd karty targowej",
+    "marketFullPreview": "Niezależny od rynku podgląd strony internetowej",
+    "isNotSet": "nie ustawione"
+  }
+}

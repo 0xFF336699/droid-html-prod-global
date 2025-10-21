@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Modèle d'URL",
+    "full": {
+      "url": "URL du marché. Les caractères saisis seront chargés sous forme d'URL, soyez prudent.",
+      "html": "Commercialisez du contenu HTML. Les caractères saisis seront traités comme un script et exécutés immédiatement, soyez prudent.",
+      "come": "Venez à moi",
+      "myMarketName": "Nom du marché",
+      "stroll": "Faites une promenade"
+    },
+    "item": {
+      "url": "URL de la carte de marché. Les caractères saisis seront chargés sous forme d'URL, soyez prudent.",
+      "html": "Commercialisez du contenu HTML. Les caractères saisis seront traités comme un script et exécutés immédiatement, soyez prudent.",
+      "come": "Venez à moi",
+      "myMarketName": "Nom du marché",
+      "stroll": "Faites une promenade"
+    }
+  }
+}

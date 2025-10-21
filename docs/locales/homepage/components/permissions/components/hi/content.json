@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "अधिकृत",
+    "notPass": "अनधिकृत",
+    "danger": "खतरा",
+    "setting": "स्थापित करना"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Since this application applies for a large number of permissions on your mobile phone, many permissions are extremely risky, so please do not import or execute them without clearly knowing the risks of the market or script. Once you enter content in the \"Market Card Introduction\" or \"Market Independent Web Page\" text box below, the content will be immediately executed as code, so please operate with caution.",
+    "setNewMarket": "Set up new market",
+    "settingPreview": "Set preview",
+    "marketName": "Market name",
+    "marketSummary": "Market introduction",
+    "marketDescription": "Market introduction",
+    "itemMarket": "Market card introduction",
+    "fullMarket": "Market independent web page",
+    "marketCardPreview": "Market card preview",
+    "marketFullPreview": "Market independent web page preview",
+    "isNotSet": "not set"
+  }
+}

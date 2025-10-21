@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "página delantera",
+    "me": "mío",
+    "settings": "configuración",
+    "script": "guion",
+    "store": "mercado",
+    "market": "mercado",
+    "create": "crear"
+  },
+  "tabbar": {
+    "test": "Barra de menú inferior"
+  }
+}

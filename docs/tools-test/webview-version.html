@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WebView ES Features Test</title>
+    <style>
+        body {
+            font-family: monospace;
+            padding: 20px;
+            background: #f9f9f9;
+        }
+
+        .ok {
+            color: green;
+        }
+
+        .fail {
+            color: red;
+        }
+
+        .summary {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 8px 16px;
+            font-size: 16px;
+        }
+
+        #info {
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>WebView ES Features Test</h1>
+
+    <div id="info"></div>
+    <pre id="output"></pre>
+    <div class="summary" id="summary"></div>
+    <button onclick="copyResult()">📋 复制检测结果</button>
+
+    <script>
+        const output = document.getElementById('output');
+        const summary = document.getElementById('summary');
+        const info = document.getElementById('info');
+
+        // 显示 UserAgent 和尝试提取 Chromium 版本
+        const ua = navigator.userAgent;
+        let chromeVersion = 'Unknown';
+        const match = ua.match(/Chrome\/(\d+)/);
+        if (match) {
+            chromeVersion = match[1];
+        }
+        info.innerText = `UserAgent: ${ua}\n推测 Chromium 版本: ${chromeVersion}`;
+
+        const features = [
+            { name: 'let/const', code: 'let a = 1; const b = 2;', critical: true },
+            { name: 'Arrow Functions', code: 'const fn = () => {};', critical: false },
+            { name: 'Template Literals', code: 'const str = `template`;', critical: false },
+            { name: 'Destructuring', code: 'const {a, b} = {a:1, b:2};', critical: false },
+            { name: 'Default Parameters', code: 'function foo(x = 1) {}', critical: false },
+            { name: 'Optional Chaining (?.)', code: 'const obj = {}; const val = obj?.prop;', critical: true },
+            { name: 'Nullish Coalescing (??)', code: 'const foo = null ?? "default";', critical: true },
+            { name: 'Async/Await', code: 'async function foo() { await Promise.resolve(); }', critical: false },
+            { name: 'BigInt', code: 'const big = 123n;', critical: false },
+            { name: 'Dynamic Import', code: 'import("data:text/javascript,export default 123")', critical: false },
+        ];
+
+        let criticalFailures = [];
+
+        features.forEach(f => {
+            try {
+                eval(f.code);
+                output.innerHTML += `[✔️] ${f.name} supported\n`;
+            } catch (e) {
+                output.innerHTML += `[❌] ${f.name} NOT supported\n`;
+                if (f.critical) {
+                    criticalFailures.push(f.name);
+                }
+            }
+        });
+
+        if (criticalFailures.length === 0) {
+            summary.innerHTML = `✅ 恭喜！您的 WebView 支持大部分现代 JS 特性，兼容性良好。`;
+        } else {
+            summary.innerHTML = `⚠️ 检测到以下关键特性不支持：${criticalFailures.join(', ')}。\n建议升级 WebView 至 Chromium 84+，或者手动降级代码，避免使用上述语法。`;
+        }
+
+        function copyResult() {
+            const text = "UserAgent: " + ua + "\n推测 Chromium 版本: " + chromeVersion + "\n\n" +
+                output.innerText + "\n" + summary.innerText;
+
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+                document.execCommand('copy');
+                alert('✅ 检测结果已复制到剪贴板！');
+            } catch (err) {
+                alert('❌ 复制失败：' + err);
+            }
+            document.body.removeChild(textarea);
+        }
+
+    </script>
+</body>
+
+</html>

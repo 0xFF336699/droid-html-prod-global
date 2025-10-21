@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Anulować",
+    "ok": "Jasne",
+    "checkBoxText": "Przejdź bezpośrednio do autoryzacji w ciągu pół miesiąca, a okno nie będzie już wyświetlane.",
+    "content": "Ta funkcja wymaga autoryzacji dostępności. Jeśli chcesz dokonać autoryzacji, kliknij [OK]. Jeśli chcesz się poddać, kliknij [Anuluj].",
+    "title": "Wniosek o pozwolenie"
+  },
+  "floatPermission": {
+    "cancel": "Anulować",
+    "ok": "Jasne",
+    "checkBoxText": "Przejdź bezpośrednio do autoryzacji w ciągu pół miesiąca, a okno nie będzie już wyświetlane.",
+    "content": "Ta funkcja wymaga autoryzacji funkcji pływającego okna. Jeśli chcesz dokonać autoryzacji, kliknij [OK]. Jeśli chcesz się poddać, kliknij [Anuluj].",
+    "title": "Wniosek o pozwolenie"
+  }
+}

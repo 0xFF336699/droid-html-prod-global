@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Spojovací...",
+    "connected": "Připojeno",
+    "disconnecting": "Odpojování...",
+    "disconnected": "Nepřipojeno",
+    "waitRetry": "Čekání na opětovné připojení..."
+  }
+}

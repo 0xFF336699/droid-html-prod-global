@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "Service d'albums photos",
+    "serverStatus": "Statut des services",
+    "running": "En cours d'exécution",
+    "stopped": "Arrêté",
+    "port": "port",
+    "token": "jeton d'accès",
+    "permissionType": "mode d'autorisation",
+    "contentResolver": "Autorisations système",
+    "saf": "cadre d'accès aux fichiers",
+    "startService": "Démarrer le service",
+    "stopService": "Arrêter le service",
+    "checkPermissions": "Vérifier les autorisations",
+    "requestPermissions": "Demander une autorisation",
+    "openAlbum": "Ouvrir l'album photo",
+    "copyToken": "copier le jeton",
+    "copyUrl": "Copier l'adresse",
+    "permissionGranted": "Autorisation accordée",
+    "permissionDenied": "Autorisation refusée",
+    "serviceStarted": "Le service a commencé",
+    "serviceStopped": "Le service s'est arrêté",
+    "error": "erreur"
+  }
+}

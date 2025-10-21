@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Modello URL",
+    "full": {
+      "url": "URL del mercato. I caratteri inseriti verranno caricati come URL, fai attenzione.",
+      "html": "Commercializzare contenuti HTML. I caratteri inseriti verranno trattati come uno script ed eseguiti immediatamente, fai attenzione.",
+      "come": "Vieni da me",
+      "myMarketName": "Nome del mercato",
+      "stroll": "Fai una passeggiata"
+    },
+    "item": {
+      "url": "URL della scheda mercato. I caratteri inseriti verranno caricati come URL, fai attenzione.",
+      "html": "Commercializzare contenuti HTML. I caratteri inseriti verranno trattati come uno script ed eseguiti immediatamente, fai attenzione.",
+      "come": "Vieni da me",
+      "myMarketName": "Nome del mercato",
+      "stroll": "Fai una passeggiata"
+    }
+  }
+}

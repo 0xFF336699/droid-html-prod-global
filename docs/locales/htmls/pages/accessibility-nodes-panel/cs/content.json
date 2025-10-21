@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Zobrazení rozhraní usnadnění",
+    "howToUse": "Návod k použití",
+    "howToUseTooltip": "Níže jsou uvedeny některé atributy značek tohoto uzlu, které lze použít k výběru operací, jako je klikání, vyplňování textu atd.\n\nHodnoty atributů mohou být na stránce aplikace duplikovány. Pokud narazíte na duplikáty, překryjte jiné hodnoty atributů, abyste určili jedinečnost.\n\nČervená slova označují, že se hodnota atributu opakuje, zelená slova označují, že hodnota atributu je v aktuálním vyhledávání na stránce jedinečná, a černá slova znamenají, že se neprovádějí žádná opakovaná srovnání.",
+    "otherNodesSummary": "Další uzly na tomto místě",
+    "moreNodes": "Zde je rozšířený obsah.",
+    "nodeInfoDialogOkButton": "Upravte uzel",
+    "text": "Text 2222"
+  }
+}

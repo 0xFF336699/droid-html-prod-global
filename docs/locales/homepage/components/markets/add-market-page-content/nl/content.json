@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "markt toevoegen",
+    "url": "Markt-URL",
+    "summary": "markt samenvatting",
+    "urlIsNotValid": "Markt-URL is onjuist"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Vzor adresy URL",
+    "full": {
+      "url": "Adresa URL trhu. Zadané znaky budou načteny jako URL, buďte prosím opatrní.",
+      "html": "Trh obsahu HTML. Zadané znaky budou považovány za skript a okamžitě provedeny, buďte opatrní.",
+      "come": "Pojď ke mně",
+      "myMarketName": "Název trhu",
+      "stroll": "Projděte se"
+    },
+    "item": {
+      "url": "Adresa URL karty trhu. Zadané znaky budou načteny jako URL, buďte prosím opatrní.",
+      "html": "Trh obsahu HTML. Zadané znaky budou považovány za skript a okamžitě provedeny, buďte opatrní.",
+      "come": "Pojď ke mně",
+      "myMarketName": "Název trhu",
+      "stroll": "Projděte se"
+    }
+  }
+}

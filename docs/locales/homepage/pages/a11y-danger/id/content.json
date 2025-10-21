@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Fungsi ini dapat melakukan operasi mirip manusia di ponsel Anda, termasuk namun tidak terbatas pada mengklik, membuka aplikasi, dll. Fungsi ini juga dapat membuka beberapa aplikasi pembayaran untuk pembayaran. Karena ada risiko pencatatan operasi, melakukan pembayaran, dll., kami sangat menyarankan Anda hanya menjalankannya jika Anda sepenuhnya memahami isi skrip.",
+    "txt2": "Cara mematikan fungsi ini: Buka beranda aplikasi ini, Anda dapat berhenti menggunakan fungsi tambahan di pengaturan beranda, atau Anda dapat mengklik tombol \"Tutup semua tugas dan keluar\" di beranda. Tombol ini akan menutup paksa semua tugas yang sedang berlangsung dan menutup paksa aplikasi.",
+    "txt3": "Alasan kami menggunakan fungsi ini adalah karena aplikasi kami harus dapat membuka aplikasi lain dan melakukan beberapa operasi pada aplikasi tersebut. Misalnya, saat menjelajah Instagram, secara otomatis dapat meluncur ke atas setelah video diputar, memeriksa apakah produk tertentu sedang dijual, secara teratur mengirim pesan ke teman online, dan operasi menarik atau hemat tenaga lainnya.",
+    "iKnowDanger": "Saya sadar akan risikonya - buka pengaturan",
+    "title": "Operasi berbahaya"
+  }
+}

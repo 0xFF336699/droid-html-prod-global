@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Eftersom denna applikation gäller för ett stort antal behörigheter på din mobiltelefon är många behörigheter extremt riskabla, så vänligen importera eller exekvera dem inte utan att tydligt känna till riskerna med marknaden eller skriptet. När du anger innehåll i textrutan \"Marknadskortsintroduktion\" eller \"Marknadsoberoende webbsida\" nedan, kommer innehållet att köras omedelbart som kod, så vänligen agera med försiktighet.",
+    "setNewMarket": "Skapa ny marknad",
+    "settingPreview": "Ställ in förhandsgranskning",
+    "marketName": "Marknadens namn",
+    "marketSummary": "Marknadsintroduktion",
+    "marketDescription": "Marknadsintroduktion",
+    "itemMarket": "Introduktion till marknadskort",
+    "fullMarket": "Marknadsoberoende webbsida",
+    "marketCardPreview": "Förhandsvisning av marknadskort",
+    "marketFullPreview": "Marknadsoberoende webbsida förhandsvisning",
+    "isNotSet": "inte inställt"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "bağlantıda kalın",
+        "helperText": "Bağlantıyı başlatmak için tıklarsanız, ardından bağlantıyı koruyun, bu nedenle bağlantının kesildikten sonra yeniden bağlanmaya devam edeceğine dikkat etmeniz gerekir.",
+        "retryCount": "Yeniden bağlantı sayısı"
+      },
+      "url": {
+        "name": "URL'si",
+        "helperText": "Bağlantı URL'si (ör. ws://192.168.0.2:7001 veya wws://example.com/path)",
+        "error": "Doğru URL, ws:// veya wwws:// ile başlayan bir URL'dir."
+      }
+    },
+    "connectButton": {
+      "connect": "bağlamak",
+      "disconnect": "Bağlantıyı kes",
+      "status": {
+        "connecting": "Bağlanıyor...",
+        "connected": "Bağlı",
+        "disconnecting": "Bağlantı kesiliyor...",
+        "disconnected": "Bağlı değil",
+        "waitRetry": "Yeniden bağlanmayı bekliyorum..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "senaryo"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "content": {
+    "ok": "Sicher",
+    "cancel": "Stornieren",
+    "delete": "löschen",
+    "edit": "bearbeiten",
+    "save": "speichern",
+    "close": "Schließung",
+    "confirm": "bestätigen"
+  }
+}

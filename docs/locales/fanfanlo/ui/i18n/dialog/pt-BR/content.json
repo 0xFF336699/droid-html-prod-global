@@ -1,0 +1,11 @@
+{
+  "content": {
+    "ok": "Claro",
+    "cancel": "Cancelar",
+    "delete": "excluir",
+    "edit": "editar",
+    "save": "salvar",
+    "close": "encerramento",
+    "confirm": "confirmar"
+  }
+}

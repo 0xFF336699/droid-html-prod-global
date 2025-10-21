@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Menghubungkan...",
+    "connected": "Terhubung",
+    "disconnecting": "Memutuskan sambungan...",
+    "disconnected": "Tidak terhubung",
+    "waitRetry": "Menunggu koneksi ulang..."
+  }
+}

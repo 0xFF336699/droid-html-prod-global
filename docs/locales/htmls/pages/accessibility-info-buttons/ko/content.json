@@ -1,0 +1,11 @@
+{
+  "content": {
+    "close": "폐쇄",
+    "layout": "공들여 나열한 것",
+    "fullInfo": "완전한 데이터",
+    "title": "a11y 정보 버튼 그룹 읽기",
+    "multiWindow": "여러 창",
+    "appWindow": "단일 창",
+    "store": "가게"
+  }
+}

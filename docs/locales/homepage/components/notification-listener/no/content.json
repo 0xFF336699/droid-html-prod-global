@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "Infobar lytter",
+    "settingsButtonLabel": "sette opp",
+    "clientsNum": "Tilkoblet:",
+    "notificationReadable": "Les tillatelse:",
+    "notificationReadableYes": "Allerede slått på",
+    "notificationReadableNo": "Ikke slått på",
+    "socketServerStatus": "Socket server:",
+    "socketServerRunning": "Løper",
+    "socketServerStopped": "Stoppet",
+    "socketServerStartButton": "Start serveren",
+    "socketServerStopButton": "Stopp serveren",
+    "foregroundService": {
+      "title": "Varslingslyttetjeneste",
+      "content": "Lytter etter systemvarsler",
+      "reason": "<h3>Lyttetjeneste for varslinger</h3><p>Denne tjenesten må fortsette å kjøre i bakgrunnen for å:</p><ul><li>Lese systemvarsler i sanntid</li><li>Push til klienten gjennom Socket</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "Innstillinger for informasjonslinje"
+  },
+  "ScaneQRCodeButton": {
+    "name": "Skann kode for å koble til"
+  },
+  "SettingPanel": {
+    "modalTitle": "Lytterinnstillinger",
+    "description": "Denne funksjonen starter en lokal tjeneste for mottak og behandling av varslingsmeldinger i Android-systemets statuslinje. Sørg for at porten ikke er opptatt.",
+    "riskWarning": "Risikoadvarsel: Hvis du slår på denne funksjonen, kan appen lese alle varslingsmeldingene dine, som kan inneholde sensitiv informasjon. Vennligst bruk med forsiktighet.",
+    "portLabel": "servicehavn",
+    "portRangeError": "Porten må være et heltall mellom 1025 og 65535.",
+    "tokenLabel": "Tilgangstoken",
+    "cancelButton": "gi opp",
+    "applyButton": "bruk"
+  }
+}

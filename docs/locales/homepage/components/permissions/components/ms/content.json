@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Dibenarkan",
+    "notPass": "Tidak dibenarkan",
+    "danger": "Bahaya",
+    "setting": "Sediakan"
+  }
+}

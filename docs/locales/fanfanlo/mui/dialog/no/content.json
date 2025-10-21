@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Kansellere",
+    "confirm": "Sikker",
+    "title": "hint",
+    "content": "Er du sikker på at du vil gjøre dette?"
+  },
+  "EditableText": {
+    "cancel": "Kansellere",
+    "save": "spare",
+    "title": "redigere"
+  }
+}

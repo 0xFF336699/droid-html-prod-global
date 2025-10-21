@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Cette fonction peut effectuer des opérations de type humain sur votre téléphone mobile, notamment, mais sans s'y limiter, cliquer, ouvrir des applications, etc. Elle peut également ouvrir certaines applications de paiement pour le paiement. Parce qu'il existe un risque d'enregistrer des opérations, d'effectuer des paiements, etc., nous vous recommandons fortement de ne l'exécuter que si vous comprenez parfaitement le contenu du script.",
+    "txt2": "Comment désactiver cette fonction : ouvrez la page d'accueil de cette application, vous pouvez arrêter d'utiliser la fonction auxiliaire dans les paramètres de la page d'accueil, ou vous pouvez cliquer sur le bouton \"Fermer toutes les tâches et quitter\" sur la page d'accueil. Ce bouton fermera de force toutes les tâches en cours et fermera de force l'application.",
+    "txt3": "La raison pour laquelle nous utilisons cette fonction est que notre application doit pouvoir ouvrir d'autres applications et effectuer certaines opérations sur celles-ci. Par exemple, lors de la navigation sur Instagram, il peut automatiquement remonter après la lecture de la vidéo, vérifier si un certain produit est en vente, envoyer régulièrement des messages à des amis en ligne et effectuer d'autres opérations intéressantes ou allégeant le travail.",
+    "iKnowDanger": "Je suis conscient des risques - allez dans les paramètres",
+    "title": "Opération dangereuse"
+  }
+}

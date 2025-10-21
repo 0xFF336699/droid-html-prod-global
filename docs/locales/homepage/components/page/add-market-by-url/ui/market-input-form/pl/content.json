@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Wzór adresu URL",
+    "full": {
+      "url": "Adres URL rynku. Wprowadzone znaki zostaną załadowane jako adres URL, należy zachować ostrożność.",
+      "html": "Sprzedawaj treści HTML. Wprowadzone znaki zostaną potraktowane jako skrypt i natychmiast wykonane. Prosimy zachować ostrożność.",
+      "come": "Przyjdź do mnie",
+      "myMarketName": "Nazwa rynkowa",
+      "stroll": "Wybierz się na spacer"
+    },
+    "item": {
+      "url": "Adres URL karty targowej. Wprowadzone znaki zostaną załadowane jako adres URL, należy zachować ostrożność.",
+      "html": "Sprzedawaj treści HTML. Wprowadzone znaki zostaną potraktowane jako skrypt i natychmiast wykonane. Prosimy zachować ostrożność.",
+      "come": "Przyjdź do mnie",
+      "myMarketName": "Nazwa rynkowa",
+      "stroll": "Wybierz się na spacer"
+    }
+  }
+}

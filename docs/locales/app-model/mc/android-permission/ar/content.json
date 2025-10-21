@@ -1,0 +1,7 @@
+{
+  "androidPermission": {
+    "denied": "يرفض",
+    "granted": "أذن",
+    "shouldAskAgain": "غير مصرح به"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Otkazati",
+    "ok": "Naravno",
+    "checkBoxText": "Idite izravno na autorizaciju unutar pola mjeseca i prozor se više neće prikazivati.",
+    "content": "Ova funkcija zahtijeva autorizaciju pristupačnosti. Ako želite autorizirati, kliknite [OK]. Ako želite odustati, kliknite [Odustani].",
+    "title": "Zahtjev za dopuštenje"
+  },
+  "floatPermission": {
+    "cancel": "Otkazati",
+    "ok": "Naravno",
+    "checkBoxText": "Idite izravno na autorizaciju unutar pola mjeseca i prozor se više neće prikazivati.",
+    "content": "Ova funkcija zahtijeva autorizaciju funkcije plutajućeg prozora. Ako želite autorizirati, kliknite [OK]. Ako želite odustati, kliknite [Odustani].",
+    "title": "Zahtjev za dopuštenje"
+  }
+}

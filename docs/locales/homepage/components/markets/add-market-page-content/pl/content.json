@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "dodaj rynek",
+    "url": "Adres URL rynku",
+    "summary": "podsumowanie rynku",
+    "urlIsNotValid": "URL rynku jest nieprawidłowy"
+  }
+}

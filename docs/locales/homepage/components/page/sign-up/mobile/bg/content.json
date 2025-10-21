@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "регистър",
+    "phoneNumber": "телефонен номер",
+    "phoneNumberPlaceholder": "Моля, въведете номер на мобилен телефон",
+    "verificationCode": "Код за потвърждение",
+    "verificationCodePlaceholder": "Моля, въведете кода за потвърждение",
+    "getVerificationCode": "Вземете код за потвърждение",
+    "countdown": "Опитайте отново след {{seconds}} секунди",
+    "register": "регистър",
+    "errors": {
+      "phoneRequired": "Моля, въведете номер на мобилен телефон",
+      "phoneInvalid": "Форматът на номера на мобилния телефон е неправилен",
+      "codeRequired": "Моля, въведете кода за потвърждение",
+      "codeInvalid": "Форматът на кода за потвърждение е неправилен",
+      "requestFailed": "Неуспешна заявка",
+      "verificationFailed": "Неуспешно получаване на код за потвърждение",
+      "loginFailed": "Неуспешно влизане"
+    },
+    "success": {
+      "verificationCodeSent": "Кодът за потвърждение е изпратен",
+      "registerSuccess": "Регистрацията е успешна"
+    }
+  }
+}

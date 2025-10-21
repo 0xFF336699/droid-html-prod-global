@@ -1,0 +1,11 @@
+{
+  "content": {
+    "close": "encerramento",
+    "layout": "layout",
+    "fullInfo": "dados completos",
+    "title": "Leia o grupo de botões de informações a11y",
+    "multiWindow": "múltiplas janelas",
+    "appWindow": "janela única",
+    "store": "loja"
+  }
+}

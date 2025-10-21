@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Avboka",
+    "confirm": "Säker",
+    "title": "antydan",
+    "content": "Är du säker på att du vill göra det här?"
+  },
+  "EditableText": {
+    "cancel": "Avboka",
+    "save": "spara",
+    "title": "redigera"
+  }
+}

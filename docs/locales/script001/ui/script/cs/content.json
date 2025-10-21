@@ -1,0 +1,42 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Číslo, na které chcete posílat textové zprávy nebo uskutečňovat odchozí hovory",
+          "label": "telefonní číslo",
+          "helperText": "Číslo, na které chcete posílat textové zprávy nebo uskutečňovat odchozí hovory"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Cítím se trochu špatně, rychle ke mně! ! !",
+          "label": "obsah SMS",
+          "helperText": "obsah SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "seznam příjemců SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Číslo mobilního telefonu přijímače",
+          "label": "Číslo mobilního telefonu přijímače",
+          "helperText": "Číslo mobilního telefonu přijímače"
+        }
+      }
+    }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Vytvořte jedním kliknutím zástupce volání pro pomoc",
+      "description": "Vytvořte zástupce na ploše telefonu"
+    },
+    "launcherName": "tísňové volání"
+  },
+  "SelectedContackList": {
+    "title": "nouzový kontakt"
+  }
+}

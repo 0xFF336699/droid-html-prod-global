@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "相冊服務",
+    "serverStatus": "服務狀態",
+    "running": "運行中",
+    "stopped": "已停止",
+    "port": "端口",
+    "token": "訪問令牌",
+    "permissionType": "權限模式",
+    "contentResolver": "系統權限",
+    "saf": "文件訪問框架",
+    "startService": "啟動服務",
+    "stopService": "停止服務",
+    "checkPermissions": "檢查權限",
+    "requestPermissions": "申請權限",
+    "openAlbum": "打開相冊",
+    "copyToken": "複製令牌",
+    "copyUrl": "複製地址",
+    "permissionGranted": "權限已授予",
+    "permissionDenied": "權限被拒絕",
+    "serviceStarted": "服務已啟動",
+    "serviceStopped": "服務已停止",
+    "error": "錯誤"
+  }
+}

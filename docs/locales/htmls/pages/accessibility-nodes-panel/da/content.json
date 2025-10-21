@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Tilgængelighedsgrænsefladevisning",
+    "howToUse": "Brugsanvisning",
+    "howToUseTooltip": "Nedenfor er nogle markeringsattributter for denne node, som kan bruges til at vælge operationer, såsom klik, udfyldning af tekst osv.\n\nAttributværdier kan være duplikeret på app-siden. Hvis du støder på dubletter, skal du overlejre andre attributværdier for at bestemme unikhed.\n\nDe røde ord angiver, at attributværdien gentages, de grønne ord angiver, at attributværdien er unik i den aktuelle sidesøgning, og de sorte ord angiver, at der ikke foretages gentagne sammenligninger.",
+    "otherNodesSummary": "Andre noder på dette sted",
+    "moreNodes": "Her er det udvidede indhold.",
+    "nodeInfoDialogOkButton": "Rediger noden",
+    "text": "SMS 2222"
+  }
+}

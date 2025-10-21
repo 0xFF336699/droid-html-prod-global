@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "Słuchacz paska informacyjnego",
+    "settingsButtonLabel": "organizować coś",
+    "clientsNum": "Połączony:",
+    "notificationReadable": "Przeczytaj pozwolenie:",
+    "notificationReadableYes": "Już włączone",
+    "notificationReadableNo": "Nie włączony",
+    "socketServerStatus": "Serwer gniazd:",
+    "socketServerRunning": "Działanie",
+    "socketServerStopped": "Zatrzymany",
+    "socketServerStartButton": "Uruchom serwer",
+    "socketServerStopButton": "Zatrzymaj serwer",
+    "foregroundService": {
+      "title": "Usługa odsłuchiwania powiadomień",
+      "content": "Nasłuchiwanie powiadomień systemowych",
+      "reason": "<h3>Usługa nasłuchiwania powiadomień</h3><p>Ta usługa musi działać w tle, aby:</p><ul><li>Odczytywać powiadomienia systemowe w czasie rzeczywistym</li><li>Przekazywać do klienta przez Socket</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "Ustawienia paska informacyjnego"
+  },
+  "ScaneQRCodeButton": {
+    "name": "Zeskanuj kod, aby się połączyć"
+  },
+  "SettingPanel": {
+    "modalTitle": "Ustawienia słuchacza",
+    "description": "Ta funkcja uruchamia lokalną usługę odbierania i przetwarzania powiadomień na pasku stanu systemu Android. Upewnij się, że port nie jest zajęty.",
+    "riskWarning": "Ostrzeżenie o ryzyku: włączenie tej funkcji umożliwi aplikacji odczytanie wszystkich powiadomień, które mogą zawierać poufne informacje. Proszę używać ostrożnie.",
+    "portLabel": "port serwisowy",
+    "portRangeError": "Port musi być liczbą całkowitą z zakresu od 1025 do 65535.",
+    "tokenLabel": "Token dostępu",
+    "cancelButton": "poddać się",
+    "applyButton": "używać"
+  }
+}

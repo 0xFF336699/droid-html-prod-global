@@ -1,0 +1,8 @@
+{
+  "SummaryProjectList": {
+    "edit": "edit",
+    "delete": "delete",
+    "run": "run",
+    "stop": "stop"
+  }
+}

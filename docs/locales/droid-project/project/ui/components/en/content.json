@@ -1,0 +1,9 @@
+{
+  "content": {
+    "create": "create",
+    "delete": "delete",
+    "confirmDelete": "Are you sure you want to delete this item?",
+    "cancel": "give up",
+    "title": "warn"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "Infobar figyelő",
+    "settingsButtonLabel": "felállítani",
+    "clientsNum": "Csatlakozva:",
+    "notificationReadable": "Olvasási engedély:",
+    "notificationReadableYes": "Már be van kapcsolva",
+    "notificationReadableNo": "Nincs bekapcsolva",
+    "socketServerStatus": "Socket szerver:",
+    "socketServerRunning": "Futás",
+    "socketServerStopped": "Megállt",
+    "socketServerStartButton": "Indítsa el a szervert",
+    "socketServerStopButton": "Állítsa le a szervert",
+    "foregroundService": {
+      "title": "Értesítés figyelő szolgáltatás",
+      "content": "Rendszerértesítések figyelése",
+      "reason": "<h3>Értesítésfigyelő szolgáltatás</h3><p>Ennek a szolgáltatásnak a háttérben kell futnia ahhoz, hogy:</p><ul><li>valós időben olvassa el a rendszerértesítéseket</li><li>küldje el az ügyfélnek a Socketen keresztül.</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "Információs sáv beállításai"
+  },
+  "ScaneQRCodeButton": {
+    "name": "Kód beolvasása a csatlakozáshoz"
+  },
+  "SettingPanel": {
+    "modalTitle": "Figyelő beállításai",
+    "description": "Ez a funkció elindít egy helyi szolgáltatást az értesítési üzenetek fogadására és feldolgozására az Android rendszer állapotsorán. Kérjük, ellenőrizze, hogy a port nincs-e foglalt.",
+    "riskWarning": "Kockázati figyelmeztetés: Ha bekapcsolja ezt a funkciót, az alkalmazás elolvashatja az összes értesítő üzenetét, amelyek érzékeny információkat tartalmazhatnak. Kérjük, óvatosan használja.",
+    "portLabel": "szervizport",
+    "portRangeError": "A portnak 1025 és 65535 közötti egész számnak kell lennie.",
+    "tokenLabel": "Hozzáférési token",
+    "cancelButton": "feladni",
+    "applyButton": "használat"
+  }
+}

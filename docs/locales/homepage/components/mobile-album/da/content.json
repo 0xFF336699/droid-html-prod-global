@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "Fotoalbum service",
+    "serverStatus": "Servicestatus",
+    "running": "Løb",
+    "stopped": "Stoppet",
+    "port": "havn",
+    "token": "adgangstoken",
+    "permissionType": "tilladelsestilstand",
+    "contentResolver": "Systemtilladelser",
+    "saf": "ramme for filadgang",
+    "startService": "Start service",
+    "stopService": "Stop service",
+    "checkPermissions": "Tjek tilladelser",
+    "requestPermissions": "Ansøg om tilladelse",
+    "openAlbum": "Åbn fotoalbum",
+    "copyToken": "kopi token",
+    "copyUrl": "Kopiér adresse",
+    "permissionGranted": "Tilladelse givet",
+    "permissionDenied": "Tilladelse nægtet",
+    "serviceStarted": "Service er startet",
+    "serviceStopped": "Tjenesten er stoppet",
+    "error": "fejl"
+  }
+}

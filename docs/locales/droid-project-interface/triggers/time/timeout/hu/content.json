@@ -1,0 +1,7 @@
+{
+  "ITriggerTimeout": {
+    "title": "Késleltetett végrehajtás",
+    "content_delay": "Késleltetés",
+    "content_milliseconds": "Végrehajtás ezredmásodperc után"
+  }
+}

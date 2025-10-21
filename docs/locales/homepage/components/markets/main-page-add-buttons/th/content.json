@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "เพิ่มไปที่",
+    "sub": {
+      "addScriptByUrl": "เพิ่มสคริปต์ผ่าน URL",
+      "addScriptByText": "เพิ่มสคริปต์ผ่านทางข้อความ",
+      "addMarket": "เพิ่มตลาดด้วย URL",
+      "addMarketByText": "เพิ่มตลาดผ่านทางข้อความ"
+    }
+  }
+}

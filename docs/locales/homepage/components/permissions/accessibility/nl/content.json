@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Toegankelijkheid",
+    "pass": "Geautoriseerd",
+    "notPass": "Ongeautoriseerd",
+    "setting": "opgezet",
+    "danger": "Gevaar",
+    "dangerDesc": "Met deze autorisatie kunt u zien wat er op het scherm staat en klikken uitvoeren op uw telefoon. Schakel deze toestemming uit als u de functionaliteit en risico's van het script dat u gebruikt of gaat uitvoeren niet duidelijk begrijpt."
+  }
+}

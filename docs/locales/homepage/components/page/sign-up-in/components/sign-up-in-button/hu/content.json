@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Bejelentkezés/Regisztrálás",
+    "signOut": "Jelentkezzen ki",
+    "confirmContent": "Biztos, hogy ki akar jelentkezni?",
+    "confirmTitle": "célzás",
+    "confirm": "Persze",
+    "cancel": "Mégsem",
+    "signoutOk": "Kijelentkezett",
+    "loadingData": "Felhasználói adatok betöltése"
+  }
+}

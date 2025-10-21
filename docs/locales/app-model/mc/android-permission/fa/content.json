@@ -1,0 +1,7 @@
+{
+  "androidPermission": {
+    "denied": "رد کردن",
+    "granted": "مجاز",
+    "shouldAskAgain": "غیر مجاز"
+  }
+}

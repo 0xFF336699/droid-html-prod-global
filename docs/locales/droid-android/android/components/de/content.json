@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Stornieren",
+    "ok": "Sicher",
+    "checkBoxText": "Gehen Sie innerhalb eines halben Monats direkt zur Autorisierung und das Fenster wird nicht mehr angezeigt.",
+    "content": "Für diese Funktion ist eine Barrierefreiheitsberechtigung erforderlich. Wenn Sie die Autorisierung durchführen möchten, klicken Sie bitte auf [OK]. Wenn Sie aufgeben möchten, klicken Sie bitte auf [Abbrechen].",
+    "title": "Antrag auf Genehmigung"
+  },
+  "floatPermission": {
+    "cancel": "Stornieren",
+    "ok": "Sicher",
+    "checkBoxText": "Gehen Sie innerhalb eines halben Monats direkt zur Autorisierung und das Fenster wird nicht mehr angezeigt.",
+    "content": "Für diese Funktion ist eine Autorisierung für die Floating-Window-Funktion erforderlich. Wenn Sie die Autorisierung durchführen möchten, klicken Sie bitte auf [OK]. Wenn Sie aufgeben möchten, klicken Sie bitte auf [Abbrechen].",
+    "title": "Antrag auf Genehmigung"
+  }
+}

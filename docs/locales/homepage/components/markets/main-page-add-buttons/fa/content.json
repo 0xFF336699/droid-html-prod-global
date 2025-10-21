@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "اضافه کردن به",
+    "sub": {
+      "addScriptByUrl": "اسکریپت را از طریق URL اضافه کنید",
+      "addScriptByText": "اضافه کردن اسکریپت از طریق متن",
+      "addMarket": "یک بازار با URL اضافه کنید",
+      "addMarketByText": "افزودن بازار از طریق متن"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "content": {
+    "projectNotExist": "Το έργο δεν υπάρχει",
+    "clickToSetProjectName": "Έργο χωρίς όνομα",
+    "projectTools": {
+      "run": "εργαλείο"
+    }
+  }
+}

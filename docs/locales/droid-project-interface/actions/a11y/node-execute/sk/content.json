@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Spustenie uzla",
+    "changeBtnLabel": "nahradiť",
+    "showNodeAllProperties": "Zobraziť všetky vlastnosti",
+    "wait": {
+      "time": "čakacia doba",
+      "interval": "čakacieho intervalu",
+      "invisible": "Či sa majú zisťovať prvky mimo obrazovky"
+    }
+  }
+}

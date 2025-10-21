@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Questa funzione può eseguire operazioni simili a quelle umane sul tuo telefono cellulare, inclusi ma non limitati a fare clic, aprire applicazioni, ecc. Può anche aprire alcune applicazioni di pagamento. Poiché esiste il rischio di registrare operazioni, effettuare pagamenti, ecc., ti consigliamo vivamente di eseguirlo solo se comprendi appieno il contenuto dello script.",
+    "txt2": "Come disattivare questa funzione: apri la home page di questa applicazione, puoi smettere di utilizzare la funzione ausiliaria nelle impostazioni della home page oppure puoi fare clic sul pulsante \"Chiudi tutte le attività ed esci\" sulla home page. Questo pulsante chiuderà forzatamente tutte le attività in corso e chiuderà forzatamente l'app.",
+    "txt3": "Il motivo per cui utilizziamo questa funzione è che la nostra applicazione deve essere in grado di aprire altre applicazioni ed eseguire alcune operazioni su di esse. Ad esempio, durante la navigazione su Instagram, può scorrere automaticamente verso l'alto dopo la riproduzione del video, verificare se un determinato prodotto è in vendita, inviare regolarmente messaggi agli amici online e altre operazioni interessanti o che fanno risparmiare lavoro.",
+    "iKnowDanger": "Sono consapevole dei rischi: vai alle impostazioni",
+    "title": "Operazione pericolosa"
+  }
+}

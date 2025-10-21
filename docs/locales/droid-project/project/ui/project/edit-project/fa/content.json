@@ -1,0 +1,9 @@
+{
+  "content": {
+    "projectNotExist": "پروژه وجود ندارد",
+    "clickToSetProjectName": "پروژه بی نام",
+    "projectTools": {
+      "run": "اجرا کنند"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "Fotoalbumservice",
+    "serverStatus": "Servicestatus",
+    "running": "Rennen",
+    "stopped": "Gestopt",
+    "port": "haven",
+    "token": "toegangstoken",
+    "permissionType": "toestemmingsmodus",
+    "contentResolver": "Systeemrechten",
+    "saf": "raamwerk voor bestandstoegang",
+    "startService": "Dienst starten",
+    "stopService": "Dienst stopzetten",
+    "checkPermissions": "Controleer machtigingen",
+    "requestPermissions": "Vraag toestemming aan",
+    "openAlbum": "Fotoalbum openen",
+    "copyToken": "kopieer teken",
+    "copyUrl": "Kopieer adres",
+    "permissionGranted": "Toestemming verleend",
+    "permissionDenied": "Toestemming geweigerd",
+    "serviceStarted": "De dienst is begonnen",
+    "serviceStopped": "De dienst is gestopt",
+    "error": "fout"
+  }
+}

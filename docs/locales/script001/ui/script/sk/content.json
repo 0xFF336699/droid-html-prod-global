@@ -1,0 +1,42 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Číslo, na ktoré chcete odosielať textové správy alebo uskutočňovať odchádzajúce hovory",
+          "label": "telefónne číslo",
+          "helperText": "Číslo, na ktoré chcete odosielať textové správy alebo uskutočňovať odchádzajúce hovory"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Cítim sa trochu zle, rýchlo poď ku mne! ! !",
+          "label": "obsah SMS",
+          "helperText": "obsah SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "zoznam príjemcov SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Mobilné číslo prijímača",
+          "label": "Mobilné číslo prijímača",
+          "helperText": "Mobilné číslo prijímača"
+        }
+      }
+    }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Vytvorte odkaz na volanie o pomoc jedným kliknutím",
+      "description": "Vytvorte si odkaz na pracovnej ploche telefónu"
+    },
+    "launcherName": "tiesňové volanie"
+  },
+  "SelectedContackList": {
+    "title": "núdzový kontakt"
+  }
+}

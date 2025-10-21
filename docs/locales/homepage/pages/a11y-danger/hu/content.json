@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Ez a funkció emberszerű műveleteket hajthat végre mobiltelefonján, beleértve, de nem kizárólagosan a kattintást, az alkalmazások megnyitását stb. Meg tud nyitni néhány fizetési alkalmazást fizetés céljából. Mivel fennáll a műveletek rögzítésének, kifizetéseinek stb. kockázata, erősen javasoljuk, hogy csak akkor hajtsa végre, ha teljesen megérti a szkript tartalmát.",
+    "txt2": "A funkció kikapcsolása: Nyissa meg ennek az alkalmazásnak a kezdőlapját, leállíthatja a segédfunkció használatát a kezdőlap beállításainál, vagy kattintson a \"Minden feladat bezárása és kilépés\" gombra a kezdőlapon. Ez a gomb erőszakkal bezárja az összes folyamatban lévő feladatot, és erőszakkal bezárja az alkalmazást.",
+    "txt3": "Azért használjuk ezt a funkciót, mert az alkalmazásunknak képesnek kell lennie más alkalmazások megnyitására, és bizonyos műveletek végrehajtására. Például az Instagram böngészésekor a videó lejátszása után automatikusan felcsúszhat, ellenőrizheti, hogy egy adott termék akciós-e, rendszeresen üzeneteket küldhet online ismerőseinek, és egyéb érdekes vagy munkakímélő műveleteket végezhet.",
+    "iKnowDanger": "Tisztában vagyok a kockázatokkal – lépjen a beállításokhoz",
+    "title": "Veszélyes működés"
+  }
+}

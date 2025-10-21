@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Izvršenje čvora",
+    "changeBtnLabel": "zamijeniti",
+    "showNodeAllProperties": "Prikaži sva svojstva",
+    "wait": {
+      "time": "vrijeme čekanja",
+      "interval": "interval čekanja",
+      "invisible": "Treba li otkriti elemente izvan zaslona"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "Serviciu album foto",
+    "serverStatus": "Starea serviciului",
+    "running": "Funcţionare",
+    "stopped": "oprit",
+    "port": "port",
+    "token": "jeton de acces",
+    "permissionType": "modul de permisiune",
+    "contentResolver": "Permisiuni de sistem",
+    "saf": "cadru de acces la fișiere",
+    "startService": "Începeți serviciul",
+    "stopService": "Opriți serviciul",
+    "checkPermissions": "Verificați permisiunile",
+    "requestPermissions": "Solicitați permisiunea",
+    "openAlbum": "Deschide albumul foto",
+    "copyToken": "token de copiere",
+    "copyUrl": "Copiați adresa",
+    "permissionGranted": "Permisiune acordată",
+    "permissionDenied": "Acces refuzat",
+    "serviceStarted": "Serviciul a început",
+    "serviceStopped": "Serviciul s-a oprit",
+    "error": "greşeală"
+  }
+}

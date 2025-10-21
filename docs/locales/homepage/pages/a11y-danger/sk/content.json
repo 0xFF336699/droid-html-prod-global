@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Táto funkcia môže na vašom mobilnom telefóne vykonávať operácie podobné ľuďom, vrátane, ale nie výlučne, klikania, otvárania aplikácií atď. Môže tiež otvárať niektoré platobné aplikácie na platbu. Pretože existuje riziko zaznamenávania operácií, uskutočňovania platieb atď., dôrazne odporúčame, aby ste to vykonali iba vtedy, ak plne rozumiete obsahu skriptu.",
+    "txt2": "Ako túto funkciu vypnúť: Otvorte domovskú stránku tejto aplikácie, v nastaveniach domovskej stránky môžete prestať používať pomocnú funkciu, alebo môžete na domovskej stránke kliknúť na tlačidlo „Zavrieť všetky úlohy a ukončiť“. Toto tlačidlo násilne zatvorí všetky prebiehajúce úlohy a násilne zatvorí aplikáciu.",
+    "txt3": "Dôvod, prečo používame túto funkciu, je ten, že naša aplikácia musí byť schopná otvárať iné aplikácie a vykonávať s nimi nejaké operácie. Napríklad pri prehliadaní Instagramu sa môže po prehratí videa automaticky posúvať nahor, kontrolovať, či je určitý produkt v akcii, pravidelne posielať správy online priateľom a ďalšie zaujímavé alebo prácu šetriace operácie.",
+    "iKnowDanger": "Som si vedomý rizík – prejdite do nastavení",
+    "title": "Nebezpečná operácia"
+  }
+}

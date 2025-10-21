@@ -1,0 +1,11 @@
+{
+  "content": {
+    "close": "penutup",
+    "layout": "tata letak",
+    "fullInfo": "data lengkap",
+    "title": "Baca grup tombol informasi a11y",
+    "multiWindow": "beberapa jendela",
+    "appWindow": "jendela tunggal",
+    "store": "toko"
+  }
+}

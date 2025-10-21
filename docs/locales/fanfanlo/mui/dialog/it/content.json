@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Cancellare",
+    "confirm": "Sicuro",
+    "title": "suggerimento",
+    "content": "Sei sicuro di volerlo fare?"
+  },
+  "EditableText": {
+    "cancel": "Cancellare",
+    "save": "salva",
+    "title": "modificare"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL-osoitemalli",
+    "full": {
+      "url": "Markkinoiden URL-osoite. Syötetyt merkit ladataan URL-osoitteena, ole varovainen.",
+      "html": "Markkinoi HTML-sisältöä. Syötettyjä merkkejä käsitellään skriptinä ja ne suoritetaan välittömästi, ole varovainen.",
+      "come": "Tule luokseni",
+      "myMarketName": "Markkinanimi",
+      "stroll": "Kävele"
+    },
+    "item": {
+      "url": "Market-kortin URL-osoite. Syötetyt merkit ladataan URL-osoitteena, ole varovainen.",
+      "html": "Markkinoi HTML-sisältöä. Syötettyjä merkkejä käsitellään skriptinä ja ne suoritetaan välittömästi, ole varovainen.",
+      "come": "Tule luokseni",
+      "myMarketName": "Markkinanimi",
+      "stroll": "Kävele"
+    }
+  }
+}

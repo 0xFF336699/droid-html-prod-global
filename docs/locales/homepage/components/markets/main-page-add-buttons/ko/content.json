@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "다음에 추가",
+    "sub": {
+      "addScriptByUrl": "URL을 통해 스크립트 추가",
+      "addScriptByText": "텍스트를 통해 스크립트 추가",
+      "addMarket": "URL로 시장 추가",
+      "addMarketByText": "텍스트를 통해 시장 추가"
+    }
+  }
+}

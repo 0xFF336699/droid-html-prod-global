@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "Infopalkin kuuntelija",
+    "settingsButtonLabel": "perustaa",
+    "clientsNum": "Yhdistetty:",
+    "notificationReadable": "Lukuoikeus:",
+    "notificationReadableYes": "On jo päällä",
+    "notificationReadableNo": "Ei päällä",
+    "socketServerStatus": "Socket-palvelin:",
+    "socketServerRunning": "Juoksemassa",
+    "socketServerStopped": "Pysähtynyt",
+    "socketServerStartButton": "Käynnistä palvelin",
+    "socketServerStopButton": "Pysäytä palvelin",
+    "foregroundService": {
+      "title": "Ilmoitusten kuuntelupalvelu",
+      "content": "Kuuntelee järjestelmän ilmoituksia",
+      "reason": "<h3>Ilmoitusten kuuntelupalvelu</h3><p>Tämän palvelun on oltava käynnissä taustalla, jotta se voi:</p><ul><li>lukea järjestelmän ilmoituksia reaaliajassa</li><li>työntää asiakkaalle Socketin kautta.</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "Tietopalkin asetukset"
+  },
+  "ScaneQRCodeButton": {
+    "name": "Skannaa koodi muodostaaksesi yhteyden"
+  },
+  "SettingPanel": {
+    "modalTitle": "Kuuntelijan asetukset",
+    "description": "Tämä toiminto käynnistää paikallisen palvelun ilmoitusviestien vastaanottamiseksi ja käsittelemiseksi Android-järjestelmän tilarivillä. Varmista, että portti ei ole varattu.",
+    "riskWarning": "Riskivaroitus: Kun otat tämän ominaisuuden käyttöön, sovellus voi lukea kaikki ilmoitusviestisi, jotka voivat sisältää arkaluonteisia tietoja. Käytä varoen.",
+    "portLabel": "huoltoportti",
+    "portRangeError": "Portin on oltava kokonaisluku välillä 1025–65535.",
+    "tokenLabel": "Käyttöoikeustunnus",
+    "cancelButton": "luovuttaa",
+    "applyButton": "käyttää"
+  }
+}

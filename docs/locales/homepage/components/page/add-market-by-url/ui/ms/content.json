@@ -1,0 +1,15 @@
+{
+  "content": {
+    "warning": "Oleh kerana aplikasi ini terpakai untuk sebilangan besar kebenaran pada telefon bimbit anda, banyak kebenaran sangat berisiko, jadi jangan mengimport atau melaksanakannya tanpa mengetahui risiko pasaran atau skrip. Sebaik sahaja anda memasukkan kandungan dalam kotak teks \"Pengenalan Kad Pasar\" atau \"Laman Web Bebas Pasaran\" di bawah, kandungan akan segera dilaksanakan sebagai kod, jadi sila beroperasi dengan berhati -hati.",
+    "setNewMarket": "Sediakan Pasar Baru",
+    "settingPreview": "Tetapkan Pratonton",
+    "marketName": "Nama pasaran",
+    "marketSummary": "Pengenalan Pasaran",
+    "marketDescription": "Pengenalan Pasaran",
+    "itemMarket": "Pengenalan kad pasaran",
+    "fullMarket": "Laman web bebas pasaran",
+    "marketCardPreview": "Pratonton Kad Pasar",
+    "marketFullPreview": "Pratonton laman web bebas pasaran",
+    "isNotSet": "tidak ditetapkan"
+  }
+}

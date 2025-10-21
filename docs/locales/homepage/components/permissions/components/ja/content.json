@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "認可された",
+    "notPass": "無許可",
+    "danger": "危険",
+    "setting": "設定"
+  }
+}

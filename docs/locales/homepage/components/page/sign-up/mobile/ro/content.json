@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "registru",
+    "phoneNumber": "Număr de telefon",
+    "phoneNumberPlaceholder": "Vă rugăm să introduceți numărul de telefon mobil",
+    "verificationCode": "Cod de verificare",
+    "verificationCodePlaceholder": "Vă rugăm să introduceți codul de verificare",
+    "getVerificationCode": "Obțineți codul de verificare",
+    "countdown": "Încercați din nou peste {{secunde}} secunde",
+    "register": "registru",
+    "errors": {
+      "phoneRequired": "Vă rugăm să introduceți numărul de telefon mobil",
+      "phoneInvalid": "Formatul numărului de telefon mobil este incorect",
+      "codeRequired": "Vă rugăm să introduceți codul de verificare",
+      "codeInvalid": "Formatul codului de verificare este incorect",
+      "requestFailed": "Solicitarea a eșuat",
+      "verificationFailed": "Nu s-a putut obține codul de verificare",
+      "loginFailed": "Autentificare eșuată"
+    },
+    "success": {
+      "verificationCodeSent": "Cod de verificare trimis",
+      "registerSuccess": "Înregistrare reușită"
+    }
+  }
+}

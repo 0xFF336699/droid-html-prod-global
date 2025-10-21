@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Mégsem",
+    "confirm": "Persze",
+    "title": "célzás",
+    "content": "Biztosan ezt akarod?"
+  },
+  "EditableText": {
+    "cancel": "Mégsem",
+    "save": "megtakarítás",
+    "title": "szerkeszteni"
+  }
+}

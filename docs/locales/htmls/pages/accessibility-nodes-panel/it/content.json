@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Visualizzazione dell'interfaccia di accessibilità",
+    "howToUse": "Istruzioni per l'uso",
+    "howToUseTooltip": "Di seguito sono riportati alcuni attributi dei contrassegni di questo nodo, che possono essere utilizzati per selezionare operazioni, come fare clic, inserire testo, ecc.\n\nI valori degli attributi potrebbero essere duplicati nella pagina dell'app. Se vengono rilevati duplicati, sovrapponi altri valori di attributo per determinarne l'unicità.\n\nLe parole rosse indicano che il valore dell'attributo è ripetuto, le parole verdi indicano che il valore dell'attributo è univoco nella ricerca della pagina corrente e le parole nere indicano che non vengono effettuati confronti ripetuti.",
+    "otherNodesSummary": "Altri nodi in questa posizione",
+    "moreNodes": "Ecco il contenuto espanso.",
+    "nodeInfoDialogOkButton": "Modifica il nodo",
+    "text": "Testo 2222"
+  }
+}

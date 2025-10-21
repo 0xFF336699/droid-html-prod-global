@@ -1,0 +1,101 @@
+{
+  "AddWindowButton": {
+    "add": "Aggiungi finestra mobile"
+  },
+  "AddWindowContent": {
+    "addButtonName": "aggiungere a",
+    "cancelButtonName": "Cancellare"
+  },
+  "AdvancedSection": {
+    "forceDismissWindowTimeLabel": "Tempo di spegnimento forzato (ms)",
+    "forceDismissWindowTimeHelper": "0 significa nessuno spegnimento automatico"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "Finestra mobile Android"
+  },
+  "EditWindowContent": {
+    "noWindowId": "Fornisci l'ID della finestra",
+    "windowConfNotFound": "Impossibile trovare la configurazione della finestra corrispondente"
+  },
+  "Step1BasicInfo": {
+    "title": "Configura le informazioni di base",
+    "description": "Immettere un nome e una descrizione identificativi della finestra. I nomi di identificazione vengono utilizzati per distinguere diverse configurazioni di finestre.",
+    "tagLabel": "ID della finestra",
+    "tagDesc": "Utilizzato per identificare in modo univoco questa configurazione di finestra",
+    "tagPlaceholder": "Ad esempio: news_reader, float_timer",
+    "tagHelper": "Nome della finestra per la propria identificazione.",
+    "descriptionLabel": "Descrizione della finestra",
+    "descriptionDesc": "Descrivere lo scopo di questa configurazione della finestra",
+    "descriptionPlaceholder": "Descrivi lo scopo e la funzionalità di questa finestra"
+  },
+  "Step2HtmlConf": {
+    "title": "Configura il contenuto HTML",
+    "description": "Specifica cosa viene visualizzato nella finestra. Le pagine Web possono essere caricate tramite URL oppure il codice HTML può essere scritto direttamente.",
+    "urlLabel": "URL del contenuto",
+    "urlDesc": "L'indirizzo della pagina Web o l'URL locale da caricare",
+    "urlPlaceholder": "Ad esempio: https://example.com o about:blank",
+    "htmlLabel": "Incorpora il codice HTML",
+    "htmlDesc": "Scrivi direttamente il codice HTML (l'URL verrà sovrascritto se fornito)",
+    "htmlPlaceholder": "<h1>Ciao mondo</h1>",
+    "htmlHelper": "Scegli tra URL e codice HTML, forniscine almeno uno",
+    "quickFill": "Riempimento rapido:",
+    "fillBlankPage": "Utilizza una pagina vuota (about:blank)",
+    "fillExampleHtml": "Utilizzando l'HTML di esempio"
+  },
+  "Step3WindowType": {
+    "title": "Configura le opzioni specifiche della finestra",
+    "description": "Seleziona il tipo di finestra e le opzioni specifiche del tipo di configurazione.",
+    "windowTypeLabel": "tipo di finestra",
+    "windowTypeDesc": "Float: finestra mobile | Finestra di dialogo: finestra di dialogo | Sistema: finestra di sistema",
+    "floatDesc": "Le finestre mobili possono essere trascinate liberamente sullo schermo, adatte per la visualizzazione dei contenuti in tempo reale",
+    "dialogDesc": "La finestra di dialogo verrà sovrapposta ad altre applicazioni, adatte per promemoria importanti",
+    "systemDesc": "La finestra di sistema è la finestra con la massima autorità ed è adatta per funzioni a livello di sistema.",
+    "floatConfig": "Configurazione galleggiante",
+    "dialogConfig": "Configurazione della finestra di dialogo",
+    "systemConfig": "Configurazione della finestra di sistema (Sistema)."
+  },
+  "Step4Advanced": {
+    "title": "Configura le opzioni avanzate",
+    "description": "Queste opzioni solitamente hanno valori predefiniti e non necessitano di essere modificate. Regolare solo quando necessario.",
+    "dismissTimeLabel": "Tempo di spegnimento forzato (ms)",
+    "dismissTimeDesc": "Il tempo necessario alla chiusura automatica della finestra (millisecondi, 0 significa non chiudersi automaticamente)",
+    "dismissTimeHelper": "Lascia vuoto o inserisci 0 per indicare che la finestra non si chiuderà automaticamente.",
+    "webViewConfig": "Configurazione WebView",
+    "completeSummary": "✓ Configurazione completata!",
+    "summaryTag": "Logo:",
+    "summaryType": "tipo:",
+    "summaryUrl": "URL:",
+    "summaryHtml": "HTML:"
+  },
+  "WindowConfList": {
+    "title": "Elenco di configurazione delle finestre",
+    "empty": "Nessuna configurazione della finestra ancora",
+    "deleteConfirmTitle": "Conferma l'eliminazione",
+    "deleteConfirmMessage": "Sei sicuro di voler eliminare questa configurazione di finestra? Questa azione non può essere annullata.",
+    "deleteCancel": "Cancellare",
+    "deleteConfirm": "eliminare"
+  },
+  "WindowConfPreview": {
+    "windowType": "tipo di finestra",
+    "contentType": "Tipo di contenuto",
+    "noDescription": "Nessuna descrizione",
+    "windowId": "ID",
+    "forceDismissTime": "Orario di chiusura forzata",
+    "detailEdit": "Modifica dettagliata",
+    "delete": "eliminare"
+  },
+  "WindowConfWizard": {
+    "basicInfo": "Informazioni di base",
+    "htmlContent": "Contenuto HTML",
+    "windowConfig": "Configurazione della finestra",
+    "advancedOptions": "Opzioni avanzate",
+    "cancel": "Cancellare",
+    "previousStep": "Passaggio precedente",
+    "nextStep": "Prossimo passo",
+    "completeCreate": "Creazione completa",
+    "validationError": "Si prega di compilare tutti i campi obbligatori"
+  },
+  "WindowPageContent": {
+    "title": "Finestra mobile Android"
+  }
+}

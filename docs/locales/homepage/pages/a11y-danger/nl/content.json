@@ -1,0 +1,9 @@
+{
+  "content": {
+    "txt1": "Deze functie kan mensachtige handelingen uitvoeren op uw mobiele telefoon, inclusief maar niet beperkt tot klikken, applicaties openen, enz. Het kan ook bepaalde betalingsapplicaties openen voor betaling. Omdat er een risico bestaat op het vastleggen van handelingen, het doen van betalingen etc., raden wij u ten zeerste aan om het alleen uit te voeren als u de inhoud van het script volledig begrijpt.",
+    "txt2": "Zo schakelt u deze functie uit: Open de startpagina van deze applicatie, u kunt het gebruik van de hulpfunctie stopzetten in de startpagina-instellingen, of u kunt op de startpagina op de knop \"Alle taken sluiten en afsluiten\" klikken. Deze knop sluit alle lopende taken geforceerd af en sluit de app geforceerd af.",
+    "txt3": "De reden dat we deze functie gebruiken is dat onze applicatie andere applicaties moet kunnen openen en er bepaalde bewerkingen op moet kunnen uitvoeren. Als je bijvoorbeeld op Instagram surft, kan het automatisch omhoog schuiven nadat de video is afgespeeld, controleren of een bepaald product in de aanbieding is, regelmatig berichten sturen naar online vrienden en andere interessante of arbeidsbesparende handelingen.",
+    "iKnowDanger": "Ik ben me bewust van de risico's. Ga naar instellingen",
+    "title": "Gevaarlijke operatie"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "ลงทะเบียน",
+    "phoneNumber": "หมายเลขโทรศัพท์",
+    "phoneNumberPlaceholder": "กรุณากรอกหมายเลขโทรศัพท์มือถือ",
+    "verificationCode": "รหัสยืนยัน",
+    "verificationCodePlaceholder": "กรุณากรอกรหัสยืนยัน",
+    "getVerificationCode": "รับรหัสยืนยัน",
+    "countdown": "ลองอีกครั้งใน {{seconds}} วินาที",
+    "register": "ลงทะเบียน",
+    "errors": {
+      "phoneRequired": "กรุณากรอกหมายเลขโทรศัพท์มือถือ",
+      "phoneInvalid": "รูปแบบหมายเลขโทรศัพท์มือถือไม่ถูกต้อง",
+      "codeRequired": "กรุณากรอกรหัสยืนยัน",
+      "codeInvalid": "รูปแบบรหัสยืนยันไม่ถูกต้อง",
+      "requestFailed": "คำขอล้มเหลว",
+      "verificationFailed": "ไม่สามารถรับรหัสยืนยันได้",
+      "loginFailed": "การเข้าสู่ระบบล้มเหลว"
+    },
+    "success": {
+      "verificationCodeSent": "ส่งรหัสยืนยันแล้ว",
+      "registerSuccess": "การลงทะเบียนสำเร็จ"
+    }
+  }
+}

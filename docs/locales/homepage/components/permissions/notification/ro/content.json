@@ -1,0 +1,7 @@
+{
+  "NotificationOpenButton": {
+    "name": "Bara de notificări se citește",
+    "description": "Activați permisiunea de citire a barei de notificări",
+    "setting": "înființat"
+  }
+}

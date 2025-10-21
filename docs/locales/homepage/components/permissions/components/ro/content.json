@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Autorizat",
+    "notPass": "Neautorizat",
+    "danger": "Pericol",
+    "setting": "înființat"
+  }
+}

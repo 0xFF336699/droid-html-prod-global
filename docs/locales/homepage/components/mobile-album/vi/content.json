@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "Dịch vụ album ảnh",
+    "serverStatus": "Trạng thái dịch vụ",
+    "running": "Đang chạy",
+    "stopped": "Đã dừng",
+    "port": "hải cảng",
+    "token": "mã thông báo truy cập",
+    "permissionType": "chế độ cho phép",
+    "contentResolver": "Quyền hệ thống",
+    "saf": "khung truy cập tập tin",
+    "startService": "Bắt đầu dịch vụ",
+    "stopService": "Dừng dịch vụ",
+    "checkPermissions": "Kiểm tra quyền",
+    "requestPermissions": "Xin giấy phép",
+    "openAlbum": "Mở album ảnh",
+    "copyToken": "sao chép mã thông báo",
+    "copyUrl": "Sao chép địa chỉ",
+    "permissionGranted": "Đã cấp quyền",
+    "permissionDenied": "Quyền bị từ chối",
+    "serviceStarted": "Dịch vụ đã bắt đầu",
+    "serviceStopped": "Dịch vụ đã dừng",
+    "error": "sai lầm"
+  }
+}

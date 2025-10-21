@@ -1,0 +1,8 @@
+{
+  "SummaryProjectList": {
+    "edit": "editar",
+    "delete": "borrar",
+    "run": "correr",
+    "stop": "detener"
+  }
+}

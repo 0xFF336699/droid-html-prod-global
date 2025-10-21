@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "Infobar-Listener",
+    "settingsButtonLabel": "aufstellen",
+    "clientsNum": "Verbunden:",
+    "notificationReadable": "Leseberechtigung:",
+    "notificationReadableYes": "Bereits eingeschaltet",
+    "notificationReadableNo": "Nicht eingeschaltet",
+    "socketServerStatus": "Socket-Server:",
+    "socketServerRunning": "Läuft",
+    "socketServerStopped": "Angehalten",
+    "socketServerStartButton": "Starten Sie den Server",
+    "socketServerStopButton": "Stoppen Sie den Server",
+    "foregroundService": {
+      "title": "Benachrichtigungs-Abhördienst",
+      "content": "Auf Systembenachrichtigungen warten",
+      "reason": "<h3>Benachrichtigungsüberwachungsdienst</h3><p>Dieser Dienst muss weiterhin im Hintergrund ausgeführt werden, um:</p><ul><li>Systembenachrichtigungen in Echtzeit zu lesen</li><li>Über Socket an den Client zu senden</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "Einstellungen der Informationsleiste"
+  },
+  "ScaneQRCodeButton": {
+    "name": "Scannen Sie den Code, um eine Verbindung herzustellen"
+  },
+  "SettingPanel": {
+    "modalTitle": "Listener-Einstellungen",
+    "description": "Diese Funktion startet einen lokalen Dienst zum Empfangen und Verarbeiten von Benachrichtigungsmeldungen in der Statusleiste des Android-Systems. Bitte stellen Sie sicher, dass der Port nicht belegt ist.",
+    "riskWarning": "Risikowarnung: Wenn Sie diese Funktion aktivieren, kann die App alle Ihre Benachrichtigungen lesen, die möglicherweise vertrauliche Informationen enthalten. Bitte mit Vorsicht verwenden.",
+    "portLabel": "Servicehafen",
+    "portRangeError": "Der Port muss eine Ganzzahl zwischen 1025 und 65535 sein.",
+    "tokenLabel": "Zugriffstoken",
+    "cancelButton": "aufgeben",
+    "applyButton": "verwenden"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "зарегистрироваться",
+    "phoneNumber": "Номер телефона",
+    "phoneNumberPlaceholder": "Пожалуйста, введите номер мобильного телефона",
+    "verificationCode": "Проверочный код",
+    "verificationCodePlaceholder": "Пожалуйста, введите проверочный код",
+    "getVerificationCode": "Получить код подтверждения",
+    "countdown": "Повторите попытку через {{секунды}} секунд.",
+    "register": "зарегистрироваться",
+    "errors": {
+      "phoneRequired": "Пожалуйста, введите номер мобильного телефона",
+      "phoneInvalid": "Неверный формат номера мобильного телефона",
+      "codeRequired": "Пожалуйста, введите проверочный код",
+      "codeInvalid": "Неправильный формат кода подтверждения.",
+      "requestFailed": "Запрос не выполнен",
+      "verificationFailed": "Не удалось получить код подтверждения",
+      "loginFailed": "Ошибка входа"
+    },
+    "success": {
+      "verificationCodeSent": "Код подтверждения отправлен",
+      "registerSuccess": "Регистрация прошла успешно"
+    }
+  }
+}

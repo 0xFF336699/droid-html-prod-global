@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Tilgængelighed",
+    "pass": "Autoriseret",
+    "notPass": "Uberettiget",
+    "setting": "sætte op",
+    "danger": "Fare",
+    "dangerDesc": "Denne autorisation giver dig mulighed for at se, hvad der er på skærmen og udføre klik på din telefon. Deaktiver venligst denne tilladelse, hvis du ikke tydeligt forstår funktionaliteten og risiciene ved det script, du kører eller er ved at køre."
+  }
+}

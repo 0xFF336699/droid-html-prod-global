@@ -1,0 +1,9 @@
+{
+  "content": {
+    "create": "stvoriti",
+    "delete": "izbrisati",
+    "confirmDelete": "Jeste li sigurni da želite izbrisati ovu stavku?",
+    "cancel": "odustati",
+    "title": "upozoriti"
+  }
+}

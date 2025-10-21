@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "つながりを保つ",
+        "helperText": "クリックしてリンクを開始すると、リンクは維持されるため、リンクが切断された後も再接続し続けることに注意する必要があります。",
+        "retryCount": "再接続数"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "リンク URL (ws://192.168.0.2:7001、wws://example.com/path など)",
+        "error": "正しい URL は、ws:// または wwws:// で始まる URL です。"
+      }
+    },
+    "connectButton": {
+      "connect": "接続する",
+      "disconnect": "切断する",
+      "status": {
+        "connecting": "接続中...",
+        "connected": "接続済み",
+        "disconnecting": "切断中...",
+        "disconnected": "接続されていません",
+        "waitRetry": "再接続を待っています..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "スクリプト"
+  }
+}

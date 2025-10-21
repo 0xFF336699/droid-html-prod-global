@@ -1,0 +1,6 @@
+{
+  "FloatingInfo": {
+    "name": "fenêtre flottante",
+    "dangerDesc": "Cette autorisation permet à cette application d'être suspendue ou masquée par rapport à d'autres applications. Vous devez vous protéger contre les scripts malveillants utilisant cette autorisation."
+  }
+}

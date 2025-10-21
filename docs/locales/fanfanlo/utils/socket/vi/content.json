@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "Đang kết nối...",
+    "connected": "Đã kết nối",
+    "disconnecting": "Đang ngắt kết nối...",
+    "disconnected": "Không được kết nối",
+    "waitRetry": "Đang chờ kết nối lại..."
+  }
+}

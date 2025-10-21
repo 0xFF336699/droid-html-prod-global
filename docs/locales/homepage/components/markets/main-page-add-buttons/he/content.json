@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "הוסף ל",
+    "sub": {
+      "addScriptByUrl": "הוסף סקריפט באמצעות כתובת URL",
+      "addScriptByText": "הוסף סקריפט באמצעות טקסט",
+      "addMarket": "הוסף שוק לפי כתובת אתר",
+      "addMarketByText": "הוסף שוק באמצעות טקסט"
+    }
+  }
+}

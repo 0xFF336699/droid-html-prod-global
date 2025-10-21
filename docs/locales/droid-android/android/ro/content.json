@@ -1,0 +1,8 @@
+{
+  "WebViewJs": {
+    "error": {
+      "notInAndroid": "Această metodă poate fi apelată numai pe Android",
+      "noMethod": "Această metodă nu există"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "zkratka",
+    "title": "Identifikace balíku a aktivity",
+    "useBtn": "použití",
+    "closeBtn": "uzavření",
+    "pnLabel": "název balíčku",
+    "copyButtonText": "kopie",
+    "anLabel": "aktivita",
+    "clsLable": "třída"
+  }
+}

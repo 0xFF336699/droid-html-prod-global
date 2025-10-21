@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "מְקַשֵׁר...",
+    "connected": "מְחוּבָּר",
+    "disconnecting": "מתנתק...",
+    "disconnected": "לא מחובר",
+    "waitRetry": "ממתין לחיבור מחדש..."
+  }
+}

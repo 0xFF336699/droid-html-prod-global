@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "Fotoğraf albümü hizmeti",
+    "serverStatus": "Hizmet durumu",
+    "running": "Koşma",
+    "stopped": "Durduruldu",
+    "port": "liman",
+    "token": "erişim belirteci",
+    "permissionType": "izin modu",
+    "contentResolver": "Sistem izinleri",
+    "saf": "dosya erişim çerçevesi",
+    "startService": "Hizmeti başlat",
+    "stopService": "Hizmeti durdur",
+    "checkPermissions": "İzinleri kontrol edin",
+    "requestPermissions": "İzin için başvur",
+    "openAlbum": "Fotoğraf albümünü aç",
+    "copyToken": "belirteci kopyala",
+    "copyUrl": "Adresi kopyala",
+    "permissionGranted": "İzin verildi",
+    "permissionDenied": "İzin reddedildi",
+    "serviceStarted": "Servis başladı",
+    "serviceStopped": "Hizmet durduruldu",
+    "error": "hata"
+  }
+}

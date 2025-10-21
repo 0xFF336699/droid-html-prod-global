@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "shortcut",
+    "title": "Package and activity identification",
+    "useBtn": "use",
+    "closeBtn": "closure",
+    "pnLabel": "package name",
+    "copyButtonText": "copy",
+    "anLabel": "activity",
+    "clsLable": "class"
+  }
+}

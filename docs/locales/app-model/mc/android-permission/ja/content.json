@@ -1,0 +1,7 @@
+{
+  "androidPermission": {
+    "denied": "拒否する",
+    "granted": "認可された",
+    "shouldAskAgain": "無許可"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "اضافه کردن بازار",
+    "url": "URL بازار",
+    "summary": "خلاصه بازار",
+    "urlIsNotValid": "URL بازار نادرست است"
+  }
+}

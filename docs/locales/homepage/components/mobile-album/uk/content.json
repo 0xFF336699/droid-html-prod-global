@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "Сервіс фотоальбомів",
+    "serverStatus": "Статус служби",
+    "running": "Біг",
+    "stopped": "Зупинився",
+    "port": "порт",
+    "token": "маркер доступу",
+    "permissionType": "режим дозволу",
+    "contentResolver": "Системні дозволи",
+    "saf": "структура доступу до файлів",
+    "startService": "Запустити службу",
+    "stopService": "Зупинити службу",
+    "checkPermissions": "Перевірте дозволи",
+    "requestPermissions": "Звернутися за дозволом",
+    "openAlbum": "Відкрити фотоальбом",
+    "copyToken": "скопіювати маркер",
+    "copyUrl": "Скопіюйте адресу",
+    "permissionGranted": "Дозвіл надано",
+    "permissionDenied": "У дозволі відмовлено",
+    "serviceStarted": "Обслуговування розпочато",
+    "serviceStopped": "Обслуговування зупинено",
+    "error": "помилка"
+  }
+}

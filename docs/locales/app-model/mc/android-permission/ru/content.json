@@ -1,0 +1,7 @@
+{
+  "androidPermission": {
+    "denied": "отклонять",
+    "granted": "Авторизованный",
+    "shouldAskAgain": "Несанкционированный"
+  }
+}

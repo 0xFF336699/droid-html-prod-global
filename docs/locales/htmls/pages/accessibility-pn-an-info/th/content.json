@@ -1,0 +1,12 @@
+{
+  "content": {
+    "appName": "ทางลัด",
+    "title": "การระบุแพ็คเกจและกิจกรรม",
+    "useBtn": "ใช้",
+    "closeBtn": "ปิด",
+    "pnLabel": "ชื่อแพ็คเกจ",
+    "copyButtonText": "สำเนา",
+    "anLabel": "กิจกรรม",
+    "clsLable": "ระดับ"
+  }
+}

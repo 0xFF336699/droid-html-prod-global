@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Pristupačnost",
+    "pass": "Ovlašten",
+    "notPass": "Neovlašteno",
+    "setting": "postaviti",
+    "danger": "Opasnost",
+    "dangerDesc": "Ova autorizacija vam omogućuje da vidite što je na ekranu i obavljate klikove na svom telefonu. Onemogućite ovu dozvolu ako ne razumijete jasno funkcionalnost i rizike skripte koju izvodite ili ćete pokrenuti."
+  }
+}

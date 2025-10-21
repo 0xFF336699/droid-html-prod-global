@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "Padrão de URL",
+    "full": {
+      "url": "URL do mercado. Os caracteres inseridos serão carregados como uma URL, tome cuidado.",
+      "html": "Comercialize conteúdo HTML. Os caracteres inseridos serão tratados como um script e executados imediatamente, tome cuidado.",
+      "come": "Venha até mim",
+      "myMarketName": "Nome do mercado",
+      "stroll": "Dar um passeio"
+    },
+    "item": {
+      "url": "URL do cartão de mercado. Os caracteres inseridos serão carregados como uma URL, tome cuidado.",
+      "html": "Comercialize conteúdo HTML. Os caracteres inseridos serão tratados como um script e executados imediatamente, tome cuidado.",
+      "come": "Venha até mim",
+      "myMarketName": "Nome do mercado",
+      "stroll": "Dar um passeio"
+    }
+  }
+}

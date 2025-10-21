@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Giriş yap/Kayıt ol",
+    "signOut": "Oturumu kapat",
+    "confirmContent": "Oturumu kapatmak istediğinizden emin misiniz?",
+    "confirmTitle": "ipucu",
+    "confirm": "Elbette",
+    "cancel": "İptal etmek",
+    "signoutOk": "Çıkış yapıldı",
+    "loadingData": "Kullanıcı verileri yükleniyor"
+  }
+}

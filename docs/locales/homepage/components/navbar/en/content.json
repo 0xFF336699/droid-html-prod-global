@@ -1,0 +1,11 @@
+{
+  "NavBar": {
+    "home": "front page",
+    "me": "mine",
+    "settings": "set up",
+    "script": "script",
+    "store": "market",
+    "market": "market",
+    "create": "create"
+  }
+}

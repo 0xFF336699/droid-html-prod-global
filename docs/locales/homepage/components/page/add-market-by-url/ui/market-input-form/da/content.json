@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL-mønster",
+    "full": {
+      "url": "Markeds-URL. De indtastede tegn vil blive indlæst som en URL, vær forsigtig.",
+      "html": "Markedsfør HTML-indhold. De indtastede tegn vil blive behandlet som et script og eksekveret med det samme. Vær forsigtig.",
+      "come": "Kom til mig",
+      "myMarketName": "Markedsnavn",
+      "stroll": "Gå en tur"
+    },
+    "item": {
+      "url": "Markedskorts URL. De indtastede tegn vil blive indlæst som en URL, vær forsigtig.",
+      "html": "Markedsfør HTML-indhold. De indtastede tegn vil blive behandlet som et script og eksekveret med det samme. Vær forsigtig.",
+      "come": "Kom til mig",
+      "myMarketName": "Markedsnavn",
+      "stroll": "Gå en tur"
+    }
+  }
+}

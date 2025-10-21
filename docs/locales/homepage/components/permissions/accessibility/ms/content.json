@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Kebolehcapaian",
+    "pass": "Dibenarkan",
+    "notPass": "Tidak dibenarkan",
+    "setting": "Sediakan",
+    "danger": "Bahaya",
+    "dangerDesc": "Kebenaran ini membolehkan anda melihat apa yang ada di skrin dan melakukan klik pada telefon anda. Sila lumpuhkan kebenaran ini jika anda tidak memahami dengan jelas fungsi dan risiko skrip yang anda jalankan atau hendak dijalankan."
+  }
+}

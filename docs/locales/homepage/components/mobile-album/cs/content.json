@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "Služba fotoalba",
+    "serverStatus": "Stav služby",
+    "running": "Běh",
+    "stopped": "Zastaveno",
+    "port": "přístav",
+    "token": "přístupový token",
+    "permissionType": "režim povolení",
+    "contentResolver": "Systémová oprávnění",
+    "saf": "rámec pro přístup k souborům",
+    "startService": "Spusťte službu",
+    "stopService": "Zastavit službu",
+    "checkPermissions": "Zkontrolujte oprávnění",
+    "requestPermissions": "Požádejte o povolení",
+    "openAlbum": "Otevřete fotoalbum",
+    "copyToken": "kopírovat token",
+    "copyUrl": "Zkopírujte adresu",
+    "permissionGranted": "Povolení uděleno",
+    "permissionDenied": "Povolení odepřeno",
+    "serviceStarted": "Služba byla zahájena",
+    "serviceStopped": "Služba se zastavila",
+    "error": "chyba"
+  }
+}

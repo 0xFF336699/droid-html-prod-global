@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Legg til",
+    "sub": {
+      "addScriptByUrl": "Legg til skript via URL",
+      "addScriptByText": "Legg til skript via tekst",
+      "addMarket": "Legg til et marked etter URL",
+      "addMarketByText": "Legg til marked via tekst"
+    }
+  }
+}

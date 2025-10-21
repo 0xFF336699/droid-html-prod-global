@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Prístupnosť",
+    "pass": "Autorizované",
+    "notPass": "Neoprávnené",
+    "setting": "nastaviť",
+    "danger": "Nebezpečenstvo",
+    "dangerDesc": "Táto autorizácia vám umožňuje vidieť, čo je na obrazovke, a vykonávať kliknutia na telefóne. Zakážte toto povolenie, ak jasne nerozumiete funkciám a rizikám skriptu, ktorý spúšťate alebo sa chystáte spustiť."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "情報バーリスナー",
+    "settingsButtonLabel": "設定",
+    "clientsNum": "接続済み:",
+    "notificationReadable": "読み取り権限:",
+    "notificationReadableYes": "すでにオンになっています",
+    "notificationReadableNo": "電源が入っていない",
+    "socketServerStatus": "ソケットサーバー:",
+    "socketServerRunning": "ランニング",
+    "socketServerStopped": "停止しました",
+    "socketServerStartButton": "サーバーを起動します",
+    "socketServerStopButton": "サーバーを停止する",
+    "foregroundService": {
+      "title": "通知聴取サービス",
+      "content": "システム通知をリッスンしています",
+      "reason": "<h3>通知リスニング サービス</h3><p>このサービスは、次の目的でバックグラウンドで実行し続ける必要があります。</p><ul><li>システム通知をリアルタイムで読み取る</li><li>ソケット経由でクライアントにプッシュする</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "情報バーの設定"
+  },
+  "ScaneQRCodeButton": {
+    "name": "コードをスキャンして接続します"
+  },
+  "SettingPanel": {
+    "modalTitle": "リスナー設定",
+    "description": "この関数は、Android システム ステータス バーで通知メッセージを受信して​​処理するためのローカル サービスを開始します。ポートが占有されていないことを確認してください。",
+    "riskWarning": "リスク警告: この機能をオンにすると、アプリは機密情報を含む可能性のあるすべての通知メッセージを読み取ることができます。慎重にご使用ください。",
+    "portLabel": "サービスポート",
+    "portRangeError": "ポートは 1025 ～ 65535 の整数である必要があります。",
+    "tokenLabel": "アクセストークン",
+    "cancelButton": "あきらめる",
+    "applyButton": "使用"
+  }
+}

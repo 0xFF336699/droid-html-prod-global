@@ -1,0 +1,42 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Numer, na który chcesz wysyłać wiadomości tekstowe lub wykonywać połączenia wychodzące",
+          "label": "numer telefonu",
+          "helperText": "Numer, na który chcesz wysyłać wiadomości tekstowe lub wykonywać połączenia wychodzące"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Źle się czuję, przyjdź szybko do mnie! ! !",
+          "label": "Treść SMS-a",
+          "helperText": "Treść SMS-a"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Lista odbiorców SMS-ów"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Numer telefonu komórkowego odbiorcy",
+          "label": "Numer telefonu komórkowego odbiorcy",
+          "helperText": "Numer telefonu komórkowego odbiorcy"
+        }
+      }
+    }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Utwórz skrót do wezwania pomocy jednym kliknięciem",
+      "description": "Utwórz skrót na pulpicie telefonu"
+    },
+    "launcherName": "połączenie alarmowe"
+  },
+  "SelectedContackList": {
+    "title": "kontakt awaryjny"
+  }
+}

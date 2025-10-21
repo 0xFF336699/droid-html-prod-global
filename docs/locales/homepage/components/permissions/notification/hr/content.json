@@ -1,0 +1,7 @@
+{
+  "NotificationOpenButton": {
+    "name": "Traka obavijesti čita",
+    "description": "Uključite dopuštenje za čitanje trake obavijesti",
+    "setting": "postaviti"
+  }
+}

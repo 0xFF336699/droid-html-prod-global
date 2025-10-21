@@ -1,0 +1,7 @@
+{
+  "androidPermission": {
+    "denied": "menolak",
+    "granted": "Dibenarkan",
+    "shouldAskAgain": "Tidak dibenarkan"
+  }
+}

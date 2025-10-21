@@ -1,0 +1,7 @@
+{
+  "ITriggerTimeout": {
+    "title": "Καθυστερημένη εκτέλεση",
+    "content_delay": "Καθυστέρηση",
+    "content_milliseconds": "Εκτέλεση μετά από χιλιοστά του δευτερολέπτου"
+  }
+}

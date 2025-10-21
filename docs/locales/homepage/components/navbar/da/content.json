@@ -1,0 +1,11 @@
+{
+  "NavBar": {
+    "home": "forsiden",
+    "me": "mine",
+    "settings": "sætte op",
+    "script": "manuskript",
+    "store": "marked",
+    "market": "marked",
+    "create": "skabe"
+  }
+}

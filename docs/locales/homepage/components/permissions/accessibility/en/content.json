@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Accessibility",
+    "pass": "Authorized",
+    "notPass": "Unauthorized",
+    "setting": "set up",
+    "danger": "Danger",
+    "dangerDesc": "This authorization allows you to see what's on the screen and perform clicks on your phone. Please disable this permission if you do not clearly understand the functionality and risks of the script you are running or about to run."
+  }
+}

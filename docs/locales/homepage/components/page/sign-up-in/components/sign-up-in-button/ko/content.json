@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "로그인/회원가입",
+    "signOut": "로그아웃",
+    "confirmContent": "정말로 로그아웃하시겠습니까?",
+    "confirmTitle": "힌트",
+    "confirm": "확신하는",
+    "cancel": "취소",
+    "signoutOk": "로그아웃됨",
+    "loadingData": "사용자 데이터 로드 중"
+  }
+}

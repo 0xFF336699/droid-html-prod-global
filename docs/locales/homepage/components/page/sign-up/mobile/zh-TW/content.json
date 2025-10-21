@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "註冊",
+    "phoneNumber": "手機號",
+    "phoneNumberPlaceholder": "請輸入手機號",
+    "verificationCode": "驗證碼",
+    "verificationCodePlaceholder": "請輸入驗證碼",
+    "getVerificationCode": "獲取驗證碼",
+    "countdown": "{{seconds}}秒後重試",
+    "register": "註冊",
+    "errors": {
+      "phoneRequired": "請輸入手機號",
+      "phoneInvalid": "手機號格式不正確",
+      "codeRequired": "請輸入驗證碼",
+      "codeInvalid": "驗證碼格式不正確",
+      "requestFailed": "請求失敗",
+      "verificationFailed": "驗證碼獲取失敗",
+      "loginFailed": "登錄失敗"
+    },
+    "success": {
+      "verificationCodeSent": "驗證碼已發送",
+      "registerSuccess": "註冊成功"
+    }
+  }
+}

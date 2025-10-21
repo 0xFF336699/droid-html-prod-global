@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "pozostań w kontakcie",
+        "helperText": "Jeśli klikniesz, aby uruchomić łącze, zachowaj łącze, więc musisz zwrócić uwagę na to, że łącze będzie się ponownie łączyć po jego rozłączeniu.",
+        "retryCount": "Liczba ponownych połączeń"
+      },
+      "url": {
+        "name": "Adres URL",
+        "helperText": "Adres URL łącza, taki jak ws://192.168.0.2:7001 lub wws://example.com/path",
+        "error": "Poprawny adres URL to adres URL zaczynający się od ws:// lub wwws://"
+      }
+    },
+    "connectButton": {
+      "connect": "łączyć",
+      "disconnect": "Odłączyć",
+      "status": {
+        "connecting": "Złączony...",
+        "connected": "Połączony",
+        "disconnecting": "Rozłączanie...",
+        "disconnected": "Nie podłączony",
+        "waitRetry": "Oczekiwanie na ponowne połączenie..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "scenariusz"
+  }
+}

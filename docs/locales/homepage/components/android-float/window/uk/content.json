@@ -1,0 +1,101 @@
+{
+  "AddWindowButton": {
+    "add": "Додати плаваюче вікно"
+  },
+  "AddWindowContent": {
+    "addButtonName": "Додати до",
+    "cancelButtonName": "Скасувати"
+  },
+  "AdvancedSection": {
+    "forceDismissWindowTimeLabel": "Час примусового відключення (мс)",
+    "forceDismissWindowTimeHelper": "0 означає відсутність автоматичного вимкнення"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "Плаваюче вікно Android"
+  },
+  "EditWindowContent": {
+    "noWindowId": "Укажіть ідентифікатор вікна",
+    "windowConfNotFound": "Відповідна конфігурація вікна не знайдена"
+  },
+  "Step1BasicInfo": {
+    "title": "Налаштуйте основну інформацію",
+    "description": "Введіть назву та опис вікна. Ідентифікаційні назви використовуються для розрізнення різних конфігурацій вікон.",
+    "tagLabel": "ID вікна",
+    "tagDesc": "Використовується для унікальної ідентифікації цієї конфігурації вікна",
+    "tagPlaceholder": "Наприклад: news_reader, floating_timer",
+    "tagHelper": "Назва вікна для вашої ідентифікації.",
+    "descriptionLabel": "Опис вікна",
+    "descriptionDesc": "Опишіть призначення цієї конфігурації вікна",
+    "descriptionPlaceholder": "Опишіть призначення та функції цього вікна"
+  },
+  "Step2HtmlConf": {
+    "title": "Налаштувати вміст HTML",
+    "description": "Визначає, що відображає вікно. Веб-сторінки можна завантажувати через URL-адресу або безпосередньо писати HTML-код.",
+    "urlLabel": "URL вмісту",
+    "urlDesc": "Адреса веб-сторінки або локальна URL-адреса для завантаження",
+    "urlPlaceholder": "Наприклад: https://example.com або about:blank",
+    "htmlLabel": "Вставити HTML-код",
+    "htmlDesc": "Напишіть HTML-код напряму (URL-адресу буде замінено, якщо вона надана)",
+    "htmlPlaceholder": "<h1>Hello World</h1>",
+    "htmlHelper": "Виберіть між URL-адресою та HTML-кодом, надайте принаймні один",
+    "quickFill": "Швидке заповнення:",
+    "fillBlankPage": "Використовуйте порожню сторінку (about:blank)",
+    "fillExampleHtml": "Використання зразка HTML"
+  },
+  "Step3WindowType": {
+    "title": "Налаштувати окремі параметри вікна",
+    "description": "Виберіть тип вікна та параметри типу конфігурації.",
+    "windowTypeLabel": "тип вікна",
+    "windowTypeDesc": "Float: плаваюче вікно | Діалог: діалогове вікно | Система: системне вікно",
+    "floatDesc": "Плаваючі вікна можна вільно перетягувати на екрані, що підходить для відображення вмісту в реальному часі",
+    "dialogDesc": "Діалогове вікно буде накладено поверх інших програм, придатне для важливих нагадувань",
+    "systemDesc": "Системне вікно є вікном із найвищими повноваженнями та підходить для функцій системного рівня.",
+    "floatConfig": "Поплавкова конфігурація",
+    "dialogConfig": "Конфігурація діалогу",
+    "systemConfig": "Конфігурація системного вікна (System)."
+  },
+  "Step4Advanced": {
+    "title": "Налаштувати додаткові параметри",
+    "description": "Ці параметри зазвичай мають значення за замовчуванням і їх не потрібно змінювати. Регулюйте лише за потреби.",
+    "dismissTimeLabel": "Час примусового відключення (мс)",
+    "dismissTimeDesc": "Час автоматичного закриття вікна (мілісекунди, 0 означає не закриватися автоматично)",
+    "dismissTimeHelper": "Залиште поле порожнім або введіть 0, щоб вказати, що вікно не закриватиметься автоматично.",
+    "webViewConfig": "Конфігурація WebView",
+    "completeSummary": "✓ Налаштування завершено!",
+    "summaryTag": "логотип:",
+    "summaryType": "тип:",
+    "summaryUrl": "URL:",
+    "summaryHtml": "HTML:"
+  },
+  "WindowConfList": {
+    "title": "Список конфігурації вікон",
+    "empty": "Ще немає конфігурації вікна",
+    "deleteConfirmTitle": "Підтвердити видалення",
+    "deleteConfirmMessage": "Ви впевнені, що бажаєте видалити цю конфігурацію вікна? Цю дію не можна скасувати.",
+    "deleteCancel": "Скасувати",
+    "deleteConfirm": "видалити"
+  },
+  "WindowConfPreview": {
+    "windowType": "тип вікна",
+    "contentType": "Тип вмісту",
+    "noDescription": "Без опису",
+    "windowId": "ID",
+    "forceDismissTime": "Час примусового закриття",
+    "detailEdit": "Детальне редагування",
+    "delete": "видалити"
+  },
+  "WindowConfWizard": {
+    "basicInfo": "Основна інформація",
+    "htmlContent": "Вміст HTML",
+    "windowConfig": "Конфігурація вікна",
+    "advancedOptions": "Розширені параметри",
+    "cancel": "Скасувати",
+    "previousStep": "Попередній крок",
+    "nextStep": "Наступний крок",
+    "completeCreate": "Повне створення",
+    "validationError": "Будь ласка, заповніть усі необхідні поля"
+  },
+  "WindowPageContent": {
+    "title": "Плаваюче вікно Android"
+  }
+}

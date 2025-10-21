@@ -1,0 +1,25 @@
+{
+  "MobileAlbumService": {
+    "title": "שירות אלבומי תמונות",
+    "serverStatus": "מצב שירות",
+    "running": "רִיצָה",
+    "stopped": "נֶעצָר",
+    "port": "נָמָל",
+    "token": "אסימון גישה",
+    "permissionType": "מצב הרשאה",
+    "contentResolver": "הרשאות מערכת",
+    "saf": "מסגרת גישה לקבצים",
+    "startService": "התחל שירות",
+    "stopService": "הפסקת שירות",
+    "checkPermissions": "בדוק הרשאות",
+    "requestPermissions": "הגש בקשה לאישור",
+    "openAlbum": "פתח את אלבום התמונות",
+    "copyToken": "העתק אסימון",
+    "copyUrl": "העתק כתובת",
+    "permissionGranted": "ניתנה רשות",
+    "permissionDenied": "הרשות נדחתה",
+    "serviceStarted": "השירות התחיל",
+    "serviceStopped": "השירות הופסק",
+    "error": "טָעוּת"
+  }
+}

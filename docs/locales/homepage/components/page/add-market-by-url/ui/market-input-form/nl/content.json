@@ -1,0 +1,19 @@
+{
+  "content": {
+    "isUrl": "URL-patroon",
+    "full": {
+      "url": "Markt-URL. De ingevoerde tekens worden als URL geladen, wees voorzichtig.",
+      "html": "HTML-inhoud op de markt brengen. De ingevoerde karakters worden behandeld als een script en onmiddellijk uitgevoerd. Wees voorzichtig.",
+      "come": "Kom naar mij",
+      "myMarketName": "Marktnaam",
+      "stroll": "Maak een wandeling"
+    },
+    "item": {
+      "url": "URL van marktkaart. De ingevoerde tekens worden als URL geladen, wees voorzichtig.",
+      "html": "HTML-inhoud op de markt brengen. De ingevoerde karakters worden behandeld als een script en onmiddellijk uitgevoerd. Wees voorzichtig.",
+      "come": "Kom naar mij",
+      "myMarketName": "Marktnaam",
+      "stroll": "Maak een wandeling"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Annuleren",
+    "confirm": "Zeker",
+    "title": "hint",
+    "content": "Weet je zeker dat je dit wilt doen?"
+  },
+  "EditableText": {
+    "cancel": "Annuleren",
+    "save": "redden ",
+    "title": "bewerking"
+  }
+}

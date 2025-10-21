@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Lisää",
+    "sub": {
+      "addScriptByUrl": "Lisää komentosarja URL-osoitteen kautta",
+      "addScriptByText": "Lisää käsikirjoitus tekstin kautta",
+      "addMarket": "Lisää markkinat URL-osoitteen perusteella",
+      "addMarketByText": "Lisää markkinat tekstin kautta"
+    }
+  }
+}

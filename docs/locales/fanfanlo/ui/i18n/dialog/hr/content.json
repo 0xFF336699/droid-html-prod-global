@@ -1,0 +1,11 @@
+{
+  "content": {
+    "ok": "Naravno",
+    "cancel": "Otkazati",
+    "delete": "izbrisati",
+    "edit": "urediti",
+    "save": "uštedjeti",
+    "close": "zatvaranje",
+    "confirm": "potvrditi"
+  }
+}

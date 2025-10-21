@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "ابق على اتصال",
+        "helperText": "إذا نقرت لبدء الارتباط، فاحتفظ بالرابط، لذلك عليك الانتباه إلى حقيقة أن الرابط سيستمر في إعادة الاتصال بعد قطع الاتصال به.",
+        "retryCount": "عدد عمليات إعادة الاتصال"
+      },
+      "url": {
+        "name": "عنوان URL",
+        "helperText": "عنوان URL للرابط، مثل ws://192.168.0.2:7001، أو wws://example.com/path",
+        "error": "عنوان URL الصحيح هو عنوان URL يبدأ بـ ws:// أو wwws://"
+      }
+    },
+    "connectButton": {
+      "connect": "يتصل",
+      "disconnect": "قطع الاتصال",
+      "status": {
+        "connecting": "جارٍ الاتصال...",
+        "connected": "متصل",
+        "disconnecting": "جارٍ قطع الاتصال...",
+        "disconnected": "غير متصل",
+        "waitRetry": "في انتظار إعادة الاتصال..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "البرنامج النصي"
+  }
+}

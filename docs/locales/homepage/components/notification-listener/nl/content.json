@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "Infobar-luisteraar",
+    "settingsButtonLabel": "opgezet",
+    "clientsNum": "Aangesloten:",
+    "notificationReadable": "Lees toestemming:",
+    "notificationReadableYes": "Al ingeschakeld",
+    "notificationReadableNo": "Niet ingeschakeld",
+    "socketServerStatus": "Socket-server:",
+    "socketServerRunning": "Rennen",
+    "socketServerStopped": "Gestopt",
+    "socketServerStartButton": "Start de server",
+    "socketServerStopButton": "Stop de server",
+    "foregroundService": {
+      "title": "Melding luisterservice",
+      "content": "Luisteren naar systeemmeldingen",
+      "reason": "<h3>Meldingsdienst</h3><p>Deze dienst moet op de achtergrond actief blijven om:</p><ul><li>Systeemmeldingen in realtime te lezen</li><li>Push naar de client via Socket</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "Instellingen informatiebalk"
+  },
+  "ScaneQRCodeButton": {
+    "name": "Scan code om verbinding te maken"
+  },
+  "SettingPanel": {
+    "modalTitle": "Luisteraarsinstellingen",
+    "description": "Deze functie start een lokale service voor het ontvangen en verwerken van meldingsberichten in de statusbalk van het Android-systeem. Zorg ervoor dat de haven niet bezet is.",
+    "riskWarning": "Risicowaarschuwing: als u deze functie inschakelt, kan de app al uw meldingsberichten lezen, die mogelijk gevoelige informatie bevatten. Wees voorzichtig.",
+    "portLabel": "dienst haven",
+    "portRangeError": "De poort moet een geheel getal tussen 1025 en 65535 zijn.",
+    "tokenLabel": "Toegangstoken",
+    "cancelButton": "geef het op",
+    "applyButton": "gebruik"
+  }
+}

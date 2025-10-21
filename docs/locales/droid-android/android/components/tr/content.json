@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "İptal etmek",
+    "ok": "Elbette",
+    "checkBoxText": "Yarım ay içinde doğrudan yetkilendirmeye gittiğinizde pencere artık görüntülenmeyecektir.",
+    "content": "Bu işlev erişilebilirlik yetkisi gerektirir. Yetki vermek istiyorsanız lütfen [Tamam]'a tıklayın. Vazgeçmek istiyorsanız lütfen [İptal]'e tıklayın.",
+    "title": "İzin başvurusu"
+  },
+  "floatPermission": {
+    "cancel": "İptal etmek",
+    "ok": "Elbette",
+    "checkBoxText": "Yarım ay içinde doğrudan yetkilendirmeye gittiğinizde pencere artık görüntülenmeyecektir.",
+    "content": "Bu işlev, kayan pencere işlevi yetkilendirmesini gerektirir. Yetki vermek istiyorsanız lütfen [Tamam]'a tıklayın. Vazgeçmek istiyorsanız lütfen [İptal]'e tıklayın.",
+    "title": "İzin başvurusu"
+  }
+}

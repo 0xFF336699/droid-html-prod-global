@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Zobrazenie rozhrania dostupnosti",
+    "howToUse": "Návod na použitie",
+    "howToUseTooltip": "Nižšie sú uvedené niektoré atribúty značiek tohto uzla, ktoré možno použiť na výber operácií, ako je kliknutie, vyplnenie textu atď.\n\nHodnoty atribútov môžu byť duplikované na stránke aplikácie. Ak narazíte na duplikáty, prekryte iné hodnoty atribútov, aby ste určili jedinečnosť.\n\nČervené slová označujú, že hodnota atribútu sa opakuje, zelené slová označujú, že hodnota atribútu je pri vyhľadávaní aktuálnej stránky jedinečná, a čierne slová označujú, že sa nevykonávajú žiadne opakované porovnania.",
+    "otherNodesSummary": "Ďalšie uzly na tomto mieste",
+    "moreNodes": "Tu je rozšírený obsah.",
+    "nodeInfoDialogOkButton": "Upravte uzol",
+    "text": "Text 2222"
+  }
+}

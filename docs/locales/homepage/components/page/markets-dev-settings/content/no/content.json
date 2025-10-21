@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "holde kontakten",
+        "helperText": "Hvis du klikker for å starte koblingen, beholder du koblingen, så du må være oppmerksom på at koblingen vil fortsette å koble seg til igjen etter at den er frakoblet.",
+        "retryCount": "Antall retilkoblinger"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "Link URL, for eksempel ws://192.168.0.2:7001, eller wws://example.com/path",
+        "error": "Riktig URL er en URL som begynner med ws:// eller wwws://"
+      }
+    },
+    "connectButton": {
+      "connect": "koble til",
+      "disconnect": "Frakople",
+      "status": {
+        "connecting": "Kobler til...",
+        "connected": "Tilkoblet",
+        "disconnecting": "Kobler fra ...",
+        "disconnected": "Ikke tilkoblet",
+        "waitRetry": "Venter på ny tilkobling..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "manus"
+  }
+}

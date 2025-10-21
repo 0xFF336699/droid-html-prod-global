@@ -1,0 +1,30 @@
+{
+  "DevSettings": {
+    "socket": {
+      "keepConnect": {
+        "name": "stay connected",
+        "helperText": "If you click to start the link, then keep the link, so you need to pay attention to the fact that the link will keep reconnecting after it is disconnected.",
+        "retryCount": "Number of reconnections"
+      },
+      "url": {
+        "name": "URL",
+        "helperText": "Link URL, such as ws://192.168.0.2:7001, or wws://example.com/path",
+        "error": "The correct URL is a URL starting with ws:// or wwws://"
+      }
+    },
+    "connectButton": {
+      "connect": "connect",
+      "disconnect": "Disconnect",
+      "status": {
+        "connecting": "Connecting...",
+        "connected": "Connected",
+        "disconnecting": "Disconnecting...",
+        "disconnected": "Not connected",
+        "waitRetry": "Waiting for reconnection..."
+      }
+    }
+  },
+  "Scripts": {
+    "title": "script"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Execução de nó",
+    "changeBtnLabel": "substituir",
+    "showNodeAllProperties": "Mostrar todas as propriedades",
+    "wait": {
+      "time": "tempo de espera",
+      "interval": "intervalo de espera",
+      "invisible": "Seja para detectar elementos fora da tela"
+    }
+  }
+}

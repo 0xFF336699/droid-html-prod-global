@@ -1,0 +1,8 @@
+{
+  "Components": {
+    "pass": "Upoważniony",
+    "notPass": "Nieautoryzowane",
+    "danger": "Niebezpieczeństwo",
+    "setting": "organizować coś"
+  }
+}

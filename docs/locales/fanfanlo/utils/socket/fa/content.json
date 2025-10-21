@@ -1,0 +1,9 @@
+{
+  "status": {
+    "connecting": "در حال اتصال...",
+    "connected": "متصل شد",
+    "disconnecting": "در حال قطع شدن...",
+    "disconnected": "متصل نیست",
+    "waitRetry": "در انتظار اتصال مجدد..."
+  }
+}

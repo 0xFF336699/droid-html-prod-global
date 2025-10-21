@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Dostępność",
+    "pass": "Upoważniony",
+    "notPass": "Nieautoryzowane",
+    "setting": "organizować coś",
+    "danger": "Niebezpieczeństwo",
+    "dangerDesc": "Ta autoryzacja pozwala zobaczyć, co jest na ekranie i wykonywać kliknięcia na telefonie. Wyłącz to uprawnienie, jeśli nie rozumiesz dokładnie funkcjonalności i zagrożeń związanych ze skryptem, który uruchamiasz lub zamierzasz uruchomić."
+  }
+}

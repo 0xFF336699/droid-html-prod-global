@@ -1,0 +1,11 @@
+{
+  "content": {
+    "close": "zamknięcie",
+    "layout": "układ",
+    "fullInfo": "kompletne dane",
+    "title": "Przeczytaj grupę przycisków informacyjnych",
+    "multiWindow": "wiele okien",
+    "appWindow": "pojedyncze okno",
+    "store": "sklep"
+  }
+}

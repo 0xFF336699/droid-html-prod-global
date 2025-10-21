@@ -1,0 +1,9 @@
+{
+  "content": {
+    "create": "skapa",
+    "delete": "radera",
+    "confirmDelete": "Är du säker på att du vill ta bort det här objektet?",
+    "cancel": "ge upp",
+    "title": "varna"
+  }
+}

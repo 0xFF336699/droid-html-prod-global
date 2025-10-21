@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "ผู้ฟังแถบข้อมูล",
+    "settingsButtonLabel": "ตั้งค่า",
+    "clientsNum": "เชื่อมต่อแล้ว:",
+    "notificationReadable": "สิทธิ์ในการอ่าน:",
+    "notificationReadableYes": "เปิดอยู่แล้ว",
+    "notificationReadableNo": "ไม่ได้เปิด",
+    "socketServerStatus": "เซิร์ฟเวอร์ซ็อกเก็ต:",
+    "socketServerRunning": "วิ่ง",
+    "socketServerStopped": "หยุดแล้ว",
+    "socketServerStartButton": "เริ่มเซิร์ฟเวอร์",
+    "socketServerStopButton": "หยุดเซิร์ฟเวอร์",
+    "foregroundService": {
+      "title": "บริการฟังการแจ้งเตือน",
+      "content": "กำลังฟังการแจ้งเตือนของระบบ",
+      "reason": "<h3>บริการฟังการแจ้งเตือน</h3><p>บริการนี้จำเป็นต้องทำงานต่อไปในพื้นหลังเพื่อ:</p><ul><li>อ่านการแจ้งเตือนของระบบแบบเรียลไทม์</li><li>พุชไปยังไคลเอนต์ผ่านซ็อกเก็ต</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "การตั้งค่าแถบข้อมูล"
+  },
+  "ScaneQRCodeButton": {
+    "name": "สแกนรหัสเพื่อเชื่อมต่อ"
+  },
+  "SettingPanel": {
+    "modalTitle": "การตั้งค่าผู้ฟัง",
+    "description": "ฟังก์ชันนี้เริ่มบริการท้องถิ่นเพื่อรับและประมวลผลข้อความแจ้งเตือนในแถบสถานะของระบบ Android โปรดตรวจสอบให้แน่ใจว่าพอร์ตไม่ได้ถูกครอบครอง",
+    "riskWarning": "คำเตือนความเสี่ยง: การเปิดคุณสมบัตินี้จะทำให้แอปสามารถอ่านข้อความแจ้งเตือนทั้งหมดของคุณ ซึ่งอาจมีข้อมูลที่ละเอียดอ่อน โปรดใช้ด้วยความระมัดระวัง",
+    "portLabel": "พอร์ตบริการ",
+    "portRangeError": "พอร์ตต้องเป็นจำนวนเต็มระหว่าง 1025 ถึง 65535",
+    "tokenLabel": "โทเค็นการเข้าถึง",
+    "cancelButton": "ยอมแพ้",
+    "applyButton": "ใช้"
+  }
+}

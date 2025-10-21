@@ -1,0 +1,42 @@
+{
+  "content": {
+    "intf": {
+      "mobileSenderNumberList": {
+        "number": {
+          "placeholder": "Il numero a cui desideri inviare messaggi di testo o effettuare chiamate in uscita",
+          "label": "numero di telefono",
+          "helperText": "Il numero a cui desideri inviare messaggi di testo o effettuare chiamate in uscita"
+        }
+      },
+      "sms": {
+        "content": {
+          "placeholder": "Mi sento un po' male, vieni presto da me! ! !",
+          "label": "contenuto dell'SMS",
+          "helperText": "contenuto dell'SMS"
+        }
+      },
+      "smsReceiverList": {
+        "title": {
+          "label": "Elenco destinatari SMS"
+        }
+      },
+      "smsReceiver": {
+        "number": {
+          "placeholder": "Numero di cellulare del destinatario",
+          "label": "Numero di cellulare del destinatario",
+          "helperText": "Numero di cellulare del destinatario"
+        }
+      }
+    }
+  },
+  "CreateShortcut": {
+    "button": {
+      "name": "Crea una chiamata di aiuto con un clic",
+      "description": "Crea un collegamento sul desktop del tuo telefono"
+    },
+    "launcherName": "chiamata di emergenza"
+  },
+  "SelectedContackList": {
+    "title": "contatto di emergenza"
+  }
+}

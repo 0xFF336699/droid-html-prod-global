@@ -1,0 +1,10 @@
+{
+  "AccessibilityInfo": {
+    "name": "Khả năng tiếp cận",
+    "pass": "Được ủy quyền",
+    "notPass": "trái phép",
+    "setting": "cài đặt",
+    "danger": "Sự nguy hiểm",
+    "dangerDesc": "Ủy quyền này cho phép bạn xem nội dung trên màn hình và thực hiện các cú nhấp chuột trên điện thoại của mình. Vui lòng tắt quyền này nếu bạn không hiểu rõ chức năng và rủi ro của tập lệnh bạn đang chạy hoặc sắp chạy."
+  }
+}

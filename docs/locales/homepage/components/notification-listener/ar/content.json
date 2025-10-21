@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "مستمع شريط المعلومات",
+    "settingsButtonLabel": "يثبت",
+    "clientsNum": "متصل:",
+    "notificationReadable": "إذن القراءة:",
+    "notificationReadableYes": "تم تشغيله بالفعل",
+    "notificationReadableNo": "لم يتم تشغيله",
+    "socketServerStatus": "خادم المقبس:",
+    "socketServerRunning": "جري",
+    "socketServerStopped": "توقف",
+    "socketServerStartButton": "ابدأ الخادم",
+    "socketServerStopButton": "أوقف الخادم",
+    "foregroundService": {
+      "title": "خدمة الاستماع للإشعارات",
+      "content": "الاستماع لإخطارات النظام",
+      "reason": "<h3>خدمة الاستماع إلى الإشعارات</h3><p>تحتاج هذه الخدمة إلى الاستمرار في العمل في الخلفية من أجل:</p><ul><li>قراءة إشعارات النظام في الوقت الفعلي</li><li>الدفع إلى العميل عبر المقبس</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "إعدادات شريط المعلومات"
+  },
+  "ScaneQRCodeButton": {
+    "name": "مسح الرمز للاتصال"
+  },
+  "SettingPanel": {
+    "modalTitle": "إعدادات المستمع",
+    "description": "تبدأ هذه الوظيفة خدمة محلية لتلقي ومعالجة رسائل الإشعارات في شريط حالة نظام Android. يرجى التأكد من أن المنفذ غير مشغول.",
+    "riskWarning": "تحذير من المخاطر: سيؤدي تشغيل هذه الميزة إلى السماح للتطبيق بقراءة جميع رسائل الإشعارات الخاصة بك، والتي قد تحتوي على معلومات حساسة. يرجى استخدامه بحذر.",
+    "portLabel": "منفذ الخدمة",
+    "portRangeError": "يجب أن يكون المنفذ عددًا صحيحًا بين 1025 و65535.",
+    "tokenLabel": "رمز الوصول",
+    "cancelButton": "يستسلم",
+    "applyButton": "يستخدم"
+  }
+}

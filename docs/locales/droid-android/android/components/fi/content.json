@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Peruuttaa",
+    "ok": "Varma",
+    "checkBoxText": "Mene suoraan valtuutukseen puolen kuukauden sisällä, niin ikkunaa ei enää näytetä.",
+    "content": "Tämä toiminto vaatii esteettömyysvaltuutuksen. Jos haluat valtuuttaa, napsauta [OK]. Jos haluat luovuttaa, napsauta [Peruuta].",
+    "title": "Lupahakemus"
+  },
+  "floatPermission": {
+    "cancel": "Peruuttaa",
+    "ok": "Varma",
+    "checkBoxText": "Mene suoraan valtuutukseen puolen kuukauden sisällä, niin ikkunaa ei enää näytetä.",
+    "content": "Tämä toiminto vaatii kelluvan ikkunan toiminnon valtuutuksen. Jos haluat valtuuttaa, napsauta [OK]. Jos haluat luovuttaa, napsauta [Peruuta].",
+    "title": "Lupahakemus"
+  }
+}

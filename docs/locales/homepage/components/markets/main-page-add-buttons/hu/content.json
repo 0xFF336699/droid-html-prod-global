@@ -1,0 +1,11 @@
+{
+  "content": {
+    "add": "Hozzáadás",
+    "sub": {
+      "addScriptByUrl": "Szkript hozzáadása URL-en keresztül",
+      "addScriptByText": "Szkript hozzáadása szöveggel",
+      "addMarket": "Piac hozzáadása URL alapján",
+      "addMarketByText": "Piac hozzáadása szöveggel"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "SignUpByMobile": {
+    "title": "登録する",
+    "phoneNumber": "電話番号",
+    "phoneNumberPlaceholder": "携帯電話番号を入力してください",
+    "verificationCode": "検証コード",
+    "verificationCodePlaceholder": "確認コードを入力してください",
+    "getVerificationCode": "確認コードを取得する",
+    "countdown": "{{秒}} 秒後にもう一度お試しください",
+    "register": "登録する",
+    "errors": {
+      "phoneRequired": "携帯電話番号を入力してください",
+      "phoneInvalid": "携帯電話番号の形式が間違っています",
+      "codeRequired": "確認コードを入力してください",
+      "codeInvalid": "認証コードの形式が間違っています",
+      "requestFailed": "リクエストが失敗しました",
+      "verificationFailed": "確認コードの取得に失敗しました",
+      "loginFailed": "ログインに失敗しました"
+    },
+    "success": {
+      "verificationCodeSent": "認証コードが送信されました",
+      "registerSuccess": "登録が成功しました"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "NotificationListenerPanel": {
+    "title": "Ascultător din bara de informații",
+    "settingsButtonLabel": "înființat",
+    "clientsNum": "Conectat:",
+    "notificationReadable": "Permisiune de citire:",
+    "notificationReadableYes": "Deja pornit",
+    "notificationReadableNo": "Nu este pornit",
+    "socketServerStatus": "Server socket:",
+    "socketServerRunning": "Funcţionare",
+    "socketServerStopped": "oprit",
+    "socketServerStartButton": "Porniți serverul",
+    "socketServerStopButton": "Opriți serverul",
+    "foregroundService": {
+      "title": "Serviciu de ascultare notificări",
+      "content": "Ascultarea notificărilor de sistem",
+      "reason": "<h3>Serviciul de ascultare a notificărilor</h3><p>Acest serviciu trebuie să continue să ruleze în fundal pentru a:</p><ul><li>Citirea notificărilor de sistem în timp real</li><li>Aplicarea către client prin Socket</li></ul>"
+    }
+  },
+  "OpenSettingPanelButton": {
+    "name": "Setările barei de informații"
+  },
+  "ScaneQRCodeButton": {
+    "name": "Scanați codul pentru a vă conecta"
+  },
+  "SettingPanel": {
+    "modalTitle": "Setări pentru ascultător",
+    "description": "Această funcție pornește un serviciu local pentru primirea și procesarea mesajelor de notificare în bara de stare a sistemului Android. Vă rugăm să vă asigurați că portul nu este ocupat.",
+    "riskWarning": "Avertisment de risc: activarea acestei funcții va permite aplicației să citească toate mesajele de notificare, care pot conține informații sensibile. Vă rugăm să utilizați cu prudență.",
+    "portLabel": "port de serviciu",
+    "portRangeError": "Portul trebuie să fie un număr întreg între 1025 și 65535.",
+    "tokenLabel": "Token de acces",
+    "cancelButton": "renunța",
+    "applyButton": "utilizare"
+  }
+}

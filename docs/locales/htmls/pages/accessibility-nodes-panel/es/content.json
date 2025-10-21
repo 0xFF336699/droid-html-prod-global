@@ -1,0 +1,11 @@
+{
+  "content": {
+    "title": "Vista de la interfaz de accesibilidad",
+    "howToUse": "Instrucciones de uso",
+    "howToUseTooltip": "A continuación se muestran algunos atributos de marca de este nodo, que se pueden usar para seleccionar operaciones, como hacer clic, completar texto, etc.\n\nLos valores de los atributos pueden estar duplicados en la página de la aplicación. Si se encuentran duplicados, superponga otros valores de atributos para determinar la unicidad.\n\nLas palabras rojas indican que el valor del atributo se repite, las palabras verdes indican que el valor del atributo es único en la búsqueda de la página actual y las palabras negras indican que no se realizan comparaciones repetidas.",
+    "otherNodesSummary": "Otros nodos en esta ubicación",
+    "moreNodes": "Aquí está el contenido ampliado.",
+    "nodeInfoDialogOkButton": "Editar el nodo",
+    "text": "Texto 2222"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "SignUpIn": {
+    "signUpIn": "Inloggen/Registreren",
+    "signOut": "Uitloggen",
+    "confirmContent": "Weet u zeker dat u wilt uitloggen?",
+    "confirmTitle": "hint",
+    "confirm": "Zeker",
+    "cancel": "Annuleren",
+    "signoutOk": "Uitgelogd",
+    "loadingData": "Gebruikersgegevens laden"
+  }
+}

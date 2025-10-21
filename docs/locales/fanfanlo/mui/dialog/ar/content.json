@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "يلغي",
+    "confirm": "بالتأكيد",
+    "title": "تَلمِيح",
+    "content": "هل أنت متأكد أنك تريد أن تفعل هذا؟"
+  },
+  "EditableText": {
+    "cancel": "يلغي",
+    "save": "يحفظ",
+    "title": "يحرر"
+  }
+}

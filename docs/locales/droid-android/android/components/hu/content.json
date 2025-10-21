@@ -1,0 +1,16 @@
+{
+  "A11yPermission": {
+    "cancel": "Mégsem",
+    "ok": "Persze",
+    "checkBoxText": "Menjen közvetlenül az engedélyezéshez fél hónapon belül, és az ablak többé nem jelenik meg.",
+    "content": "Ez a funkció akadálymentesítési jogosultságot igényel. Ha engedélyezni szeretné, kattintson az [OK] gombra. Ha fel akar adni, kattintson a [Mégse] gombra.",
+    "title": "Engedélykérelem"
+  },
+  "floatPermission": {
+    "cancel": "Mégsem",
+    "ok": "Persze",
+    "checkBoxText": "Menjen közvetlenül az engedélyezéshez fél hónapon belül, és az ablak többé nem jelenik meg.",
+    "content": "Ehhez a funkcióhoz lebegőablak-funkció engedélyezése szükséges. Ha engedélyezni szeretné, kattintson az [OK] gombra. Ha fel akar adni, kattintson a [Mégse] gombra.",
+    "title": "Engedélykérelem"
+  }
+}

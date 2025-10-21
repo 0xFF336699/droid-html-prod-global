@@ -1,0 +1,8 @@
+{
+  "AddMarketPageContent": {
+    "title": "piac hozzáadása",
+    "url": "Piaci URL",
+    "summary": "piaci összefoglaló",
+    "urlIsNotValid": "A piaci URL helytelen"
+  }
+}

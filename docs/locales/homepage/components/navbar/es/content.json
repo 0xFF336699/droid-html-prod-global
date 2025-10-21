@@ -1,0 +1,11 @@
+{
+  "NavBar": {
+    "home": "página delantera",
+    "me": "mío",
+    "settings": "configuración",
+    "script": "guion",
+    "store": "mercado",
+    "market": "mercado",
+    "create": "crear"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "content": {
+    "home": "prima pagina",
+    "me": "mio",
+    "settings": "impostare",
+    "script": "sceneggiatura",
+    "store": "mercato",
+    "market": "mercato",
+    "create": "creare"
+  },
+  "tabbar": {
+    "test": "Barra dei menu in basso"
+  }
+}

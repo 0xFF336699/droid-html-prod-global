@@ -1,0 +1,13 @@
+{
+  "ButtonConfirm": {
+    "cancel": "Batalkan",
+    "confirm": "Pasti",
+    "title": "petunjuk",
+    "content": "Adakah anda pasti mahu melakukan ini?"
+  },
+  "EditableText": {
+    "cancel": "Batalkan",
+    "save": "Simpan",
+    "title": "edit"
+  }
+}
