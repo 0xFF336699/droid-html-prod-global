@@ -1,0 +1,101 @@
+{
+  "AddWindowButton": {
+    "add": "הוסף חלון צף"
+  },
+  "AddWindowContent": {
+    "addButtonName": "הוסף ל",
+    "cancelButtonName": "לְבַטֵל"
+  },
+  "AdvancedSection": {
+    "forceDismissWindowTimeLabel": "זמן כיבוי מאולץ (ms)",
+    "forceDismissWindowTimeHelper": "0 אומר שאין כיבוי אוטומטי"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "חלון צף של אנדרואיד"
+  },
+  "EditWindowContent": {
+    "noWindowId": "אנא ספק מזהה חלון",
+    "windowConfNotFound": "תצורת החלון המתאימה לא נמצאה"
+  },
+  "Step1BasicInfo": {
+    "title": "הגדר מידע בסיסי",
+    "description": "הזן שם ותיאור של זיהוי חלון. שמות זיהוי משמשים כדי להבחין בין תצורות חלונות שונות.",
+    "tagLabel": "מזהה חלון",
+    "tagDesc": "משמש לזיהוי ייחודי של תצורת חלון זו",
+    "tagPlaceholder": "לדוגמה: news_reader, float_timer",
+    "tagHelper": "שם חלון לזיהוי משלך.",
+    "descriptionLabel": "תיאור החלון",
+    "descriptionDesc": "תאר את המטרה של תצורת חלון זו",
+    "descriptionPlaceholder": "תאר את המטרה והפונקציונליות של חלון זה"
+  },
+  "Step2HtmlConf": {
+    "title": "הגדר תוכן HTML",
+    "description": "מציין מה החלון מציג. ניתן לטעון דפי אינטרנט באמצעות URL, או לכתוב קוד HTML ישירות.",
+    "urlLabel": "כתובת אתר של תוכן",
+    "urlDesc": "כתובת דף האינטרנט או כתובת האתר המקומית לטעינה",
+    "urlPlaceholder": "לדוגמה: https://example.com או about:blank",
+    "htmlLabel": "הטמע קוד HTML",
+    "htmlDesc": "כתוב קוד HTML ישירות (כתובת האתר תידרוס אם תסופק)",
+    "htmlPlaceholder": "<h1>שלום עולם</h1>",
+    "htmlHelper": "בחר בין כתובת URL וקוד HTML, ספק אחד לפחות",
+    "quickFill": "מילוי מהיר:",
+    "fillBlankPage": "השתמש בדף ריק (about:blank)",
+    "fillExampleHtml": "שימוש ב-HTML לדוגמה"
+  },
+  "Step3WindowType": {
+    "title": "הגדר אפשרויות ספציפיות לחלון",
+    "description": "בחר אפשרויות ספציפיות לסוג חלון וסוג תצורה.",
+    "windowTypeLabel": "סוג חלון",
+    "windowTypeDesc": "לצוף: חלון צף | דיאלוג: תיבת דו-שיח | מערכת: חלון מערכת",
+    "floatDesc": "חלונות צפים ניתנים לגרירה חופשית על המסך, מתאימים להצגת תוכן בזמן אמת",
+    "dialogDesc": "תיבת הדו-שיח תוצב על גבי יישומים אחרים, מתאים לתזכורות חשובות",
+    "systemDesc": "חלון המערכת הוא החלון בעל הסמכות הגבוהה ביותר ומתאים לפונקציות ברמת המערכת.",
+    "floatConfig": "תצורת ציפה",
+    "dialogConfig": "תצורת דיאלוג",
+    "systemConfig": "תצורת חלון מערכת (מערכת)."
+  },
+  "Step4Advanced": {
+    "title": "הגדר אפשרויות מתקדמות",
+    "description": "לאפשרויות אלה יש בדרך כלל ערכי ברירת מחדל ואין צורך לשנותן. התאם רק כשצריך.",
+    "dismissTimeLabel": "זמן כיבוי מאולץ (ms)",
+    "dismissTimeDesc": "הזמן שבו החלון ייסגר אוטומטית (מילישניות, 0 פירושו לא לסגור אוטומטית)",
+    "dismissTimeHelper": "השאר ריק או מלא 0 כדי לציין שהחלון לא ייסגר אוטומטית.",
+    "webViewConfig": "תצורת WebView",
+    "completeSummary": "✓ ההגדרה הושלמה!",
+    "summaryTag": "סֵמֶל:",
+    "summaryType": "סוּג:",
+    "summaryUrl": "כתובת אתר:",
+    "summaryHtml": "HTML:"
+  },
+  "WindowConfList": {
+    "title": "רשימת תצורת חלונות",
+    "empty": "אין עדיין תצורת חלון",
+    "deleteConfirmTitle": "אשר את המחיקה",
+    "deleteConfirmMessage": "האם אתה בטוח שברצונך למחוק את תצורת החלון הזו? לא ניתן לבטל פעולה זו.",
+    "deleteCancel": "לְבַטֵל",
+    "deleteConfirm": "לִמְחוֹק"
+  },
+  "WindowConfPreview": {
+    "windowType": "סוג חלון",
+    "contentType": "סוג תוכן",
+    "noDescription": "אין תיאור",
+    "windowId": "תְעוּדַת זֶהוּת",
+    "forceDismissTime": "זמן סגירה מאולץ",
+    "detailEdit": "עריכה מפורטת",
+    "delete": "לִמְחוֹק"
+  },
+  "WindowConfWizard": {
+    "basicInfo": "מידע בסיסי",
+    "htmlContent": "תוכן HTML",
+    "windowConfig": "תצורת חלון",
+    "advancedOptions": "אפשרויות מתקדמות",
+    "cancel": "לְבַטֵל",
+    "previousStep": "שלב קודם",
+    "nextStep": "השלב הבא",
+    "completeCreate": "יצירה שלמה",
+    "validationError": "נא למלא את כל השדות הנדרשים"
+  },
+  "WindowPageContent": {
+    "title": "חלון צף של אנדרואיד"
+  }
+}

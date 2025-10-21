@@ -1,0 +1,101 @@
+{
+  "AddWindowButton": {
+    "add": "Lisää kelluva ikkuna"
+  },
+  "AddWindowContent": {
+    "addButtonName": "Lisää",
+    "cancelButtonName": "Peruuttaa"
+  },
+  "AdvancedSection": {
+    "forceDismissWindowTimeLabel": "Pakotettu sammutusaika (ms)",
+    "forceDismissWindowTimeHelper": "0 tarkoittaa, että automaattista sammutusta ei ole"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "Android kelluva ikkuna"
+  },
+  "EditWindowContent": {
+    "noWindowId": "Anna ikkunan tunnus",
+    "windowConfNotFound": "Vastaavaa ikkunakokoonpanoa ei löytynyt"
+  },
+  "Step1BasicInfo": {
+    "title": "Määritä perustiedot",
+    "description": "Anna ikkunan tunnistenimi ja kuvaus. Tunnistusnimiä käytetään erottamaan eri ikkunakokoonpanot.",
+    "tagLabel": "Ikkunan tunnus",
+    "tagDesc": "Käytetään yksilöimään tämä ikkunakokoonpano",
+    "tagPlaceholder": "Esimerkiksi: news_reader, floating_timer",
+    "tagHelper": "Ikkunan nimi omaa tunnistusta varten.",
+    "descriptionLabel": "Ikkunan kuvaus",
+    "descriptionDesc": "Kuvaile tämän ikkunakokoonpanon tarkoitusta",
+    "descriptionPlaceholder": "Kuvaile tämän ikkunan tarkoitusta ja toiminnallisuutta"
+  },
+  "Step2HtmlConf": {
+    "title": "Määritä HTML-sisältö",
+    "description": "Määrittää, mitä ikkuna näyttää. Web-sivut voidaan ladata URL-osoitteen kautta tai HTML-koodi voidaan kirjoittaa suoraan.",
+    "urlLabel": "Sisällön URL-osoite",
+    "urlDesc": "Ladattava verkkosivun osoite tai paikallinen URL-osoite",
+    "urlPlaceholder": "Esimerkki: https://example.com tai about:blank",
+    "htmlLabel": "Upota HTML-koodi",
+    "htmlDesc": "Kirjoita HTML-koodi suoraan (URL-osoite ohitetaan, jos se on annettu)",
+    "htmlPlaceholder": "<h1>Hei maailma</h1>",
+    "htmlHelper": "Valitse URL- tai HTML-koodi ja anna vähintään yksi",
+    "quickFill": "Pikatäyttö:",
+    "fillBlankPage": "Käytä tyhjää sivua (noin:tyhjä)",
+    "fillExampleHtml": "Käyttämällä esimerkki-HTML-koodia"
+  },
+  "Step3WindowType": {
+    "title": "Määritä ikkunakohtaiset asetukset",
+    "description": "Valitse ikkunatyyppi ja kokoonpanotyyppikohtaiset asetukset.",
+    "windowTypeLabel": "ikkunan tyyppi",
+    "windowTypeDesc": "Float: kelluva ikkuna | Valintaikkuna: valintaikkuna | Järjestelmä: järjestelmäikkuna",
+    "floatDesc": "Kelluvia ikkunoita voidaan vetää vapaasti näytöllä, mikä sopii sisällön reaaliaikaiseen näyttämiseen",
+    "dialogDesc": "Valintaikkuna peitetään muiden sovellusten päällä, mikä sopii tärkeille muistutuksille",
+    "systemDesc": "Järjestelmäikkuna on ikkuna, jolla on korkein auktoriteetti, ja se soveltuu järjestelmätason toimintoihin.",
+    "floatConfig": "Float-kokoonpano",
+    "dialogConfig": "Dialogin konfigurointi",
+    "systemConfig": "Järjestelmäikkunan (Järjestelmän) konfigurointi"
+  },
+  "Step4Advanced": {
+    "title": "Määritä lisäasetukset",
+    "description": "Näillä vaihtoehdoilla on yleensä oletusarvot, eikä niitä tarvitse muuttaa. Säädä vain tarvittaessa.",
+    "dismissTimeLabel": "Pakkosammutusaika (ms)",
+    "dismissTimeDesc": "Aika, jonka kuluessa ikkuna sulkeutuu automaattisesti (millisekuntia, 0 tarkoittaa, että ikkuna ei sulkeudu automaattisesti)",
+    "dismissTimeHelper": "Jätä tyhjäksi tai täytä 0 osoittaaksesi, että ikkuna ei sulkeudu automaattisesti.",
+    "webViewConfig": "WebView-määritys",
+    "completeSummary": "✓ Konfigurointi valmis!",
+    "summaryTag": "Logo:",
+    "summaryType": "tyyppi:",
+    "summaryUrl": "URL-osoite:",
+    "summaryHtml": "HTML:"
+  },
+  "WindowConfList": {
+    "title": "Ikkunan asetusluettelo",
+    "empty": "Ei ikkunan asetuksia vielä",
+    "deleteConfirmTitle": "Vahvista poisto",
+    "deleteConfirmMessage": "Haluatko varmasti poistaa tämän ikkunan määrityksen? Tätä toimintoa ei voi kumota.",
+    "deleteCancel": "Peruuttaa",
+    "deleteConfirm": "poistaa"
+  },
+  "WindowConfPreview": {
+    "windowType": "ikkunan tyyppi",
+    "contentType": "Sisällön tyyppi",
+    "noDescription": "Ei kuvausta",
+    "windowId": "ID",
+    "forceDismissTime": "Pakotettu sulkemisaika",
+    "detailEdit": "Yksityiskohtainen editointi",
+    "delete": "poistaa"
+  },
+  "WindowConfWizard": {
+    "basicInfo": "Perustiedot",
+    "htmlContent": "HTML-sisältöä",
+    "windowConfig": "Ikkunan konfigurointi",
+    "advancedOptions": "Lisäasetukset",
+    "cancel": "Peruuttaa",
+    "previousStep": "Edellinen vaihe",
+    "nextStep": "Seuraava askel",
+    "completeCreate": "Täydellinen luominen",
+    "validationError": "Täytä kaikki pakolliset kentät"
+  },
+  "WindowPageContent": {
+    "title": "Android kelluva ikkuna"
+  }
+}

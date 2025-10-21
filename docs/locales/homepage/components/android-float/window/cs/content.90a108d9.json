@@ -1,0 +1,101 @@
+{
+  "AddWindowButton": {
+    "add": "Přidat plovoucí okno"
+  },
+  "AddWindowContent": {
+    "addButtonName": "Přidat do",
+    "cancelButtonName": "Zrušit"
+  },
+  "AdvancedSection": {
+    "forceDismissWindowTimeLabel": "Doba nuceného vypnutí (ms)",
+    "forceDismissWindowTimeHelper": "0 znamená žádné automatické vypnutí"
+  },
+  "AndroidFloatWindowLink": {
+    "name": "Plovoucí okno pro Android"
+  },
+  "EditWindowContent": {
+    "noWindowId": "Uveďte prosím ID okna",
+    "windowConfNotFound": "Odpovídající konfigurace okna nebyla nalezena"
+  },
+  "Step1BasicInfo": {
+    "title": "Nakonfigurujte základní informace",
+    "description": "Zadejte identifikační název okna a popis. Identifikační názvy se používají k rozlišení různých konfigurací oken.",
+    "tagLabel": "ID okna",
+    "tagDesc": "Používá se k jednoznačné identifikaci této konfigurace okna",
+    "tagPlaceholder": "Například: news_reader, floating_timer",
+    "tagHelper": "Název okna pro vaši vlastní identifikaci.",
+    "descriptionLabel": "Popis okna",
+    "descriptionDesc": "Popište účel této konfigurace okna",
+    "descriptionPlaceholder": "Popište účel a funkčnost tohoto okna"
+  },
+  "Step2HtmlConf": {
+    "title": "Konfigurace obsahu HTML",
+    "description": "Určuje, co se v okně zobrazí. Webové stránky lze načíst přes URL nebo lze přímo napsat HTML kód.",
+    "urlLabel": "Adresa URL obsahu",
+    "urlDesc": "Adresa webové stránky nebo místní adresa URL, která se má načíst",
+    "urlPlaceholder": "Například: https://example.com nebo about:blank",
+    "htmlLabel": "Vložit HTML kód",
+    "htmlDesc": "Napište HTML kód přímo (URL bude přepsána, pokud je uvedena)",
+    "htmlPlaceholder": "<h1>Ahoj světe</h1>",
+    "htmlHelper": "Vyberte si mezi URL a HTML kódem, uveďte alespoň jeden",
+    "quickFill": "Rychlé plnění:",
+    "fillBlankPage": "Použít prázdnou stránku (about:blank)",
+    "fillExampleHtml": "Pomocí ukázkového HTML"
+  },
+  "Step3WindowType": {
+    "title": "Nakonfigurujte možnosti specifické pro okno",
+    "description": "Vyberte typ okna a možnosti specifické pro typ konfigurace.",
+    "windowTypeLabel": "typ okna",
+    "windowTypeDesc": "Plovák: plovoucí okno | Dialog: dialogové okno | Systém: systémové okno",
+    "floatDesc": "Plovoucí okna lze po obrazovce volně přetahovat, což je vhodné pro zobrazení obsahu v reálném čase",
+    "dialogDesc": "Dialogové okno bude překryto nad ostatními aplikacemi, což je vhodné pro důležitá připomenutí",
+    "systemDesc": "Systémové okno je okno s nejvyšším oprávněním a je vhodné pro funkce na úrovni systému.",
+    "floatConfig": "Plovoucí konfigurace",
+    "dialogConfig": "Konfigurace dialogu",
+    "systemConfig": "Konfigurace systémového okna (System)."
+  },
+  "Step4Advanced": {
+    "title": "Nakonfigurujte pokročilé možnosti",
+    "description": "Tyto možnosti mají obvykle výchozí hodnoty a není třeba je upravovat. Upravujte pouze v případě potřeby.",
+    "dismissTimeLabel": "Doba nuceného vypnutí (ms)",
+    "dismissTimeDesc": "Doba, po kterou se okno automaticky zavře (milisekundy, 0 znamená, že se okno automaticky nezavře)",
+    "dismissTimeHelper": "Ponechte prázdné nebo vyplňte 0, aby se indikovalo, že se okno automaticky nezavře.",
+    "webViewConfig": "Konfigurace WebView",
+    "completeSummary": "✓ Konfigurace dokončena!",
+    "summaryTag": "Logo:",
+    "summaryType": "typ:",
+    "summaryUrl": "URL:",
+    "summaryHtml": "HTML:"
+  },
+  "WindowConfList": {
+    "title": "Seznam konfigurace oken",
+    "empty": "Zatím žádná konfigurace okna",
+    "deleteConfirmTitle": "Potvrďte smazání",
+    "deleteConfirmMessage": "Opravdu chcete smazat tuto konfiguraci okna? Tuto akci nelze vrátit zpět.",
+    "deleteCancel": "Zrušit",
+    "deleteConfirm": "vymazat"
+  },
+  "WindowConfPreview": {
+    "windowType": "typ okna",
+    "contentType": "Typ obsahu",
+    "noDescription": "Žádný popis",
+    "windowId": "ID",
+    "forceDismissTime": "Nucená zavírací doba",
+    "detailEdit": "Detailní úprava",
+    "delete": "vymazat"
+  },
+  "WindowConfWizard": {
+    "basicInfo": "Základní informace",
+    "htmlContent": "HTML obsah",
+    "windowConfig": "Konfigurace okna",
+    "advancedOptions": "Pokročilé možnosti",
+    "cancel": "Zrušit",
+    "previousStep": "Předchozí krok",
+    "nextStep": "Další krok",
+    "completeCreate": "Kompletní tvorba",
+    "validationError": "Vyplňte prosím všechna povinná pole"
+  },
+  "WindowPageContent": {
+    "title": "Plovoucí okno pro Android"
+  }
+}
