@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Bildschirmtexterkennung",
+    "running": "Läuft",
+    "stopped": "Angehalten",
+    "startingRecognition": "Anerkennung beginnt...",
+    "stoppingRecognition": "Erkennung wird gestoppt...",
+    "startFailed": "Die Starterkennung ist fehlgeschlagen",
+    "stopFailed": "Die Stopperkennung ist fehlgeschlagen",
+    "startException": "Beim Starten der Erkennung ist eine Ausnahme aufgetreten",
+    "stopException": "Beim Stoppen der Erkennung ist eine Ausnahme aufgetreten",
+    "recognitionStarted": "Die Bildschirmerkennung wird gestartet",
+    "recognitionStopped": "Die Bildschirmerkennung wurde gestoppt",
+    "errorNoConfig": "Bitte konfigurieren Sie zuerst den regulären Ausdruck oder die JS-Funktion",
+    "matchConfig": "Match-Konfiguration",
+    "useRegex": "Verwenden Sie reguläre Ausdrücke",
+    "useJsFunction": "Verwendung von JS-Funktionen",
+    "regexPatterns": "Liste regulärer Ausdrücke (einer pro Zeile)",
+    "regexPlaceholder": "Beispiel: Muster1\\nMuster2",
+    "jsFunction": "JS-Funktion",
+    "jsFunctionPlaceholder": "Zum Beispiel: function(text) { return text.includes('keyword'); }",
+    "eventName": "Veranstaltungsname",
+    "eventNamePlaceholder": "Zum Beispiel: text_matched",
+    "startButton": "Start",
+    "stopButton": "stoppen",
+    "lastMatched": "Letzter übereinstimmender Text",
+    "matched": "Passender Text",
+    "matchHistory": "Spielverlauf",
+    "errorNoAndroidInterface": "Android-Schnittstelle nicht erkannt"
+  }
+}

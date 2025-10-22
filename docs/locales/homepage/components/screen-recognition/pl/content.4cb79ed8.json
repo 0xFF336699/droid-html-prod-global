@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Rozpoznawanie tekstu ekranowego",
+    "running": "Działanie",
+    "stopped": "Zatrzymany",
+    "startingRecognition": "Rozpoczęcie rozpoznawania...",
+    "stoppingRecognition": "Zatrzymywanie rozpoznawania...",
+    "startFailed": "Nie udało się rozpoznać uruchomienia",
+    "stopFailed": "Zatrzymanie rozpoznawania nie powiodło się",
+    "startException": "Wystąpił wyjątek podczas rozpoczynania rozpoznawania",
+    "stopException": "Wystąpił wyjątek podczas zatrzymywania rozpoznawania",
+    "recognitionStarted": "Rozpoznawanie ekranu zostało rozpoczęte",
+    "recognitionStopped": "Rozpoznawanie ekranu zostało zatrzymane",
+    "errorNoConfig": "Najpierw skonfiguruj wyrażenie regularne lub funkcję JS",
+    "matchConfig": "Konfiguracja dopasowania",
+    "useRegex": "Używaj wyrażeń regularnych",
+    "useJsFunction": "Korzystanie z funkcji JS",
+    "regexPatterns": "Lista wyrażeń regularnych (po jednym w wierszu)",
+    "regexPlaceholder": "Na przykład: wzór1\\nwzór2",
+    "jsFunction": "Funkcja JS",
+    "jsFunctionPlaceholder": "Na przykład: funkcja (tekst) { return tekst. zawiera ('słowo kluczowe'); }",
+    "eventName": "nazwa wydarzenia",
+    "eventNamePlaceholder": "Na przykład: tekst_dopasowany",
+    "startButton": "start",
+    "stopButton": "zatrzymywać się",
+    "lastMatched": "Ostatni dopasowany tekst",
+    "matched": "Dopasowany tekst",
+    "matchHistory": "Historia meczów",
+    "errorNoAndroidInterface": "Nie wykryto interfejsu Androida"
+  }
+}

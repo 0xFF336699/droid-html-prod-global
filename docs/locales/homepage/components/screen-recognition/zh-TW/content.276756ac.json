@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "屏幕文字識別",
+    "running": "運行中",
+    "stopped": "已停止",
+    "startingRecognition": "正在啟動識別...",
+    "stoppingRecognition": "正在停止識別...",
+    "startFailed": "啟動識別失敗",
+    "stopFailed": "停止識別失敗",
+    "startException": "啟動識別時發生異常",
+    "stopException": "停止識別時發生異常",
+    "recognitionStarted": "屏幕識別已啟動",
+    "recognitionStopped": "屏幕識別已停止",
+    "errorNoConfig": "請先配置正則表達式或 JS 函數",
+    "matchConfig": "匹配配置",
+    "useRegex": "使用正則表達式",
+    "useJsFunction": "使用 JS 函數",
+    "regexPatterns": "正則表達式列表（每行一個）",
+    "regexPlaceholder": "例如：pattern1\\npattern2",
+    "jsFunction": "JS 函數",
+    "jsFunctionPlaceholder": "例如：function(text) { return text.includes('關鍵字'); }",
+    "eventName": "事件名稱",
+    "eventNamePlaceholder": "例如：text_matched",
+    "startButton": "開始",
+    "stopButton": "停止",
+    "lastMatched": "上次匹配文本",
+    "matched": "匹配到的文本",
+    "matchHistory": "匹配歷史",
+    "errorNoAndroidInterface": "未檢測到安卓接口"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Ekran metni tanıma",
+    "running": "Koşma",
+    "stopped": "Durduruldu",
+    "startingRecognition": "Tanıma başlatılıyor...",
+    "stoppingRecognition": "Tanıma durduruluyor...",
+    "startFailed": "Başlangıç ​​tanıma başarısız oldu",
+    "stopFailed": "Tanıma durdurulamadı",
+    "startException": "Tanıma başlatılırken istisna oluştu",
+    "stopException": "Tanıma durdurulurken bir istisna oluştu",
+    "recognitionStarted": "Ekran tanıma başlatıldı",
+    "recognitionStopped": "Ekran tanıma durduruldu",
+    "errorNoConfig": "Lütfen önce normal ifadeyi veya JS işlevini yapılandırın",
+    "matchConfig": "Eşleştirme yapılandırması",
+    "useRegex": "Normal ifadeler kullanın",
+    "useJsFunction": "JS işlevlerini kullanma",
+    "regexPatterns": "Düzenli ifadelerin listesi (her satıra bir tane)",
+    "regexPlaceholder": "Örneğin: desen1\\ndesen2",
+    "jsFunction": "JS işlevi",
+    "jsFunctionPlaceholder": "Örneğin: function(text) { return text.includes('anahtar kelime'); }",
+    "eventName": "etkinlik adı",
+    "eventNamePlaceholder": "Örneğin: metin_eşleşti",
+    "startButton": "başlangıç",
+    "stopButton": "durmak",
+    "lastMatched": "Son eşleşen metin",
+    "matched": "Eşleşen metin",
+    "matchHistory": "Maç geçmişi",
+    "errorNoAndroidInterface": "Android arayüzü algılanmadı"
+  }
+}

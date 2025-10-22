@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Распознавание текста на экране",
+    "running": "Бег",
+    "stopped": "Остановлено",
+    "startingRecognition": "Начинаем узнавание...",
+    "stoppingRecognition": "Остановить узнавание...",
+    "startFailed": "Распознавание запуска не удалось",
+    "stopFailed": "Остановить распознавание не удалось",
+    "startException": "Исключение произошло при запуске распознавания",
+    "stopException": "Возникло исключение при остановке распознавания",
+    "recognitionStarted": "Распознавание экрана запущено.",
+    "recognitionStopped": "Распознавание экрана остановлено",
+    "errorNoConfig": "Сначала настройте регулярное выражение или функцию JS.",
+    "matchConfig": "Конфигурация матча",
+    "useRegex": "Используйте регулярные выражения",
+    "useJsFunction": "Использование функций JS",
+    "regexPatterns": "Список регулярных выражений (по одному в строке)",
+    "regexPlaceholder": "Например: шаблон1\\nшаблон2",
+    "jsFunction": "JS-функция",
+    "jsFunctionPlaceholder": "Например: function(text) { return text.includes('keyword'); }",
+    "eventName": "название события",
+    "eventNamePlaceholder": "Например: text_matched",
+    "startButton": "начинать",
+    "stopButton": "останавливаться",
+    "lastMatched": "Последний совпавший текст",
+    "matched": "Соответствующий текст",
+    "matchHistory": "История матчей",
+    "errorNoAndroidInterface": "Интерфейс Android не обнаружен"
+  }
+}

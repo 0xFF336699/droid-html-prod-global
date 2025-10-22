@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Skærmtekstgenkendelse",
+    "running": "Løb",
+    "stopped": "Stoppet",
+    "startingRecognition": "Starter genkendelse...",
+    "stoppingRecognition": "Stopper anerkendelse...",
+    "startFailed": "Opstartsgenkendelse mislykkedes",
+    "stopFailed": "Stop genkendelse mislykkedes",
+    "startException": "Undtagelse opstod ved start af genkendelse",
+    "stopException": "Der opstod en undtagelse under stop af genkendelse",
+    "recognitionStarted": "Skærmgenkendelse er startet",
+    "recognitionStopped": "Skærmgenkendelse er stoppet",
+    "errorNoConfig": "Konfigurer venligst det regulære udtryk eller JS-funktionen først",
+    "matchConfig": "Match konfiguration",
+    "useRegex": "Brug regulære udtryk",
+    "useJsFunction": "Brug af JS-funktioner",
+    "regexPatterns": "Liste over regulære udtryk (et pr. linje)",
+    "regexPlaceholder": "For eksempel: mønster1\\nmønster2",
+    "jsFunction": "JS funktion",
+    "jsFunctionPlaceholder": "For eksempel: function(text) { return text.includes('keyword'); }",
+    "eventName": "begivenhedens navn",
+    "eventNamePlaceholder": "For eksempel: text_matched",
+    "startButton": "starte",
+    "stopButton": "stop",
+    "lastMatched": "Sidst matchede tekst",
+    "matched": "Matchet tekst",
+    "matchHistory": "Kamphistorie",
+    "errorNoAndroidInterface": "Android-grænseflade ikke fundet"
+  }
+}

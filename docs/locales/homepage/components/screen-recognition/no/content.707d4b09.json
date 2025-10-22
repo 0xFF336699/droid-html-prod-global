@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Skjermtekstgjenkjenning",
+    "running": "Løper",
+    "stopped": "Stoppet",
+    "startingRecognition": "Starter gjenkjenning...",
+    "stoppingRecognition": "Stopper gjenkjennelse...",
+    "startFailed": "Oppstartsgjenkjenning mislyktes",
+    "stopFailed": "Stoppgjenkjenning mislyktes",
+    "startException": "Unntak skjedde ved start av gjenkjenning",
+    "stopException": "Et unntak skjedde under stopp av gjenkjenning",
+    "recognitionStarted": "Skjermgjenkjenning er startet",
+    "recognitionStopped": "Skjermgjenkjenningen har stoppet",
+    "errorNoConfig": "Konfigurer det regulære uttrykket eller JS-funksjonen først",
+    "matchConfig": "Match konfigurasjon",
+    "useRegex": "Bruk regulære uttrykk",
+    "useJsFunction": "Bruke JS-funksjoner",
+    "regexPatterns": "Liste over regulære uttrykk (ett per linje)",
+    "regexPlaceholder": "For eksempel: mønster1\\nmønster2",
+    "jsFunction": "JS funksjon",
+    "jsFunctionPlaceholder": "For eksempel: function(text) { return text.includes('keyword'); }",
+    "eventName": "hendelsesnavn",
+    "eventNamePlaceholder": "For eksempel: text_matched",
+    "startButton": "start",
+    "stopButton": "stoppe",
+    "lastMatched": "Sist samsvarende tekst",
+    "matched": "Samsvarende tekst",
+    "matchHistory": "Kamphistorikk",
+    "errorNoAndroidInterface": "Android-grensesnitt ikke oppdaget"
+  }
+}

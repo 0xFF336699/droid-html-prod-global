@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "画面テキスト認識",
+    "running": "ランニング",
+    "stopped": "停止しました",
+    "startingRecognition": "認識を開始しています...",
+    "stoppingRecognition": "認識を停止しています...",
+    "startFailed": "起動認識に失敗しました",
+    "stopFailed": "停止認識に失敗しました",
+    "startException": "認識開始時に例外が発生しました",
+    "stopException": "認識停止中に例外が発生しました",
+    "recognitionStarted": "画面認識が開始されます",
+    "recognitionStopped": "画面認識が停止しました",
+    "errorNoConfig": "最初に正規表現または JS 関数を構成してください",
+    "matchConfig": "マッチ構成",
+    "useRegex": "正規表現を使用する",
+    "useJsFunction": "JS関数の使用",
+    "regexPatterns": "正規表現のリスト (1 行に 1 つ)",
+    "regexPlaceholder": "例: パターン 1\\nパターン 2",
+    "jsFunction": "JS関数",
+    "jsFunctionPlaceholder": "例: function(text) { return text.includes('keyword'); }",
+    "eventName": "イベント名",
+    "eventNamePlaceholder": "例: text_matched",
+    "startButton": "始める",
+    "stopButton": "停止",
+    "lastMatched": "最後に一致したテキスト",
+    "matched": "一致したテキスト",
+    "matchHistory": "試合履歴",
+    "errorNoAndroidInterface": "Androidインターフェースが検出されない"
+  }
+}

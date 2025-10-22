@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Reconhecimento de texto na tela",
+    "running": "Correndo",
+    "stopped": "Parou",
+    "startingRecognition": "Iniciando o reconhecimento...",
+    "stoppingRecognition": "Parando o reconhecimento...",
+    "startFailed": "Falha no reconhecimento de inicialização",
+    "stopFailed": "Falha ao parar o reconhecimento",
+    "startException": "Ocorreu uma exceção ao iniciar o reconhecimento",
+    "stopException": "Ocorreu uma exceção ao interromper o reconhecimento",
+    "recognitionStarted": "O reconhecimento de tela é iniciado",
+    "recognitionStopped": "O reconhecimento de tela parou",
+    "errorNoConfig": "Configure primeiro a expressão regular ou a função JS",
+    "matchConfig": "Configuração de correspondência",
+    "useRegex": "Utilize expressões regulares",
+    "useJsFunction": "Usando funções JS",
+    "regexPatterns": "Lista de expressões regulares (uma por linha)",
+    "regexPlaceholder": "Por exemplo: padrão1\\npadrão2",
+    "jsFunction": "Função JS",
+    "jsFunctionPlaceholder": "Por exemplo: function(text) { return text.includes('keyword'); }",
+    "eventName": "nome do evento",
+    "eventNamePlaceholder": "Por exemplo: text_matched",
+    "startButton": "começar",
+    "stopButton": "parar",
+    "lastMatched": "Último texto correspondente",
+    "matched": "Texto correspondente",
+    "matchHistory": "Histórico de partidas",
+    "errorNoAndroidInterface": "Interface Android não detectada"
+  }
+}

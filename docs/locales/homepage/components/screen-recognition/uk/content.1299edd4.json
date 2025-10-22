@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Розпізнавання екранного тексту",
+    "running": "Біг",
+    "stopped": "Зупинився",
+    "startingRecognition": "Початок розпізнавання...",
+    "stoppingRecognition": "Припинення розпізнавання...",
+    "startFailed": "Помилка розпізнавання при запуску",
+    "stopFailed": "Не вдалося зупинити розпізнавання",
+    "startException": "Виняток стався під час запуску розпізнавання",
+    "stopException": "Виняток стався під час зупинки розпізнавання",
+    "recognitionStarted": "Запускається розпізнавання екрана",
+    "recognitionStopped": "Розпізнавання екрана зупинено",
+    "errorNoConfig": "Спочатку налаштуйте регулярний вираз або функцію JS",
+    "matchConfig": "Конфігурація матчу",
+    "useRegex": "Використовуйте регулярні вирази",
+    "useJsFunction": "Використання функцій JS",
+    "regexPatterns": "Список регулярних виразів (по одному на рядок)",
+    "regexPlaceholder": "Наприклад: шаблон1\\n шаблон2",
+    "jsFunction": "Функція JS",
+    "jsFunctionPlaceholder": "Наприклад: function(text) { return text.includes('keyword'); }",
+    "eventName": "назва події",
+    "eventNamePlaceholder": "Наприклад: text_matched",
+    "startButton": "почати",
+    "stopButton": "СТІЙ",
+    "lastMatched": "Останній знайдений текст",
+    "matched": "Відповідний текст",
+    "matchHistory": "Історія матчів",
+    "errorNoAndroidInterface": "Інтерфейс Android не виявлено"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "화면 텍스트 인식",
+    "running": "달리기",
+    "stopped": "중지됨",
+    "startingRecognition": "인식 시작 중...",
+    "stoppingRecognition": "인식 중지 중...",
+    "startFailed": "시작 인식 실패",
+    "stopFailed": "인식 중지 실패",
+    "startException": "인식을 시작할 때 예외가 발생했습니다.",
+    "stopException": "인식을 중지하는 중 예외가 발생했습니다.",
+    "recognitionStarted": "화면 인식이 시작되었습니다",
+    "recognitionStopped": "화면 인식이 중지되었습니다",
+    "errorNoConfig": "먼저 정규식 또는 JS 기능을 구성하세요.",
+    "matchConfig": "매치 구성",
+    "useRegex": "정규식 사용",
+    "useJsFunction": "JS 함수 사용",
+    "regexPatterns": "정규식 목록(한 줄에 하나씩)",
+    "regexPlaceholder": "예: 패턴1\\n패턴2",
+    "jsFunction": "JS 기능",
+    "jsFunctionPlaceholder": "예: function(text) { return text.includes('keyword'); }",
+    "eventName": "이벤트 이름",
+    "eventNamePlaceholder": "예: text_matched",
+    "startButton": "시작",
+    "stopButton": "멈추다",
+    "lastMatched": "마지막으로 일치하는 텍스트",
+    "matched": "일치하는 텍스트",
+    "matchHistory": "경기 기록",
+    "errorNoAndroidInterface": "Android 인터페이스가 감지되지 않음"
+  }
+}

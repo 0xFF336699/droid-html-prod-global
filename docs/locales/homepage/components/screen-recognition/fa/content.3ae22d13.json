@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "تشخیص متن صفحه",
+    "running": "در حال دویدن",
+    "stopped": "متوقف شد",
+    "startingRecognition": "شروع شناسایی...",
+    "stoppingRecognition": "توقف شناسایی...",
+    "startFailed": "تشخیص راه اندازی انجام نشد",
+    "stopFailed": "تشخیص توقف انجام نشد",
+    "startException": "هنگام شروع شناسایی، استثنا رخ داد",
+    "stopException": "هنگام توقف شناسایی، یک استثنا رخ داد",
+    "recognitionStarted": "تشخیص صفحه شروع شد",
+    "recognitionStopped": "تشخیص صفحه متوقف شده است",
+    "errorNoConfig": "لطفا ابتدا عبارت منظم یا تابع JS را پیکربندی کنید",
+    "matchConfig": "پیکربندی مطابقت",
+    "useRegex": "از عبارات منظم استفاده کنید",
+    "useJsFunction": "استفاده از توابع JS",
+    "regexPatterns": "فهرست عبارات منظم (یکی در هر خط)",
+    "regexPlaceholder": "به عنوان مثال: pattern1\\npattern2",
+    "jsFunction": "تابع JS",
+    "jsFunctionPlaceholder": "به عنوان مثال: function(text) { return text.includes('keyword'); }",
+    "eventName": "نام رویداد",
+    "eventNamePlaceholder": "به عنوان مثال: text_matched",
+    "startButton": "شروع کنید",
+    "stopButton": "توقف",
+    "lastMatched": "آخرین متن مطابقت شده",
+    "matched": "متن همسان",
+    "matchHistory": "تاریخچه مسابقات",
+    "errorNoAndroidInterface": "رابط اندروید شناسایی نشد"
+  }
+}

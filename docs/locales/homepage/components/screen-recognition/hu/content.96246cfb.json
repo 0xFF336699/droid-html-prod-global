@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Képernyőszöveg felismerés",
+    "running": "Futás",
+    "stopped": "Megállt",
+    "startingRecognition": "Felismerés megkezdése...",
+    "stoppingRecognition": "A felismerés leállítása...",
+    "startFailed": "Az indítás felismerése nem sikerült",
+    "stopFailed": "A felismerés leállítása nem sikerült",
+    "startException": "Kivétel a felismerés megkezdésekor történt",
+    "stopException": "Kivétel történt a felismerés leállítása közben",
+    "recognitionStarted": "Elindul a képernyőfelismerés",
+    "recognitionStopped": "A képernyőfelismerés leállt",
+    "errorNoConfig": "Először állítsa be a reguláris kifejezést vagy a JS függvényt",
+    "matchConfig": "Konfiguráció egyezése",
+    "useRegex": "Használjon reguláris kifejezéseket",
+    "useJsFunction": "JS függvények használata",
+    "regexPatterns": "Reguláris kifejezések listája (soronként egy)",
+    "regexPlaceholder": "Például: minta1\\nminta2",
+    "jsFunction": "JS függvény",
+    "jsFunctionPlaceholder": "Például: function(text) { return text.includes('kulcsszó'); }",
+    "eventName": "esemény neve",
+    "eventNamePlaceholder": "Például: text_matched",
+    "startButton": "indul",
+    "stopButton": "Stop",
+    "lastMatched": "Utolsó egyező szöveg",
+    "matched": "Egyező szöveg",
+    "matchHistory": "Meccstörténet",
+    "errorNoAndroidInterface": "Android interfész nem észlelhető"
+  }
+}

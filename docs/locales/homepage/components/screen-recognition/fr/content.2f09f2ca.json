@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Reconnaissance de texte à l'écran",
+    "running": "En cours d'exécution",
+    "stopped": "Arrêté",
+    "startingRecognition": "Début de la reconnaissance...",
+    "stoppingRecognition": "Arrêt de la reconnaissance...",
+    "startFailed": "La reconnaissance du démarrage a échoué",
+    "stopFailed": "Échec de la reconnaissance d'arrêt",
+    "startException": "Une exception s'est produite lors du démarrage de la reconnaissance",
+    "stopException": "Une exception s'est produite lors de l'arrêt de la reconnaissance",
+    "recognitionStarted": "La reconnaissance d'écran est lancée",
+    "recognitionStopped": "La reconnaissance d'écran s'est arrêtée",
+    "errorNoConfig": "Veuillez d'abord configurer l'expression régulière ou la fonction JS.",
+    "matchConfig": "Configuration des correspondances",
+    "useRegex": "Utiliser des expressions régulières",
+    "useJsFunction": "Utiliser les fonctions JS",
+    "regexPatterns": "Liste des expressions régulières (une par ligne)",
+    "regexPlaceholder": "Par exemple : modèle1\\nmodèle2",
+    "jsFunction": "Fonction JS",
+    "jsFunctionPlaceholder": "Par exemple : function(text) { return text.includes('keyword'); }",
+    "eventName": "nom de l'événement",
+    "eventNamePlaceholder": "Par exemple : text_matched",
+    "startButton": "commencer",
+    "stopButton": "arrêt",
+    "lastMatched": "Dernier texte correspondant",
+    "matched": "Texte correspondant",
+    "matchHistory": "Historique des matchs",
+    "errorNoAndroidInterface": "Interface Android non détectée"
+  }
+}

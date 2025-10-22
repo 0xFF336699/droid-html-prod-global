@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Pengenalan teks layar",
+    "running": "Berlari",
+    "stopped": "Berhenti",
+    "startingRecognition": "Mulai pengakuan...",
+    "stoppingRecognition": "Menghentikan pengenalan...",
+    "startFailed": "Pengenalan startup gagal",
+    "stopFailed": "Gagal menghentikan pengenalan",
+    "startException": "Pengecualian terjadi saat memulai pengenalan",
+    "stopException": "Pengecualian terjadi saat menghentikan pengenalan",
+    "recognitionStarted": "Pengenalan layar dimulai",
+    "recognitionStopped": "Pengenalan layar telah berhenti",
+    "errorNoConfig": "Harap konfigurasikan ekspresi reguler atau fungsi JS terlebih dahulu",
+    "matchConfig": "Konfigurasi pertandingan",
+    "useRegex": "Gunakan ekspresi reguler",
+    "useJsFunction": "Menggunakan fungsi JS",
+    "regexPatterns": "Daftar ekspresi reguler (satu per baris)",
+    "regexPlaceholder": "Misalnya: pola1\\npola2",
+    "jsFunction": "fungsi JS",
+    "jsFunctionPlaceholder": "Misalnya: function(text) { return text.includes('keyword'); }",
+    "eventName": "nama acara",
+    "eventNamePlaceholder": "Misalnya: teks_cocok",
+    "startButton": "awal",
+    "stopButton": "berhenti",
+    "lastMatched": "Teks terakhir yang cocok",
+    "matched": "Teks yang cocok",
+    "matchHistory": "Sejarah pertandingan",
+    "errorNoAndroidInterface": "Antarmuka Android tidak terdeteksi"
+  }
+}

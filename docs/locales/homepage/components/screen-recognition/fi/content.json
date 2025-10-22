@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Näytön tekstin tunnistus",
+    "running": "Juoksemassa",
+    "stopped": "Pysähtynyt",
+    "startingRecognition": "Tunnistus alkaa...",
+    "stoppingRecognition": "Tunnistuksen lopettaminen...",
+    "startFailed": "Käynnistyksen tunnistus epäonnistui",
+    "stopFailed": "Tunnistamisen pysäytys epäonnistui",
+    "startException": "Poikkeus tapahtui tunnistamisen alkaessa",
+    "stopException": "Poikkeus tapahtui tunnistamisen pysäyttämisessä",
+    "recognitionStarted": "Näytön tunnistus käynnistyy",
+    "recognitionStopped": "Näytön tunnistus on pysähtynyt",
+    "errorNoConfig": "Määritä ensin säännöllinen lauseke tai JS-funktio",
+    "matchConfig": "Vastaa kokoonpanoa",
+    "useRegex": "Käytä säännöllisiä lausekkeita",
+    "useJsFunction": "JS-toimintojen käyttö",
+    "regexPatterns": "Luettelo säännöllisistä lausekkeista (yksi per rivi)",
+    "regexPlaceholder": "Esimerkki: kuvio1\\nkuvio2",
+    "jsFunction": "JS-toiminto",
+    "jsFunctionPlaceholder": "Esimerkki: function(text) { return text.includes('avainsana'); }",
+    "eventName": "tapahtuman nimi",
+    "eventNamePlaceholder": "Esimerkiksi: text_matched",
+    "startButton": "aloita",
+    "stopButton": "Stop",
+    "lastMatched": "Viimeksi osunut teksti",
+    "matched": "Vastaava teksti",
+    "matchHistory": "Otteluhistoria",
+    "errorNoAndroidInterface": "Android-käyttöliittymää ei havaittu"
+  }
+}

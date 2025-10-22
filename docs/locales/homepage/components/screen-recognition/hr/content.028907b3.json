@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Prepoznavanje teksta na ekranu",
+    "running": "Trčanje",
+    "stopped": "Zaustavljeno",
+    "startingRecognition": "Pokretanje prepoznavanja...",
+    "stoppingRecognition": "Zaustavljanje prepoznavanja...",
+    "startFailed": "Prepoznavanje pokretanja nije uspjelo",
+    "stopFailed": "Zaustavljanje prepoznavanja nije uspjelo",
+    "startException": "Dogodila se iznimka prilikom pokretanja prepoznavanja",
+    "stopException": "Dogodila se iznimka prilikom zaustavljanja prepoznavanja",
+    "recognitionStarted": "Pokrenuto je prepoznavanje zaslona",
+    "recognitionStopped": "Prepoznavanje zaslona je zaustavljeno",
+    "errorNoConfig": "Najprije konfigurirajte regularni izraz ili JS funkciju",
+    "matchConfig": "Konfiguracija utakmice",
+    "useRegex": "Koristite regularne izraze",
+    "useJsFunction": "Korištenje JS funkcija",
+    "regexPatterns": "Popis regularnih izraza (jedan po retku)",
+    "regexPlaceholder": "Na primjer: uzorak1\\nuzorak2",
+    "jsFunction": "JS funkcija",
+    "jsFunctionPlaceholder": "Na primjer: function(text) { return text.includes('keyword'); }",
+    "eventName": "naziv događaja",
+    "eventNamePlaceholder": "Na primjer: text_matched",
+    "startButton": "start",
+    "stopButton": "Stop",
+    "lastMatched": "Zadnji upareni tekst",
+    "matched": "Podudarni tekst",
+    "matchHistory": "Povijest utakmica",
+    "errorNoAndroidInterface": "Android sučelje nije otkriveno"
+  }
+}

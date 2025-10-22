@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "זיהוי טקסט מסך",
+    "running": "רִיצָה",
+    "stopped": "נֶעצָר",
+    "startingRecognition": "מתחיל זיהוי...",
+    "stoppingRecognition": "מפסיק את ההכרה...",
+    "startFailed": "זיהוי האתחול נכשל",
+    "stopFailed": "עצירת הזיהוי נכשלה",
+    "startException": "חריגה אירעה בעת תחילת הזיהוי",
+    "stopException": "חריג אירע בעת עצירת הזיהוי",
+    "recognitionStarted": "זיהוי מסך מופעל",
+    "recognitionStopped": "זיהוי המסך הופסק",
+    "errorNoConfig": "נא להגדיר תחילה את הביטוי הרגולרי או הפונקציה JS",
+    "matchConfig": "התאמה לתצורה",
+    "useRegex": "השתמש בביטויים רגולריים",
+    "useJsFunction": "שימוש בפונקציות JS",
+    "regexPatterns": "רשימת ביטויים רגולריים (אחד בכל שורה)",
+    "regexPlaceholder": "לדוגמה: pattern1\\npattern2",
+    "jsFunction": "פונקציית JS",
+    "jsFunctionPlaceholder": "לדוגמה: function(text) { return text.includes('keyword'); }",
+    "eventName": "שם האירוע",
+    "eventNamePlaceholder": "לדוגמה: text_matched",
+    "startButton": "הַתחָלָה",
+    "stopButton": "לְהַפְסִיק",
+    "lastMatched": "טקסט תואם אחרון",
+    "matched": "טקסט תואם",
+    "matchHistory": "היסטוריית התאמה",
+    "errorNoAndroidInterface": "ממשק אנדרואיד לא זוהה"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "การจดจำข้อความบนหน้าจอ",
+    "running": "วิ่ง",
+    "stopped": "หยุดแล้ว",
+    "startingRecognition": "กำลังเริ่มการรับรู้...",
+    "stoppingRecognition": "กำลังหยุดการรับรู้...",
+    "startFailed": "การรับรู้การเริ่มต้นล้มเหลว",
+    "stopFailed": "หยุดการรับรู้ล้มเหลว",
+    "startException": "ข้อยกเว้นเกิดขึ้นเมื่อเริ่มการรับรู้",
+    "stopException": "มีข้อยกเว้นเกิดขึ้นขณะหยุดการรับรู้",
+    "recognitionStarted": "การจดจำหน้าจอเริ่มต้นขึ้น",
+    "recognitionStopped": "การจดจำหน้าจอหยุดแล้ว",
+    "errorNoConfig": "โปรดกำหนดค่านิพจน์ทั่วไปหรือฟังก์ชัน JS ก่อน",
+    "matchConfig": "จับคู่การกำหนดค่า",
+    "useRegex": "ใช้นิพจน์ทั่วไป",
+    "useJsFunction": "การใช้ฟังก์ชัน JS",
+    "regexPatterns": "รายการนิพจน์ทั่วไป (หนึ่งรายการต่อบรรทัด)",
+    "regexPlaceholder": "ตัวอย่างเช่น: pattern1\\npattern2",
+    "jsFunction": "ฟังก์ชันเจเอส",
+    "jsFunctionPlaceholder": "ตัวอย่างเช่น: function(text) { return text.includes('keyword'); -",
+    "eventName": "ชื่อเหตุการณ์",
+    "eventNamePlaceholder": "ตัวอย่างเช่น: text_matched",
+    "startButton": "เริ่ม",
+    "stopButton": "หยุด",
+    "lastMatched": "ข้อความที่ตรงกันล่าสุด",
+    "matched": "ข้อความที่ตรงกัน",
+    "matchHistory": "ประวัติการแข่งขัน",
+    "errorNoAndroidInterface": "ตรวจไม่พบอินเทอร์เฟซ Android"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "स्क्रीन टेक्स्ट पहचान",
+    "running": "दौड़ना",
+    "stopped": "रुक गया",
+    "startingRecognition": "पहचान शुरू हो रही है...",
+    "stoppingRecognition": "पहचान रोकी जा रही है...",
+    "startFailed": "स्टार्टअप पहचान विफल रही",
+    "stopFailed": "पहचान रोकना विफल रहा",
+    "startException": "पहचान प्रारंभ करते समय अपवाद उत्पन्न हुआ",
+    "stopException": "पहचान रोकते समय एक अपवाद उत्पन्न हुआ",
+    "recognitionStarted": "स्क्रीन पहचान प्रारंभ हो गई है",
+    "recognitionStopped": "स्क्रीन पहचान बंद हो गई है",
+    "errorNoConfig": "कृपया पहले रेगुलर एक्सप्रेशन या JS फ़ंक्शन को कॉन्फ़िगर करें",
+    "matchConfig": "कॉन्फ़िगरेशन का मिलान करें",
+    "useRegex": "नियमित अभिव्यक्ति का प्रयोग करें",
+    "useJsFunction": "जेएस फ़ंक्शंस का उपयोग करना",
+    "regexPatterns": "नियमित अभिव्यक्तियों की सूची (प्रति पंक्ति एक)",
+    "regexPlaceholder": "उदाहरण के लिए: पैटर्न1\\nपैटर्न2",
+    "jsFunction": "जेएस फ़ंक्शन",
+    "jsFunctionPlaceholder": "उदाहरण के लिए: function(text) { return text.includes('keyword'); }",
+    "eventName": "घटना नाम",
+    "eventNamePlaceholder": "उदाहरण के लिए: text_matched",
+    "startButton": "शुरू",
+    "stopButton": "रुकना",
+    "lastMatched": "अंतिम मिलान वाला पाठ",
+    "matched": "मिलान किया हुआ पाठ",
+    "matchHistory": "मैच का इतिहास",
+    "errorNoAndroidInterface": "एंड्रॉइड इंटरफ़ेस का पता नहीं चला"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Rozpoznávání textu na obrazovce",
+    "running": "Běh",
+    "stopped": "Zastaveno",
+    "startingRecognition": "Spouštění rozpoznávání...",
+    "stoppingRecognition": "Zastavování rozpoznávání...",
+    "startFailed": "Rozpoznání spouštění se nezdařilo",
+    "stopFailed": "Zastavení rozpoznávání se nezdařilo",
+    "startException": "Výjimka nastala při zahájení rozpoznávání",
+    "stopException": "Při zastavování rozpoznávání došlo k výjimce",
+    "recognitionStarted": "Spustí se rozpoznávání obrazovky",
+    "recognitionStopped": "Rozpoznávání obrazovky se zastavilo",
+    "errorNoConfig": "Nejprve nakonfigurujte regulární výraz nebo funkci JS",
+    "matchConfig": "Konfigurace shody",
+    "useRegex": "Používejte regulární výrazy",
+    "useJsFunction": "Použití funkcí JS",
+    "regexPatterns": "Seznam regulárních výrazů (jeden na řádek)",
+    "regexPlaceholder": "Například: vzor1\\nvzor2",
+    "jsFunction": "funkce JS",
+    "jsFunctionPlaceholder": "Například: function(text) { return text.includes('keyword'); }",
+    "eventName": "název události",
+    "eventNamePlaceholder": "Například: text_matched",
+    "startButton": "start",
+    "stopButton": "zastávka",
+    "lastMatched": "Poslední odpovídající text",
+    "matched": "Odpovídající text",
+    "matchHistory": "Historie zápasů",
+    "errorNoAndroidInterface": "Rozhraní Android nebylo zjištěno"
+  }
+}

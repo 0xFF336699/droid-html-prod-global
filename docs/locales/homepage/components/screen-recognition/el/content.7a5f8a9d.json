@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Αναγνώριση κειμένου οθόνης",
+    "running": "Τρέξιμο",
+    "stopped": "Σταμάτησε",
+    "startingRecognition": "Έναρξη αναγνώρισης...",
+    "stoppingRecognition": "Διακοπή αναγνώρισης...",
+    "startFailed": "Η αναγνώριση εκκίνησης απέτυχε",
+    "stopFailed": "Η διακοπή αναγνώρισης απέτυχε",
+    "startException": "Παρουσιάστηκε εξαίρεση κατά την έναρξη της αναγνώρισης",
+    "stopException": "Παρουσιάστηκε μια εξαίρεση κατά τη διακοπή της αναγνώρισης",
+    "recognitionStarted": "Ξεκινά η αναγνώριση οθόνης",
+    "recognitionStopped": "Η αναγνώριση οθόνης έχει σταματήσει",
+    "errorNoConfig": "Διαμορφώστε πρώτα την τυπική έκφραση ή τη συνάρτηση JS",
+    "matchConfig": "Διαμόρφωση αντιστοίχισης",
+    "useRegex": "Χρησιμοποιήστε κανονικές εκφράσεις",
+    "useJsFunction": "Χρήση συναρτήσεων JS",
+    "regexPatterns": "Λίστα κανονικών εκφράσεων (μία ανά γραμμή)",
+    "regexPlaceholder": "Για παράδειγμα: pattern1\\npattern2",
+    "jsFunction": "Λειτουργία JS",
+    "jsFunctionPlaceholder": "Για παράδειγμα: function(text) { return text.includes('keyword'); }",
+    "eventName": "όνομα εκδήλωσης",
+    "eventNamePlaceholder": "Για παράδειγμα: text_matched",
+    "startButton": "αρχή",
+    "stopButton": "στάση",
+    "lastMatched": "Τελευταίο αντιστοιχισμένο κείμενο",
+    "matched": "Αντιστοιχισμένο κείμενο",
+    "matchHistory": "Ιστορικό αγώνα",
+    "errorNoAndroidInterface": "Η διεπαφή Android δεν εντοπίστηκε"
+  }
+}

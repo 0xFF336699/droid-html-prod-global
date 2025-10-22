@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "التعرف على نص الشاشة",
+    "running": "جري",
+    "stopped": "توقف",
+    "startingRecognition": "بدء الاعتراف...",
+    "stoppingRecognition": "جارٍ إيقاف الاعتراف...",
+    "startFailed": "فشل التعرف على بدء التشغيل",
+    "stopFailed": "فشل إيقاف التعرف",
+    "startException": "حدث استثناء عند بدء التعرف",
+    "stopException": "حدث استثناء أثناء إيقاف التعرف",
+    "recognitionStarted": "بدأ التعرف على الشاشة",
+    "recognitionStopped": "توقف التعرف على الشاشة",
+    "errorNoConfig": "يرجى تكوين التعبير العادي أو وظيفة JS أولاً",
+    "matchConfig": "تكوين المباراة",
+    "useRegex": "استخدم التعبيرات العادية",
+    "useJsFunction": "باستخدام وظائف JS",
+    "regexPatterns": "قائمة التعبيرات العادية (واحد لكل سطر)",
+    "regexPlaceholder": "على سبيل المثال: النمط1\\nالنمط2",
+    "jsFunction": "وظيفة شبيبة",
+    "jsFunctionPlaceholder": "على سبيل المثال: function(text) { return text.includes('keyword'); }",
+    "eventName": "اسم الحدث",
+    "eventNamePlaceholder": "على سبيل المثال: text_matched",
+    "startButton": "يبدأ",
+    "stopButton": "قف",
+    "lastMatched": "آخر نص مطابق",
+    "matched": "النص المطابق",
+    "matchHistory": "تاريخ المباراة",
+    "errorNoAndroidInterface": "لم يتم اكتشاف واجهة Android"
+  }
+}

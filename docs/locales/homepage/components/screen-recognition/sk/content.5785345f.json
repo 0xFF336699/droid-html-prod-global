@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Rozpoznávanie textu na obrazovke",
+    "running": "Beh",
+    "stopped": "Zastavené",
+    "startingRecognition": "Spúšťa sa rozpoznávanie...",
+    "stoppingRecognition": "Zastavuje sa rozpoznávanie...",
+    "startFailed": "Rozpoznanie spustenia zlyhalo",
+    "stopFailed": "Zastavenie rozpoznávania zlyhalo",
+    "startException": "Výnimka nastala pri spustení rozpoznávania",
+    "stopException": "Pri zastavení rozpoznávania nastala výnimka",
+    "recognitionStarted": "Spustí sa rozpoznávanie obrazovky",
+    "recognitionStopped": "Rozpoznávanie obrazovky sa zastavilo",
+    "errorNoConfig": "Najprv nakonfigurujte regulárny výraz alebo funkciu JS",
+    "matchConfig": "Konfigurácia zápasu",
+    "useRegex": "Používajte regulárne výrazy",
+    "useJsFunction": "Používanie funkcií JS",
+    "regexPatterns": "Zoznam regulárnych výrazov (jeden na riadok)",
+    "regexPlaceholder": "Napríklad: vzor1\\nvzor2",
+    "jsFunction": "Funkcia JS",
+    "jsFunctionPlaceholder": "Napríklad: function(text) { return text.includes('keyword'); }",
+    "eventName": "názov udalosti",
+    "eventNamePlaceholder": "Napríklad: text_matched",
+    "startButton": "začať",
+    "stopButton": "zastaviť",
+    "lastMatched": "Posledný zhodný text",
+    "matched": "Zodpovedajúci text",
+    "matchHistory": "História zápasu",
+    "errorNoAndroidInterface": "Rozhranie Android nebolo zistené"
+  }
+}

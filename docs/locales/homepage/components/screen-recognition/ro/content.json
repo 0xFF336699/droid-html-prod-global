@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Recunoașterea textului pe ecran",
+    "running": "Funcţionare",
+    "stopped": "oprit",
+    "startingRecognition": "Începe recunoașterea...",
+    "stoppingRecognition": "Oprirea recunoașterii...",
+    "startFailed": "Recunoașterea la pornire a eșuat",
+    "stopFailed": "Oprirea recunoașterii a eșuat",
+    "startException": "Excepție a apărut la începerea recunoașterii",
+    "stopException": "A apărut o excepție la oprirea recunoașterii",
+    "recognitionStarted": "Recunoașterea ecranului este pornită",
+    "recognitionStopped": "Recunoașterea ecranului s-a oprit",
+    "errorNoConfig": "Vă rugăm să configurați mai întâi expresia regulată sau funcția JS",
+    "matchConfig": "Potriviți configurația",
+    "useRegex": "Folosiți expresii regulate",
+    "useJsFunction": "Utilizarea funcțiilor JS",
+    "regexPatterns": "Lista de expresii regulate (una pe linie)",
+    "regexPlaceholder": "De exemplu: model1\\nmodel2",
+    "jsFunction": "Funcția JS",
+    "jsFunctionPlaceholder": "De exemplu: function(text) { return text.includes('keyword'); }",
+    "eventName": "numele evenimentului",
+    "eventNamePlaceholder": "De exemplu: text_matched",
+    "startButton": "început",
+    "stopButton": "Stop",
+    "lastMatched": "Ultimul text potrivit",
+    "matched": "Text potrivit",
+    "matchHistory": "Istoricul meciurilor",
+    "errorNoAndroidInterface": "Interfața Android nu a fost detectată"
+  }
+}

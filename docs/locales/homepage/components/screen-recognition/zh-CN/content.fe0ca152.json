@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "屏幕文字识别",
+    "running": "运行中",
+    "stopped": "已停止",
+    "startingRecognition": "正在启动识别...",
+    "stoppingRecognition": "正在停止识别...",
+    "startFailed": "启动识别失败",
+    "stopFailed": "停止识别失败",
+    "startException": "启动识别时发生异常",
+    "stopException": "停止识别时发生异常",
+    "recognitionStarted": "屏幕识别已启动",
+    "recognitionStopped": "屏幕识别已停止",
+    "errorNoConfig": "请先配置正则表达式或 JS 函数",
+    "matchConfig": "匹配配置",
+    "useRegex": "使用正则表达式",
+    "useJsFunction": "使用 JS 函数",
+    "regexPatterns": "正则表达式列表（每行一个）",
+    "regexPlaceholder": "例如：pattern1\\npattern2",
+    "jsFunction": "JS 函数",
+    "jsFunctionPlaceholder": "例如：function(text) { return text.includes('关键字'); }",
+    "eventName": "事件名称",
+    "eventNamePlaceholder": "例如：text_matched",
+    "startButton": "开始",
+    "stopButton": "停止",
+    "lastMatched": "上次匹配文本",
+    "matched": "匹配到的文本",
+    "matchHistory": "匹配历史",
+    "errorNoAndroidInterface": "未检测到安卓接口"
+  }
+}

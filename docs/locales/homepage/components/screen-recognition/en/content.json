@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Screen text recognition",
+    "running": "Running",
+    "stopped": "Stopped",
+    "startingRecognition": "Starting recognition...",
+    "stoppingRecognition": "Stopping recognition...",
+    "startFailed": "Startup recognition failed",
+    "stopFailed": "Stop recognition failed",
+    "startException": "Exception occurred when starting recognition",
+    "stopException": "An exception occurred while stopping recognition",
+    "recognitionStarted": "Screen recognition is started",
+    "recognitionStopped": "Screen recognition has stopped",
+    "errorNoConfig": "Please configure the regular expression or JS function first",
+    "matchConfig": "Match configuration",
+    "useRegex": "Use regular expressions",
+    "useJsFunction": "Using JS functions",
+    "regexPatterns": "List of regular expressions (one per line)",
+    "regexPlaceholder": "For example: pattern1\\npattern2",
+    "jsFunction": "JS function",
+    "jsFunctionPlaceholder": "For example: function(text) { return text.includes('keyword'); }",
+    "eventName": "event name",
+    "eventNamePlaceholder": "For example: text_matched",
+    "startButton": "start",
+    "stopButton": "stop",
+    "lastMatched": "Last matched text",
+    "matched": "Matched text",
+    "matchHistory": "Match history",
+    "errorNoAndroidInterface": "Android interface not detected"
+  }
+}

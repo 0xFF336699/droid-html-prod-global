@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Schermtekstherkenning",
+    "running": "Rennen",
+    "stopped": "Gestopt",
+    "startingRecognition": "Herkenning starten...",
+    "stoppingRecognition": "Herkenning stoppen...",
+    "startFailed": "Opstartherkenning mislukt",
+    "stopFailed": "Herkenning stoppen mislukt",
+    "startException": "Er is een uitzondering opgetreden bij het starten van de herkenning",
+    "stopException": "Er heeft zich een uitzondering voorgedaan tijdens het stoppen van de herkenning",
+    "recognitionStarted": "Schermherkenning wordt gestart",
+    "recognitionStopped": "Schermherkenning is gestopt",
+    "errorNoConfig": "Configureer eerst de reguliere expressie of JS-functie",
+    "matchConfig": "Match-configuratie",
+    "useRegex": "Gebruik reguliere expressies",
+    "useJsFunction": "JS-functies gebruiken",
+    "regexPatterns": "Lijst met reguliere expressies (één per regel)",
+    "regexPlaceholder": "Bijvoorbeeld: patroon1\\npatroon2",
+    "jsFunction": "JS-functie",
+    "jsFunctionPlaceholder": "Bijvoorbeeld: function(text) { return text.includes('trefwoord'); }",
+    "eventName": "naam van het evenement",
+    "eventNamePlaceholder": "Bijvoorbeeld: tekst_matched",
+    "startButton": "begin",
+    "stopButton": "stop",
+    "lastMatched": "Laatst overeenkomende tekst",
+    "matched": "Overeenkomende tekst",
+    "matchHistory": "Wedstrijdgeschiedenis",
+    "errorNoAndroidInterface": "Android-interface niet gedetecteerd"
+  }
+}

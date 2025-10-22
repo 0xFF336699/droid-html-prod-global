@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Nhận dạng văn bản trên màn hình",
+    "running": "Đang chạy",
+    "stopped": "Đã dừng",
+    "startingRecognition": "Bắt đầu công nhận...",
+    "stoppingRecognition": "Đang dừng nhận dạng...",
+    "startFailed": "Nhận dạng khởi động không thành công",
+    "stopFailed": "Dừng nhận dạng không thành công",
+    "startException": "Ngoại lệ xảy ra khi bắt đầu nhận dạng",
+    "stopException": "Đã xảy ra ngoại lệ khi dừng nhận dạng",
+    "recognitionStarted": "Nhận dạng màn hình được bắt đầu",
+    "recognitionStopped": "Nhận dạng màn hình đã dừng",
+    "errorNoConfig": "Trước tiên hãy định cấu hình biểu thức chính quy hoặc hàm JS",
+    "matchConfig": "Cấu hình phù hợp",
+    "useRegex": "Sử dụng biểu thức chính quy",
+    "useJsFunction": "Sử dụng các hàm JS",
+    "regexPatterns": "Danh sách các biểu thức chính quy (một biểu thức trên mỗi dòng)",
+    "regexPlaceholder": "Ví dụ: mẫu1\\npattern2",
+    "jsFunction": "hàm JS",
+    "jsFunctionPlaceholder": "Ví dụ: function(text) { return text.includes('keyword'); }",
+    "eventName": "tên sự kiện",
+    "eventNamePlaceholder": "Ví dụ: text_matched",
+    "startButton": "bắt đầu",
+    "stopButton": "dừng lại",
+    "lastMatched": "Văn bản phù hợp cuối cùng",
+    "matched": "Văn bản phù hợp",
+    "matchHistory": "Lịch sử trận đấu",
+    "errorNoAndroidInterface": "Giao diện Android không được phát hiện"
+  }
+}

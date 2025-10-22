@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Pengiktirafan teks skrin",
+    "running": "Berlari",
+    "stopped": "Berhenti",
+    "startingRecognition": "Memulakan Pengiktirafan ...",
+    "stoppingRecognition": "Menghentikan pengiktirafan ...",
+    "startFailed": "Pengiktirafan permulaan gagal",
+    "stopFailed": "Hentikan pengiktirafan gagal",
+    "startException": "Pengecualian berlaku semasa memulakan pengiktirafan",
+    "stopException": "Pengecualian berlaku semasa menghentikan pengiktirafan",
+    "recognitionStarted": "Pengiktirafan Skrin dimulakan",
+    "recognitionStopped": "Pengiktirafan skrin telah berhenti",
+    "errorNoConfig": "Sila konfigurasikan ungkapan biasa atau fungsi JS terlebih dahulu",
+    "matchConfig": "Konfigurasi perlawanan",
+    "useRegex": "Gunakan ungkapan biasa",
+    "useJsFunction": "Menggunakan fungsi JS",
+    "regexPatterns": "Senarai ungkapan biasa (satu setiap baris)",
+    "regexPlaceholder": "Sebagai contoh: Corak1 \\ npattern2",
+    "jsFunction": "Fungsi js",
+    "jsFunctionPlaceholder": "Sebagai contoh: fungsi (teks) {return text.includes ('kata kunci'); }",
+    "eventName": "Nama Acara",
+    "eventNamePlaceholder": "Sebagai contoh: text_matched",
+    "startButton": "Mula",
+    "stopButton": "Berhenti",
+    "lastMatched": "Teks yang dipadankan terakhir",
+    "matched": "Teks yang dipadankan",
+    "matchHistory": "Sejarah perlawanan",
+    "errorNoAndroidInterface": "Antara muka Android tidak dikesan"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Разпознаване на текст на екрана",
+    "running": "Бягане",
+    "stopped": "Спряно",
+    "startingRecognition": "Разпознаването започва...",
+    "stoppingRecognition": "Спиране на разпознаването...",
+    "startFailed": "Неуспешно разпознаване при стартиране",
+    "stopFailed": "Спирането на разпознаването не бе успешно",
+    "startException": "Възникна изключение при стартиране на разпознаването",
+    "stopException": "Възникна изключение при спиране на разпознаването",
+    "recognitionStarted": "Стартира се разпознаването на екрана",
+    "recognitionStopped": "Разпознаването на екрана е спряло",
+    "errorNoConfig": "Моля, първо конфигурирайте регулярния израз или JS функцията",
+    "matchConfig": "Конфигурация на мача",
+    "useRegex": "Използвайте регулярни изрази",
+    "useJsFunction": "Използване на JS функции",
+    "regexPatterns": "Списък с регулярни изрази (по един на ред)",
+    "regexPlaceholder": "Например: pattern1\\npattern2",
+    "jsFunction": "JS функция",
+    "jsFunctionPlaceholder": "Например: function(text) { return text.includes('keyword'); }",
+    "eventName": "име на събитието",
+    "eventNamePlaceholder": "Например: text_matched",
+    "startButton": "започнете",
+    "stopButton": "спрете",
+    "lastMatched": "Последен съответстващ текст",
+    "matched": "Съответстващ текст",
+    "matchHistory": "История на мачовете",
+    "errorNoAndroidInterface": "Интерфейсът на Android не е открит"
+  }
+}

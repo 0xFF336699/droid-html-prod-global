@@ -1,0 +1,31 @@
+{
+  "TextRecognitionControl": {
+    "title": "Skärmtextigenkänning",
+    "running": "Spring",
+    "stopped": "Slutade",
+    "startingRecognition": "Börjar känna igen...",
+    "stoppingRecognition": "Stoppar igenkänning...",
+    "startFailed": "Startigenkänning misslyckades",
+    "stopFailed": "Stoppigenkänning misslyckades",
+    "startException": "Undantag inträffade vid start av igenkänning",
+    "stopException": "Ett undantag inträffade när identifieringen stoppades",
+    "recognitionStarted": "Skärmigenkänning startas",
+    "recognitionStopped": "Skärmigenkänningen har stoppats",
+    "errorNoConfig": "Vänligen konfigurera det reguljära uttrycket eller JS-funktionen först",
+    "matchConfig": "Matchkonfiguration",
+    "useRegex": "Använd reguljära uttryck",
+    "useJsFunction": "Använder JS-funktioner",
+    "regexPatterns": "Lista över reguljära uttryck (ett per rad)",
+    "regexPlaceholder": "Till exempel: mönster1\\nmönster2",
+    "jsFunction": "JS funktion",
+    "jsFunctionPlaceholder": "Till exempel: function(text) { return text.includes('keyword'); }",
+    "eventName": "händelsenamn",
+    "eventNamePlaceholder": "Till exempel: text_matched",
+    "startButton": "start",
+    "stopButton": "stopp",
+    "lastMatched": "Senast matchade text",
+    "matched": "Matchad text",
+    "matchHistory": "Matchhistorik",
+    "errorNoAndroidInterface": "Android-gränssnittet upptäcktes inte"
+  }
+}
