@@ -1184,7 +1184,7 @@ const gatewayMap = {
     // '192.168.177.180': '//localhost:19010/v1/',//可以测试跨域
     'homepage.vm-ubuntu.droidlego.com': '//homepage_server.vm-ubuntu.droidlego.com/v1/'
 };
-const defGateway = '//droid_go_main.dev1.fanfanlo.com/v1/';
+const defGateway = '//backend-droid.overseas3.fanfanlo.com/v1/';
 // const defGateway = '//html.droid.qiwoa.com/v1/'
 function getGateway() {
     if (false) {}
@@ -35620,15 +35620,28 @@ function printPassedTargetLog(log, target, from) {
 "use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Cu: () => (/* binding */ isDev),
+/* harmony export */   H: () => (/* binding */ AppEnv),
+/* harmony export */   OT: () => (/* binding */ publicRuntimeConfig),
 /* harmony export */   S$: () => (/* binding */ isServer)
 /* harmony export */ });
-/* unused harmony exports publicRuntimeConfig, isBuild, getBuildTime */
+/* unused harmony exports Region, isBuild, getBuildTime */
 /* harmony import */ var next_config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(87891);
 /* harmony import */ var next_config__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_config__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_dist_shared_lib_constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(95285);
 /* harmony import */ var next_dist_shared_lib_constants__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_dist_shared_lib_constants__WEBPACK_IMPORTED_MODULE_1__);
 
 
+var Region = /*#__PURE__*/ function(Region) {
+    Region["CN"] = "zh-cn";
+    Region["GLOBAL"] = "global";
+    return Region;
+}({});
+var AppEnv = /*#__PURE__*/ function(AppEnv) {
+    AppEnv["Dev"] = "dev";
+    AppEnv["Staging"] = "staging";
+    AppEnv["Prod"] = "prod";
+    return AppEnv;
+}({});
 const publicRuntimeConfig = next_config__WEBPACK_IMPORTED_MODULE_0___default()() ? next_config__WEBPACK_IMPORTED_MODULE_0___default()().publicRuntimeConfig : {
     version: "",
     phase: next_dist_shared_lib_constants__WEBPACK_IMPORTED_MODULE_1__.PHASE_DEVELOPMENT_SERVER
@@ -141972,4 +141985,4 @@ function toString(a) {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=_app-d622f639fc0031df.js.map
+//# sourceMappingURL=_app-ea3a4f04345d698b.js.map
