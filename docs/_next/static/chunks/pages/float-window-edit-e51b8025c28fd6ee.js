@@ -97,14 +97,9 @@ var Button = __webpack_require__(28669);
 var ExpandMore = __webpack_require__(21985);
 // EXTERNAL MODULE: ./src/components/android-float/window/WindowConfUI.tsx
 var WindowConfUI = __webpack_require__(50079);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/Select/Select.js + 5 modules
-var Select = __webpack_require__(7313);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/MenuItem/MenuItem.js + 2 modules
-var MenuItem = __webpack_require__(82797);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/TextField/TextField.js + 1 modules
 var TextField = __webpack_require__(38771);
 ;// ./src/components/android-float/window/BasicInfoSection.tsx
-
 
 
 
@@ -127,36 +122,6 @@ var TextField = __webpack_require__(38771);
     return /*#__PURE__*/ (0,jsx_runtime.jsxs)(Stack/* default */.A, {
         spacing: 2,
         children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)(Box/* default */.A, {
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(WindowConfUI/* RequiredLabel */.g2, {
-                        label: "窗口类型"
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsxs)(Select/* default */.A, {
-                        value: windowType,
-                        onChange: (e)=>{
-                            console.log('BasicInfoSection: windowType changed to', e.target.value);
-                            windowConf.windowType = e.target.value;
-                        },
-                        size: "small",
-                        fullWidth: true,
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)(MenuItem/* default */.A, {
-                                value: WindowConf/* WindowType */.ZI.Float,
-                                children: "浮窗 (Float)"
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)(MenuItem/* default */.A, {
-                                value: WindowConf/* WindowType */.ZI.Dialog,
-                                children: "对话框 (Dialog)"
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)(MenuItem/* default */.A, {
-                                value: WindowConf/* WindowType */.ZI.System,
-                                children: "系统窗口 (System)"
-                            })
-                        ]
-                    })
-                ]
-            }),
             /*#__PURE__*/ (0,jsx_runtime.jsxs)(Box/* default */.A, {
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime.jsx)(WindowConfUI/* RequiredLabel */.g2, {
@@ -571,9 +536,9 @@ function AndroidFloatWindow() {
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ __webpack_require__.O(0, [7054,1161,9151,6491,3390,7313,8771,788,1482,3126,1538,688,2163,636,6593,8792], () => (__webpack_exec__(33472)));
+/******/ __webpack_require__.O(0, [7054,1161,9151,6491,3390,7313,8771,788,1482,3126,1538,688,4687,2813,636,6593,8792], () => (__webpack_exec__(33472)));
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=float-window-edit-53a5e61553597e05.js.map
+//# sourceMappingURL=float-window-edit-e51b8025c28fd6ee.js.map
