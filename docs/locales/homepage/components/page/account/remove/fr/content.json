@@ -1,0 +1,18 @@
+{
+  "AccountRemoveButton": {
+    "name": "Supprimer le compte"
+  },
+  "AccountRemoveContent": {
+    "title": "Supprimer le compte",
+    "description": "Supprimez votre compte et toutes les données associées. Cette opération est irréversible, veuillez opérer avec prudence. Après avoir soumis la suppression de votre compte, nous effacerons complètement vos données après 90 jours.",
+    "warning": "Attention : Une fois votre compte supprimé, vous ne pourrez plus récupérer aucune donnée.",
+    "confirmAsk": "Êtes-vous sûr de vouloir supprimer votre compte ? Cette opération est irréversible.",
+    "dialogTitle": "Confirmer la suppression du compte",
+    "dialogConfirmButton": "confirmer",
+    "dialogConfirCancelButton": "Annuler",
+    "removingToast": "Votre demande de suppression de compte est en cours de traitement...",
+    "removedToast": "Votre demande de suppression de compte a été soumise. Nous traiterons votre demande dans un délai de 90 jours.",
+    "confirmButton": "Supprimer le compte",
+    "cancelButton": "Annuler"
+  }
+}

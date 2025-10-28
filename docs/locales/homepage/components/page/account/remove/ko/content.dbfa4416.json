@@ -1,0 +1,18 @@
+{
+  "AccountRemoveButton": {
+    "name": "계정 삭제"
+  },
+  "AccountRemoveContent": {
+    "title": "계정 삭제",
+    "description": "귀하의 계정 및 모든 관련 데이터를 삭제하십시오. 이 작업은 되돌릴 수 없으므로 주의해서 작업하십시오. 계정 삭제 요청을 제출하시면 90일 후에 데이터가 완전히 삭제됩니다.",
+    "warning": "경고: 계정을 삭제하면 어떤 데이터도 복구할 수 없습니다.",
+    "confirmAsk": "정말로 계정을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
+    "dialogTitle": "계정 삭제 확인",
+    "dialogConfirmButton": "확인하다",
+    "dialogConfirCancelButton": "취소",
+    "removingToast": "계정 삭제 요청을 처리 중입니다...",
+    "removedToast": "귀하의 계정 삭제 요청이 제출되었습니다. 귀하의 요청을 90일 이내에 처리해 드리겠습니다.",
+    "confirmButton": "계정 삭제",
+    "cancelButton": "취소"
+  }
+}

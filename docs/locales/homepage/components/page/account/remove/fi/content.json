@@ -1,0 +1,18 @@
+{
+  "AccountRemoveButton": {
+    "name": "Poista tili"
+  },
+  "AccountRemoveContent": {
+    "title": "Poista tili",
+    "description": "Poista tilisi ja kaikki siihen liittyvät tiedot. Tämä toimenpide on peruuttamaton, toimi varoen. Kun olet pyytänyt poistamaan tilisi, tyhjennämme tietosi kokonaan 90 päivän kuluttua.",
+    "warning": "Varoitus: Kun poistat tilisi, et voi palauttaa tietoja.",
+    "confirmAsk": "Haluatko varmasti poistaa tilisi? Tämä toimenpide on peruuttamaton.",
+    "dialogTitle": "Vahvista tilin poistaminen",
+    "dialogConfirmButton": "vahvistaa",
+    "dialogConfirCancelButton": "Peruuttaa",
+    "removingToast": "Tilin poistopyyntöäsi käsitellään...",
+    "removedToast": "Tilin poistopyyntösi on lähetetty. Käsittelemme pyyntösi 90 päivän kuluessa.",
+    "confirmButton": "Poista tili",
+    "cancelButton": "Peruuttaa"
+  }
+}

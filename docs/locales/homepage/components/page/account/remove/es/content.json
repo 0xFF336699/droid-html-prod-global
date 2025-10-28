@@ -1,0 +1,18 @@
+{
+  "AccountRemoveButton": {
+    "name": "Eliminar cuenta"
+  },
+  "AccountRemoveContent": {
+    "title": "Eliminar cuenta",
+    "description": "Elimina tu cuenta y todos los datos relacionados. Esta operación es irreversible, opere con precaución. Después de enviar para eliminar su cuenta, borraremos completamente sus datos después de 90 días.",
+    "warning": "Advertencia: una vez que elimine su cuenta, no podrá recuperar ningún dato.",
+    "confirmAsk": "¿Estás seguro de que quieres eliminar tu cuenta? Esta operación es irreversible.",
+    "dialogTitle": "Confirmar la eliminación de la cuenta",
+    "dialogConfirmButton": "confirmar",
+    "dialogConfirCancelButton": "Cancelar",
+    "removingToast": "Su solicitud de eliminación de cuenta se está procesando...",
+    "removedToast": "Se ha enviado su solicitud de eliminación de cuenta. Procesaremos su solicitud dentro de los 90 días.",
+    "confirmButton": "Eliminar cuenta",
+    "cancelButton": "Cancelar"
+  }
+}

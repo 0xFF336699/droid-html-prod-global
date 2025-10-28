@@ -1,0 +1,18 @@
+{
+  "AccountRemoveButton": {
+    "name": "Slett konto"
+  },
+  "AccountRemoveContent": {
+    "title": "Slett konto",
+    "description": "Slett kontoen din og alle relaterte data. Denne operasjonen er irreversibel, vær forsiktig. Etter at du har sendt inn for å slette kontoen din, sletter vi dataene dine fullstendig etter 90 dager.",
+    "warning": "Advarsel: Når du har slettet kontoen din, vil du ikke kunne gjenopprette noen data.",
+    "confirmAsk": "Er du sikker på at du vil slette kontoen din? Denne operasjonen er irreversibel.",
+    "dialogTitle": "Bekreft sletting av konto",
+    "dialogConfirmButton": "bekrefte",
+    "dialogConfirCancelButton": "Kansellere",
+    "removingToast": "Forespørselen din om kontosletting behandles...",
+    "removedToast": "Forespørselen din om kontosletting er sendt. Vi vil behandle forespørselen din innen 90 dager.",
+    "confirmButton": "Slett konto",
+    "cancelButton": "Kansellere"
+  }
+}

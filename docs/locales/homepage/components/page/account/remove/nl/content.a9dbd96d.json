@@ -1,0 +1,18 @@
+{
+  "AccountRemoveButton": {
+    "name": "Account verwijderen"
+  },
+  "AccountRemoveContent": {
+    "title": "Account verwijderen",
+    "description": "Verwijder uw account en alle gerelateerde gegevens. Deze handeling is onomkeerbaar, wees voorzichtig. Nadat u heeft aangegeven uw account te willen verwijderen, zullen wij uw gegevens na 90 dagen volledig wissen.",
+    "warning": "Waarschuwing: zodra u uw account verwijdert, kunt u geen gegevens meer herstellen.",
+    "confirmAsk": "Weet u zeker dat u uw account wilt verwijderen? Deze operatie is onomkeerbaar.",
+    "dialogTitle": "Bevestig accountverwijdering",
+    "dialogConfirmButton": "bevestigen",
+    "dialogConfirCancelButton": "Annuleren",
+    "removingToast": "Uw verzoek om accountverwijdering wordt verwerkt...",
+    "removedToast": "Uw verzoek om accountverwijdering is ingediend. Wij zullen uw verzoek binnen 90 dagen verwerken.",
+    "confirmButton": "Account verwijderen",
+    "cancelButton": "Annuleren"
+  }
+}

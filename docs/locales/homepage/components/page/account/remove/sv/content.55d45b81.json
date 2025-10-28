@@ -1,0 +1,18 @@
+{
+  "AccountRemoveButton": {
+    "name": "Ta bort konto"
+  },
+  "AccountRemoveContent": {
+    "title": "Ta bort konto",
+    "description": "Radera ditt konto och all relaterad data. Denna operation är oåterkallelig, använd försiktigt. När du har skickat in för att radera ditt konto kommer vi att rensa dina uppgifter helt efter 90 dagar.",
+    "warning": "Varning: När du har tagit bort ditt konto kommer du inte att kunna återställa någon data.",
+    "confirmAsk": "Är du säker på att du vill ta bort ditt konto? Denna operation är oåterkallelig.",
+    "dialogTitle": "Bekräfta borttagning av konto",
+    "dialogConfirmButton": "bekräfta",
+    "dialogConfirCancelButton": "Avboka",
+    "removingToast": "Din begäran om borttagning av konto bearbetas...",
+    "removedToast": "Din begäran om borttagning av konto har skickats. Vi kommer att behandla din förfrågan inom 90 dagar.",
+    "confirmButton": "Ta bort konto",
+    "cancelButton": "Avboka"
+  }
+}

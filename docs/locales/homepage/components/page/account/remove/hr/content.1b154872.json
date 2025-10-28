@@ -1,0 +1,18 @@
+{
+  "AccountRemoveButton": {
+    "name": "Izbriši račun"
+  },
+  "AccountRemoveContent": {
+    "title": "Izbriši račun",
+    "description": "Izbrišite svoj račun i sve povezane podatke. Ova operacija je nepovratna, molimo vas da radite s oprezom. Nakon što podnesete zahtjev za brisanje računa, potpuno ćemo izbrisati vaše podatke nakon 90 dana.",
+    "warning": "Upozorenje: nakon što izbrišete svoj račun, nećete moći vratiti nikakve podatke.",
+    "confirmAsk": "Jeste li sigurni da želite izbrisati svoj račun? Ova operacija je nepovratna.",
+    "dialogTitle": "Potvrdite brisanje računa",
+    "dialogConfirmButton": "potvrditi",
+    "dialogConfirCancelButton": "Otkazati",
+    "removingToast": "Vaš zahtjev za brisanje računa je u obradi...",
+    "removedToast": "Vaš zahtjev za brisanje računa je predan. Vaš zahtjev ćemo obraditi u roku od 90 dana.",
+    "confirmButton": "Izbriši račun",
+    "cancelButton": "Otkazati"
+  }
+}

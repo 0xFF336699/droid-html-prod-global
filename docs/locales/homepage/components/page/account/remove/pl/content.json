@@ -1,0 +1,18 @@
+{
+  "AccountRemoveButton": {
+    "name": "Usuń konto"
+  },
+  "AccountRemoveContent": {
+    "title": "Usuń konto",
+    "description": "Usuń swoje konto i wszystkie powiązane dane. Ta operacja jest nieodwracalna, należy zachować ostrożność. Po złożeniu wniosku o usunięcie konta całkowicie wyczyścimy Twoje dane po 90 dniach.",
+    "warning": "Ostrzeżenie: po usunięciu konta nie będzie można odzyskać żadnych danych.",
+    "confirmAsk": "Czy na pewno chcesz usunąć swoje konto? Ta operacja jest nieodwracalna.",
+    "dialogTitle": "Potwierdź usunięcie konta",
+    "dialogConfirmButton": "potwierdzać",
+    "dialogConfirCancelButton": "Anulować",
+    "removingToast": "Twoja prośba o usunięcie konta jest przetwarzana...",
+    "removedToast": "Twoja prośba o usunięcie konta została przesłana. Rozpatrzymy Twoją prośbę w ciągu 90 dni.",
+    "confirmButton": "Usuń konto",
+    "cancelButton": "Anulować"
+  }
+}

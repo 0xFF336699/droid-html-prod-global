@@ -1,0 +1,18 @@
+{
+  "AccountRemoveButton": {
+    "name": "Delete account"
+  },
+  "AccountRemoveContent": {
+    "title": "Delete account",
+    "description": "Delete your account and all related data. This operation is irreversible, please operate with caution. After you submit to delete your account, we will completely clear your data after 90 days.",
+    "warning": "Warning: Once you delete your account, you will not be able to recover any data.",
+    "confirmAsk": "Are you sure you want to delete your account? This operation is irreversible.",
+    "dialogTitle": "Confirm account deletion",
+    "dialogConfirmButton": "confirm",
+    "dialogConfirCancelButton": "Cancel",
+    "removingToast": "Your account deletion request is being processed...",
+    "removedToast": "Your account deletion request has been submitted. We will process your request within 90 days.",
+    "confirmButton": "Delete account",
+    "cancelButton": "Cancel"
+  }
+}

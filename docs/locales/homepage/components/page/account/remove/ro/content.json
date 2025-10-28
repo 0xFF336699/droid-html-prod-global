@@ -1,0 +1,18 @@
+{
+  "AccountRemoveButton": {
+    "name": "Ștergeți contul"
+  },
+  "AccountRemoveContent": {
+    "title": "Ștergeți contul",
+    "description": "Ștergeți contul și toate datele aferente. Această operațiune este ireversibilă, vă rugăm să operați cu precauție. După ce trimiteți pentru ștergerea contului, vă vom șterge complet datele după 90 de zile.",
+    "warning": "Avertisment: Odată ce vă ștergeți contul, nu veți putea recupera nicio dată.",
+    "confirmAsk": "Sigur doriți să vă ștergeți contul? Această operațiune este ireversibilă.",
+    "dialogTitle": "Confirmați ștergerea contului",
+    "dialogConfirmButton": "confirma",
+    "dialogConfirCancelButton": "Anula",
+    "removingToast": "Solicitarea dvs. de ștergere a contului este în curs de procesare...",
+    "removedToast": "Solicitarea dvs. de ștergere a contului a fost trimisă. Vom procesa cererea dvs. în termen de 90 de zile.",
+    "confirmButton": "Ștergeți contul",
+    "cancelButton": "Anula"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "AccountRemoveButton": {
+    "name": "Hapus akun"
+  },
+  "AccountRemoveContent": {
+    "title": "Hapus akun",
+    "description": "Hapus akun Anda dan semua data terkait. Operasi ini tidak dapat diubah, harap operasikan dengan hati-hati. Setelah Anda mengirimkan untuk menghapus akun Anda, kami akan menghapus data Anda sepenuhnya setelah 90 hari.",
+    "warning": "Peringatan: Setelah Anda menghapus akun, Anda tidak akan dapat memulihkan data apa pun.",
+    "confirmAsk": "Apakah Anda yakin ingin menghapus akun Anda? Operasi ini tidak dapat diubah.",
+    "dialogTitle": "Konfirmasikan penghapusan akun",
+    "dialogConfirmButton": "mengonfirmasi",
+    "dialogConfirCancelButton": "Membatalkan",
+    "removingToast": "Permintaan penghapusan akun Anda sedang diproses...",
+    "removedToast": "Permintaan penghapusan akun Anda telah dikirimkan. Kami akan memproses permintaan Anda dalam waktu 90 hari.",
+    "confirmButton": "Hapus akun",
+    "cancelButton": "Membatalkan"
+  }
+}

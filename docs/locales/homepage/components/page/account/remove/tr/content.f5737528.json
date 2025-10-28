@@ -1,0 +1,18 @@
+{
+  "AccountRemoveButton": {
+    "name": "Hesabı sil"
+  },
+  "AccountRemoveContent": {
+    "title": "Hesabı sil",
+    "description": "Hesabınızı ve ilgili tüm verileri silin. Bu işlemin geri dönüşü yoktur, lütfen dikkatli çalıştırın. Hesabınızı silme talebinde bulunduktan 90 gün sonra verilerinizi tamamen temizleyeceğiz.",
+    "warning": "Uyarı: Hesabınızı sildikten sonra hiçbir veriyi kurtaramazsınız.",
+    "confirmAsk": "Hesabınızı silmek istediğinizden emin misiniz? Bu işlem geri döndürülemez.",
+    "dialogTitle": "Hesap silme işlemini onaylayın",
+    "dialogConfirmButton": "onaylamak",
+    "dialogConfirCancelButton": "İptal etmek",
+    "removingToast": "Hesap silme talebiniz işleniyor...",
+    "removedToast": "Hesap silme talebiniz gönderildi. Talebinizi 90 gün içinde işleme koyacağız.",
+    "confirmButton": "Hesabı sil",
+    "cancelButton": "İptal etmek"
+  }
+}

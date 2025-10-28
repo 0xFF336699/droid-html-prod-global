@@ -1,0 +1,18 @@
+{
+  "AccountRemoveButton": {
+    "name": "Xóa tài khoản"
+  },
+  "AccountRemoveContent": {
+    "title": "Xóa tài khoản",
+    "description": "Xóa tài khoản của bạn và tất cả dữ liệu liên quan. Thao tác này không thể đảo ngược, vui lòng thực hiện một cách thận trọng. Sau khi bạn gửi yêu cầu xóa tài khoản của mình, chúng tôi sẽ xóa hoàn toàn dữ liệu của bạn sau 90 ngày.",
+    "warning": "Cảnh báo: Sau khi xóa tài khoản của mình, bạn sẽ không thể khôi phục bất kỳ dữ liệu nào.",
+    "confirmAsk": "Bạn có chắc chắn muốn xóa tài khoản của mình không? Hoạt động này là không thể đảo ngược.",
+    "dialogTitle": "Xác nhận xóa tài khoản",
+    "dialogConfirmButton": "xác nhận",
+    "dialogConfirCancelButton": "Hủy bỏ",
+    "removingToast": "Yêu cầu xóa tài khoản của bạn đang được xử lý...",
+    "removedToast": "Yêu cầu xóa tài khoản của bạn đã được gửi. Chúng tôi sẽ xử lý yêu cầu của bạn trong vòng 90 ngày.",
+    "confirmButton": "Xóa tài khoản",
+    "cancelButton": "Hủy bỏ"
+  }
+}

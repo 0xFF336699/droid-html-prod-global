@@ -1,0 +1,18 @@
+{
+  "AccountRemoveButton": {
+    "name": "Smazat účet"
+  },
+  "AccountRemoveContent": {
+    "title": "Smazat účet",
+    "description": "Smažte svůj účet a všechna související data. Tato operace je nevratná, postupujte prosím opatrně. Poté, co odešlete žádost o smazání účtu, vaše data po 90 dnech zcela vymažeme.",
+    "warning": "Upozornění: Jakmile svůj účet smažete, nebudete moci obnovit žádná data.",
+    "confirmAsk": "Opravdu chcete smazat svůj účet? Tato operace je nevratná.",
+    "dialogTitle": "Potvrďte smazání účtu",
+    "dialogConfirmButton": "potvrdit",
+    "dialogConfirCancelButton": "Zrušit",
+    "removingToast": "Váš požadavek na smazání účtu se zpracovává...",
+    "removedToast": "Váš požadavek na smazání účtu byl odeslán. Vaši žádost zpracujeme do 90 dnů.",
+    "confirmButton": "Smazat účet",
+    "cancelButton": "Zrušit"
+  }
+}

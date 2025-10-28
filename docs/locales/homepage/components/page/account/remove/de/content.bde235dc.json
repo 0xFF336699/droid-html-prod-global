@@ -1,0 +1,18 @@
+{
+  "AccountRemoveButton": {
+    "name": "Konto löschen"
+  },
+  "AccountRemoveContent": {
+    "title": "Konto löschen",
+    "description": "Löschen Sie Ihr Konto und alle zugehörigen Daten. Dieser Vorgang ist irreversibel, bitte gehen Sie vorsichtig vor. Nachdem Sie die Löschung Ihres Kontos beantragt haben, werden wir Ihre Daten nach 90 Tagen vollständig löschen.",
+    "warning": "Warnung: Sobald Sie Ihr Konto löschen, können Sie keine Daten wiederherstellen.",
+    "confirmAsk": "Sind Sie sicher, dass Sie Ihr Konto löschen möchten? Dieser Vorgang ist irreversibel.",
+    "dialogTitle": "Bestätigen Sie die Kontolöschung",
+    "dialogConfirmButton": "bestätigen",
+    "dialogConfirCancelButton": "Stornieren",
+    "removingToast": "Ihre Anfrage zur Kontolöschung wird bearbeitet...",
+    "removedToast": "Ihr Antrag auf Kontolöschung wurde übermittelt. Wir werden Ihre Anfrage innerhalb von 90 Tagen bearbeiten.",
+    "confirmButton": "Konto löschen",
+    "cancelButton": "Stornieren"
+  }
+}

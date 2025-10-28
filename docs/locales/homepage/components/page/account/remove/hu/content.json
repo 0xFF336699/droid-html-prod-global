@@ -1,0 +1,18 @@
+{
+  "AccountRemoveButton": {
+    "name": "Fiók törlése"
+  },
+  "AccountRemoveContent": {
+    "title": "Fiók törlése",
+    "description": "Törölje fiókját és az összes kapcsolódó adatot. Ez a művelet visszafordíthatatlan, kérjük, legyen óvatos. Miután benyújtotta fiókja törlését, 90 nap elteltével teljesen töröljük adatait.",
+    "warning": "Figyelmeztetés: A fiók törlése után nem fog tudni visszaállítani semmilyen adatot.",
+    "confirmAsk": "Biztos benne, hogy törölni akarja fiókját? Ez a művelet visszafordíthatatlan.",
+    "dialogTitle": "Erősítse meg a fiók törlését",
+    "dialogConfirmButton": "erősítse meg",
+    "dialogConfirCancelButton": "Mégsem",
+    "removingToast": "Fióktörlési kérelme feldolgozás alatt áll...",
+    "removedToast": "Fióktörlési kérelmét elküldtük. Kérelmét 90 napon belül feldolgozzuk.",
+    "confirmButton": "Fiók törlése",
+    "cancelButton": "Mégsem"
+  }
+}

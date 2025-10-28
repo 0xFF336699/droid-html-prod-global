@@ -1,0 +1,18 @@
+{
+  "AccountRemoveButton": {
+    "name": "Odstrániť účet"
+  },
+  "AccountRemoveContent": {
+    "title": "Odstrániť účet",
+    "description": "Odstráňte svoj účet a všetky súvisiace údaje. Táto operácia je nevratná, prosím pracujte opatrne. Po odoslaní žiadosti o odstránenie účtu vaše údaje po 90 dňoch úplne vymažeme.",
+    "warning": "Upozornenie: Po odstránení účtu už nebudete môcť obnoviť žiadne údaje.",
+    "confirmAsk": "Naozaj chcete odstrániť svoj účet? Táto operácia je nevratná.",
+    "dialogTitle": "Potvrďte vymazanie účtu",
+    "dialogConfirmButton": "potvrdiť",
+    "dialogConfirCancelButton": "Zrušiť",
+    "removingToast": "Vaša žiadosť o odstránenie účtu sa spracováva...",
+    "removedToast": "Vaša žiadosť o odstránenie účtu bola odoslaná. Vašu žiadosť spracujeme do 90 dní.",
+    "confirmButton": "Odstrániť účet",
+    "cancelButton": "Zrušiť"
+  }
+}

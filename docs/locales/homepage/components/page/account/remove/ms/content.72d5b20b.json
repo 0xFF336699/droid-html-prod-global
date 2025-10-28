@@ -1,0 +1,18 @@
+{
+  "AccountRemoveButton": {
+    "name": "Padam akaun"
+  },
+  "AccountRemoveContent": {
+    "title": "Padam akaun",
+    "description": "Padam akaun anda dan semua data yang berkaitan. Operasi ini tidak dapat dipulihkan, sila beroperasi dengan berhati -hati. Selepas anda menghantar untuk memadam akaun anda, kami akan membersihkan data anda selepas 90 hari.",
+    "warning": "Amaran: Sebaik sahaja anda memadamkan akaun anda, anda tidak akan dapat memulihkan sebarang data.",
+    "confirmAsk": "Adakah anda pasti mahu memadamkan akaun anda? Operasi ini tidak dapat dipulihkan.",
+    "dialogTitle": "Sahkan penghapusan akaun",
+    "dialogConfirmButton": "mengesahkan",
+    "dialogConfirCancelButton": "Batalkan",
+    "removingToast": "Permintaan penghapusan akaun anda sedang diproses ...",
+    "removedToast": "Permintaan penghapusan akaun anda telah dihantar. Kami akan memproses permintaan anda dalam masa 90 hari.",
+    "confirmButton": "Padam akaun",
+    "cancelButton": "Batalkan"
+  }
+}

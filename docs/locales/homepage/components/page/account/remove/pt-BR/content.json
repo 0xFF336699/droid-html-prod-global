@@ -1,0 +1,18 @@
+{
+  "AccountRemoveButton": {
+    "name": "Excluir conta"
+  },
+  "AccountRemoveContent": {
+    "title": "Excluir conta",
+    "description": "Exclua sua conta e todos os dados relacionados. Esta operação é irreversível, opere com cuidado. Depois de enviar a exclusão de sua conta, limparemos completamente seus dados após 90 dias.",
+    "warning": "Aviso: Depois de excluir sua conta, você não poderá recuperar nenhum dado.",
+    "confirmAsk": "Tem certeza de que deseja excluir sua conta? Esta operação é irreversível.",
+    "dialogTitle": "Confirmar exclusão da conta",
+    "dialogConfirmButton": "confirmar",
+    "dialogConfirCancelButton": "Cancelar",
+    "removingToast": "Sua solicitação de exclusão de conta está sendo processada...",
+    "removedToast": "Sua solicitação de exclusão de conta foi enviada. Processaremos sua solicitação dentro de 90 dias.",
+    "confirmButton": "Excluir conta",
+    "cancelButton": "Cancelar"
+  }
+}

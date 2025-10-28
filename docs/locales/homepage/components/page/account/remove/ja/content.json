@@ -1,0 +1,18 @@
+{
+  "AccountRemoveButton": {
+    "name": "アカウントを削除する"
+  },
+  "AccountRemoveContent": {
+    "title": "アカウントを削除する",
+    "description": "アカウントとすべての関連データを削除します。この操作は元に戻すことができないため、慎重に操作してください。アカウントの削除を送信すると、90 日後にデータが完全に消去されます。",
+    "warning": "警告: アカウントを削除すると、データを復元することはできなくなります。",
+    "confirmAsk": "アカウントを削除してもよろしいですか?この操作は元に戻すことができません。",
+    "dialogTitle": "アカウント削除の確認",
+    "dialogConfirmButton": "確認する",
+    "dialogConfirCancelButton": "キャンセル",
+    "removingToast": "アカウント削除リクエストは処理中です...",
+    "removedToast": "アカウント削除リクエストが送信されました。リクエストは 90 日以内に処理されます。",
+    "confirmButton": "アカウントを削除する",
+    "cancelButton": "キャンセル"
+  }
+}
