@@ -173,7 +173,7 @@ function AccountRemoveContent() {
 
 
 function AndroidFloatWindow() {
-    const { t } = (0,es/* useTranslation */.Bd)('homepage/pages/android-float-window/content');
+    const { t } = (0,es/* useTranslation */.Bd)('homepage/pages/account/remove/content');
     return /*#__PURE__*/ (0,jsx_runtime.jsx)(AppShell/* AppShell */.G, {
         children: /*#__PURE__*/ (0,jsx_runtime.jsx)(AppBar/* AppbarContainer */.W, {
             appbarProps: {
@@ -1016,4 +1016,4 @@ function AppbarContainer(props) {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=remove-78e8d6f30d64e0a3.js.map
+//# sourceMappingURL=remove-442fddc3e1449f87.js.map
