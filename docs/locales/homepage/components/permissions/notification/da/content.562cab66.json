@@ -1,7 +1,0 @@
-{
-  "NotificationOpenButton": {
-    "name": "Meddelelsesbjælken læser",
-    "description": "Slå læsetilladelse til notifikationslinjen til",
-    "setting": "sætte op"
-  }
-}

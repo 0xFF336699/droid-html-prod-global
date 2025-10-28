@@ -1,7 +1,0 @@
-{
-  "NotificationOpenButton": {
-    "name": "Varslingslinjen leser",
-    "description": "Slå på lesetillatelse for varsellinjen",
-    "setting": "sette opp"
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "NotificationOpenButton": {
-    "name": "알림 표시줄 읽기",
-    "description": "알림 표시줄 읽기 권한을 켜세요",
-    "setting": "설정"
-  }
-}

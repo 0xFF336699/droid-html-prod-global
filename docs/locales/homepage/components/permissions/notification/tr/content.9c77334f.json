@@ -1,7 +1,0 @@
-{
-  "NotificationOpenButton": {
-    "name": "Bildirim çubuğu okur",
-    "description": "Bildirim çubuğu okuma iznini açın",
-    "setting": "kurmak"
-  }
-}

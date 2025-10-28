@@ -1,7 +1,0 @@
-{
-  "NotificationOpenButton": {
-    "name": "Si legge sulla barra di notifica",
-    "description": "Attiva l'autorizzazione di lettura sulla barra delle notifiche",
-    "setting": "impostare"
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "NotificationOpenButton": {
-    "name": "Értesítési sáv olvasható",
-    "description": "Kapcsolja be az értesítési sáv olvasási engedélyét",
-    "setting": "felállítani"
-  }
-}

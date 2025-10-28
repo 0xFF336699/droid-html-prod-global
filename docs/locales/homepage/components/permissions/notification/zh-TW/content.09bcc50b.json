@@ -1,7 +1,0 @@
-{
-  "NotificationOpenButton": {
-    "name": "通知欄讀取",
-    "description": "打開通知欄讀取權限",
-    "setting": "設定"
-  }
-}
