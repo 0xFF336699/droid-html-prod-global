@@ -62,7 +62,8 @@ export const [MarketPageDataContextProvider, useMarketPageData] = createTypedCon
 function createAsyncContextLoader(options) {
     const { Provider, extract, fallback = null } = options;
     function AsyncContextLoaderInner(props) {
-        const raw = (0,react__WEBPACK_IMPORTED_MODULE_1__.use)(props.value());
+        const cachedPromise = (0,react__WEBPACK_IMPORTED_MODULE_1__.useMemo)(()=>props.value(), []);
+        const raw = (0,react__WEBPACK_IMPORTED_MODULE_1__.use)(cachedPromise);
         const contextValue = extract(raw);
         return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Provider, {
             value: contextValue,
@@ -513,4 +514,4 @@ function TabbarContainer(param) {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=script-creator-a69fabaaceb18b61.js.map
+//# sourceMappingURL=script-creator-36cb980478af7282.js.map

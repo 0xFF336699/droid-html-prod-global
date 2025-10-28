@@ -242,7 +242,8 @@ export const [MarketPageDataContextProvider, useMarketPageData] = createTypedCon
 function createAsyncContextLoader(options) {
     const { Provider, extract, fallback = null } = options;
     function AsyncContextLoaderInner(props) {
-        const raw = (0,react__WEBPACK_IMPORTED_MODULE_1__.use)(props.value());
+        const cachedPromise = (0,react__WEBPACK_IMPORTED_MODULE_1__.useMemo)(()=>props.value(), []);
+        const raw = (0,react__WEBPACK_IMPORTED_MODULE_1__.use)(cachedPromise);
         const contextValue = extract(raw);
         return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Provider, {
             value: contextValue,
@@ -704,10 +705,16 @@ function SignUpInButton(param) {
 
 
 
+
 function AccountRemoveButton() {
     const { t } = (0,es/* useTranslation */.Bd)('homepage/components/account/remove/content');
+    const router = (0,next_router.useRouter)();
+    function onClick() {
+        router.push('/account/remove');
+    }
     return /*#__PURE__*/ (0,jsx_runtime.jsx)(jsx_runtime.Fragment, {
         children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Button/* default */.A, {
+            onClick: onClick,
             children: t('AccountRemoveButton.name')
         })
     });
@@ -1024,4 +1031,4 @@ function TabbarContainer(param) {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=settings-246560147ae6e633.js.map
+//# sourceMappingURL=settings-25d567f6536b932f.js.map

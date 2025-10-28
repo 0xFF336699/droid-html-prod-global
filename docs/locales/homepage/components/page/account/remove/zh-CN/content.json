@@ -1,0 +1,18 @@
+{
+  "AccountRemoveButton": {
+    "name": "删除账号"
+  },
+  "AccountRemoveContent": {
+    "title": "删除账号",
+    "description": "删除您的账号及所有相关数据。这一操作是不可逆的，请谨慎操作。在您提交删除账号后，我们会在90天后完全清除您的数据。",
+    "warning": "警告：删除账号后，您将无法恢复任何数据。",
+    "confirmAsk": "您确定要删除您的账号吗？此操作不可逆。",
+    "dialogTitle": "确认删除账号",
+    "dialogConfirmButton": "确认",
+    "dialogConfirCancelButton": "取消",
+    "removingToast": "正在处理您的账号删除请求...",
+    "removedToast": "您的账号删除请求已提交。我们将在90天内处理您的请求。",
+    "confirmButton": "删除账号",
+    "cancelButton": "取消"
+  }
+}
