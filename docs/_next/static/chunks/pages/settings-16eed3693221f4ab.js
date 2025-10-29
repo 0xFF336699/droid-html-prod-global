@@ -357,7 +357,7 @@ const StorePageDynamicContext = /*#__PURE__*/ (0,react__WEBPACK_IMPORTED_MODULE_
     (window.__NEXT_P = window.__NEXT_P || []).push([
       "/settings",
       function () {
-        return __webpack_require__(88073);
+        return __webpack_require__(95853);
       }
     ]);
     if(false) {}
@@ -734,7 +734,61 @@ i18n.on("added", function() {
 
 /***/ }),
 
-/***/ 88073:
+/***/ 93589:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   y: () => (/* binding */ TabbarContainer)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(94513);
+/* harmony import */ var _barrel_optimize_names_Box_CssBaseline_Paper_mui_material__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(59864);
+/* harmony import */ var _barrel_optimize_names_Box_CssBaseline_Paper_mui_material__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6445);
+/* harmony import */ var _barrel_optimize_names_Box_CssBaseline_Paper_mui_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(32055);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(94285);
+/* harmony import */ var _page_AndroidPageContent__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(67236);
+/* __next_internal_client_entry_do_not_use__ TabbarContainer auto */ 
+
+
+
+function BottomBar(param) {
+    let { navBar } = param;
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_barrel_optimize_names_Box_CssBaseline_Paper_mui_material__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .A, {
+        id: "bottom-navigation",
+        sx: {
+            position: 'fixed',
+            bottom: 0,
+            left: 0,
+            right: 0
+        },
+        elevation: 3,
+        children: navBar
+    });
+}
+function TabbarContainer(param) {
+    let { children, titleConf, navBar } = param;
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_barrel_optimize_names_Box_CssBaseline_Paper_mui_material__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .A, {
+        sx: {
+            minHeight: '100vh',
+            paddingBottom: '72px' // 为固定在底部的tabbar留出空间
+        },
+        children: [
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_barrel_optimize_names_Box_CssBaseline_Paper_mui_material__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Ay, {}),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_page_AndroidPageContent__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .A, {
+                titleConf: titleConf,
+                children: children
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(BottomBar, {
+                navBar: navBar
+            })
+        ]
+    });
+}
+
+
+/***/ }),
+
+/***/ 95853:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -900,7 +954,50 @@ function PrivacyButtonBox() {
     });
 }
 
+// EXTERNAL MODULE: ../../node_modules/.pnpm/react@19.1.0/node_modules/react/index.js
+var react = __webpack_require__(94285);
+// EXTERNAL MODULE: ../../libs/droid/android/src/android/AutoWebViewJs.ts + 1 modules
+var AutoWebViewJs = __webpack_require__(45921);
+;// ./src/components/Login/GoogleLoginButton.tsx
+
+
+
+
+
+
+function GoogleLoginButton() {
+    const { t } = (0,es/* useTranslation */.Bd)('homepage/components/Login/content');
+    const handleGoogleLogin = ()=>{
+        console.log("Initiating Android Google Login...");
+        try {
+            // 调用 Android 的 FirebaseAuthManager.startGoogleLogin()
+            // 不需要参数，只负责触发登录
+            const script = "\n        com.fanfanlo.droid.auth.FirebaseAuthManager.startGoogleLogin();\n      ";
+            AutoWebViewJs/* autoWebViewJs */.yx.callScript(script);
+        } catch (error) {
+            console.error("Google Login initiation failed:", error);
+        }
+    };
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Button/* default */.A, {
+        onClick: handleGoogleLogin,
+        children: t("GoogleLoginButton.name")
+    });
+}
+function LoginButtonBox() {
+    const [userToken] = (0,useProxyWatch/* useProxyWatch */.x)(User/* user */.k, 'data.storeData.user_token', User/* user */.k.data.storeData.user_token);
+    if (userToken) {
+        return /*#__PURE__*/ (0,jsx_runtime.jsx)(jsx_runtime.Fragment, {});
+    }
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(GoogleLoginButton, {})
+    });
+}
+
+// EXTERNAL MODULE: ../../libs/fanfanlo/src/nextjs/env/env.ts
+var env = __webpack_require__(49210);
 ;// ./src/components/page/settings/content/Settings.tsx
+
+
 
 
 
@@ -909,9 +1006,10 @@ function PrivacyButtonBox() {
 const SettingsContent = ()=>{
     return /*#__PURE__*/ (0,jsx_runtime.jsxs)(Box/* default */.A, {
         children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(SignUpInButton, {
+            env/* publicRuntimeConfig */.OT.region == env/* Region */.Tp.CN && /*#__PURE__*/ (0,jsx_runtime.jsx)(SignUpInButton, {
                 back: "/settings"
             }),
+            env/* publicRuntimeConfig */.OT.region == env/* Region */.Tp.GLOBAL && /*#__PURE__*/ (0,jsx_runtime.jsx)(LoginButtonBox, {}),
             /*#__PURE__*/ (0,jsx_runtime.jsx)(AccountRemoveButtonBox, {}),
             /*#__PURE__*/ (0,jsx_runtime.jsx)(PrivacyButtonBox, {})
         ]
@@ -993,60 +1091,6 @@ function SettingsPage() {
 }
 
 
-/***/ }),
-
-/***/ 93589:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   y: () => (/* binding */ TabbarContainer)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(94513);
-/* harmony import */ var _barrel_optimize_names_Box_CssBaseline_Paper_mui_material__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(59864);
-/* harmony import */ var _barrel_optimize_names_Box_CssBaseline_Paper_mui_material__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6445);
-/* harmony import */ var _barrel_optimize_names_Box_CssBaseline_Paper_mui_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(32055);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(94285);
-/* harmony import */ var _page_AndroidPageContent__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(67236);
-/* __next_internal_client_entry_do_not_use__ TabbarContainer auto */ 
-
-
-
-function BottomBar(param) {
-    let { navBar } = param;
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_barrel_optimize_names_Box_CssBaseline_Paper_mui_material__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .A, {
-        id: "bottom-navigation",
-        sx: {
-            position: 'fixed',
-            bottom: 0,
-            left: 0,
-            right: 0
-        },
-        elevation: 3,
-        children: navBar
-    });
-}
-function TabbarContainer(param) {
-    let { children, titleConf, navBar } = param;
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_barrel_optimize_names_Box_CssBaseline_Paper_mui_material__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .A, {
-        sx: {
-            minHeight: '100vh',
-            paddingBottom: '72px' // 为固定在底部的tabbar留出空间
-        },
-        children: [
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_barrel_optimize_names_Box_CssBaseline_Paper_mui_material__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Ay, {}),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_page_AndroidPageContent__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .A, {
-                titleConf: titleConf,
-                children: children
-            }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(BottomBar, {
-                navBar: navBar
-            })
-        ]
-    });
-}
-
-
 /***/ })
 
 },
@@ -1057,4 +1101,4 @@ function TabbarContainer(param) {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=settings-942eda5a6230b922.js.map
+//# sourceMappingURL=settings-16eed3693221f4ab.js.map
