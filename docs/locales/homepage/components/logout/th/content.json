@@ -1,0 +1,10 @@
+{
+  "LogoutButton": {
+    "signOut": "ออกจากระบบ",
+    "confirmContent": "คุณแน่ใจหรือไม่ว่าต้องการออกจากระบบ?",
+    "confirmTitle": "คำใบ้",
+    "confirm": "แน่นอน",
+    "cancel": "ยกเลิก",
+    "signoutOk": "ออกจากระบบแล้ว"
+  }
+}

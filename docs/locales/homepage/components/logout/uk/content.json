@@ -1,0 +1,10 @@
+{
+  "LogoutButton": {
+    "signOut": "Вийти",
+    "confirmContent": "Ви впевнені, що бажаєте вийти?",
+    "confirmTitle": "підказка",
+    "confirm": "звичайно",
+    "cancel": "Скасувати",
+    "signoutOk": "Вийшов із системи"
+  }
+}

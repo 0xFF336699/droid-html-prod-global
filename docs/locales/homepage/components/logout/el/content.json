@@ -1,0 +1,10 @@
+{
+  "LogoutButton": {
+    "signOut": "Αποσυνδεθείτε",
+    "confirmContent": "Είστε βέβαιοι ότι θέλετε να αποσυνδεθείτε;",
+    "confirmTitle": "υπαινιγμός",
+    "confirm": "Σίγουρος",
+    "cancel": "Ματαίωση",
+    "signoutOk": "Αποσυνδεθείτε"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "LogoutButton": {
+    "signOut": "Oturumu kapat",
+    "confirmContent": "Oturumu kapatmak istediğinizden emin misiniz?",
+    "confirmTitle": "ipucu",
+    "confirm": "Elbette",
+    "cancel": "İptal etmek",
+    "signoutOk": "Çıkış yapıldı"
+  }
+}

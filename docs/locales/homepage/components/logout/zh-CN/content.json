@@ -1,0 +1,10 @@
+{
+  "LogoutButton": {
+    "signOut": "退出登录",
+    "confirmContent": "确定要退出登录吗？",
+    "confirmTitle": "提示",
+    "confirm": "确定",
+    "cancel": "取消",
+    "signoutOk": "已退出登录"
+  }
+}

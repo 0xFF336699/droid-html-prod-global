@@ -1,0 +1,10 @@
+{
+  "LogoutButton": {
+    "signOut": "Deconectați-vă",
+    "confirmContent": "Sunteți sigur că doriți să vă deconectați?",
+    "confirmTitle": "aluzie",
+    "confirm": "Sigur",
+    "cancel": "Anula",
+    "signoutOk": "Deconectat"
+  }
+}

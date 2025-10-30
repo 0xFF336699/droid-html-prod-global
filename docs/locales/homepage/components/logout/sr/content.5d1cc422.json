@@ -1,0 +1,10 @@
+{
+  "LogoutButton": {
+    "signOut": "Одјавите се",
+    "confirmContent": "Да ли сте сигурни да желите да се одјавите?",
+    "confirmTitle": "наговештај",
+    "confirm": "Наравно",
+    "cancel": "Откажи",
+    "signoutOk": "Одјављен"
+  }
+}

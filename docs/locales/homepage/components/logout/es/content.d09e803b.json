@@ -1,0 +1,10 @@
+{
+  "LogoutButton": {
+    "signOut": "Finalizar la sesión",
+    "confirmContent": "¿Está seguro de que desea cerrar sesión?",
+    "confirmTitle": "pista",
+    "confirm": "Seguro",
+    "cancel": "Cancelar",
+    "signoutOk": "Cerrado sesión"
+  }
+}

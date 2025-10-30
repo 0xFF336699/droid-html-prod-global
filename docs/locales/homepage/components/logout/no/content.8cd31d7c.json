@@ -1,0 +1,10 @@
+{
+  "LogoutButton": {
+    "signOut": "Logg ut",
+    "confirmContent": "Er du sikker på at du vil logge ut?",
+    "confirmTitle": "hint",
+    "confirm": "Sikker",
+    "cancel": "Kansellere",
+    "signoutOk": "Logget ut"
+  }
+}

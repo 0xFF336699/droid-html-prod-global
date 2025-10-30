@@ -1,0 +1,10 @@
+{
+  "LogoutButton": {
+    "signOut": "Выйти",
+    "confirmContent": "Вы уверены, что хотите выйти?",
+    "confirmTitle": "намекать",
+    "confirm": "Конечно",
+    "cancel": "Отмена",
+    "signoutOk": "Вышел из системы"
+  }
+}

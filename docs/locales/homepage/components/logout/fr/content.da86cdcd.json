@@ -1,0 +1,10 @@
+{
+  "LogoutButton": {
+    "signOut": "Se déconnecter",
+    "confirmContent": "Êtes-vous sûr de vouloir vous déconnecter ?",
+    "confirmTitle": "indice",
+    "confirm": "Bien sûr",
+    "cancel": "Annuler",
+    "signoutOk": "Déconnecté"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "LogoutButton": {
+    "signOut": "Log keluar",
+    "confirmContent": "Adakah anda pasti mahu log keluar?",
+    "confirmTitle": "petunjuk",
+    "confirm": "Pasti",
+    "cancel": "Batalkan",
+    "signoutOk": "Log keluar"
+  }
+}

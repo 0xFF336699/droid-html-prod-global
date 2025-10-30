@@ -1,0 +1,10 @@
+{
+  "LogoutButton": {
+    "signOut": "Излезте",
+    "confirmContent": "Сигурни ли сте, че искате да излезете?",
+    "confirmTitle": "намек",
+    "confirm": "Разбира се",
+    "cancel": "Отказ",
+    "signoutOk": "Излязъл"
+  }
+}

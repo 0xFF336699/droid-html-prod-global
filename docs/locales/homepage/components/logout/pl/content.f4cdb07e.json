@@ -1,0 +1,10 @@
+{
+  "LogoutButton": {
+    "signOut": "Wyloguj się",
+    "confirmContent": "Czy na pewno chcesz się wylogować?",
+    "confirmTitle": "wskazówka",
+    "confirm": "Jasne",
+    "cancel": "Anulować",
+    "signoutOk": "Wylogowałem się"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "LogoutButton": {
+    "signOut": "ログアウト",
+    "confirmContent": "ログアウトしてもよろしいですか?",
+    "confirmTitle": "ヒント",
+    "confirm": "もちろん",
+    "cancel": "キャンセル",
+    "signoutOk": "ログアウトしました"
+  }
+}

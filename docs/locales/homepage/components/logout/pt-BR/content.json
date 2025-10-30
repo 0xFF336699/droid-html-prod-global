@@ -1,0 +1,10 @@
+{
+  "LogoutButton": {
+    "signOut": "Sair",
+    "confirmContent": "Tem certeza de que deseja sair?",
+    "confirmTitle": "dica",
+    "confirm": "Claro",
+    "cancel": "Cancelar",
+    "signoutOk": "Desconectado"
+  }
+}

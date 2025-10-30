@@ -1,0 +1,10 @@
+{
+  "LogoutButton": {
+    "signOut": "Log out",
+    "confirmContent": "Are you sure you want to log out?",
+    "confirmTitle": "hint",
+    "confirm": "Sure",
+    "cancel": "Cancel",
+    "signoutOk": "Logged out"
+  }
+}

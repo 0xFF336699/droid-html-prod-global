@@ -1,0 +1,10 @@
+{
+  "LogoutButton": {
+    "signOut": "Odhlaste se",
+    "confirmContent": "Opravdu se chcete odhlásit?",
+    "confirmTitle": "náznak",
+    "confirm": "Jasně",
+    "cancel": "Zrušit",
+    "signoutOk": "Odhlášen"
+  }
+}
