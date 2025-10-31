@@ -229,6 +229,8 @@ var NavBar = __webpack_require__(32534);
 var Box = __webpack_require__(6445);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react-i18next@15.6.0_i18next@24.2.3_typescript@5.7.3__react-dom@19.1.0_react@19.1.0__react@19.1.0_typescript@5.7.3/node_modules/react-i18next/dist/es/index.js + 15 modules
 var es = __webpack_require__(50279);
+// EXTERNAL MODULE: ../../libs/fanfanlo/src/nextjs/env/env.ts
+var env = __webpack_require__(49210);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/next@15.3.5_@babel+core@7.28.0_babel-plugin-macros@3.1.0_react-dom@19.1.0_react@19.1.0__react@19.1.0_sass@1.89.2/node_modules/next/router.js
 var next_router = __webpack_require__(75640);
 // EXTERNAL MODULE: ../../libs/fanfanlo/src/watcher/useProxyWatch.ts
@@ -244,7 +246,79 @@ var next_link = __webpack_require__(97097);
 var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 // EXTERNAL MODULE: ../../libs/fanfanlo/src/mui/dialog/ButtonConfirm.tsx
 var ButtonConfirm = __webpack_require__(56257);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/react@19.1.0/node_modules/react/index.js
+var react = __webpack_require__(94285);
+// EXTERNAL MODULE: ../../libs/droid/android/src/android/AutoWebViewJs.ts + 1 modules
+var AutoWebViewJs = __webpack_require__(45921);
+;// ./src/components/Login/GoogleLoginButton.tsx
+
+
+
+
+
+
+const eventOnGoogleLoginSuccess = 'AndroidGoogleLoginSuccess';
+function GoogleLoginButton() {
+    const { t } = (0,es/* useTranslation */.Bd)('homepage/components/Login/content');
+    const handleGoogleLogin = ()=>{
+        console.log('Initiating Android Google Login...');
+        try {
+            let script = "\n        com.fanfanlo.droid.auth.FirebaseAuthManager.startGoogleLogin();\n      ";
+            // if (publicRuntimeConfig.env == AppEnv.Prod) {
+            //   // 调用 Android 的 FirebaseAuthManager.startGoogleLogin()
+            //   // 不需要参数，只负责触发登录
+            //   script = `
+            //   com.fanfanlo.droid.auth.FirebaseAuthManager.startGoogleLogin();
+            // `;
+            // } else {
+            //   // 测试快速登陆
+            //   script = `
+            // com.fanfanlo.droid.remote.user.UserApi.testLoginByFirebaseWithInfo()`;
+            // }
+            AutoWebViewJs/* autoWebViewJs */.yx.callScript(script);
+        } catch (error) {
+            console.error('Google Login initiation failed:', error);
+        }
+    };
+    (0,react.useEffect)(()=>{
+        function onGoogleLoginSuccess(event) {
+            console.log('Google Login Successful, event data:', event.detail);
+            console.log('Google Login Successful, event data3:', event);
+            console.log('Google Login Successful, event data2:', JSON.stringify(event.detail));
+            const detail = event.detail;
+            if (!detail || !detail.data || !detail.data.idToken) {
+                console.error('Google login event detail invalid', detail);
+                return;
+            }
+            console.log('detail=', detail);
+            User/* user */.k.setUserToken(detail.data.idToken);
+            User/* user */.k.signin();
+        }
+        window.addEventListener(eventOnGoogleLoginSuccess, onGoogleLoginSuccess);
+        return ()=>{
+            window.removeEventListener(eventOnGoogleLoginSuccess, onGoogleLoginSuccess);
+        };
+    }, []);
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Button/* default */.A, {
+        onClick: handleGoogleLogin,
+        children: t('GoogleLoginButton.name')
+    });
+}
+function LoginButtonBox() {
+    const [userToken] = (0,useProxyWatch/* useProxyWatch */.x)(User/* user */.k, 'data.storeData.user_token', User/* user */.k.data.storeData.user_token);
+    if (userToken) {
+        return /*#__PURE__*/ (0,jsx_runtime.jsx)(jsx_runtime.Fragment, {});
+    }
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(GoogleLoginButton, {})
+    });
+}
+
+// EXTERNAL MODULE: ../../libs/droid/android/src/android/is-in-android.ts
+var is_in_android = __webpack_require__(63149);
 ;// ./src/components/page/sign-up-in/components/sign-up-in-button/SignUpIn.tsx
+
+
 
 
 
@@ -296,25 +370,25 @@ function SignUpInButton(param) {
             ]
         });
     }
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
+        children: [
+            (env/* publicRuntimeConfig */.OT.region == env/* Region */.Tp.CN || !is_in_android/* isRealInAndroid */.nd) && /*#__PURE__*/ (0,jsx_runtime.jsx)(jsx_runtime.Fragment, {
+                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)((link_default()), {
+                        href: "/sign-up-in?back=".concat(back),
+                        children: t('SignUpIn.signUpIn')
+                    })
+                })
+            }),
+            env/* publicRuntimeConfig */.OT.region == env/* Region */.Tp.GLOBAL && is_in_android/* isRealInAndroid */.nd && /*#__PURE__*/ (0,jsx_runtime.jsx)(LoginButtonBox, {})
+        ]
+    });
     return /*#__PURE__*/ (0,jsx_runtime.jsx)(jsx_runtime.Fragment, {
         children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
             children: /*#__PURE__*/ (0,jsx_runtime.jsx)((link_default()), {
                 href: "/sign-up-in?back=".concat(back),
                 children: t('SignUpIn.signUpIn')
             })
-        })
-    });
-    return /*#__PURE__*/ (0,jsx_runtime.jsx)(jsx_runtime.Fragment, {
-        children: token ? /*#__PURE__*/ (0,jsx_runtime.jsx)(ButtonConfirm/* ButtonConfirm */.b, {
-            title: t('SignUpIn.confirmTitle'),
-            content: t('SignUpIn.confirmContent'),
-            onConfirm: onSignoutClick,
-            children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Button/* default */.A, {
-                children: t('SignUpIn.signOut')
-            })
-        }) : /*#__PURE__*/ (0,jsx_runtime.jsx)((link_default()), {
-            href: "/sign-up-in?back=".concat(back),
-            children: t('SignUpIn.signUpIn')
         })
     });
 }
@@ -372,70 +446,6 @@ function PrivacyButtonBox() {
     });
 }
 
-// EXTERNAL MODULE: ../../node_modules/.pnpm/react@19.1.0/node_modules/react/index.js
-var react = __webpack_require__(94285);
-// EXTERNAL MODULE: ../../libs/droid/android/src/android/AutoWebViewJs.ts + 1 modules
-var AutoWebViewJs = __webpack_require__(45921);
-;// ./src/components/Login/GoogleLoginButton.tsx
-
-
-
-
-
-
-const eventOnGoogleLoginSuccess = 'AndroidGoogleLoginSuccess';
-function GoogleLoginButton() {
-    const { t } = (0,es/* useTranslation */.Bd)('homepage/components/Login/content');
-    const handleGoogleLogin = ()=>{
-        console.log("Initiating Android Google Login...");
-        try {
-            // 调用 Android 的 FirebaseAuthManager.startGoogleLogin()
-            // 不需要参数，只负责触发登录
-            // const script = `
-            // com.fanfanlo.droid.auth.FirebaseAuthManager.startGoogleLogin();
-            // `;
-            const script = "\n      com.fanfanlo.droid.remote.user.UserApi.testLoginByFirebaseWithInfo()";
-            AutoWebViewJs/* autoWebViewJs */.yx.callScript(script);
-        } catch (error) {
-            console.error("Google Login initiation failed:", error);
-        }
-    };
-    (0,react.useEffect)(()=>{
-        function onGoogleLoginSuccess(event) {
-            console.log("Google Login Successful, event data:", event.detail);
-            console.log("Google Login Successful, event data3:", event);
-            console.log("Google Login Successful, event data2:", JSON.stringify(event.detail));
-            const detail = event.detail;
-            if (!detail || !detail.data || !detail.data.idToken) {
-                console.error('Google login event detail invalid', detail);
-                return;
-            }
-            console.log('detail=', detail);
-            User/* user */.k.setUserToken(detail.data.idToken);
-            User/* user */.k.signin();
-        }
-        window.addEventListener(eventOnGoogleLoginSuccess, onGoogleLoginSuccess);
-        return ()=>{
-            window.removeEventListener(eventOnGoogleLoginSuccess, onGoogleLoginSuccess);
-        };
-    }, []);
-    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Button/* default */.A, {
-        onClick: handleGoogleLogin,
-        children: t("GoogleLoginButton.name")
-    });
-}
-function LoginButtonBox() {
-    const [userToken] = (0,useProxyWatch/* useProxyWatch */.x)(User/* user */.k, 'data.storeData.user_token', User/* user */.k.data.storeData.user_token);
-    if (userToken) {
-        return /*#__PURE__*/ (0,jsx_runtime.jsx)(jsx_runtime.Fragment, {});
-    }
-    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
-        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(GoogleLoginButton, {})
-    });
-}
-
-// EXTERNAL MODULE: ../../libs/fanfanlo/src/nextjs/env/env.ts
-var env = __webpack_require__(49210);
 ;// ./src/components/logout/LogoutButton.tsx
 
 
@@ -491,18 +501,15 @@ function LogoutButtonBox() {
 
 
 
-
-
 const SettingsContent = ()=>{
     return /*#__PURE__*/ (0,jsx_runtime.jsxs)(Box/* default */.A, {
         children: [
-            env/* publicRuntimeConfig */.OT.region == env/* Region */.Tp.CN && /*#__PURE__*/ (0,jsx_runtime.jsx)(SignUpInButton, {
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(SignUpInButton, {
                 back: "/settings"
             }),
-            env/* publicRuntimeConfig */.OT.region == env/* Region */.Tp.GLOBAL && /*#__PURE__*/ (0,jsx_runtime.jsx)(LoginButtonBox, {}),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(AccountRemoveButtonBox, {}),
             /*#__PURE__*/ (0,jsx_runtime.jsx)(LogoutButtonBox, {}),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(PrivacyButtonBox, {})
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(PrivacyButtonBox, {}),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(AccountRemoveButtonBox, {})
         ]
     });
 };
@@ -1175,4 +1182,4 @@ function TabbarContainer(param) {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=settings-0d6b3d8abc629dcd.js.map
+//# sourceMappingURL=settings-8fb818e36f5c4133.js.map
