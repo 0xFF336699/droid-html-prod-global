@@ -144,21 +144,26 @@ async function loadScrptEditorData(ns) {
 var market_html_utils = __webpack_require__(40682);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react@19.1.0/node_modules/react/index.js
 var react = __webpack_require__(94285);
+// EXTERNAL MODULE: ./src/libs/mc/main/MainModel.ts
+var MainModel = __webpack_require__(28660);
 ;// ./src/services/droid-docs-api.ts
 /**
  * Droid Docs API Service
  * 用于与 droid-docs 项目的 API 交互
- */ // API 基础 URL - 从环境变量或默认值读取
+ */ 
+// API 基础 URL - 从环境变量或默认值读取
 const getApiBaseUrl = ()=>{
     console.log('[DroidDocsApi] 获取 API 基础 URL');
     // 在浏览器环境中，使用 localhost
     if (true) {
-        const baseUrl = 'https://droid-docs.vm-ubuntu.droidlego.com';
+        // const baseUrl = 'https://droid-docs.vm-ubuntu.droidlego.com';
+        const baseUrl = MainModel/* mainModel */.N.appConfig.docsApi;
         console.log('[DroidDocsApi] 浏览器环境，使用 baseUrl:', baseUrl);
         return baseUrl;
     }
     // 服务端环境
-    const baseUrl = 'https://droid-docs.vm-ubuntu.droidlego.com';
+    // const baseUrl = 'https://droid-docs.vm-ubuntu.droidlego.com';
+    const baseUrl = MainModel/* mainModel */.N.appConfig.docsApi;
     console.log('[DroidDocsApi] 服务端环境，使用 baseUrl:', baseUrl);
     return baseUrl;
 };
@@ -944,4 +949,4 @@ function TabbarContainer(param) {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=script-creator-3358d2768e97d39c.js.map
+//# sourceMappingURL=script-creator-5e063e315d858072.js.map

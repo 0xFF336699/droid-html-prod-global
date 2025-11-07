@@ -8,5 +8,6 @@
     "wsUrl": "wss://dev-server-element-call-im-droid-7880.droidlego.com",
     "tokenEndpoint": "dev-server-element-call-livekit-auth-im-droid.droidlego.com",
     "jwt":"//droid-go-livekit-jwt-service-dev.droidlego.com"
-  }
+  },
+  "docsApi":"//droid-docs.vm-ubuntu.droidlego.com"
 }
