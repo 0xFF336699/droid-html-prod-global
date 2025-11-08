@@ -1,9 +1,9 @@
-(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([[9426],{
+"use strict";
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([[3617],{
 
 /***/ 3131:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   W: () => (/* binding */ createTypedContext)
 /* harmony export */ });
@@ -25,34 +25,27 @@ function createTypedContext() {
 
 /***/ }),
 
-/***/ 5096:
+/***/ 9396:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ ScriptCreatorPage)
+  o: () => (/* binding */ ScriptEditorContent)
 });
 
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react@19.1.0/node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(94513);
-// EXTERNAL MODULE: ../../libs/app/ui/src/components/app/AppShell.tsx + 2 modules
-var AppShell = __webpack_require__(20939);
-// EXTERNAL MODULE: ../../libs/app/ui/src/components/tabbar/Tabbar.tsx
-var Tabbar = __webpack_require__(93589);
-// EXTERNAL MODULE: ./src/components/navbar/NavBar.tsx
-var NavBar = __webpack_require__(32534);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/Box/Box.js + 2 modules
-var Box = __webpack_require__(6445);
+// EXTERNAL MODULE: ../../libs/fanfanlo/src/log/Log.ts + 1 modules
+var Log = __webpack_require__(48891);
 // EXTERNAL MODULE: ../../libs/fanfanlo/src/i18n/fanfanloI18n.ts
 var fanfanloI18n = __webpack_require__(95414);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react-i18next@15.6.0_i18next@24.2.3_typescript@5.7.3__react-dom@19.1.0_react@19.1.0__react@19.1.0_typescript@5.7.3/node_modules/react-i18next/dist/es/index.js + 15 modules
 var es = __webpack_require__(50279);
 // EXTERNAL MODULE: ../../libs/fanfanlo/src/iframe/IFrameReactContainer.tsx + 1 modules
 var IFrameReactContainer = __webpack_require__(6955);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/Box/Box.js + 2 modules
+var Box = __webpack_require__(6445);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/Typography/Typography.js
 var Typography = __webpack_require__(67079);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/Stack/Stack.js + 1 modules
@@ -443,8 +436,9 @@ var AutoWebViewJs = __webpack_require__(45921);
 
 
 
+const fileLog = new Log/* Log */.tG(false, 'ScriptEditorContent_f');
 function ScriptEditorContent(param) {
-    let { ns } = param;
+    let { ns, initialCategory, initialName, initialScript } = param;
     const lang = fanfanloI18n/* fanfanloI18n */._.language || 'en';
     // 使用 droid-docs API 获取脚本数据
     const { examplesMap, selectedLevel, selectedScript, scriptContent, isLoadingMap, isLoadingScript, mapError, scriptError, setSelectedLevel, selectScript, updateScriptContent } = useDroidDocsScripts(lang);
@@ -460,6 +454,48 @@ function ScriptEditorContent(param) {
     const [runScript, setRunScript] = (0,react.useState)('');
     console.log('[ScriptEditorContent] 初始化 runScript: 空字符串');
     const { t } = (0,es/* useTranslation */.Bd)("homepage/components/script-editor/content/content");
+    // 如果提供了初始参数，自动选择并加载脚本
+    (0,react.useEffect)(()=>{
+        fileLog.log('ScriptEditorContent', "InitialParams effect triggered: initialCategory=".concat(initialCategory, ", initialName=").concat(initialName, ", examplesMapLoaded=").concat(!!examplesMap));
+        if (!initialCategory || !initialName || !examplesMap) {
+            if (initialCategory && initialName) {
+                fileLog.log('ScriptEditorContent', 'Waiting for examplesMap to load');
+            }
+            return;
+        }
+        fileLog.log('ScriptEditorContent', "Initializing with: category=".concat(initialCategory, ", name=").concat(initialName, ", script=").concat(initialScript));
+        const levelScripts = examplesMap[initialCategory];
+        if (!levelScripts) {
+            fileLog.error('ScriptEditorContent', "Category not found: ".concat(initialCategory));
+            return;
+        }
+        // 按 path 查找脚本，而不是按 name，因为 name 是 i18n 翻译后的名称
+        // path 格式: "category/script-name"，例如: "beginner/vibrate"
+        const targetScript = levelScripts.find((s)=>s.path === "".concat(initialCategory, "/").concat(initialName));
+        if (!targetScript) {
+            fileLog.error('ScriptEditorContent', "Script not found: ".concat(initialCategory, "/").concat(initialName));
+            fileLog.log('ScriptEditorContent', "Available scripts in ".concat(initialCategory, ":"), levelScripts.map((s)=>({
+                    path: s.path,
+                    name: s.name
+                })));
+            return;
+        }
+        fileLog.log('ScriptEditorContent', "Found target script: ".concat(targetScript.name));
+        setSelectedLevel(initialCategory);
+        selectScript(targetScript);
+        if (initialScript === false) {
+            fileLog.log('ScriptEditorContent', 'initialScript is false, clearing content');
+            updateScriptContent('');
+        }
+    }, [
+        initialCategory,
+        initialName,
+        initialScript,
+        examplesMap,
+        setSelectedLevel,
+        selectScript,
+        updateScriptContent
+    ]);
     // 使用 useRef 标记是否已加载，防止重复执行 loadScrptEditorData
     const hasLoadedRef = (0,react.useRef)(false);
     // 创建稳定的加载函数引用，使用 useCallback 只在 ns 改变时重新创建
@@ -694,43 +730,12 @@ function ScriptEditorContent(param) {
     });
 }
 
-;// ./src/components/page/script-creator/content/ScriptCreatorContent.tsx
-
-
-
-function ScriptCreatorContent() {
-    return /*#__PURE__*/ (0,jsx_runtime.jsx)(jsx_runtime.Fragment, {
-        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
-            children: /*#__PURE__*/ (0,jsx_runtime.jsx)(ScriptEditorContent, {})
-        })
-    });
-}
-
-;// ./src/pages/script-creator/index.tsx
-
-
-
-
-function ScriptCreatorPage() {
-    return /*#__PURE__*/ (0,jsx_runtime.jsx)(AppShell/* AppShell */.G, {
-        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Tabbar/* TabbarContainer */.y, {
-            titleConf: {
-                ns: "homepage/pages/script-creator/content",
-                key: "content.title"
-            },
-            navBar: /*#__PURE__*/ (0,jsx_runtime.jsx)(NavBar/* NavBar */.j, {}),
-            children: /*#__PURE__*/ (0,jsx_runtime.jsx)(ScriptCreatorContent, {})
-        })
-    });
-}
-
 
 /***/ }),
 
 /***/ 28210:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   j: () => (/* binding */ createAsyncContextLoader)
 /* harmony export */ });
@@ -788,7 +793,6 @@ function createAsyncContextLoader(options) {
 /***/ 32534:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   j: () => (/* binding */ NavBar)
 /* harmony export */ });
@@ -852,7 +856,6 @@ function NavBar() {
 /***/ 40682:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   P: () => (/* binding */ marketHtmlUtils)
 /* harmony export */ });
@@ -892,7 +895,6 @@ const marketHtmlUtils = {
 /***/ 55762:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   H: () => (/* binding */ Fallback)
 /* harmony export */ });
@@ -919,25 +921,9 @@ function Fallback() {
 
 /***/ }),
 
-/***/ 61350:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-
-    (window.__NEXT_P = window.__NEXT_P || []).push([
-      "/script-creator",
-      function () {
-        return __webpack_require__(5096);
-      }
-    ]);
-    if(false) {}
-  
-
-/***/ }),
-
 /***/ 93589:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   y: () => (/* binding */ TabbarContainer)
 /* harmony export */ });
@@ -988,12 +974,5 @@ function TabbarContainer(param) {
 
 /***/ })
 
-},
-/******/ __webpack_require__ => { // webpackRuntimeModules
-/******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ __webpack_require__.O(0, [5352,1482,1174,3716,636,6593,8792], () => (__webpack_exec__(61350)));
-/******/ var __webpack_exports__ = __webpack_require__.O();
-/******/ _N_E = __webpack_exports__;
-/******/ }
-]);
-//# sourceMappingURL=script-creator-f1d8c98974fb0214.js.map
+}]);
+//# sourceMappingURL=3617-41bc45913cb8cafa.js.map
