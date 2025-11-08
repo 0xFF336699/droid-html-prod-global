@@ -481,7 +481,8 @@ function ScriptEditorContent(param) {
             return;
         }
         fileLog.log('ScriptEditorContent', "Found target script: ".concat(targetScript.name));
-        setSelectedLevel(initialCategory);
+        // 不调用 setSelectedLevel，因为它会自动选择该级别的第一个脚本
+        // 直接调用 selectScript 来选择指定的脚本
         selectScript(targetScript);
         if (initialScript === false) {
             fileLog.log('ScriptEditorContent', 'initialScript is false, clearing content');
@@ -975,4 +976,4 @@ function TabbarContainer(param) {
 /***/ })
 
 }]);
-//# sourceMappingURL=3617-41bc45913cb8cafa.js.map
+//# sourceMappingURL=3617-c56732e110492207.js.map
