@@ -1,0 +1,7 @@
+{
+  "ExamplesScriptsContent": {
+    "loading": "Ladataan...",
+    "noScriptSelected": "Valitse skripti luettelosta",
+    "invalidParams": "Virheelliset komentosarjaparametrit. Varmista, että sekä luokka että nimi on annettu"
+  }
+}

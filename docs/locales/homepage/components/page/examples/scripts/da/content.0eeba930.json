@@ -1,0 +1,7 @@
+{
+  "ExamplesScriptsContent": {
+    "loading": "Indlæser...",
+    "noScriptSelected": "Vælg venligst et script fra listen",
+    "invalidParams": "Ugyldige scriptparametre. Sørg for, at både kategori og navn er angivet"
+  }
+}

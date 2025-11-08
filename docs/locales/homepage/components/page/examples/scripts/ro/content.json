@@ -1,0 +1,7 @@
+{
+  "ExamplesScriptsContent": {
+    "loading": "Încărcare...",
+    "noScriptSelected": "Vă rugăm să selectați un script din listă",
+    "invalidParams": "Parametri de script nevalidi. Vă rugăm să vă asigurați că sunt furnizate atât categoria, cât și numele"
+  }
+}

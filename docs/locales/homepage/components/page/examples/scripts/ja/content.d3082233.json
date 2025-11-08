@@ -1,0 +1,7 @@
+{
+  "ExamplesScriptsContent": {
+    "loading": "読み込み中...",
+    "noScriptSelected": "リストからスクリプトを選択してください",
+    "invalidParams": "スクリプトパラメータが無効です。カテゴリと名前の両方が指定されていることを確認してください"
+  }
+}

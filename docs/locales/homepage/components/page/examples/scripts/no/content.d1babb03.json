@@ -1,0 +1,7 @@
+{
+  "ExamplesScriptsContent": {
+    "loading": "Laster inn...",
+    "noScriptSelected": "Velg et skript fra listen",
+    "invalidParams": "Ugyldige skriptparametere. Sørg for at både kategori og navn er oppgitt"
+  }
+}

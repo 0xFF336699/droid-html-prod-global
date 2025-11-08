@@ -1,0 +1,7 @@
+{
+  "ExamplesScriptsContent": {
+    "loading": "Terhelés...",
+    "noScriptSelected": "Kérjük, válasszon egy szkriptet a listából",
+    "invalidParams": "Érvénytelen szkriptparaméterek. Ügyeljen arra, hogy a kategóriát és a nevet is megadja"
+  }
+}

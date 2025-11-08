@@ -1,0 +1,7 @@
+{
+  "ExamplesScriptsContent": {
+    "loading": "Đang tải...",
+    "noScriptSelected": "Vui lòng chọn một tập lệnh từ danh sách",
+    "invalidParams": "Tham số tập lệnh không hợp lệ. Hãy đảm bảo cung cấp cả danh mục và tên"
+  }
+}

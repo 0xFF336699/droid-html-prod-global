@@ -1,0 +1,7 @@
+{
+  "ExamplesScriptsContent": {
+    "loading": "Načítava sa...",
+    "noScriptSelected": "Vyberte skript zo zoznamu",
+    "invalidParams": "Neplatné parametre skriptu. Uistite sa, že ste zadali kategóriu aj názov"
+  }
+}

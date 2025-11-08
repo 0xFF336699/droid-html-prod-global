@@ -1,0 +1,7 @@
+{
+  "ExamplesScriptsContent": {
+    "loading": "Belastning...",
+    "noScriptSelected": "Välj ett skript från listan",
+    "invalidParams": "Ogiltiga skriptparametrar. Se till att både kategori och namn anges"
+  }
+}

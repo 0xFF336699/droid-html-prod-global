@@ -1,0 +1,7 @@
+{
+  "ExamplesScriptsContent": {
+    "loading": "Memuat...",
+    "noScriptSelected": "Silakan pilih skrip dari daftar",
+    "invalidParams": "Parameter skrip tidak valid. Harap pastikan kategori dan nama disediakan"
+  }
+}

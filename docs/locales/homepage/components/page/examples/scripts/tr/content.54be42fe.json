@@ -1,0 +1,7 @@
+{
+  "ExamplesScriptsContent": {
+    "loading": "Yükleniyor...",
+    "noScriptSelected": "Lütfen listeden bir komut dosyası seçin",
+    "invalidParams": "Geçersiz komut dosyası parametreleri. Lütfen hem kategorinin hem de adın verildiğinden emin olun"
+  }
+}

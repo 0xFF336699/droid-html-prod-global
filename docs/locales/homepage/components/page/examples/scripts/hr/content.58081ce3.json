@@ -1,0 +1,7 @@
+{
+  "ExamplesScriptsContent": {
+    "loading": "Učitavanje...",
+    "noScriptSelected": "Odaberite skriptu s popisa",
+    "invalidParams": "Nevažeći parametri skripte. Provjerite jesu li navedeni i kategorija i naziv"
+  }
+}

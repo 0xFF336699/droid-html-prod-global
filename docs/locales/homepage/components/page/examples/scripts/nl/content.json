@@ -1,0 +1,7 @@
+{
+  "ExamplesScriptsContent": {
+    "loading": "Laden...",
+    "noScriptSelected": "Selecteer een script uit de lijst",
+    "invalidParams": "Ongeldige scriptparameters. Zorg ervoor dat zowel de categorie als de naam worden opgegeven"
+  }
+}

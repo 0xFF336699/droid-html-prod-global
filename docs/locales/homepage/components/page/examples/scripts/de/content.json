@@ -1,0 +1,7 @@
+{
+  "ExamplesScriptsContent": {
+    "loading": "Laden...",
+    "noScriptSelected": "Bitte wählen Sie ein Skript aus der Liste aus",
+    "invalidParams": "Ungültige Skriptparameter. Bitte stellen Sie sicher, dass sowohl Kategorie als auch Name angegeben sind"
+  }
+}

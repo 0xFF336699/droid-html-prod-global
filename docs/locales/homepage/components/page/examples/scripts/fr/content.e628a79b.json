@@ -1,0 +1,7 @@
+{
+  "ExamplesScriptsContent": {
+    "loading": "Chargement...",
+    "noScriptSelected": "Veuillez sélectionner un script dans la liste",
+    "invalidParams": "Paramètres de script invalides. Veuillez vous assurer que la catégorie et le nom sont fournis"
+  }
+}
