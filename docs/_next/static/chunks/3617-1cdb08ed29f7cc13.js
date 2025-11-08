@@ -481,9 +481,19 @@ function ScriptEditorContent(param) {
             return;
         }
         fileLog.log('ScriptEditorContent', "Found target script: ".concat(targetScript.name));
-        // 不调用 setSelectedLevel，因为它会自动选择该级别的第一个脚本
-        // 直接调用 selectScript 来选择指定的脚本
+        // 同时执行两个操作：
+        // 1. selectScript(targetScript) - 加载脚本内容（异步）
+        // 2. setSelectedLevel(initialCategory) - 更新UI状态（同步触发）
+        // selectScript是异步的，所以会在setSelectedLevel的自动选择完成后才加载我们的目标脚本
         selectScript(targetScript);
+        fileLog.log('ScriptEditorContent', "Called selectScript for: ".concat(targetScript.path));
+        // 如果当前选中的级别与初始类别不匹配，更新级别
+        if (selectedLevel !== initialCategory) {
+            fileLog.log('ScriptEditorContent', "Updating selectedLevel from ".concat(selectedLevel, " to ").concat(initialCategory));
+            setSelectedLevel(initialCategory);
+        } else {
+            fileLog.log('ScriptEditorContent', "selectedLevel already matches initialCategory: ".concat(initialCategory));
+        }
         if (initialScript === false) {
             fileLog.log('ScriptEditorContent', 'initialScript is false, clearing content');
             updateScriptContent('');
@@ -493,6 +503,7 @@ function ScriptEditorContent(param) {
         initialName,
         initialScript,
         examplesMap,
+        selectedLevel,
         setSelectedLevel,
         selectScript,
         updateScriptContent
@@ -976,4 +987,4 @@ function TabbarContainer(param) {
 /***/ })
 
 }]);
-//# sourceMappingURL=3617-c56732e110492207.js.map
+//# sourceMappingURL=3617-1cdb08ed29f7cc13.js.map
