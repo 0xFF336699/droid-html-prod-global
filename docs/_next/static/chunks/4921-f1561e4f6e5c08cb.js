@@ -2652,7 +2652,7 @@ function NotificationSettingButton() {
     }
     return /*#__PURE__*/ (0,jsx_runtime.jsx)(Button_Button/* default */.A, {
         onClick: openSettings,
-        children: t('NotificationOpenButton.setting')
+        children: t('NotificationSettingButton.setting')
     });
 }
 
@@ -3688,4 +3688,4 @@ function TabbarContainer(param) {
 /***/ })
 
 }]);
-//# sourceMappingURL=4921-a2897b629709521f.js.map
+//# sourceMappingURL=4921-f1561e4f6e5c08cb.js.map
