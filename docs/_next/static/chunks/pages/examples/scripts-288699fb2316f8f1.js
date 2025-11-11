@@ -528,13 +528,15 @@ function ScriptEditorContentV2(param) {
     }, [
         ns
     ]);
-    // 缓存 loadData 返回的 Promise
-    const loadDataPromise = (0,react.useMemo)(()=>{
-        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 创建 loadDataPromise"));
-        return loadData();
-    }, [
-        loadData
-    ]);
+    // 使用 useRef 确保 Promise 只创建一次,避免重新渲染时创建新 Promise
+    const loadDataPromiseRef = (0,react.useRef)(null);
+    if (loadDataPromiseRef.current === null) {
+        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 首次创建 loadDataPromise"));
+        loadDataPromiseRef.current = loadData();
+    } else {
+        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 复用已有的 loadDataPromise"));
+    }
+    const loadDataPromise = loadDataPromiseRef.current;
     // 处理选择示例脚本
     const handleSelectScript = (script)=>{
         var _scriptCopy_permissions;
@@ -774,19 +776,6 @@ function ExamplesScriptsPage() {
         })
     });
 }
-
-
-/***/ }),
-
-/***/ 9825:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Bd: () => (/* reexport safe */ C_work_android_droid_html_website_2024_12_node_modules_pnpm_react_i18next_15_6_0_i18next_24_2_3_typescript_5_7_3_react_dom_19_1_0_react_19_1_0_react_19_1_0_typescript_5_7_3_node_modules_react_i18next_dist_es_index_js__WEBPACK_IMPORTED_MODULE_0__.Bd)
-/* harmony export */ });
-/* harmony import */ var C_work_android_droid_html_website_2024_12_node_modules_pnpm_react_i18next_15_6_0_i18next_24_2_3_typescript_5_7_3_react_dom_19_1_0_react_19_1_0_react_19_1_0_typescript_5_7_3_node_modules_react_i18next_dist_es_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(50279);
-
 
 
 /***/ }),
@@ -1202,9 +1191,9 @@ const AndroidPermissionsButton_LOG_PREFIX = '[AndroidPermissionsButton]';
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ __webpack_require__.O(0, [5352,4729,788,5629,3685,9170,889,3343,7333,6112,8462,6955,8970,636,6593,8792], () => (__webpack_exec__(90342)));
+/******/ __webpack_require__.O(0, [5352,4729,788,5629,3685,9170,889,3343,7333,6112,8462,6955,5066,636,6593,8792], () => (__webpack_exec__(90342)));
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=scripts-fb75e8bfba4d160c.js.map
+//# sourceMappingURL=scripts-288699fb2316f8f1.js.map

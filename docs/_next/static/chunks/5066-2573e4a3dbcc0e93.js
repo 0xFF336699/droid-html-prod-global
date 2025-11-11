@@ -1,5 +1,5 @@
 "use strict";
-(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([[8970],{
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([[5066],{
 
 /***/ 3131:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
@@ -25,6 +25,18 @@ function createTypedContext() {
 
 /***/ }),
 
+/***/ 9825:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Bd: () => (/* reexport safe */ C_work_android_droid_html_website_2024_12_node_modules_pnpm_react_i18next_15_6_0_i18next_24_2_3_typescript_5_7_3_react_dom_19_1_0_react_19_1_0_react_19_1_0_typescript_5_7_3_node_modules_react_i18next_dist_es_index_js__WEBPACK_IMPORTED_MODULE_0__.Bd)
+/* harmony export */ });
+/* harmony import */ var C_work_android_droid_html_website_2024_12_node_modules_pnpm_react_i18next_15_6_0_i18next_24_2_3_typescript_5_7_3_react_dom_19_1_0_react_19_1_0_react_19_1_0_typescript_5_7_3_node_modules_react_i18next_dist_es_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(50279);
+
+
+
+/***/ }),
+
 /***/ 28210:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -33,6 +45,7 @@ function createTypedContext() {
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(94513);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(94285);
+/* __next_internal_client_entry_do_not_use__ createAsyncContextLoader auto */ 
 /**
  * 使用场景：
  * 
@@ -56,7 +69,6 @@ export const [MarketPageDataContextProvider, useMarketPageData] = createTypedCon
 }
  */ // 使用场景：
 // C:\work\android-droid\html\website-2024-12\libs\fanfanlo\src\react\createTypedContext.ts 的 createTypedContext返回的useTypedContext会需要是promise的，所以我需要一个能够给它传递promise并初始化的组件，可以使用react19的use方法来帮我实现吗？
-
 
 function createAsyncContextLoader(options) {
     const { Provider, extract, fallback = null } = options;
@@ -655,4 +667,4 @@ const getApiBaseUrl = ()=>{
 /***/ })
 
 }]);
-//# sourceMappingURL=8970-4efe889dded8aa50.js.map
+//# sourceMappingURL=5066-2573e4a3dbcc0e93.js.map

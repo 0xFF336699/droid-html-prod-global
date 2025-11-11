@@ -206,6 +206,8 @@ __webpack_require__.d(__webpack_exports__, {
 var jsx_runtime = __webpack_require__(94513);
 // EXTERNAL MODULE: ../../libs/app/ui/src/components/app/AppShell.tsx + 2 modules
 var AppShell = __webpack_require__(20939);
+// EXTERNAL MODULE: ../../libs/app/ui/src/components/appbar/AppBar.tsx + 3 modules
+var AppBar = __webpack_require__(97972);
 // EXTERNAL MODULE: ../../libs/app/ui/src/components/tabbar/Tabbar.tsx
 var Tabbar = __webpack_require__(93589);
 // EXTERNAL MODULE: ./src/components/navbar/NavBar.tsx
@@ -350,13 +352,15 @@ function ScriptEditorContent(param) {
     }, [
         ns
     ]);
-    // 缓存 loadData 返回的 Promise
-    const loadDataPromise = (0,react.useMemo)(()=>{
-        console.log("[ScriptEditorContent] 创建 loadDataPromise");
-        return loadData();
-    }, [
-        loadData
-    ]);
+    // 使用 useRef 确保 Promise 只创建一次,避免重新渲染时创建新 Promise
+    const loadDataPromiseRef = (0,react.useRef)(null);
+    if (loadDataPromiseRef.current === null) {
+        console.log("[ScriptEditorContent] 首次创建 loadDataPromise");
+        loadDataPromiseRef.current = loadData();
+    } else {
+        console.log("[ScriptEditorContent] 复用已有的 loadDataPromise");
+    }
+    const loadDataPromise = loadDataPromiseRef.current;
     // 处理难度级别变更
     const handleLevelChange = (level)=>{
         console.log("[ScriptEditorContent] 切换难度级别为: ".concat(level));
@@ -575,17 +579,30 @@ function ScriptCreatorContent() {
     });
 }
 
+// EXTERNAL MODULE: __barrel_optimize__?names=useTranslation!=!../../node_modules/.pnpm/react-i18next@15.6.0_i18next@24.2.3_typescript@5.7.3__react-dom@19.1.0_react@19.1.0__react@19.1.0_typescript@5.7.3/node_modules/react-i18next/dist/es/index.js
+var dist_es = __webpack_require__(9825);
 ;// ./src/pages/script-creator/index.tsx
 
 
 
 
+
 function ScriptCreatorPage() {
+    const { t } = (0,dist_es/* useTranslation */.Bd)('homepage/pages/script-creator/content');
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(AppShell/* AppShell */.G, {
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(AppBar/* AppbarContainer */.W, {
+            appbarProps: {
+                title: t('content.title'),
+                back: true
+            },
+            children: /*#__PURE__*/ (0,jsx_runtime.jsx)(ScriptCreatorContent, {})
+        })
+    });
     return /*#__PURE__*/ (0,jsx_runtime.jsx)(AppShell/* AppShell */.G, {
         children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Tabbar/* TabbarContainer */.y, {
             titleConf: {
-                ns: "homepage/pages/script-creator/content",
-                key: "content.title"
+                ns: 'homepage/pages/script-creator/content',
+                key: 'content.title'
             },
             navBar: /*#__PURE__*/ (0,jsx_runtime.jsx)(NavBar/* NavBar */.j, {}),
             children: /*#__PURE__*/ (0,jsx_runtime.jsx)(ScriptCreatorContent, {})
@@ -876,14 +893,281 @@ i18n.on("added", function() {
 /* harmony default export */ const i18n_init = ((/* unused pure expression or super */ null && (i18n)));
 
 
+/***/ }),
+
+/***/ 97972:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  W: () => (/* binding */ AppbarContainer)
+});
+
+// UNUSED EXPORTS: Appbar
+
+// EXTERNAL MODULE: ../../node_modules/.pnpm/react@19.1.0/node_modules/react/jsx-runtime.js
+var jsx_runtime = __webpack_require__(94513);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/useScrollTrigger/useScrollTrigger.js
+var useScrollTrigger = __webpack_require__(97241);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/Slide/Slide.js
+var Slide = __webpack_require__(62115);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/Fade/Fade.js
+var Fade = __webpack_require__(41837);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/Box/Box.js + 2 modules
+var Box = __webpack_require__(6445);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/CssBaseline/CssBaseline.js
+var CssBaseline = __webpack_require__(32055);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/AppBar/AppBar.js + 1 modules
+var AppBar_AppBar = __webpack_require__(16844);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/Toolbar/Toolbar.js + 1 modules
+var Toolbar_Toolbar = __webpack_require__(21436);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/Container/Container.js + 1 modules
+var Container = __webpack_require__(44437);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/Fab/Fab.js + 1 modules
+var Fab = __webpack_require__(12726);
+// EXTERNAL MODULE: ../../libs/fanfanlo/src/utils/browser/window-history-utils.ts
+var window_history_utils = __webpack_require__(70574);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+icons-material@6.4.12_@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_re_5ewkm5t5g27pzq5tz62v6ktvti/node_modules/@mui/icons-material/esm/KeyboardArrowLeft.js
+var KeyboardArrowLeft = __webpack_require__(47951);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+icons-material@6.4.12_@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_re_5ewkm5t5g27pzq5tz62v6ktvti/node_modules/@mui/icons-material/esm/KeyboardArrowUp.js
+var KeyboardArrowUp = __webpack_require__(94283);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/react@19.1.0/node_modules/react/index.js
+var react = __webpack_require__(94285);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/next@15.3.5_@babel+core@7.28.0_babel-plugin-macros@3.1.0_react-dom@19.1.0_react@19.1.0__react@19.1.0_sass@1.89.2/node_modules/next/router.js
+var next_router = __webpack_require__(75640);
+// EXTERNAL MODULE: ../../libs/fanfanlo/src/dispatcher/Dispatcher.ts
+var Dispatcher = __webpack_require__(82727);
+;// ../../libs/app/static/src/mc/static-model.ts
+
+const dipsatcher = new Dispatcher/* Dispatcher */.m();
+const staticModel = {
+    dipsatcher,
+    screenLockCount: 0,
+    switchPage: async ()=>{
+        dipsatcher.dispatch("switchPage");
+        staticModel.screenLockCount = 0;
+    },
+    listenSwitchPage: (callback)=>{
+        return dipsatcher.addListener("switchPage", callback);
+    }
+};
+
+// EXTERNAL MODULE: ../../node_modules/.pnpm/framer-motion@11.18.2_@emotion+is-prop-valid@1.3.1_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/framer-motion/dist/es/components/AnimatePresence/index.mjs + 3 modules
+var AnimatePresence = __webpack_require__(98969);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/framer-motion@11.18.2_@emotion+is-prop-valid@1.3.1_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs + 243 modules
+var proxy = __webpack_require__(17582);
+;// ../../libs/app/ui/src/components/motion/page-transition.tsx
+
+
+
+function PageTransition(param) {
+    let { children } = param;
+    const router = (0,next_router.useRouter)();
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(AnimatePresence/* AnimatePresence */.N, {
+        mode: "sync",
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(proxy/* motion */.P.div, {
+            initial: {
+                opacity: 0,
+                y: 10
+            },
+            animate: {
+                opacity: 1,
+                y: 0
+            },
+            exit: {
+                opacity: 0,
+                y: -110
+            },
+            transition: {
+                duration: 0.3
+            },
+            children: children
+        }, router.route)
+    });
+}
+
+;// ../../libs/app/ui/src/components/app/PageShell.tsx
+
+
+
+
+
+let idCount = 0;
+function PageShell(param) {
+    let { children } = param;
+    const id = "app-shell-".concat(idCount++);
+    (0,react.useEffect)(()=>{
+        const box = document.querySelector("#".concat(id));
+        const unlisten = staticModel.listenSwitchPage(()=>{
+            if (!box) return;
+        });
+        if (!box) return;
+        box.addEventListener("click", (e)=>{
+            if (staticModel.screenLockCount == 0) return;
+            e.stopPropagation();
+            e.preventDefault();
+        });
+        return ()=>{
+            unlisten();
+        };
+    }, []);
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
+        id: id,
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(PageTransition, {
+            children: children
+        })
+    });
+}
+
+// EXTERNAL MODULE: ../../libs/app/ui/src/components/page/AndroidPageContent.tsx + 1 modules
+var AndroidPageContent = __webpack_require__(67236);
+;// ../../libs/app/ui/src/components/appbar/AppBar.tsx
+
+
+// import {AndroidPageContent} from "../../";
+
+
+
+
+
+
+
+function HideOnScroll(props) {
+    const { children, window } = props;
+    // Note that you normally won't need to set the window ref as useScrollTrigger
+    // will default to window.
+    // This is only being set here because the demo is in an iframe.
+    const trigger = (0,useScrollTrigger/* default */.A)({
+        target: window ? window() : undefined
+    });
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Slide/* default */.A, {
+        appear: false,
+        direction: "down",
+        in: !trigger,
+        children: children !== null && children !== void 0 ? children : /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {})
+    });
+}
+function Appbar(param) {
+    let { title } = param;
+    return /*#__PURE__*/ _jsx(AppBar, {
+        color: "inherit",
+        children: /*#__PURE__*/ _jsx(Toolbar, {
+            children: /*#__PURE__*/ _jsx(Typography, {
+                variant: "h6",
+                component: "div",
+                children: title
+            })
+        })
+    });
+}
+// export interface IAppBarBackAskEvent{
+//     defaultPrevented:boolean
+// }
+function ScrollTop(props) {
+    const { children, window } = props;
+    // Note that you normally won't need to set the window ref as useScrollTrigger
+    // will default to window.
+    // This is only being set here because the demo is in an iframe.
+    const trigger = (0,useScrollTrigger/* default */.A)({
+        target: window ? window() : undefined,
+        disableHysteresis: true,
+        threshold: 100
+    });
+    const handleClick = (event)=>{
+        const anchor = (event.target.ownerDocument || document).querySelector('#back-to-top-anchor');
+        if (anchor) {
+            anchor.scrollIntoView({
+                block: 'center'
+            });
+        }
+    };
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Fade/* default */.A, {
+        in: trigger,
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
+            "data-id": "content-scroll-top-button",
+            onClick: handleClick,
+            role: "presentation",
+            sx: {
+                position: 'fixed',
+                bottom: 16,
+                right: 16
+            },
+            children: children
+        })
+    });
+}
+function AppbarContainer(props) {
+    const { children, appbarProps, titleConf, reload } = props;
+    const router = (0,next_router.useRouter)();
+    function handleBack() {
+        // 本想抽象成底层一个方法，但是考虑了一下router需要注入或者是一个callback，似乎像现在这样判断一下event也可以。回头继续观察一下吧。
+        const event = window_history_utils/* browserHistoryUtils */.W.askHistoryBack();
+        if (event.defaultPrevented) return;
+        if (appbarProps.backDispatcher) {
+            const e = {
+                defaultPrevented: false
+            };
+            appbarProps.backDispatcher.dispatch('back', e);
+            if (e.defaultPrevented) return;
+        }
+        router.back();
+    }
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(PageShell, {
+        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)(react.Fragment, {
+            children: [
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(CssBaseline/* default */.Ay, {}),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(HideOnScroll, {
+                    ...props,
+                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(AppBar_AppBar/* default */.A, {
+                        color: "inherit",
+                        children: appbarProps.toolbar ? appbarProps.toolbar : /*#__PURE__*/ (0,jsx_runtime.jsxs)(Toolbar_Toolbar/* default */.A, {
+                            children: [
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)(KeyboardArrowLeft/* default */.A, {
+                                    onClick: handleBack
+                                }),
+                                appbarProps.title
+                            ]
+                        })
+                    })
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(Toolbar_Toolbar/* default */.A, {
+                    id: "back-to-top-anchor"
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(Container/* default */.A, {
+                    sx: {
+                        padding: "0",
+                        marginTop: "17px"
+                    },
+                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(AndroidPageContent/* default */.A, {
+                        titleConf: titleConf,
+                        reload: reload,
+                        children: children
+                    })
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(ScrollTop, {
+                    ...props,
+                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Fab/* default */.A, {
+                        size: "small",
+                        "aria-label": "scroll back to top",
+                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(KeyboardArrowUp/* default */.A, {})
+                    })
+                })
+            ]
+        })
+    });
+}
+
+
 /***/ })
 
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ __webpack_require__.O(0, [5352,5629,7333,370,6955,8970,636,6593,8792], () => (__webpack_exec__(61350)));
+/******/ __webpack_require__.O(0, [5352,1161,5629,7333,1390,6955,5066,636,6593,8792], () => (__webpack_exec__(61350)));
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=script-creator-d14dd1fa86860753.js.map
+//# sourceMappingURL=script-creator-da2f026bddf548b5.js.map

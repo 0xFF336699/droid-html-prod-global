@@ -1,4 +1,4 @@
-(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([[1880],{
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([[199],{
 
 /***/ 3131:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
@@ -25,192 +25,15 @@ function createTypedContext() {
 
 /***/ }),
 
-/***/ 13154:
+/***/ 9825:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Bd: () => (/* reexport safe */ C_work_android_droid_html_website_2024_12_node_modules_pnpm_react_i18next_15_6_0_i18next_24_2_3_typescript_5_7_3_react_dom_19_1_0_react_19_1_0_react_19_1_0_typescript_5_7_3_node_modules_react_i18next_dist_es_index_js__WEBPACK_IMPORTED_MODULE_0__.Bd)
+/* harmony export */ });
+/* harmony import */ var C_work_android_droid_html_website_2024_12_node_modules_pnpm_react_i18next_15_6_0_i18next_24_2_3_typescript_5_7_3_react_dom_19_1_0_react_19_1_0_react_19_1_0_typescript_5_7_3_node_modules_react_i18next_dist_es_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(50279);
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ MarketPage)
-});
-
-// EXTERNAL MODULE: ../../node_modules/.pnpm/react@19.1.0/node_modules/react/jsx-runtime.js
-var jsx_runtime = __webpack_require__(94513);
-// EXTERNAL MODULE: ../../libs/app/ui/src/components/app/AppShell.tsx + 2 modules
-var AppShell = __webpack_require__(20939);
-// EXTERNAL MODULE: ../../libs/app/ui/src/components/tabbar/Tabbar.tsx
-var Tabbar = __webpack_require__(93589);
-// EXTERNAL MODULE: ../../libs/fanfanlo/src/react/AsyncContextLoader.tsx
-var AsyncContextLoader = __webpack_require__(28210);
-// EXTERNAL MODULE: ../../libs/fanfanlo/src/react/createTypedContext.ts
-var createTypedContext = __webpack_require__(3131);
-;// ./src/components/page/market/data/market.context.tsx
-
-
-
-const [MarketPageDataContextProvider, useMarketPageData] = (0,createTypedContext/* createTypedContext */.W)();
-const MarketPageDataContextLoader = (0,AsyncContextLoader/* createAsyncContextLoader */.j)({
-    Provider: MarketPageDataContextProvider,
-    extract: (res)=>res.data,
-    fallback: /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-        children: "Loading..."
-    })
-});
-
-// EXTERNAL MODULE: ../../libs/fanfanlo/src/storage/store-utils.ts
-var store_utils = __webpack_require__(4887);
-;// ./src/components/page/market/data/ns.ts
-const ns = 'market';
-const androidData = "".concat(ns, ":android");
-const webData = "".concat(ns, ":web");
-const marketNs = {
-    ns,
-    androidData,
-    webData
-};
-
-;// ./src/components/page/market/data/market.data.intf.ts
-
-
-function createDefaultMarketPageData() {
-    return {
-        scriptsInfo: {
-            scripts: [
-                {
-                    ns: "@fanfanlo/scripts/emergency-alarm",
-                    name: "emergency-alarm",
-                    version: "1.0.0",
-                    url: "/scripts/fanfanlo/scripts/emergency-alarm/index.js",
-                    content: ""
-                }
-            ],
-            total: 0,
-            loadIsEnded: false,
-            loadIsFailed: false
-        }
-    };
-}
-function createMarketPageData() {
-    return createDefaultMarketPageData();
-}
-let loader;
-async function loadMarketPageData() {
-    if (loader) return loader;
-    const defData = createDefaultMarketPageData();
-    loader = store_utils/* storeUtils */.P.getNamespaceStoreWithData(marketNs.androidData, {
-        defData,
-        forceReset: false,
-        mergeDefData: true
-    });
-    return loader;
-}
-
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/Box/Box.js + 2 modules
-var Box = __webpack_require__(6445);
-// EXTERNAL MODULE: ./src/markets/market-html-utils.ts
-var market_html_utils = __webpack_require__(40682);
-// EXTERNAL MODULE: ../../libs/fanfanlo/src/iframe/IFrameReactContainer.tsx + 1 modules
-var IFrameReactContainer = __webpack_require__(6955);
-;// ./src/components/page/market/components/scripts/Script.tsx
-
-
-
-
-const Script = (props)=>{
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(Box/* default */.A, {
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
-                children: props.script.name
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
-                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                    children: props.script.summary
-                })
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
-                children: /*#__PURE__*/ (0,jsx_runtime.jsx)(IFrameReactContainer/* IFrameReactContainer */.T, {
-                    url: props.script.url,
-                    urlAsContent: true,
-                    htmlBuilder: market_html_utils/* marketHtmlUtils */.P.createHtml
-                })
-            })
-        ]
-    });
-};
-
-;// ./src/components/page/market/components/scripts/Scripts.tsx
-
-
-
-
-const Scripts = ()=>{
-    const data = useMarketPageData();
-    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
-        children: data.scriptsInfo.scripts.map((script)=>{
-            return /*#__PURE__*/ (0,jsx_runtime.jsx)(Script, {
-                script: script
-            }, "".concat(script.url, "-").concat(script.content, "-").concat(script.name, "-").concat(script.version, "-").concat(script.ns));
-        })
-    });
-};
-
-;// ./src/components/page/market/MarketContent.tsx
-
-
-
-const MarketContent = ()=>{
-    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
-        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Scripts, {})
-    });
-};
-
-// EXTERNAL MODULE: ./src/components/navbar/NavBar.tsx
-var NavBar = __webpack_require__(32534);
-;// ./src/pages/market/index.tsx
-
-
-
-
-
-
-// function Content({loader}: {loader: Promise<IStoreWithData<IMarketPageData>>}){
-//     const store = use(loader);
-//     console.log('store=', store);
-//     return (<MarketPageDataContextProvider value={store.data}>
-//     <MarketContent />
-// </MarketPageDataContextProvider>
-//     )
-// }
-// export default function MarketPage() {
-//     const loader = loadMarketPageData();
-//     return (
-//             <AppShell>
-//                 <TabbarContainer titleConf={{ ns: "homepage/pages/market/content", key: "market.title" }}>
-//                 <Suspense fallback={<div>loading</div>}>
-//                     <Content loader={loader} />
-//                 </Suspense>
-//                 </TabbarContainer>
-//             </AppShell>
-//         )
-// }
-function MarketPage() {
-    return /*#__PURE__*/ (0,jsx_runtime.jsx)(AppShell/* AppShell */.G, {
-        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Tabbar/* TabbarContainer */.y, {
-            titleConf: {
-                ns: "homepage/pages/market/content",
-                key: "market.title"
-            },
-            navBar: /*#__PURE__*/ (0,jsx_runtime.jsx)(NavBar/* NavBar */.j, {}),
-            children: /*#__PURE__*/ (0,jsx_runtime.jsx)(MarketPageDataContextLoader, {
-                value: loadMarketPageData(),
-                children: /*#__PURE__*/ (0,jsx_runtime.jsx)(MarketContent, {})
-            })
-        })
-    });
-}
 
 
 /***/ }),
@@ -382,6 +205,392 @@ function AppShell(param) {
 
 /***/ }),
 
+/***/ 24168:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ SettingsPage)
+});
+
+// EXTERNAL MODULE: ../../node_modules/.pnpm/react@19.1.0/node_modules/react/jsx-runtime.js
+var jsx_runtime = __webpack_require__(94513);
+// EXTERNAL MODULE: ../../libs/app/ui/src/components/app/AppShell.tsx + 2 modules
+var AppShell = __webpack_require__(20939);
+// EXTERNAL MODULE: ../../libs/app/ui/src/components/tabbar/Tabbar.tsx
+var Tabbar = __webpack_require__(93589);
+// EXTERNAL MODULE: ./src/components/navbar/NavBar.tsx
+var NavBar = __webpack_require__(32534);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/Box/Box.js + 2 modules
+var Box = __webpack_require__(6445);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/react-i18next@15.6.0_i18next@24.2.3_typescript@5.7.3__react-dom@19.1.0_react@19.1.0__react@19.1.0_typescript@5.7.3/node_modules/react-i18next/dist/es/index.js + 15 modules
+var es = __webpack_require__(50279);
+// EXTERNAL MODULE: ../../libs/fanfanlo/src/nextjs/env/env.ts
+var env = __webpack_require__(49210);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/next@15.3.5_@babel+core@7.28.0_babel-plugin-macros@3.1.0_react-dom@19.1.0_react@19.1.0__react@19.1.0_sass@1.89.2/node_modules/next/router.js
+var next_router = __webpack_require__(75640);
+// EXTERNAL MODULE: ../../libs/fanfanlo/src/watcher/useProxyWatch.ts
+var useProxyWatch = __webpack_require__(45007);
+// EXTERNAL MODULE: ../../libs/app/model/src/user/User.ts + 5 modules
+var User = __webpack_require__(90886);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/react-hot-toast@2.5.2_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/react-hot-toast/dist/index.mjs + 1 modules
+var dist = __webpack_require__(22243);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/Button/Button.js + 3 modules
+var Button = __webpack_require__(28669);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/next@15.3.5_@babel+core@7.28.0_babel-plugin-macros@3.1.0_react-dom@19.1.0_react@19.1.0__react@19.1.0_sass@1.89.2/node_modules/next/link.js
+var next_link = __webpack_require__(97097);
+var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
+// EXTERNAL MODULE: ../../libs/fanfanlo/src/mui/dialog/ButtonConfirm.tsx
+var ButtonConfirm = __webpack_require__(56257);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/react@19.1.0/node_modules/react/index.js
+var react = __webpack_require__(94285);
+// EXTERNAL MODULE: ../../libs/droid/android/src/android/AutoWebViewJs.ts + 1 modules
+var AutoWebViewJs = __webpack_require__(45921);
+;// ./src/components/Login/GoogleLoginButton.tsx
+
+
+
+
+
+
+const eventOnGoogleLoginSuccess = 'AndroidGoogleLoginSuccess';
+function GoogleLoginButton() {
+    const { t } = (0,es/* useTranslation */.Bd)('homepage/components/Login/content');
+    const handleGoogleLogin = ()=>{
+        console.log('Initiating Android Google Login...');
+        try {
+            let script = "\n        com.fanfanlo.droid.auth.FirebaseAuthManager.startGoogleLogin();\n      ";
+            // if (publicRuntimeConfig.env == AppEnv.Prod) {
+            //   // 调用 Android 的 FirebaseAuthManager.startGoogleLogin()
+            //   // 不需要参数，只负责触发登录
+            //   script = `
+            //   com.fanfanlo.droid.auth.FirebaseAuthManager.startGoogleLogin();
+            // `;
+            // } else {
+            //   // 测试快速登陆
+            //   script = `
+            // com.fanfanlo.droid.remote.user.UserApi.testLoginByFirebaseWithInfo()`;
+            // }
+            AutoWebViewJs/* autoWebViewJs */.yx.callScript(script);
+        } catch (error) {
+            console.error('Google Login initiation failed:', error);
+        }
+    };
+    (0,react.useEffect)(()=>{
+        function onGoogleLoginSuccess(event) {
+            console.log('Google Login Successful, event data:', event.detail);
+            console.log('Google Login Successful, event data3:', event);
+            console.log('Google Login Successful, event data2:', JSON.stringify(event.detail));
+            const detail = event.detail;
+            if (!detail || !detail.data || !detail.data.idToken) {
+                console.error('Google login event detail invalid', detail);
+                return;
+            }
+            console.log('detail=', detail);
+            User/* user */.k.setUserToken(detail.data.idToken);
+            User/* user */.k.signin();
+        }
+        window.addEventListener(eventOnGoogleLoginSuccess, onGoogleLoginSuccess);
+        return ()=>{
+            window.removeEventListener(eventOnGoogleLoginSuccess, onGoogleLoginSuccess);
+        };
+    }, []);
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Button/* default */.A, {
+        onClick: handleGoogleLogin,
+        children: t('GoogleLoginButton.name')
+    });
+}
+function LoginButtonBox() {
+    const [userToken] = (0,useProxyWatch/* useProxyWatch */.x)(User/* user */.k, 'data.storeData.user_token', User/* user */.k.data.storeData.user_token);
+    if (userToken) {
+        return /*#__PURE__*/ (0,jsx_runtime.jsx)(jsx_runtime.Fragment, {});
+    }
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(GoogleLoginButton, {})
+    });
+}
+
+// EXTERNAL MODULE: ../../libs/droid/android/src/android/is-in-android.ts
+var is_in_android = __webpack_require__(63149);
+;// ./src/components/page/sign-up-in/components/sign-up-in-button/SignUpIn.tsx
+
+
+
+
+
+
+
+
+
+
+
+function SignUpInButton(param) {
+    let { back } = param;
+    // apps\homepage\src\components\page\sign-up-in\components\sign-up-in-button\SignUpIn.i18n.json
+    const { t } = (0,es/* useTranslation */.Bd)('homepage/components/page/sign-up-in/components/sign-up-in-button/content');
+    const router = (0,next_router.useRouter)();
+    const [token] = (0,useProxyWatch/* useProxyWatch */.x)(User/* user */.k, 'data.storeData.user_token', User/* user */.k.data.storeData.user_token);
+    const [userInitialized] = (0,useProxyWatch/* useProxyWatch */.x)(User/* user */.k, 'data.userInitialized', User/* user */.k.data.userInitialized);
+    function onSignoutClick() {
+        User/* user */.k.signout();
+        (0,dist/* default */.Ay)(t('SignUpIn.signoutOk'), {
+            duration: 5000
+        });
+    }
+    if (!userInitialized) {
+        return /*#__PURE__*/ (0,jsx_runtime.jsx)(jsx_runtime.Fragment, {
+            children: t('SignUpIn.loadingData')
+        });
+    }
+    if (token) {
+        return /*#__PURE__*/ (0,jsx_runtime.jsx)(jsx_runtime.Fragment, {});
+        return /*#__PURE__*/ (0,jsx_runtime.jsxs)(Box/* default */.A, {
+            children: [
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
+                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                        children: User/* user */.k.userName
+                    })
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
+                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(ButtonConfirm/* ButtonConfirm */.b, {
+                            title: t('SignUpIn.confirmTitle'),
+                            content: t('SignUpIn.confirmContent'),
+                            onConfirm: onSignoutClick,
+                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Button/* default */.A, {
+                                children: t('SignUpIn.signOut')
+                            })
+                        })
+                    })
+                })
+            ]
+        });
+    }
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
+        children: [
+            (env/* publicRuntimeConfig */.OT.region == env/* Region */.Tp.CN || !is_in_android/* isRealInAndroid */.nd) && /*#__PURE__*/ (0,jsx_runtime.jsx)(jsx_runtime.Fragment, {
+                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)((link_default()), {
+                        href: "/sign-up-in?back=".concat(back),
+                        children: t('SignUpIn.signUpIn')
+                    })
+                })
+            }),
+            env/* publicRuntimeConfig */.OT.region == env/* Region */.Tp.GLOBAL && is_in_android/* isRealInAndroid */.nd && /*#__PURE__*/ (0,jsx_runtime.jsx)(LoginButtonBox, {})
+        ]
+    });
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(jsx_runtime.Fragment, {
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+            children: /*#__PURE__*/ (0,jsx_runtime.jsx)((link_default()), {
+                href: "/sign-up-in?back=".concat(back),
+                children: t('SignUpIn.signUpIn')
+            })
+        })
+    });
+}
+
+;// ./src/components/page/account/remove/AccountRemoveButton.tsx
+
+
+
+
+
+function AccountRemoveButton() {
+    const { t } = (0,es/* useTranslation */.Bd)('homepage/components/account/remove/content');
+    const router = (0,next_router.useRouter)();
+    function onClick() {
+        router.push('/account/remove');
+    }
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(jsx_runtime.Fragment, {
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Button/* default */.A, {
+            onClick: onClick,
+            children: t('AccountRemoveButton.name')
+        })
+    });
+}
+function AccountRemoveButtonBox() {
+    const [userToken] = (0,useProxyWatch/* useProxyWatch */.x)(User/* user */.k, 'data.storeData.user_token', User/* user */.k.data.storeData.user_token);
+    if (!userToken) {
+        return /*#__PURE__*/ (0,jsx_runtime.jsx)(jsx_runtime.Fragment, {});
+    }
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(AccountRemoveButton, {})
+    });
+}
+
+;// ./src/components/privacy/PrivacyButton.tsx
+
+
+
+
+function PrivacyButton() {
+    const { t } = (0,es/* useTranslation */.Bd)('homepage/components/privacy/content');
+    const router = (0,next_router.useRouter)();
+    function onClick() {
+        return router.push('/privacies/global-en.html');
+    }
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(jsx_runtime.Fragment, {
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Button/* default */.A, {
+            onClick: onClick,
+            children: t("PrivacyButton.name")
+        })
+    });
+}
+function PrivacyButtonBox() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(PrivacyButton, {})
+    });
+}
+
+;// ./src/components/logout/LogoutButton.tsx
+
+
+
+
+
+function LogoutButton() {
+    const { t } = (0,es/* useTranslation */.Bd)('homepage/components/logout/content');
+    const onSignoutClick = ()=>{
+        User/* user */.k.signout();
+        // 通知安卓端退出
+        const script = "com.fanfanlo.droid.auth.FirebaseAuthManager.logout()";
+        AutoWebViewJs/* autoWebViewJs */.yx.callScript(script);
+    };
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(Box/* default */.A, {
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
+                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                    children: User/* user */.k.userName
+                })
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
+                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(ButtonConfirm/* ButtonConfirm */.b, {
+                        title: t('LogoutButton.confirmTitle'),
+                        content: t('LogoutButton.confirmContent'),
+                        onConfirm: onSignoutClick,
+                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Button/* default */.A, {
+                            children: t('LogoutButton.signOut')
+                        })
+                    })
+                })
+            })
+        ]
+    });
+}
+function LogoutButtonBox() {
+    const [userToken] = (0,useProxyWatch/* useProxyWatch */.x)(User/* user */.k, 'data.storeData.user_token', User/* user */.k.data.storeData.user_token);
+    console.log('LogoutButtonBox userToken=', userToken);
+    console.log('LogoutButtonBox userToken=', User/* user */.k);
+    if (!userToken) {
+        return /*#__PURE__*/ (0,jsx_runtime.jsx)(jsx_runtime.Fragment, {});
+    }
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(LogoutButton, {})
+    });
+}
+
+;// ./src/components/page/settings/content/Settings.tsx
+
+
+
+
+
+
+const SettingsContent = ()=>{
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(Box/* default */.A, {
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(SignUpInButton, {
+                back: "/settings"
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(LogoutButtonBox, {}),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(PrivacyButtonBox, {}),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(AccountRemoveButtonBox, {})
+        ]
+    });
+};
+
+// EXTERNAL MODULE: ../../libs/fanfanlo/src/react/AsyncContextLoader.tsx
+var AsyncContextLoader = __webpack_require__(28210);
+// EXTERNAL MODULE: ../../libs/fanfanlo/src/react/createTypedContext.ts
+var createTypedContext = __webpack_require__(3131);
+// EXTERNAL MODULE: ./src/components/fallback/Fallback.tsx
+var Fallback = __webpack_require__(55762);
+;// ./src/components/page/settings/data/settings.context.tsx
+
+
+
+
+const [SettingsPageDataContextProvider, useSettingsPageData] = (0,createTypedContext/* createTypedContext */.W)();
+const SettingsPageDataContextLoader = (0,AsyncContextLoader/* createAsyncContextLoader */.j)({
+    Provider: SettingsPageDataContextProvider,
+    extract: (res)=>res.data,
+    fallback: /*#__PURE__*/ (0,jsx_runtime.jsx)(Fallback/* Fallback */.H, {})
+});
+
+// EXTERNAL MODULE: ../../libs/fanfanlo/src/storage/store-utils.ts
+var store_utils = __webpack_require__(4887);
+;// ./src/components/page/settings/data/ns.ts
+const ns = 'settings';
+const androidData = "".concat(ns, ":android");
+const webData = "".concat(ns, ":web");
+const settingNs = {
+    ns,
+    androidData,
+    webData
+};
+
+;// ./src/components/page/settings/data/settings.data.intf.ts
+
+
+function createDefaultSettingsPageData() {
+    return {};
+}
+function createSettingsPageData() {
+    return createDefaultSettingsPageData();
+}
+let loader;
+async function loadSettingsPageData() {
+    if (loader) return loader;
+    const defData = createSettingsPageData();
+    loader = store_utils/* storeUtils */.P.getNamespaceStoreWithData(settingNs.androidData, {
+        defData,
+        forceReset: false,
+        mergeDefData: true
+    });
+    return loader;
+}
+
+;// ./src/pages/settings/index.tsx
+
+
+
+
+
+
+function SettingsPage() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(AppShell/* AppShell */.G, {
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Tabbar/* TabbarContainer */.y, {
+            titleConf: {
+                ns: "emergency-call/pages/settings/content",
+                key: "content.title"
+            },
+            navBar: /*#__PURE__*/ (0,jsx_runtime.jsx)(NavBar/* NavBar */.j, {}),
+            children: /*#__PURE__*/ (0,jsx_runtime.jsx)(SettingsPageDataContextLoader, {
+                value: loadSettingsPageData(),
+                children: /*#__PURE__*/ (0,jsx_runtime.jsx)(SettingsContent, {})
+            })
+        })
+    });
+}
+
+
+/***/ }),
+
 /***/ 28210:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -391,6 +600,7 @@ function AppShell(param) {
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(94513);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(94285);
+/* __next_internal_client_entry_do_not_use__ createAsyncContextLoader auto */ 
 /**
  * 使用场景：
  * 
@@ -414,7 +624,6 @@ export const [MarketPageDataContextProvider, useMarketPageData] = createTypedCon
 }
  */ // 使用场景：
 // C:\work\android-droid\html\website-2024-12\libs\fanfanlo\src\react\createTypedContext.ts 的 createTypedContext返回的useTypedContext会需要是promise的，所以我需要一个能够给它传递promise并初始化的组件，可以使用react19的use方法来帮我实现吗？
-
 
 function createAsyncContextLoader(options) {
     const { Provider, extract, fallback = null } = options;
@@ -526,42 +735,119 @@ const StorePageDynamicContext = /*#__PURE__*/ (0,react__WEBPACK_IMPORTED_MODULE_
 
 /***/ }),
 
-/***/ 40682:
+/***/ 45520:
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+
+    (window.__NEXT_P = window.__NEXT_P || []).push([
+      "/settings",
+      function () {
+        return __webpack_require__(24168);
+      }
+    ]);
+    if(false) {}
+  
+
+/***/ }),
+
+/***/ 55762:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   P: () => (/* binding */ marketHtmlUtils)
+/* harmony export */   H: () => (/* binding */ Fallback)
 /* harmony export */ });
-function createHtml(script, opts) {
-    return '<html>\n    <head>\n    <script type="importmap">\n  {\n    "imports": {\n      "react": "https://esm.sh/react@19",\n      "react-dom/client": "https://esm.sh/react-dom@19/client"\n    }\n  }\n</script>\n        <script>\n                const IFRAME_ID = \''.concat(opts === null || opts === void 0 ? void 0 : opts.iframeId, "';\n                window.IFRAME_ID = '").concat(opts === null || opts === void 0 ? void 0 : opts.iframeId, '\';\n                \n            var autoWebViewJs = window.autoWebViewJs = window.parent.window.autoWebViewJs;\n            autoWebViewJs = window.parent.window.autoWebViewJs;\n            var callScript = window.callScript = autoWebViewJs.callScript;\n            var callScriptByConf = window.callScriptByConf = autoWebViewJs.callScriptByConf;\n            var isRealInAndroid = window.isRealInAndroid;\n            // var storeUtilsConf = window.storeUtilsConf = window.parent.window.storeUtilsConf;\n            var storeUtilsConf = window.storeUtilsConf = {\n                ns:{},\n                read:window.parent.window.storeUtilsConf.read,\n                write:window.parent.window.storeUtilsConf.write   \n            }\n        </script>\n        <title>droid lego</title>\n        <style>html, body{margin-left:-0px;padding:0;\n        background-color: white;}</style>\n    </head>\n    <body>\n        <div id="app"></div>\n        <script>').concat(script, "</script>\n        <script>\n                // const IFRAME_ID = '").concat(opts === null || opts === void 0 ? void 0 : opts.iframeId, "';\n                function notifyResize() {\n                    const body = document.body;\n                    const html = document.documentElement;\n                    \n                    // 获取实际内容高度（取最大值）\n                    const height = Math.max(\n                        body.scrollHeight,\n                        body.offsetHeight,\n                        html.scrollHeight,\n                        html.offsetHeight\n                    );\n                    \n                    // 获取实际内容宽度\n                    const width = Math.max(\n                        body.scrollWidth,\n                        body.offsetWidth,\n                        html.scrollWidth,\n                        html.offsetWidth\n                    );\n                    \n                    // 发送消息给父窗口\n                    window.parent.postMessage({\n                        type: 'resize',\n                        iframeId: IFRAME_ID,\n                        height,\n                        width\n                    }, '*');\n                }\n                \n                // 监听窗口大小变化\n                window.addEventListener('resize', notifyResize);\n                \n                // 监听DOMContentLoaded，确保DOM加载完毕后调整大小\n                document.addEventListener('DOMContentLoaded', notifyResize);\n                \n                // 监听load事件，确保所有资源加载完毕后调整大小\n                window.addEventListener('load', notifyResize);\n                \n                // 创建MutationObserver监听DOM变化\n                const observer = new MutationObserver(notifyResize);\n                observer.observe(document.documentElement, {\n                    childList: true,\n                    subtree: true,\n                    attributes: true,\n                    characterData: true\n                });\n                \n                // 监听来自父窗口的消息，处理请求重新调整大小的消息\n                window.addEventListener('message', function(event) {\n                    if (event.data && event.data.type === 'requestResize') {\n                        // 主动触发一次尺寸计算和发送\n                        notifyResize();\n                    }\n                });\n                \n                // 初始化大小\n                notifyResize();\n        </script>\n    </body>\n</html>");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(94513);
+/* harmony import */ var _fanfanlo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(50279);
+
+
+function Fallback() {
+    const { t } = (0,_fanfanlo__WEBPACK_IMPORTED_MODULE_1__/* .useTranslation */ .Bd)('homepage/components/fallback/content');
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+        style: {
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            height: '100%',
+            width: "100%"
+        },
+        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+            children: t('content.loading')
+        })
+    });
 }
-function mergeHtml(html, opts) {
-    let h = html;
-    if (!h.includes('<body')) {
-        h = "<body>".concat(h, "</body>");
-    }
-    if (!h.includes('<html')) {
-        h = "<html>".concat(h, "</html>");
-    }
-    if (!h.includes('<head')) {
-        h = h.replace('<html>', '<html><head></head>');
-    }
-    h = h.replace('<head>', "<head><script>\n                const IFRAME_ID = '".concat(opts === null || opts === void 0 ? void 0 : opts.iframeId, "';\n                window.IFRAME_ID = '").concat(opts === null || opts === void 0 ? void 0 : opts.iframeId, "';\n                \n            var autoWebViewJs = window.autoWebViewJs = window.parent.window.autoWebViewJs;\n            autoWebViewJs = window.parent.window.autoWebViewJs;\n            var callScript = window.callScript = autoWebViewJs.callScript;\n            var callScriptByConf = window.callScriptByConf = autoWebViewJs.callScriptByConf;\n            var isRealInAndroid = window.isRealInAndroid;\n            // var storeUtilsConf = window.storeUtilsConf = window.parent.window.storeUtilsConf;\n            var storeUtilsConf = window.storeUtilsConf = {\n                ns:{},\n                read:window.parent.window.storeUtilsConf.read,\n                write:window.parent.window.storeUtilsConf.write   \n            }\n        </script>\n        \n        <style>html, body{margin-left:-0px;padding:0;\n        background-color: white;}</style>"));
-    h = h.replace("</body>", "\n        \n        <script>\n                function notifyResize() {\n                    const body = document.body;\n                    const html = document.documentElement;\n                    \n                    // 获取实际内容高度（取最大值）\n                    const height = Math.max(\n                        body.scrollHeight,\n                        body.offsetHeight,\n                        html.scrollHeight,\n                        html.offsetHeight\n                    );\n                    \n                    // 获取实际内容宽度\n                    const width = Math.max(\n                        body.scrollWidth,\n                        body.offsetWidth,\n                        html.scrollWidth,\n                        html.offsetWidth\n                    );\n                    \n                    // 发送消息给父窗口\n                    window.parent.postMessage({\n                        type: 'resize',\n                        iframeId: IFRAME_ID,\n                        height,\n                        width\n                    }, '*');\n                }\n                \n                // 监听窗口大小变化\n                window.addEventListener('resize', notifyResize);\n                \n                // 监听DOMContentLoaded，确保DOM加载完毕后调整大小\n                document.addEventListener('DOMContentLoaded', notifyResize);\n                \n                // 监听load事件，确保所有资源加载完毕后调整大小\n                window.addEventListener('load', notifyResize);\n                \n                // 创建MutationObserver监听DOM变化\n                const observer = new MutationObserver(notifyResize);\n                observer.observe(document.documentElement, {\n                    childList: true,\n                    subtree: true,\n                    attributes: true,\n                    characterData: true\n                });\n                \n                // 监听来自父窗口的消息，处理请求重新调整大小的消息\n                window.addEventListener('message', function(event) {\n                    if (event.data && event.data.type === 'requestResize') {\n                        // 主动触发一次尺寸计算和发送\n                        notifyResize();\n                    }\n                });\n                \n                // 初始化大小\n                notifyResize();\n        </script>\n        </body>");
-    console.log('hhhhhhhhhhhhh=', h);
-    return h;
+
+
+/***/ }),
+
+/***/ 56257:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   b: () => (/* binding */ ButtonConfirm)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(94513);
+/* harmony import */ var _barrel_optimize_names_Button_Dialog_DialogActions_DialogContent_DialogTitle_mui_material__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(49280);
+/* harmony import */ var _barrel_optimize_names_Button_Dialog_DialogActions_DialogContent_DialogTitle_mui_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3711);
+/* harmony import */ var _barrel_optimize_names_Button_Dialog_DialogActions_DialogContent_DialogTitle_mui_material__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(18244);
+/* harmony import */ var _barrel_optimize_names_Button_Dialog_DialogActions_DialogContent_DialogTitle_mui_material__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(69468);
+/* harmony import */ var _barrel_optimize_names_Button_Dialog_DialogActions_DialogContent_DialogTitle_mui_material__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(28669);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(94285);
+/* harmony import */ var _barrel_optimize_names_useTranslation_react_i18next__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9825);
+
+
+
+
+function ButtonConfirm(param) {
+    let { title, content, confirmText, cancelText, onConfirm, onCancel, onClose, cancelId, confirmId, children } = param;
+    const [isOpen, setIsOpen] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
+    const { t } = (0,_barrel_optimize_names_useTranslation_react_i18next__WEBPACK_IMPORTED_MODULE_2__/* .useTranslation */ .Bd)('fanfanlo/mui/dialog/content');
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+        children: [
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+                onClick: ()=>setIsOpen(true),
+                children: children
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_barrel_optimize_names_Button_Dialog_DialogActions_DialogContent_DialogTitle_mui_material__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .A, {
+                open: isOpen,
+                onClose: ()=>setIsOpen(false),
+                children: [
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_barrel_optimize_names_Button_Dialog_DialogActions_DialogContent_DialogTitle_mui_material__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .A, {
+                        children: title || t('ButtonConfirm.title')
+                    }),
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_barrel_optimize_names_Button_Dialog_DialogActions_DialogContent_DialogTitle_mui_material__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .A, {
+                        children: content || t('ButtonConfirm.content')
+                    }),
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_barrel_optimize_names_Button_Dialog_DialogActions_DialogContent_DialogTitle_mui_material__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .A, {
+                        children: [
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_barrel_optimize_names_Button_Dialog_DialogActions_DialogContent_DialogTitle_mui_material__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .A, {
+                                id: cancelId || 'btn-dialog-button-confirm-cancel',
+                                "data-id": cancelId || 'btn-dialog-button-confirm-cancel',
+                                onClick: ()=>{
+                                    setIsOpen(false);
+                                    onCancel === null || onCancel === void 0 ? void 0 : onCancel();
+                                    onClose === null || onClose === void 0 ? void 0 : onClose(false);
+                                },
+                                children: cancelText || t('ButtonConfirm.cancel')
+                            }),
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_barrel_optimize_names_Button_Dialog_DialogActions_DialogContent_DialogTitle_mui_material__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .A, {
+                                id: confirmId || 'btn-dialog-button-confirm-confirm',
+                                "data-id": confirmId || 'btn-dialog-button-confirm-confirm',
+                                onClick: ()=>{
+                                    setIsOpen(false);
+                                    onConfirm === null || onConfirm === void 0 ? void 0 : onConfirm();
+                                    onClose === null || onClose === void 0 ? void 0 : onClose(true);
+                                },
+                                children: confirmText || t('ButtonConfirm.confirm')
+                            })
+                        ]
+                    })
+                ]
+            })
+        ]
+    });
 }
-async function createHtmlByUrl(url, opts) {
-    const res = await fetch(url);
-    const content = await res.text();
-    return createHtml(content, opts);
-}
-const marketHtmlUtils = {
-    createHtml,
-    createHtmlByUrl,
-    mergeHtml
-};
 
 
 /***/ }),
@@ -833,21 +1119,6 @@ i18n.on("added", function() {
 
 /***/ }),
 
-/***/ 85966:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-
-    (window.__NEXT_P = window.__NEXT_P || []).push([
-      "/market",
-      function () {
-        return __webpack_require__(13154);
-      }
-    ]);
-    if(false) {}
-  
-
-/***/ }),
-
 /***/ 93589:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -905,9 +1176,9 @@ function TabbarContainer(param) {
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ __webpack_require__.O(0, [5352,5629,3589,6955,636,6593,8792], () => (__webpack_exec__(85966)));
+/******/ __webpack_require__.O(0, [5352,4729,3685,7097,2282,636,6593,8792], () => (__webpack_exec__(45520)));
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=market-f7a09fa380044020.js.map
+//# sourceMappingURL=settings-8760725988123012.js.map
