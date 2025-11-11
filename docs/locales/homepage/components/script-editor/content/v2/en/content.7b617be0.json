@@ -1,0 +1,32 @@
+{
+  "ScriptControlBar": {
+    "run": "run"
+  },
+  "ScriptEditor": {
+    "label": "Script content"
+  },
+  "ScriptEditorContentV2": {
+    "title": {
+      "edit": "Edit script",
+      "create": "Create script"
+    },
+    "loading": "loading...",
+    "mapError": "Failed to load sample list",
+    "scriptError": "Failed to load script content"
+  },
+  "ScriptExamplePopup": {
+    "title": "Select script example",
+    "levels": {
+      "beginner": "primary",
+      "intermediate": "intermediate",
+      "advanced": "advanced"
+    }
+  },
+  "ScriptExampleSelectorButton": {
+    "selectExample": "Select example"
+  },
+  "ScriptPermissionsEditor": {
+    "label": "Required permissions",
+    "permissionsCount": "permissions"
+  }
+}

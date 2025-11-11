@@ -1,0 +1,32 @@
+{
+  "ScriptControlBar": {
+    "run": "correr"
+  },
+  "ScriptEditor": {
+    "label": "Conteúdo do roteiro"
+  },
+  "ScriptEditorContentV2": {
+    "title": {
+      "edit": "Editar roteiro",
+      "create": "Criar roteiro"
+    },
+    "loading": "carregando...",
+    "mapError": "Falha ao carregar a lista de amostras",
+    "scriptError": "Falha ao carregar o conteúdo do script"
+  },
+  "ScriptExamplePopup": {
+    "title": "Selecione exemplo de script",
+    "levels": {
+      "beginner": "primário",
+      "intermediate": "intermediário",
+      "advanced": "avançado"
+    }
+  },
+  "ScriptExampleSelectorButton": {
+    "selectExample": "Selecione o exemplo"
+  },
+  "ScriptPermissionsEditor": {
+    "label": "Permissões necessárias",
+    "permissionsCount": "permissões"
+  }
+}

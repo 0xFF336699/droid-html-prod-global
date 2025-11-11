@@ -1,0 +1,32 @@
+{
+  "ScriptControlBar": {
+    "run": "לָרוּץ"
+  },
+  "ScriptEditor": {
+    "label": "תוכן תסריט"
+  },
+  "ScriptEditorContentV2": {
+    "title": {
+      "edit": "ערוך סקריפט",
+      "create": "צור סקריפט"
+    },
+    "loading": "טְעִינָה...",
+    "mapError": "טעינת רשימה לדוגמה נכשלה",
+    "scriptError": "טעינת תוכן הסקריפט נכשלה"
+  },
+  "ScriptExamplePopup": {
+    "title": "בחר דוגמה לסקריפט",
+    "levels": {
+      "beginner": "יְסוֹדִי",
+      "intermediate": "ביניים",
+      "advanced": "מִתקַדֵם"
+    }
+  },
+  "ScriptExampleSelectorButton": {
+    "selectExample": "בחר דוגמה"
+  },
+  "ScriptPermissionsEditor": {
+    "label": "הרשאות נדרשות",
+    "permissionsCount": "הרשאות"
+  }
+}

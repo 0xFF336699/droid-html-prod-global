@@ -1,0 +1,32 @@
+{
+  "ScriptControlBar": {
+    "run": "трчи"
+  },
+  "ScriptEditor": {
+    "label": "Садржај скрипте"
+  },
+  "ScriptEditorContentV2": {
+    "title": {
+      "edit": "Уреди скрипту",
+      "create": "Креирајте скрипту"
+    },
+    "loading": "лоадинг...",
+    "mapError": "Учитавање листе узорака није успело",
+    "scriptError": "Учитавање садржаја скрипте није успело"
+  },
+  "ScriptExamplePopup": {
+    "title": "Изаберите пример скрипте",
+    "levels": {
+      "beginner": "примарни",
+      "intermediate": "средњи",
+      "advanced": "напредно"
+    }
+  },
+  "ScriptExampleSelectorButton": {
+    "selectExample": "Изаберите пример"
+  },
+  "ScriptPermissionsEditor": {
+    "label": "Потребне дозволе",
+    "permissionsCount": "дозволе"
+  }
+}

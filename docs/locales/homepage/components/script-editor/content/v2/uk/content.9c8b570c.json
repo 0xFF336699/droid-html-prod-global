@@ -1,0 +1,32 @@
+{
+  "ScriptControlBar": {
+    "run": "бігти"
+  },
+  "ScriptEditor": {
+    "label": "Вміст сценарію"
+  },
+  "ScriptEditorContentV2": {
+    "title": {
+      "edit": "Редагувати сценарій",
+      "create": "Створіть сценарій"
+    },
+    "loading": "завантаження...",
+    "mapError": "Не вдалося завантажити список зразків",
+    "scriptError": "Не вдалося завантажити вміст сценарію"
+  },
+  "ScriptExamplePopup": {
+    "title": "Виберіть приклад сценарію",
+    "levels": {
+      "beginner": "первинний",
+      "intermediate": "проміжний",
+      "advanced": "просунутий"
+    }
+  },
+  "ScriptExampleSelectorButton": {
+    "selectExample": "Виберіть приклад"
+  },
+  "ScriptPermissionsEditor": {
+    "label": "Необхідні дозволи",
+    "permissionsCount": "дозволи"
+  }
+}

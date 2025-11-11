@@ -1,0 +1,32 @@
+{
+  "ScriptControlBar": {
+    "run": "correre"
+  },
+  "ScriptEditor": {
+    "label": "Contenuto della sceneggiatura"
+  },
+  "ScriptEditorContentV2": {
+    "title": {
+      "edit": "Modifica copione",
+      "create": "Crea sceneggiatura"
+    },
+    "loading": "caricamento...",
+    "mapError": "Impossibile caricare l'elenco dei campioni",
+    "scriptError": "Impossibile caricare il contenuto dello script"
+  },
+  "ScriptExamplePopup": {
+    "title": "Seleziona esempio di script",
+    "levels": {
+      "beginner": "primario",
+      "intermediate": "intermedio",
+      "advanced": "avanzato"
+    }
+  },
+  "ScriptExampleSelectorButton": {
+    "selectExample": "Seleziona esempio"
+  },
+  "ScriptPermissionsEditor": {
+    "label": "Autorizzazioni richieste",
+    "permissionsCount": "autorizzazioni"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "ScriptControlBar": {
+    "run": "sikt"
+  },
+  "ScriptEditor": {
+    "label": "Skriptinnehåll"
+  },
+  "ScriptEditorContentV2": {
+    "title": {
+      "edit": "Redigera skript",
+      "create": "Skapa skript"
+    },
+    "loading": "belastning...",
+    "mapError": "Det gick inte att läsa in exempellistan",
+    "scriptError": "Det gick inte att läsa in skriptinnehåll"
+  },
+  "ScriptExamplePopup": {
+    "title": "Välj skriptexempel",
+    "levels": {
+      "beginner": "primär",
+      "intermediate": "mellanliggande",
+      "advanced": "avancerad"
+    }
+  },
+  "ScriptExampleSelectorButton": {
+    "selectExample": "Välj exempel"
+  },
+  "ScriptPermissionsEditor": {
+    "label": "Nödvändiga behörigheter",
+    "permissionsCount": "behörigheter"
+  }
+}

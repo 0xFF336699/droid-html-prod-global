@@ -1,0 +1,32 @@
+{
+  "ScriptControlBar": {
+    "run": "berlari"
+  },
+  "ScriptEditor": {
+    "label": "Konten skrip"
+  },
+  "ScriptEditorContentV2": {
+    "title": {
+      "edit": "Sunting skrip",
+      "create": "Buat skrip"
+    },
+    "loading": "memuat...",
+    "mapError": "Gagal memuat daftar sampel",
+    "scriptError": "Gagal memuat konten skrip"
+  },
+  "ScriptExamplePopup": {
+    "title": "Pilih contoh skrip",
+    "levels": {
+      "beginner": "utama",
+      "intermediate": "intermediat",
+      "advanced": "canggih"
+    }
+  },
+  "ScriptExampleSelectorButton": {
+    "selectExample": "Pilih contoh"
+  },
+  "ScriptPermissionsEditor": {
+    "label": "Izin yang diperlukan",
+    "permissionsCount": "izin"
+  }
+}

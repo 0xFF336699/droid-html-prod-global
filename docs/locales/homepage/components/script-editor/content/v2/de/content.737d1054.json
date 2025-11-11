@@ -1,0 +1,32 @@
+{
+  "ScriptControlBar": {
+    "run": "laufen"
+  },
+  "ScriptEditor": {
+    "label": "Skriptinhalt"
+  },
+  "ScriptEditorContentV2": {
+    "title": {
+      "edit": "Skript bearbeiten",
+      "create": "Skript erstellen"
+    },
+    "loading": "Laden...",
+    "mapError": "Beispielliste konnte nicht geladen werden",
+    "scriptError": "Der Skriptinhalt konnte nicht geladen werden"
+  },
+  "ScriptExamplePopup": {
+    "title": "Wählen Sie ein Skriptbeispiel aus",
+    "levels": {
+      "beginner": "primär",
+      "intermediate": "dazwischenliegend",
+      "advanced": "fortschrittlich"
+    }
+  },
+  "ScriptExampleSelectorButton": {
+    "selectExample": "Beispiel auswählen"
+  },
+  "ScriptPermissionsEditor": {
+    "label": "Erforderliche Berechtigungen",
+    "permissionsCount": "Berechtigungen"
+  }
+}

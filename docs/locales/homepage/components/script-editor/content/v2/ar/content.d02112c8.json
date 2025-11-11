@@ -1,0 +1,32 @@
+{
+  "ScriptControlBar": {
+    "run": "يجري"
+  },
+  "ScriptEditor": {
+    "label": "محتوى البرنامج النصي"
+  },
+  "ScriptEditorContentV2": {
+    "title": {
+      "edit": "تحرير البرنامج النصي",
+      "create": "إنشاء البرنامج النصي"
+    },
+    "loading": "تحميل...",
+    "mapError": "فشل تحميل قائمة العينات",
+    "scriptError": "فشل تحميل محتوى البرنامج النصي"
+  },
+  "ScriptExamplePopup": {
+    "title": "حدد مثال البرنامج النصي",
+    "levels": {
+      "beginner": "أساسي",
+      "intermediate": "متوسط",
+      "advanced": "متقدم"
+    }
+  },
+  "ScriptExampleSelectorButton": {
+    "selectExample": "حدد المثال"
+  },
+  "ScriptPermissionsEditor": {
+    "label": "الأذونات المطلوبة",
+    "permissionsCount": "الأذونات"
+  }
+}

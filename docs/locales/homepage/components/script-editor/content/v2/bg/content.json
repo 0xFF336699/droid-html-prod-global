@@ -1,0 +1,32 @@
+{
+  "ScriptControlBar": {
+    "run": "бягам"
+  },
+  "ScriptEditor": {
+    "label": "Съдържание на скрипта"
+  },
+  "ScriptEditorContentV2": {
+    "title": {
+      "edit": "Редактиране на скрипт",
+      "create": "Създаване на скрипт"
+    },
+    "loading": "зареждане...",
+    "mapError": "Неуспешно зареждане на примерен списък",
+    "scriptError": "Неуспешно зареждане на съдържанието на скрипта"
+  },
+  "ScriptExamplePopup": {
+    "title": "Изберете пример за скрипт",
+    "levels": {
+      "beginner": "първичен",
+      "intermediate": "междинен",
+      "advanced": "напреднал"
+    }
+  },
+  "ScriptExampleSelectorButton": {
+    "selectExample": "Изберете пример"
+  },
+  "ScriptPermissionsEditor": {
+    "label": "Необходими разрешения",
+    "permissionsCount": "разрешения"
+  }
+}

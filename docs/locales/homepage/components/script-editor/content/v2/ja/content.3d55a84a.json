@@ -1,0 +1,32 @@
+{
+  "ScriptControlBar": {
+    "run": "走る"
+  },
+  "ScriptEditor": {
+    "label": "スクリプトの内容"
+  },
+  "ScriptEditorContentV2": {
+    "title": {
+      "edit": "スクリプトの編集",
+      "create": "スクリプトの作成"
+    },
+    "loading": "読み込み中...",
+    "mapError": "サンプルリストのロードに失敗しました",
+    "scriptError": "スクリプトコンテンツのロードに失敗しました"
+  },
+  "ScriptExamplePopup": {
+    "title": "スクリプトの例を選択してください",
+    "levels": {
+      "beginner": "主要な",
+      "intermediate": "中級",
+      "advanced": "高度な"
+    }
+  },
+  "ScriptExampleSelectorButton": {
+    "selectExample": "選択例"
+  },
+  "ScriptPermissionsEditor": {
+    "label": "必要な権限",
+    "permissionsCount": "権限"
+  }
+}

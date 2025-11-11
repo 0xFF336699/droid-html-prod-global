@@ -1,0 +1,32 @@
+{
+  "ScriptControlBar": {
+    "run": "бегать"
+  },
+  "ScriptEditor": {
+    "label": "Содержимое сценария"
+  },
+  "ScriptEditorContentV2": {
+    "title": {
+      "edit": "Редактировать сценарий",
+      "create": "Создать скрипт"
+    },
+    "loading": "загрузка...",
+    "mapError": "Не удалось загрузить список образцов.",
+    "scriptError": "Не удалось загрузить содержимое скрипта."
+  },
+  "ScriptExamplePopup": {
+    "title": "Выберите пример сценария",
+    "levels": {
+      "beginner": "начальный",
+      "intermediate": "средний",
+      "advanced": "передовой"
+    }
+  },
+  "ScriptExampleSelectorButton": {
+    "selectExample": "Выберите пример"
+  },
+  "ScriptPermissionsEditor": {
+    "label": "Требуемые разрешения",
+    "permissionsCount": "разрешения"
+  }
+}

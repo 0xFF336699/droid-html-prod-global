@@ -1,0 +1,32 @@
+{
+  "ScriptControlBar": {
+    "run": "วิ่ง"
+  },
+  "ScriptEditor": {
+    "label": "เนื้อหาสคริปต์"
+  },
+  "ScriptEditorContentV2": {
+    "title": {
+      "edit": "แก้ไขสคริปต์",
+      "create": "สร้างสคริปต์"
+    },
+    "loading": "กำลังโหลด...",
+    "mapError": "โหลดรายการตัวอย่างไม่สำเร็จ",
+    "scriptError": "โหลดเนื้อหาสคริปต์ไม่สำเร็จ"
+  },
+  "ScriptExamplePopup": {
+    "title": "เลือกตัวอย่างสคริปต์",
+    "levels": {
+      "beginner": "หลัก",
+      "intermediate": "ระดับกลาง",
+      "advanced": "ขั้นสูง"
+    }
+  },
+  "ScriptExampleSelectorButton": {
+    "selectExample": "เลือกตัวอย่าง"
+  },
+  "ScriptPermissionsEditor": {
+    "label": "สิทธิ์ที่จำเป็น",
+    "permissionsCount": "สิทธิ์"
+  }
+}

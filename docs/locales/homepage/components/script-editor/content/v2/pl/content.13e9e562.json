@@ -1,0 +1,32 @@
+{
+  "ScriptControlBar": {
+    "run": "uruchomić"
+  },
+  "ScriptEditor": {
+    "label": "Treść skryptu"
+  },
+  "ScriptEditorContentV2": {
+    "title": {
+      "edit": "Edytuj skrypt",
+      "create": "Utwórz skrypt"
+    },
+    "loading": "załadunek...",
+    "mapError": "Nie udało się załadować listy próbek",
+    "scriptError": "Nie udało się załadować treści skryptu"
+  },
+  "ScriptExamplePopup": {
+    "title": "Wybierz przykładowy skrypt",
+    "levels": {
+      "beginner": "podstawowy",
+      "intermediate": "mediator",
+      "advanced": "zaawansowany"
+    }
+  },
+  "ScriptExampleSelectorButton": {
+    "selectExample": "Wybierz przykład"
+  },
+  "ScriptPermissionsEditor": {
+    "label": "Wymagane uprawnienia",
+    "permissionsCount": "uprawnienia"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "ScriptControlBar": {
+    "run": "běh"
+  },
+  "ScriptEditor": {
+    "label": "Obsah skriptu"
+  },
+  "ScriptEditorContentV2": {
+    "title": {
+      "edit": "Upravit skript",
+      "create": "Vytvořte skript"
+    },
+    "loading": "načítání...",
+    "mapError": "Nepodařilo se načíst seznam vzorků",
+    "scriptError": "Načtení obsahu skriptu se nezdařilo"
+  },
+  "ScriptExamplePopup": {
+    "title": "Vyberte příklad skriptu",
+    "levels": {
+      "beginner": "primární",
+      "intermediate": "střední",
+      "advanced": "moderní"
+    }
+  },
+  "ScriptExampleSelectorButton": {
+    "selectExample": "Vyberte příklad"
+  },
+  "ScriptPermissionsEditor": {
+    "label": "Požadovaná oprávnění",
+    "permissionsCount": "oprávnění"
+  }
+}

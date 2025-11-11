@@ -1,0 +1,32 @@
+{
+  "ScriptControlBar": {
+    "run": "behať"
+  },
+  "ScriptEditor": {
+    "label": "Obsah skriptu"
+  },
+  "ScriptEditorContentV2": {
+    "title": {
+      "edit": "Upraviť skript",
+      "create": "Vytvorte skript"
+    },
+    "loading": "načítavam...",
+    "mapError": "Nepodarilo sa načítať zoznam vzoriek",
+    "scriptError": "Nepodarilo sa načítať obsah skriptu"
+  },
+  "ScriptExamplePopup": {
+    "title": "Vyberte príklad skriptu",
+    "levels": {
+      "beginner": "primárny",
+      "intermediate": "medziprodukt",
+      "advanced": "pokročilé"
+    }
+  },
+  "ScriptExampleSelectorButton": {
+    "selectExample": "Vyberte príklad"
+  },
+  "ScriptPermissionsEditor": {
+    "label": "Požadované povolenia",
+    "permissionsCount": "povolenia"
+  }
+}
