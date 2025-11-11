@@ -32,20 +32,16 @@ var AutoWebViewJs = __webpack_require__(45921);
 var fanfanloI18n = __webpack_require__(95414);
 // EXTERNAL MODULE: ../../libs/fanfanlo/src/watcher/proxyWatch.ts
 var proxyWatch = __webpack_require__(88518);
-// EXTERNAL MODULE: ../../libs/fanfanlo/src/iframe/IFrameReactContainer.tsx + 1 modules
-var IFrameReactContainer = __webpack_require__(6955);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/CircularProgress/CircularProgress.js + 1 modules
+var CircularProgress = __webpack_require__(95746);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/Typography/Typography.js
 var Typography = __webpack_require__(67079);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/Stack/Stack.js + 1 modules
 var Stack = __webpack_require__(9220);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/CircularProgress/CircularProgress.js + 1 modules
-var CircularProgress = __webpack_require__(95746);
 // EXTERNAL MODULE: ./src/components/script-editor/data/context.tsx
 var context = __webpack_require__(71647);
 // EXTERNAL MODULE: ./src/components/script-editor/data/script-editor.data.intf.ts
 var script_editor_data_intf = __webpack_require__(84754);
-// EXTERNAL MODULE: ./src/markets/market-html-utils.ts
-var market_html_utils = __webpack_require__(40682);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react@19.1.0/node_modules/react/index.js
 var react = __webpack_require__(94285);
 // EXTERNAL MODULE: ./src/components/script-editor/content/useDroidDocsScripts.ts + 1 modules
@@ -410,7 +406,6 @@ const ScriptPermissionsEditor_LOG_PREFIX = '[ScriptPermissionsEditor]';
 
 
 
-
 // 日志前缀
 const ScriptEditorContentV2_LOG_PREFIX = '[ScriptEditorContentV2]';
 function ScriptEditorContentV2(param) {
@@ -419,6 +414,11 @@ function ScriptEditorContentV2(param) {
     const lang = fanfanloI18n/* fanfanloI18n */._.language || 'en';
     console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 当前语言: ").concat(lang));
     const { t } = (0,es/* useTranslation */.Bd)('homepage/components/script-editor/content/v2/content');
+    // Context 数据状态
+    const [contextData, setContextData] = (0,react.useState)(null);
+    const [isLoadingContext, setIsLoadingContext] = (0,react.useState)(true);
+    const [contextError, setContextError] = (0,react.useState)(null);
+    console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " contextData 是否存在: ").concat(!!contextData, ", isLoadingContext: ").concat(isLoadingContext));
     // 使用 droid-docs API 获取脚本数据
     const { examplesMap, isLoadingMap, mapError, scriptError } = (0,useDroidDocsScripts/* useDroidDocsScripts */.b)(lang);
     console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " examplesMap 是否加载: ").concat(!!examplesMap, ", isLoadingMap: ").concat(isLoadingMap));
@@ -428,6 +428,47 @@ function ScriptEditorContentV2(param) {
     // 运行脚本状态
     const [runScript, setRunScript] = (0,react.useState)('');
     console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " runScript 状态: ").concat(runScript ? '有内容' : '空'));
+    // 使用 useRef 标记是否已加载 context 数据
+    const hasLoadedContextRef = (0,react.useRef)(false);
+    // 加载 context 数据
+    (0,react.useEffect)(()=>{
+        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " context 加载 useEffect 触发, hasLoaded: ").concat(hasLoadedContextRef.current));
+        if (hasLoadedContextRef.current) {
+            console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " context 已加载过, 跳过"));
+            return;
+        }
+        let mounted = true;
+        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 开始加载 context 数据"));
+        async function loadContext() {
+            try {
+                setIsLoadingContext(true);
+                console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 调用 loadScrptEditorData, ns: ").concat(ns));
+                const data = await (0,script_editor_data_intf/* loadScrptEditorData */.M_)(ns);
+                console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " loadScrptEditorData 完成"), data);
+                if (mounted) {
+                    console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 组件仍然挂载, 设置 context 数据"));
+                    setContextData(data);
+                    setIsLoadingContext(false);
+                    hasLoadedContextRef.current = true;
+                } else {
+                    console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 组件已卸载, 忽略数据"));
+                }
+            } catch (err) {
+                console.error("".concat(ScriptEditorContentV2_LOG_PREFIX, " 加载 context 数据失败"), err);
+                if (mounted) {
+                    setContextError(err);
+                    setIsLoadingContext(false);
+                }
+            }
+        }
+        loadContext();
+        return ()=>{
+            console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " context 加载 useEffect 清理"));
+            mounted = false;
+        };
+    }, [
+        ns
+    ]);
     // 创建空的 IScript 对象
     const createEmptyScript = ()=>{
         console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 创建空的 IScript 对象"));
@@ -444,7 +485,7 @@ function ScriptEditorContentV2(param) {
     };
     // 根据 initialCategory 和 initialName 查找并加载脚本
     (0,react.useEffect)(()=>{
-        var _scriptCopy_permissions;
+        var _targetScript_permissions, _scriptCopy_permissions;
         console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " useEffect 触发, initialCategory: ").concat(initialCategory, ", initialName: ").concat(initialName, ", examplesMap 是否存在: ").concat(!!examplesMap));
         // 如果没有初始化参数,创建空的 IScript
         if (!initialCategory || !initialName) {
@@ -459,27 +500,28 @@ function ScriptEditorContentV2(param) {
             }
             return;
         }
-        // 等待 examplesMap 加载
+        // 如果还在加载 examplesMap,等待
         if (!examplesMap) {
-            console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " examplesMap 未加载, 等待..."));
+            console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " examplesMap 尚未加载, 等待"));
             return;
         }
-        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 开始查找脚本: ").concat(initialCategory, "/").concat(initialName));
-        // 查找目标脚本
+        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 开始根据 category 和 name 查找脚本"));
+        // 从 examplesMap 中查找对应级别的脚本列表
         const levelScripts = examplesMap[initialCategory];
+        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " ").concat(initialCategory, " 级别脚本列表长度: ").concat((levelScripts === null || levelScripts === void 0 ? void 0 : levelScripts.length) || 0));
         if (!levelScripts) {
-            console.error("".concat(ScriptEditorContentV2_LOG_PREFIX, " 未找到分类: ").concat(initialCategory));
+            console.error("".concat(ScriptEditorContentV2_LOG_PREFIX, " 找不到 ").concat(initialCategory, " 级别的脚本列表"));
             return;
         }
-        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 在 ").concat(initialCategory, " 中查找, 共有 ").concat(levelScripts.length, " 个脚本"));
+        // 在脚本列表中查找目标脚本
         const targetScript = levelScripts.find((s)=>s.path === "".concat(initialCategory, "/").concat(initialName));
+        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 查找结果: ").concat(targetScript ? '找到' : '未找到'));
         if (!targetScript) {
-            console.error("".concat(ScriptEditorContentV2_LOG_PREFIX, " 未找到脚本: ").concat(initialCategory, "/").concat(initialName));
-            console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 可用的脚本:"), levelScripts.map((s)=>s.path));
+            console.error("".concat(ScriptEditorContentV2_LOG_PREFIX, " 找不到脚本: ").concat(initialCategory, "/").concat(initialName));
             return;
         }
-        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 找到目标脚本: ").concat(targetScript.name));
-        // 创建 IScript 对象的副本
+        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 找到脚本: ").concat(targetScript.name, ", 权限数量: ").concat(((_targetScript_permissions = targetScript.permissions) === null || _targetScript_permissions === void 0 ? void 0 : _targetScript_permissions.length) || 0));
+        // 创建脚本的副本并使用 toProxy 包装
         const scriptCopy = {
             ...targetScript,
             permissions: targetScript.permissions ? [
@@ -490,53 +532,12 @@ function ScriptEditorContentV2(param) {
         const proxiedScript = (0,proxyWatch/* toProxy */.I$)(scriptCopy);
         console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 脚本已使用 toProxy 包装"));
         setScriptData(proxiedScript);
-        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " scriptData 已设置"));
-        // 如果 initialScript 为 false,清空脚本内容
-        if (initialScript === false) {
-            console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " initialScript 为 false, 清空脚本内容"));
-            proxiedScript.script = '';
-            console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 脚本内容已清空"));
-        } else {
-            console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 保持脚本内容不变"));
-        }
+        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " scriptData 已更新"));
     }, [
         initialCategory,
         initialName,
-        initialScript,
         examplesMap
     ]);
-    // 使用 useRef 标记是否已加载,防止重复执行 loadScrptEditorData
-    const hasLoadedRef = (0,react.useRef)(false);
-    // 创建稳定的加载函数引用
-    const loadData = (0,react.useCallback)(async ()=>{
-        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " loadData 函数被调用, hasLoaded: ").concat(hasLoadedRef.current));
-        if (hasLoadedRef.current) {
-            console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 数据已加载过, 跳过重新加载"));
-            return Promise.resolve(null);
-        }
-        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 开始加载数据, ns: ").concat(ns));
-        hasLoadedRef.current = true;
-        try {
-            const result = await (0,script_editor_data_intf/* loadScrptEditorData */.M_)(ns);
-            console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 数据加载完成"), result);
-            return result;
-        } catch (error) {
-            console.error("".concat(ScriptEditorContentV2_LOG_PREFIX, " 数据加载失败"), error);
-            hasLoadedRef.current = false;
-            throw error;
-        }
-    }, [
-        ns
-    ]);
-    // 使用 useRef 确保 Promise 只创建一次,避免重新渲染时创建新 Promise
-    const loadDataPromiseRef = (0,react.useRef)(null);
-    if (loadDataPromiseRef.current === null) {
-        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 首次创建 loadDataPromise"));
-        loadDataPromiseRef.current = loadData();
-    } else {
-        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 复用已有的 loadDataPromise"));
-    }
-    const loadDataPromise = loadDataPromiseRef.current;
     // 处理选择示例脚本
     const handleSelectScript = (script)=>{
         var _scriptCopy_permissions;
@@ -555,27 +556,62 @@ function ScriptEditorContentV2(param) {
         console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " scriptData 已更新"));
     };
     // 处理运行脚本
-    const handleRun = ()=>{
-        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 处理运行脚本"));
+    const handleRunScript = ()=>{
+        var _scriptData_permissions;
+        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 准备运行脚本"));
         if (!scriptData) {
-            console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " scriptData 为空, 无法运行"));
+            console.error("".concat(ScriptEditorContentV2_LOG_PREFIX, " scriptData 为空, 无法运行"));
             return;
         }
-        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 执行脚本, 名称: ").concat(scriptData.name, ", 脚本长度: ").concat(scriptData.script.length));
-        const isLoadHtml = false;
-        if (isLoadHtml) {
-            console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 使用 IFrameReactContainer 运行"));
-            setRunScript('');
-            setTimeout(()=>setRunScript(scriptData.script), 300);
-        } else {
-            console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 使用 autoWebViewJs.callScript 运行"));
-            AutoWebViewJs/* autoWebViewJs */.yx.callScript(scriptData.script);
+        if (!scriptData.script) {
+            console.error("".concat(ScriptEditorContentV2_LOG_PREFIX, " 脚本内容为空, 无法运行"));
+            return;
         }
+        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 脚本内容长度: ").concat(scriptData.script.length));
+        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 脚本权限数量: ").concat(((_scriptData_permissions = scriptData.permissions) === null || _scriptData_permissions === void 0 ? void 0 : _scriptData_permissions.length) || 0));
+        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 使用 autoWebViewJs.callScript 运行"));
+        AutoWebViewJs/* autoWebViewJs */.yx.callScript(scriptData.script);
         console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 脚本运行完成"));
     };
     console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 组件渲染"));
-    return /*#__PURE__*/ (0,jsx_runtime.jsx)(context/* ScriptEditorContextLoader */.RA, {
-        value: loadDataPromise,
+    // 如果 context 正在加载
+    if (isLoadingContext) {
+        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 渲染加载状态"));
+        return /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
+            sx: {
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                minHeight: 200
+            },
+            children: /*#__PURE__*/ (0,jsx_runtime.jsx)(CircularProgress/* default */.A, {})
+        });
+    }
+    // 如果 context 加载失败
+    if (contextError) {
+        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 渲染错误状态"));
+        return /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
+            sx: {
+                p: 2
+            },
+            children: /*#__PURE__*/ (0,jsx_runtime.jsxs)(Alert/* default */.A, {
+                severity: "error",
+                children: [
+                    t('ScriptEditorContentV2.contextError'),
+                    ": ",
+                    contextError.message
+                ]
+            })
+        });
+    }
+    // 如果 context 数据不存在
+    if (!contextData) {
+        console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " context 数据为空"));
+        return null;
+    }
+    console.log("".concat(ScriptEditorContentV2_LOG_PREFIX, " 渲染完整 UI"));
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(context/* ScriptEditorContextProvider */.xP, {
+        value: contextData,
         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)(Box/* default */.A, {
             children: [
                 /*#__PURE__*/ (0,jsx_runtime.jsx)(Typography/* default */.A, {
@@ -621,34 +657,37 @@ function ScriptEditorContentV2(param) {
                                 scriptError.message
                             ]
                         }),
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
-                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)(ScriptExampleSelectorButton, {
-                                examplesMap: examplesMap,
-                                onSelectScript: handleSelectScript
-                            })
+                        examplesMap && /*#__PURE__*/ (0,jsx_runtime.jsx)(ScriptExampleSelectorButton, {
+                            examplesMap: examplesMap,
+                            onSelectScript: handleSelectScript
                         }),
-                        scriptData && /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
-                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)(ScriptPermissionsEditor, {
-                                scriptData: scriptData
-                            })
+                        scriptData && /*#__PURE__*/ (0,jsx_runtime.jsx)(ScriptPermissionsEditor, {
+                            scriptData: scriptData
                         }),
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
-                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)(ScriptControlBar, {
-                                scriptData: scriptData,
-                                onRun: handleRun
-                            })
+                        scriptData && /*#__PURE__*/ (0,jsx_runtime.jsx)(ScriptControlBar, {
+                            scriptData: scriptData,
+                            onRun: handleRunScript
                         }),
-                        scriptData && /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
-                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)(ScriptEditor, {
-                                scriptData: scriptData
-                            }, scriptData.path || 'default')
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
-                            children: runScript && /*#__PURE__*/ (0,jsx_runtime.jsx)(IFrameReactContainer/* IFrameReactContainer */.T, {
-                                content: runScript,
-                                urlAsContent: true,
-                                htmlBuilder: market_html_utils/* marketHtmlUtils */.P.mergeHtml
-                            })
+                        scriptData && /*#__PURE__*/ (0,jsx_runtime.jsx)(ScriptEditor, {
+                            scriptData: scriptData
+                        }, scriptData.path || 'default'),
+                        runScript && /*#__PURE__*/ (0,jsx_runtime.jsxs)(Box/* default */.A, {
+                            children: [
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)(Typography/* default */.A, {
+                                    variant: "h6",
+                                    children: t('ScriptEditorContentV2.result')
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
+                                    sx: {
+                                        p: 2,
+                                        bgcolor: 'grey.100',
+                                        borderRadius: 1,
+                                        fontFamily: 'monospace',
+                                        whiteSpace: 'pre-wrap'
+                                    },
+                                    children: runScript
+                                })
+                            ]
                         })
                     ]
                 })
@@ -1191,9 +1230,9 @@ const AndroidPermissionsButton_LOG_PREFIX = '[AndroidPermissionsButton]';
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ __webpack_require__.O(0, [5352,4729,788,5629,3685,9170,889,3343,7333,6112,8462,6955,5066,636,6593,8792], () => (__webpack_exec__(90342)));
+/******/ __webpack_require__.O(0, [5352,4729,788,5629,3685,9170,889,3343,7327,8462,7441,636,6593,8792], () => (__webpack_exec__(90342)));
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=scripts-288699fb2316f8f1.js.map
+//# sourceMappingURL=scripts-721af05b903077fe.js.map

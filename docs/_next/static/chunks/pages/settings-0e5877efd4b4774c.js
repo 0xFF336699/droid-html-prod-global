@@ -626,16 +626,30 @@ export const [MarketPageDataContextProvider, useMarketPageData] = createTypedCon
 // C:\work\android-droid\html\website-2024-12\libs\fanfanlo\src\react\createTypedContext.ts 的 createTypedContext返回的useTypedContext会需要是promise的，所以我需要一个能够给它传递promise并初始化的组件，可以使用react19的use方法来帮我实现吗？
 
 function createAsyncContextLoader(options) {
+    console.log('[AsyncContextLoader] createAsyncContextLoader 被调用');
     const { Provider, extract, fallback = null } = options;
+    console.log('[AsyncContextLoader] options 解构完成, fallback:', fallback);
     function AsyncContextLoaderInner(props) {
+        console.log('[AsyncContextLoader] AsyncContextLoaderInner 渲染开始');
+        console.log('[AsyncContextLoader] props.value 类型:', typeof props.value);
+        console.log('[AsyncContextLoader] props.value 是 Promise?', props.value instanceof Promise);
+        console.log('[AsyncContextLoader] props.value:', props.value);
+        console.log('[AsyncContextLoader] 准备调用 use(props.value)');
         const raw = (0,react__WEBPACK_IMPORTED_MODULE_1__.use)(props.value);
+        console.log('[AsyncContextLoader] use(props.value) 返回成功, raw:', raw);
+        console.log('[AsyncContextLoader] 准备调用 extract(raw)');
         const contextValue = extract(raw);
+        console.log('[AsyncContextLoader] extract(raw) 返回成功, contextValue:', contextValue);
+        console.log('[AsyncContextLoader] 准备返回 Provider');
         return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Provider, {
             value: contextValue,
             children: props.children
         });
     }
     return function AsyncContextLoader(props) {
+        console.log('[AsyncContextLoader] AsyncContextLoader 渲染开始');
+        console.log('[AsyncContextLoader] 接收到的 props.value:', props.value);
+        console.log('[AsyncContextLoader] 准备渲染 Suspense + AsyncContextLoaderInner');
         return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react__WEBPACK_IMPORTED_MODULE_1__.Suspense, {
             fallback: fallback,
             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(AsyncContextLoaderInner, {
@@ -1181,4 +1195,4 @@ function TabbarContainer(param) {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=settings-8760725988123012.js.map
+//# sourceMappingURL=settings-0e5877efd4b4774c.js.map

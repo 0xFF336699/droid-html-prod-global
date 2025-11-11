@@ -1,5 +1,5 @@
 "use strict";
-(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([[5066],{
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([[7441],{
 
 /***/ 3131:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
@@ -71,16 +71,30 @@ export const [MarketPageDataContextProvider, useMarketPageData] = createTypedCon
 // C:\work\android-droid\html\website-2024-12\libs\fanfanlo\src\react\createTypedContext.ts 的 createTypedContext返回的useTypedContext会需要是promise的，所以我需要一个能够给它传递promise并初始化的组件，可以使用react19的use方法来帮我实现吗？
 
 function createAsyncContextLoader(options) {
+    console.log('[AsyncContextLoader] createAsyncContextLoader 被调用');
     const { Provider, extract, fallback = null } = options;
+    console.log('[AsyncContextLoader] options 解构完成, fallback:', fallback);
     function AsyncContextLoaderInner(props) {
+        console.log('[AsyncContextLoader] AsyncContextLoaderInner 渲染开始');
+        console.log('[AsyncContextLoader] props.value 类型:', typeof props.value);
+        console.log('[AsyncContextLoader] props.value 是 Promise?', props.value instanceof Promise);
+        console.log('[AsyncContextLoader] props.value:', props.value);
+        console.log('[AsyncContextLoader] 准备调用 use(props.value)');
         const raw = (0,react__WEBPACK_IMPORTED_MODULE_1__.use)(props.value);
+        console.log('[AsyncContextLoader] use(props.value) 返回成功, raw:', raw);
+        console.log('[AsyncContextLoader] 准备调用 extract(raw)');
         const contextValue = extract(raw);
+        console.log('[AsyncContextLoader] extract(raw) 返回成功, contextValue:', contextValue);
+        console.log('[AsyncContextLoader] 准备返回 Provider');
         return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Provider, {
             value: contextValue,
             children: props.children
         });
     }
     return function AsyncContextLoader(props) {
+        console.log('[AsyncContextLoader] AsyncContextLoader 渲染开始');
+        console.log('[AsyncContextLoader] 接收到的 props.value:', props.value);
+        console.log('[AsyncContextLoader] 准备渲染 Suspense + AsyncContextLoaderInner');
         return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react__WEBPACK_IMPORTED_MODULE_1__.Suspense, {
             fallback: fallback,
             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(AsyncContextLoaderInner, {
@@ -156,45 +170,6 @@ function NavBar() {
 
 /***/ }),
 
-/***/ 40682:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   P: () => (/* binding */ marketHtmlUtils)
-/* harmony export */ });
-function createHtml(script, opts) {
-    return '<html>\n    <head>\n    <script type="importmap">\n  {\n    "imports": {\n      "react": "https://esm.sh/react@19",\n      "react-dom/client": "https://esm.sh/react-dom@19/client"\n    }\n  }\n</script>\n        <script>\n                const IFRAME_ID = \''.concat(opts === null || opts === void 0 ? void 0 : opts.iframeId, "';\n                window.IFRAME_ID = '").concat(opts === null || opts === void 0 ? void 0 : opts.iframeId, '\';\n                \n            var autoWebViewJs = window.autoWebViewJs = window.parent.window.autoWebViewJs;\n            autoWebViewJs = window.parent.window.autoWebViewJs;\n            var callScript = window.callScript = autoWebViewJs.callScript;\n            var callScriptByConf = window.callScriptByConf = autoWebViewJs.callScriptByConf;\n            var isRealInAndroid = window.isRealInAndroid;\n            // var storeUtilsConf = window.storeUtilsConf = window.parent.window.storeUtilsConf;\n            var storeUtilsConf = window.storeUtilsConf = {\n                ns:{},\n                read:window.parent.window.storeUtilsConf.read,\n                write:window.parent.window.storeUtilsConf.write   \n            }\n        </script>\n        <title>droid lego</title>\n        <style>html, body{margin-left:-0px;padding:0;\n        background-color: white;}</style>\n    </head>\n    <body>\n        <div id="app"></div>\n        <script>').concat(script, "</script>\n        <script>\n                // const IFRAME_ID = '").concat(opts === null || opts === void 0 ? void 0 : opts.iframeId, "';\n                function notifyResize() {\n                    const body = document.body;\n                    const html = document.documentElement;\n                    \n                    // 获取实际内容高度（取最大值）\n                    const height = Math.max(\n                        body.scrollHeight,\n                        body.offsetHeight,\n                        html.scrollHeight,\n                        html.offsetHeight\n                    );\n                    \n                    // 获取实际内容宽度\n                    const width = Math.max(\n                        body.scrollWidth,\n                        body.offsetWidth,\n                        html.scrollWidth,\n                        html.offsetWidth\n                    );\n                    \n                    // 发送消息给父窗口\n                    window.parent.postMessage({\n                        type: 'resize',\n                        iframeId: IFRAME_ID,\n                        height,\n                        width\n                    }, '*');\n                }\n                \n                // 监听窗口大小变化\n                window.addEventListener('resize', notifyResize);\n                \n                // 监听DOMContentLoaded，确保DOM加载完毕后调整大小\n                document.addEventListener('DOMContentLoaded', notifyResize);\n                \n                // 监听load事件，确保所有资源加载完毕后调整大小\n                window.addEventListener('load', notifyResize);\n                \n                // 创建MutationObserver监听DOM变化\n                const observer = new MutationObserver(notifyResize);\n                observer.observe(document.documentElement, {\n                    childList: true,\n                    subtree: true,\n                    attributes: true,\n                    characterData: true\n                });\n                \n                // 监听来自父窗口的消息，处理请求重新调整大小的消息\n                window.addEventListener('message', function(event) {\n                    if (event.data && event.data.type === 'requestResize') {\n                        // 主动触发一次尺寸计算和发送\n                        notifyResize();\n                    }\n                });\n                \n                // 初始化大小\n                notifyResize();\n        </script>\n    </body>\n</html>");
-}
-function mergeHtml(html, opts) {
-    let h = html;
-    if (!h.includes('<body')) {
-        h = "<body>".concat(h, "</body>");
-    }
-    if (!h.includes('<html')) {
-        h = "<html>".concat(h, "</html>");
-    }
-    if (!h.includes('<head')) {
-        h = h.replace('<html>', '<html><head></head>');
-    }
-    h = h.replace('<head>', "<head><script>\n                const IFRAME_ID = '".concat(opts === null || opts === void 0 ? void 0 : opts.iframeId, "';\n                window.IFRAME_ID = '").concat(opts === null || opts === void 0 ? void 0 : opts.iframeId, "';\n                \n            var autoWebViewJs = window.autoWebViewJs = window.parent.window.autoWebViewJs;\n            autoWebViewJs = window.parent.window.autoWebViewJs;\n            var callScript = window.callScript = autoWebViewJs.callScript;\n            var callScriptByConf = window.callScriptByConf = autoWebViewJs.callScriptByConf;\n            var isRealInAndroid = window.isRealInAndroid;\n            // var storeUtilsConf = window.storeUtilsConf = window.parent.window.storeUtilsConf;\n            var storeUtilsConf = window.storeUtilsConf = {\n                ns:{},\n                read:window.parent.window.storeUtilsConf.read,\n                write:window.parent.window.storeUtilsConf.write   \n            }\n        </script>\n        \n        <style>html, body{margin-left:-0px;padding:0;\n        background-color: white;}</style>"));
-    h = h.replace("</body>", "\n        \n        <script>\n                function notifyResize() {\n                    const body = document.body;\n                    const html = document.documentElement;\n                    \n                    // 获取实际内容高度（取最大值）\n                    const height = Math.max(\n                        body.scrollHeight,\n                        body.offsetHeight,\n                        html.scrollHeight,\n                        html.offsetHeight\n                    );\n                    \n                    // 获取实际内容宽度\n                    const width = Math.max(\n                        body.scrollWidth,\n                        body.offsetWidth,\n                        html.scrollWidth,\n                        html.offsetWidth\n                    );\n                    \n                    // 发送消息给父窗口\n                    window.parent.postMessage({\n                        type: 'resize',\n                        iframeId: IFRAME_ID,\n                        height,\n                        width\n                    }, '*');\n                }\n                \n                // 监听窗口大小变化\n                window.addEventListener('resize', notifyResize);\n                \n                // 监听DOMContentLoaded，确保DOM加载完毕后调整大小\n                document.addEventListener('DOMContentLoaded', notifyResize);\n                \n                // 监听load事件，确保所有资源加载完毕后调整大小\n                window.addEventListener('load', notifyResize);\n                \n                // 创建MutationObserver监听DOM变化\n                const observer = new MutationObserver(notifyResize);\n                observer.observe(document.documentElement, {\n                    childList: true,\n                    subtree: true,\n                    attributes: true,\n                    characterData: true\n                });\n                \n                // 监听来自父窗口的消息，处理请求重新调整大小的消息\n                window.addEventListener('message', function(event) {\n                    if (event.data && event.data.type === 'requestResize') {\n                        // 主动触发一次尺寸计算和发送\n                        notifyResize();\n                    }\n                });\n                \n                // 初始化大小\n                notifyResize();\n        </script>\n        </body>");
-    console.log('hhhhhhhhhhhhh=', h);
-    return h;
-}
-async function createHtmlByUrl(url, opts) {
-    const res = await fetch(url);
-    const content = await res.text();
-    return createHtml(content, opts);
-}
-const marketHtmlUtils = {
-    createHtml,
-    createHtmlByUrl,
-    mergeHtml
-};
-
-
-/***/ }),
-
 /***/ 55762:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -228,9 +203,10 @@ function Fallback() {
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   RA: () => (/* binding */ ScriptEditorContextLoader)
+/* harmony export */   RA: () => (/* binding */ ScriptEditorContextLoader),
+/* harmony export */   xP: () => (/* binding */ ScriptEditorContextProvider)
 /* harmony export */ });
-/* unused harmony exports ScriptEditorContextProvider, useScriptEditorContext */
+/* unused harmony export useScriptEditorContext */
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(94513);
 /* harmony import */ var _fanfanlo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3131);
 /* harmony import */ var _fanfanlo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(28210);
@@ -667,4 +643,4 @@ const getApiBaseUrl = ()=>{
 /***/ })
 
 }]);
-//# sourceMappingURL=5066-2573e4a3dbcc0e93.js.map
+//# sourceMappingURL=7441-34b2c8525fa70302.js.map
