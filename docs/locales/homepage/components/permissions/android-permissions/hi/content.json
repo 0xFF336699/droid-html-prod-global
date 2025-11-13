@@ -1,0 +1,24 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "अनुमतियाँ चुनें"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "मेनिफेस्ट अनुमति समूह",
+      "ManifestPermission": "अनुमतियां"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Android अनुमतियाँ चुनें",
+    "SelectedPermissions": "चयनित अनुमतियाँ",
+    "NoPermissionsSelected": "कोई अनुमति चयनित नहीं"
+  },
+  "AndroidPermissionsSelector": {
+    "Label": "Android अनुमतियाँ चुनें",
+    "Placeholder": "अनुमतियाँ खोजें",
+    "Group": {
+      "ManifestPermissionGroup": "मेनिफेस्ट अनुमति समूह",
+      "ManifestPermission": "अनुमतियां"
+    }
+  }
+}

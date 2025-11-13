@@ -1,0 +1,24 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "حدد الأذونات"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "مجموعات الأذونات الظاهرة",
+      "ManifestPermission": "الأذونات"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "حدد أذونات أندرويد",
+    "SelectedPermissions": "الأذونات المحددة",
+    "NoPermissionsSelected": "لم يتم تحديد أي أذونات"
+  },
+  "AndroidPermissionsSelector": {
+    "Label": "حدد أذونات أندرويد",
+    "Placeholder": "أذونات البحث",
+    "Group": {
+      "ManifestPermissionGroup": "مجموعات الأذونات الظاهرة",
+      "ManifestPermission": "الأذونات"
+    }
+  }
+}

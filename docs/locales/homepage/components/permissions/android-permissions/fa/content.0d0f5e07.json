@@ -1,0 +1,24 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "مجوزها را انتخاب کنید"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "ManifestPermission Groups",
+      "ManifestPermission": "مجوزها"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "مجوزهای Android را انتخاب کنید",
+    "SelectedPermissions": "مجوزهای انتخاب شده",
+    "NoPermissionsSelected": "هیچ مجوزی انتخاب نشده است"
+  },
+  "AndroidPermissionsSelector": {
+    "Label": "مجوزهای Android را انتخاب کنید",
+    "Placeholder": "مجوزهای جستجو",
+    "Group": {
+      "ManifestPermissionGroup": "ManifestPermission Groups",
+      "ManifestPermission": "مجوزها"
+    }
+  }
+}

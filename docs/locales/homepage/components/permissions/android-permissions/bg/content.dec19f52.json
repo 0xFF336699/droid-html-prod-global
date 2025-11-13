@@ -1,0 +1,24 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Изберете разрешения"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "Групи ManifestPermission",
+      "ManifestPermission": "Разрешения"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Изберете разрешения за Android",
+    "SelectedPermissions": "Избрани разрешения",
+    "NoPermissionsSelected": "Няма избрани разрешения"
+  },
+  "AndroidPermissionsSelector": {
+    "Label": "Изберете разрешения за Android",
+    "Placeholder": "Разрешения за търсене",
+    "Group": {
+      "ManifestPermissionGroup": "Групи ManifestPermission",
+      "ManifestPermission": "Разрешения"
+    }
+  }
+}

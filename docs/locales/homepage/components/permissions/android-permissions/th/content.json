@@ -1,0 +1,24 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "เลือกสิทธิ์"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "กลุ่มการอนุญาตอย่างชัดแจ้ง",
+      "ManifestPermission": "สิทธิ์"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "เลือกสิทธิ์ของ Android",
+    "SelectedPermissions": "สิทธิ์ที่เลือก",
+    "NoPermissionsSelected": "ไม่ได้เลือกสิทธิ์"
+  },
+  "AndroidPermissionsSelector": {
+    "Label": "เลือกสิทธิ์ของ Android",
+    "Placeholder": "สิทธิ์ในการค้นหา",
+    "Group": {
+      "ManifestPermissionGroup": "กลุ่มการอนุญาตอย่างชัดแจ้ง",
+      "ManifestPermission": "สิทธิ์"
+    }
+  }
+}

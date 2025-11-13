@@ -1,0 +1,24 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Виберіть дозволи"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "Групи ManifestPermission",
+      "ManifestPermission": "Дозволи"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Виберіть дозволи Android",
+    "SelectedPermissions": "Вибрані дозволи",
+    "NoPermissionsSelected": "Дозволи не вибрано"
+  },
+  "AndroidPermissionsSelector": {
+    "Label": "Виберіть дозволи Android",
+    "Placeholder": "Дозволи на пошук",
+    "Group": {
+      "ManifestPermissionGroup": "Групи ManifestPermission",
+      "ManifestPermission": "Дозволи"
+    }
+  }
+}

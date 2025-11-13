@@ -1,0 +1,24 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Pilih kebenaran"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "Kumpulan manifestpermission",
+      "ManifestPermission": "Keizinan"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Pilih keizinan Android",
+    "SelectedPermissions": "Keizinan terpilih",
+    "NoPermissionsSelected": "Tiada kebenaran dipilih"
+  },
+  "AndroidPermissionsSelector": {
+    "Label": "Pilih keizinan Android",
+    "Placeholder": "Kebenaran carian",
+    "Group": {
+      "ManifestPermissionGroup": "Kumpulan manifestpermission",
+      "ManifestPermission": "Keizinan"
+    }
+  }
+}

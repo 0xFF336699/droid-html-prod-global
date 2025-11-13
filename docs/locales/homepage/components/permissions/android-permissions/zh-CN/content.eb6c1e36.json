@@ -1,0 +1,24 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "选择权限"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "权限组 (ManifestPermission Groups)",
+      "ManifestPermission": "权限 (Permissions)"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "选择 Android 权限",
+    "SelectedPermissions": "已选权限",
+    "NoPermissionsSelected": "未选择任何权限"
+  },
+  "AndroidPermissionsSelector": {
+    "Label": "选择 Android 权限",
+    "Placeholder": "搜索权限",
+    "Group": {
+      "ManifestPermissionGroup": "权限组 (ManifestPermission Groups)",
+      "ManifestPermission": "权限 (Permissions)"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Selecteer machtigingen"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "ManifestPermission-groepen",
+      "ManifestPermission": "Machtigingen"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Selecteer Android-machtigingen",
+    "SelectedPermissions": "Geselecteerde machtigingen",
+    "NoPermissionsSelected": "Geen rechten geselecteerd"
+  },
+  "AndroidPermissionsSelector": {
+    "Label": "Selecteer Android-machtigingen",
+    "Placeholder": "Zoekrechten",
+    "Group": {
+      "ManifestPermissionGroup": "ManifestPermission-groepen",
+      "ManifestPermission": "Machtigingen"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Vyberte oprávnění"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "Skupiny ManifestPermission",
+      "ManifestPermission": "Oprávnění"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Vyberte oprávnění Android",
+    "SelectedPermissions": "Vybraná oprávnění",
+    "NoPermissionsSelected": "Nejsou vybrána žádná oprávnění"
+  },
+  "AndroidPermissionsSelector": {
+    "Label": "Vyberte oprávnění Android",
+    "Placeholder": "Oprávnění k vyhledávání",
+    "Group": {
+      "ManifestPermissionGroup": "Skupiny ManifestPermission",
+      "ManifestPermission": "Oprávnění"
+    }
+  }
+}

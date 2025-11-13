@@ -1,0 +1,24 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "בחר הרשאות"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "ManifestPermission Groups",
+      "ManifestPermission": "הרשאות"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "בחר הרשאות אנדרואיד",
+    "SelectedPermissions": "הרשאות נבחרות",
+    "NoPermissionsSelected": "לא נבחרו הרשאות"
+  },
+  "AndroidPermissionsSelector": {
+    "Label": "בחר הרשאות אנדרואיד",
+    "Placeholder": "הרשאות חיפוש",
+    "Group": {
+      "ManifestPermissionGroup": "ManifestPermission Groups",
+      "ManifestPermission": "הרשאות"
+    }
+  }
+}

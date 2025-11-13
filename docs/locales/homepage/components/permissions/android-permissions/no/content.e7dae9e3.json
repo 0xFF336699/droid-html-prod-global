@@ -1,0 +1,24 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Velg tillatelser"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "ManifestTillatelsesgrupper",
+      "ManifestPermission": "Tillatelser"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Velg Android-tillatelser",
+    "SelectedPermissions": "Valgte tillatelser",
+    "NoPermissionsSelected": "Ingen tillatelser er valgt"
+  },
+  "AndroidPermissionsSelector": {
+    "Label": "Velg Android-tillatelser",
+    "Placeholder": "Søketillatelser",
+    "Group": {
+      "ManifestPermissionGroup": "ManifestTillatelsesgrupper",
+      "ManifestPermission": "Tillatelser"
+    }
+  }
+}

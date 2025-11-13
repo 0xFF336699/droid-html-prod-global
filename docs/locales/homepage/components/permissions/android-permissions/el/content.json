@@ -1,0 +1,24 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Επιλέξτε δικαιώματα"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "ManifestPermission Groups",
+      "ManifestPermission": "Άδειες"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Επιλέξτε δικαιώματα Android",
+    "SelectedPermissions": "Επιλεγμένα δικαιώματα",
+    "NoPermissionsSelected": "Δεν επιλέχθηκαν δικαιώματα"
+  },
+  "AndroidPermissionsSelector": {
+    "Label": "Επιλέξτε δικαιώματα Android",
+    "Placeholder": "Δικαιώματα αναζήτησης",
+    "Group": {
+      "ManifestPermissionGroup": "ManifestPermission Groups",
+      "ManifestPermission": "Άδειες"
+    }
+  }
+}

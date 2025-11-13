@@ -1,0 +1,24 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "İzinleri seçin"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "Manifestİzin Grupları",
+      "ManifestPermission": "İzinler"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Android izinlerini seçin",
+    "SelectedPermissions": "Seçilen izinler",
+    "NoPermissionsSelected": "Hiçbir izin seçilmedi"
+  },
+  "AndroidPermissionsSelector": {
+    "Label": "Android izinlerini seçin",
+    "Placeholder": "Arama izinleri",
+    "Group": {
+      "ManifestPermissionGroup": "Manifestİzin Grupları",
+      "ManifestPermission": "İzinler"
+    }
+  }
+}

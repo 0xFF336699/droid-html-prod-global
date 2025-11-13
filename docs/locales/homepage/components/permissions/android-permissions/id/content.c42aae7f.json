@@ -1,0 +1,24 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Pilih izin"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "Grup Izin Manifes",
+      "ManifestPermission": "Izin"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Pilih izin Android",
+    "SelectedPermissions": "Izin yang dipilih",
+    "NoPermissionsSelected": "Tidak ada izin yang dipilih"
+  },
+  "AndroidPermissionsSelector": {
+    "Label": "Pilih izin Android",
+    "Placeholder": "Izin pencarian",
+    "Group": {
+      "ManifestPermissionGroup": "Grup Izin Manifes",
+      "ManifestPermission": "Izin"
+    }
+  }
+}

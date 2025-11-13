@@ -1,0 +1,24 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Välj behörigheter"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "ManifestPermission-grupper",
+      "ManifestPermission": "Behörigheter"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Välj Android-behörigheter",
+    "SelectedPermissions": "Valda behörigheter",
+    "NoPermissionsSelected": "Inga behörigheter har valts"
+  },
+  "AndroidPermissionsSelector": {
+    "Label": "Välj Android-behörigheter",
+    "Placeholder": "Sökbehörigheter",
+    "Group": {
+      "ManifestPermissionGroup": "ManifestPermission-grupper",
+      "ManifestPermission": "Behörigheter"
+    }
+  }
+}

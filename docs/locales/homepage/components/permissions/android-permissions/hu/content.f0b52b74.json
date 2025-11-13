@@ -1,0 +1,24 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Válassza ki az engedélyeket"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "ManifestPermission Groups",
+      "ManifestPermission": "Engedélyek"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Válassza az Android engedélyeket",
+    "SelectedPermissions": "Kiválasztott engedélyek",
+    "NoPermissionsSelected": "Nincsenek kiválasztva engedélyek"
+  },
+  "AndroidPermissionsSelector": {
+    "Label": "Válassza az Android engedélyeket",
+    "Placeholder": "Keresési engedélyek",
+    "Group": {
+      "ManifestPermissionGroup": "ManifestPermission Groups",
+      "ManifestPermission": "Engedélyek"
+    }
+  }
+}

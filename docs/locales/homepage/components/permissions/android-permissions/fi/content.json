@@ -1,0 +1,24 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Valitse käyttöoikeudet"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "ManifestPermission ryhmät",
+      "ManifestPermission": "Käyttöoikeudet"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Valitse Android-käyttöoikeudet",
+    "SelectedPermissions": "Valitut käyttöoikeudet",
+    "NoPermissionsSelected": "Käyttöoikeuksia ei ole valittu"
+  },
+  "AndroidPermissionsSelector": {
+    "Label": "Valitse Android-käyttöoikeudet",
+    "Placeholder": "Hakuoikeudet",
+    "Group": {
+      "ManifestPermissionGroup": "ManifestPermission ryhmät",
+      "ManifestPermission": "Käyttöoikeudet"
+    }
+  }
+}

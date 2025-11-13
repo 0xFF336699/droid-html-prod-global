@@ -1,0 +1,24 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Odaberite dopuštenja"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "Grupe ManifestPermission",
+      "ManifestPermission": "Dozvole"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Odaberite dopuštenja za Android",
+    "SelectedPermissions": "Odabrana dopuštenja",
+    "NoPermissionsSelected": "Nema odabranih dopuštenja"
+  },
+  "AndroidPermissionsSelector": {
+    "Label": "Odaberite dopuštenja za Android",
+    "Placeholder": "Dopuštenja za pretraživanje",
+    "Group": {
+      "ManifestPermissionGroup": "Grupe ManifestPermission",
+      "ManifestPermission": "Dozvole"
+    }
+  }
+}

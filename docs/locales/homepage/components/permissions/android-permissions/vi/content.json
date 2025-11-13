@@ -1,0 +1,24 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Chọn quyền"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "Nhóm quyền kê khai",
+      "ManifestPermission": "Quyền"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Chọn quyền của Android",
+    "SelectedPermissions": "Quyền đã chọn",
+    "NoPermissionsSelected": "Không có quyền nào được chọn"
+  },
+  "AndroidPermissionsSelector": {
+    "Label": "Chọn quyền của Android",
+    "Placeholder": "Quyền tìm kiếm",
+    "Group": {
+      "ManifestPermissionGroup": "Nhóm quyền kê khai",
+      "ManifestPermission": "Quyền"
+    }
+  }
+}

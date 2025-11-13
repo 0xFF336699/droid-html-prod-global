@@ -1,0 +1,24 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Seleziona le autorizzazioni"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "Gruppi ManifestPermission",
+      "ManifestPermission": "Autorizzazioni"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Seleziona le autorizzazioni Android",
+    "SelectedPermissions": "Autorizzazioni selezionate",
+    "NoPermissionsSelected": "Nessuna autorizzazione selezionata"
+  },
+  "AndroidPermissionsSelector": {
+    "Label": "Seleziona le autorizzazioni Android",
+    "Placeholder": "Permessi di ricerca",
+    "Group": {
+      "ManifestPermissionGroup": "Gruppi ManifestPermission",
+      "ManifestPermission": "Autorizzazioni"
+    }
+  }
+}
