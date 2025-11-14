@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3D 浮动魔方</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: transparent;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    -moz-user-select: none;
+         user-select: none;
+    -webkit-user-select: none;
+    touch-action: none;
+  }
+
+  .scene {
+    width: 200px;
+    height: 200px;
+    perspective: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: grab;
+  }
+
+  .scene:active { cursor: grabbing; }
+
+  .cube {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.1s;
+  }
+
+  .face {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 10px;
+    top: 10px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    overflow: hidden;
+  }
+
+  .face::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, 
+      rgba(255,255,255,0.1) 0%, 
+      rgba(255,255,255,0) 50%
+    );
+    pointer-events: none;
+  }
+
+  /* 6 个面定位 */
+  .front  { transform: translateZ(90px); }
+  .back   { transform: rotateY(180deg) translateZ(90px); }
+  .right  { transform: rotateY(90deg) translateZ(90px); }
+  .left   { transform: rotateY(-90deg) translateZ(90px); }
+  .top    { transform: rotateX(90deg) translateZ(90px); }
+  .bottom { transform: rotateX(-90deg) translateZ(90px); }
+
+  /* 工具面板（展开后） */
+  .panel {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background: rgba(20, 20, 40, 0.95);
+    -webkit-backdrop-filter: blur(15px);
+            backdrop-filter: blur(15px);
+    border-radius: 20px;
+    border: 1px solid rgba(100, 200, 255, 0.4);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.3s ease;
+    padding: 20px;
+    color: white;
+    z-index: 100;
+  }
+
+  .panel.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    background: rgba(255,0,0,0.3);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+  /* 音乐控制 */
+  #music-player {
+    text-align: center;
+  }
+  #music-player audio {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .play-btn {
+    width: 60px;
+    height: 60px;
+    background: #00d4ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px auto;
+    cursor: pointer;
+    box-shadow: 0 0 20px #00d4ff;
+  }
+
+  /* 记事本 */
+  #notepad textarea {
+    width: 100%;
+    height: 200px;
+    background: rgba(0,0,0,0.3);
+    border: 1px solid #555;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  /* 表情包 */
+  .emoji-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+  }
+  .emoji {
+    font-size: 32px;
+    text-align: center;
+    padding: 10px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .emoji:active {
+    transform: scale(1.3);
+    background: rgba(255,255,255,0.3);
+  }
+
+  /* 图标 */
+  .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div class="scene">
+  <div class="cube" id="cube">
+    <!-- 前面：音乐 -->
+    <div class="face front" data-panel="music">
+      <div class="icon">🎵</div>
+      <div>音乐</div>
+    </div>
+    <!-- 后面：记事本 -->
+    <div class="face back" data-panel="notepad">
+      <div class="icon">📝</div>
+      <div>记事</div>
+    </div>
+    <!-- 右面：表情包 -->
+    <div class="face right" data-panel="emoji">
+      <div class="icon">😎</div>
+      <div>表情</div>
+    </div>
+    <!-- 左面：待定 -->
+    <div class="face left">
+      <div class="icon">⚙️</div>
+      <div>设置</div>
+    </div>
+    <!-- 上面：时钟 -->
+    <div class="face top">
+      <div class="icon">🕐</div>
+      <div id="clock">00:00</div>
+    </div>
+    <!-- 下面：电量 -->
+    <div class="face bottom">
+      <div class="icon">🔋</div>
+      <div id="battery">--%</div>
+    </div>
+  </div>
+</div>
+
+<!-- 音乐面板 -->
+<div class="panel" id="music-panel">
+  <div class="close-btn">×</div>
+  <h2>🎵 音乐播放器</h2>
+  <div id="music-player">
+    <div class="play-btn" id="playPause">▶</div>
+    <audio id="audio" controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+      您的浏览器不支持音频。
+    </audio>
+  </div>
+</div>
+
+<!-- 记事本面板 -->
+<div class="panel" id="notepad-panel">
+  <div class="close-btn">×</div>
+  <h2>📝 记事本</h2>
+  <div id="notepad">
+    <textarea id="note-text" placeholder="写点什么..."></textarea>
+    <button onclick="saveNote()" style="margin-top:10px;padding:8px 16px;background:#00d4ff;border:none;border-radius:8px;color:white;cursor:pointer;">保存</button>
+  </div>
+</div>
+
+<!-- 表情包面板 -->
+<div class="panel" id="emoji-panel">
+  <div class="close-btn">×</div>
+  <h2>😎 表情包</h2>
+  <div class="emoji-grid">
+    <div class="emoji" onclick="sendEmoji(this)">😂</div>
+    <div class="emoji" onclick="sendEmoji(this)">❤️</div>
+    <div class="emoji" onclick="sendEmoji(this)">🔥</div>
+    <div class="emoji" onclick="sendEmoji(this)">🚀</div>
+    <div class="emoji" onclick="sendEmoji(this)">🤔</div>
+    <div class="emoji" onclick="sendEmoji(this)">🎉</div>
+    <div class="emoji" onclick="sendEmoji(this)">👀</div>
+    <div class="emoji" onclick="sendEmoji(this)">💀</div>
+  </div>
+</div>
+
+<script>
+  const cube = document.getElementById('cube');
+  const scene = document.querySelector('.scene');
+  let isDragging = false;
+  let previousX = 0;
+  let previousY = 0;
+  let rotateX = -20;
+  let rotateY = -30;
+
+  // 初始化旋转
+  updateCube();
+
+  // 拖拽控制
+  scene.addEventListener('pointerdown', (e) => {
+    isDragging = true;
+    previousX = e.clientX;
+    previousY = e.clientY;
+  });
+
+  document.addEventListener('pointermove', (e) => {
+    if (!isDragging) return;
+    const deltaX = e.clientX - previousX;
+    const deltaY = e.clientY - previousY;
+    rotateY += deltaX * 0.5;
+    rotateX -= deltaY * 0.5;
+    previousX = e.clientX;
+    previousY = e.clientY;
+    updateCube();
+  });
+
+  document.addEventListener('pointerup', () => {
+    isDragging = false;
+  });
+
+  function updateCube() {
+    cube.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+  }
+
+  // 点击面展开面板
+  document.querySelectorAll('.face[data-panel]').forEach(face => {
+    face.addEventListener('click', () => {
+      const panelId = face.getAttribute('data-panel') + '-panel';
+      const panel = document.getElementById(panelId);
+      if (panel) {
+        panel.classList.add('active');
+      }
+    });
+  });
+
+  // 关闭面板
+  document.querySelectorAll('.close-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      btn.parentElement.classList.remove('active');
+    });
+  });
+
+  // 音乐控制
+  const audio = document.getElementById('audio');
+  const playPause = document.getElementById('playPause');
+  playPause.addEventListener('click', () => {
+    if (audio.paused) {
+      audio.play();
+      playPause.textContent = '⏸';
+    } else {
+      audio.pause();
+      playPause.textContent = '▶';
+    }
+  });
+
+  // 记事本
+  const noteText = document.getElementById('note-text');
+  noteText.value = localStorage.getItem('cube-note') || '';
+  function saveNote() {
+    localStorage.setItem('cube-note', noteText.value);
+    alert('已保存！');
+  }
+
+  // 表情发送（可桥接安卓）
+  function sendEmoji(el) {
+    const emoji = el.textContent;
+    // Android 桥接示例：
+    if (window.Android) {
+      window.Android.copyToClipboard(emoji);
+      window.Android.showToast('已复制: ' + emoji);
+    } else {
+      navigator.clipboard.writeText(emoji).then(() => {
+        alert('已复制: ' + emoji);
+      });
+    }
+    el.style.transform = 'scale(1.5)';
+    setTimeout(() => el.style.transform = '', 200);
+  }
+
+  // 时钟
+  function updateClock() {
+    const now = new Date();
+    const time = now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+    document.getElementById('clock').textContent = time;
+  }
+  setInterval(updateClock, 1000);
+  updateClock();
+
+  // 电量（需安卓桥接）
+  if (window.Android && typeof Android.getBatteryLevel === 'function') {
+    document.getElementById('battery').textContent = Android.getBatteryLevel() + '%';
+  }
+</script>
+
+  <script src="https://unpkg.com/iframe-resizer/js/iframeResizer.contentWindow.min.js"></script>
+</body>
+</html>
