@@ -1,0 +1,11 @@
+{
+  "AutoTranslateToggle": {
+    "autoTranslate": "स्वचालित अनुवाद",
+    "enableAutoTranslate": "स्वचालित अनुवाद चालू करें",
+    "disableAutoTranslate": "स्वचालित अनुवाद बंद करें"
+  },
+  "TranslationComponent": {
+    "translating": "अनुवाद हो रहा है...",
+    "translationFailed": "अनुवाद विफल"
+  }
+}

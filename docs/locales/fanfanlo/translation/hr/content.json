@@ -1,0 +1,11 @@
+{
+  "AutoTranslateToggle": {
+    "autoTranslate": "automatski prijevod",
+    "enableAutoTranslate": "Uključite automatski prijevod",
+    "disableAutoTranslate": "Isključite automatski prijevod"
+  },
+  "TranslationComponent": {
+    "translating": "Prevođenje...",
+    "translationFailed": "Prijevod nije uspio"
+  }
+}

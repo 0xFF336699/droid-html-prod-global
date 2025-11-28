@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Ejecución de nodo",
+    "changeBtnLabel": "reemplazar",
+    "showNodeAllProperties": "Mostrar todas las propiedades",
+    "wait": {
+      "time": "tiempo de espera",
+      "interval": "intervalo de espera",
+      "invisible": "Ya sea para detectar elementos fuera de la pantalla"
+    }
+  }
+}

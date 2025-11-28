@@ -1,0 +1,11 @@
+{
+  "AutoTranslateToggle": {
+    "autoTranslate": "자동 번역",
+    "enableAutoTranslate": "자동 번역 켜기",
+    "disableAutoTranslate": "자동 번역 끄기"
+  },
+  "TranslationComponent": {
+    "translating": "번역 중...",
+    "translationFailed": "번역 실패"
+  }
+}

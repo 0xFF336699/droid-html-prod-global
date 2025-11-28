@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "ביצוע צומת",
+    "changeBtnLabel": "לְהַחלִיף",
+    "showNodeAllProperties": "הצג את כל הנכסים",
+    "wait": {
+      "time": "זמן המתנה",
+      "interval": "מרווח המתנה",
+      "invisible": "האם לזהות אלמנטים מחוץ למסך"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "AutoTranslateToggle": {
+    "autoTranslate": "automatikus fordítás",
+    "enableAutoTranslate": "Kapcsolja be az automatikus fordítást",
+    "disableAutoTranslate": "Kapcsolja ki az automatikus fordítást"
+  },
+  "TranslationComponent": {
+    "translating": "Fordítás...",
+    "translationFailed": "A fordítás nem sikerült"
+  }
+}

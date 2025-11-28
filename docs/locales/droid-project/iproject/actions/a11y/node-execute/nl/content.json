@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Uitvoering van knooppunten",
+    "changeBtnLabel": "vervangen",
+    "showNodeAllProperties": "Toon alle eigendommen",
+    "wait": {
+      "time": "wachttijd",
+      "interval": "wachtinterval",
+      "invisible": "Of er elementen buiten het scherm moeten worden gedetecteerd"
+    }
+  }
+}

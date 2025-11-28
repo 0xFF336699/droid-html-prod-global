@@ -1,0 +1,11 @@
+{
+  "AutoTranslateToggle": {
+    "autoTranslate": "dịch tự động",
+    "enableAutoTranslate": "Bật dịch tự động",
+    "disableAutoTranslate": "Tắt dịch tự động"
+  },
+  "TranslationComponent": {
+    "translating": "Đang dịch...",
+    "translationFailed": "Dịch không thành công"
+  }
+}

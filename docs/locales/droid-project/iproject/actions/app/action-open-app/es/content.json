@@ -1,0 +1,9 @@
+{
+  "IActionOpenApp": {
+    "permission": {
+      "a11y": {
+        "reason": "Necesita accesibilidad para detectar si la aplicación está abierta"
+      }
+    }
+  }
+}

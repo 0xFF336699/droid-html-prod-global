@@ -1,0 +1,11 @@
+{
+  "AutoTranslateToggle": {
+    "autoTranslate": "automatický preklad",
+    "enableAutoTranslate": "Zapnite automatický preklad",
+    "disableAutoTranslate": "Vypnite automatický preklad"
+  },
+  "TranslationComponent": {
+    "translating": "Prekladá sa...",
+    "translationFailed": "Preklad zlyhal"
+  }
+}

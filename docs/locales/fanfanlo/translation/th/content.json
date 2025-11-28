@@ -1,0 +1,11 @@
+{
+  "AutoTranslateToggle": {
+    "autoTranslate": "การแปลอัตโนมัติ",
+    "enableAutoTranslate": "เปิดการแปลอัตโนมัติ",
+    "disableAutoTranslate": "ปิดการแปลอัตโนมัติ"
+  },
+  "TranslationComponent": {
+    "translating": "กำลังแปล...",
+    "translationFailed": "การแปลล้มเหลว"
+  }
+}

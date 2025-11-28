@@ -1,0 +1,7 @@
+{
+  "ITriggerTimeout": {
+    "title": "Забавено изпълнение",
+    "content_delay": "Закъснение",
+    "content_milliseconds": "Изпълнение след милисекунди"
+  }
+}

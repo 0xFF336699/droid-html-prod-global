@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "เมื่อเข้าสู่หน้าที่กำหนด",
+    "pnLabel": "ชื่อแพ็คเกจ:",
+    "anLabel": "ชื่อกิจกรรม:",
+    "cnLabel": "ชื่อชั้นเรียน:",
+    "changeBtnLabel": "แทนที่"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "เมื่อเข้าสู่หน้าที่กำหนด",
+    "pnLabel": "ชื่อแพ็คเกจ:",
+    "anLabel": "ชื่อกิจกรรม:",
+    "cnLabel": "ชื่อชั้นเรียน:",
+    "changeBtnLabel": "แทนที่"
+  }
+}

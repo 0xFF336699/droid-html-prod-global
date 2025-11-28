@@ -1,0 +1,9 @@
+{
+  "IActionOpenApp": {
+    "permission": {
+      "a11y": {
+        "reason": "Potřebujete přístupnost, abyste zjistili, zda je aplikace otevřená"
+      }
+    }
+  }
+}

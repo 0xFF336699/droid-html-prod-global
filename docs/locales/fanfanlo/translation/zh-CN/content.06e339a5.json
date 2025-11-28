@@ -1,0 +1,11 @@
+{
+  "AutoTranslateToggle": {
+    "autoTranslate": "自动翻译",
+    "enableAutoTranslate": "开启自动翻译",
+    "disableAutoTranslate": "关闭自动翻译"
+  },
+  "TranslationComponent": {
+    "translating": "翻译中...",
+    "translationFailed": "翻译失败"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "IActionOpenApp": {
+    "permission": {
+      "a11y": {
+        "reason": "앱이 열려 있는지 감지하려면 접근성이 필요합니다."
+      }
+    }
+  }
+}

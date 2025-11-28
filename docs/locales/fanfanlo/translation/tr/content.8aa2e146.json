@@ -1,0 +1,11 @@
+{
+  "AutoTranslateToggle": {
+    "autoTranslate": "otomatik çeviri",
+    "enableAutoTranslate": "Otomatik çeviriyi aç",
+    "disableAutoTranslate": "Otomatik çeviriyi kapat"
+  },
+  "TranslationComponent": {
+    "translating": "Çeviri...",
+    "translationFailed": "Çeviri başarısız oldu"
+  }
+}

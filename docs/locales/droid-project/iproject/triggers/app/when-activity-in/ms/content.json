@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Semasa memasukkan halaman yang ditentukan",
+    "pnLabel": "Nama Pakej:",
+    "anLabel": "Nama Aktiviti:",
+    "cnLabel": "Nama Kelas:",
+    "changeBtnLabel": "menggantikan"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Semasa memasukkan halaman yang ditentukan",
+    "pnLabel": "Nama Pakej:",
+    "anLabel": "Nama Aktiviti:",
+    "cnLabel": "Nama Kelas:",
+    "changeBtnLabel": "menggantikan"
+  }
+}

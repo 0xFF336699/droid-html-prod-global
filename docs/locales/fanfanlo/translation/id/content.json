@@ -1,0 +1,11 @@
+{
+  "AutoTranslateToggle": {
+    "autoTranslate": "terjemahan otomatis",
+    "enableAutoTranslate": "Aktifkan terjemahan otomatis",
+    "disableAutoTranslate": "Matikan terjemahan otomatis"
+  },
+  "TranslationComponent": {
+    "translating": "Menerjemahkan...",
+    "translationFailed": "Terjemahan gagal"
+  }
+}

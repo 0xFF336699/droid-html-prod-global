@@ -1,0 +1,11 @@
+{
+  "AutoTranslateToggle": {
+    "autoTranslate": "automaattinen käännös",
+    "enableAutoTranslate": "Ota automaattinen käännös käyttöön",
+    "disableAutoTranslate": "Poista automaattinen käännös käytöstä"
+  },
+  "TranslationComponent": {
+    "translating": "Käännetään...",
+    "translationFailed": "Käännös epäonnistui"
+  }
+}

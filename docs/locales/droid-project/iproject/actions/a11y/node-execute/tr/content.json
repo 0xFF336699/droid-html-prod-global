@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Düğüm yürütme",
+    "changeBtnLabel": "yer değiştirmek",
+    "showNodeAllProperties": "Tüm özellikleri göster",
+    "wait": {
+      "time": "bekleme süresi",
+      "interval": "bekleme aralığı",
+      "invisible": "Ekran dışı öğelerin algılanıp algılanmayacağı"
+    }
+  }
+}

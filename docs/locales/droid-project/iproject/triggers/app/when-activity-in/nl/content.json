@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Bij het betreden van de opgegeven pagina",
+    "pnLabel": "Pakketnaam:",
+    "anLabel": "Naam activiteit:",
+    "cnLabel": "Naam van de klas:",
+    "changeBtnLabel": "vervangen"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Bij het betreden van de opgegeven pagina",
+    "pnLabel": "Pakketnaam:",
+    "anLabel": "Naam activiteit:",
+    "cnLabel": "Naam van de klas:",
+    "changeBtnLabel": "vervangen"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "AutoTranslateToggle": {
+    "autoTranslate": "תרגום אוטומטי",
+    "enableAutoTranslate": "הפעל את התרגום האוטומטי",
+    "disableAutoTranslate": "כבה את התרגום האוטומטי"
+  },
+  "TranslationComponent": {
+    "translating": "תִרגוּם...",
+    "translationFailed": "התרגום נכשל"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Podczas wchodzenia na określoną stronę",
+    "pnLabel": "Nazwa pakietu:",
+    "anLabel": "Nazwa działania:",
+    "cnLabel": "Nazwa klasy:",
+    "changeBtnLabel": "zastępować"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Podczas wchodzenia na określoną stronę",
+    "pnLabel": "Nazwa pakietu:",
+    "anLabel": "Nazwa działania:",
+    "cnLabel": "Nazwa klasy:",
+    "changeBtnLabel": "zastępować"
+  }
+}

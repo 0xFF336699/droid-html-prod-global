@@ -1,0 +1,7 @@
+{
+  "ITriggerTimeout": {
+    "title": "Viivästynyt toteutus",
+    "content_delay": "Viive",
+    "content_milliseconds": "Suorita millisekuntien kuluttua"
+  }
+}

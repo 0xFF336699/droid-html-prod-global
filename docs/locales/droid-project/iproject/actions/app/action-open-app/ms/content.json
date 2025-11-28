@@ -1,0 +1,9 @@
+{
+  "IActionOpenApp": {
+    "permission": {
+      "a11y": {
+        "reason": "Memerlukan kebolehaksesan untuk mengesan jika aplikasi dibuka"
+      }
+    }
+  }
+}

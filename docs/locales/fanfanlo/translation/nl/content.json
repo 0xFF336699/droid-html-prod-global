@@ -1,0 +1,11 @@
+{
+  "AutoTranslateToggle": {
+    "autoTranslate": "automatische vertaling",
+    "enableAutoTranslate": "Schakel automatische vertaling in",
+    "disableAutoTranslate": "Schakel automatische vertaling uit"
+  },
+  "TranslationComponent": {
+    "translating": "Vertalen...",
+    "translationFailed": "Vertaling mislukt"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Kun siirryt määritetylle sivulle",
+    "pnLabel": "Paketin nimi:",
+    "anLabel": "Aktiviteetin nimi:",
+    "cnLabel": "Luokan nimi:",
+    "changeBtnLabel": "korvata"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Kun siirryt määritetylle sivulle",
+    "pnLabel": "Paketin nimi:",
+    "anLabel": "Aktiviteetin nimi:",
+    "cnLabel": "Luokan nimi:",
+    "changeBtnLabel": "korvata"
+  }
+}

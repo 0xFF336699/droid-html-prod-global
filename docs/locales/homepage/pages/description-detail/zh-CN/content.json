@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "缺少必要参数: field",
+      "entityNotFound": "未找到对应的实体",
+      "entityEmpty": "实体为空",
+      "unnamed": "未命名",
+      "unknownField": "未知的字段类型: {{field}}",
+      "summaryName": "简介",
+      "fullIntroductionName": "完整介绍",
+      "noContent": "该实体没有{{fieldName}}",
+      "detail": "详情"
+    }
+  }
+}

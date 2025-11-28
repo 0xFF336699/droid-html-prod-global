@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Knotenausführung",
+    "changeBtnLabel": "ersetzen",
+    "showNodeAllProperties": "Alle Eigenschaften anzeigen",
+    "wait": {
+      "time": "Wartezeit",
+      "interval": "Warteintervall",
+      "invisible": "Ob Elemente außerhalb des Bildschirms erkannt werden sollen"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "IActionOpenApp": {
+    "permission": {
+      "a11y": {
+        "reason": "Toegankelijkheid nodig om te detecteren of de app geopend is"
+      }
+    }
+  }
+}

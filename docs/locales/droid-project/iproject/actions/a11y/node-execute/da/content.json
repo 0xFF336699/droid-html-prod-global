@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Node udførelse",
+    "changeBtnLabel": "erstatte",
+    "showNodeAllProperties": "Vis alle ejendomme",
+    "wait": {
+      "time": "ventetid",
+      "interval": "venteinterval",
+      "invisible": "Om elementer uden for skærmen skal detekteres"
+    }
+  }
+}

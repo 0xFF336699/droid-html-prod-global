@@ -1,0 +1,11 @@
+{
+  "AutoTranslateToggle": {
+    "autoTranslate": "ترجمه خودکار",
+    "enableAutoTranslate": "ترجمه خودکار را روشن کنید",
+    "disableAutoTranslate": "ترجمه خودکار را خاموش کنید"
+  },
+  "TranslationComponent": {
+    "translating": "در حال ترجمه...",
+    "translationFailed": "ترجمه ناموفق بود"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "IActionOpenApp": {
+    "permission": {
+      "a11y": {
+        "reason": "需要辅助功能来检测应用是否已打开"
+      }
+    }
+  }
+}
