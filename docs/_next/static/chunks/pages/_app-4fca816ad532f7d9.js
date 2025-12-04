@@ -5225,8 +5225,9 @@ function createLocalStore(ns, opts) {
 }
 function createJavaStore(ns, opts) {
     const log = new _log_Log__WEBPACK_IMPORTED_MODULE_4__/* .Log */ .tG(false, 'createJavaStore_fn ns= ' + ns);
-    log.pause = true;
+    // log.pause = true;
     // log.pause = ns != `@fanfanlo/scripts/emergency-alarm/script`;
+    log.log("nss=", ns, "opts=", opts);
     let unsub;
     let data = createData();
     function createData() {
@@ -5372,6 +5373,7 @@ function getStoresNamespace(ns, opts) {
     return is.ns[ns];
 }
 function namespace(ns) {
+    console.log('xxxxxxxxxxxxxxxxxxxxxxx', ns);
     const res = is ? createJavaStore(ns) : createLocalStore(ns);
     return res.store;
 }
@@ -80284,7 +80286,7 @@ const env = {
     initialized: false
 };
 const gatewayMap = {
-    // '192.168.177.180': '//192.168.1.100:19010/v1/',
+    '192.168.177.180': '//192.168.177.180:19010/v1/',
     '3000.shangwoa.xyz': '//19010.shangwoa.xyz/v1/',
     // '192.168.177.180': '//localhost:19010/v1/',//可以测试跨域
     'homepage.vm-ubuntu.droidlego.com': '//homepage_server.vm-ubuntu.droidlego.com/v1/'
@@ -158808,4 +158810,4 @@ function toString(a) {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=_app-c4e71e3d3327ca4b.js.map
+//# sourceMappingURL=_app-4fca816ad532f7d9.js.map
