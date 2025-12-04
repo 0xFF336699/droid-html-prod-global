@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "típus",
+      "text": "szöveg",
+      "html": "HTML",
+      "url": "URL"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "egysoros bevezetés típus",
+      "content": "tartalom"
+    },
+    "SummaryEditor": {
+      "typeLabel": "profil típusa",
+      "content": "tartalom"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "teljes bevezetés típusa",
+      "content": "tartalom"
+    },
+    "DescriptionInfoEditor": {
+      "name": "név"
+    }
+  }
+}

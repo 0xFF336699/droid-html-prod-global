@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "유형",
+      "text": "텍스트",
+      "html": "HTML",
+      "url": "URL"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "한줄 소개형",
+      "content": "콘텐츠"
+    },
+    "SummaryEditor": {
+      "typeLabel": "프로필 유형",
+      "content": "콘텐츠"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "전체 소개 유형",
+      "content": "콘텐츠"
+    },
+    "DescriptionInfoEditor": {
+      "name": "이름"
+    }
+  }
+}

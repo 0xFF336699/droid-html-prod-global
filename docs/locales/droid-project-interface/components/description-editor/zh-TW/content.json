@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "類型",
+      "text": "文字",
+      "html": "HTML",
+      "url": "URL"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "一行簡介類型",
+      "content": "內容"
+    },
+    "SummaryEditor": {
+      "typeLabel": "簡介類型",
+      "content": "內容"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "完整介紹類型",
+      "content": "內容"
+    },
+    "DescriptionInfoEditor": {
+      "name": "名字"
+    }
+  }
+}

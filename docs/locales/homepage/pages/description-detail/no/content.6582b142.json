@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "Mangler nødvendig parameter: felt",
+      "entityNotFound": "Finner ingen tilsvarende enhet",
+      "entityEmpty": "Enheten er tom",
+      "unnamed": "uten navn",
+      "unknownField": "Ukjent felttype: {{field}}",
+      "summaryName": "Introduksjon",
+      "fullIntroductionName": "Full introduksjon",
+      "noContent": "Enheten har ikke {{fieldName}}",
+      "detail": "Detaljer"
+    }
+  }
+}

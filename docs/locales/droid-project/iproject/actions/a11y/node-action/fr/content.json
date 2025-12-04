@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Opérations de nœud",
+      "actionTypeLabel": "Type d'opération",
+      "ActionType": {
+        "click": "Cliquez",
+        "longClick": "Appui long",
+        "scroll": "rouleau",
+        "setText": "Définir le texte",
+        "focus": "se concentrer"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Cliquez en utilisant les coordonnées globales",
+        "useGlobalClickHintOn": "Les coordonnées du point central du nœud seront calculées à l'aide de la méthode du clic global.",
+        "useGlobalClickHintOff": "Appelez directement la méthode click du nœud",
+        "enableContinuousClickLabel": "Activer les clics continus",
+        "enableContinuousClickHint": "Après l'activation, le nœud continuera à être cliqué jusqu'à ce qu'il échoue ou que le projet soit arrêté.",
+        "baseIntervalLabel": "Intervalle de base (millisecondes)",
+        "baseIntervalHint": "Temps de référence entre les clics",
+        "intervalVariationLabel": "Plage de fluctuation d'intervalle (millisecondes)",
+        "intervalVariationHint": "Intervalle réel = {{baseInterval}} ± {{intervalVariation}} millisecondes"
+      },
+      "ScrollConfig": {
+        "directionLabel": "sens de défilement",
+        "directionForward": "faire défiler vers l'avant",
+        "directionBackward": "faire défiler vers l'arrière"
+      },
+      "SetTextConfig": {
+        "textLabel": "Saisir du texte",
+        "textPlaceholder": "Veuillez saisir le texte à définir"
+      },
+      "LongClickConfig": {
+        "description": "Appuyez longuement sur le nœud pour déclencher l'événement d'appui long"
+      },
+      "FocusConfig": {
+        "description": "Concentrez le nœud pour qu'il soit focalisé"
+      }
+    }
+  }
+}

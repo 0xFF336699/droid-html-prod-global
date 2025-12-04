@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "tyyppi",
+      "text": "teksti",
+      "html": "HTML",
+      "url": "URL-osoite"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "yhden rivin johdantotyyppi",
+      "content": "sisältöä"
+    },
+    "SummaryEditor": {
+      "typeLabel": "profiilin tyyppi",
+      "content": "sisältöä"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "täydellinen esittelytyyppi",
+      "content": "sisältöä"
+    },
+    "DescriptionInfoEditor": {
+      "name": "nimi"
+    }
+  }
+}

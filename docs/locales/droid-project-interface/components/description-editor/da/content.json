@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "type",
+      "text": "tekst",
+      "html": "HTML",
+      "url": "URL"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "en linje introduktionstype",
+      "content": "tilfreds"
+    },
+    "SummaryEditor": {
+      "typeLabel": "profiltype",
+      "content": "tilfreds"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "fuld introduktionstype",
+      "content": "tilfreds"
+    },
+    "DescriptionInfoEditor": {
+      "name": "navn"
+    }
+  }
+}

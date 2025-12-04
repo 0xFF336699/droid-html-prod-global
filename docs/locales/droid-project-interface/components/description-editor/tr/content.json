@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "tip",
+      "text": "metin",
+      "html": "HTML'",
+      "url": "URL'si"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "tek satırlık giriş türü",
+      "content": "içerik"
+    },
+    "SummaryEditor": {
+      "typeLabel": "profil türü",
+      "content": "içerik"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "tam giriş türü",
+      "content": "içerik"
+    },
+    "DescriptionInfoEditor": {
+      "name": "isim"
+    }
+  }
+}

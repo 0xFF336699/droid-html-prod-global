@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "المعلمة المطلوبة مفقودة: الحقل",
+      "entityNotFound": "لم يتم العثور على الكيان المقابل",
+      "entityEmpty": "الكيان فارغ",
+      "unnamed": "لم يذكر اسمه",
+      "unknownField": "نوع حقل غير معروف: {{field}}",
+      "summaryName": "مقدمة",
+      "fullIntroductionName": "مقدمة كاملة",
+      "noContent": "لا يحتوي الكيان على {{fieldName}}",
+      "detail": "تفاصيل"
+    }
+  }
+}

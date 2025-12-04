@@ -1,0 +1,10 @@
+{
+  "content": {
+    "BriefDescriptionDisplay": {
+      "unknownType": "Bilinmeyen içerik türü: {{type}}"
+    },
+    "FullIntroductionDisplay": {
+      "viewDetail": "ayrıntıları kontrol et"
+    }
+  }
+}

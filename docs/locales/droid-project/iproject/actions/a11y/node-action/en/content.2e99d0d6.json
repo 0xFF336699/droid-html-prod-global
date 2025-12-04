@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Node operations",
+      "actionTypeLabel": "Operation type",
+      "ActionType": {
+        "click": "Click",
+        "longClick": "Long press",
+        "scroll": "scroll",
+        "setText": "Set text",
+        "focus": "focus"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Click using global coordinates",
+        "useGlobalClickHintOn": "The coordinates of the node center point will be calculated using the global click method.",
+        "useGlobalClickHintOff": "Directly call the click method of the node",
+        "enableContinuousClickLabel": "Enable continuous clicks",
+        "enableContinuousClickHint": "After enabling, the node will continue to be clicked until the node fails or the project is stopped.",
+        "baseIntervalLabel": "Baseline interval (milliseconds)",
+        "baseIntervalHint": "Baseline time between clicks",
+        "intervalVariationLabel": "Interval fluctuation range (milliseconds)",
+        "intervalVariationHint": "Actual interval = {{baseInterval}} ± {{intervalVariation}} milliseconds"
+      },
+      "ScrollConfig": {
+        "directionLabel": "scroll direction",
+        "directionForward": "scroll forward",
+        "directionBackward": "scroll back"
+      },
+      "SetTextConfig": {
+        "textLabel": "Enter text",
+        "textPlaceholder": "Please enter the text to be set"
+      },
+      "LongClickConfig": {
+        "description": "Long press the node to trigger the long press event"
+      },
+      "FocusConfig": {
+        "description": "Focus the node so that the node gets focus"
+      }
+    }
+  }
+}

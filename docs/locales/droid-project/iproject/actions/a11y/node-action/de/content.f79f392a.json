@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Knotenoperationen",
+      "actionTypeLabel": "Operationstyp",
+      "ActionType": {
+        "click": "Klicken",
+        "longClick": "Lange drücken",
+        "scroll": "scrollen",
+        "setText": "Text festlegen",
+        "focus": "Fokus"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Klicken Sie mit globalen Koordinaten",
+        "useGlobalClickHintOn": "Die Koordinaten des Knotenmittelpunkts werden mithilfe der globalen Klickmethode berechnet.",
+        "useGlobalClickHintOff": "Rufen Sie direkt die Click-Methode des Knotens auf",
+        "enableContinuousClickLabel": "Ermöglichen Sie kontinuierliche Klicks",
+        "enableContinuousClickHint": "Nach der Aktivierung wird weiterhin auf den Knoten geklickt, bis der Knoten ausfällt oder das Projekt gestoppt wird.",
+        "baseIntervalLabel": "Basisintervall (Millisekunden)",
+        "baseIntervalHint": "Basiszeit zwischen Klicks",
+        "intervalVariationLabel": "Intervallschwankungsbereich (Millisekunden)",
+        "intervalVariationHint": "Tatsächliches Intervall = {{baseInterval}} ± {{intervalVariation}} Millisekunden"
+      },
+      "ScrollConfig": {
+        "directionLabel": "Scrollrichtung",
+        "directionForward": "vorwärts scrollen",
+        "directionBackward": "zurückscrollen"
+      },
+      "SetTextConfig": {
+        "textLabel": "Geben Sie Text ein",
+        "textPlaceholder": "Bitte geben Sie den einzustellenden Text ein"
+      },
+      "LongClickConfig": {
+        "description": "Drücken Sie lange auf den Knoten, um das Ereignis „Langes Drücken“ auszulösen"
+      },
+      "FocusConfig": {
+        "description": "Fokussieren Sie den Knoten, sodass der Knoten den Fokus erhält"
+      }
+    }
+  }
+}

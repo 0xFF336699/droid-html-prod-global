@@ -1,0 +1,10 @@
+{
+  "content": {
+    "BriefDescriptionDisplay": {
+      "unknownType": "نوع محتوای ناشناخته: {{type}}"
+    },
+    "FullIntroductionDisplay": {
+      "viewDetail": "جزئیات را بررسی کنید"
+    }
+  }
+}

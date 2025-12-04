@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "Falta parámetro requerido: campo",
+      "entityNotFound": "No se encontró ninguna entidad correspondiente",
+      "entityEmpty": "La entidad está vacía.",
+      "unnamed": "Sin nombre",
+      "unknownField": "Tipo de campo desconocido: {{field}}",
+      "summaryName": "Introducción",
+      "fullIntroductionName": "Introducción completa",
+      "noContent": "La entidad no tiene {{fieldName}}",
+      "detail": "Detalles"
+    }
+  }
+}

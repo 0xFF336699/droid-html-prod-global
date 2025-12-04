@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "Brak wymaganego parametru: pole",
+      "entityNotFound": "Nie znaleziono odpowiedniego podmiotu",
+      "entityEmpty": "Podmiot jest pusty",
+      "unnamed": "Anonimowy",
+      "unknownField": "Nieznany typ pola: {{field}}",
+      "summaryName": "Wstęp",
+      "fullIntroductionName": "Pełne wprowadzenie",
+      "noContent": "Podmiot nie posiada pola {{fieldName}}",
+      "detail": "Bliższe dane"
+    }
+  }
+}

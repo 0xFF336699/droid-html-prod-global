@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "ขาดพารามิเตอร์ที่จำเป็น: ฟิลด์",
+      "entityNotFound": "ไม่พบเอนทิตีที่เกี่ยวข้อง",
+      "entityEmpty": "เอนทิตีว่างเปล่า",
+      "unnamed": "ไม่มีชื่อ",
+      "unknownField": "ประเภทฟิลด์ที่ไม่รู้จัก: {{field}}",
+      "summaryName": "การแนะนำ",
+      "fullIntroductionName": "บทนำแบบเต็ม",
+      "noContent": "เอนทิตีไม่มี {{fieldName}}",
+      "detail": "รายละเอียด"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "प्रकार",
+      "text": "मूलपाठ",
+      "html": "एचटीएमएल",
+      "url": "यूआरएल"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "एक पंक्ति परिचय प्रकार",
+      "content": "सामग्री"
+    },
+    "SummaryEditor": {
+      "typeLabel": "प्रोफ़ाइल प्रकार",
+      "content": "सामग्री"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "पूर्ण परिचय प्रकार",
+      "content": "सामग्री"
+    },
+    "DescriptionInfoEditor": {
+      "name": "नाम"
+    }
+  }
+}

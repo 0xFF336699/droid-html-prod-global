@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Λειτουργίες κόμβων",
+      "actionTypeLabel": "Τύπος λειτουργίας",
+      "ActionType": {
+        "click": "Κλικ",
+        "longClick": "Παρατεταμένο πάτημα",
+        "scroll": "πάπυρος",
+        "setText": "Ορισμός κειμένου",
+        "focus": "εστία"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Κάντε κλικ χρησιμοποιώντας καθολικές συντεταγμένες",
+        "useGlobalClickHintOn": "Οι συντεταγμένες του κεντρικού σημείου του κόμβου θα υπολογιστούν χρησιμοποιώντας τη μέθοδο καθολικού κλικ.",
+        "useGlobalClickHintOff": "Καλέστε απευθείας τη μέθοδο κλικ του κόμβου",
+        "enableContinuousClickLabel": "Ενεργοποίηση συνεχών κλικ",
+        "enableContinuousClickHint": "Μετά την ενεργοποίηση, ο κόμβος θα συνεχίσει να γίνεται κλικ μέχρι να αποτύχει ο κόμβος ή να σταματήσει το έργο.",
+        "baseIntervalLabel": "Διάστημα γραμμής βάσης (χιλιοστά του δευτερολέπτου)",
+        "baseIntervalHint": "Χρόνος βάσης μεταξύ των κλικ",
+        "intervalVariationLabel": "Εύρος διακυμάνσεων διαστήματος (χιλιοστά του δευτερολέπτου)",
+        "intervalVariationHint": "Πραγματικό διάστημα = {{baseInterval}} ± {{intervalVariation}} χιλιοστά του δευτερολέπτου"
+      },
+      "ScrollConfig": {
+        "directionLabel": "κατεύθυνση κύλισης",
+        "directionForward": "κύλιση προς τα εμπρός",
+        "directionBackward": "μετακινηθείτε προς τα πίσω"
+      },
+      "SetTextConfig": {
+        "textLabel": "Εισαγάγετε κείμενο",
+        "textPlaceholder": "Εισαγάγετε το κείμενο που θέλετε να ορίσετε"
+      },
+      "LongClickConfig": {
+        "description": "Πατήστε παρατεταμένα τον κόμβο για να ενεργοποιήσετε το συμβάν παρατεταμένου πατήματος"
+      },
+      "FocusConfig": {
+        "description": "Εστιάστε τον κόμβο έτσι ώστε ο κόμβος να εστιάζει"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "Chybí povinný parametr: pole",
+      "entityNotFound": "Nebyla nalezena žádná odpovídající entita",
+      "entityEmpty": "Entita je prázdná",
+      "unnamed": "Nejmenovaný",
+      "unknownField": "Neznámý typ pole: {{field}}",
+      "summaryName": "Zavedení",
+      "fullIntroductionName": "Úplný úvod",
+      "noContent": "Entita nemá {{fieldName}}",
+      "detail": "Podrobnosti"
+    }
+  }
+}

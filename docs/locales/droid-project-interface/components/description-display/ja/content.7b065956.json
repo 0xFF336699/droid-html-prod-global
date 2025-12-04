@@ -1,0 +1,10 @@
+{
+  "content": {
+    "BriefDescriptionDisplay": {
+      "unknownType": "不明なコンテンツ タイプ: {{type}}"
+    },
+    "FullIntroductionDisplay": {
+      "viewDetail": "詳細を確認する"
+    }
+  }
+}

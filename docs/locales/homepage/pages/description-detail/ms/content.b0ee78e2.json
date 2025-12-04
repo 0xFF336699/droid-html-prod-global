@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "Parameter Hilang yang Diperlukan: Bidang",
+      "entityNotFound": "Tidak ada entiti yang sepadan",
+      "entityEmpty": "Entiti kosong",
+      "unnamed": "Tidak dinamakan",
+      "unknownField": "Jenis medan yang tidak diketahui: {{field}}",
+      "summaryName": "Pengenalan",
+      "fullIntroductionName": "Pengenalan penuh",
+      "noContent": "Entiti tidak mempunyai {{fieldName}}",
+      "detail": "Perincian"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "חסר פרמטר נדרש: שדה",
+      "entityNotFound": "לא נמצאה ישות מתאימה",
+      "entityEmpty": "הישות ריקה",
+      "unnamed": "ללא שם",
+      "unknownField": "סוג שדה לא ידוע: {{field}}",
+      "summaryName": "מָבוֹא",
+      "fullIntroductionName": "הקדמה מלאה",
+      "noContent": "לישות אין את {{fieldName}}",
+      "detail": "פרטים"
+    }
+  }
+}

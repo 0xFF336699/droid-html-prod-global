@@ -1,0 +1,10 @@
+{
+  "content": {
+    "BriefDescriptionDisplay": {
+      "unknownType": "Άγνωστος τύπος περιεχομένου: {{type}}"
+    },
+    "FullIntroductionDisplay": {
+      "viewDetail": "ελέγξτε τις λεπτομέρειες"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Операции с възли",
+      "actionTypeLabel": "Тип операция",
+      "ActionType": {
+        "click": "Кликнете",
+        "longClick": "Продължително натискане",
+        "scroll": "превъртане",
+        "setText": "Задаване на текст",
+        "focus": "фокус"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Щракнете с глобални координати",
+        "useGlobalClickHintOn": "Координатите на централната точка на възела ще бъдат изчислени с помощта на метода на глобалното щракване.",
+        "useGlobalClickHintOff": "Директно извикване на метода за кликване на възела",
+        "enableContinuousClickLabel": "Активиране на непрекъснати кликвания",
+        "enableContinuousClickHint": "След активиране възелът ще продължи да бъде щракван, докато възелът се повреди или проектът бъде спрян.",
+        "baseIntervalLabel": "Базов интервал (милисекунди)",
+        "baseIntervalHint": "Базово време между кликванията",
+        "intervalVariationLabel": "Диапазон на колебание на интервал (милисекунди)",
+        "intervalVariationHint": "Действителен интервал = {{baseInterval}} ± {{intervalVariation}} милисекунди"
+      },
+      "ScrollConfig": {
+        "directionLabel": "посока на превъртане",
+        "directionForward": "превъртете напред",
+        "directionBackward": "превъртете назад"
+      },
+      "SetTextConfig": {
+        "textLabel": "Въведете текст",
+        "textPlaceholder": "Моля, въведете текста за настройка"
+      },
+      "LongClickConfig": {
+        "description": "Натиснете продължително възела, за да задействате събитието дълго натискане"
+      },
+      "FocusConfig": {
+        "description": "Фокусирайте възела, така че възелът да получи фокус"
+      }
+    }
+  }
+}

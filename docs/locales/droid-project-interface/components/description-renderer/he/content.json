@@ -1,0 +1,8 @@
+{
+  "content": {
+    "DescriptionContentRenderer": {
+      "invalidUrl": "כתובת אתר לא חוקית: {{url}}",
+      "unknownType": "סוג תוכן לא ידוע: {{type}}"
+    }
+  }
+}

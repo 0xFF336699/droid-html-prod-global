@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Операције чворова",
+      "actionTypeLabel": "Врста операције",
+      "ActionType": {
+        "click": "Кликните",
+        "longClick": "Дуги притисак",
+        "scroll": "скроловати",
+        "setText": "Подесите текст",
+        "focus": "фокус"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Кликните користећи глобалне координате",
+        "useGlobalClickHintOn": "Координате централне тачке чвора ће се израчунати коришћењем методе глобалног клика.",
+        "useGlobalClickHintOff": "Директно позовите метод клика чвора",
+        "enableContinuousClickLabel": "Омогућите непрекидне кликове",
+        "enableContinuousClickHint": "Након омогућавања, чвор ће наставити да се кликће све док чвор не успе или се пројекат не заустави.",
+        "baseIntervalLabel": "Основни интервал (милисекунде)",
+        "baseIntervalHint": "Основно време између кликова",
+        "intervalVariationLabel": "Опсег флуктуације интервала (милисекунде)",
+        "intervalVariationHint": "Стварни интервал = {{басеИнтервал}} ± {{интервалВариатион}} милисекунди"
+      },
+      "ScrollConfig": {
+        "directionLabel": "смер скроловања",
+        "directionForward": "скролујте напред",
+        "directionBackward": "скролујте назад"
+      },
+      "SetTextConfig": {
+        "textLabel": "Унесите текст",
+        "textPlaceholder": "Унесите текст који желите да подесите"
+      },
+      "LongClickConfig": {
+        "description": "Дуго притисните чвор да бисте покренули догађај дугог притиска"
+      },
+      "FocusConfig": {
+        "description": "Фокусирајте чвор тако да чвор добије фокус"
+      }
+    }
+  }
+}

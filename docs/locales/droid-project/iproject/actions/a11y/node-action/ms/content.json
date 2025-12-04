@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Operasi nod",
+      "actionTypeLabel": "Jenis operasi",
+      "ActionType": {
+        "click": "Klik",
+        "longClick": "Tekan panjang",
+        "scroll": "tatal",
+        "setText": "Tetapkan teks",
+        "focus": "Fokus"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Klik menggunakan koordinat global",
+        "useGlobalClickHintOn": "Koordinat titik pusat nod akan dikira menggunakan kaedah klik global.",
+        "useGlobalClickHintOff": "Terus hubungi kaedah klik nod",
+        "enableContinuousClickLabel": "Dayakan klik berterusan",
+        "enableContinuousClickHint": "Selepas membolehkan, nod akan terus diklik sehingga nod gagal atau projek dihentikan.",
+        "baseIntervalLabel": "Selang baseline (milisaat)",
+        "baseIntervalHint": "Masa asas antara klik",
+        "intervalVariationLabel": "Julat turun naik selang (milisaat)",
+        "intervalVariationHint": "Interval sebenar = {{baseInterval}} ± {{intervalvariation}} milisaat"
+      },
+      "ScrollConfig": {
+        "directionLabel": "arah tatal",
+        "directionForward": "tatal ke hadapan",
+        "directionBackward": "Tatal ke belakang"
+      },
+      "SetTextConfig": {
+        "textLabel": "Masukkan teks",
+        "textPlaceholder": "Sila masukkan teks yang akan ditetapkan"
+      },
+      "LongClickConfig": {
+        "description": "Lama tekan nod untuk mencetuskan acara akhbar panjang"
+      },
+      "FocusConfig": {
+        "description": "Fokus nod supaya nod menjadi tumpuan"
+      }
+    }
+  }
+}

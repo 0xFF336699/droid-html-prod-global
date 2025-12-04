@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Hoạt động nút",
+      "actionTypeLabel": "Loại hoạt động",
+      "ActionType": {
+        "click": "nhấp chuột",
+        "longClick": "Nhấn và giữ",
+        "scroll": "cuộn",
+        "setText": "Đặt văn bản",
+        "focus": "tập trung"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Nhấp vào sử dụng tọa độ chung",
+        "useGlobalClickHintOn": "Tọa độ của điểm trung tâm nút sẽ được tính bằng phương pháp nhấp chuột chung.",
+        "useGlobalClickHintOff": "Gọi trực tiếp phương thức nhấp chuột của nút",
+        "enableContinuousClickLabel": "Cho phép nhấp chuột liên tục",
+        "enableContinuousClickHint": "Sau khi kích hoạt, nút sẽ tiếp tục được nhấp cho đến khi nút bị lỗi hoặc dự án bị dừng.",
+        "baseIntervalLabel": "Khoảng thời gian cơ bản (mili giây)",
+        "baseIntervalHint": "Thời gian cơ bản giữa các lần nhấp chuột",
+        "intervalVariationLabel": "Phạm vi dao động theo khoảng thời gian (mili giây)",
+        "intervalVariationHint": "Khoảng thời gian thực tế = {{baseInterval}} ± {{intervalVariation}} mili giây"
+      },
+      "ScrollConfig": {
+        "directionLabel": "hướng cuộn",
+        "directionForward": "cuộn về phía trước",
+        "directionBackward": "cuộn lại"
+      },
+      "SetTextConfig": {
+        "textLabel": "Nhập văn bản",
+        "textPlaceholder": "Vui lòng nhập nội dung cần thiết lập"
+      },
+      "LongClickConfig": {
+        "description": "Nhấn và giữ nút để kích hoạt sự kiện nhấn và giữ"
+      },
+      "FocusConfig": {
+        "description": "Tập trung vào nút để nút được lấy nét"
+      }
+    }
+  }
+}

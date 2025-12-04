@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "tip",
+      "text": "text",
+      "html": "HTML",
+      "url": "URL"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "tip de introducere pe o linie",
+      "content": "conţinut"
+    },
+    "SummaryEditor": {
+      "typeLabel": "tip de profil",
+      "content": "conţinut"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "tip de introducere completă",
+      "content": "conţinut"
+    },
+    "DescriptionInfoEditor": {
+      "name": "nume"
+    }
+  }
+}

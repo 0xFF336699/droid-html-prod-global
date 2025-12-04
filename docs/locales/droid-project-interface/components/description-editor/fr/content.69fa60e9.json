@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "taper",
+      "text": "texte",
+      "html": "HTML",
+      "url": "URL"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "type d'introduction sur une ligne",
+      "content": "contenu"
+    },
+    "SummaryEditor": {
+      "typeLabel": "type de profil",
+      "content": "contenu"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "type d'introduction complète",
+      "content": "contenu"
+    },
+    "DescriptionInfoEditor": {
+      "name": "nom"
+    }
+  }
+}

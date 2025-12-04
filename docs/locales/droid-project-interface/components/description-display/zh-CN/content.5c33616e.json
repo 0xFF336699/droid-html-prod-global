@@ -1,0 +1,10 @@
+{
+  "content": {
+    "BriefDescriptionDisplay": {
+      "unknownType": "未知的内容类型: {{type}}"
+    },
+    "FullIntroductionDisplay": {
+      "viewDetail": "查看详情"
+    }
+  }
+}

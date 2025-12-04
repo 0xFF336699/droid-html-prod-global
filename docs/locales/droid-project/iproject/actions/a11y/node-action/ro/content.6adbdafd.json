@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Operații cu noduri",
+      "actionTypeLabel": "Tipul operațiunii",
+      "ActionType": {
+        "click": "Clic",
+        "longClick": "Apăsare lungă",
+        "scroll": "parcurge",
+        "setText": "Setați textul",
+        "focus": "se concentreze"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Faceți clic folosind coordonatele globale",
+        "useGlobalClickHintOn": "Coordonatele punctului central al nodului vor fi calculate folosind metoda clicului global.",
+        "useGlobalClickHintOff": "Apelați direct metoda de clic a nodului",
+        "enableContinuousClickLabel": "Activați clicurile continue",
+        "enableContinuousClickHint": "După activare, nodul va continua să fie făcut clic până când nodul eșuează sau proiectul este oprit.",
+        "baseIntervalLabel": "Interval de referință (milisecunde)",
+        "baseIntervalHint": "Timp de referință între clicuri",
+        "intervalVariationLabel": "Interval de fluctuație a intervalului (milisecunde)",
+        "intervalVariationHint": "Interval real = {{baseInterval}} ± {{intervalVariation}} milisecunde"
+      },
+      "ScrollConfig": {
+        "directionLabel": "direcția derulării",
+        "directionForward": "derulați înainte",
+        "directionBackward": "derulați înapoi"
+      },
+      "SetTextConfig": {
+        "textLabel": "Introduceți text",
+        "textPlaceholder": "Vă rugăm să introduceți textul de setat"
+      },
+      "LongClickConfig": {
+        "description": "Apăsați lung nodul pentru a declanșa evenimentul de apăsare lungă"
+      },
+      "FocusConfig": {
+        "description": "Focalizează nodul astfel încât nodul să se concentreze"
+      }
+    }
+  }
+}

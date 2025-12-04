@@ -1,0 +1,10 @@
+{
+  "content": {
+    "BriefDescriptionDisplay": {
+      "unknownType": "Jenis Kandungan Tidak Dikenal: {{type}}"
+    },
+    "FullIntroductionDisplay": {
+      "viewDetail": "Semak butirannya"
+    }
+  }
+}

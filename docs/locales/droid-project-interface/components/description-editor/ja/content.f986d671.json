@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "タイプ",
+      "text": "文章",
+      "html": "HTML",
+      "url": "URL"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "一行導入タイプ",
+      "content": "コンテンツ"
+    },
+    "SummaryEditor": {
+      "typeLabel": "プロファイルタイプ",
+      "content": "コンテンツ"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "完全導入型",
+      "content": "コンテンツ"
+    },
+    "DescriptionInfoEditor": {
+      "name": "名前"
+    }
+  }
+}

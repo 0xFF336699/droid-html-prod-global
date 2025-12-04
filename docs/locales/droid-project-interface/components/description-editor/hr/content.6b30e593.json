@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "tip",
+      "text": "tekst",
+      "html": "HTML",
+      "url": "URL"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "jednolinijski uvodni tip",
+      "content": "sadržaj"
+    },
+    "SummaryEditor": {
+      "typeLabel": "vrsta profila",
+      "content": "sadržaj"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "puni uvodni tip",
+      "content": "sadržaj"
+    },
+    "DescriptionInfoEditor": {
+      "name": "ime"
+    }
+  }
+}

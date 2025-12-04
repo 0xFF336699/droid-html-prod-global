@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "Lipsește parametrul obligatoriu: câmp",
+      "entityNotFound": "Nu a fost găsită nicio entitate corespunzătoare",
+      "entityEmpty": "Entitatea este goală",
+      "unnamed": "Anonim",
+      "unknownField": "Tip de câmp necunoscut: {{field}}",
+      "summaryName": "Introducere",
+      "fullIntroductionName": "Introducere completă",
+      "noContent": "Entitatea nu are {{fieldName}}",
+      "detail": "Detalii"
+    }
+  }
+}

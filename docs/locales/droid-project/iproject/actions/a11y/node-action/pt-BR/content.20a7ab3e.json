@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Operações de nó",
+      "actionTypeLabel": "Tipo de operação",
+      "ActionType": {
+        "click": "Clique",
+        "longClick": "Pressão longa",
+        "scroll": "rolar",
+        "setText": "Definir texto",
+        "focus": "foco"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Clique usando coordenadas globais",
+        "useGlobalClickHintOn": "As coordenadas do ponto central do nó serão calculadas usando o método de clique global.",
+        "useGlobalClickHintOff": "Chame diretamente o método click do nó",
+        "enableContinuousClickLabel": "Habilite cliques contínuos",
+        "enableContinuousClickHint": "Após a ativação, o nó continuará a ser clicado até que falhe ou o projeto seja interrompido.",
+        "baseIntervalLabel": "Intervalo da linha de base (milissegundos)",
+        "baseIntervalHint": "Tempo de referência entre cliques",
+        "intervalVariationLabel": "Faixa de flutuação de intervalo (milissegundos)",
+        "intervalVariationHint": "Intervalo real = {{baseInterval}} ± {{intervalVariation}} milissegundos"
+      },
+      "ScrollConfig": {
+        "directionLabel": "direção de rolagem",
+        "directionForward": "rolar para frente",
+        "directionBackward": "rolar para trás"
+      },
+      "SetTextConfig": {
+        "textLabel": "Insira o texto",
+        "textPlaceholder": "Por favor insira o texto a ser definido"
+      },
+      "LongClickConfig": {
+        "description": "Pressione longamente o nó para acionar o evento de pressão longa"
+      },
+      "FocusConfig": {
+        "description": "Foque o nó para que ele receba o foco"
+      }
+    }
+  }
+}

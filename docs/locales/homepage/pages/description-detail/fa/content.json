@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "پارامتر مورد نیاز وجود ندارد: فیلد",
+      "entityNotFound": "هیچ نهاد مربوطه یافت نشد",
+      "entityEmpty": "موجودیت خالی است",
+      "unnamed": "بی نام",
+      "unknownField": "نوع فیلد ناشناخته: {{field}}",
+      "summaryName": "مقدمه",
+      "fullIntroductionName": "معرفی کامل",
+      "noContent": "موجودیت {{fieldName}} ندارد",
+      "detail": "جزئیات"
+    }
+  }
+}

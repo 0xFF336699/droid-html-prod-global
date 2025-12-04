@@ -1,0 +1,8 @@
+{
+  "content": {
+    "DescriptionContentRenderer": {
+      "invalidUrl": "無効な URL: {{url}}",
+      "unknownType": "不明なコンテンツ タイプ: {{type}}"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "Відсутній обов’язковий параметр: поле",
+      "entityNotFound": "Відповідна сутність не знайдена",
+      "entityEmpty": "Сутність порожня",
+      "unnamed": "Без назви",
+      "unknownField": "Невідомий тип поля: {{field}}",
+      "summaryName": "вступ",
+      "fullIntroductionName": "Повний вступ",
+      "noContent": "Об’єкт не має {{fieldName}}",
+      "detail": "Подробиці"
+    }
+  }
+}

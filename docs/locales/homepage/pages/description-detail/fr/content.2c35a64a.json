@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "Paramètre obligatoire manquant : champ",
+      "entityNotFound": "Aucune entité correspondante trouvée",
+      "entityEmpty": "L'entité est vide",
+      "unnamed": "Anonyme",
+      "unknownField": "Type de champ inconnu : {{field}}",
+      "summaryName": "Introduction",
+      "fullIntroductionName": "Présentation complète",
+      "noContent": "L'entité n'a pas {{fieldName}}",
+      "detail": "Détails"
+    }
+  }
+}

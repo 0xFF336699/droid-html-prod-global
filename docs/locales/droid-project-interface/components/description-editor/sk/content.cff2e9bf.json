@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "typu",
+      "text": "text",
+      "html": "HTML",
+      "url": "URL"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "jednoriadkový úvodný typ",
+      "content": "obsahu"
+    },
+    "SummaryEditor": {
+      "typeLabel": "typ profilu",
+      "content": "obsahu"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "úplný úvodný typ",
+      "content": "obsahu"
+    },
+    "DescriptionInfoEditor": {
+      "name": "meno"
+    }
+  }
+}

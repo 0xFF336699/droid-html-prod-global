@@ -1,0 +1,10 @@
+{
+  "content": {
+    "BriefDescriptionDisplay": {
+      "unknownType": "Tip de conținut necunoscut: {{type}}"
+    },
+    "FullIntroductionDisplay": {
+      "viewDetail": "verifica detaliile"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "Thiếu tham số bắt buộc: trường",
+      "entityNotFound": "Không tìm thấy thực thể tương ứng",
+      "entityEmpty": "Thực thể trống",
+      "unnamed": "Vô danh",
+      "unknownField": "Loại trường không xác định: {{field}}",
+      "summaryName": "Giới thiệu",
+      "fullIntroductionName": "Giới thiệu đầy đủ",
+      "noContent": "Thực thể không có {{fieldName}}",
+      "detail": "Chi tiết"
+    }
+  }
+}

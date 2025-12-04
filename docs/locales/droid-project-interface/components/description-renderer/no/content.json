@@ -1,0 +1,8 @@
+{
+  "content": {
+    "DescriptionContentRenderer": {
+      "invalidUrl": "Ugyldig nettadresse: {{url}}",
+      "unknownType": "Ukjent innholdstype: {{type}}"
+    }
+  }
+}

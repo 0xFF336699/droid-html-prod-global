@@ -1,0 +1,10 @@
+{
+  "content": {
+    "BriefDescriptionDisplay": {
+      "unknownType": "Tipo de conteúdo desconhecido: {{type}}"
+    },
+    "FullIntroductionDisplay": {
+      "viewDetail": "verifique os detalhes"
+    }
+  }
+}

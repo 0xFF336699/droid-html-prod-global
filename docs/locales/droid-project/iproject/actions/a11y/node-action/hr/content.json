@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Operacije čvorova",
+      "actionTypeLabel": "Vrsta operacije",
+      "ActionType": {
+        "click": "Klik",
+        "longClick": "Dugi pritisak",
+        "scroll": "svitak",
+        "setText": "Postavite tekst",
+        "focus": "fokus"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Kliknite koristeći globalne koordinate",
+        "useGlobalClickHintOn": "Koordinate središnje točke čvora izračunat će se metodom globalnog klika.",
+        "useGlobalClickHintOff": "Izravno pozovite metodu klika čvora",
+        "enableContinuousClickLabel": "Omogućite kontinuirane klikove",
+        "enableContinuousClickHint": "Nakon omogućavanja, na čvor će se nastaviti klikati sve dok čvor ne otkaže ili se projekt zaustavi.",
+        "baseIntervalLabel": "Osnovni interval (milisekunde)",
+        "baseIntervalHint": "Osnovno vrijeme između klikova",
+        "intervalVariationLabel": "Raspon fluktuacije intervala (milisekunde)",
+        "intervalVariationHint": "Stvarni interval = {{baseInterval}} ± {{intervalVariation}} milisekundi"
+      },
+      "ScrollConfig": {
+        "directionLabel": "smjer pomicanja",
+        "directionForward": "pomaknite se naprijed",
+        "directionBackward": "pomakni se natrag"
+      },
+      "SetTextConfig": {
+        "textLabel": "Unesite tekst",
+        "textPlaceholder": "Unesite tekst koji želite postaviti"
+      },
+      "LongClickConfig": {
+        "description": "Dugi pritisak na čvor za pokretanje događaja dugog pritiska"
+      },
+      "FocusConfig": {
+        "description": "Fokusirajte čvor tako da čvor dobije fokus"
+      }
+    }
+  }
+}

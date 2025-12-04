@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Operacje węzłowe",
+      "actionTypeLabel": "Typ operacji",
+      "ActionType": {
+        "click": "Trzask",
+        "longClick": "Długie naciśnięcie",
+        "scroll": "zwój",
+        "setText": "Ustaw tekst",
+        "focus": "centrum"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Kliknij, używając współrzędnych globalnych",
+        "useGlobalClickHintOn": "Współrzędne punktu środkowego węzła zostaną obliczone przy użyciu metody globalnego kliknięcia.",
+        "useGlobalClickHintOff": "Bezpośrednio wywołaj metodę kliknięcia węzła",
+        "enableContinuousClickLabel": "Włącz ciągłe kliknięcia",
+        "enableContinuousClickHint": "Po włączeniu węzeł będzie nadal klikany, aż do jego awarii lub zatrzymania projektu.",
+        "baseIntervalLabel": "Interwał bazowy (milisekundy)",
+        "baseIntervalHint": "Bazowy czas między kliknięciami",
+        "intervalVariationLabel": "Zakres wahań interwałowych (milisekundy)",
+        "intervalVariationHint": "Rzeczywisty interwał = {{baseInterval}} ± {{intervalVariation}} milisekund"
+      },
+      "ScrollConfig": {
+        "directionLabel": "kierunek przewijania",
+        "directionForward": "przewiń do przodu",
+        "directionBackward": "przewiń wstecz"
+      },
+      "SetTextConfig": {
+        "textLabel": "Wpisz tekst",
+        "textPlaceholder": "Proszę wpisać tekst, który ma zostać ustawiony"
+      },
+      "LongClickConfig": {
+        "description": "Naciśnij i przytrzymaj węzeł, aby wywołać zdarzenie długiego naciśnięcia"
+      },
+      "FocusConfig": {
+        "description": "Skoncentruj węzeł, aby węzeł stał się aktywny"
+      }
+    }
+  }
+}

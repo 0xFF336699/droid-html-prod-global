@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "Pakollinen parametri puuttuu: kenttä",
+      "entityNotFound": "Vastaavaa kokonaisuutta ei löytynyt",
+      "entityEmpty": "Entiteetti on tyhjä",
+      "unnamed": "Nimetön",
+      "unknownField": "Tuntematon kenttätyyppi: {{field}}",
+      "summaryName": "Johdanto",
+      "fullIntroductionName": "Täysi esittely",
+      "noContent": "Entiteetillä ei ole {{fieldName}}",
+      "detail": "Yksityiskohdat"
+    }
+  }
+}

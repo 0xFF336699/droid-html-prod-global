@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "Ontbrekende vereiste parameter: veld",
+      "entityNotFound": "Geen overeenkomstige entiteit gevonden",
+      "entityEmpty": "Entiteit is leeg",
+      "unnamed": "Naamloos",
+      "unknownField": "Onbekend veldtype: {{field}}",
+      "summaryName": "Invoering",
+      "fullIntroductionName": "Volledige introductie",
+      "noContent": "De entiteit heeft geen {{fieldName}}",
+      "detail": "Details"
+    }
+  }
+}

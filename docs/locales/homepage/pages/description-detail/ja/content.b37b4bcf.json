@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "必須パラメータが欠落しています: フィールド",
+      "entityNotFound": "対応するエンティティが見つかりません",
+      "entityEmpty": "エンティティは空です",
+      "unnamed": "無名",
+      "unknownField": "不明なフィールド タイプ: {{field}}",
+      "summaryName": "導入",
+      "fullIntroductionName": "完全な紹介",
+      "noContent": "エンティティには {{fieldName}} がありません",
+      "detail": "詳細"
+    }
+  }
+}

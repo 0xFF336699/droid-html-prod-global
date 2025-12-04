@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Solmutoiminnot",
+      "actionTypeLabel": "Toiminnan tyyppi",
+      "ActionType": {
+        "click": "Napsauta",
+        "longClick": "Pitkä painallus",
+        "scroll": "rullaa",
+        "setText": "Aseta teksti",
+        "focus": "keskittyä"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Napsauta käyttämällä globaaleja koordinaatteja",
+        "useGlobalClickHintOn": "Solmun keskipisteen koordinaatit lasketaan yleisellä napsautusmenetelmällä.",
+        "useGlobalClickHintOff": "Kutsu suoraan solmun napsautusmenetelmää",
+        "enableContinuousClickLabel": "Ota jatkuvat napsautukset käyttöön",
+        "enableContinuousClickHint": "Aktivoinnin jälkeen solmun napsauttamista jatketaan, kunnes solmu epäonnistuu tai projekti pysäytetään.",
+        "baseIntervalLabel": "Perustason intervalli (millisekuntia)",
+        "baseIntervalHint": "Napsautusten välinen perusaika",
+        "intervalVariationLabel": "Intervallivaihtelualue (millisekuntia)",
+        "intervalVariationHint": "Todellinen aikaväli = {{baseInterval}} ± {{intervalVariation}} millisekuntia"
+      },
+      "ScrollConfig": {
+        "directionLabel": "vierityssuunta",
+        "directionForward": "vieritä eteenpäin",
+        "directionBackward": "vieritä taaksepäin"
+      },
+      "SetTextConfig": {
+        "textLabel": "Kirjoita teksti",
+        "textPlaceholder": "Kirjoita asetettava teksti"
+      },
+      "LongClickConfig": {
+        "description": "Paina solmua pitkään käynnistääksesi pitkän painalluksen tapahtuman"
+      },
+      "FocusConfig": {
+        "description": "Tarkenna solmu niin, että solmu saa tarkennuksen"
+      }
+    }
+  }
+}

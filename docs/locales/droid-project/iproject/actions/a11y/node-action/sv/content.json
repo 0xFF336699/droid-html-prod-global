@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Nodoperationer",
+      "actionTypeLabel": "Operationstyp",
+      "ActionType": {
+        "click": "Klick",
+        "longClick": "Långt tryck",
+        "scroll": "rulla",
+        "setText": "Ställ in text",
+        "focus": "fokus"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Klicka med globala koordinater",
+        "useGlobalClickHintOn": "Koordinaterna för nodens mittpunkt kommer att beräknas med den globala klickmetoden.",
+        "useGlobalClickHintOff": "Anropa klickmetoden för noden direkt",
+        "enableContinuousClickLabel": "Aktivera kontinuerliga klick",
+        "enableContinuousClickHint": "Efter aktivering kommer noden att fortsätta att klickas på tills noden misslyckas eller projektet stoppas.",
+        "baseIntervalLabel": "Baslinjeintervall (millisekunder)",
+        "baseIntervalHint": "Baslinjetid mellan klick",
+        "intervalVariationLabel": "Intervallfluktuationsintervall (millisekunder)",
+        "intervalVariationHint": "Faktiskt intervall = {{baseInterval}} ± {{intervalVariation}} millisekunder"
+      },
+      "ScrollConfig": {
+        "directionLabel": "rullningsriktning",
+        "directionForward": "scrolla framåt",
+        "directionBackward": "bläddra tillbaka"
+      },
+      "SetTextConfig": {
+        "textLabel": "Skriv in text",
+        "textPlaceholder": "Ange texten som ska ställas in"
+      },
+      "LongClickConfig": {
+        "description": "Tryck länge på noden för att utlösa den långa presshändelsen"
+      },
+      "FocusConfig": {
+        "description": "Fokusera noden så att noden får fokus"
+      }
+    }
+  }
+}

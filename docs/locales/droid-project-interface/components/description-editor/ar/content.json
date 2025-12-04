@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "يكتب",
+      "text": "نص",
+      "html": "HTML",
+      "url": "عنوان URL"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "نوع مقدمة سطر واحد",
+      "content": "محتوى"
+    },
+    "SummaryEditor": {
+      "typeLabel": "نوع الملف الشخصي",
+      "content": "محتوى"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "نوع المقدمة الكاملة",
+      "content": "محتوى"
+    },
+    "DescriptionInfoEditor": {
+      "name": "اسم"
+    }
+  }
+}

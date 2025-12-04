@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "Отсутствует обязательный параметр: поле",
+      "entityNotFound": "Соответствующая сущность не найдена",
+      "entityEmpty": "Объект пуст",
+      "unnamed": "Безымянный",
+      "unknownField": "Неизвестный тип поля: {{field}}",
+      "summaryName": "Введение",
+      "fullIntroductionName": "Полное введение",
+      "noContent": "У объекта нет {{fieldName}}.",
+      "detail": "Подробности"
+    }
+  }
+}

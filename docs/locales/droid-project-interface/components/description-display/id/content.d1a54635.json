@@ -1,0 +1,10 @@
+{
+  "content": {
+    "BriefDescriptionDisplay": {
+      "unknownType": "Jenis konten tidak diketahui: {{type}}"
+    },
+    "FullIntroductionDisplay": {
+      "viewDetail": "periksa detailnya"
+    }
+  }
+}

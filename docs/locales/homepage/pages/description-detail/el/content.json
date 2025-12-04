@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "Λείπει η απαιτούμενη παράμετρος: πεδίο",
+      "entityNotFound": "Δεν βρέθηκε αντίστοιχη οντότητα",
+      "entityEmpty": "Η οντότητα είναι κενή",
+      "unnamed": "Ανώνυμος",
+      "unknownField": "Άγνωστος τύπος πεδίου: {{field}}",
+      "summaryName": "Εισαγωγή",
+      "fullIntroductionName": "Πλήρης εισαγωγή",
+      "noContent": "Η οντότητα δεν έχει {{fieldName}}",
+      "detail": "Καθέκαστα"
+    }
+  }
+}

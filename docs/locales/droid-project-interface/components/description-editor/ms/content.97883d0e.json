@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "Jenis",
+      "text": "teks",
+      "html": "Html",
+      "url": "Url"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "Jenis Pengenalan Satu Baris",
+      "content": "kandungan"
+    },
+    "SummaryEditor": {
+      "typeLabel": "Jenis Profil",
+      "content": "kandungan"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "Jenis Pengenalan Penuh",
+      "content": "kandungan"
+    },
+    "DescriptionInfoEditor": {
+      "name": "nama"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "Hiányzó kötelező paraméter: mező",
+      "entityNotFound": "Nem található megfelelő entitás",
+      "entityEmpty": "Az entitás üres",
+      "unnamed": "Névtelen",
+      "unknownField": "Ismeretlen mezőtípus: {{field}}",
+      "summaryName": "Bevezetés",
+      "fullIntroductionName": "Teljes bemutatkozás",
+      "noContent": "Az entitásnak nincs {{fieldName}}",
+      "detail": "Részletek"
+    }
+  }
+}

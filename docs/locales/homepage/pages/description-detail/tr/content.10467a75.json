@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "Gerekli parametre eksik: alan",
+      "entityNotFound": "İlgili varlık bulunamadı",
+      "entityEmpty": "Varlık boş",
+      "unnamed": "İsimsiz",
+      "unknownField": "Bilinmeyen alan türü: {{field}}",
+      "summaryName": "giriiş",
+      "fullIntroductionName": "Tam giriş",
+      "noContent": "Varlıkta {{fieldName}} yok",
+      "detail": "Detaylar"
+    }
+  }
+}

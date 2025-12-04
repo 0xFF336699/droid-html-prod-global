@@ -1,0 +1,10 @@
+{
+  "content": {
+    "BriefDescriptionDisplay": {
+      "unknownType": "Tuntematon sisältötyyppi: {{tyyppi}}"
+    },
+    "FullIntroductionDisplay": {
+      "viewDetail": "tarkista yksityiskohdat"
+    }
+  }
+}

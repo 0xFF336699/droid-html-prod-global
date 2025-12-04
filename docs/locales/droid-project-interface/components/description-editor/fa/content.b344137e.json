@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "نوع",
+      "text": "متن",
+      "html": "HTML",
+      "url": "URL"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "نوع معرفی یک خطی",
+      "content": "محتوا"
+    },
+    "SummaryEditor": {
+      "typeLabel": "نوع پروفایل",
+      "content": "محتوا"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "نوع معرفی کامل",
+      "content": "محتوا"
+    },
+    "DescriptionInfoEditor": {
+      "name": "نام"
+    }
+  }
+}

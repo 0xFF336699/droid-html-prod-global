@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Node operationer",
+      "actionTypeLabel": "Operationstype",
+      "ActionType": {
+        "click": "Klik",
+        "longClick": "Langt tryk",
+        "scroll": "rulle",
+        "setText": "Indstil tekst",
+        "focus": "fokus"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Klik ved hjælp af globale koordinater",
+        "useGlobalClickHintOn": "Koordinaterne for knudepunktets midtpunkt vil blive beregnet ved hjælp af den globale klikmetode.",
+        "useGlobalClickHintOff": "Kald direkte klikmetoden for noden",
+        "enableContinuousClickLabel": "Aktiver kontinuerlige klik",
+        "enableContinuousClickHint": "Efter aktivering fortsætter der med at klikke på noden, indtil noden fejler, eller projektet stoppes.",
+        "baseIntervalLabel": "Basislinjeinterval (millisekunder)",
+        "baseIntervalHint": "Basistid mellem klik",
+        "intervalVariationLabel": "Intervaludsvingsområde (millisekunder)",
+        "intervalVariationHint": "Faktisk interval = {{baseInterval}} ± {{intervalVariation}} millisekunder"
+      },
+      "ScrollConfig": {
+        "directionLabel": "rulle retning",
+        "directionForward": "rulle frem",
+        "directionBackward": "scroll tilbage"
+      },
+      "SetTextConfig": {
+        "textLabel": "Indtast tekst",
+        "textPlaceholder": "Indtast venligst den tekst, der skal indstilles"
+      },
+      "LongClickConfig": {
+        "description": "Tryk længe på noden for at udløse den lange trykbegivenhed"
+      },
+      "FocusConfig": {
+        "description": "Fokusér noden, så noden får fokus"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "content": {
+    "BriefDescriptionDisplay": {
+      "unknownType": "Loại nội dung không xác định: {{type}}"
+    },
+    "FullIntroductionDisplay": {
+      "viewDetail": "kiểm tra chi tiết"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "content": {
+    "BriefDescriptionDisplay": {
+      "unknownType": "Nepoznata vrsta sadržaja: {{type}}"
+    },
+    "FullIntroductionDisplay": {
+      "viewDetail": "provjerite detalje"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "סוּג",
+      "text": "טֶקסט",
+      "html": "HTML",
+      "url": "כתובת אתר"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "סוג הקדמה בשורה אחת",
+      "content": "תוֹכֶן"
+    },
+    "SummaryEditor": {
+      "typeLabel": "סוג פרופיל",
+      "content": "תוֹכֶן"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "סוג מבוא מלא",
+      "content": "תוֹכֶן"
+    },
+    "DescriptionInfoEditor": {
+      "name": "שֵׁם"
+    }
+  }
+}

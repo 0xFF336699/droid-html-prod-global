@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "Недостаје обавезни параметар: поље",
+      "entityNotFound": "Није пронађен одговарајући ентитет",
+      "entityEmpty": "Ентитет је празан",
+      "unnamed": "Уннамед",
+      "unknownField": "Непознат тип поља: {{фиелд}}",
+      "summaryName": "Увод",
+      "fullIntroductionName": "Потпуни увод",
+      "noContent": "Ентитет нема {{фиелдНаме}}",
+      "detail": "Детаљи"
+    }
+  }
+}

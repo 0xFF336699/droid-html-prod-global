@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "Nedostaje obavezni parametar: polje",
+      "entityNotFound": "Nije pronađen odgovarajući entitet",
+      "entityEmpty": "Entitet je prazan",
+      "unnamed": "Neimenovano",
+      "unknownField": "Nepoznata vrsta polja: {{field}}",
+      "summaryName": "Uvod",
+      "fullIntroductionName": "Potpuni uvod",
+      "noContent": "Entitet nema {{fieldName}}",
+      "detail": "pojedinosti"
+    }
+  }
+}

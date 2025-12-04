@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "kiểu",
+      "text": "chữ",
+      "html": "HTML",
+      "url": "URL"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "kiểu giới thiệu một dòng",
+      "content": "nội dung"
+    },
+    "SummaryEditor": {
+      "typeLabel": "loại hồ sơ",
+      "content": "nội dung"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "kiểu giới thiệu đầy đủ",
+      "content": "nội dung"
+    },
+    "DescriptionInfoEditor": {
+      "name": "tên"
+    }
+  }
+}

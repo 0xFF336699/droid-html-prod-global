@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "τύπος",
+      "text": "κείμενο",
+      "html": "HTML",
+      "url": "URL"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "τύπος εισαγωγής μιας γραμμής",
+      "content": "περιεχόμενο"
+    },
+    "SummaryEditor": {
+      "typeLabel": "τύπος προφίλ",
+      "content": "περιεχόμενο"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "πλήρης τύπος εισαγωγής",
+      "content": "περιεχόμενο"
+    },
+    "DescriptionInfoEditor": {
+      "name": "όνομα"
+    }
+  }
+}

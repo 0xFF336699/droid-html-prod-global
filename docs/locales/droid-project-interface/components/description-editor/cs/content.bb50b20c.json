@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "typ",
+      "text": "text",
+      "html": "HTML",
+      "url": "URL"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "typ zavedení jednoho řádku",
+      "content": "obsah"
+    },
+    "SummaryEditor": {
+      "typeLabel": "typ profilu",
+      "content": "obsah"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "úplný úvodní typ",
+      "content": "obsah"
+    },
+    "DescriptionInfoEditor": {
+      "name": "jméno"
+    }
+  }
+}

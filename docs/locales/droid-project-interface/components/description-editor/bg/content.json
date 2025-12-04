@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "тип",
+      "text": "текст",
+      "html": "HTML",
+      "url": "URL адрес"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "тип въвеждане на един ред",
+      "content": "съдържание"
+    },
+    "SummaryEditor": {
+      "typeLabel": "тип профил",
+      "content": "съдържание"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "тип пълно въведение",
+      "content": "съдържание"
+    },
+    "DescriptionInfoEditor": {
+      "name": "име"
+    }
+  }
+}

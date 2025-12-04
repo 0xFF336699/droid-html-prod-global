@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "Липсва задължителен параметър: поле",
+      "entityNotFound": "Не е намерен съответстващ обект",
+      "entityEmpty": "Обектът е празен",
+      "unnamed": "Без име",
+      "unknownField": "Неизвестен тип поле: {{field}}",
+      "summaryName": "Въведение",
+      "fullIntroductionName": "Пълно въведение",
+      "noContent": "Обектът няма {{fieldName}}",
+      "detail": "Подробности"
+    }
+  }
+}

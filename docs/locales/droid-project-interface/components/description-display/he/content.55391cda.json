@@ -1,0 +1,10 @@
+{
+  "content": {
+    "BriefDescriptionDisplay": {
+      "unknownType": "סוג תוכן לא ידוע: {{type}}"
+    },
+    "FullIntroductionDisplay": {
+      "viewDetail": "לבדוק את הפרטים"
+    }
+  }
+}

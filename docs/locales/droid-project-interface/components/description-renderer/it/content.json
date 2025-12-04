@@ -1,0 +1,8 @@
+{
+  "content": {
+    "DescriptionContentRenderer": {
+      "invalidUrl": "URL non valido: {{url}}",
+      "unknownType": "Tipo di contenuto sconosciuto: {{type}}"
+    }
+  }
+}

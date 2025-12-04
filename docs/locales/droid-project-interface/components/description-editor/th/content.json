@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "พิมพ์",
+      "text": "ข้อความ",
+      "html": "HTML",
+      "url": "URL"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "ประเภทการแนะนำบรรทัดเดียว",
+      "content": "เนื้อหา"
+    },
+    "SummaryEditor": {
+      "typeLabel": "ประเภทโปรไฟล์",
+      "content": "เนื้อหา"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "ประเภทการแนะนำแบบเต็ม",
+      "content": "เนื้อหา"
+    },
+    "DescriptionInfoEditor": {
+      "name": "ชื่อ"
+    }
+  }
+}

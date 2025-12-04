@@ -1,0 +1,8 @@
+{
+  "content": {
+    "DescriptionContentRenderer": {
+      "invalidUrl": "無效的URL: {{url}}",
+      "unknownType": "未知的內容類型: {{type}}"
+    }
+  }
+}

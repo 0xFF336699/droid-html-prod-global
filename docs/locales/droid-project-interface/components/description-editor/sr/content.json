@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "тип",
+      "text": "текст",
+      "html": "ХТМЛ",
+      "url": "УРЛ"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "тип увода у једну линију",
+      "content": "садржаја"
+    },
+    "SummaryEditor": {
+      "typeLabel": "тип профила",
+      "content": "садржаја"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "пун тип увода",
+      "content": "садржаја"
+    },
+    "DescriptionInfoEditor": {
+      "name": "име"
+    }
+  }
+}

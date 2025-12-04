@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "عمليات العقدة",
+      "actionTypeLabel": "نوع العملية",
+      "ActionType": {
+        "click": "انقر",
+        "longClick": "الضغط لفترة طويلة",
+        "scroll": "انتقل",
+        "setText": "تعيين النص",
+        "focus": "ركز"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "انقر باستخدام الإحداثيات العالمية",
+        "useGlobalClickHintOn": "سيتم حساب إحداثيات النقطة المركزية للعقدة باستخدام طريقة النقر العالمية.",
+        "useGlobalClickHintOff": "اتصل مباشرة بطريقة النقر للعقدة",
+        "enableContinuousClickLabel": "تمكين النقرات المستمرة",
+        "enableContinuousClickHint": "بعد التمكين، سيستمر النقر على العقدة حتى تفشل العقدة أو يتم إيقاف المشروع.",
+        "baseIntervalLabel": "الفاصل الزمني الأساسي (ملي ثانية)",
+        "baseIntervalHint": "الوقت الأساسي بين النقرات",
+        "intervalVariationLabel": "نطاق تقلب الفاصل الزمني (ملي ثانية)",
+        "intervalVariationHint": "الفاصل الزمني الفعلي = {{baseInterval}} ± {{intervalVariation}} مللي ثانية"
+      },
+      "ScrollConfig": {
+        "directionLabel": "اتجاه التمرير",
+        "directionForward": "انتقل إلى الأمام",
+        "directionBackward": "قم بالتمرير للخلف"
+      },
+      "SetTextConfig": {
+        "textLabel": "أدخل النص",
+        "textPlaceholder": "الرجاء إدخال النص ليتم تعيينه"
+      },
+      "LongClickConfig": {
+        "description": "اضغط لفترة طويلة على العقدة لتشغيل حدث الضغط لفترة طويلة"
+      },
+      "FocusConfig": {
+        "description": "قم بتركيز العقدة حتى تحصل العقدة على التركيز"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "आवश्यक पैरामीटर गुम है: फ़ील्ड",
+      "entityNotFound": "कोई संगत इकाई नहीं मिली",
+      "entityEmpty": "इकाई खाली है",
+      "unnamed": "अज्ञात",
+      "unknownField": "अज्ञात फ़ील्ड प्रकार: {{फ़ील्ड}}",
+      "summaryName": "परिचय",
+      "fullIntroductionName": "पूरा परिचय",
+      "noContent": "इकाई में {{fieldName}} नहीं है",
+      "detail": "विवरण"
+    }
+  }
+}

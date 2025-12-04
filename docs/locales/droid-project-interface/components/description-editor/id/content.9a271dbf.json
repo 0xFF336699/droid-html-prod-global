@@ -1,0 +1,25 @@
+{
+  "content": {
+    "DescriptionTypeSelector": {
+      "type": "jenis",
+      "text": "teks",
+      "html": "HTML",
+      "url": "URL"
+    },
+    "BriefDescriptionEditor": {
+      "typeLabel": "tipe pengenalan satu baris",
+      "content": "isi"
+    },
+    "SummaryEditor": {
+      "typeLabel": "tipe profil",
+      "content": "isi"
+    },
+    "FullIntroductionEditor": {
+      "typeLabel": "tipe pengenalan penuh",
+      "content": "isi"
+    },
+    "DescriptionInfoEditor": {
+      "name": "nama"
+    }
+  }
+}

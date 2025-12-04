@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "Saknar obligatorisk parameter: fält",
+      "entityNotFound": "Ingen motsvarande enhet hittades",
+      "entityEmpty": "Enheten är tom",
+      "unnamed": "Namnlös",
+      "unknownField": "Okänd fälttyp: {{field}}",
+      "summaryName": "Introduktion",
+      "fullIntroductionName": "Fullständig introduktion",
+      "noContent": "Entiteten har inte {{fieldName}}",
+      "detail": "Detaljer"
+    }
+  }
+}

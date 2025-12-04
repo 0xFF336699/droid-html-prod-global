@@ -1,0 +1,15 @@
+{
+  "content": {
+    "DescriptionDetailPage": {
+      "missingField": "Missing required parameter: field",
+      "entityNotFound": "No corresponding entity found",
+      "entityEmpty": "Entity is empty",
+      "unnamed": "Unnamed",
+      "unknownField": "Unknown field type: {{field}}",
+      "summaryName": "Introduction",
+      "fullIntroductionName": "Full introduction",
+      "noContent": "The entity does not have {{fieldName}}",
+      "detail": "Details"
+    }
+  }
+}
