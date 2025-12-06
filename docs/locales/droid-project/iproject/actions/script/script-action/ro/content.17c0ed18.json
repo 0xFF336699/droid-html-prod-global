@@ -1,0 +1,15 @@
+{
+  "IActionScript": {
+    "title": "acțiune de script",
+    "scriptMode": "modul script",
+    "scriptMode_simple": "Mod simplu (doar modificați funcția executeAction())",
+    "scriptMode_advanced": "Mod avansat (funcție de atașare completă)",
+    "scriptMode_full": "Modul complet (conține toate structurile de cod)",
+    "scriptCode": "cod de script",
+    "scriptPlaceholder": "Introdu codul de script aici...",
+    "modeDescription": "Descrierea modului",
+    "modeDescription_simple": "Mod simplu: cadrul gestionează ciclul de viață automat. Trebuie doar să implementați logica acțiunii în funcția executeAction() furnizată. Când execuția are succes, that.dispatchSuccess() este apelat, iar când eșuează, that.dispatchFailed(errorMessage) este apelat.",
+    "modeDescription_advanced": "Mod avansat: obțineți funcția de atașare completă și puteți personaliza complet toată logica. Potrivit pentru gestionarea operațiunilor asincrone, ascultarea evenimentelor complexe și managementul ciclului de viață.",
+    "modeDescription_full": "Modul complet: furnizează cod exemplu, inclusiv înregistrarea, exportul și ciclul de viață complet. Poate fi folosit direct ca script independent."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "ITriggerScript": {
+    "title": "skriptutløser",
+    "scriptMode": "skriptmodus",
+    "scriptMode_simple": "Enkel modus (bare endre check()-funksjonen)",
+    "scriptMode_advanced": "Avansert modus (fullstendig festefunksjon)",
+    "scriptMode_full": "Komplett modus (inneholder alle kodestrukturer)",
+    "scriptCode": "skriptkode",
+    "scriptPlaceholder": "Skriv inn skriptkoden din her...",
+    "modeDescription": "Modusbeskrivelse",
+    "modeDescription_simple": "Enkel modus: Rammeverket håndterer livssyklusen automatisk. Du trenger bare å implementere den betingede bedømmelseslogikken i den medfølgende check()-funksjonen. Når betingelsen er oppfylt, ring that.dispatchConditionsOn(), ellers kall that.dispatchConditionsOff().",
+    "modeDescription_advanced": "Avansert modus: Du får den komplette festefunksjonen og kan tilpasse all logikk fullt ut. Egnet for håndtering av kompleks livssyklusstyring og hendelsesovervåking.",
+    "modeDescription_full": "Fullstendig modus: Gir eksempelkode inkludert registrering, eksport og fullstendig livssyklus. Kan brukes direkte som et frittstående skript."
+  }
+}

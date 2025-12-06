@@ -1,0 +1,22 @@
+{
+  "PermissionsEditorAdapter": {
+    "label": "Permisiuni necesare",
+    "permissionsCount": "permisiuni"
+  },
+  "scriptEditor": {
+    "scriptMode": "modul script",
+    "scriptMode_simple": "Modul simplu",
+    "scriptMode_advanced": "Modul avansat",
+    "scriptMode_full": "modul complet",
+    "scriptCode": "cod de script",
+    "scriptPlaceholder": "Introdu codul de script aici...",
+    "modeDescription": "Descrierea modului",
+    "showTemplate": "Afișați șablonul",
+    "templateDialog_title": "șablon de mod {mode}",
+    "templateCode": "cod șablon",
+    "templateDescription": "Acesta este șablonul standard pentru modul {mode}. Puteți copia manual acest cod șablon în editor.",
+    "templateDialog_close": "închidere",
+    "PermissionsEditorAdapter.label": "Permisiuni",
+    "PermissionsEditorAdapter.permissionsCount": "individual"
+  }
+}

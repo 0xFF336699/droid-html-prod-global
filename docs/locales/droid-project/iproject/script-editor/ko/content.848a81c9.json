@@ -1,0 +1,22 @@
+{
+  "PermissionsEditorAdapter": {
+    "label": "필수 권한",
+    "permissionsCount": "권한"
+  },
+  "scriptEditor": {
+    "scriptMode": "스크립트 모드",
+    "scriptMode_simple": "단순 모드",
+    "scriptMode_advanced": "고급 모드",
+    "scriptMode_full": "풀 모드",
+    "scriptCode": "스크립트 코드",
+    "scriptPlaceholder": "여기에 스크립트 코드를 입력하세요...",
+    "modeDescription": "모드 설명",
+    "showTemplate": "템플릿 표시",
+    "templateDialog_title": "{mode} 모드 템플릿",
+    "templateCode": "템플릿 코드",
+    "templateDescription": "이는 {mode} 모드의 표준 템플릿입니다. 이 템플릿 코드를 편집기에 수동으로 복사할 수 있습니다.",
+    "templateDialog_close": "폐쇄",
+    "PermissionsEditorAdapter.label": "권한",
+    "PermissionsEditorAdapter.permissionsCount": "개인"
+  }
+}

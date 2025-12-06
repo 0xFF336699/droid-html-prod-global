@@ -1,0 +1,22 @@
+{
+  "PermissionsEditorAdapter": {
+    "label": "所需权限",
+    "permissionsCount": "个权限"
+  },
+  "scriptEditor": {
+    "scriptMode": "脚本模式",
+    "scriptMode_simple": "简单模式",
+    "scriptMode_advanced": "高级模式",
+    "scriptMode_full": "完整模式",
+    "scriptCode": "脚本代码",
+    "scriptPlaceholder": "在此输入你的脚本代码...",
+    "modeDescription": "模式说明",
+    "showTemplate": "显示模板",
+    "templateDialog_title": "{mode}模式模板",
+    "templateCode": "模板代码",
+    "templateDescription": "这是 {mode}模式的标准模板。您可以手动复制此模板代码到编辑器中。",
+    "templateDialog_close": "关闭",
+    "PermissionsEditorAdapter.label": "权限",
+    "PermissionsEditorAdapter.permissionsCount": "个"
+  }
+}

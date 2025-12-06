@@ -1,0 +1,22 @@
+{
+  "PermissionsEditorAdapter": {
+    "label": "Gerekli izinler",
+    "permissionsCount": "izinler"
+  },
+  "scriptEditor": {
+    "scriptMode": "komut dosyası modu",
+    "scriptMode_simple": "Basit mod",
+    "scriptMode_advanced": "Gelişmiş mod",
+    "scriptMode_full": "tam mod",
+    "scriptCode": "komut dosyası kodu",
+    "scriptPlaceholder": "Komut dosyası kodunuzu buraya girin...",
+    "modeDescription": "Mod açıklaması",
+    "showTemplate": "Şablonu göster",
+    "templateDialog_title": "{mode} mod şablonu",
+    "templateCode": "şablon kodu",
+    "templateDescription": "Bu, {mode} modu için standart şablondur. Bu şablon kodunu editöre manuel olarak kopyalayabilirsiniz.",
+    "templateDialog_close": "kapanış",
+    "PermissionsEditorAdapter.label": "İzinler",
+    "PermissionsEditorAdapter.permissionsCount": "bireysel"
+  }
+}

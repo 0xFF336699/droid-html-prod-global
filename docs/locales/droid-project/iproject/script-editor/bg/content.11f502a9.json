@@ -1,0 +1,22 @@
+{
+  "PermissionsEditorAdapter": {
+    "label": "Необходими разрешения",
+    "permissionsCount": "разрешения"
+  },
+  "scriptEditor": {
+    "scriptMode": "режим на скрипт",
+    "scriptMode_simple": "Прост режим",
+    "scriptMode_advanced": "Разширен режим",
+    "scriptMode_full": "пълен режим",
+    "scriptCode": "код на скрипта",
+    "scriptPlaceholder": "Въведете кода на вашия скрипт тук...",
+    "modeDescription": "Описание на режима",
+    "showTemplate": "Показване на шаблон",
+    "templateDialog_title": "Шаблон за режим {mode}",
+    "templateCode": "шаблонен код",
+    "templateDescription": "Това е стандартният шаблон за режим {mode}. Можете ръчно да копирате този шаблонен код в редактора.",
+    "templateDialog_close": "закриване",
+    "PermissionsEditorAdapter.label": "Разрешения",
+    "PermissionsEditorAdapter.permissionsCount": "индивидуален"
+  }
+}

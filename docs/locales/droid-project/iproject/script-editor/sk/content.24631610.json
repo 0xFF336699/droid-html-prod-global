@@ -1,0 +1,22 @@
+{
+  "PermissionsEditorAdapter": {
+    "label": "Požadované povolenia",
+    "permissionsCount": "povolenia"
+  },
+  "scriptEditor": {
+    "scriptMode": "režim skriptu",
+    "scriptMode_simple": "Jednoduchý režim",
+    "scriptMode_advanced": "Pokročilý režim",
+    "scriptMode_full": "plný režim",
+    "scriptCode": "skriptový kód",
+    "scriptPlaceholder": "Tu zadajte kód skriptu...",
+    "modeDescription": "Popis režimu",
+    "showTemplate": "Zobraziť šablónu",
+    "templateDialog_title": "šablóna režimu {mode}",
+    "templateCode": "kód šablóny",
+    "templateDescription": "Toto je štandardná šablóna pre režim {mode}. Tento kód šablóny môžete manuálne skopírovať do editora.",
+    "templateDialog_close": "uzavretie",
+    "PermissionsEditorAdapter.label": "Povolenia",
+    "PermissionsEditorAdapter.permissionsCount": "individuálny"
+  }
+}

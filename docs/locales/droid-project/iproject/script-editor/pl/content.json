@@ -1,0 +1,22 @@
+{
+  "PermissionsEditorAdapter": {
+    "label": "Wymagane uprawnienia",
+    "permissionsCount": "uprawnienia"
+  },
+  "scriptEditor": {
+    "scriptMode": "tryb skryptowy",
+    "scriptMode_simple": "Tryb prosty",
+    "scriptMode_advanced": "Tryb zaawansowany",
+    "scriptMode_full": "tryb pełny",
+    "scriptCode": "kod skryptu",
+    "scriptPlaceholder": "Wpisz tutaj swój kod skryptu...",
+    "modeDescription": "Opis trybu",
+    "showTemplate": "Pokaż szablon",
+    "templateDialog_title": "Szablon trybu {mode}",
+    "templateCode": "kod szablonu",
+    "templateDescription": "To jest standardowy szablon dla trybu {mode}. Możesz ręcznie skopiować ten kod szablonu do edytora.",
+    "templateDialog_close": "zamknięcie",
+    "PermissionsEditorAdapter.label": "Uprawnienia",
+    "PermissionsEditorAdapter.permissionsCount": "indywidualne"
+  }
+}

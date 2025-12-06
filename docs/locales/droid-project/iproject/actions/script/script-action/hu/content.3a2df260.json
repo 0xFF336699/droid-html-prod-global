@@ -1,0 +1,15 @@
+{
+  "IActionScript": {
+    "title": "script művelet",
+    "scriptMode": "script mód",
+    "scriptMode_simple": "Egyszerű mód (csak módosítsa az executeAction() függvényt)",
+    "scriptMode_advanced": "Haladó mód (teljes csatolási funkció)",
+    "scriptMode_full": "Teljes mód (az összes kódstruktúrát tartalmazza)",
+    "scriptCode": "script kódot",
+    "scriptPlaceholder": "Írja be a szkript kódját ide...",
+    "modeDescription": "Mód leírás",
+    "modeDescription_simple": "Egyszerű mód: A keretrendszer automatikusan kezeli az életciklust. Csak a műveleti logikát kell megvalósítania a megadott executeAction() függvényben. Ha a végrehajtás sikeres, a that.dispatchSuccess() meghívásra kerül, ha pedig sikertelen, akkor a that.dispatchFailed(errorMessage) függvény kerül meghívásra.",
+    "modeDescription_advanced": "Speciális mód: Megkapja a teljes csatolási funkciót, és teljes mértékben testreszabhatja az összes logikát. Alkalmas aszinkron műveletek kezelésére, komplex eseményhallgatásra és életciklus-kezelésre.",
+    "modeDescription_full": "Teljes mód: Mintakódot biztosít, beleértve a regisztrációt, az exportálást és a teljes életciklust. Közvetlenül önálló szkriptként használható."
+  }
+}

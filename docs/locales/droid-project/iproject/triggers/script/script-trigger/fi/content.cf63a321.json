@@ -1,0 +1,15 @@
+{
+  "ITriggerScript": {
+    "title": "komentosarjan liipaisin",
+    "scriptMode": "kirjoitustila",
+    "scriptMode_simple": "Yksinkertainen tila (muokkaa vain check()-toimintoa)",
+    "scriptMode_advanced": "Edistynyt tila (täydellinen liitostoiminto)",
+    "scriptMode_full": "Täydellinen tila (sisältää kaikki koodirakenteet)",
+    "scriptCode": "skriptikoodi",
+    "scriptPlaceholder": "Kirjoita komentosarjakoodisi tähän...",
+    "modeDescription": "Tilan kuvaus",
+    "modeDescription_simple": "Yksinkertainen tila: Kehys käsittelee elinkaaren automaattisesti. Sinun tarvitsee vain toteuttaa ehdollinen arviointilogiikka toimitetussa check()-funktiossa. Kun ehto täyttyy, kutsu that.dispatchConditionsOn(), muussa tapauksessa kutsu that.dispatchConditionsOff().",
+    "modeDescription_advanced": "Edistynyt tila: Saat täydellisen liittämistoiminnon ja voit muokata kaikkea logiikkaa. Soveltuu monimutkaisen elinkaarihallinnan ja tapahtumien seurantaan.",
+    "modeDescription_full": "Täydellinen tila: Tarjoaa näytekoodin, mukaan lukien rekisteröinnin, viennin ja koko elinkaaren. Voidaan käyttää suoraan erillisenä skriptinä."
+  }
+}

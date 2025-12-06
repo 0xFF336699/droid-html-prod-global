@@ -1,9 +1,0 @@
-{
-  "content": {
-    "create": "erstellen",
-    "delete": "löschen",
-    "confirmDelete": "Sind Sie sicher, dass Sie dieses Element löschen möchten?",
-    "cancel": "aufgeben",
-    "title": "warnen"
-  }
-}

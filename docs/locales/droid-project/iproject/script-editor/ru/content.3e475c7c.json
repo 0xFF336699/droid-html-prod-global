@@ -1,0 +1,22 @@
+{
+  "PermissionsEditorAdapter": {
+    "label": "Требуемые разрешения",
+    "permissionsCount": "разрешения"
+  },
+  "scriptEditor": {
+    "scriptMode": "режим сценария",
+    "scriptMode_simple": "Простой режим",
+    "scriptMode_advanced": "Расширенный режим",
+    "scriptMode_full": "полный режим",
+    "scriptCode": "код сценария",
+    "scriptPlaceholder": "Введите здесь код сценария...",
+    "modeDescription": "Описание режима",
+    "showTemplate": "Показать шаблон",
+    "templateDialog_title": "Шаблон режима {mode}",
+    "templateCode": "код шаблона",
+    "templateDescription": "Это стандартный шаблон для режима {mode}. Вы можете вручную скопировать этот код шаблона в редактор.",
+    "templateDialog_close": "закрытие",
+    "PermissionsEditorAdapter.label": "Разрешения",
+    "PermissionsEditorAdapter.permissionsCount": "индивидуальный"
+  }
+}

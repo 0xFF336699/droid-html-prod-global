@@ -1,0 +1,22 @@
+{
+  "PermissionsEditorAdapter": {
+    "label": "สิทธิ์ที่จำเป็น",
+    "permissionsCount": "สิทธิ์"
+  },
+  "scriptEditor": {
+    "scriptMode": "โหมดสคริปต์",
+    "scriptMode_simple": "โหมดเรียบง่าย",
+    "scriptMode_advanced": "โหมดขั้นสูง",
+    "scriptMode_full": "โหมดเต็ม",
+    "scriptCode": "รหัสสคริปต์",
+    "scriptPlaceholder": "ป้อนรหัสสคริปต์ของคุณที่นี่...",
+    "modeDescription": "คำอธิบายโหมด",
+    "showTemplate": "แสดงเทมเพลต",
+    "templateDialog_title": "เทมเพลตโหมด {mode}",
+    "templateCode": "รหัสเทมเพลต",
+    "templateDescription": "นี่คือเทมเพลตมาตรฐานสำหรับโหมด {mode} คุณสามารถคัดลอกโค้ดเทมเพลตนี้ลงในโปรแกรมแก้ไขได้ด้วยตนเอง",
+    "templateDialog_close": "ปิด",
+    "PermissionsEditorAdapter.label": "สิทธิ์",
+    "PermissionsEditorAdapter.permissionsCount": "รายบุคคล"
+  }
+}

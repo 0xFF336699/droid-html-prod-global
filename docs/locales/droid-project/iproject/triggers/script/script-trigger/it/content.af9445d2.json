@@ -1,0 +1,15 @@
+{
+  "ITriggerScript": {
+    "title": "trigger dello script",
+    "scriptMode": "modalità script",
+    "scriptMode_simple": "Modalità semplice (basta modificare la funzione check())",
+    "scriptMode_advanced": "Modalità avanzata (funzione di collegamento completa)",
+    "scriptMode_full": "Modalità completa (contiene tutte le strutture del codice)",
+    "scriptCode": "codice di script",
+    "scriptPlaceholder": "Inserisci qui il codice del tuo script...",
+    "modeDescription": "Descrizione della modalità",
+    "modeDescription_simple": "Modalità semplice: il framework gestisce il ciclo di vita automaticamente. Devi solo implementare la logica del giudizio condizionale nella funzione check() fornita. Quando la condizione è soddisfatta, chiama that.dispatchConditionsOn(), altrimenti chiama that.dispatchConditionsOff().",
+    "modeDescription_advanced": "Modalità avanzata: ottieni la funzione di collegamento completa e puoi personalizzare completamente tutta la logica. Adatto per gestire la gestione complessa del ciclo di vita e il monitoraggio degli eventi.",
+    "modeDescription_full": "Modalità completa: fornisce codice di esempio che include registrazione, esportazione e ciclo di vita completo. Può essere utilizzato direttamente come script autonomo."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "IActionScript": {
+    "title": "komut dosyası eylemi",
+    "scriptMode": "komut dosyası modu",
+    "scriptMode_simple": "Basit mod (yalnızca executiveAction() işlevini değiştirin)",
+    "scriptMode_advanced": "Gelişmiş mod (tam ekleme işlevi)",
+    "scriptMode_full": "Tam mod (tüm kod yapılarını içerir)",
+    "scriptCode": "komut dosyası kodu",
+    "scriptPlaceholder": "Komut dosyası kodunuzu buraya girin...",
+    "modeDescription": "Mod açıklaması",
+    "modeDescription_simple": "Basit mod: Çerçeve yaşam döngüsünü otomatik olarak yönetir. Eylem mantığını yalnızca sağlanan executiveAction() işlevinde uygulamanız gerekir. Yürütme başarılı olduğunda that.dispatchSuccess() çağrılır ve başarısız olduğunda that.dispatchFailed(errorMessage) çağrılır.",
+    "modeDescription_advanced": "Gelişmiş mod: Ekleme işlevinin tamamını alırsınız ve tüm mantığı tamamen özelleştirebilirsiniz. Asenkron operasyonların, karmaşık olay dinlemenin ve yaşam döngüsü yönetiminin yönetimi için uygundur.",
+    "modeDescription_full": "Tam mod: Kayıt, dışa aktarma ve yaşam döngüsünün tamamını içeren örnek kod sağlar. Doğrudan bağımsız bir komut dosyası olarak kullanılabilir."
+  }
+}

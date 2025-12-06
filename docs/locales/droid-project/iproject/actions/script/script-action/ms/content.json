@@ -1,0 +1,15 @@
+{
+  "IActionScript": {
+    "title": "Tindakan skrip",
+    "scriptMode": "mod skrip",
+    "scriptMode_simple": "Mod mudah (hanya ubah fungsi executeAction ())",
+    "scriptMode_advanced": "Mod lanjutan (fungsi lampiran lengkap)",
+    "scriptMode_full": "Mod Lengkap (mengandungi semua struktur kod)",
+    "scriptCode": "kod skrip",
+    "scriptPlaceholder": "Masukkan kod skrip anda di sini ...",
+    "modeDescription": "Penerangan Mod",
+    "modeDescription_simple": "Mod Mudah: Rangka kerja mengendalikan kitaran hayat secara automatik. Anda hanya perlu melaksanakan logik tindakan dalam fungsi ExecuteAction () yang disediakan. Apabila pelaksanaan berjaya, itu.dispatchSuccess () dipanggil, dan apabila ia gagal, itu.",
+    "modeDescription_advanced": "Mod Lanjutan: Anda mendapat fungsi Lampiran Lengkap dan dapat menyesuaikan sepenuhnya semua logik. Sesuai untuk mengendalikan operasi asynchronous, pendengaran acara yang kompleks dan pengurusan kitaran hayat.",
+    "modeDescription_full": "Mod Lengkap: Menyediakan kod sampel termasuk pendaftaran, eksport, dan kitaran hayat lengkap. Boleh digunakan secara langsung sebagai skrip mandiri."
+  }
+}

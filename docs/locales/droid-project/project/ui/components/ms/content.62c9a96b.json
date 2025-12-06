@@ -1,9 +1,0 @@
-{
-  "content": {
-    "create": "Buat",
-    "delete": "Padam",
-    "confirmDelete": "Adakah anda pasti mahu memadamkan item ini?",
-    "cancel": "menyerah",
-    "title": "memberi amaran"
-  }
-}

@@ -1,0 +1,15 @@
+{
+  "IActionScript": {
+    "title": "manusåtgärd",
+    "scriptMode": "skriptläge",
+    "scriptMode_simple": "Enkelt läge (ändra bara funktionen executeAction())",
+    "scriptMode_advanced": "Avancerat läge (komplett bifogningsfunktion)",
+    "scriptMode_full": "Komplett läge (innehåller alla kodstrukturer)",
+    "scriptCode": "skriptkod",
+    "scriptPlaceholder": "Ange din skriptkod här...",
+    "modeDescription": "Lägesbeskrivning",
+    "modeDescription_simple": "Enkelt läge: Ramverket hanterar livscykeln automatiskt. Du behöver bara implementera åtgärdslogiken i den medföljande executeAction()-funktionen. När exekveringen lyckas anropas that.dispatchSuccess() och när den misslyckas anropas that.dispatchFailed(errorMessage).",
+    "modeDescription_advanced": "Avancerat läge: Du får den kompletta fästfunktionen och kan helt anpassa all logik. Lämplig för hantering av asynkrona operationer, komplex händelselyssning och livscykelhantering.",
+    "modeDescription_full": "Komplett läge: Ger exempelkod inklusive registrering, export och fullständig livscykel. Kan användas direkt som ett fristående skript."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "ITriggerScript": {
+    "title": "kích hoạt tập lệnh",
+    "scriptMode": "chế độ tập lệnh",
+    "scriptMode_simple": "Chế độ đơn giản (chỉ cần sửa đổi hàm check())",
+    "scriptMode_advanced": "Chế độ nâng cao (chức năng đính kèm hoàn chỉnh)",
+    "scriptMode_full": "Chế độ hoàn chỉnh (chứa tất cả các cấu trúc mã)",
+    "scriptCode": "mã kịch bản",
+    "scriptPlaceholder": "Nhập mã tập lệnh của bạn vào đây...",
+    "modeDescription": "Mô tả chế độ",
+    "modeDescription_simple": "Chế độ đơn giản: Khung tự động xử lý vòng đời. Bạn chỉ cần triển khai logic phán đoán có điều kiện trong hàm check() được cung cấp. Khi điều kiện được đáp ứng, hãy gọi that.dispatchConditionsOn(), nếu không thì gọi that.dispatchConditionsOff().",
+    "modeDescription_advanced": "Chế độ nâng cao: Bạn có chức năng đính kèm hoàn chỉnh và có thể tùy chỉnh đầy đủ tất cả logic. Thích hợp để xử lý việc quản lý vòng đời phức tạp và giám sát sự kiện.",
+    "modeDescription_full": "Chế độ hoàn chỉnh: Cung cấp mã mẫu bao gồm đăng ký, xuất và hoàn thành vòng đời. Có thể được sử dụng trực tiếp như một tập lệnh độc lập."
+  }
+}

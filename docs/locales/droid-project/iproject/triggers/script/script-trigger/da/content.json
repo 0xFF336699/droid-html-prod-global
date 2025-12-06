@@ -1,0 +1,15 @@
+{
+  "ITriggerScript": {
+    "title": "script trigger",
+    "scriptMode": "script-tilstand",
+    "scriptMode_simple": "Simpel tilstand (bare ændre check()-funktionen)",
+    "scriptMode_advanced": "Avanceret tilstand (fuldstændig vedhæftningsfunktion)",
+    "scriptMode_full": "Komplet tilstand (indeholder alle kodestrukturer)",
+    "scriptCode": "script kode",
+    "scriptPlaceholder": "Indtast din scriptkode her...",
+    "modeDescription": "Beskrivelse af tilstand",
+    "modeDescription_simple": "Simpel tilstand: Rammen håndterer livscyklussen automatisk. Du behøver kun at implementere den betingede bedømmelseslogik i den medfølgende check() funktion. Når betingelsen er opfyldt, kald that.dispatchConditionsOn(), ellers kald that.dispatchConditionsOff().",
+    "modeDescription_advanced": "Avanceret tilstand: Du får den komplette vedhæftningsfunktion og kan tilpasse al logik fuldt ud. Velegnet til håndtering af kompleks livscyklusstyring og hændelsesovervågning.",
+    "modeDescription_full": "Komplet tilstand: Giver prøvekode inklusive registrering, eksport og komplet livscyklus. Kan bruges direkte som et selvstændigt script."
+  }
+}

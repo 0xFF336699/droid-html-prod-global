@@ -1,9 +1,0 @@
-{
-  "content": {
-    "create": "yaratmak",
-    "delete": "silmek",
-    "confirmDelete": "Bu öğeyi silmek istediğinizden emin misiniz?",
-    "cancel": "pes etmek",
-    "title": "uyarmak"
-  }
-}

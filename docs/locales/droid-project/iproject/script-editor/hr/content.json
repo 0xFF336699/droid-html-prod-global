@@ -1,0 +1,22 @@
+{
+  "PermissionsEditorAdapter": {
+    "label": "Potrebna dopuštenja",
+    "permissionsCount": "dozvole"
+  },
+  "scriptEditor": {
+    "scriptMode": "način skripte",
+    "scriptMode_simple": "Jednostavan način rada",
+    "scriptMode_advanced": "Napredni način rada",
+    "scriptMode_full": "puni način rada",
+    "scriptCode": "kod skripte",
+    "scriptPlaceholder": "Unesite kod svoje skripte ovdje...",
+    "modeDescription": "Opis načina rada",
+    "showTemplate": "Prikaži predložak",
+    "templateDialog_title": "{mode} predložak načina",
+    "templateCode": "kod predloška",
+    "templateDescription": "Ovo je standardni predložak za način {mode}. Ovaj kod predloška možete ručno kopirati u uređivač.",
+    "templateDialog_close": "zatvaranje",
+    "PermissionsEditorAdapter.label": "Dozvole",
+    "PermissionsEditorAdapter.permissionsCount": "individualni"
+  }
+}

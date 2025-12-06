@@ -1,0 +1,22 @@
+{
+  "PermissionsEditorAdapter": {
+    "label": "Permisos requeridos",
+    "permissionsCount": "permisos"
+  },
+  "scriptEditor": {
+    "scriptMode": "modo script",
+    "scriptMode_simple": "modo sencillo",
+    "scriptMode_advanced": "Modo avanzado",
+    "scriptMode_full": "modo completo",
+    "scriptCode": "código de secuencia de comandos",
+    "scriptPlaceholder": "Ingrese su código de script aquí...",
+    "modeDescription": "Descripción del modo",
+    "showTemplate": "Mostrar plantilla",
+    "templateDialog_title": "{modo} plantilla de modo",
+    "templateCode": "código de plantilla",
+    "templateDescription": "Esta es la plantilla estándar para el modo {mode}. Puede copiar manualmente este código de plantilla en el editor.",
+    "templateDialog_close": "cierre",
+    "PermissionsEditorAdapter.label": "Permisos",
+    "PermissionsEditorAdapter.permissionsCount": "individual"
+  }
+}

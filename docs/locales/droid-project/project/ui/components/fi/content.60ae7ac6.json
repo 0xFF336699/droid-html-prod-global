@@ -1,9 +1,0 @@
-{
-  "content": {
-    "create": "luoda",
-    "delete": "poistaa",
-    "confirmDelete": "Haluatko varmasti poistaa tämän kohteen?",
-    "cancel": "luovuttaa",
-    "title": "varoittaa"
-  }
-}

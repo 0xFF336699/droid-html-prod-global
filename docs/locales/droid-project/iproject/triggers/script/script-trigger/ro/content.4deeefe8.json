@@ -1,0 +1,15 @@
+{
+  "ITriggerScript": {
+    "title": "declanșatorul de script",
+    "scriptMode": "modul script",
+    "scriptMode_simple": "Mod simplu (doar modificați funcția check())",
+    "scriptMode_advanced": "Mod avansat (funcție de atașare completă)",
+    "scriptMode_full": "Modul complet (conține toate structurile de cod)",
+    "scriptCode": "cod de script",
+    "scriptPlaceholder": "Introdu codul de script aici...",
+    "modeDescription": "Descrierea modului",
+    "modeDescription_simple": "Mod simplu: cadrul gestionează ciclul de viață automat. Trebuie doar să implementați logica de judecată condiționată în funcția check() furnizată. Când condiția este îndeplinită, apelați that.dispatchConditionsOn(), altfel apelați that.dispatchConditionsOff().",
+    "modeDescription_advanced": "Mod avansat: obțineți funcția de atașare completă și puteți personaliza complet toată logica. Potrivit pentru gestionarea ciclului de viață complex și monitorizarea evenimentelor.",
+    "modeDescription_full": "Modul complet: furnizează cod exemplu, inclusiv înregistrarea, exportul și ciclul de viață complet. Poate fi folosit direct ca script independent."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "PermissionsEditorAdapter": {
+    "label": "Απαιτούμενα δικαιώματα",
+    "permissionsCount": "άδειες"
+  },
+  "scriptEditor": {
+    "scriptMode": "λειτουργία σεναρίου",
+    "scriptMode_simple": "Απλή λειτουργία",
+    "scriptMode_advanced": "Προηγμένη λειτουργία",
+    "scriptMode_full": "πλήρη λειτουργία",
+    "scriptCode": "κώδικας σεναρίου",
+    "scriptPlaceholder": "Εισαγάγετε τον κωδικό του σεναρίου σας εδώ...",
+    "modeDescription": "Περιγραφή τρόπου λειτουργίας",
+    "showTemplate": "Εμφάνιση προτύπου",
+    "templateDialog_title": "πρότυπο λειτουργίας {mode}",
+    "templateCode": "κώδικας προτύπου",
+    "templateDescription": "Αυτό είναι το τυπικό πρότυπο για τη λειτουργία {mode}. Μπορείτε να αντιγράψετε με μη αυτόματο τρόπο αυτόν τον κώδικα προτύπου στο πρόγραμμα επεξεργασίας.",
+    "templateDialog_close": "κλείσιμο",
+    "PermissionsEditorAdapter.label": "Άδειες",
+    "PermissionsEditorAdapter.permissionsCount": "ατομική"
+  }
+}

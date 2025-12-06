@@ -1,0 +1,22 @@
+{
+  "PermissionsEditorAdapter": {
+    "label": "الأذونات المطلوبة",
+    "permissionsCount": "الأذونات"
+  },
+  "scriptEditor": {
+    "scriptMode": "وضع البرنامج النصي",
+    "scriptMode_simple": "وضع بسيط",
+    "scriptMode_advanced": "الوضع المتقدم",
+    "scriptMode_full": "الوضع الكامل",
+    "scriptCode": "رمز البرنامج النصي",
+    "scriptPlaceholder": "أدخل رمز البرنامج النصي الخاص بك هنا...",
+    "modeDescription": "وصف الوضع",
+    "showTemplate": "إظهار القالب",
+    "templateDialog_title": "{الوضع} قالب الوضع",
+    "templateCode": "رمز القالب",
+    "templateDescription": "هذا هو القالب القياسي لوضع {mode}. يمكنك نسخ رمز القالب يدويًا إلى المحرر.",
+    "templateDialog_close": "إنهاء",
+    "PermissionsEditorAdapter.label": "الأذونات",
+    "PermissionsEditorAdapter.permissionsCount": "فردي"
+  }
+}

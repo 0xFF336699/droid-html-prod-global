@@ -1,0 +1,15 @@
+{
+  "ITriggerScript": {
+    "title": "pencetus skrip",
+    "scriptMode": "mod skrip",
+    "scriptMode_simple": "Mod mudah (hanya ubah fungsi cek ())",
+    "scriptMode_advanced": "Mod lanjutan (fungsi lampiran lengkap)",
+    "scriptMode_full": "Mod Lengkap (mengandungi semua struktur kod)",
+    "scriptCode": "kod skrip",
+    "scriptPlaceholder": "Masukkan kod skrip anda di sini ...",
+    "modeDescription": "Penerangan Mod",
+    "modeDescription_simple": "Mod Mudah: Rangka kerja mengendalikan kitaran hayat secara automatik. Anda hanya perlu melaksanakan logik penghakiman bersyarat dalam fungsi cek () yang disediakan. Apabila keadaan dipenuhi, hubungi itu.dispatchconditionson (), jika tidak, panggil itu.disPatchConditionSoff ().",
+    "modeDescription_advanced": "Mod Lanjutan: Anda mendapat fungsi Lampiran Lengkap dan dapat menyesuaikan sepenuhnya semua logik. Sesuai untuk mengendalikan pengurusan kitaran hayat yang kompleks dan pemantauan acara.",
+    "modeDescription_full": "Mod Lengkap: Menyediakan kod sampel termasuk pendaftaran, eksport, dan kitaran hayat lengkap. Boleh digunakan secara langsung sebagai skrip mandiri."
+  }
+}

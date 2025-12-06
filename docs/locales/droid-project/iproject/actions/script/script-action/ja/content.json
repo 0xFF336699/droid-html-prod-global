@@ -1,0 +1,15 @@
+{
+  "IActionScript": {
+    "title": "スクリプトアクション",
+    "scriptMode": "スクリプトモード",
+    "scriptMode_simple": "シンプルモード (executeAction() 関数を変更するだけ)",
+    "scriptMode_advanced": "アドバンストモード（完全アタッチ機能）",
+    "scriptMode_full": "完全モード (すべてのコード構造を含む)",
+    "scriptCode": "スクリプトコード",
+    "scriptPlaceholder": "ここにスクリプトコードを入力してください...",
+    "modeDescription": "モードの説明",
+    "modeDescription_simple": "シンプル モード: フレームワークはライフサイクルを自動的に処理します。提供されたexecuteAction()関数にアクションロジックを実装するだけで済みます。実行が成功すると that.dispatchSuccess() が呼び出され、失敗すると that.dispatchFailed(errorMessage) が呼び出されます。",
+    "modeDescription_advanced": "詳細モード: 完全なアタッチ機能が利用でき、すべてのロジックを完全にカスタマイズできます。非同期操作、複雑なイベントのリスニング、ライフサイクル管理の処理に適しています。",
+    "modeDescription_full": "完全モード: 登録、エクスポート、完全なライフサイクルを含むサンプル コードを提供します。スタンドアロン スクリプトとして直接使用できます。"
+  }
+}

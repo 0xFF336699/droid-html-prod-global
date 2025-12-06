@@ -1,0 +1,15 @@
+{
+  "IActionScript": {
+    "title": "akci skriptu",
+    "scriptMode": "režim skriptu",
+    "scriptMode_simple": "Jednoduchý režim (stačí upravit funkci executeAction())",
+    "scriptMode_advanced": "Pokročilý režim (kompletní funkce připojení)",
+    "scriptMode_full": "Kompletní režim (obsahuje všechny struktury kódu)",
+    "scriptCode": "kód skriptu",
+    "scriptPlaceholder": "Sem zadejte kód skriptu...",
+    "modeDescription": "Popis režimu",
+    "modeDescription_simple": "Jednoduchý režim: Rámec zpracovává životní cyklus automaticky. Potřebujete pouze implementovat logiku akce v poskytnuté funkci executeAction(). Když je provedení úspěšné, zavolá se that.dispatchSuccess() a když selže, zavolá se that.dispatchFailed(errorMessage).",
+    "modeDescription_advanced": "Pokročilý režim: Získáte kompletní funkci připojení a můžete si plně přizpůsobit veškerou logiku. Vhodné pro zpracování asynchronních operací, naslouchání komplexním událostem a správu životního cyklu.",
+    "modeDescription_full": "Kompletní režim: Poskytuje ukázkový kód včetně registrace, exportu a kompletního životního cyklu. Lze použít přímo jako samostatný skript."
+  }
+}

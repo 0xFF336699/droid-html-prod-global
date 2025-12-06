@@ -1,0 +1,15 @@
+{
+  "IActionScript": {
+    "title": "script handling",
+    "scriptMode": "script-tilstand",
+    "scriptMode_simple": "Simpel tilstand (bare rediger funktionen executeAction())",
+    "scriptMode_advanced": "Avanceret tilstand (fuldstændig vedhæftningsfunktion)",
+    "scriptMode_full": "Komplet tilstand (indeholder alle kodestrukturer)",
+    "scriptCode": "script kode",
+    "scriptPlaceholder": "Indtast din scriptkode her...",
+    "modeDescription": "Beskrivelse af tilstand",
+    "modeDescription_simple": "Simpel tilstand: Rammen håndterer livscyklussen automatisk. Du behøver kun at implementere handlingslogikken i den medfølgende executeAction()-funktion. Når eksekveringen er vellykket, kaldes that.dispatchSuccess(), og når den mislykkes, kaldes that.dispatchFailed(errorMessage).",
+    "modeDescription_advanced": "Avanceret tilstand: Du får den komplette vedhæftningsfunktion og kan tilpasse al logik fuldt ud. Velegnet til håndtering af asynkrone operationer, kompleks hændelseslytning og livscyklusstyring.",
+    "modeDescription_full": "Komplet tilstand: Giver prøvekode inklusive registrering, eksport og komplet livscyklus. Kan bruges direkte som et selvstændigt script."
+  }
+}

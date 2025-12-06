@@ -1,0 +1,15 @@
+{
+  "IActionScript": {
+    "title": "azione dello script",
+    "scriptMode": "modalità script",
+    "scriptMode_simple": "Modalità semplice (basta modificare la funzioneexecuteAction())",
+    "scriptMode_advanced": "Modalità avanzata (funzione di collegamento completa)",
+    "scriptMode_full": "Modalità completa (contiene tutte le strutture del codice)",
+    "scriptCode": "codice di script",
+    "scriptPlaceholder": "Inserisci qui il codice del tuo script...",
+    "modeDescription": "Descrizione della modalità",
+    "modeDescription_simple": "Modalità semplice: il framework gestisce il ciclo di vita automaticamente. Devi solo implementare la logica dell'azione nella funzione eseguiteAction() fornita. Quando l'esecuzione ha esito positivo, viene chiamato that.dispatchSuccess() e quando fallisce, viene chiamato that.dispatchFailed(errorMessage).",
+    "modeDescription_advanced": "Modalità avanzata: ottieni la funzione di collegamento completa e puoi personalizzare completamente tutta la logica. Adatto per gestire operazioni asincrone, ascolto di eventi complessi e gestione del ciclo di vita.",
+    "modeDescription_full": "Modalità completa: fornisce codice di esempio che include registrazione, esportazione e ciclo di vita completo. Può essere utilizzato direttamente come script autonomo."
+  }
+}

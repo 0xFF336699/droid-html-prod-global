@@ -1,0 +1,15 @@
+{
+  "ITriggerScript": {
+    "title": "gatilho de script",
+    "scriptMode": "modo de script",
+    "scriptMode_simple": "Modo simples (basta modificar a função check())",
+    "scriptMode_advanced": "Modo avançado (função de anexação completa)",
+    "scriptMode_full": "Modo completo (contém todas as estruturas de código)",
+    "scriptCode": "código de script",
+    "scriptPlaceholder": "Digite seu código de script aqui...",
+    "modeDescription": "Descrição do modo",
+    "modeDescription_simple": "Modo simples: a estrutura lida com o ciclo de vida automaticamente. Você só precisa implementar a lógica de julgamento condicional na função check() fornecida. Quando a condição for atendida, chame that.dispatchConditionsOn(), caso contrário, chame that.dispatchConditionsOff().",
+    "modeDescription_advanced": "Modo avançado: você obtém a função de anexação completa e pode personalizar totalmente toda a lógica. Adequado para lidar com gerenciamento complexo de ciclo de vida e monitoramento de eventos.",
+    "modeDescription_full": "Modo completo: fornece código de amostra, incluindo registro, exportação e ciclo de vida completo. Pode ser usado diretamente como um script independente."
+  }
+}

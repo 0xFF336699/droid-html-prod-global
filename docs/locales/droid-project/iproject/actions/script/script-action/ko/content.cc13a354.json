@@ -1,0 +1,15 @@
+{
+  "IActionScript": {
+    "title": "스크립트 액션",
+    "scriptMode": "스크립트 모드",
+    "scriptMode_simple": "단순 모드(executeAction() 함수만 수정)",
+    "scriptMode_advanced": "고급 모드(완전 부착 기능)",
+    "scriptMode_full": "전체 모드(모든 코드 구조 포함)",
+    "scriptCode": "스크립트 코드",
+    "scriptPlaceholder": "여기에 스크립트 코드를 입력하세요...",
+    "modeDescription": "모드 설명",
+    "modeDescription_simple": "단순 모드: 프레임워크가 수명 주기를 자동으로 처리합니다. 제공된 ExecutionAction() 함수에서 액션 로직을 구현하기만 하면 됩니다. 실행이 성공하면 that.dispatchSuccess()가 호출되고, 실패하면 that.dispatchFailed(errorMessage)가 호출됩니다.",
+    "modeDescription_advanced": "고급 모드: 완전한 연결 기능을 얻고 모든 로직을 완전히 사용자 정의할 수 있습니다. 비동기 작업 처리, 복잡한 이벤트 수신 및 수명주기 관리에 적합합니다.",
+    "modeDescription_full": "전체 모드: 등록, 내보내기 및 전체 라이프사이클을 포함한 샘플 코드를 제공합니다. 독립형 스크립트로 직접 사용할 수 있습니다."
+  }
+}

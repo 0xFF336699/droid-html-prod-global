@@ -1,0 +1,22 @@
+{
+  "PermissionsEditorAdapter": {
+    "label": "Nödvändiga behörigheter",
+    "permissionsCount": "behörigheter"
+  },
+  "scriptEditor": {
+    "scriptMode": "skriptläge",
+    "scriptMode_simple": "Enkelt läge",
+    "scriptMode_advanced": "Avancerat läge",
+    "scriptMode_full": "fullt läge",
+    "scriptCode": "skriptkod",
+    "scriptPlaceholder": "Ange din skriptkod här...",
+    "modeDescription": "Lägesbeskrivning",
+    "showTemplate": "Visa mall",
+    "templateDialog_title": "{läge} lägesmall",
+    "templateCode": "mallkod",
+    "templateDescription": "Detta är standardmallen för läget {läge}. Du kan manuellt kopiera denna mallkod till editorn.",
+    "templateDialog_close": "stängning",
+    "PermissionsEditorAdapter.label": "Behörigheter",
+    "PermissionsEditorAdapter.permissionsCount": "individuella"
+  }
+}

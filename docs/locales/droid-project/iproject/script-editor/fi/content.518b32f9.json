@@ -1,0 +1,22 @@
+{
+  "PermissionsEditorAdapter": {
+    "label": "Vaaditut käyttöoikeudet",
+    "permissionsCount": "luvat"
+  },
+  "scriptEditor": {
+    "scriptMode": "kirjoitustila",
+    "scriptMode_simple": "Yksinkertainen tila",
+    "scriptMode_advanced": "Edistynyt tila",
+    "scriptMode_full": "täysi tila",
+    "scriptCode": "skriptikoodi",
+    "scriptPlaceholder": "Kirjoita komentosarjakoodisi tähän...",
+    "modeDescription": "Tilan kuvaus",
+    "showTemplate": "Näytä malli",
+    "templateDialog_title": "{mode}-tilamalli",
+    "templateCode": "mallikoodi",
+    "templateDescription": "Tämä on {mode}-tilan vakiomalli. Voit kopioida tämän mallikoodin manuaalisesti editoriin.",
+    "templateDialog_close": "päättäminen",
+    "PermissionsEditorAdapter.label": "Käyttöoikeudet",
+    "PermissionsEditorAdapter.permissionsCount": "yksilöllinen"
+  }
+}

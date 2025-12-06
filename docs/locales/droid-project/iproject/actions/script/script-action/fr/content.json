@@ -1,0 +1,15 @@
+{
+  "IActionScript": {
+    "title": "action de script",
+    "scriptMode": "mode script",
+    "scriptMode_simple": "Mode simple (il suffit de modifier la fonctionexecuteAction())",
+    "scriptMode_advanced": "Mode avancé (fonction de pièce jointe complète)",
+    "scriptMode_full": "Mode complet (contient toutes les structures de code)",
+    "scriptCode": "code de script",
+    "scriptPlaceholder": "Entrez votre code de script ici...",
+    "modeDescription": "Description du mode",
+    "modeDescription_simple": "Mode simple : le framework gère automatiquement le cycle de vie. Il vous suffit d'implémenter la logique d'action dans la fonction exécutéeAction() fournie. Lorsque l'exécution réussit, that.dispatchSuccess() est appelée, et lorsqu'elle échoue, that.dispatchFailed(errorMessage) est appelée.",
+    "modeDescription_advanced": "Mode avancé : vous bénéficiez de la fonction d'attache complète et pouvez entièrement personnaliser toute la logique. Convient à la gestion des opérations asynchrones, à l'écoute d'événements complexes et à la gestion du cycle de vie.",
+    "modeDescription_full": "Mode complet : fournit un exemple de code comprenant l'enregistrement, l'exportation et le cycle de vie complet. Peut être utilisé directement comme script autonome."
+  }
+}

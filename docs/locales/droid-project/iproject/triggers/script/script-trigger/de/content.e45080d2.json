@@ -1,0 +1,15 @@
+{
+  "ITriggerScript": {
+    "title": "Skript-Trigger",
+    "scriptMode": "Skriptmodus",
+    "scriptMode_simple": "Einfacher Modus (ändern Sie einfach die Funktion check())",
+    "scriptMode_advanced": "Erweiterter Modus (vollständige Anhängefunktion)",
+    "scriptMode_full": "Vollständiger Modus (enthält alle Codestrukturen)",
+    "scriptCode": "Skriptcode",
+    "scriptPlaceholder": "Geben Sie hier Ihren Skriptcode ein...",
+    "modeDescription": "Modusbeschreibung",
+    "modeDescription_simple": "Einfacher Modus: Das Framework verwaltet den Lebenszyklus automatisch. Sie müssen lediglich die bedingte Beurteilungslogik in der bereitgestellten Funktion check() implementieren. Wenn die Bedingung erfüllt ist, rufen Sie that.dispatchConditionsOn() auf, andernfalls rufen Sie that.dispatchConditionsOff() auf.",
+    "modeDescription_advanced": "Erweiterter Modus: Sie erhalten die vollständige Anhängefunktion und können die gesamte Logik vollständig anpassen. Geeignet für die Abwicklung des komplexen Lebenszyklusmanagements und der Ereignisüberwachung.",
+    "modeDescription_full": "Vollständiger Modus: Stellt Beispielcode einschließlich Registrierung, Export und vollständigem Lebenszyklus bereit. Kann direkt als eigenständiges Skript verwendet werden."
+  }
+}

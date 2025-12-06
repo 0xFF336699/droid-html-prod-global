@@ -1,0 +1,22 @@
+{
+  "PermissionsEditorAdapter": {
+    "label": "Потребне дозволе",
+    "permissionsCount": "дозволе"
+  },
+  "scriptEditor": {
+    "scriptMode": "режим скрипте",
+    "scriptMode_simple": "Једноставан режим",
+    "scriptMode_advanced": "Напредни режим",
+    "scriptMode_full": "пуни режим",
+    "scriptCode": "код скрипте",
+    "scriptPlaceholder": "Унесите свој код скрипте овде...",
+    "modeDescription": "Опис режима",
+    "showTemplate": "Прикажи шаблон",
+    "templateDialog_title": "{моде} шаблон режима",
+    "templateCode": "код шаблона",
+    "templateDescription": "Ово је стандардни шаблон за режим {моде}. Можете ручно копирати овај шаблонски код у уређивач.",
+    "templateDialog_close": "затварање",
+    "PermissionsEditorAdapter.label": "Дозволе",
+    "PermissionsEditorAdapter.permissionsCount": "индивидуални"
+  }
+}

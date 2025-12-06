@@ -1,0 +1,15 @@
+{
+  "IActionScript": {
+    "title": "Skriptaktion",
+    "scriptMode": "Skriptmodus",
+    "scriptMode_simple": "Einfacher Modus (ändern Sie einfach die FunktionexecuteAction())",
+    "scriptMode_advanced": "Erweiterter Modus (vollständige Anhängefunktion)",
+    "scriptMode_full": "Vollständiger Modus (enthält alle Codestrukturen)",
+    "scriptCode": "Skriptcode",
+    "scriptPlaceholder": "Geben Sie hier Ihren Skriptcode ein...",
+    "modeDescription": "Modusbeschreibung",
+    "modeDescription_simple": "Einfacher Modus: Das Framework verwaltet den Lebenszyklus automatisch. Sie müssen lediglich die Aktionslogik in der bereitgestellten FunktionexecuteAction() implementieren. Wenn die Ausführung erfolgreich ist, wird that.dispatchSuccess() aufgerufen, und wenn sie fehlschlägt, wird that.dispatchFailed(errorMessage) aufgerufen.",
+    "modeDescription_advanced": "Erweiterter Modus: Sie erhalten die vollständige Anhängefunktion und können die gesamte Logik vollständig anpassen. Geeignet für die Handhabung asynchroner Vorgänge, das Abhören komplexer Ereignisse und das Lebenszyklusmanagement.",
+    "modeDescription_full": "Vollständiger Modus: Stellt Beispielcode einschließlich Registrierung, Export und vollständigem Lebenszyklus bereit. Kann direkt als eigenständiges Skript verwendet werden."
+  }
+}

@@ -1,9 +1,0 @@
-{
-  "content": {
-    "create": "vytvořit",
-    "delete": "vymazat",
-    "confirmDelete": "Opravdu chcete tuto položku smazat?",
-    "cancel": "vzdát se",
-    "title": "varovat"
-  }
-}

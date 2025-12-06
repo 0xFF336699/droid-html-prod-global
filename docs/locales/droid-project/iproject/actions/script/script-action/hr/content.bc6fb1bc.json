@@ -1,0 +1,15 @@
+{
+  "IActionScript": {
+    "title": "radnja scenarija",
+    "scriptMode": "način skripte",
+    "scriptMode_simple": "Jednostavan način (samo izmijenite funkciju executeAction())",
+    "scriptMode_advanced": "Napredni način rada (potpuna funkcija pričvršćivanja)",
+    "scriptMode_full": "Potpuni način (sadrži sve strukture koda)",
+    "scriptCode": "kod skripte",
+    "scriptPlaceholder": "Unesite kod svoje skripte ovdje...",
+    "modeDescription": "Opis načina rada",
+    "modeDescription_simple": "Jednostavan način: Okvir automatski upravlja životnim ciklusom. Morate samo implementirati akcijsku logiku u danoj funkciji executeAction(). Kada je izvođenje uspješno, poziva se that.dispatchSuccess(), a kada ne uspije, poziva se that.dispatchFailed(errorMessage).",
+    "modeDescription_advanced": "Napredni način rada: dobivate potpunu funkciju pričvršćivanja i možete u potpunosti prilagoditi svu logiku. Prikladno za rukovanje asinkronim operacijama, slušanje složenih događaja i upravljanje životnim ciklusom.",
+    "modeDescription_full": "Potpuni način rada: pruža uzorak koda uključujući registraciju, izvoz i cijeli životni ciklus. Može se koristiti izravno kao samostalna skripta."
+  }
+}

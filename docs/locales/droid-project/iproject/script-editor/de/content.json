@@ -1,0 +1,22 @@
+{
+  "PermissionsEditorAdapter": {
+    "label": "Erforderliche Berechtigungen",
+    "permissionsCount": "Berechtigungen"
+  },
+  "scriptEditor": {
+    "scriptMode": "Skriptmodus",
+    "scriptMode_simple": "Einfacher Modus",
+    "scriptMode_advanced": "Erweiterter Modus",
+    "scriptMode_full": "Vollmodus",
+    "scriptCode": "Skriptcode",
+    "scriptPlaceholder": "Geben Sie hier Ihren Skriptcode ein...",
+    "modeDescription": "Modusbeschreibung",
+    "showTemplate": "Vorlage anzeigen",
+    "templateDialog_title": "{mode}-Modusvorlage",
+    "templateCode": "Vorlagencode",
+    "templateDescription": "Dies ist die Standardvorlage für den {mode}-Modus. Sie können diesen Vorlagencode manuell in den Editor kopieren.",
+    "templateDialog_close": "Schließung",
+    "PermissionsEditorAdapter.label": "Berechtigungen",
+    "PermissionsEditorAdapter.permissionsCount": "individuell"
+  }
+}

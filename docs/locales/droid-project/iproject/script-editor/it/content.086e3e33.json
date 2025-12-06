@@ -1,0 +1,22 @@
+{
+  "PermissionsEditorAdapter": {
+    "label": "Autorizzazioni richieste",
+    "permissionsCount": "autorizzazioni"
+  },
+  "scriptEditor": {
+    "scriptMode": "modalità script",
+    "scriptMode_simple": "Modalità semplice",
+    "scriptMode_advanced": "Modalità avanzata",
+    "scriptMode_full": "modalità completa",
+    "scriptCode": "codice di script",
+    "scriptPlaceholder": "Inserisci qui il codice del tuo script...",
+    "modeDescription": "Descrizione della modalità",
+    "showTemplate": "Mostra modello",
+    "templateDialog_title": "modello di modalità {mode}",
+    "templateCode": "codice modello",
+    "templateDescription": "Questo è il modello standard per la modalità {mode}. Puoi copiare manualmente il codice del modello nell'editor.",
+    "templateDialog_close": "chiusura",
+    "PermissionsEditorAdapter.label": "Autorizzazioni",
+    "PermissionsEditorAdapter.permissionsCount": "individuale"
+  }
+}

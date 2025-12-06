@@ -1,0 +1,15 @@
+{
+  "IActionScript": {
+    "title": "tindakan naskah",
+    "scriptMode": "mode skrip",
+    "scriptMode_simple": "Mode sederhana (cukup ubah fungsi eksekusiAction())",
+    "scriptMode_advanced": "Mode lanjutan (fungsi lampiran lengkap)",
+    "scriptMode_full": "Mode lengkap (berisi semua struktur kode)",
+    "scriptCode": "kode skrip",
+    "scriptPlaceholder": "Masukkan kode skrip Anda di sini...",
+    "modeDescription": "Deskripsi modus",
+    "modeDescription_simple": "Mode sederhana: Kerangka kerja menangani siklus hidup secara otomatis. Anda hanya perlu mengimplementasikan logika tindakan dalam fungsi eksekusiAction() yang disediakan. Jika eksekusi berhasil, that.dispatchSuccess() dipanggil, dan jika gagal, that.dispatchFailed(errorMessage) dipanggil.",
+    "modeDescription_advanced": "Mode lanjutan: Anda mendapatkan fungsi lampiran lengkap dan dapat sepenuhnya menyesuaikan semua logika. Cocok untuk menangani operasi asinkron, mendengarkan peristiwa kompleks, dan manajemen siklus hidup.",
+    "modeDescription_full": "Mode lengkap: Menyediakan kode sampel termasuk registrasi, ekspor, dan siklus hidup lengkap. Dapat digunakan langsung sebagai skrip mandiri."
+  }
+}

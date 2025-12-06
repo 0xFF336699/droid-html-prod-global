@@ -1,0 +1,15 @@
+{
+  "IActionScript": {
+    "title": "פעולת תסריט",
+    "scriptMode": "מצב סקריפט",
+    "scriptMode_simple": "מצב פשוט (פשוט שנה את הפונקציה executeAction())",
+    "scriptMode_advanced": "מצב מתקדם (פונקציית חיבור מלאה)",
+    "scriptMode_full": "מצב שלם (מכיל את כל מבני הקוד)",
+    "scriptCode": "קוד סקריפט",
+    "scriptPlaceholder": "הזן את קוד הסקריפט שלך כאן...",
+    "modeDescription": "תיאור מצב",
+    "modeDescription_simple": "מצב פשוט: המסגרת מטפלת במחזור החיים באופן אוטומטי. אתה רק צריך ליישם את לוגיקת הפעולה בפונקציה executeAction() המסופקת. כאשר הביצוע מצליח, נקרא that.dispatchSuccess() וכאשר הוא נכשל, נקרא that.dispatchFailed(errorMessage).",
+    "modeDescription_advanced": "מצב מתקדם: אתה מקבל את פונקציית החיבור המלאה ויכול להתאים אישית את כל ההיגיון. מתאים לטיפול בפעולות א-סינכרוניות, האזנה לאירועים מורכבים וניהול מחזור חיים.",
+    "modeDescription_full": "מצב שלם: מספק קוד לדוגמה כולל רישום, ייצוא ומחזור חיים מלא. יכול לשמש ישירות כסקריפט עצמאי."
+  }
+}
