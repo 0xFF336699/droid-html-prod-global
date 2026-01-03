@@ -530,7 +530,7 @@ function webViewJsRemoveListen(target, index) {
 
 /***/ }),
 
-/***/ 45534:
+/***/ 44272:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -552,12 +552,80 @@ var project_contexts = __webpack_require__(26944);
 var storage = __webpack_require__(55863);
 // EXTERNAL MODULE: ../../libs/droid/project-interface/src/project/IProject.data.ts
 var IProject_data = __webpack_require__(28688);
-// EXTERNAL MODULE: ../../libs/droid/project-interface/src/project/ProjectCategory.ts
-var ProjectCategory = __webpack_require__(27251);
-// EXTERNAL MODULE: ../../libs/app/static/src/pages/trigger-list-action-list-common/common.ts
-var common = __webpack_require__(82964);
 // EXTERNAL MODULE: ../../libs/fanfanlo/src/log/Log.ts + 1 modules
 var Log = __webpack_require__(89597);
+;// ../../libs/droid/project-interface/src/project/ProjectCategory.ts
+
+const fileLog = new Log/* Log */.tG(true, 'ProjectCategory');
+fileLog.pause = true;
+fileLog.childrenPaused = true;
+/**
+ * Project 类别枚举
+ *
+ * QuickAction - 快捷操作：只有一个 action，无 trigger
+ * ScriptRunner - 脚本运行器：单 script action，纯代码
+ * Workflow - 工作流：完整的 trigger + action
+ */ var ProjectCategory = /*#__PURE__*/ function(ProjectCategory) {
+    /** 快捷操作 - 只有一个 action，无 trigger */ ProjectCategory["QuickAction"] = "quick-action";
+    /** 脚本运行器 - 单 script action，纯代码 */ ProjectCategory["ScriptRunner"] = "script-runner";
+    /** 工作流 - 完整的 trigger + action */ ProjectCategory["Workflow"] = "workflow";
+    return ProjectCategory;
+}({});
+/**
+ * 各类别的配置
+ */ const PROJECT_CATEGORY_CONFIGS = {
+    ["quick-action"]: {
+        category: "quick-action",
+        labelKey: 'ProjectCategory.QuickAction.label',
+        descriptionKey: 'ProjectCategory.QuickAction.description',
+        icon: 'flash_on',
+        uiConfig: {
+            showTrigger: false,
+            showActionList: true,
+            allowAddGroup: false,
+            forceScriptAction: false
+        }
+    },
+    ["script-runner"]: {
+        category: "script-runner",
+        labelKey: 'ProjectCategory.ScriptRunner.label',
+        descriptionKey: 'ProjectCategory.ScriptRunner.description',
+        icon: 'code',
+        uiConfig: {
+            showTrigger: false,
+            showActionList: false,
+            allowAddGroup: false,
+            forceScriptAction: true
+        }
+    },
+    ["workflow"]: {
+        category: "workflow",
+        labelKey: 'ProjectCategory.Workflow.label',
+        descriptionKey: 'ProjectCategory.Workflow.description',
+        icon: 'account_tree',
+        uiConfig: {
+            showTrigger: true,
+            showActionList: true,
+            allowAddGroup: true,
+            forceScriptAction: false
+        }
+    }
+};
+/**
+ * 获取 ProjectCategory 配置
+ * @param category 项目类别，如果为空则默认返回 Workflow 配置
+ */ function getProjectCategoryConfig(category) {
+    fileLog.log("[getProjectCategoryConfig] 输入 category=".concat(category));
+    // 兼容旧数据：如果没有 category，默认为 Workflow
+    const resolvedCategory = category || "workflow";
+    fileLog.log("[getProjectCategoryConfig] 解析后 category=".concat(resolvedCategory));
+    const config = PROJECT_CATEGORY_CONFIGS[resolvedCategory];
+    fileLog.log("[getProjectCategoryConfig] 返回配置:", JSON.stringify(config));
+    return config;
+}
+
+// EXTERNAL MODULE: ../../libs/app/static/src/pages/trigger-list-action-list-common/common.ts
+var common = __webpack_require__(82964);
 // EXTERNAL MODULE: ../../libs/fanfanlo/src/watcher/useProxyWatch.ts
 var useProxyWatch = __webpack_require__(80502);
 // EXTERNAL MODULE: ../../libs/fanfanlo/src/utils/debug/object-count-utils.ts
@@ -716,7 +784,7 @@ function createProjectEditInfo(project) {
 const ProjectEditInfoContext = /*#__PURE__*/ (0,react.createContext)({});
 /**
  * 默认的 UI 配置（Workflow 模式）
- */ const defaultUIConfig = ProjectCategory/* PROJECT_CATEGORY_CONFIGS */.v8[ProjectCategory/* ProjectCategory */.U2.Workflow].uiConfig;
+ */ const defaultUIConfig = PROJECT_CATEGORY_CONFIGS[ProjectCategory.Workflow].uiConfig;
 /**
  * ProjectCategory UI 配置 Context
  * 用于在编辑器组件中传递类别配置
@@ -807,9 +875,9 @@ var ITriggerNodeTrigger = __webpack_require__(3899);
 
 
 
-const fileLog = new Log/* Log */.tG(false, 'nodeClickUtils_f');
-fileLog.pause = false;
-fileLog.childrenPaused = false;
+const nodeClickUtils_fileLog = new Log/* Log */.tG(false, 'nodeClickUtils_f');
+nodeClickUtils_fileLog.pause = false;
+nodeClickUtils_fileLog.childrenPaused = false;
 /**
  * 创建 NodeTrigger + NodeAction 的 TriggerAction 对
  *
@@ -820,27 +888,27 @@ fileLog.childrenPaused = false;
  * @returns ITriggerAction
  */ function createNodeTriggerActionPair(pn, an, cn, node) {
     var _triggerData_permissions, _triggerData_injects, _actionData_permissions, _actionData_injects;
-    fileLog.log('createNodeTriggerActionPair called');
-    fileLog.log('pn =', pn);
-    fileLog.log('an =', an);
-    fileLog.log('cn =', cn);
-    fileLog.log('node =', node);
+    nodeClickUtils_fileLog.log('createNodeTriggerActionPair called');
+    nodeClickUtils_fileLog.log('pn =', pn);
+    nodeClickUtils_fileLog.log('an =', an);
+    nodeClickUtils_fileLog.log('cn =', cn);
+    nodeClickUtils_fileLog.log('node =', node);
     // 获取 trigger utils
     const triggerUtils = (0,ITrigger_intf/* getTriggerUtils */.gq)(ITriggerNodeTrigger/* triggerNodeTriggerType */.F);
-    fileLog.log('got triggerUtils for type:', ITriggerNodeTrigger/* triggerNodeTriggerType */.F);
+    nodeClickUtils_fileLog.log('got triggerUtils for type:', ITriggerNodeTrigger/* triggerNodeTriggerType */.F);
     if (!triggerUtils) {
         const errorMsg = "triggerUtils not found for type: ".concat(ITriggerNodeTrigger/* triggerNodeTriggerType */.F);
-        fileLog.log(errorMsg);
+        nodeClickUtils_fileLog.log(errorMsg);
         throw new Error(errorMsg);
     }
-    fileLog.log('triggerUtils found');
+    nodeClickUtils_fileLog.log('triggerUtils found');
     // 使用 mergeDataToDefaultData 创建 trigger 数据
     const triggerId = (0,index_esm/* ulid */.Z0)();
-    fileLog.log('created triggerId =', triggerId);
+    nodeClickUtils_fileLog.log('created triggerId =', triggerId);
     // 将 node 转换为 selectorChain
-    fileLog.log('converting node to selectorChain...');
+    nodeClickUtils_fileLog.log('converting node to selectorChain...');
     const operations = nodeToSelectorChain(node);
-    fileLog.log('selectorChain operations count:', operations.length);
+    nodeClickUtils_fileLog.log('selectorChain operations count:', operations.length);
     const triggerData = triggerUtils.mergeDataToDefaultData({
         id: triggerId,
         javaData: {
@@ -852,22 +920,22 @@ fileLog.childrenPaused = false;
             }
         }
     });
-    fileLog.log('created triggerData with mergeDataToDefaultData');
-    fileLog.log('triggerData.permissions count =', ((_triggerData_permissions = triggerData.permissions) === null || _triggerData_permissions === void 0 ? void 0 : _triggerData_permissions.length) || 0);
-    fileLog.log('triggerData.injects count =', ((_triggerData_injects = triggerData.injects) === null || _triggerData_injects === void 0 ? void 0 : _triggerData_injects.length) || 0);
-    fileLog.log('triggerData =', triggerData);
+    nodeClickUtils_fileLog.log('created triggerData with mergeDataToDefaultData');
+    nodeClickUtils_fileLog.log('triggerData.permissions count =', ((_triggerData_permissions = triggerData.permissions) === null || _triggerData_permissions === void 0 ? void 0 : _triggerData_permissions.length) || 0);
+    nodeClickUtils_fileLog.log('triggerData.injects count =', ((_triggerData_injects = triggerData.injects) === null || _triggerData_injects === void 0 ? void 0 : _triggerData_injects.length) || 0);
+    nodeClickUtils_fileLog.log('triggerData =', triggerData);
     // 获取 action utils
     const actionUtils = (0,IAction_intf/* getActionUtils */.e9)(IActionNodeAction/* actionNodeActionType */.pu);
-    fileLog.log('got actionUtils for type:', IActionNodeAction/* actionNodeActionType */.pu);
+    nodeClickUtils_fileLog.log('got actionUtils for type:', IActionNodeAction/* actionNodeActionType */.pu);
     if (!actionUtils) {
         const errorMsg = "actionUtils not found for type: ".concat(IActionNodeAction/* actionNodeActionType */.pu);
-        fileLog.log(errorMsg);
+        nodeClickUtils_fileLog.log(errorMsg);
         throw new Error(errorMsg);
     }
-    fileLog.log('actionUtils found');
+    nodeClickUtils_fileLog.log('actionUtils found');
     // 使用 mergeDataToDefaultData 创建 action 数据
     const actionId = (0,index_esm/* ulid */.Z0)();
-    fileLog.log('created actionId =', actionId);
+    nodeClickUtils_fileLog.log('created actionId =', actionId);
     const actionData = actionUtils.mergeDataToDefaultData({
         id: actionId,
         javaData: {
@@ -877,13 +945,13 @@ fileLog.childrenPaused = false;
             }
         }
     });
-    fileLog.log('created actionData with mergeDataToDefaultData');
-    fileLog.log('actionData.permissions count =', ((_actionData_permissions = actionData.permissions) === null || _actionData_permissions === void 0 ? void 0 : _actionData_permissions.length) || 0);
-    fileLog.log('actionData.injects count =', ((_actionData_injects = actionData.injects) === null || _actionData_injects === void 0 ? void 0 : _actionData_injects.length) || 0);
-    fileLog.log('actionData =', actionData);
+    nodeClickUtils_fileLog.log('created actionData with mergeDataToDefaultData');
+    nodeClickUtils_fileLog.log('actionData.permissions count =', ((_actionData_permissions = actionData.permissions) === null || _actionData_permissions === void 0 ? void 0 : _actionData_permissions.length) || 0);
+    nodeClickUtils_fileLog.log('actionData.injects count =', ((_actionData_injects = actionData.injects) === null || _actionData_injects === void 0 ? void 0 : _actionData_injects.length) || 0);
+    nodeClickUtils_fileLog.log('actionData =', actionData);
     // 创建 actionGroup (IGroup<IActionData>)
     const actionGroupId = (0,index_esm/* ulid */.Z0)();
-    fileLog.log('created actionGroupId =', actionGroupId);
+    nodeClickUtils_fileLog.log('created actionGroupId =', actionGroupId);
     const actionGroup = {
         type: 'actionGroup',
         id: actionGroupId,
@@ -897,10 +965,10 @@ fileLog.childrenPaused = false;
         ],
         isSequential: true
     };
-    fileLog.log('created actionGroup =', actionGroup);
+    nodeClickUtils_fileLog.log('created actionGroup =', actionGroup);
     // 创建 triggerGroup (IGroup<ITriggerData>)
     const triggerGroupId = (0,index_esm/* ulid */.Z0)();
-    fileLog.log('created triggerGroupId =', triggerGroupId);
+    nodeClickUtils_fileLog.log('created triggerGroupId =', triggerGroupId);
     const triggerGroup = {
         type: 'triggerGroup',
         id: triggerGroupId,
@@ -914,10 +982,10 @@ fileLog.childrenPaused = false;
         ],
         isSequential: true
     };
-    fileLog.log('created triggerGroup =', triggerGroup);
+    nodeClickUtils_fileLog.log('created triggerGroup =', triggerGroup);
     // 创建 triggerAction
     const triggerActionId = (0,index_esm/* ulid */.Z0)();
-    fileLog.log('created triggerActionId =', triggerActionId);
+    nodeClickUtils_fileLog.log('created triggerActionId =', triggerActionId);
     const triggerAction = {
         type: 'triggerAction',
         id: triggerActionId,
@@ -925,7 +993,7 @@ fileLog.childrenPaused = false;
         triggerGroup,
         actionGroup
     };
-    fileLog.log('created triggerAction =', triggerAction);
+    nodeClickUtils_fileLog.log('created triggerAction =', triggerAction);
     return triggerAction;
 }
 /**
@@ -949,12 +1017,12 @@ fileLog.childrenPaused = false;
  * @returns operations 数组
  */ function nodeToSelectorChain(node) {
     const operations = [];
-    fileLog.log('[nodeToSelectorChain] 开始转换 node 为 selectorChain');
-    fileLog.log('[nodeToSelectorChain] node:', JSON.stringify(node));
+    nodeClickUtils_fileLog.log('[nodeToSelectorChain] 开始转换 node 为 selectorChain');
+    nodeClickUtils_fileLog.log('[nodeToSelectorChain] node:', JSON.stringify(node));
     // 1. text - 优先级最高,如果有文本就使用
     if (node.text && typeof node.text === 'string' && node.text.trim() !== '') {
         const textValue = node.text.trim();
-        fileLog.log('[nodeToSelectorChain] 添加 text selector:', textValue);
+        nodeClickUtils_fileLog.log('[nodeToSelectorChain] 添加 text selector:', textValue);
         operations.push({
             method: SelectorOperation.TEXT,
             value: textValue
@@ -962,7 +1030,7 @@ fileLog.childrenPaused = false;
     }
     // 2. className - 几乎所有节点都有,作为辅助条件
     if (node.className && typeof node.className === 'string') {
-        fileLog.log('[nodeToSelectorChain] 添加 className selector:', node.className);
+        nodeClickUtils_fileLog.log('[nodeToSelectorChain] 添加 className selector:', node.className);
         operations.push({
             method: SelectorOperation.CLASS_NAME,
             value: node.className
@@ -970,10 +1038,10 @@ fileLog.childrenPaused = false;
     }
     // 3. 如果没有 text,考虑使用其他属性
     if (!node.text || node.text.trim() === '') {
-        fileLog.log('[nodeToSelectorChain] 节点没有 text,考虑添加其他属性');
+        nodeClickUtils_fileLog.log('[nodeToSelectorChain] 节点没有 text,考虑添加其他属性');
         // contentDescription (desc)
         if (node.contentDescription && typeof node.contentDescription === 'string' && node.contentDescription.trim() !== '') {
-            fileLog.log('[nodeToSelectorChain] 添加 desc selector:', node.contentDescription);
+            nodeClickUtils_fileLog.log('[nodeToSelectorChain] 添加 desc selector:', node.contentDescription);
             operations.push({
                 method: SelectorOperation.DESC,
                 value: node.contentDescription.trim()
@@ -981,7 +1049,7 @@ fileLog.childrenPaused = false;
         }
         // resourceId (id)
         if (node.viewIdResourceName && typeof node.viewIdResourceName === 'string' && node.viewIdResourceName.trim() !== '') {
-            fileLog.log('[nodeToSelectorChain] 添加 id selector:', node.viewIdResourceName);
+            nodeClickUtils_fileLog.log('[nodeToSelectorChain] 添加 id selector:', node.viewIdResourceName);
             operations.push({
                 method: SelectorOperation.ID,
                 value: node.viewIdResourceName.trim()
@@ -1027,7 +1095,7 @@ fileLog.childrenPaused = false;
         if (typeof node[attr.key] === 'boolean') {
             // 只添加有区分性的属性(true 的情况,或者对定位很重要的属性)
             if (node[attr.key] === true && (attr.key === "isClickable" || attr.key === "isEnabled")) {
-                fileLog.log('[nodeToSelectorChain] 添加', attr.method, 'selector:', node[attr.key]);
+                nodeClickUtils_fileLog.log('[nodeToSelectorChain] 添加', attr.method, 'selector:', node[attr.key]);
                 operations.push({
                     method: attr.method,
                     value: node[attr.key]
@@ -1040,7 +1108,7 @@ fileLog.childrenPaused = false;
     if (operations.length === 0 && node.boundsInScreen) {
         const bounds = node.boundsInScreen;
         if (typeof bounds.left === 'number' && typeof bounds.top === 'number' && typeof bounds.right === 'number' && typeof bounds.bottom === 'number') {
-            fileLog.log('[nodeToSelectorChain] 其他属性不足,添加 bounds selector:', bounds);
+            nodeClickUtils_fileLog.log('[nodeToSelectorChain] 其他属性不足,添加 bounds selector:', bounds);
             operations.push({
                 method: SelectorOperation.BOUNDS,
                 value: {
@@ -1052,8 +1120,8 @@ fileLog.childrenPaused = false;
             });
         }
     }
-    fileLog.log('[nodeToSelectorChain] 转换完成, operations count:', operations.length);
-    fileLog.log('[nodeToSelectorChain] operations:', JSON.stringify(operations));
+    nodeClickUtils_fileLog.log('[nodeToSelectorChain] 转换完成, operations count:', operations.length);
+    nodeClickUtils_fileLog.log('[nodeToSelectorChain] operations:', JSON.stringify(operations));
     return operations;
 }
 
@@ -1942,8 +2010,455 @@ function TriggerActionGroup() {
 
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+icons-material@6.4.12_@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_re_5ewkm5t5g27pzq5tz62v6ktvti/node_modules/@mui/icons-material/esm/Save.js
 var Save = __webpack_require__(99456);
-// EXTERNAL MODULE: ../../libs/droid/project/src/project/utils/runProject.ts + 1 modules
-var runProject = __webpack_require__(8136);
+// EXTERNAL MODULE: ../../libs/droid/android/src/android/AutoWebViewJs.ts + 1 modules
+var AutoWebViewJs = __webpack_require__(68709);
+;// ../../libs/droid/project-interface/src/project/project-utils.ts
+
+
+
+const project_utils_fileLog = new Log/* Log */.tG(false, 'project-utils_f');
+project_utils_fileLog.pause = true;
+project_utils_fileLog.childrenPaused = true;
+/**
+ * 获取Project权限列表
+ * 保留原有函数以兼容
+ */ function getProjectPermissions(project) {
+    const fnLog = project_utils_fileLog.sub(false, 'getProjectPermissions_fn');
+    fnLog.pause = true;
+    fnLog.log('[getProjectPermissions] 开始获取权限, projectClientId:', project.client_id);
+    const permissions = new Set();
+    for(let i = 0; i < project.triggerActionGroup.list.length; i++){
+        const triggerAction = project.triggerActionGroup.list[i];
+        fnLog.log('[getProjectPermissions] 处理triggerAction[', i, ']');
+        for(let j = 0; j < triggerAction.triggerGroup.list.length; j++){
+            const trigger = triggerAction.triggerGroup.list[j];
+            if (trigger.permissions) {
+                fnLog.log('[getProjectPermissions] trigger有权限, 数量:', trigger.permissions.length);
+                for(let k = 0; k < trigger.permissions.length; k++){
+                    const permission = trigger.permissions[k];
+                    fnLog.log('[getProjectPermissions] 添加权限:', permission.name);
+                    permissions.add(permission.name);
+                }
+            }
+        }
+        for(let j = 0; j < triggerAction.actionGroup.list.length; j++){
+            const action = triggerAction.actionGroup.list[j];
+            if (action.permissions) {
+                fnLog.log('[getProjectPermissions] action有权限, 数量:', action.permissions.length);
+                for(let k = 0; k < action.permissions.length; k++){
+                    const permission = action.permissions[k];
+                    fnLog.log('[getProjectPermissions] 添加权限:', permission.name);
+                    permissions.add(permission.name);
+                }
+            }
+        }
+    }
+    const result = [
+        ...permissions
+    ];
+    fnLog.log('[getProjectPermissions] 权限获取完成, 总数:', result.length);
+    return result;
+}
+/**
+ * 获取Project权限详细信息列表
+ * 返回包含name、value、reason的完整权限数据
+ * 异步加载国际化文本 (通过各 action/trigger 的 loadI18nTexts)
+ */ async function getProjectPermissionsData(project) {
+    const fnLog = project_utils_fileLog.sub(false, 'getProjectPermissionsData_fn');
+    // fnLog.pause = true;
+    fnLog.log('[getProjectPermissionsData] 开始获取权限详细信息, projectClientId:', project.client_id);
+    // 先调用各 action/trigger 的 loadI18nTexts 加载国际化文本
+    fnLog.log('[getProjectPermissionsData] 开始加载国际化文本');
+    for(let i = 0; i < project.triggerActionGroup.list.length; i++){
+        const triggerAction = project.triggerActionGroup.list[i];
+        fnLog.log('[getProjectPermissionsData] 处理triggerAction[', i, ']');
+        // 加载 trigger 的 i18n
+        for(let j = 0; j < triggerAction.triggerGroup.list.length; j++){
+            const trigger = triggerAction.triggerGroup.list[j];
+            fnLog.log('[getProjectPermissionsData] 处理trigger[', j, '], type:', trigger.type);
+            const triggerUtils = (0,ITrigger_intf/* getTriggerUtils */.gq)(trigger.type);
+            fnLog.log('[getProjectPermissionsData] triggerUtils 是否存在:', !!triggerUtils);
+            if (triggerUtils) {
+                const hasLoadI18nTexts = !!triggerUtils.loadI18nTexts;
+                fnLog.log('[getProjectPermissionsData] triggerUtils.loadI18nTexts 是否存在:', hasLoadI18nTexts);
+                if (hasLoadI18nTexts) {
+                    fnLog.log('[getProjectPermissionsData] 调用 triggerUtils.loadI18nTexts');
+                    await triggerUtils.loadI18nTexts(trigger);
+                    fnLog.log('[getProjectPermissionsData] trigger i18n 加载完成');
+                } else {
+                    fnLog.log('[getProjectPermissionsData] trigger 没有 loadI18nTexts 方法');
+                }
+            } else {
+                fnLog.log('[getProjectPermissionsData] 未找到 triggerUtils');
+            }
+        }
+        // 加载 action 的 i18n
+        for(let j = 0; j < triggerAction.actionGroup.list.length; j++){
+            const action = triggerAction.actionGroup.list[j];
+            fnLog.log('[getProjectPermissionsData] 处理action[', j, '], type:', action.type);
+            const actionUtils = (0,IAction_intf/* getActionUtils */.e9)(action.type);
+            fnLog.log('[getProjectPermissionsData] actionUtils 是否存在:', !!actionUtils);
+            if (actionUtils) {
+                const hasLoadI18nTexts = !!actionUtils.loadI18nTexts;
+                fnLog.log('[getProjectPermissionsData] actionUtils.loadI18nTexts 是否存在:', hasLoadI18nTexts);
+                if (hasLoadI18nTexts) {
+                    fnLog.log('[getProjectPermissionsData] 调用 actionUtils.loadI18nTexts');
+                    await actionUtils.loadI18nTexts(action);
+                    fnLog.log('[getProjectPermissionsData] action i18n 加载完成');
+                } else {
+                    fnLog.log('[getProjectPermissionsData] action 没有 loadI18nTexts 方法');
+                }
+            } else {
+                fnLog.log('[getProjectPermissionsData] 未找到 actionUtils');
+            }
+        }
+    }
+    fnLog.log('[getProjectPermissionsData] 所有 i18n 加载完成, 开始收集权限');
+    // 收集权限数据
+    const permissionsMap = new Map();
+    for(let i = 0; i < project.triggerActionGroup.list.length; i++){
+        const triggerAction = project.triggerActionGroup.list[i];
+        fnLog.log('[getProjectPermissionsData] 收集triggerAction[', i, ']的权限');
+        for(let j = 0; j < triggerAction.triggerGroup.list.length; j++){
+            const trigger = triggerAction.triggerGroup.list[j];
+            if (trigger.permissions) {
+                fnLog.log('[getProjectPermissionsData] trigger有权限, 数量:', trigger.permissions.length);
+                for(let k = 0; k < trigger.permissions.length; k++){
+                    const permission = trigger.permissions[k];
+                    fnLog.log('[getProjectPermissionsData] 添加权限:', permission.name, 'value:', permission.value);
+                    if (permission.value) {
+                        permissionsMap.set(permission.value, permission);
+                    } else {
+                        fnLog.log('[getProjectPermissionsData] 权限缺少value字段, 跳过:', permission.name);
+                    }
+                }
+            } else {
+                fnLog.log('[getProjectPermissionsData] trigger没有权限');
+            }
+        }
+        for(let j = 0; j < triggerAction.actionGroup.list.length; j++){
+            const action = triggerAction.actionGroup.list[j];
+            if (action.permissions) {
+                fnLog.log('[getProjectPermissionsData] action有权限, 数量:', action.permissions.length);
+                for(let k = 0; k < action.permissions.length; k++){
+                    const permission = action.permissions[k];
+                    fnLog.log('[getProjectPermissionsData] 添加权限:', permission.name, 'value:', permission.value);
+                    if (permission.value) {
+                        permissionsMap.set(permission.value, permission);
+                    } else {
+                        fnLog.log('[getProjectPermissionsData] 权限缺少value字段, 跳过:', permission.name);
+                    }
+                }
+            } else {
+                fnLog.log('[getProjectPermissionsData] action没有权限');
+            }
+        }
+    }
+    const result = Array.from(permissionsMap.values());
+    fnLog.log('[getProjectPermissionsData] 权限详细信息获取完成, 总数:', result.length, JSON.stringify(result));
+    return result;
+}
+/**
+ * 获取Project注入配置列表
+ * 收集所有 action 和 trigger 中声明的 injects
+ * 返回混合格式数组,支持 InjectKeyType 和 [InjectKeyType, string]
+ */ function getProjectInjects(project) {
+    const fnLog = project_utils_fileLog.sub(false, 'getProjectInjects_fn');
+    // fnLog.pause = true;
+    fnLog.log('[getProjectInjects] 开始获取注入配置, projectClientId:', project.client_id);
+    const injectsArray = [];
+    const injectKeysSet = new Set();
+    fnLog.log('[getProjectInjects] triggerActionGroup.list长度:', project.triggerActionGroup.list.length);
+    for(let i = 0; i < project.triggerActionGroup.list.length; i++){
+        const triggerAction = project.triggerActionGroup.list[i];
+        fnLog.log('[getProjectInjects] 处理triggerAction[', i, ']');
+        fnLog.log('[getProjectInjects] triggerGroup.list长度:', triggerAction.triggerGroup.list.length);
+        for(let j = 0; j < triggerAction.triggerGroup.list.length; j++){
+            const trigger = triggerAction.triggerGroup.list[j];
+            fnLog.log('[getProjectInjects] 处理trigger[', j, ']');
+            fnLog.log('[getProjectInjects] trigger完整数据:', JSON.stringify(trigger, null, 2));
+            fnLog.log('[getProjectInjects] trigger.permissions:', trigger.permissions);
+            fnLog.log('[getProjectInjects] trigger.injects:', trigger.injects);
+            if (trigger.injects) {
+                fnLog.log('[getProjectInjects] trigger有injects, 数量:', trigger.injects.length);
+                for(let k = 0; k < trigger.injects.length; k++){
+                    const inject = trigger.injects[k];
+                    fnLog.log('[getProjectInjects] 处理inject[', k, ']:', inject);
+                    const isArray = Array.isArray(inject);
+                    fnLog.log('[getProjectInjects] inject是数组:', isArray);
+                    if (isArray) {
+                        const injectKey = inject[0];
+                        fnLog.log('[getProjectInjects] inject键名:', injectKey);
+                        const hasKey = injectKeysSet.has(injectKey);
+                        fnLog.log('[getProjectInjects] 是否已存在:', hasKey);
+                        if (!hasKey) {
+                            fnLog.log('[getProjectInjects] 添加新inject(数组格式):', inject);
+                            injectsArray.push(inject);
+                            injectKeysSet.add(injectKey);
+                        } else {
+                            fnLog.log('[getProjectInjects] inject已存在,跳过');
+                        }
+                    } else {
+                        const injectKey = inject;
+                        fnLog.log('[getProjectInjects] inject键名:', injectKey);
+                        const hasKey = injectKeysSet.has(injectKey);
+                        fnLog.log('[getProjectInjects] 是否已存在:', hasKey);
+                        if (!hasKey) {
+                            fnLog.log('[getProjectInjects] 添加新inject(字符串格式):', inject);
+                            injectsArray.push(inject);
+                            injectKeysSet.add(injectKey);
+                        } else {
+                            fnLog.log('[getProjectInjects] inject已存在,跳过');
+                        }
+                    }
+                }
+            } else {
+                fnLog.log('[getProjectInjects] trigger没有injects');
+            }
+        }
+        fnLog.log('[getProjectInjects] actionGroup.list长度:', triggerAction.actionGroup.list.length);
+        for(let j = 0; j < triggerAction.actionGroup.list.length; j++){
+            const action = triggerAction.actionGroup.list[j];
+            fnLog.log('[getProjectInjects] 处理action[', j, ']');
+            fnLog.log('[getProjectInjects] action完整数据:', JSON.stringify(action, null, 2));
+            fnLog.log('[getProjectInjects] action.permissions:', action.permissions);
+            fnLog.log('[getProjectInjects] action.injects:', action.injects);
+            if (action.injects) {
+                fnLog.log('[getProjectInjects] action有injects, 数量:', action.injects.length);
+                for(let k = 0; k < action.injects.length; k++){
+                    const inject = action.injects[k];
+                    fnLog.log('[getProjectInjects] 处理inject[', k, ']:', inject);
+                    const isArray = Array.isArray(inject);
+                    fnLog.log('[getProjectInjects] inject是数组:', isArray);
+                    if (isArray) {
+                        const injectKey = inject[0];
+                        fnLog.log('[getProjectInjects] inject键名:', injectKey);
+                        const hasKey = injectKeysSet.has(injectKey);
+                        fnLog.log('[getProjectInjects] 是否已存在:', hasKey);
+                        if (!hasKey) {
+                            fnLog.log('[getProjectInjects] 添加新inject(数组格式):', inject);
+                            injectsArray.push(inject);
+                            injectKeysSet.add(injectKey);
+                        } else {
+                            fnLog.log('[getProjectInjects] inject已存在,跳过');
+                        }
+                    } else {
+                        const injectKey = inject;
+                        fnLog.log('[getProjectInjects] inject键名:', injectKey);
+                        const hasKey = injectKeysSet.has(injectKey);
+                        fnLog.log('[getProjectInjects] 是否已存在:', hasKey);
+                        if (!hasKey) {
+                            fnLog.log('[getProjectInjects] 添加新inject(字符串格式):', inject);
+                            injectsArray.push(inject);
+                            injectKeysSet.add(injectKey);
+                        } else {
+                            fnLog.log('[getProjectInjects] inject已存在,跳过');
+                        }
+                    }
+                }
+            } else {
+                fnLog.log('[getProjectInjects] action没有injects');
+            }
+        }
+    }
+    fnLog.log('[getProjectInjects] 注入配置获取完成, 总数:', injectsArray.length);
+    return injectsArray;
+}
+/**
+ * 运行Project (保留原有函数)
+ * 已废弃,使用generateRhinoScript代替
+ */ // function runProject(project: IProjectData): void {
+//     fnLog.log('[runProject] 废弃函数被调用, projectClientId:', project.client_id);
+//     const permissions = getProjectPermissions(project);
+//     fnLog.log('[runProject] 权限列表:', permissions);
+// }
+/**
+ * 清理项目中的空 TriggerAction
+ * 空 TriggerAction 定义:triggerGroup.list 和 actionGroup.list 都为空
+ * @param projectData 项目数据
+ * @returns 被清理的空 TriggerAction 数量
+ */ function cleanEmptyTriggerActions(projectData) {
+    const fnLog = project_utils_fileLog.sub(false, 'cleanEmptyTriggerActions_fn');
+    fnLog.log('[cleanEmptyTriggerActions] 开始清理空 TriggerAction');
+    // 检查 triggerActionGroup 是否存在
+    const hasTriggerActionGroup = projectData.triggerActionGroup ? true : false;
+    fnLog.log('[cleanEmptyTriggerActions] triggerActionGroup 是否存在:', hasTriggerActionGroup);
+    if (!projectData.triggerActionGroup) {
+        fnLog.log('[cleanEmptyTriggerActions] triggerActionGroup 不存在,跳过清理');
+        return 0;
+    }
+    // 检查 list 是否存在
+    const hasList = projectData.triggerActionGroup.list ? true : false;
+    fnLog.log('[cleanEmptyTriggerActions] list 是否存在:', hasList);
+    if (!projectData.triggerActionGroup.list) {
+        fnLog.log('[cleanEmptyTriggerActions] list 不存在,跳过清理');
+        return 0;
+    }
+    // 记录清理前的数量
+    const originalCount = projectData.triggerActionGroup.list.length;
+    fnLog.log('[cleanEmptyTriggerActions] 清理前 TriggerAction 数量:', originalCount);
+    // 过滤空的 triggerAction
+    fnLog.log('[cleanEmptyTriggerActions] 开始过滤');
+    const filteredList = projectData.triggerActionGroup.list.filter((triggerAction, index)=>{
+        var _triggerAction_triggerGroup, _triggerAction_triggerGroup_list, _triggerAction_triggerGroup1, _triggerAction_actionGroup, _triggerAction_actionGroup_list, _triggerAction_actionGroup1;
+        fnLog.log('[cleanEmptyTriggerActions] 检查 triggerAction[', index, '] id:', triggerAction.id);
+        // 检查 triggerGroup
+        const hasTriggerGroup = triggerAction.triggerGroup ? true : false;
+        fnLog.log('[cleanEmptyTriggerActions] triggerAction[', index, '] triggerGroup 是否存在:', hasTriggerGroup);
+        const hasTriggerList = ((_triggerAction_triggerGroup = triggerAction.triggerGroup) === null || _triggerAction_triggerGroup === void 0 ? void 0 : _triggerAction_triggerGroup.list) ? true : false;
+        fnLog.log('[cleanEmptyTriggerActions] triggerAction[', index, '] triggerGroup.list 是否存在:', hasTriggerList);
+        const triggerCount = ((_triggerAction_triggerGroup1 = triggerAction.triggerGroup) === null || _triggerAction_triggerGroup1 === void 0 ? void 0 : (_triggerAction_triggerGroup_list = _triggerAction_triggerGroup1.list) === null || _triggerAction_triggerGroup_list === void 0 ? void 0 : _triggerAction_triggerGroup_list.length) || 0;
+        fnLog.log('[cleanEmptyTriggerActions] triggerAction[', index, '] trigger 数量:', triggerCount);
+        // 检查 actionGroup
+        const hasActionGroup = triggerAction.actionGroup ? true : false;
+        fnLog.log('[cleanEmptyTriggerActions] triggerAction[', index, '] actionGroup 是否存在:', hasActionGroup);
+        const hasActionList = ((_triggerAction_actionGroup = triggerAction.actionGroup) === null || _triggerAction_actionGroup === void 0 ? void 0 : _triggerAction_actionGroup.list) ? true : false;
+        fnLog.log('[cleanEmptyTriggerActions] triggerAction[', index, '] actionGroup.list 是否存在:', hasActionList);
+        const actionCount = ((_triggerAction_actionGroup1 = triggerAction.actionGroup) === null || _triggerAction_actionGroup1 === void 0 ? void 0 : (_triggerAction_actionGroup_list = _triggerAction_actionGroup1.list) === null || _triggerAction_actionGroup_list === void 0 ? void 0 : _triggerAction_actionGroup_list.length) || 0;
+        fnLog.log('[cleanEmptyTriggerActions] triggerAction[', index, '] action 数量:', actionCount);
+        // 判断是否为空(trigger 和 action 都为空)
+        const hasTriggers = triggerCount > 0;
+        const hasActions = actionCount > 0;
+        fnLog.log('[cleanEmptyTriggerActions] triggerAction[', index, '] hasTriggers:', hasTriggers);
+        fnLog.log('[cleanEmptyTriggerActions] triggerAction[', index, '] hasActions:', hasActions);
+        // 至少要有 trigger 或 action 之一
+        const shouldKeep = hasTriggers || hasActions;
+        fnLog.log('[cleanEmptyTriggerActions] triggerAction[', index, '] shouldKeep:', shouldKeep);
+        if (!shouldKeep) {
+            fnLog.log('[cleanEmptyTriggerActions] ❌ 清理空的 triggerAction[', index, '] id:', triggerAction.id);
+        } else {
+            fnLog.log('[cleanEmptyTriggerActions] ✅ 保留 triggerAction[', index, '] id:', triggerAction.id);
+        }
+        return shouldKeep;
+    });
+    // 更新列表
+    fnLog.log('[cleanEmptyTriggerActions] 更新 list');
+    projectData.triggerActionGroup.list = filteredList;
+    // 记录清理后的数量
+    const finalCount = filteredList.length;
+    fnLog.log('[cleanEmptyTriggerActions] 清理后 TriggerAction 数量:', finalCount);
+    // 计算被清理的数量
+    const removedCount = originalCount - finalCount;
+    fnLog.log('[cleanEmptyTriggerActions] 清理了', removedCount, '个空 TriggerAction');
+    return removedCount;
+}
+// ==================== 导出 ====================
+const projectUtils = {
+    // runProject,
+    getProjectPermissions,
+    getProjectPermissionsData,
+    getProjectInjects,
+    cleanEmptyTriggerActions
+};
+
+// EXTERNAL MODULE: ../../libs/app/static/src/project/RhinoInjectKeys.ts
+var RhinoInjectKeys = __webpack_require__(92289);
+// EXTERNAL MODULE: ../../libs/app/static/src/project/assembleRhinoRunner.ts + 4 modules
+var assembleRhinoRunner = __webpack_require__(52198);
+// EXTERNAL MODULE: ../../libs/app/model/src/user/User.ts + 5 modules
+var User = __webpack_require__(80530);
+;// ../../libs/droid/project/src/project/utils/runProject.ts
+
+
+
+
+
+const runProject_fileLog = new Log/* Log */.tG(false, 'runProject_f');
+runProject_fileLog.pause = true;
+runProject_fileLog.childrenPaused = true;
+/**
+ * 运行项目
+ * @param projectData 项目数据
+ * @returns 执行结果
+ */ async function runProject(projectData) {
+    const fnLog = runProject_fileLog.sub(false, 'runProject_fn');
+    fnLog.pause = true;
+    fnLog.childrenPaused = true;
+    fnLog.log('[runProject] 开始运行项目');
+    fnLog.log('[runProject] projectData:', JSON.stringify(projectData, null, 2));
+    // ==================== 清理空的 TriggerAction ====================
+    fnLog.log('[runProject] 清理空的 TriggerAction');
+    const removedCount = projectUtils.cleanEmptyTriggerActions(projectData);
+    fnLog.log('[runProject] 清理了', removedCount, '个空 TriggerAction');
+    if (removedCount > 0) {
+        fnLog.log('[runProject] 清理后的 projectData:', JSON.stringify(projectData, null, 2));
+    } else {
+        fnLog.log('[runProject] 没有空的 TriggerAction 需要清理');
+    }
+    // ==================== 清理逻辑结束 ====================
+    try {
+        // 1. 获取项目所需的权限列表
+        fnLog.log('[runProject] 获取权限列表');
+        const permissions = await projectUtils.getProjectPermissionsData(projectData);
+        fnLog.log('[runProject] 权限数量:', permissions.length);
+        // 2. 获取项目所需的注入配置
+        fnLog.log('[runProject] 获取注入配置', JSON.stringify(projectData));
+        const projectInjects = projectUtils.getProjectInjects(projectData);
+        fnLog.log('[runProject] 项目injects数量:', projectInjects.length);
+        fnLog.log('[runProject] 项目injects内容:', projectInjects);
+        // 3. 合并硬编码的 console 和项目中的 injects
+        fnLog.log('[runProject] 合并注入配置');
+        const finalInjects = [
+            [
+                RhinoInjectKeys/* WebViewJsInjectKeys */.Ik.console,
+                'console'
+            ]
+        ];
+        fnLog.log('[runProject] 添加硬编码console inject');
+        fnLog.log('[runProject] 遍历项目injects');
+        for(let i = 0; i < projectInjects.length; i++){
+            const inject = projectInjects[i];
+            fnLog.log('[runProject] 处理inject[', i, ']:', inject);
+            finalInjects.push(inject);
+        }
+        fnLog.log('[runProject] 最终injects数量:', finalInjects.length);
+        fnLog.log('[runProject] 最终injects内容:', finalInjects);
+        // 4. 组装 RhinoRunner 配置
+        fnLog.log('[runProject] 组装RhinoRunner配置');
+        const conf = (0,assembleRhinoRunner/* assembleRhinoRunner */.n)(projectData, permissions, {
+            foregroundText: "正在执行: ".concat(projectData.name),
+            onlyRunSingle: true,
+            stopPrevIfOnlyRunSingle: true,
+            forceStopTime: 0,
+            injects: finalInjects
+        });
+        fnLog.log('[runProject] RhinoRunner配置组装完成');
+        fnLog.log('[runProject] 脚本长度:', conf.script.length);
+        // 5. 调用 Android 端执行
+        fnLog.log('[runProject] 调用autoWebViewJs.runProject', JSON.stringify(conf, null, 2));
+        const userId = User/* user */.k.data.storeData.user_token || '';
+        fnLog.log('[runProject] userId:', userId);
+        const projectName = projectData.name || 'unnamed_project';
+        const projectClientId = projectData.client_id;
+        fnLog.log('[runProject] projectName:', projectName);
+        fnLog.log('[runProject] projectClientId:', projectClientId);
+        const result = await AutoWebViewJs/* autoWebViewJs */.yx.runProject(conf, userId, projectName, projectClientId);
+        fnLog.log('[runProject] 执行结果:', result);
+        const hasJavaResultString = result.javaResultString ? true : false;
+        fnLog.log('[runProject] 是否有javaResultString:', hasJavaResultString);
+        if (result.javaResultString) {
+            fnLog.log('[runProject] 解析javaResultString');
+            const parsedResult = JSON.parse(result.javaResultString);
+            fnLog.log('[runProject] 解析后的结果:', parsedResult);
+            const isSuccess = parsedResult.success ? true : false;
+            fnLog.log('[runProject] 是否成功:', isSuccess);
+            if (isSuccess) {
+                fnLog.log('[runProject] 项目执行成功');
+            } else {
+                fnLog.log('[runProject] 项目执行失败');
+                fnLog.log('[runProject] 失败消息:', parsedResult.message);
+            }
+            return parsedResult;
+        } else {
+            fnLog.log('[runProject] 没有返回数据');
+            return null;
+        }
+    } catch (error) {
+        fnLog.log('[runProject] 执行异常:', error);
+        throw error;
+    }
+}
+
 ;// ../../libs/droid/project/src/project/ui/project/edit-project/EditProject.tsx
 
 
@@ -2098,7 +2613,7 @@ function ProjectTools(param) {
         fnLog.log('[onRunClick] projectData.keepAlive:', String(projectData.keepAlive));
         console.log('onrun json', JSON.stringify(projectData));
         try {
-            const result = await (0,runProject/* runProject */.t)(projectData);
+            const result = await runProject(projectData);
             fnLog.log('[onRunClick] runProject 返回结果:', result);
         } catch (error) {
             fnLog.log('[onRunClick] runProject 执行异常:', error);
@@ -2220,7 +2735,7 @@ function EditProjectBuilder() {
             fnLog.log('[QuickAction Redirect] router.query.isNew:', router.query.isNew);
             fnLog.log('[QuickAction Redirect] project.category:', project.category);
             const isNew = router.query.isNew === 'true';
-            const isQuickAction = project.category === ProjectCategory/* ProjectCategory */.U2.QuickAction;
+            const isQuickAction = project.category === ProjectCategory.QuickAction;
             fnLog.log('[QuickAction Redirect] isNew:', isNew);
             fnLog.log('[QuickAction Redirect] isQuickAction:', isQuickAction);
             if (isNew && isQuickAction) {
@@ -2263,7 +2778,7 @@ function EditProjectBuilder() {
         ]);
         const p = (0,proxyWatch/* toProxy */.I$)(editInfo.project);
         // 获取项目类别的 UI 配置
-        const categoryConfig = (0,ProjectCategory/* getProjectCategoryConfig */.af)(editInfo.project.category);
+        const categoryConfig = getProjectCategoryConfig(editInfo.project.category);
         EditProject_fileLog.log('[Content] project.category:', editInfo.project.category);
         EditProject_fileLog.log('[Content] categoryConfig.uiConfig:', JSON.stringify(categoryConfig.uiConfig));
         return /*#__PURE__*/ (0,jsx_runtime.jsx)(ProjectEditInfoContext.Provider, {
@@ -2400,7 +2915,7 @@ function ProjectEditor() {
     (window.__NEXT_P = window.__NEXT_P || []).push([
       "/project-editor-v1",
       function () {
-        return __webpack_require__(45534);
+        return __webpack_require__(44272);
       }
     ]);
     if(false) {}
@@ -2489,9 +3004,9 @@ function getUpdateVersionKey(data) {
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ __webpack_require__.O(0, [472,1172,9815,7468,5962,9204,4951,7970,8136,636,6593,8792], () => (__webpack_exec__(92205)));
+/******/ __webpack_require__.O(0, [472,1172,9815,7468,5962,9204,4951,7970,636,6593,8792], () => (__webpack_exec__(92205)));
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=project-editor-v1-de475322e6c77001.js.map
+//# sourceMappingURL=project-editor-v1-705ffc27c4072083.js.map

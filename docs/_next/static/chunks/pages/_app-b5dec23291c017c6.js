@@ -25527,88 +25527,6 @@ function useProjectUniqueKeyValue(initProjectInfoFn, key, defValue) {
 
 /***/ }),
 
-/***/ 27251:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   U2: () => (/* binding */ ProjectCategory),
-/* harmony export */   af: () => (/* binding */ getProjectCategoryConfig),
-/* harmony export */   v8: () => (/* binding */ PROJECT_CATEGORY_CONFIGS)
-/* harmony export */ });
-/* harmony import */ var _fanfanlo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(89597);
-
-const fileLog = new _fanfanlo__WEBPACK_IMPORTED_MODULE_0__/* .Log */ .tG(true, 'ProjectCategory');
-fileLog.pause = true;
-fileLog.childrenPaused = true;
-/**
- * Project 类别枚举
- *
- * QuickAction - 快捷操作：只有一个 action，无 trigger
- * ScriptRunner - 脚本运行器：单 script action，纯代码
- * Workflow - 工作流：完整的 trigger + action
- */ var ProjectCategory = /*#__PURE__*/ function(ProjectCategory) {
-    /** 快捷操作 - 只有一个 action，无 trigger */ ProjectCategory["QuickAction"] = "quick-action";
-    /** 脚本运行器 - 单 script action，纯代码 */ ProjectCategory["ScriptRunner"] = "script-runner";
-    /** 工作流 - 完整的 trigger + action */ ProjectCategory["Workflow"] = "workflow";
-    return ProjectCategory;
-}({});
-/**
- * 各类别的配置
- */ const PROJECT_CATEGORY_CONFIGS = {
-    ["quick-action"]: {
-        category: "quick-action",
-        labelKey: 'ProjectCategory.QuickAction.label',
-        descriptionKey: 'ProjectCategory.QuickAction.description',
-        icon: 'flash_on',
-        uiConfig: {
-            showTrigger: false,
-            showActionList: true,
-            allowAddGroup: false,
-            forceScriptAction: false
-        }
-    },
-    ["script-runner"]: {
-        category: "script-runner",
-        labelKey: 'ProjectCategory.ScriptRunner.label',
-        descriptionKey: 'ProjectCategory.ScriptRunner.description',
-        icon: 'code',
-        uiConfig: {
-            showTrigger: false,
-            showActionList: false,
-            allowAddGroup: false,
-            forceScriptAction: true
-        }
-    },
-    ["workflow"]: {
-        category: "workflow",
-        labelKey: 'ProjectCategory.Workflow.label',
-        descriptionKey: 'ProjectCategory.Workflow.description',
-        icon: 'account_tree',
-        uiConfig: {
-            showTrigger: true,
-            showActionList: true,
-            allowAddGroup: true,
-            forceScriptAction: false
-        }
-    }
-};
-/**
- * 获取 ProjectCategory 配置
- * @param category 项目类别，如果为空则默认返回 Workflow 配置
- */ function getProjectCategoryConfig(category) {
-    fileLog.log("[getProjectCategoryConfig] 输入 category=".concat(category));
-    // 兼容旧数据：如果没有 category，默认为 Workflow
-    const resolvedCategory = category || "workflow";
-    fileLog.log("[getProjectCategoryConfig] 解析后 category=".concat(resolvedCategory));
-    const config = PROJECT_CATEGORY_CONFIGS[resolvedCategory];
-    fileLog.log("[getProjectCategoryConfig] 返回配置:", JSON.stringify(config));
-    return config;
-}
-
-
-/***/ }),
-
 /***/ 27333:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -27933,15 +27851,14 @@ class MediaHandler extends _models_typed_event_emitter_js__WEBPACK_IMPORTED_MODU
 "use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   $g: () => (/* binding */ createProjectDefaultData),
-/* harmony export */   ZX: () => (/* binding */ createProjectByCategory),
 /* harmony export */   u5: () => (/* binding */ mergeProjectDataToDefaultData)
 /* harmony export */ });
+/* unused harmony export createProjectByCategory */
 /* harmony import */ var _fanfanlo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(89597);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(80507);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _barrel_optimize_names_ulid_ulid__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(43899);
 /* harmony import */ var _trigger_action_ITriggerActionGroup__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4476);
-/* harmony import */ var _ProjectCategory__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(27251);
 
 
 
@@ -27971,17 +27888,17 @@ function mergeProjectDataToDefaultData(data) {
     base.category = category;
     fileLog.log("[createProjectByCategory] 基础数据已创建, client_id=".concat(base.client_id, ", category=").concat(base.category));
     switch(category){
-        case _ProjectCategory__WEBPACK_IMPORTED_MODULE_4__/* .ProjectCategory */ .U2.QuickAction:
+        case ProjectCategory.QuickAction:
             // 快捷操作：清空 trigger，只保留 action
             fileLog.log("[createProjectByCategory] QuickAction: 清空 triggerGroup");
             base.triggerActionGroup.list[0].triggerGroup.list = [];
             break;
-        case _ProjectCategory__WEBPACK_IMPORTED_MODULE_4__/* .ProjectCategory */ .U2.ScriptRunner:
+        case ProjectCategory.ScriptRunner:
             // 脚本运行器：清空 trigger，action 的 script 类型将在 UI 层强制设置
             fileLog.log("[createProjectByCategory] ScriptRunner: 清空 triggerGroup");
             base.triggerActionGroup.list[0].triggerGroup.list = [];
             break;
-        case _ProjectCategory__WEBPACK_IMPORTED_MODULE_4__/* .ProjectCategory */ .U2.Workflow:
+        case ProjectCategory.Workflow:
             // 工作流：默认结构，无需修改
             fileLog.log("[createProjectByCategory] Workflow: 使用默认结构");
             break;
@@ -169715,4 +169632,4 @@ function toString(a) {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=_app-edc42562f737604c.js.map
+//# sourceMappingURL=_app-b5dec23291c017c6.js.map
