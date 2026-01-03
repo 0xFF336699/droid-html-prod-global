@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Операции узла",
+      "actionTypeLabel": "Тип операции",
+      "ActionType": {
+        "click": "Нажмите",
+        "longClick": "Длительное нажатие",
+        "scroll": "прокрутка",
+        "setText": "Установить текст",
+        "focus": "сосредоточиться"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Нажмите, используя глобальные координаты",
+        "useGlobalClickHintOn": "Координаты центральной точки узла будут рассчитываться методом глобального щелчка.",
+        "useGlobalClickHintOff": "Непосредственный вызов метода щелчка узла.",
+        "enableContinuousClickLabel": "Включить непрерывные клики",
+        "enableContinuousClickHint": "После включения узел будет продолжать щелкать до тех пор, пока узел не выйдет из строя или проект не будет остановлен.",
+        "baseIntervalLabel": "Базовый интервал (миллисекунды)",
+        "baseIntervalHint": "Базовое время между кликами",
+        "intervalVariationLabel": "Диапазон интервальных колебаний (миллисекунды)",
+        "intervalVariationHint": "Фактический интервал = {{baseInterval}} ± {{intervalVariation}} миллисекунд."
+      },
+      "ScrollConfig": {
+        "directionLabel": "направление прокрутки",
+        "directionForward": "прокрутить вперед",
+        "directionBackward": "прокрутить назад"
+      },
+      "SetTextConfig": {
+        "textLabel": "Введите текст",
+        "textPlaceholder": "Пожалуйста, введите текст, который будет установлен"
+      },
+      "LongClickConfig": {
+        "description": "Нажмите и удерживайте узел, чтобы вызвать событие длительного нажатия."
+      },
+      "FocusConfig": {
+        "description": "Сфокусируйте узел, чтобы узел получил фокус."
+      }
+    }
+  }
+}

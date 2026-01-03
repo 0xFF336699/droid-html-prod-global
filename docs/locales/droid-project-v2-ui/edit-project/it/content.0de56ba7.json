@@ -1,0 +1,18 @@
+{
+  "EditProjectV2": {
+    "clickToSetProjectName": "Fare clic per impostare il nome del progetto"
+  },
+  "ProjectToolsV2": {
+    "run": "correre",
+    "keepAlive": "Continuamente in funzione",
+    "keepAliveTooltipOn": "Modalità di esecuzione continua: il progetto non uscirà automaticamente una volta completata l'azione",
+    "keepAliveTooltipOff": "Modalità normale: esce automaticamente al termine dell'azione"
+  },
+  "StayAlertV2": {
+    "title": "Suggerimento: hai apportato modifiche che non sono state salvate. Sei sicuro di voler uscire?",
+    "leaveWithoutSave": "Scarta il salvataggio e esci",
+    "saveToDraft": "Salva le modifiche alla bozza e esci",
+    "saveAndLeave": "Salva e parti",
+    "stay": "Esci dalla modifica"
+  }
+}

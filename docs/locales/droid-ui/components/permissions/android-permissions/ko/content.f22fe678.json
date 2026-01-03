@@ -1,0 +1,17 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "권한 선택"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "매니페스트권한 그룹",
+      "ManifestPermission": "권한",
+      "ChinesePhoneSpecialPermission": "중국 전화 특별 권한"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Android 권한 선택",
+    "SelectedPermissions": "선택된 권한",
+    "NoPermissionsSelected": "선택한 권한이 없습니다."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Belirtilen sayfaya girerken",
+    "pnLabel": "Paket adı:",
+    "anLabel": "Etkinlik adı:",
+    "cnLabel": "Sınıf adı:",
+    "changeBtnLabel": "yer değiştirmek"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Belirtilen sayfaya girerken",
+    "pnLabel": "Paket adı:",
+    "anLabel": "Etkinlik adı:",
+    "cnLabel": "Sınıf adı:",
+    "changeBtnLabel": "yer değiştirmek"
+  }
+}

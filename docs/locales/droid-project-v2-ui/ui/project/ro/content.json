@@ -1,0 +1,10 @@
+{
+  "content": {
+    "project": {
+      "run": "alerga",
+      "edit": "edita",
+      "stop": "Stop",
+      "settings": "înființat"
+    }
+  }
+}

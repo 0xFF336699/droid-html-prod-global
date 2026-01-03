@@ -1,0 +1,10 @@
+{
+  "content": {
+    "project": {
+      "run": "uruchomić",
+      "edit": "redagować",
+      "stop": "zatrzymywać się",
+      "settings": "organizować coś"
+    }
+  }
+}

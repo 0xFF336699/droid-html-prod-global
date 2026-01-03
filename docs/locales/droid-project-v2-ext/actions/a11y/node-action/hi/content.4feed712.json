@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "नोड संचालन",
+      "actionTypeLabel": "ऑपरेशन प्रकार",
+      "ActionType": {
+        "click": "क्लिक",
+        "longClick": "देर तक दबाएँ",
+        "scroll": "स्क्रॉल",
+        "setText": "पाठ सेट करें",
+        "focus": "केंद्र"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "वैश्विक निर्देशांक का उपयोग करके क्लिक करें",
+        "useGlobalClickHintOn": "नोड केंद्र बिंदु के निर्देशांक की गणना वैश्विक क्लिक विधि का उपयोग करके की जाएगी।",
+        "useGlobalClickHintOff": "सीधे नोड की क्लिक विधि को कॉल करें",
+        "enableContinuousClickLabel": "निरंतर क्लिक सक्षम करें",
+        "enableContinuousClickHint": "सक्षम करने के बाद, नोड तब तक क्लिक होता रहेगा जब तक नोड विफल नहीं हो जाता या प्रोजेक्ट बंद नहीं हो जाता।",
+        "baseIntervalLabel": "बेसलाइन अंतराल (मिलीसेकंड)",
+        "baseIntervalHint": "क्लिकों के बीच बेसलाइन समय",
+        "intervalVariationLabel": "अंतराल उतार-चढ़ाव सीमा (मिलीसेकंड)",
+        "intervalVariationHint": "वास्तविक अंतराल = {{बेसइंटरवल}} ± {{इंटरवलवेरिएशन}} मिलीसेकंड"
+      },
+      "ScrollConfig": {
+        "directionLabel": "स्क्रॉल दिशा",
+        "directionForward": "आगे स्क्रॉल करें",
+        "directionBackward": "वापस स्क्रॉल करें"
+      },
+      "SetTextConfig": {
+        "textLabel": "पाठ दर्ज करें",
+        "textPlaceholder": "कृपया सेट किया जाने वाला टेक्स्ट दर्ज करें"
+      },
+      "LongClickConfig": {
+        "description": "लॉन्ग प्रेस इवेंट को ट्रिगर करने के लिए नोड को देर तक दबाएं"
+      },
+      "FocusConfig": {
+        "description": "नोड को फोकस करें ताकि नोड को फोकस मिले"
+      }
+    }
+  }
+}

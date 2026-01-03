@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "Nejmenovaný",
+    "sequential": "objednávka",
+    "sequentialTooltip": "Sekvenční provádění: spusťte TriggerAction jeden po druhém v pořadí",
+    "concurrentTooltip": "Souběžné provádění: spusťte všechny TriggerActions ve stejnou dobu"
+  }
+}

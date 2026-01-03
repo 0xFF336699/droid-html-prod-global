@@ -1,0 +1,18 @@
+{
+  "content": {
+    "create": "створити",
+    "delete": "видалити",
+    "confirmDelete": "Ви впевнені, що хочете видалити цей елемент?",
+    "cancel": "здаватися",
+    "title": "попередити"
+  },
+  "ProjectCategorySelectDialog": {
+    "ProjectCategorySelectDialog.title": "Виберіть категорію проекту",
+    "ProjectCategory.QuickAction.label": "Швидка операція",
+    "ProjectCategory.QuickAction.description": "Виберіть дію зі списку та запустіть її безпосередньо",
+    "ProjectCategory.ScriptRunner.label": "бігун сценарію",
+    "ProjectCategory.ScriptRunner.description": "Напишіть код і запустіть його безпосередньо",
+    "ProjectCategory.Workflow.label": "робочий процес",
+    "ProjectCategory.Workflow.description": "Встановіть умови запуску та виконайте дії"
+  }
+}

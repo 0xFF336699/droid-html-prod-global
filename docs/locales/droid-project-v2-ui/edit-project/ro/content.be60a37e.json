@@ -1,0 +1,18 @@
+{
+  "EditProjectV2": {
+    "clickToSetProjectName": "Faceți clic pentru a seta numele proiectului"
+  },
+  "ProjectToolsV2": {
+    "run": "alerga",
+    "keepAlive": "Funcționează continuu",
+    "keepAliveTooltipOn": "Modul de rulare continuă: Proiectul nu va ieși automat după finalizarea Acțiunii",
+    "keepAliveTooltipOff": "Mod normal: Ieșiți automat după finalizarea acțiunii"
+  },
+  "StayAlertV2": {
+    "title": "Sfat: ați făcut modificări care nu au fost salvate. Ești sigur că vrei să pleci?",
+    "leaveWithoutSave": "Renunță la salvare și pleacă",
+    "saveToDraft": "Salvați modificările în schiță și părăsiți",
+    "saveAndLeave": "Salvează și pleacă",
+    "stay": "Lasă editarea"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "content": {
+    "NodeActionUI": {
+      "title": "选择节点动作",
+      "click": "点击",
+      "longClick": "长按",
+      "setText": "设置文本",
+      "tryClick": "尝试点击",
+      "globalClick": "全局点击"
+    }
+  }
+}

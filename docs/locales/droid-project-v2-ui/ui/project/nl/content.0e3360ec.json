@@ -1,0 +1,9 @@
+{
+  "content": {
+    "project": {
+      "run": "loop",
+      "edit": "bewerking",
+      "stop": "stop"
+    }
+  }
+}

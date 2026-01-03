@@ -1,0 +1,18 @@
+{
+  "EditProjectV2": {
+    "clickToSetProjectName": "Bấm để đặt tên dự án"
+  },
+  "ProjectToolsV2": {
+    "run": "chạy",
+    "keepAlive": "Chạy liên tục",
+    "keepAliveTooltipOn": "Chế độ chạy liên tục: Dự án sẽ không tự động thoát sau khi Hành động hoàn thành",
+    "keepAliveTooltipOff": "Chế độ bình thường: Tự động thoát sau khi hoàn thành Hành động"
+  },
+  "StayAlertV2": {
+    "title": "Mẹo: Bạn đã thực hiện những thay đổi chưa được lưu. Bạn có chắc chắn muốn rời đi không?",
+    "leaveWithoutSave": "Hủy lưu và rời đi",
+    "saveToDraft": "Lưu các thay đổi vào bản nháp và rời đi",
+    "saveAndLeave": "Lưu và rời đi",
+    "stay": "Để lại chỉnh sửa"
+  }
+}

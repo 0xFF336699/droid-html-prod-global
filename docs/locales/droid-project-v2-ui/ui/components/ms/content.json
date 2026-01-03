@@ -1,0 +1,18 @@
+{
+  "content": {
+    "create": "cipta",
+    "delete": "padam",
+    "confirmDelete": "Adakah anda pasti mahu memadamkan item ini?",
+    "cancel": "berputus asa",
+    "title": "memberi amaran"
+  },
+  "ProjectCategorySelectDialog": {
+    "ProjectCategorySelectDialog.title": "Pilih kategori projek",
+    "ProjectCategory.QuickAction.label": "Operasi cepat",
+    "ProjectCategory.QuickAction.description": "Pilih tindakan daripada senarai dan jalankannya secara langsung",
+    "ProjectCategory.ScriptRunner.label": "pelari skrip",
+    "ProjectCategory.ScriptRunner.description": "Tulis kod dan jalankan terus",
+    "ProjectCategory.Workflow.label": "Aliran kerja",
+    "ProjectCategory.Workflow.description": "Tetapkan syarat pencetus dan lakukan tindakan"
+  }
+}

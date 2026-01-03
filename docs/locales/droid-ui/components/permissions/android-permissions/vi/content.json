@@ -1,0 +1,17 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Chọn quyền"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "Nhóm quyền kê khai",
+      "ManifestPermission": "Quyền",
+      "ChinesePhoneSpecialPermission": "Quyền đặc biệt của điện thoại Trung Quốc"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Chọn quyền của Android",
+    "SelectedPermissions": "Quyền đã chọn",
+    "NoPermissionsSelected": "Không có quyền nào được chọn"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "RhinoInjectKeys": {
+    "WebViewJsInjectKeys": {
+      "Window": "النافذة العالمية، والتي يمكنها إرسال حدث الخروج من النافذة",
+      "WindowUtils": "يمكنك الاتصال لفرض إغلاق النافذة",
+      "webViewJs": "يستدعي Node.js كائن webviewjs الذي ينفذ برنامج Java script",
+      "console": "سجل يسمى مثل JS",
+      "UIThreadUtil": "أدوات موضوع واجهة المستخدم"
+    },
+    "RhinoInjectNames": {
+      "dispatcher": "EventDispatcher للاستخدام الداخلي من خلال البرامج النصية",
+      "quicker": "يوفر طرق سهلة الاستخدام (غير مستخدمة حاليا)",
+      "javaRunner": "يُشير حاليًا إلى RhinoRunner، وهو مضيف البرنامج النصي المُنفذ.",
+      "proxy": "أتمتة الوكيل DroidProxy",
+      "a11yProxy": "غلاف إمكانية الوصول (قديم، وأكثر تقييدًا من كونه مناسبًا)",
+      "a11yModel": "إمكانية الوصول",
+      "WebViewJsDispatcher": "يمكن استخدام مرسل WebView JS لإرسال الأحداث عالميًا. يمكن لـ HTML المحمل في جميع المجالات استقبال الأحداث المرسلة بواسطته."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "content": {
+    "projectNotExist": "הפרויקט לא קיים",
+    "clickToSetProjectName": "פרויקט ללא שם",
+    "projectTools": {
+      "run": "ליישם"
+    }
+  }
+}

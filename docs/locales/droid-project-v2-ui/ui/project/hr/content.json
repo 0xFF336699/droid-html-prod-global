@@ -1,0 +1,10 @@
+{
+  "content": {
+    "project": {
+      "run": "trčanje",
+      "edit": "urediti",
+      "stop": "Stop",
+      "settings": "postaviti"
+    }
+  }
+}

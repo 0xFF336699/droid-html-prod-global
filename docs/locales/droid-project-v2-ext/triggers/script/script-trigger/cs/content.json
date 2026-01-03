@@ -1,0 +1,15 @@
+{
+  "ITriggerScript": {
+    "title": "spouštěč skriptu",
+    "scriptMode": "režim skriptu",
+    "scriptMode_simple": "Jednoduchý režim (stačí upravit funkci check())",
+    "scriptMode_advanced": "Pokročilý režim (kompletní funkce připojení)",
+    "scriptMode_full": "Kompletní režim (obsahuje všechny struktury kódu)",
+    "scriptCode": "skriptový kód",
+    "scriptPlaceholder": "Sem zadejte kód skriptu...",
+    "modeDescription": "Popis režimu",
+    "modeDescription_simple": "Jednoduchý režim: Rámec zpracovává životní cyklus automaticky. Potřebujete pouze implementovat logiku podmíněného úsudku v poskytnuté funkci check(). Když je podmínka splněna, zavolejte that.dispatchConditionsOn(), jinak zavolejte that.dispatchConditionsOff().",
+    "modeDescription_advanced": "Pokročilý režim: Získáte kompletní funkci připojení a můžete si plně přizpůsobit veškerou logiku. Vhodné pro komplexní správu životního cyklu a monitorování událostí.",
+    "modeDescription_full": "Kompletní režim: Poskytuje ukázkový kód včetně registrace, exportu a kompletního životního cyklu. Lze použít přímo jako samostatný skript."
+  }
+}

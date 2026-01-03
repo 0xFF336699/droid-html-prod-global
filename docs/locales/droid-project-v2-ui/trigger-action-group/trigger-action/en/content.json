@@ -1,0 +1,7 @@
+{
+  "TriggerActionV2": {
+    "unnamed": "Unnamed",
+    "deleteConfirmTitle": "hint",
+    "deleteConfirmContent": "Are you sure you want to delete this trigger and action?"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "При влизане в посочената страница",
+    "pnLabel": "Име на пакета:",
+    "anLabel": "Име на дейността:",
+    "cnLabel": "Име на класа:",
+    "changeBtnLabel": "замени"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "При влизане в посочената страница",
+    "pnLabel": "Име на пакета:",
+    "anLabel": "Име на дейността:",
+    "cnLabel": "Име на класа:",
+    "changeBtnLabel": "замени"
+  }
+}

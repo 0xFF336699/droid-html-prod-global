@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "노드 운영",
+      "actionTypeLabel": "작업 유형",
+      "ActionType": {
+        "click": "딸깍 하는 소리",
+        "longClick": "길게 누르기",
+        "scroll": "스크롤",
+        "setText": "텍스트 설정",
+        "focus": "집중하다"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "전역 좌표를 사용하여 클릭",
+        "useGlobalClickHintOn": "노드 중심점의 좌표는 전역 클릭 방법을 사용하여 계산됩니다.",
+        "useGlobalClickHintOff": "노드의 클릭 메소드를 직접 호출",
+        "enableContinuousClickLabel": "연속 클릭 활성화",
+        "enableContinuousClickHint": "활성화한 후에는 노드가 실패하거나 프로젝트가 중지될 때까지 노드를 계속 클릭합니다.",
+        "baseIntervalLabel": "기준 간격(밀리초)",
+        "baseIntervalHint": "클릭 사이의 기준 시간",
+        "intervalVariationLabel": "간격 변동 범위(밀리초)",
+        "intervalVariationHint": "실제 간격 = {{baseInterval}} ± {{intervalVariation}}밀리초"
+      },
+      "ScrollConfig": {
+        "directionLabel": "스크롤 방향",
+        "directionForward": "앞으로 스크롤",
+        "directionBackward": "뒤로 스크롤"
+      },
+      "SetTextConfig": {
+        "textLabel": "텍스트를 입력하세요",
+        "textPlaceholder": "설정할 텍스트를 입력해주세요"
+      },
+      "LongClickConfig": {
+        "description": "길게 누르기 이벤트를 트리거하려면 노드를 길게 누르세요."
+      },
+      "FocusConfig": {
+        "description": "노드가 포커스를 얻도록 노드에 포커스를 둡니다."
+      }
+    }
+  }
+}

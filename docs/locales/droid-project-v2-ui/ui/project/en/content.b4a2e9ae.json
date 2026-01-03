@@ -1,0 +1,10 @@
+{
+  "content": {
+    "project": {
+      "run": "run",
+      "edit": "edit",
+      "stop": "stop",
+      "settings": "set up"
+    }
+  }
+}

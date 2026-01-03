@@ -1,0 +1,18 @@
+{
+  "EditProjectV2": {
+    "clickToSetProjectName": "Cliquez pour définir le nom du projet"
+  },
+  "ProjectToolsV2": {
+    "run": "courir",
+    "keepAlive": "Fonctionnant en continu",
+    "keepAliveTooltipOn": "Mode d'exécution continue : le projet ne se fermera pas automatiquement une fois l'action terminée",
+    "keepAliveTooltipOff": "Mode normal : sortie automatique une fois l'action terminée"
+  },
+  "StayAlertV2": {
+    "title": "Astuce : Vous avez apporté des modifications qui n'ont pas été enregistrées. Êtes-vous sûr de vouloir partir ?",
+    "leaveWithoutSave": "Jeter, sauvegarder et partir",
+    "saveToDraft": "Enregistrer les modifications dans le brouillon et quitter",
+    "saveAndLeave": "Enregistrer et partir",
+    "stay": "Quitter la modification"
+  }
+}

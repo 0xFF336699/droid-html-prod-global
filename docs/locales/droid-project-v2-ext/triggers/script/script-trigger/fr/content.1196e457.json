@@ -1,0 +1,15 @@
+{
+  "ITriggerScript": {
+    "title": "déclencheur de script",
+    "scriptMode": "mode script",
+    "scriptMode_simple": "Mode simple (il suffit de modifier la fonction check())",
+    "scriptMode_advanced": "Mode avancé (fonction de pièce jointe complète)",
+    "scriptMode_full": "Mode complet (contient toutes les structures de code)",
+    "scriptCode": "code de script",
+    "scriptPlaceholder": "Entrez votre code de script ici...",
+    "modeDescription": "Description du mode",
+    "modeDescription_simple": "Mode simple : le framework gère automatiquement le cycle de vie. Il vous suffit d'implémenter la logique de jugement conditionnel dans la fonction check() fournie. Lorsque la condition est remplie, appelez that.dispatchConditionsOn(), sinon appelez that.dispatchConditionsOff().",
+    "modeDescription_advanced": "Mode avancé : vous bénéficiez de la fonction d'attache complète et pouvez entièrement personnaliser toute la logique. Convient à la gestion complexe du cycle de vie et à la surveillance des événements.",
+    "modeDescription_full": "Mode complet : fournit un exemple de code comprenant l'enregistrement, l'exportation et le cycle de vie complet. Peut être utilisé directement comme script autonome."
+  }
+}

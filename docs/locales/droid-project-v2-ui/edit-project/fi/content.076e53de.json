@@ -1,0 +1,18 @@
+{
+  "EditProjectV2": {
+    "clickToSetProjectName": "Napsauta asettaaksesi projektin nimen"
+  },
+  "ProjectToolsV2": {
+    "run": "juosta",
+    "keepAlive": "Jatkuvasti käynnissä",
+    "keepAliveTooltipOn": "Jatkuva toimintatila: Projekti ei poistu automaattisesti, kun toiminto on suoritettu",
+    "keepAliveTooltipOff": "Normaali tila: Poistu automaattisesti, kun toiminto on suoritettu"
+  },
+  "StayAlertV2": {
+    "title": "Vihje: Olet tehnyt muutoksia, joita ei ole tallennettu. Oletko varma, että haluat lähteä?",
+    "leaveWithoutSave": "Hylkää tallenna ja poistu",
+    "saveToDraft": "Tallenna muutokset luonnokseen ja poistu",
+    "saveAndLeave": "Säästä ja jätä",
+    "stay": "Jätä muokkaus"
+  }
+}

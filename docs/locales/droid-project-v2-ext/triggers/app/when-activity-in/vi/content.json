@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Khi vào trang được chỉ định",
+    "pnLabel": "Tên gói:",
+    "anLabel": "Tên hoạt động:",
+    "cnLabel": "Tên lớp:",
+    "changeBtnLabel": "thay thế"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Khi vào trang được chỉ định",
+    "pnLabel": "Tên gói:",
+    "anLabel": "Tên hoạt động:",
+    "cnLabel": "Tên lớp:",
+    "changeBtnLabel": "thay thế"
+  }
+}

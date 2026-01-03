@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "이름 없음",
+    "sequential": "주문하다",
+    "sequentialTooltip": "순차적 실행: TriggerAction을 순차적으로 하나씩 실행",
+    "concurrentTooltip": "동시 실행: 모든 TriggerActions를 동시에 실행합니다."
+  }
+}

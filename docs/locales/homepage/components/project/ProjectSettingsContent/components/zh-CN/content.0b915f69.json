@@ -1,0 +1,27 @@
+{
+  "ActionButtons": {
+    "cancel": "取消",
+    "save": "保存"
+  },
+  "DeleteConfirmDialog": {
+    "title": "删除项目",
+    "warning": "如果项目之前是公开的，别人引用过的将继续被引用，不会实际删除。",
+    "deleteFromServer": "从服务器删除",
+    "deleteServerInfo": "删除后，之前引用此项目的用户仍然可以继续使用",
+    "deleteFromLocal": "从服务器和本地删除",
+    "deleteLocalInfo": "此操作将会把服务器端和本地都删除，无法恢复",
+    "cancel": "取消",
+    "delete": "删除"
+  },
+  "DeleteSection": {
+    "label": "删除项目"
+  },
+  "ShareSection": {
+    "label": "与他人共享",
+    "info": "共享后，其他用户可以查看此项目并将其fork到自己的账户中。"
+  },
+  "SyncToServerSection": {
+    "label": "同步到服务器",
+    "warning": "存储在服务器上的数据可能存在隐私风险。请勿存储敏感数据。"
+  }
+}

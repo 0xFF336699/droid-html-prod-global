@@ -1,0 +1,10 @@
+{
+  "content": {
+    "project": {
+      "run": "运行",
+      "edit": "编辑",
+      "stop": "停止",
+      "settings": "设置"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "EditProjectV2": {
+    "clickToSetProjectName": "Click to set the project name"
+  },
+  "ProjectToolsV2": {
+    "run": "run",
+    "keepAlive": "Continuously running",
+    "keepAliveTooltipOn": "Continuous running mode: Project will not automatically exit after the Action is completed",
+    "keepAliveTooltipOff": "Normal mode: Automatically exit after Action is completed"
+  },
+  "StayAlertV2": {
+    "title": "Tip: You have made changes that have not been saved. Are you sure you want to leave?",
+    "leaveWithoutSave": "Discard save and leave",
+    "saveToDraft": "Save changes to draft and leave",
+    "saveAndLeave": "Save and leave",
+    "stay": "Leave edit"
+  }
+}

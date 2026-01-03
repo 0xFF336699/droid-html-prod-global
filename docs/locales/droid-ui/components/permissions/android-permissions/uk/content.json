@@ -1,0 +1,17 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Виберіть дозволи"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "Групи ManifestPermission",
+      "ManifestPermission": "Дозволи",
+      "ChinesePhoneSpecialPermission": "Спеціальні дозволи для китайського телефону"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Виберіть дозволи Android",
+    "SelectedPermissions": "Вибрані дозволи",
+    "NoPermissionsSelected": "Дозволи не вибрано"
+  }
+}

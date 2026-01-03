@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "Nimetön",
+    "sequential": "tilata",
+    "sequentialTooltip": "Jaksollinen suoritus: suorita TriggerAction yksitellen peräkkäin",
+    "concurrentTooltip": "Samanaikainen suoritus: suorita kaikki TriggerActions samanaikaisesti"
+  }
+}

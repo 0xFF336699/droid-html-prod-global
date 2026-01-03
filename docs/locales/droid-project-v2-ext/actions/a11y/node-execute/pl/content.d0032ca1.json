@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "Wykonanie węzła",
+    "changeBtnLabel": "zastępować",
+    "showNodeAllProperties": "Pokaż wszystkie właściwości",
+    "wait": {
+      "time": "czas oczekiwania",
+      "interval": "odstęp oczekiwania",
+      "invisible": "Określa, czy wykrywać elementy poza ekranem"
+    }
+  }
+}

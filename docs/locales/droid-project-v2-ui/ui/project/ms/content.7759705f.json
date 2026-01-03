@@ -1,0 +1,10 @@
+{
+  "content": {
+    "project": {
+      "run": "lari",
+      "edit": "edit",
+      "stop": "berhenti",
+      "settings": "sediakan"
+    }
+  }
+}

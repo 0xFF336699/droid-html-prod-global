@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "Névtelen",
+    "sequential": "rendelés",
+    "sequentialTooltip": "Szekvenciális végrehajtás: hajtsa végre a TriggerActiont egyenként egymás után",
+    "concurrentTooltip": "Egyidejű végrehajtás: az összes TriggerAction végrehajtása egyszerre"
+  }
+}

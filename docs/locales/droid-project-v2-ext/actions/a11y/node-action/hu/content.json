@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Csomóponti műveletek",
+      "actionTypeLabel": "Művelet típusa",
+      "ActionType": {
+        "click": "Kattintson",
+        "longClick": "Hosszan nyomja meg",
+        "scroll": "görgetni",
+        "setText": "Szöveg beállítása",
+        "focus": "fókusz"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Kattintson a globális koordináták használatával",
+        "useGlobalClickHintOn": "A csomópont középpontjának koordinátáit a rendszer a globális kattintási módszerrel számítja ki.",
+        "useGlobalClickHintOff": "Hívja közvetlenül a csomópont kattintási metódusát",
+        "enableContinuousClickLabel": "Folyamatos kattintások engedélyezése",
+        "enableContinuousClickHint": "Az engedélyezés után a csomópontra kattintás folytatódik, amíg a csomópont meghiúsul vagy a projekt le nem áll.",
+        "baseIntervalLabel": "Alapintervallum (ezredmásodperc)",
+        "baseIntervalHint": "A kattintások közötti alapidő",
+        "intervalVariationLabel": "Intervallum ingadozási tartomány (ezredmásodperc)",
+        "intervalVariationHint": "Tényleges intervallum = {{baseInterval}} ± {{intervalVariation}} ezredmásodperc"
+      },
+      "ScrollConfig": {
+        "directionLabel": "görgetés iránya",
+        "directionForward": "görgessen előre",
+        "directionBackward": "görgessen vissza"
+      },
+      "SetTextConfig": {
+        "textLabel": "Írja be a szöveget",
+        "textPlaceholder": "Kérjük, írja be a beállítandó szöveget"
+      },
+      "LongClickConfig": {
+        "description": "Nyomja meg hosszan a csomópontot a hosszan megnyomott esemény elindításához"
+      },
+      "FocusConfig": {
+        "description": "Fókuszálja a csomópontot úgy, hogy a csomópont fókuszba kerüljön"
+      }
+    }
+  }
+}

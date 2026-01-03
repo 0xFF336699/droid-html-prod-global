@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "Tidak bernama",
+    "sequential": "pesanan",
+    "sequentialTooltip": "Pelaksanaan berurutan: laksanakan TriggerAction satu demi satu dalam urutan",
+    "concurrentTooltip": "Pelaksanaan serentak: laksanakan semua TriggerActions pada masa yang sama"
+  }
+}

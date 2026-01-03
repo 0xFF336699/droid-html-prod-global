@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "Anonim",
+    "sequential": "comanda",
+    "sequentialTooltip": "Execuție secvențială: executați TriggerAction unul câte unul în secvență",
+    "concurrentTooltip": "Execuție simultană: executați toate TriggerActions în același timp"
+  }
+}

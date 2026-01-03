@@ -1,0 +1,17 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Valitse käyttöoikeudet"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "ManifestPermission ryhmät",
+      "ManifestPermission": "Käyttöoikeudet",
+      "ChinesePhoneSpecialPermission": "Kiinan puhelimen erityisluvat"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Valitse Android-käyttöoikeudet",
+    "SelectedPermissions": "Valitut käyttöoikeudet",
+    "NoPermissionsSelected": "Käyttöoikeuksia ei ole valittu"
+  }
+}

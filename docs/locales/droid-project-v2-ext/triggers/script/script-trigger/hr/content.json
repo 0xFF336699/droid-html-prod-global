@@ -1,0 +1,15 @@
+{
+  "ITriggerScript": {
+    "title": "okidač skripte",
+    "scriptMode": "način skripte",
+    "scriptMode_simple": "Jednostavan način (samo promijenite funkciju check())",
+    "scriptMode_advanced": "Napredni način rada (kompletna funkcija pričvršćivanja)",
+    "scriptMode_full": "Potpuni način (sadrži sve strukture koda)",
+    "scriptCode": "kod skripte",
+    "scriptPlaceholder": "Ovdje unesite svoj kod skripte...",
+    "modeDescription": "Opis načina rada",
+    "modeDescription_simple": "Jednostavan način: Okvir automatski upravlja životnim ciklusom. Morate samo implementirati logiku uvjetne prosudbe u osiguranoj funkciji check(). Kada je uvjet ispunjen, pozovite that.dispatchConditionsOn(), inače pozovite that.dispatchConditionsOff().",
+    "modeDescription_advanced": "Napredni način: dobivate potpunu funkciju pričvršćivanja i možete u potpunosti prilagoditi svu logiku. Prikladno za upravljanje složenim životnim ciklusom i praćenje događaja.",
+    "modeDescription_full": "Potpuni način rada: pruža uzorak koda uključujući registraciju, izvoz i cijeli životni ciklus. Može se koristiti izravno kao samostalna skripta."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "EditProjectV2": {
+    "clickToSetProjectName": "Klik om de projectnaam in te stellen"
+  },
+  "ProjectToolsV2": {
+    "run": "loop",
+    "keepAlive": "Continu actief",
+    "keepAliveTooltipOn": "Continue uitvoeringsmodus: het project wordt niet automatisch afgesloten nadat de actie is voltooid",
+    "keepAliveTooltipOff": "Normale modus: automatisch afsluiten nadat de actie is voltooid"
+  },
+  "StayAlertV2": {
+    "title": "Tip: U heeft wijzigingen aangebracht die niet zijn opgeslagen. Weet je zeker dat je weg wilt?",
+    "leaveWithoutSave": "Gooi de save weg en ga weg",
+    "saveToDraft": "Sla de wijzigingen in het concept op en ga weg",
+    "saveAndLeave": "Sparen en vertrekken",
+    "stay": "Laat bewerken achter"
+  }
+}

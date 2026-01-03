@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "ノードの操作",
+      "actionTypeLabel": "操作の種類",
+      "ActionType": {
+        "click": "クリック",
+        "longClick": "長押し",
+        "scroll": "スクロール",
+        "setText": "テキストを設定する",
+        "focus": "集中"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "グローバル座標を使用してクリックします",
+        "useGlobalClickHintOn": "ノードの中心点の座標は、グローバル クリック方法を使用して計算されます。",
+        "useGlobalClickHintOff": "ノードの click メソッドを直接呼び出す",
+        "enableContinuousClickLabel": "連続クリックを有効にする",
+        "enableContinuousClickHint": "有効にすると、ノードに障害が発生するかプロジェクトが停止されるまで、ノードはクリックされ続けます。",
+        "baseIntervalLabel": "ベースライン間隔 (ミリ秒)",
+        "baseIntervalHint": "クリック間のベースライン時間",
+        "intervalVariationLabel": "インターバル変動幅（ミリ秒）",
+        "intervalVariationHint": "実際の間隔 = {{baseInterval}} ± {{intervalvariation}} ミリ秒"
+      },
+      "ScrollConfig": {
+        "directionLabel": "スクロール方向",
+        "directionForward": "前方にスクロールする",
+        "directionBackward": "スクロールして戻る"
+      },
+      "SetTextConfig": {
+        "textLabel": "テキストを入力してください",
+        "textPlaceholder": "設定するテキストを入力してください"
+      },
+      "LongClickConfig": {
+        "description": "ノードを長押しして長押しイベントをトリガーします"
+      },
+      "FocusConfig": {
+        "description": "ノードにフォーカスを当てると、ノードがフォーカスされます。"
+      }
+    }
+  }
+}

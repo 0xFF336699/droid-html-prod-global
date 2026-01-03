@@ -1,0 +1,7 @@
+{
+  "ITriggerTimeout": {
+    "title": "Одложено извршење",
+    "content_delay": "Кашњење",
+    "content_milliseconds": "Извршите након милисекунди"
+  }
+}

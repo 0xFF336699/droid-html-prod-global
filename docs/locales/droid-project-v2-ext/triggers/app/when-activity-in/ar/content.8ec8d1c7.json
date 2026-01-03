@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "عند الدخول إلى الصفحة المحددة",
+    "pnLabel": "اسم الحزمة:",
+    "anLabel": "اسم النشاط:",
+    "cnLabel": "اسم الفئة:",
+    "changeBtnLabel": "يستبدل"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "عند الدخول إلى الصفحة المحددة",
+    "pnLabel": "اسم الحزمة:",
+    "anLabel": "اسم النشاط:",
+    "cnLabel": "اسم الفئة:",
+    "changeBtnLabel": "يستبدل"
+  }
+}

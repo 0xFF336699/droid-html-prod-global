@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Nodeoperasjoner",
+      "actionTypeLabel": "Operasjonstype",
+      "ActionType": {
+        "click": "Klikk",
+        "longClick": "Langt trykk",
+        "scroll": "bla",
+        "setText": "Sett tekst",
+        "focus": "fokus"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Klikk med globale koordinater",
+        "useGlobalClickHintOn": "Koordinatene til nodesenterpunktet vil bli beregnet ved hjelp av den globale klikkmetoden.",
+        "useGlobalClickHintOff": "Ring klikkmetoden til noden direkte",
+        "enableContinuousClickLabel": "Aktiver kontinuerlige klikk",
+        "enableContinuousClickHint": "Etter aktivering vil noden fortsette å klikkes til noden mislykkes eller prosjektet stoppes.",
+        "baseIntervalLabel": "Grunnlinjeintervall (millisekunder)",
+        "baseIntervalHint": "Grunnlinjetid mellom klikk",
+        "intervalVariationLabel": "Intervallfluktuasjonsområde (millisekunder)",
+        "intervalVariationHint": "Faktisk intervall = {{baseInterval}} ± {{intervalVariation}} millisekunder"
+      },
+      "ScrollConfig": {
+        "directionLabel": "rulleretning",
+        "directionForward": "bla fremover",
+        "directionBackward": "bla tilbake"
+      },
+      "SetTextConfig": {
+        "textLabel": "Skriv inn tekst",
+        "textPlaceholder": "Vennligst skriv inn teksten som skal angis"
+      },
+      "LongClickConfig": {
+        "description": "Trykk lenge på noden for å utløse den lange trykkhendelsen"
+      },
+      "FocusConfig": {
+        "description": "Fokuser noden slik at noden får fokus"
+      }
+    }
+  }
+}

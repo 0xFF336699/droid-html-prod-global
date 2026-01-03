@@ -1,0 +1,20 @@
+{
+  "RhinoInjectKeys": {
+    "WebViewJsInjectKeys": {
+      "Window": "Global Window, có thể gửi sự kiện thoát của cửa sổ",
+      "WindowUtils": "Bạn có thể gọi để buộc đóng cửa sổ",
+      "webViewJs": "js gọi đối tượng webviewjs thực thi tập lệnh java",
+      "console": "Nhật ký, được gọi như js",
+      "UIThreadUtil": "Công cụ chủ đề giao diện người dùng"
+    },
+    "RhinoInjectNames": {
+      "dispatcher": "EventDispatcher để các tập lệnh sử dụng nội bộ",
+      "quicker": "Cung cấp các phương pháp dễ sử dụng (hiện không được sử dụng)",
+      "javaRunner": "Hiện đang trỏ tới RhinoRunner, máy chủ lưu trữ tập lệnh được thực thi.",
+      "proxy": "Proxy tự động hóa DroidProxy",
+      "a11yProxy": "Vỏ khả năng truy cập (lỗi thời, hạn chế hơn là tiện lợi)",
+      "a11yModel": "Khả năng tiếp cận",
+      "WebViewJsDispatcher": "Bộ điều phối WebView JS có thể được sử dụng để gửi các sự kiện trên toàn cầu. HTML được tải trong tất cả các miền có thể nhận được các sự kiện do nó gửi đi."
+    }
+  }
+}

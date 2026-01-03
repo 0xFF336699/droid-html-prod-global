@@ -1,0 +1,9 @@
+{
+  "content": {
+    "project": {
+      "run": "chạy",
+      "edit": "biên tập",
+      "stop": "dừng lại"
+    }
+  }
+}

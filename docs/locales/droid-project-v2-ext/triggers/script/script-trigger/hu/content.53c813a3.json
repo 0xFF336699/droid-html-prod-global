@@ -1,0 +1,15 @@
+{
+  "ITriggerScript": {
+    "title": "script trigger",
+    "scriptMode": "script mód",
+    "scriptMode_simple": "Egyszerű mód (csak módosítsa a check() függvényt)",
+    "scriptMode_advanced": "Haladó mód (teljes csatolási funkció)",
+    "scriptMode_full": "Teljes mód (az összes kódszerkezetet tartalmazza)",
+    "scriptCode": "script kódot",
+    "scriptPlaceholder": "Írja be a szkript kódját ide...",
+    "modeDescription": "Mód leírás",
+    "modeDescription_simple": "Egyszerű mód: A keretrendszer automatikusan kezeli az életciklust. Csak a feltételes döntési logikát kell megvalósítania a megadott check() függvényben. Ha a feltétel teljesül, hívja meg a that.dispatchConditionsOn()-ot, ellenkező esetben hívja meg a that.dispatchConditionsOff()-ot.",
+    "modeDescription_advanced": "Speciális mód: Megkapja a teljes csatolási funkciót, és teljes mértékben testreszabhatja az összes logikát. Alkalmas komplex életciklus-menedzsment és eseményfigyelés kezelésére.",
+    "modeDescription_full": "Teljes mód: Mintakódot biztosít, beleértve a regisztrációt, az exportálást és a teljes életciklust. Közvetlenül önálló szkriptként használható."
+  }
+}

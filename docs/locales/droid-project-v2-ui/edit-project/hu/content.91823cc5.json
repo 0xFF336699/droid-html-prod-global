@@ -1,0 +1,18 @@
+{
+  "EditProjectV2": {
+    "clickToSetProjectName": "Kattintson a projekt nevének beállításához"
+  },
+  "ProjectToolsV2": {
+    "run": "fut",
+    "keepAlive": "Folyamatosan fut",
+    "keepAliveTooltipOn": "Folyamatos futás mód: A projekt nem lép ki automatikusan a művelet befejezése után",
+    "keepAliveTooltipOff": "Normál mód: Automatikus kilépés a művelet befejezése után"
+  },
+  "StayAlertV2": {
+    "title": "Tipp: Olyan módosításokat hajtott végre, amelyeket nem mentett el. Biztos, hogy el akarsz menni?",
+    "leaveWithoutSave": "Mentés elvetése és távozás",
+    "saveToDraft": "Mentse el a változtatásokat a piszkozatba, és lépjen ki",
+    "saveAndLeave": "Mentse el és hagyja el",
+    "stay": "Hagyja el a szerkesztést"
+  }
+}

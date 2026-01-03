@@ -1,0 +1,18 @@
+{
+  "EditProjectV2": {
+    "clickToSetProjectName": "Klepnutím nastavte název projektu"
+  },
+  "ProjectToolsV2": {
+    "run": "běh",
+    "keepAlive": "Nepřetržitě běží",
+    "keepAliveTooltipOn": "Režim nepřetržitého běhu: Projekt se po dokončení akce automaticky neukončí",
+    "keepAliveTooltipOff": "Normální režim: Po dokončení akce se automaticky ukončí"
+  },
+  "StayAlertV2": {
+    "title": "Tip: Provedli jste změny, které nebyly uloženy. Opravdu chcete odejít?",
+    "leaveWithoutSave": "Zahodit uložit a odejít",
+    "saveToDraft": "Uložte změny do konceptu a odejděte",
+    "saveAndLeave": "Uložit a odejít",
+    "stay": "Ponechat úpravy"
+  }
+}

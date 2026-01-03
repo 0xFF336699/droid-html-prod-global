@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "無名",
+    "sequential": "注文",
+    "sequentialTooltip": "逐次実行: TriggerAction を 1 つずつ順番に実行します。",
+    "concurrentTooltip": "同時実行: すべての TriggerAction を同時に実行します。"
+  }
+}

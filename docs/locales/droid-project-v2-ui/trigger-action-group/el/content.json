@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "Ανώνυμος",
+    "sequential": "παραγγελία",
+    "sequentialTooltip": "Διαδοχική εκτέλεση: εκτελέστε το TriggerAction ένα προς ένα με τη σειρά",
+    "concurrentTooltip": "Ταυτόχρονη εκτέλεση: εκτελέστε όλα τα TriggerActions ταυτόχρονα"
+  }
+}

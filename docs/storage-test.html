@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Storage V2 测试页面</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h1 {
+      color: #333;
+    }
+    #test-results {
+      margin-top: 20px;
+      padding: 15px;
+      background: #f5f5f5;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Storage V2 模块测试页面</h1>
+  <div id="test-results">测试函数加载中...</div>
+
+  <script type="module">
+    import { ulid } from 'https://cdn.jsdelivr.net/npm/ulid@2.3.0/+esm';
+
+    // 等待模块加载
+    async function init() {
+      try {
+        // 动态导入 storage 模块
+        const storage = await import('/libs/droid/project-v2-interface/src/storage/storage.ts');
+
+        const {
+          projectListV2,
+          draftV2,
+          saveProject,
+          getProject,
+          findDraftOrSavedProject,
+          addDraft,
+          deleteDraft,
+          removeProject,
+          getDraft
+        } = storage;
+
+        // 暴露测试函数到 window 对象供 Playwright 调用
+        window.storageTest = {
+          // 清空所有数据
+          clearAll() {
+            localStorage.clear();
+            return { success: true };
+          },
+
+          // 创建测试项目
+          createTestProject(name = '测试项目') {
+            const project = {
+              ulid: ulid(),
+              name,
+              description: '这是一个测试项目',
+              triggers: [],
+              actions: []
+            };
+            saveProject(project);
+            return JSON.parse(JSON.stringify(project));
+          },
+
+          // 获取所有项目
+          getAllProjects() {
+            return JSON.parse(JSON.stringify(projectListV2));
+          },
+
+          // 获取项目
+          getProject(id) {
+            const project = getProject(id);
+            return project ? JSON.parse(JSON.stringify(project)) : null;
+          },
+
+          // 删除项目
+          removeProject(id) {
+            return removeProject(id);
+          },
+
+          // 创建草稿
+          createDraft(name = '草稿项目') {
+            const draft = {
+              ulid: ulid(),
+              name,
+              description: '这是一个草稿',
+              triggers: [],
+              actions: []
+            };
+            const result = addDraft(draft);
+            return JSON.parse(JSON.stringify(result));
+          },
+
+          // 获取草稿
+          getDraft(id) {
+            const draft = getDraft(id);
+            return draft ? JSON.parse(JSON.stringify(draft)) : null;
+          },
+
+          // 获取所有草稿
+          getAllDrafts() {
+            return JSON.parse(JSON.stringify(draftV2));
+          },
+
+          // 删除草稿
+          deleteDraft(id) {
+            deleteDraft(id);
+            return { success: true };
+          },
+
+          // 修改项目名称（测试自动保存）
+          updateProjectName(id, newName) {
+            const project = projectListV2.find(p => p.ulid === id);
+            if (project) {
+              project.name = newName;
+              return true;
+            }
+            return false;
+          },
+
+          // 从 localStorage 直接读取数据（验证保存）
+          getFromLocalStorage(key) {
+            const data = localStorage.getItem(key);
+            return data ? JSON.parse(data) : null;
+          },
+
+          // 设置 localStorage 数据（模拟迁移场景）
+          setToLocalStorage(key, data) {
+            localStorage.setItem(key, JSON.stringify(data));
+            return { success: true };
+          },
+
+          // 查找草稿或已保存项目
+          findDraftOrSavedProject(id) {
+            const project = findDraftOrSavedProject(id);
+            return project ? JSON.parse(JSON.stringify(project)) : null;
+          },
+
+          // 等待一段时间（用于测试自动保存）
+          async wait(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+          }
+        };
+
+        // 通知测试已准备就绪
+        window.storageTestReady = true;
+        document.getElementById('test-results').textContent = '✓ Storage 测试函数已就绪';
+        console.log('Storage 测试函数已就绪');
+      } catch (error) {
+        document.getElementById('test-results').textContent = '✗ 错误: ' + error.message;
+        console.error('加载失败:', error);
+        window.storageTestError = error.message;
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>

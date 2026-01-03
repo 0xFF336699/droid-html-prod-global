@@ -1,0 +1,9 @@
+{
+  "content": {
+    "projectNotExist": "Projekt nem létezik",
+    "clickToSetProjectName": "Névtelen projekt",
+    "projectTools": {
+      "run": "végrehajtani"
+    }
+  }
+}

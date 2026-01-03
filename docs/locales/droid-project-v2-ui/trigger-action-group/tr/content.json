@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "İsimsiz",
+    "sequential": "emir",
+    "sequentialTooltip": "Sıralı yürütme: TriggerAction'ı sırayla tek tek yürütün",
+    "concurrentTooltip": "Eşzamanlı yürütme: tüm TriggerActions'ları aynı anda yürütün"
+  }
+}

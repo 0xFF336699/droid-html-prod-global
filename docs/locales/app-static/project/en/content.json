@@ -1,0 +1,20 @@
+{
+  "RhinoInjectKeys": {
+    "WebViewJsInjectKeys": {
+      "Window": "Global Window, which can dispatch the exit event of the window",
+      "WindowUtils": "You can call to force close the window",
+      "webViewJs": "js calls the object of webviewjs that executes java script",
+      "console": "Log, called like js",
+      "UIThreadUtil": "UI thread tools"
+    },
+    "RhinoInjectNames": {
+      "dispatcher": "EventDispatcher for internal use by scripts",
+      "quicker": "Provides easy-to-use methods (not currently used)",
+      "javaRunner": "Currently pointing to RhinoRunner, which is the host of the executed script.",
+      "proxy": "Automation proxy DroidProxy",
+      "a11yProxy": "Accessibility shell (obsolete, more restrictive than convenient)",
+      "a11yModel": "Accessibility",
+      "WebViewJsDispatcher": "WebView JS dispatcher can be used to dispatch events globally. HTML loaded in all domains can receive the events dispatched by it."
+    }
+  }
+}

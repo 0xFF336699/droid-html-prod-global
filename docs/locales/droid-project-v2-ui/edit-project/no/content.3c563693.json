@@ -1,0 +1,18 @@
+{
+  "EditProjectV2": {
+    "clickToSetProjectName": "Klikk for å angi prosjektnavnet"
+  },
+  "ProjectToolsV2": {
+    "run": "løp",
+    "keepAlive": "Løper kontinuerlig",
+    "keepAliveTooltipOn": "Kontinuerlig kjøremodus: Prosjektet avsluttes ikke automatisk etter at handlingen er fullført",
+    "keepAliveTooltipOff": "Normal modus: Avslutt automatisk etter at handlingen er fullført"
+  },
+  "StayAlertV2": {
+    "title": "Tips: Du har gjort endringer som ikke er lagret. Er du sikker på at du vil forlate?",
+    "leaveWithoutSave": "Kast lagre og gå",
+    "saveToDraft": "Lagre endringer i utkast og forlat",
+    "saveAndLeave": "Lagre og gå",
+    "stay": "Forlat redigering"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "ActionButtons": {
+    "cancel": "İptal etmek",
+    "save": "kaydetmek"
+  },
+  "DeleteConfirmDialog": {
+    "title": "Projeyi sil",
+    "warning": "Proje daha önce halka açıksa, başkaları tarafından alıntı yapılan referanslara referans verilmeye devam edilecek ve fiilen silinmeyecektir.",
+    "deleteFromServer": "Sunucudan sil",
+    "deleteServerInfo": "Silme işleminden sonra, daha önce bu projeye referans veren kullanıcılar onu kullanmaya devam edebilecektir.",
+    "deleteFromLocal": "Sunucudan ve yerelden sil",
+    "deleteLocalInfo": "Bu işlem hem sunucuyu hem de yerel dosyaları siler ve geri yüklenemez.",
+    "cancel": "İptal etmek",
+    "delete": "silmek"
+  },
+  "DeleteSection": {
+    "label": "Projeyi sil"
+  },
+  "ShareSection": {
+    "label": "Başkalarıyla paylaşın",
+    "info": "Paylaşıldıktan sonra diğer kullanıcılar projeyi görüntüleyebilir ve kendi hesaplarına aktarabilir."
+  },
+  "SyncToServerSection": {
+    "label": "Sunucuya senkronize et",
+    "warning": "Sunucularda saklanan veriler gizlilik riskleri oluşturabilir. Hassas verileri saklamayın."
+  }
+}

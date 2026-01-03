@@ -1,0 +1,20 @@
+{
+  "RhinoInjectKeys": {
+    "WebViewJsInjectKeys": {
+      "Window": "Globalt fönster, som kan skicka fönstrets exithändelse",
+      "WindowUtils": "Du kan ringa för att tvinga stänga fönstret",
+      "webViewJs": "js anropar objektet för webviewjs som kör java-skript",
+      "console": "Logg, kallad som js",
+      "UIThreadUtil": "UI-trådverktyg"
+    },
+    "RhinoInjectNames": {
+      "dispatcher": "EventDispatcher för internt bruk av skript",
+      "quicker": "Ger lättanvända metoder (används inte för närvarande)",
+      "javaRunner": "Pekar för närvarande på RhinoRunner, som är värd för det körda skriptet.",
+      "proxy": "Automatiseringsproxy DroidProxy",
+      "a11yProxy": "Tillgänglighetsskal (föråldrat, mer restriktivt än bekvämt)",
+      "a11yModel": "Tillgänglighet",
+      "WebViewJsDispatcher": "WebView JS dispatcher kan användas för att skicka händelser globalt. HTML som laddas i alla domäner kan ta emot de händelser som skickas av den."
+    }
+  }
+}

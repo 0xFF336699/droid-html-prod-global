@@ -1,0 +1,27 @@
+{
+  "ActionButtons": {
+    "cancel": "Kansellere",
+    "save": "spare"
+  },
+  "DeleteConfirmDialog": {
+    "title": "Slett prosjekt",
+    "warning": "Hvis prosjektet tidligere var offentlig, vil referanser som er sitert av andre fortsette å bli referert og vil faktisk ikke bli slettet.",
+    "deleteFromServer": "Slett fra server",
+    "deleteServerInfo": "Etter sletting vil brukere som tidligere har referert til dette prosjektet fortsatt kunne fortsette å bruke det.",
+    "deleteFromLocal": "Slett fra server og lokal",
+    "deleteLocalInfo": "Denne operasjonen vil slette både serveren og lokale filer og kan ikke gjenopprettes.",
+    "cancel": "Kansellere",
+    "delete": "slette"
+  },
+  "DeleteSection": {
+    "label": "Slett prosjekt"
+  },
+  "ShareSection": {
+    "label": "Del med andre",
+    "info": "Når det er delt, kan andre brukere se prosjektet og dele det inn på sine egne kontoer."
+  },
+  "SyncToServerSection": {
+    "label": "Synkroniser til server",
+    "warning": "Data lagret på servere kan utgjøre personvernrisiko. Ikke lagre sensitive data."
+  }
+}

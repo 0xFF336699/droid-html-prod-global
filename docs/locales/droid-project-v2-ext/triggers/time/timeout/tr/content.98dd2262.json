@@ -1,0 +1,7 @@
+{
+  "ITriggerTimeout": {
+    "title": "Gecikmeli yürütme",
+    "content_delay": "Gecikme",
+    "content_milliseconds": "Milisaniye sonra çalıştır"
+  }
+}

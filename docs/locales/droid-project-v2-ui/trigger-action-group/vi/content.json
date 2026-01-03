@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "Vô danh",
+    "sequential": "đặt hàng",
+    "sequentialTooltip": "Thực hiện tuần tự: thực hiện TriggerAction từng cái một theo trình tự",
+    "concurrentTooltip": "Thực thi đồng thời: thực thi tất cả TriggerActions cùng một lúc"
+  }
+}

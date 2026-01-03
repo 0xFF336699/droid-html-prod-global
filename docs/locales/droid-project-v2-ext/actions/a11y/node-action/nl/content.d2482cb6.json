@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Knooppuntbewerkingen",
+      "actionTypeLabel": "Soort bewerking",
+      "ActionType": {
+        "click": "Klik",
+        "longClick": "Lang indrukken",
+        "scroll": "rol",
+        "setText": "Tekst instellen",
+        "focus": "focus"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Klik met behulp van globale coördinaten",
+        "useGlobalClickHintOn": "De coördinaten van het middelpunt van het knooppunt worden berekend met behulp van de globale klikmethode.",
+        "useGlobalClickHintOff": "Roep rechtstreeks de klikmethode van het knooppunt aan",
+        "enableContinuousClickLabel": "Schakel continue klikken in",
+        "enableContinuousClickHint": "Na het inschakelen wordt er nog steeds op het knooppunt geklikt totdat het knooppunt uitvalt of het project wordt gestopt.",
+        "baseIntervalLabel": "Basislijninterval (milliseconden)",
+        "baseIntervalHint": "Basislijntijd tussen klikken",
+        "intervalVariationLabel": "Intervalfluctuatiebereik (milliseconden)",
+        "intervalVariationHint": "Werkelijk interval = {{baseInterval}} ± {{intervalVariation}} milliseconden"
+      },
+      "ScrollConfig": {
+        "directionLabel": "richting scrollen",
+        "directionForward": "scroll naar voren",
+        "directionBackward": "terug scrollen"
+      },
+      "SetTextConfig": {
+        "textLabel": "Voer tekst in",
+        "textPlaceholder": "Voer de in te stellen tekst in"
+      },
+      "LongClickConfig": {
+        "description": "Druk lang op het knooppunt om de gebeurtenis lang indrukken te activeren"
+      },
+      "FocusConfig": {
+        "description": "Focus het knooppunt zodat het knooppunt focus krijgt"
+      }
+    }
+  }
+}

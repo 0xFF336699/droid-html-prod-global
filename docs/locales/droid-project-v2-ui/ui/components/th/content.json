@@ -1,0 +1,18 @@
+{
+  "content": {
+    "create": "สร้าง",
+    "delete": "ลบ",
+    "confirmDelete": "คุณแน่ใจหรือไม่ว่าต้องการลบรายการนี้?",
+    "cancel": "ยอมแพ้",
+    "title": "เตือน"
+  },
+  "ProjectCategorySelectDialog": {
+    "ProjectCategorySelectDialog.title": "เลือกหมวดหมู่โครงการ",
+    "ProjectCategory.QuickAction.label": "การดำเนินการที่รวดเร็ว",
+    "ProjectCategory.QuickAction.description": "เลือกการดำเนินการจากรายการและเรียกใช้โดยตรง",
+    "ProjectCategory.ScriptRunner.label": "นักวิ่งสคริปต์",
+    "ProjectCategory.ScriptRunner.description": "เขียนโค้ดและรันโดยตรง",
+    "ProjectCategory.Workflow.label": "ขั้นตอนการทำงาน",
+    "ProjectCategory.Workflow.description": "กำหนดเงื่อนไขทริกเกอร์และดำเนินการ"
+  }
+}

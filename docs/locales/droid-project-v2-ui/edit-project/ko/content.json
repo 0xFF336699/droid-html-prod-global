@@ -1,0 +1,18 @@
+{
+  "EditProjectV2": {
+    "clickToSetProjectName": "프로젝트 이름을 설정하려면 클릭하세요."
+  },
+  "ProjectToolsV2": {
+    "run": "달리다",
+    "keepAlive": "지속적으로 실행 중",
+    "keepAliveTooltipOn": "연속 실행 모드: 작업이 완료된 후 프로젝트가 자동으로 종료되지 않습니다.",
+    "keepAliveTooltipOff": "일반 모드: Action 완료 후 자동 종료"
+  },
+  "StayAlertV2": {
+    "title": "팁: 저장되지 않은 변경사항이 있습니다. 정말 떠나시겠어요?",
+    "leaveWithoutSave": "저장을 취소하고 나가기",
+    "saveToDraft": "초안에 변경사항을 저장하고 나가기",
+    "saveAndLeave": "저장하고 나가기",
+    "stay": "수정 나가기"
+  }
+}

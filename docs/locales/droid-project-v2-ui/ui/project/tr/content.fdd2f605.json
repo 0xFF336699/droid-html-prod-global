@@ -1,0 +1,10 @@
+{
+  "content": {
+    "project": {
+      "run": "koşmak",
+      "edit": "düzenlemek",
+      "stop": "durmak",
+      "settings": "kurmak"
+    }
+  }
+}

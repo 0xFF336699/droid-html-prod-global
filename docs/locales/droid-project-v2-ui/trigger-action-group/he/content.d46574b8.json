@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "ללא שם",
+    "sequential": "לְהַזמִין",
+    "sequentialTooltip": "ביצוע רציף: בצע TriggerAction אחד אחד ברצף",
+    "concurrentTooltip": "ביצוע במקביל: בצע את כל TriggerActions בו-זמנית"
+  }
+}

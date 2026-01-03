@@ -1,0 +1,9 @@
+{
+  "content": {
+    "project": {
+      "run": "sikt",
+      "edit": "redigera",
+      "stop": "stopp"
+    }
+  }
+}

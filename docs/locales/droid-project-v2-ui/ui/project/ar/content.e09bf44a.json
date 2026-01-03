@@ -1,0 +1,10 @@
+{
+  "content": {
+    "project": {
+      "run": "يجري",
+      "edit": "يحرر",
+      "stop": "قف",
+      "settings": "يثبت"
+    }
+  }
+}

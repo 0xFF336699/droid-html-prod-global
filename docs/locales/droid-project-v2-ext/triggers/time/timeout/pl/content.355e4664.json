@@ -1,0 +1,7 @@
+{
+  "ITriggerTimeout": {
+    "title": "Opóźniona realizacja",
+    "content_delay": "Opóźnienie",
+    "content_milliseconds": "Wykonaj po milisekundach"
+  }
+}

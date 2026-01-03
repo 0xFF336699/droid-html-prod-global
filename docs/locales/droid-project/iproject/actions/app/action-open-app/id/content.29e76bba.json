@@ -1,9 +1,0 @@
-{
-  "IActionOpenApp": {
-    "permission": {
-      "a11y": {
-        "reason": "Perlu aksesibilitas untuk mendeteksi apakah aplikasi terbuka"
-      }
-    }
-  }
-}

@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "Sem nome",
+    "sequential": "ordem",
+    "sequentialTooltip": "Execução sequencial: execute TriggerAction um por um em sequência",
+    "concurrentTooltip": "Execução simultânea: execute todas as TriggerActions ao mesmo tempo"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "EditProjectV2": {
+    "clickToSetProjectName": "Klik for at angive projektets navn"
+  },
+  "ProjectToolsV2": {
+    "run": "løbe",
+    "keepAlive": "Løbende løbende",
+    "keepAliveTooltipOn": "Kontinuerlig driftstilstand: Projektet afsluttes ikke automatisk, efter at handlingen er fuldført",
+    "keepAliveTooltipOff": "Normal tilstand: Afslut automatisk efter handling er fuldført"
+  },
+  "StayAlertV2": {
+    "title": "Tip: Du har foretaget ændringer, der ikke er blevet gemt. Er du sikker på, at du vil tage afsted?",
+    "leaveWithoutSave": "Kassér gem og forlad",
+    "saveToDraft": "Gem ændringer til kladde og forlad",
+    "saveAndLeave": "Gem og forlad",
+    "stay": "Forlad redigering"
+  }
+}

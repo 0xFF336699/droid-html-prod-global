@@ -1,0 +1,10 @@
+{
+  "content": {
+    "project": {
+      "run": "juosta",
+      "edit": "muokata",
+      "stop": "Stop",
+      "settings": "perustaa"
+    }
+  }
+}

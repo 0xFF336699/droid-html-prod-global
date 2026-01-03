@@ -1,0 +1,10 @@
+{
+  "content": {
+    "project": {
+      "run": "달리다",
+      "edit": "편집하다",
+      "stop": "멈추다",
+      "settings": "설정"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "content": {
+    "project": {
+      "run": "běh",
+      "edit": "upravit",
+      "stop": "zastávka"
+    }
+  }
+}

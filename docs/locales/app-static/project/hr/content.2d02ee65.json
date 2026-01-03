@@ -1,0 +1,20 @@
+{
+  "RhinoInjectKeys": {
+    "WebViewJsInjectKeys": {
+      "Window": "Globalni prozor, koji može otpremiti izlazni događaj prozora",
+      "WindowUtils": "Možete nazvati da prisilno zatvorite prozor",
+      "webViewJs": "js poziva objekt webviewjs koji izvršava java skriptu",
+      "console": "Dnevnik, nazvan kao js",
+      "UIThreadUtil": "Alati niti UI"
+    },
+    "RhinoInjectNames": {
+      "dispatcher": "EventDispatcher za internu upotrebu skripti",
+      "quicker": "Pruža metode jednostavne za korištenje (trenutačno se ne koriste)",
+      "javaRunner": "Trenutno pokazuje na RhinoRunner, koji je domaćin izvršene skripte.",
+      "proxy": "Automatizacija proxy DroidProxy",
+      "a11yProxy": "Ljuska pristupačnosti (zastarjela, više restriktivna nego prikladna)",
+      "a11yModel": "Pristupačnost",
+      "WebViewJsDispatcher": "WebView JS dispečer može se koristiti za globalno slanje događaja. HTML učitan u svim domenama može primiti događaje koje šalje."
+    }
+  }
+}

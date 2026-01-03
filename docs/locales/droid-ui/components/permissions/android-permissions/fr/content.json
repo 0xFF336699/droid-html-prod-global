@@ -1,0 +1,17 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Sélectionnez les autorisations"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "Groupes d’autorisations Manifest",
+      "ManifestPermission": "Autorisations",
+      "ChinesePhoneSpecialPermission": "Autorisations spéciales des téléphones chinois"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Sélectionnez les autorisations Android",
+    "SelectedPermissions": "Autorisations sélectionnées",
+    "NoPermissionsSelected": "Aucune autorisation sélectionnée"
+  }
+}

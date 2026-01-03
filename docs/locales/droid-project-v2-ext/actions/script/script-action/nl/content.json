@@ -1,0 +1,15 @@
+{
+  "IActionScript": {
+    "title": "scriptactie",
+    "scriptMode": "scriptmodus",
+    "scriptMode_simple": "Eenvoudige modus (pas gewoon de functie executeAction() aan)",
+    "scriptMode_advanced": "Geavanceerde modus (volledige bevestigingsfunctie)",
+    "scriptMode_full": "Volledige modus (bevat alle codestructuren)",
+    "scriptCode": "scriptcode",
+    "scriptPlaceholder": "Voer hier uw scriptcode in...",
+    "modeDescription": "Modusbeschrijving",
+    "modeDescription_simple": "Eenvoudige modus: het raamwerk handelt de levenscyclus automatisch af. U hoeft alleen de actielogica te implementeren in de meegeleverde executeAction()-functie. Wanneer de uitvoering succesvol is, wordt that.dispatchSuccess() aangeroepen, en wanneer deze mislukt, wordt that.dispatchFailed(errorMessage) aangeroepen.",
+    "modeDescription_advanced": "Geavanceerde modus: u krijgt de volledige koppelfunctie en kunt alle logica volledig aanpassen. Geschikt voor het afhandelen van asynchrone bewerkingen, luisteren naar complexe gebeurtenissen en levenscyclusbeheer.",
+    "modeDescription_full": "Volledige modus: Biedt voorbeeldcode inclusief registratie, export en volledige levenscyclus. Kan direct als zelfstandig script worden gebruikt."
+  }
+}

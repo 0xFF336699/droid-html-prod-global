@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Operaciones de nodo",
+      "actionTypeLabel": "Tipo de operación",
+      "ActionType": {
+        "click": "Hacer clic",
+        "longClick": "Pulsación larga",
+        "scroll": "voluta",
+        "setText": "Establecer texto",
+        "focus": "enfocar"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Haga clic usando coordenadas globales",
+        "useGlobalClickHintOn": "Las coordenadas del punto central del nodo se calcularán utilizando el método de clic global.",
+        "useGlobalClickHintOff": "Llame directamente al método de clic del nodo.",
+        "enableContinuousClickLabel": "Habilitar clics continuos",
+        "enableContinuousClickHint": "Después de habilitarlo, se seguirá haciendo clic en el nodo hasta que el nodo falle o se detenga el proyecto.",
+        "baseIntervalLabel": "Intervalo de referencia (milisegundos)",
+        "baseIntervalHint": "Tiempo de referencia entre clics",
+        "intervalVariationLabel": "Rango de fluctuación del intervalo (milisegundos)",
+        "intervalVariationHint": "Intervalo real = {{baseInterval}} ± {{intervalVariation}} milisegundos"
+      },
+      "ScrollConfig": {
+        "directionLabel": "dirección de desplazamiento",
+        "directionForward": "desplazarse hacia adelante",
+        "directionBackward": "desplazarse hacia atrás"
+      },
+      "SetTextConfig": {
+        "textLabel": "Introducir texto",
+        "textPlaceholder": "Por favor ingrese el texto a configurar"
+      },
+      "LongClickConfig": {
+        "description": "Mantenga presionado el nodo para activar el evento de presión prolongada"
+      },
+      "FocusConfig": {
+        "description": "Enfoque el nodo para que el nodo reciba el foco"
+      }
+    }
+  }
+}

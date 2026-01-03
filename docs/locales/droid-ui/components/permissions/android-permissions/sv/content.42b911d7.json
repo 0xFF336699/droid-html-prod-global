@@ -1,0 +1,17 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Välj behörigheter"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "ManifestPermission-grupper",
+      "ManifestPermission": "Behörigheter",
+      "ChinesePhoneSpecialPermission": "Särskilda behörigheter för kinesiska telefoner"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Välj Android-behörigheter",
+    "SelectedPermissions": "Valda behörigheter",
+    "NoPermissionsSelected": "Inga behörigheter har valts"
+  }
+}

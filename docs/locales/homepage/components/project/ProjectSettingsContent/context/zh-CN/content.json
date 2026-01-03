@@ -1,0 +1,10 @@
+{
+  "ProjectSettingsContext": {
+    "ProjectSettingsContext": {
+      "projectUlidRequired": "项目ID是必需的",
+      "projectNotFound": "项目未找到",
+      "saveFailed": "保存失败",
+      "deleteFailed": "删除失败"
+    }
+  }
+}

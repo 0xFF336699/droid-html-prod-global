@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "בעת כניסה לדף שצוין",
+    "pnLabel": "שם החבילה:",
+    "anLabel": "שם הפעילות:",
+    "cnLabel": "שם הכיתה:",
+    "changeBtnLabel": "לְהַחלִיף"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "בעת כניסה לדף שצוין",
+    "pnLabel": "שם החבילה:",
+    "anLabel": "שם הפעילות:",
+    "cnLabel": "שם הכיתה:",
+    "changeBtnLabel": "לְהַחלִיף"
+  }
+}

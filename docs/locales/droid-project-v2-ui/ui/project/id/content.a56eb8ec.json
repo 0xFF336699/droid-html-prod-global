@@ -1,0 +1,9 @@
+{
+  "content": {
+    "project": {
+      "run": "berlari",
+      "edit": "sunting",
+      "stop": "berhenti"
+    }
+  }
+}

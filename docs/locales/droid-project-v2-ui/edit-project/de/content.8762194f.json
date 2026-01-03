@@ -1,0 +1,18 @@
+{
+  "EditProjectV2": {
+    "clickToSetProjectName": "Klicken Sie, um den Projektnamen festzulegen"
+  },
+  "ProjectToolsV2": {
+    "run": "laufen",
+    "keepAlive": "Läuft kontinuierlich",
+    "keepAliveTooltipOn": "Kontinuierlicher Betriebsmodus: Das Projekt wird nach Abschluss der Aktion nicht automatisch beendet",
+    "keepAliveTooltipOff": "Normaler Modus: Wird nach Abschluss der Aktion automatisch beendet"
+  },
+  "StayAlertV2": {
+    "title": "Tipp: Sie haben Änderungen vorgenommen, die nicht gespeichert wurden. Sind Sie sicher, dass Sie gehen möchten?",
+    "leaveWithoutSave": "Verwerfen, speichern und verlassen",
+    "saveToDraft": "Änderungen am Entwurf speichern und verlassen",
+    "saveAndLeave": "Speichern und gehen",
+    "stay": "Bearbeiten verlassen"
+  }
+}

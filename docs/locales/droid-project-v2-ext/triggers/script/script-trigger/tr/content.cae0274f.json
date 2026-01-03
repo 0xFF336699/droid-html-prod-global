@@ -1,0 +1,15 @@
+{
+  "ITriggerScript": {
+    "title": "komut dosyası tetikleyicisi",
+    "scriptMode": "komut dosyası modu",
+    "scriptMode_simple": "Basit mod (sadece check() fonksiyonunu değiştirin)",
+    "scriptMode_advanced": "Gelişmiş mod (tam ekleme işlevi)",
+    "scriptMode_full": "Tam mod (tüm kod yapılarını içerir)",
+    "scriptCode": "komut dosyası kodu",
+    "scriptPlaceholder": "Komut dosyası kodunuzu buraya girin...",
+    "modeDescription": "Mod açıklaması",
+    "modeDescription_simple": "Basit mod: Çerçeve yaşam döngüsünü otomatik olarak yönetir. Yalnızca sağlanan check() işlevinde koşullu değerlendirme mantığını uygulamanız gerekir. Koşul karşılandığında that.dispatchConditionsOn()'u çağırın, aksi halde that.dispatchConditionsOff()'u çağırın.",
+    "modeDescription_advanced": "Gelişmiş mod: Ekleme işlevinin tamamını alırsınız ve tüm mantığı tamamen özelleştirebilirsiniz. Karmaşık yaşam döngüsü yönetimi ve olay izlemenin yönetimi için uygundur.",
+    "modeDescription_full": "Tam mod: Kayıt, dışa aktarma ve yaşam döngüsünün tamamını içeren örnek kod sağlar. Doğrudan bağımsız bir komut dosyası olarak kullanılabilir."
+  }
+}

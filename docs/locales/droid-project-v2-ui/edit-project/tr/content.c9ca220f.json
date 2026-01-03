@@ -1,0 +1,18 @@
+{
+  "EditProjectV2": {
+    "clickToSetProjectName": "Proje adını ayarlamak için tıklayın"
+  },
+  "ProjectToolsV2": {
+    "run": "koşmak",
+    "keepAlive": "Sürekli çalışıyor",
+    "keepAliveTooltipOn": "Sürekli çalışma modu: Eylem tamamlandıktan sonra projeden otomatik olarak çıkılmayacak",
+    "keepAliveTooltipOff": "Normal mod: Eylem tamamlandıktan sonra otomatik olarak çık"
+  },
+  "StayAlertV2": {
+    "title": "İpucu: Kaydedilmemiş değişiklikler yaptınız. Ayrılmak istediğinden emin misin?",
+    "leaveWithoutSave": "Kaydetmeyi iptal et ve ayrıl",
+    "saveToDraft": "Taslaktaki değişiklikleri kaydedin ve çıkın",
+    "saveAndLeave": "Kaydet ve ayrıl",
+    "stay": "Düzenlemeden ayrıl"
+  }
+}

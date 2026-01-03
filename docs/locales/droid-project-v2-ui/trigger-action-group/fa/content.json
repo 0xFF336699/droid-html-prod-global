@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "بی نام",
+    "sequential": "سفارش دهید",
+    "sequentialTooltip": "اجرای متوالی: TriggerAction را یکی یکی به ترتیب اجرا کنید",
+    "concurrentTooltip": "اجرای همزمان: همه TriggerActions را همزمان اجرا کنید"
+  }
+}

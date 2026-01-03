@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "Unavngivet",
+    "sequential": "bestille",
+    "sequentialTooltip": "Sekventiel udførelse: udfør TriggerAction én efter én i rækkefølge",
+    "concurrentTooltip": "Samtidig udførelse: udfør alle TriggerActions på samme tid"
+  }
+}

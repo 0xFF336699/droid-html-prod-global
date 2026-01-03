@@ -1,0 +1,15 @@
+{
+  "ITriggerScript": {
+    "title": "script-trigger",
+    "scriptMode": "scriptmodus",
+    "scriptMode_simple": "Eenvoudige modus (pas gewoon de functie check() aan)",
+    "scriptMode_advanced": "Geavanceerde modus (volledige bevestigingsfunctie)",
+    "scriptMode_full": "Volledige modus (bevat alle codestructuren)",
+    "scriptCode": "scriptcode",
+    "scriptPlaceholder": "Voer hier uw scriptcode in...",
+    "modeDescription": "Modusbeschrijving",
+    "modeDescription_simple": "Eenvoudige modus: het raamwerk handelt de levenscyclus automatisch af. U hoeft alleen de voorwaardelijke beoordelingslogica te implementeren in de meegeleverde check()-functie. Wanneer aan de voorwaarde is voldaan, roept u that.dispatchConditionsOn() aan, anders roept u that.dispatchConditionsOff() aan.",
+    "modeDescription_advanced": "Geavanceerde modus: u krijgt de volledige koppelfunctie en kunt alle logica volledig aanpassen. Geschikt voor het omgaan met complex levenscyclusbeheer en gebeurtenismonitoring.",
+    "modeDescription_full": "Volledige modus: Biedt voorbeeldcode inclusief registratie, export en volledige levenscyclus. Kan direct als zelfstandig script worden gebruikt."
+  }
+}

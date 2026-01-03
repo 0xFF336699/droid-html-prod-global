@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "未命名",
+    "sequential": "順序",
+    "sequentialTooltip": "順序執行:按順序逐個執行 TriggerAction",
+    "concurrentTooltip": "並發執行:同時執行所有 TriggerAction"
+  }
+}

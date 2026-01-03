@@ -1,0 +1,17 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "選擇權限"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "權限組 (ManifestPermission Groups)",
+      "ManifestPermission": "權限 (Permissions)",
+      "ChinesePhoneSpecialPermission": "國產手機特殊權限 (Chinese Phone Special Permissions)"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "選擇 Android 權限",
+    "SelectedPermissions": "已選權限",
+    "NoPermissionsSelected": "未選擇任何權限"
+  }
+}

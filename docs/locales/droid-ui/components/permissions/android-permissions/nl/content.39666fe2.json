@@ -1,0 +1,17 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Selecteer machtigingen"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "ManifestPermission-groepen",
+      "ManifestPermission": "Machtigingen",
+      "ChinesePhoneSpecialPermission": "Speciale machtigingen voor Chinese telefoons"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Selecteer Android-machtigingen",
+    "SelectedPermissions": "Geselecteerde machtigingen",
+    "NoPermissionsSelected": "Geen rechten geselecteerd"
+  }
+}

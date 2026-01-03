@@ -1,0 +1,9 @@
+{
+  "content": {
+    "projectNotExist": "프로젝트가 존재하지 않습니다",
+    "clickToSetProjectName": "이름이 없는 프로젝트",
+    "projectTools": {
+      "run": "구현하다"
+    }
+  }
+}

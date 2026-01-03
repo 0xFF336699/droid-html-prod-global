@@ -1,0 +1,27 @@
+{
+  "ActionButtons": {
+    "cancel": "Annuler",
+    "save": "sauvegarder"
+  },
+  "DeleteConfirmDialog": {
+    "title": "Supprimer le projet",
+    "warning": "Si le projet était auparavant public, les références citées par d'autres continueront à être référencées et ne seront pas réellement supprimées.",
+    "deleteFromServer": "Supprimer du serveur",
+    "deleteServerInfo": "Après suppression, les utilisateurs ayant précédemment référencé ce projet pourront toujours continuer à l'utiliser.",
+    "deleteFromLocal": "Supprimer du serveur et local",
+    "deleteLocalInfo": "Cette opération supprimera à la fois le serveur et les fichiers locaux et ne pourra pas être restaurée.",
+    "cancel": "Annuler",
+    "delete": "supprimer"
+  },
+  "DeleteSection": {
+    "label": "Supprimer le projet"
+  },
+  "ShareSection": {
+    "label": "Partager avec les autres",
+    "info": "Une fois partagé, les autres utilisateurs peuvent visualiser le projet et le transférer sur leurs propres comptes."
+  },
+  "SyncToServerSection": {
+    "label": "Synchroniser avec le serveur",
+    "warning": "Les données stockées sur les serveurs peuvent présenter des risques en matière de confidentialité. Ne stockez pas de données sensibles."
+  }
+}

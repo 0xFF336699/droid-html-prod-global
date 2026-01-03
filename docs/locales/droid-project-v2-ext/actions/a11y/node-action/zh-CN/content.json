@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "节点操作",
+      "actionTypeLabel": "操作类型",
+      "ActionType": {
+        "click": "点击",
+        "longClick": "长按",
+        "scroll": "滚动",
+        "setText": "设置文本",
+        "focus": "聚焦"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "使用全局坐标点击",
+        "useGlobalClickHintOn": "将计算节点中心点坐标,使用全局点击方式",
+        "useGlobalClickHintOff": "直接调用节点的click方法",
+        "enableContinuousClickLabel": "启用连续点击",
+        "enableContinuousClickHint": "启用后将持续点击节点,直到节点失效或项目停止",
+        "baseIntervalLabel": "基准间隔时间(毫秒)",
+        "baseIntervalHint": "每次点击之间的基准时间间隔",
+        "intervalVariationLabel": "间隔波动范围(毫秒)",
+        "intervalVariationHint": "实际间隔 = {{baseInterval}} ± {{intervalVariation}} 毫秒"
+      },
+      "ScrollConfig": {
+        "directionLabel": "滚动方向",
+        "directionForward": "向前滚动",
+        "directionBackward": "向后滚动"
+      },
+      "SetTextConfig": {
+        "textLabel": "输入文本",
+        "textPlaceholder": "请输入要设置的文本"
+      },
+      "LongClickConfig": {
+        "description": "长按节点,触发长按事件"
+      },
+      "FocusConfig": {
+        "description": "聚焦节点,使节点获得焦点"
+      }
+    }
+  }
+}

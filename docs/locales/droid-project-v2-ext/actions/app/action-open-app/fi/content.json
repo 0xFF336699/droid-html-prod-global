@@ -1,0 +1,8 @@
+{
+  "IActionOpenApp": {
+    "permission": {
+      "android.permission.BIND_ACCESSIBILITY_SERVICE": "Tarvitset esteettömyyden havaitaksesi, onko sovellus auki",
+      "background_popup": "Sinun on varmistettava, että sovelluksesi voidaan edelleen käynnistää, kun se on taustalla."
+    }
+  }
+}

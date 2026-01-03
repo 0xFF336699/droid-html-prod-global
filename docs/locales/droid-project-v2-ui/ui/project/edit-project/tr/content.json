@@ -1,0 +1,9 @@
+{
+  "content": {
+    "projectNotExist": "Proje mevcut değil",
+    "clickToSetProjectName": "Adsız proje",
+    "projectTools": {
+      "run": "uygulamak"
+    }
+  }
+}

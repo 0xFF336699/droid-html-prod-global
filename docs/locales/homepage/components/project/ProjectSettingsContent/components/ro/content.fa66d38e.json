@@ -1,0 +1,27 @@
+{
+  "ActionButtons": {
+    "cancel": "Anula",
+    "save": "salva"
+  },
+  "DeleteConfirmDialog": {
+    "title": "Șterge proiectul",
+    "warning": "Dacă proiectul a fost public anterior, referințele citate de alții vor continua să fie menționate și nu vor fi efectiv șterse.",
+    "deleteFromServer": "Ștergeți de pe server",
+    "deleteServerInfo": "După ștergere, utilizatorii care au făcut referire anterior la acest proiect vor putea în continuare să-l folosească.",
+    "deleteFromLocal": "Ștergeți de pe server și local",
+    "deleteLocalInfo": "Această operațiune va șterge atât serverul, cât și fișierele locale și nu poate fi restaurată.",
+    "cancel": "Anula",
+    "delete": "şterge"
+  },
+  "DeleteSection": {
+    "label": "Șterge proiectul"
+  },
+  "ShareSection": {
+    "label": "Distribuie altora",
+    "info": "Odată partajat, alți utilizatori pot vizualiza proiectul și îl pot introduce în propriile conturi."
+  },
+  "SyncToServerSection": {
+    "label": "Sincronizare cu serverul",
+    "warning": "Datele stocate pe servere pot prezenta riscuri de confidențialitate. Nu stocați date sensibile."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Operazioni sui nodi",
+      "actionTypeLabel": "Tipo di operazione",
+      "ActionType": {
+        "click": "Clic",
+        "longClick": "Premere a lungo",
+        "scroll": "scorrere",
+        "setText": "Imposta il testo",
+        "focus": "messa a fuoco"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Fare clic su utilizzando le coordinate globali",
+        "useGlobalClickHintOn": "Le coordinate del punto centrale del nodo verranno calcolate utilizzando il metodo di clic globale.",
+        "useGlobalClickHintOff": "Chiama direttamente il metodo click del nodo",
+        "enableContinuousClickLabel": "Abilita clic continui",
+        "enableContinuousClickHint": "Dopo l'abilitazione, si continuerà a fare clic sul nodo finché il nodo non fallisce o il progetto viene interrotto.",
+        "baseIntervalLabel": "Intervallo di base (millisecondi)",
+        "baseIntervalHint": "Tempo di riferimento tra i clic",
+        "intervalVariationLabel": "Intervallo di fluttuazione dell'intervallo (millisecondi)",
+        "intervalVariationHint": "Intervallo effettivo = {{baseInterval}} ± {{intervalVariation}} millisecondi"
+      },
+      "ScrollConfig": {
+        "directionLabel": "direzione di scorrimento",
+        "directionForward": "scorrere in avanti",
+        "directionBackward": "scorrere indietro"
+      },
+      "SetTextConfig": {
+        "textLabel": "Inserisci il testo",
+        "textPlaceholder": "Inserisci il testo da impostare"
+      },
+      "LongClickConfig": {
+        "description": "Premere a lungo il nodo per attivare l'evento di pressione prolungata"
+      },
+      "FocusConfig": {
+        "description": "Mettere a fuoco il nodo in modo che il nodo venga messo a fuoco"
+      }
+    }
+  }
+}

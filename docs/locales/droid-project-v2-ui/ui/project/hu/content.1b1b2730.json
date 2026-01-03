@@ -1,0 +1,10 @@
+{
+  "content": {
+    "project": {
+      "run": "fut",
+      "edit": "szerkeszteni",
+      "stop": "Stop",
+      "settings": "felállítani"
+    }
+  }
+}

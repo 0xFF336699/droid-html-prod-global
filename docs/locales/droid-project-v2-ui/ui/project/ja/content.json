@@ -1,0 +1,10 @@
+{
+  "content": {
+    "project": {
+      "run": "走る",
+      "edit": "編集",
+      "stop": "停止",
+      "settings": "設定"
+    }
+  }
+}

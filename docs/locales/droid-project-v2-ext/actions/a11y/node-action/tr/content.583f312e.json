@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Düğüm işlemleri",
+      "actionTypeLabel": "Operasyon türü",
+      "ActionType": {
+        "click": "Tıklamak",
+        "longClick": "Uzun basın",
+        "scroll": "taslak",
+        "setText": "Metni ayarla",
+        "focus": "odak"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Küresel koordinatları kullanarak tıklayın",
+        "useGlobalClickHintOn": "Düğüm merkez noktasının koordinatları global tıklama yöntemi kullanılarak hesaplanacaktır.",
+        "useGlobalClickHintOff": "Düğümün tıklama yöntemini doğrudan çağırın",
+        "enableContinuousClickLabel": "Sürekli tıklamaları etkinleştir",
+        "enableContinuousClickHint": "Etkinleştirdikten sonra, düğüm başarısız olana veya proje durduruluncaya kadar düğüm tıklatılmaya devam edecektir.",
+        "baseIntervalLabel": "Temel aralık (milisaniye)",
+        "baseIntervalHint": "Tıklamalar arasındaki temel süre",
+        "intervalVariationLabel": "Aralık dalgalanma aralığı (milisaniye)",
+        "intervalVariationHint": "Gerçek aralık = {{baseInterval}} ± {{intervalVariation}} milisaniye"
+      },
+      "ScrollConfig": {
+        "directionLabel": "kaydırma yönü",
+        "directionForward": "ileri kaydır",
+        "directionBackward": "geri kaydır"
+      },
+      "SetTextConfig": {
+        "textLabel": "Metni girin",
+        "textPlaceholder": "Lütfen ayarlanacak metni girin"
+      },
+      "LongClickConfig": {
+        "description": "Uzun basma olayını tetiklemek için düğüme uzun basın"
+      },
+      "FocusConfig": {
+        "description": "Düğümün odaklanabilmesi için düğüme odaklanın"
+      }
+    }
+  }
+}

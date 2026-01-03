@@ -1,0 +1,18 @@
+{
+  "EditProjectV2": {
+    "clickToSetProjectName": "לחץ כדי להגדיר את שם הפרויקט"
+  },
+  "ProjectToolsV2": {
+    "run": "לָרוּץ",
+    "keepAlive": "ריצה מתמשכת",
+    "keepAliveTooltipOn": "מצב ריצה מתמשך: הפרויקט לא ייצא אוטומטית לאחר השלמת הפעולה",
+    "keepAliveTooltipOff": "מצב רגיל: צא אוטומטית לאחר השלמת הפעולה"
+  },
+  "StayAlertV2": {
+    "title": "טיפ: ביצעת שינויים שלא נשמרו. האם אתה בטוח שאתה רוצה לעזוב?",
+    "leaveWithoutSave": "לזרוק לשמור ולעזוב",
+    "saveToDraft": "שמור שינויים לטיוטה ועזוב",
+    "saveAndLeave": "שמור ועזוב",
+    "stay": "עזוב את העריכה"
+  }
+}

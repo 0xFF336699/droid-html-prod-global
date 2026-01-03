@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "لم يذكر اسمه",
+    "sequential": "طلب",
+    "sequentialTooltip": "التنفيذ المتسلسل: تنفيذ TriggerAction واحدًا تلو الآخر بالتسلسل",
+    "concurrentTooltip": "التنفيذ المتزامن: تنفيذ جميع TriggerActions في نفس الوقت"
+  }
+}

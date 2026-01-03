@@ -1,0 +1,17 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Vælg tilladelser"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "ManifestPermission-grupper",
+      "ManifestPermission": "Tilladelser",
+      "ChinesePhoneSpecialPermission": "Kinesiske telefon særlige tilladelser"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Vælg Android-tilladelser",
+    "SelectedPermissions": "Valgte tilladelser",
+    "NoPermissionsSelected": "Ingen tilladelser valgt"
+  }
+}

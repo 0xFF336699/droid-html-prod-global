@@ -1,0 +1,18 @@
+{
+  "EditProjectV2": {
+    "clickToSetProjectName": "Klicka för att ställa in projektnamnet"
+  },
+  "ProjectToolsV2": {
+    "run": "sikt",
+    "keepAlive": "Kontinuerligt igång",
+    "keepAliveTooltipOn": "Kontinuerligt körläge: Projektet avslutas inte automatiskt efter att åtgärden är klar",
+    "keepAliveTooltipOff": "Normalläge: Avsluta automatiskt efter att åtgärden är klar"
+  },
+  "StayAlertV2": {
+    "title": "Tips: Du har gjort ändringar som inte har sparats. Är du säker på att du vill lämna?",
+    "leaveWithoutSave": "Släng spara och lämna",
+    "saveToDraft": "Spara ändringar i utkast och lämna",
+    "saveAndLeave": "Spara och lämna",
+    "stay": "Lämna redigeringen"
+  }
+}

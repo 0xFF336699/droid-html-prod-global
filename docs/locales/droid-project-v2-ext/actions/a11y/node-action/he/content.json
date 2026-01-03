@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "פעולות צומת",
+      "actionTypeLabel": "סוג הפעולה",
+      "ActionType": {
+        "click": "נְקִישָׁה",
+        "longClick": "לחיצה ארוכה",
+        "scroll": "גְלִילָה",
+        "setText": "הגדר טקסט",
+        "focus": "מוֹקֵד"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "לחץ באמצעות קואורדינטות גלובליות",
+        "useGlobalClickHintOn": "הקואורדינטות של נקודת מרכז הצומת יחושבו בשיטת הלחיצה הגלובלית.",
+        "useGlobalClickHintOff": "קרא ישירות לשיטת הלחיצה של הצומת",
+        "enableContinuousClickLabel": "אפשר קליקים מתמשכים",
+        "enableContinuousClickHint": "לאחר ההפעלה, הצומת ימשיך להילחץ עד שהצומת ייכשל או שהפרויקט יופסק.",
+        "baseIntervalLabel": "מרווח קו בסיס (מילישניות)",
+        "baseIntervalHint": "זמן בסיס בין קליקים",
+        "intervalVariationLabel": "טווח תנודות מרווחים (מילישניות)",
+        "intervalVariationHint": "מרווח בפועל = {{baseInterval}} ± {{intervalVariation}} אלפיות השנייה"
+      },
+      "ScrollConfig": {
+        "directionLabel": "כיוון הגלילה",
+        "directionForward": "לגלול קדימה",
+        "directionBackward": "לגלול אחורה"
+      },
+      "SetTextConfig": {
+        "textLabel": "הזן טקסט",
+        "textPlaceholder": "נא להזין את הטקסט להגדרה"
+      },
+      "LongClickConfig": {
+        "description": "לחץ לחיצה ארוכה על הצומת כדי להפעיל את אירוע הלחיצה הארוכה"
+      },
+      "FocusConfig": {
+        "description": "מקד את הצומת כך שהצומת יקבל פוקוס"
+      }
+    }
+  }
+}

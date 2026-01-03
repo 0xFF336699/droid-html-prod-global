@@ -1,0 +1,17 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Válassza ki az engedélyeket"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "ManifestPermission Groups",
+      "ManifestPermission": "Engedélyek",
+      "ChinesePhoneSpecialPermission": "Kínai telefon különleges engedélyei"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Válassza az Android engedélyeket",
+    "SelectedPermissions": "Kiválasztott engedélyek",
+    "NoPermissionsSelected": "Nincsenek kiválasztva engedélyek"
+  }
+}

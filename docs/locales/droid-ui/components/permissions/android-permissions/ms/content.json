@@ -1,0 +1,17 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Pilih Kebenaran"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "Kumpulan manifestpermission",
+      "ManifestPermission": "Keizinan",
+      "ChinesePhoneSpecialPermission": "Kebenaran khas telefon Cina"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Pilih keizinan Android",
+    "SelectedPermissions": "Keizinan terpilih",
+    "NoPermissionsSelected": "Tiada kebenaran dipilih"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Vyberte oprávnění"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "Skupiny ManifestPermission",
+      "ManifestPermission": "Oprávnění",
+      "ChinesePhoneSpecialPermission": "Zvláštní oprávnění pro čínský telefon"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Vyberte oprávnění Android",
+    "SelectedPermissions": "Vybraná oprávnění",
+    "NoPermissionsSelected": "Nejsou vybrána žádná oprávnění"
+  }
+}

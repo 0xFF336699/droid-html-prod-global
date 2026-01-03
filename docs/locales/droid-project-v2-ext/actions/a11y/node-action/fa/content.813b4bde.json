@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "عملیات گره",
+      "actionTypeLabel": "نوع عملیات",
+      "ActionType": {
+        "click": "کلیک کنید",
+        "longClick": "فشار طولانی",
+        "scroll": "اسکرول کنید",
+        "setText": "تنظیم متن",
+        "focus": "تمرکز کنید"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "با استفاده از مختصات جهانی کلیک کنید",
+        "useGlobalClickHintOn": "مختصات نقطه مرکز گره با استفاده از روش کلیک سراسری محاسبه خواهد شد.",
+        "useGlobalClickHintOff": "مستقیماً متد کلیک گره را فراخوانی کنید",
+        "enableContinuousClickLabel": "فعال کردن کلیک های مداوم",
+        "enableContinuousClickHint": "پس از فعال کردن، کلیک روی گره تا زمانی که گره از کار بیفتد یا پروژه متوقف شود، ادامه می یابد.",
+        "baseIntervalLabel": "فاصله خط پایه (میلی ثانیه)",
+        "baseIntervalHint": "زمان پایه بین کلیک ها",
+        "intervalVariationLabel": "محدوده نوسان فاصله (میلی ثانیه)",
+        "intervalVariationHint": "فاصله واقعی = {{baseInterval}} ± {{intervalVariation}} میلی ثانیه"
+      },
+      "ScrollConfig": {
+        "directionLabel": "جهت پیمایش",
+        "directionForward": "به جلو بروید",
+        "directionBackward": "به عقب پیمایش کنید"
+      },
+      "SetTextConfig": {
+        "textLabel": "متن را وارد کنید",
+        "textPlaceholder": "لطفا متن مورد نظر را وارد کنید"
+      },
+      "LongClickConfig": {
+        "description": "گره را به مدت طولانی فشار دهید تا رویداد مطبوعات طولانی فعال شود"
+      },
+      "FocusConfig": {
+        "description": "گره را طوری متمرکز کنید که گره فوکوس کند"
+      }
+    }
+  }
+}

@@ -1,9 +1,0 @@
-{
-  "IActionOpenApp": {
-    "permission": {
-      "a11y": {
-        "reason": "Tarvitset esteettömyyden havaitaksesi, onko sovellus auki"
-      }
-    }
-  }
-}

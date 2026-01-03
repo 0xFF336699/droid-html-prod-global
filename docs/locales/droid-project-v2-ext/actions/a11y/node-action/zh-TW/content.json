@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "節點操作",
+      "actionTypeLabel": "操作類型",
+      "ActionType": {
+        "click": "點擊",
+        "longClick": "長按",
+        "scroll": "滾動",
+        "setText": "設置文本",
+        "focus": "聚焦"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "使用全局坐標點擊",
+        "useGlobalClickHintOn": "將計算節點中心點坐標,使用全局點擊方式",
+        "useGlobalClickHintOff": "直接調用節點的click方法",
+        "enableContinuousClickLabel": "啟用連續點擊",
+        "enableContinuousClickHint": "啟用後將持續點擊節點,直到節點失效或項目停止",
+        "baseIntervalLabel": "基準間隔時間(毫秒)",
+        "baseIntervalHint": "每次點擊之間的基準時間間隔",
+        "intervalVariationLabel": "間隔波動範圍(毫秒)",
+        "intervalVariationHint": "實際間隔 = {{baseInterval}} ± {{intervalVariation}} 毫秒"
+      },
+      "ScrollConfig": {
+        "directionLabel": "滾動方向",
+        "directionForward": "向前滾動",
+        "directionBackward": "向後滾動"
+      },
+      "SetTextConfig": {
+        "textLabel": "輸入文本",
+        "textPlaceholder": "請輸入要設置的文本"
+      },
+      "LongClickConfig": {
+        "description": "長按節點,觸髮長按事件"
+      },
+      "FocusConfig": {
+        "description": "聚焦節點,使節點獲得焦點"
+      }
+    }
+  }
+}

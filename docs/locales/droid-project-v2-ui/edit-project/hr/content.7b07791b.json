@@ -1,0 +1,18 @@
+{
+  "EditProjectV2": {
+    "clickToSetProjectName": "Kliknite za postavljanje naziva projekta"
+  },
+  "ProjectToolsV2": {
+    "run": "trčanje",
+    "keepAlive": "Kontinuirano trčanje",
+    "keepAliveTooltipOn": "Kontinuirani način rada: Projekt se neće automatski zatvoriti nakon završetka radnje",
+    "keepAliveTooltipOff": "Normalni način rada: Automatski izađi nakon završetka radnje"
+  },
+  "StayAlertV2": {
+    "title": "Savjet: Napravili ste promjene koje nisu spremljene. Jeste li sigurni da želite otići?",
+    "leaveWithoutSave": "Odbaci spremi i napusti",
+    "saveToDraft": "Spremi promjene u nacrt i izađi",
+    "saveAndLeave": "Spasiti i otići",
+    "stay": "Napusti uređivanje"
+  }
+}

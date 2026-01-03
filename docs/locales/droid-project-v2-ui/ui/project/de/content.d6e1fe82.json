@@ -1,0 +1,9 @@
+{
+  "content": {
+    "project": {
+      "run": "laufen",
+      "edit": "bearbeiten",
+      "stop": "stoppen"
+    }
+  }
+}

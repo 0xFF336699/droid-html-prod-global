@@ -1,0 +1,17 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Επιλέξτε δικαιώματα"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "ManifestPermission Groups",
+      "ManifestPermission": "Άδειες",
+      "ChinesePhoneSpecialPermission": "Ειδικές άδειες κινεζικών τηλεφώνων"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Επιλέξτε δικαιώματα Android",
+    "SelectedPermissions": "Επιλεγμένα δικαιώματα",
+    "NoPermissionsSelected": "Δεν επιλέχθηκαν δικαιώματα"
+  }
+}

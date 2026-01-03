@@ -1,0 +1,27 @@
+{
+  "ActionButtons": {
+    "cancel": "Mégsem",
+    "save": "megtakarítás"
+  },
+  "DeleteConfirmDialog": {
+    "title": "Projekt törlése",
+    "warning": "Ha a projekt korábban nyilvános volt, a mások által hivatkozott hivatkozásokra továbbra is hivatkozni fognak, és azokat nem töröljük.",
+    "deleteFromServer": "Törlés a szerverről",
+    "deleteServerInfo": "A törlés után azok a felhasználók, akik korábban hivatkoztak erre a projektre, továbbra is használhatják azt.",
+    "deleteFromLocal": "Törlés szerverről és helyiről",
+    "deleteLocalInfo": "Ez a művelet törli a kiszolgálót és a helyi fájlokat is, és nem állítható vissza.",
+    "cancel": "Mégsem",
+    "delete": "töröl"
+  },
+  "DeleteSection": {
+    "label": "Projekt törlése"
+  },
+  "ShareSection": {
+    "label": "Oszd meg másokkal",
+    "info": "A megosztás után más felhasználók megtekinthetik a projektet, és saját fiókjukba kapcsolhatják."
+  },
+  "SyncToServerSection": {
+    "label": "Szinkronizálás a szerverrel",
+    "warning": "A szervereken tárolt adatok adatvédelmi kockázatot jelenthetnek. Ne tároljon érzékeny adatokat."
+  }
+}

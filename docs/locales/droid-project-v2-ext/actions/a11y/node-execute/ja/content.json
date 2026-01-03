@@ -1,0 +1,12 @@
+{
+  "content": {
+    "title": "ノードの実行",
+    "changeBtnLabel": "交換する",
+    "showNodeAllProperties": "すべてのプロパティを表示",
+    "wait": {
+      "time": "待ち時間",
+      "interval": "待機間隔",
+      "invisible": "画面外の要素を検出するかどうか"
+    }
+  }
+}

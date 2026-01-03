@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "ไม่มีชื่อ",
+    "sequential": "คำสั่ง",
+    "sequentialTooltip": "การดำเนินการตามลำดับ: ดำเนินการ TriggerAction ทีละรายการตามลำดับ",
+    "concurrentTooltip": "การดำเนินการพร้อมกัน: ดำเนินการ TriggerActions ทั้งหมดพร้อมกัน"
+  }
+}

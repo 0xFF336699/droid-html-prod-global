@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "Anonimowy",
+    "sequential": "zamówienie",
+    "sequentialTooltip": "Wykonanie sekwencyjne: wykonaj TriggerAction jeden po drugim, po kolei",
+    "concurrentTooltip": "Wykonywanie współbieżne: wykonaj wszystkie TriggerActions w tym samym czasie"
+  }
+}

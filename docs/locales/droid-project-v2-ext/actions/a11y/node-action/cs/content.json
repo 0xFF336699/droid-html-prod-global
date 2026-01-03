@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Operace uzlů",
+      "actionTypeLabel": "Typ operace",
+      "ActionType": {
+        "click": "Klikněte",
+        "longClick": "Dlouhé stisknutí",
+        "scroll": "svitek",
+        "setText": "Nastavit text",
+        "focus": "soustředit"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Klikněte pomocí globálních souřadnic",
+        "useGlobalClickHintOn": "Souřadnice středového bodu uzlu budou vypočteny pomocí metody globálního kliknutí.",
+        "useGlobalClickHintOff": "Přímo zavolejte metodu kliknutí uzlu",
+        "enableContinuousClickLabel": "Povolit nepřetržité kliknutí",
+        "enableContinuousClickHint": "Po povolení se bude na uzel klikat, dokud se uzel nezdaří nebo se projekt nezastaví.",
+        "baseIntervalLabel": "Interval základní linie (milisekundy)",
+        "baseIntervalHint": "Základní čas mezi kliknutími",
+        "intervalVariationLabel": "Rozsah kolísání intervalu (milisekundy)",
+        "intervalVariationHint": "Skutečný interval = {{baseInterval}} ± {{intervalVariation}} milisekund"
+      },
+      "ScrollConfig": {
+        "directionLabel": "směr rolování",
+        "directionForward": "posunout dopředu",
+        "directionBackward": "přejděte zpět"
+      },
+      "SetTextConfig": {
+        "textLabel": "Zadejte text",
+        "textPlaceholder": "Zadejte text, který chcete nastavit"
+      },
+      "LongClickConfig": {
+        "description": "Dlouhým stisknutím uzlu spustíte událost dlouhého stisknutí"
+      },
+      "FocusConfig": {
+        "description": "Zaměřte uzel tak, aby byl uzel zaostřen"
+      }
+    }
+  }
+}

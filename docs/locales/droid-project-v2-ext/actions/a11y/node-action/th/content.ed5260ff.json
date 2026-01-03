@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "การดำเนินงานของโหนด",
+      "actionTypeLabel": "ประเภทการดำเนินงาน",
+      "ActionType": {
+        "click": "คลิก",
+        "longClick": "กดค้าง",
+        "scroll": "เลื่อน",
+        "setText": "ตั้งค่าข้อความ",
+        "focus": "จุดสนใจ"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "คลิกโดยใช้พิกัดทั่วโลก",
+        "useGlobalClickHintOn": "พิกัดของจุดศูนย์กลางของโหนดจะถูกคำนวณโดยใช้วิธีการคลิกทั่วโลก",
+        "useGlobalClickHintOff": "เรียกวิธีการคลิกของโหนดโดยตรง",
+        "enableContinuousClickLabel": "เปิดใช้งานการคลิกอย่างต่อเนื่อง",
+        "enableContinuousClickHint": "หลังจากเปิดใช้งาน โหนดจะยังคงถูกคลิกต่อไปจนกว่าโหนดจะล้มเหลวหรือโปรเจ็กต์หยุดทำงาน",
+        "baseIntervalLabel": "ช่วงเวลาพื้นฐาน (มิลลิวินาที)",
+        "baseIntervalHint": "เวลาพื้นฐานระหว่างการคลิก",
+        "intervalVariationLabel": "ช่วงความผันผวนของช่วงเวลา (มิลลิวินาที)",
+        "intervalVariationHint": "ช่วงเวลาจริง = {{baseInterval}} ± {{intervalVariation}} มิลลิวินาที"
+      },
+      "ScrollConfig": {
+        "directionLabel": "ทิศทางการเลื่อน",
+        "directionForward": "เลื่อนไปข้างหน้า",
+        "directionBackward": "เลื่อนกลับ"
+      },
+      "SetTextConfig": {
+        "textLabel": "ป้อนข้อความ",
+        "textPlaceholder": "กรุณากรอกข้อความที่ต้องการตั้งค่า"
+      },
+      "LongClickConfig": {
+        "description": "กดโหนดค้างไว้เพื่อทริกเกอร์เหตุการณ์การกดแบบยาว"
+      },
+      "FocusConfig": {
+        "description": "โฟกัสโหนดเพื่อให้โหนดได้รับการโฟกัส"
+      }
+    }
+  }
+}

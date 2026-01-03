@@ -1,0 +1,15 @@
+{
+  "ITriggerScript": {
+    "title": "pemicu skrip",
+    "scriptMode": "mode skrip",
+    "scriptMode_simple": "Mode sederhana (cukup ubah fungsi check())",
+    "scriptMode_advanced": "Mode lanjutan (fungsi lampiran lengkap)",
+    "scriptMode_full": "Mode lengkap (berisi semua struktur kode)",
+    "scriptCode": "kode skrip",
+    "scriptPlaceholder": "Masukkan kode skrip Anda di sini...",
+    "modeDescription": "Deskripsi modus",
+    "modeDescription_simple": "Mode sederhana: Kerangka kerja menangani siklus hidup secara otomatis. Anda hanya perlu mengimplementasikan logika penilaian bersyarat dalam fungsi check() yang disediakan. Jika kondisi terpenuhi, panggil that.dispatchConditionsOn(), jika tidak, panggil that.dispatchConditionsOff().",
+    "modeDescription_advanced": "Mode lanjutan: Anda mendapatkan fungsi lampiran lengkap dan dapat sepenuhnya menyesuaikan semua logika. Cocok untuk menangani manajemen siklus hidup yang kompleks dan pemantauan peristiwa.",
+    "modeDescription_full": "Mode lengkap: Menyediakan kode sampel termasuk registrasi, ekspor, dan siklus hidup lengkap. Dapat digunakan langsung sebagai skrip mandiri."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "IActionScript": {
+    "title": "acción de guión",
+    "scriptMode": "modo script",
+    "scriptMode_simple": "Modo simple (simplemente modifique la función ejecutarAcción())",
+    "scriptMode_advanced": "Modo avanzado (función de conexión completa)",
+    "scriptMode_full": "Modo completo (contiene todas las estructuras de código)",
+    "scriptCode": "código de secuencia de comandos",
+    "scriptPlaceholder": "Ingrese su código de script aquí...",
+    "modeDescription": "Descripción del modo",
+    "modeDescription_simple": "Modo simple: el marco maneja el ciclo de vida automáticamente. Solo necesita implementar la lógica de acción en la función ejecutarAction() proporcionada. Cuando la ejecución es exitosa, se llama a that.dispatchSuccess(), y cuando falla, se llama a that.dispatchFailed(errorMessage).",
+    "modeDescription_advanced": "Modo avanzado: obtienes la función de conexión completa y puedes personalizar completamente toda la lógica. Adecuado para manejar operaciones asincrónicas, escucha de eventos complejos y gestión del ciclo de vida.",
+    "modeDescription_full": "Modo completo: proporciona código de muestra que incluye registro, exportación y ciclo de vida completo. Se puede utilizar directamente como un script independiente."
+  }
+}

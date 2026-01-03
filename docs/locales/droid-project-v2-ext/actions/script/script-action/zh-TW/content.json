@@ -1,0 +1,15 @@
+{
+  "IActionScript": {
+    "title": "腳本動作",
+    "scriptMode": "腳本模式",
+    "scriptMode_simple": "簡單模式（只需修改 executeAction() 函數）",
+    "scriptMode_advanced": "高級模式（完整的 attach 函數）",
+    "scriptMode_full": "完整模式（包含所有代碼結構）",
+    "scriptCode": "腳本代碼",
+    "scriptPlaceholder": "在此輸入你的腳本代碼...",
+    "modeDescription": "模式說明",
+    "modeDescription_simple": "簡單模式：框架自動處理生命週期。你只需在提供的 executeAction() 函數中實現動作邏輯。執行成功時，調用 that.dispatchSuccess()，失敗時調用 that.dispatchFailed(errorMessage)。",
+    "modeDescription_advanced": "高級模式：你獲得完整的 attach 函數，可以完全自定義所有邏輯。適合處理異步操作、複雜的事件監聽和生命週期管理。",
+    "modeDescription_full": "完整模式：提供包含註冊、導出、完整生命週期的示例代碼。可以直接作為獨立腳本使用。"
+  }
+}

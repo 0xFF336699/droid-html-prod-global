@@ -1,0 +1,18 @@
+{
+  "EditProjectV2": {
+    "clickToSetProjectName": "点击设置项目名称"
+  },
+  "ProjectToolsV2": {
+    "run": "运行",
+    "keepAlive": "持续运行",
+    "keepAliveTooltipOn": "持续运行模式:Project 不会在 Action 完成后自动退出",
+    "keepAliveTooltipOff": "普通模式:Action 完成后自动退出"
+  },
+  "StayAlertV2": {
+    "title": "提示:您有更改没有保存，确定要离开吗？",
+    "leaveWithoutSave": "放弃保存并离开",
+    "saveToDraft": "保存变更到草稿并离开",
+    "saveAndLeave": "保存并离开",
+    "stay": "留下编辑"
+  }
+}

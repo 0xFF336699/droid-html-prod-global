@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Operasi simpul",
+      "actionTypeLabel": "Jenis operasi",
+      "ActionType": {
+        "click": "Klik",
+        "longClick": "Tekan lama",
+        "scroll": "menggulir",
+        "setText": "Atur teks",
+        "focus": "fokus"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Klik menggunakan koordinat global",
+        "useGlobalClickHintOn": "Koordinat titik pusat node akan dihitung menggunakan metode klik global.",
+        "useGlobalClickHintOff": "Panggil langsung metode klik pada node",
+        "enableContinuousClickLabel": "Aktifkan klik terus menerus",
+        "enableContinuousClickHint": "Setelah diaktifkan, node akan terus diklik hingga node tersebut gagal atau proyek dihentikan.",
+        "baseIntervalLabel": "Interval dasar (milidetik)",
+        "baseIntervalHint": "Waktu dasar antar klik",
+        "intervalVariationLabel": "Rentang fluktuasi interval (milidetik)",
+        "intervalVariationHint": "Interval sebenarnya = {{baseInterval}} ± {{intervalVariation}} milidetik"
+      },
+      "ScrollConfig": {
+        "directionLabel": "arah gulir",
+        "directionForward": "gulir ke depan",
+        "directionBackward": "gulir kembali"
+      },
+      "SetTextConfig": {
+        "textLabel": "Masukkan teks",
+        "textPlaceholder": "Silakan masukkan teks yang akan diatur"
+      },
+      "LongClickConfig": {
+        "description": "Tekan lama node untuk memicu acara tekan lama"
+      },
+      "FocusConfig": {
+        "description": "Fokuskan node agar node mendapat fokus"
+      }
+    }
+  }
+}

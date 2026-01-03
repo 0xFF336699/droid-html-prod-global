@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "Namnlös",
+    "sequential": "beställa",
+    "sequentialTooltip": "Sekventiell exekvering: exekvera TriggerAction en efter en i följd",
+    "concurrentTooltip": "Samtidigt exekvering: exekvera alla TriggerActions samtidigt"
+  }
+}

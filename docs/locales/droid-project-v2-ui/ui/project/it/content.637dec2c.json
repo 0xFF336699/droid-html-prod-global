@@ -1,0 +1,9 @@
+{
+  "content": {
+    "project": {
+      "run": "correre",
+      "edit": "modificare",
+      "stop": "fermare"
+    }
+  }
+}

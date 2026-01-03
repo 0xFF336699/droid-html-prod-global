@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "Безымянный",
+    "sequential": "заказ",
+    "sequentialTooltip": "Последовательное выполнение: последовательно выполнять TriggerAction одно за другим.",
+    "concurrentTooltip": "Параллельное выполнение: выполнить все TriggerActions одновременно."
+  }
+}

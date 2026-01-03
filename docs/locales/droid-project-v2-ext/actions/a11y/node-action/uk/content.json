@@ -1,0 +1,41 @@
+{
+  "UI": {
+    "UI": {
+      "title": "Операції вузла",
+      "actionTypeLabel": "Тип операції",
+      "ActionType": {
+        "click": "Натисніть",
+        "longClick": "Тривале натискання",
+        "scroll": "сувій",
+        "setText": "Встановити текст",
+        "focus": "фокус"
+      },
+      "ClickConfig": {
+        "useGlobalClickLabel": "Натисніть, використовуючи глобальні координати",
+        "useGlobalClickHintOn": "Координати центральної точки вузла будуть обчислені за допомогою методу глобального клацання.",
+        "useGlobalClickHintOff": "Безпосередньо викликати метод click вузла",
+        "enableContinuousClickLabel": "Увімкнути безперервні клацання",
+        "enableContinuousClickHint": "Після ввімкнення вузол продовжуватиме клацати, доки вузол не вийде з ладу або проект не буде зупинено.",
+        "baseIntervalLabel": "Базовий інтервал (мілісекунди)",
+        "baseIntervalHint": "Базовий час між клацаннями",
+        "intervalVariationLabel": "Діапазон коливань інтервалу (мілісекунди)",
+        "intervalVariationHint": "Фактичний інтервал = {{baseInterval}} ± {{intervalVariation}} мілісекунд"
+      },
+      "ScrollConfig": {
+        "directionLabel": "напрямок прокручування",
+        "directionForward": "прокрутити вперед",
+        "directionBackward": "прокрутити назад"
+      },
+      "SetTextConfig": {
+        "textLabel": "Введіть текст",
+        "textPlaceholder": "Будь ласка, введіть текст для налаштування"
+      },
+      "LongClickConfig": {
+        "description": "Натисніть і утримуйте вузол, щоб запустити подію тривалого натискання"
+      },
+      "FocusConfig": {
+        "description": "Сфокусуйте вузол, щоб вузол отримав фокус"
+      }
+    }
+  }
+}

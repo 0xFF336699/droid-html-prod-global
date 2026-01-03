@@ -1,0 +1,7 @@
+{
+  "ITriggerTimeout": {
+    "title": "Försenat utförande",
+    "content_delay": "Dröjsmål",
+    "content_milliseconds": "Kör efter millisekunder"
+  }
+}

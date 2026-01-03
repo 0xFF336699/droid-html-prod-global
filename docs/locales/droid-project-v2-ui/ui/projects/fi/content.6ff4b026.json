@@ -1,0 +1,8 @@
+{
+  "content": {
+    "createButton": "luoda",
+    "noProjects": "Projektilistalla ei ole vielä yhtään projektia, voit luoda uuden projektin",
+    "orFindFromMarket": "Tai etsi tarvitsemasi tuotteet markkinoilta",
+    "projects": "Projektilista"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "ActionButtons": {
+    "cancel": "Avboka",
+    "save": "spara"
+  },
+  "DeleteConfirmDialog": {
+    "title": "Ta bort projekt",
+    "warning": "Om projektet tidigare var offentligt kommer referenser som citerats av andra att fortsätta att refereras och kommer inte att raderas.",
+    "deleteFromServer": "Ta bort från servern",
+    "deleteServerInfo": "Efter raderingen kommer användare som tidigare hänvisat till det här projektet fortfarande att kunna fortsätta använda det.",
+    "deleteFromLocal": "Ta bort från server och lokal",
+    "deleteLocalInfo": "Denna operation kommer att radera både servern och lokala filer och kan inte återställas.",
+    "cancel": "Avboka",
+    "delete": "radera"
+  },
+  "DeleteSection": {
+    "label": "Ta bort projekt"
+  },
+  "ShareSection": {
+    "label": "Dela med andra",
+    "info": "När de har delats kan andra användare se projektet och lägga det på sina egna konton."
+  },
+  "SyncToServerSection": {
+    "label": "Synkronisera till server",
+    "warning": "Data som lagras på servrar kan innebära integritetsrisker. Lagra inte känsliga uppgifter."
+  }
+}

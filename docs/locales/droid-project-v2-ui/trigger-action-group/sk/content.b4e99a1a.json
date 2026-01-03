@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "Nemenovaný",
+    "sequential": "poriadku",
+    "sequentialTooltip": "Postupné spustenie: spustite TriggerAction jeden po druhom v poradí",
+    "concurrentTooltip": "Súbežné vykonávanie: vykonajte všetky akcie TriggerAction súčasne"
+  }
+}

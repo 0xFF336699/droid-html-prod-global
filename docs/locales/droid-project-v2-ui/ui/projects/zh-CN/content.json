@@ -1,0 +1,8 @@
+{
+  "content": {
+    "createButton": "创建",
+    "noProjects": "项目列表中还没有项目，你可以创建一个新项目",
+    "orFindFromMarket": "或者从市场查找需要的项目",
+    "projects": "项目列表"
+  }
+}

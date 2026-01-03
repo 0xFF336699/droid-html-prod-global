@@ -1,0 +1,18 @@
+{
+  "EditProjectV2": {
+    "clickToSetProjectName": "Kliknij, aby ustawić nazwę projektu"
+  },
+  "ProjectToolsV2": {
+    "run": "uruchomić",
+    "keepAlive": "Ciągłe działanie",
+    "keepAliveTooltipOn": "Tryb ciągłego działania: Projekt nie zakończy się automatycznie po zakończeniu Akcji",
+    "keepAliveTooltipOff": "Tryb normalny: automatyczne wyjście po zakończeniu akcji"
+  },
+  "StayAlertV2": {
+    "title": "Wskazówka: dokonałeś zmian, które nie zostały zapisane. Czy na pewno chcesz wyjść?",
+    "leaveWithoutSave": "Odrzuć zapis i wyjdź",
+    "saveToDraft": "Zapisz zmiany w wersji roboczej i wyjdź",
+    "saveAndLeave": "Zapisz i wyjdź",
+    "stay": "Opuść edycję"
+  }
+}

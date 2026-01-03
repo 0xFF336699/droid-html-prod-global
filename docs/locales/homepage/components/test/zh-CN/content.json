@@ -1,0 +1,9 @@
+{
+  "DeleteProjectDialog": {
+    "title": "删除项目",
+    "confirmText": "确定要删除项目",
+    "confirmSuffix": "吗？此操作无法撤销。",
+    "cancel": "取消",
+    "confirm": "确定"
+  }
+}

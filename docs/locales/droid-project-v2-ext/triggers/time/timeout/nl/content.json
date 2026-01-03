@@ -1,0 +1,7 @@
+{
+  "ITriggerTimeout": {
+    "title": "Vertraagde uitvoering",
+    "content_delay": "Vertraging",
+    "content_milliseconds": "Uitvoeren na milliseconden"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "RhinoInjectKeys": {
+    "WebViewJsInjectKeys": {
+      "Window": "Global Window, joka voi lähettää ikkunan poistumistapahtuman",
+      "WindowUtils": "Voit pakottaa sulkemaan ikkunan soittamalla",
+      "webViewJs": "js kutsuu webviewjs-objektia, joka suorittaa java-komentosarjan",
+      "console": "Loki, jota kutsutaan nimellä js",
+      "UIThreadUtil": "Käyttöliittymän lankatyökalut"
+    },
+    "RhinoInjectNames": {
+      "dispatcher": "EventDispatcher skriptien sisäiseen käyttöön",
+      "quicker": "Tarjoaa helppokäyttöisiä menetelmiä (ei tällä hetkellä käytössä)",
+      "javaRunner": "Osoittaa tällä hetkellä RhinoRunneriin, joka on suoritetun skriptin isäntä.",
+      "proxy": "Automaatiovälityspalvelin DroidProxy",
+      "a11yProxy": "Esteettömyyskuori (vanhentunut, enemmän rajoittava kuin kätevä)",
+      "a11yModel": "Esteettömyys",
+      "WebViewJsDispatcher": "WebView JS -lähettäjää voidaan käyttää tapahtumien lähettämiseen maailmanlaajuisesti. Kaikkiin verkkotunnuksiin ladattu HTML voi vastaanottaa sen lähettämät tapahtumat."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Apabila memasuki halaman yang ditentukan",
+    "pnLabel": "Nama pakej:",
+    "anLabel": "Nama aktiviti:",
+    "cnLabel": "Nama kelas:",
+    "changeBtnLabel": "menggantikan"
+  },
+  "ITriggerWhenActivityIn": {
+    "title": "Apabila memasuki halaman yang ditentukan",
+    "pnLabel": "Nama pakej:",
+    "anLabel": "Nama aktiviti:",
+    "cnLabel": "Nama kelas:",
+    "changeBtnLabel": "menggantikan"
+  }
+}

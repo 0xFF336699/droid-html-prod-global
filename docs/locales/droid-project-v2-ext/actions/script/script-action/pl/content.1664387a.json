@@ -1,0 +1,15 @@
+{
+  "IActionScript": {
+    "title": "akcja skryptowa",
+    "scriptMode": "tryb skryptowy",
+    "scriptMode_simple": "Tryb prosty (wystarczy zmodyfikować funkcję generateAction())",
+    "scriptMode_advanced": "Tryb zaawansowany (pełna funkcja dołączania)",
+    "scriptMode_full": "Tryb kompletny (zawiera wszystkie struktury kodu)",
+    "scriptCode": "kod skryptu",
+    "scriptPlaceholder": "Wpisz tutaj swój kod skryptu...",
+    "modeDescription": "Opis trybu",
+    "modeDescription_simple": "Tryb prosty: platforma automatycznie obsługuje cykl życia. Wystarczy zaimplementować logikę akcji w dostarczonej funkcji generateAction(). Gdy wykonanie się powiedzie, wywoływana jest funkcja that.dispatchSuccess(), a w przypadku niepowodzenia wywoływana jest metoda that.dispatchFailed(errorMessage).",
+    "modeDescription_advanced": "Tryb zaawansowany: Otrzymujesz pełną funkcję dołączania i możesz w pełni dostosować całą logikę. Nadaje się do obsługi operacji asynchronicznych, złożonego nasłuchiwania zdarzeń i zarządzania cyklem życia.",
+    "modeDescription_full": "Tryb kompletny: udostępnia przykładowy kod obejmujący rejestrację, eksport i pełny cykl życia. Może być używany bezpośrednio jako samodzielny skrypt."
+  }
+}

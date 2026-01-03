@@ -1,0 +1,18 @@
+{
+  "EditProjectV2": {
+    "clickToSetProjectName": "クリックしてプロジェクト名を設定します"
+  },
+  "ProjectToolsV2": {
+    "run": "走る",
+    "keepAlive": "継続的に実行中",
+    "keepAliveTooltipOn": "継続実行モード: アクションが完了した後、プロジェクトは自動的に終了しません。",
+    "keepAliveTooltipOff": "通常モード: アクションが完了すると自動的に終了します。"
+  },
+  "StayAlertV2": {
+    "title": "ヒント: 変更を加えましたが、保存されていません。本当に退会してもよろしいですか?",
+    "leaveWithoutSave": "保存を破棄して放置する",
+    "saveToDraft": "変更を下書きに保存して終了する",
+    "saveAndLeave": "保存して終了",
+    "stay": "編集を残す"
+  }
+}

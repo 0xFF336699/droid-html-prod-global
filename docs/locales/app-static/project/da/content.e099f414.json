@@ -1,0 +1,20 @@
+{
+  "RhinoInjectKeys": {
+    "WebViewJsInjectKeys": {
+      "Window": "Globalt vindue, som kan sende vinduets exithændelse",
+      "WindowUtils": "Du kan ringe for at tvinge vinduet til at lukke",
+      "webViewJs": "js kalder objektet af webviewjs, der udfører java-script",
+      "console": "Log, kaldet som js",
+      "UIThreadUtil": "UI trådværktøjer"
+    },
+    "RhinoInjectNames": {
+      "dispatcher": "EventDispatcher til intern brug af scripts",
+      "quicker": "Giver nemme at bruge metoder (bruges ikke i øjeblikket)",
+      "javaRunner": "Peger i øjeblikket på RhinoRunner, som er værten for det udførte script.",
+      "proxy": "Automatiseringsproxy DroidProxy",
+      "a11yProxy": "Tilgængelighedsskal (forældet, mere restriktiv end praktisk)",
+      "a11yModel": "Tilgængelighed",
+      "WebViewJsDispatcher": "WebView JS dispatcher kan bruges til at sende begivenheder globalt. HTML indlæst i alle domæner kan modtage de hændelser, der sendes af den."
+    }
+  }
+}

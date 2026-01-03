@@ -1,0 +1,17 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Odaberite dopuštenja"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "Grupe ManifestPermission",
+      "ManifestPermission": "Dozvole",
+      "ChinesePhoneSpecialPermission": "Posebna dopuštenja za kineski telefon"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Odaberite dopuštenja za Android",
+    "SelectedPermissions": "Odabrana dopuštenja",
+    "NoPermissionsSelected": "Nema odabranih dopuštenja"
+  }
+}

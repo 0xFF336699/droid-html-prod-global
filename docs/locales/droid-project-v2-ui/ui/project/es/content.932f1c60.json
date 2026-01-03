@@ -1,0 +1,10 @@
+{
+  "content": {
+    "project": {
+      "run": "correr",
+      "edit": "editar",
+      "stop": "detener",
+      "settings": "configuración"
+    }
+  }
+}

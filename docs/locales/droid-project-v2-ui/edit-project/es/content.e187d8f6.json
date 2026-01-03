@@ -1,0 +1,18 @@
+{
+  "EditProjectV2": {
+    "clickToSetProjectName": "Haga clic para establecer el nombre del proyecto."
+  },
+  "ProjectToolsV2": {
+    "run": "correr",
+    "keepAlive": "Funcionando continuamente",
+    "keepAliveTooltipOn": "Modo de ejecución continua: el proyecto no saldrá automáticamente una vez completada la acción",
+    "keepAliveTooltipOff": "Modo normal: salir automáticamente después de completar la acción"
+  },
+  "StayAlertV2": {
+    "title": "Consejo: Ha realizado cambios que no se han guardado. ¿Estás seguro de que quieres irte?",
+    "leaveWithoutSave": "Descartar guardar y salir",
+    "saveToDraft": "Guardar cambios en borrador y salir",
+    "saveAndLeave": "guardar y salir",
+    "stay": "dejar editar"
+  }
+}

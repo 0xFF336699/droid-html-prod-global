@@ -1,0 +1,7 @@
+{
+  "ITriggerTimeout": {
+    "title": "Eksekusi tertunda",
+    "content_delay": "Menunda",
+    "content_milliseconds": "Jalankan setelah milidetik"
+  }
+}

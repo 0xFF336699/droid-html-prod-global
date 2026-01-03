@@ -1,9 +1,0 @@
-{
-  "IActionOpenApp": {
-    "permission": {
-      "a11y": {
-        "reason": "Barrierefreiheit ist erforderlich, um zu erkennen, ob die App geöffnet ist"
-      }
-    }
-  }
-}

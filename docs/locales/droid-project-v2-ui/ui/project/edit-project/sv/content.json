@@ -1,0 +1,9 @@
+{
+  "content": {
+    "projectNotExist": "Projektet finns inte",
+    "clickToSetProjectName": "Namnlöst projekt",
+    "projectTools": {
+      "run": "genomföra"
+    }
+  }
+}

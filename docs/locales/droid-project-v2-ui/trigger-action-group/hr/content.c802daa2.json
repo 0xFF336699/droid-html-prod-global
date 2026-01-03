@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "Neimenovano",
+    "sequential": "redoslijed",
+    "sequentialTooltip": "Sekvencijalno izvođenje: izvršite TriggerAction jednu po jednu u nizu",
+    "concurrentTooltip": "Istodobno izvođenje: izvrši sve TriggerActions u isto vrijeme"
+  }
+}

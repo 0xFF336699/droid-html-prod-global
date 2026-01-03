@@ -1,0 +1,27 @@
+{
+  "ActionButtons": {
+    "cancel": "취소",
+    "save": "구하다"
+  },
+  "DeleteConfirmDialog": {
+    "title": "프로젝트 삭제",
+    "warning": "프로젝트가 이전에 공개된 경우 다른 사람이 인용한 참조는 계속 참조되며 실제로 삭제되지 않습니다.",
+    "deleteFromServer": "서버에서 삭제",
+    "deleteServerInfo": "삭제 후에도 이전에 이 프로젝트를 참조했던 사용자는 계속해서 사용할 수 있습니다.",
+    "deleteFromLocal": "서버 및 로컬에서 삭제",
+    "deleteLocalInfo": "이 작업을 수행하면 서버와 로컬 파일이 모두 삭제되며 복원할 수 없습니다.",
+    "cancel": "취소",
+    "delete": "삭제"
+  },
+  "DeleteSection": {
+    "label": "프로젝트 삭제"
+  },
+  "ShareSection": {
+    "label": "다른 사람들과 공유",
+    "info": "공유되면 다른 사용자가 프로젝트를 보고 자신의 계정으로 포크할 수 있습니다."
+  },
+  "SyncToServerSection": {
+    "label": "서버에 동기화",
+    "warning": "서버에 저장된 데이터는 개인 정보 보호 위험을 초래할 수 있습니다. 민감한 데이터를 저장하지 마십시오."
+  }
+}

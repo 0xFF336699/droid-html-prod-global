@@ -1,0 +1,27 @@
+{
+  "ActionButtons": {
+    "cancel": "Stornieren",
+    "save": "speichern"
+  },
+  "DeleteConfirmDialog": {
+    "title": "Projekt löschen",
+    "warning": "Wenn das Projekt zuvor öffentlich war, werden von anderen zitierte Referenzen weiterhin referenziert und nicht tatsächlich gelöscht.",
+    "deleteFromServer": "Vom Server löschen",
+    "deleteServerInfo": "Nach dem Löschen können Benutzer, die zuvor auf dieses Projekt verwiesen haben, es weiterhin verwenden.",
+    "deleteFromLocal": "Vom Server und lokal löschen",
+    "deleteLocalInfo": "Dieser Vorgang löscht sowohl den Server als auch die lokalen Dateien und kann nicht wiederhergestellt werden.",
+    "cancel": "Stornieren",
+    "delete": "löschen"
+  },
+  "DeleteSection": {
+    "label": "Projekt löschen"
+  },
+  "ShareSection": {
+    "label": "Mit anderen teilen",
+    "info": "Nach der Freigabe können andere Benutzer das Projekt anzeigen und in ihre eigenen Konten einbinden."
+  },
+  "SyncToServerSection": {
+    "label": "Mit Server synchronisieren",
+    "warning": "Auf Servern gespeicherte Daten können ein Datenschutzrisiko darstellen. Speichern Sie keine sensiblen Daten."
+  }
+}

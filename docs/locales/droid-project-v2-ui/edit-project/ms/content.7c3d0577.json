@@ -1,0 +1,18 @@
+{
+  "EditProjectV2": {
+    "clickToSetProjectName": "Klik untuk menetapkan nama projek"
+  },
+  "ProjectToolsV2": {
+    "run": "lari",
+    "keepAlive": "Terus berjalan",
+    "keepAliveTooltipOn": "Mod berjalan berterusan: Projek tidak akan keluar secara automatik selepas Tindakan selesai",
+    "keepAliveTooltipOff": "Mod biasa: Keluar secara automatik selepas Tindakan selesai"
+  },
+  "StayAlertV2": {
+    "title": "Petua: Anda telah membuat perubahan yang belum disimpan. Adakah anda pasti mahu pergi?",
+    "leaveWithoutSave": "Buang simpan dan biarkan",
+    "saveToDraft": "Simpan perubahan pada draf dan keluar",
+    "saveAndLeave": "Simpan dan tinggalkan",
+    "stay": "Tinggalkan suntingan"
+  }
+}

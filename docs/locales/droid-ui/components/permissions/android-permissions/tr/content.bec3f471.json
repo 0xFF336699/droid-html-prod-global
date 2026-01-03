@@ -1,0 +1,17 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "İzinleri seçin"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "Manifestİzin Grupları",
+      "ManifestPermission": "İzinler",
+      "ChinesePhoneSpecialPermission": "Çince Telefon Özel İzinleri"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Android izinlerini seçin",
+    "SelectedPermissions": "Seçilen izinler",
+    "NoPermissionsSelected": "Hiçbir izin seçilmedi"
+  }
+}

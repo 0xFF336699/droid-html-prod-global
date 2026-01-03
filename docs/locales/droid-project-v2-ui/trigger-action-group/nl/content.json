@@ -1,0 +1,8 @@
+{
+  "TriggerActionGroupV2": {
+    "unnamed": "Naamloos",
+    "sequential": "volgorde",
+    "sequentialTooltip": "Sequentiële uitvoering: voer TriggerAction één voor één achter elkaar uit",
+    "concurrentTooltip": "Gelijktijdige uitvoering: voer alle TriggerActions tegelijkertijd uit"
+  }
+}

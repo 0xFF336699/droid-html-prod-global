@@ -1,0 +1,15 @@
+{
+  "ITriggerScript": {
+    "title": "wyzwalacz skryptu",
+    "scriptMode": "tryb skryptowy",
+    "scriptMode_simple": "Tryb prosty (wystarczy zmodyfikować funkcję check())",
+    "scriptMode_advanced": "Tryb zaawansowany (pełna funkcja dołączania)",
+    "scriptMode_full": "Tryb kompletny (zawiera wszystkie struktury kodu)",
+    "scriptCode": "kod skryptu",
+    "scriptPlaceholder": "Wpisz tutaj swój kod skryptu...",
+    "modeDescription": "Opis trybu",
+    "modeDescription_simple": "Tryb prosty: platforma automatycznie obsługuje cykl życia. Wystarczy zaimplementować logikę oceny warunkowej w dostarczonej funkcji check(). Gdy warunek jest spełniony, wywołaj metodę that.dispatchConditionsOn(), w przeciwnym razie wywołaj metodę that.dispatchConditionsOff().",
+    "modeDescription_advanced": "Tryb zaawansowany: Otrzymujesz pełną funkcję dołączania i możesz w pełni dostosować całą logikę. Nadaje się do obsługi złożonego zarządzania cyklem życia i monitorowania zdarzeń.",
+    "modeDescription_full": "Tryb kompletny: udostępnia przykładowy kod obejmujący rejestrację, eksport i pełny cykl życia. Może być używany bezpośrednio jako samodzielny skrypt."
+  }
+}

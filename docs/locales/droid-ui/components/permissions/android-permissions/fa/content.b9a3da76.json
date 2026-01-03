@@ -1,0 +1,17 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "مجوزها را انتخاب کنید"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "ManifestPermission Groups",
+      "ManifestPermission": "مجوزها",
+      "ChinesePhoneSpecialPermission": "مجوزهای ویژه تلفن چینی"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "مجوزهای Android را انتخاب کنید",
+    "SelectedPermissions": "مجوزهای انتخاب شده",
+    "NoPermissionsSelected": "هیچ مجوزی انتخاب نشده است"
+  }
+}

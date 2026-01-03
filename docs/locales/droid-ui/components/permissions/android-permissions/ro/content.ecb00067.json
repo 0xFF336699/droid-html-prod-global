@@ -1,0 +1,17 @@
+{
+  "AndroidPermissionsButton": {
+    "ButtonLabel": "Selectați permisiunile"
+  },
+  "AndroidPermissionsCheckbox": {
+    "Group": {
+      "ManifestPermissionGroup": "Grupuri ManifestPermission",
+      "ManifestPermission": "Permisiuni",
+      "ChinesePhoneSpecialPermission": "Permisiuni speciale pentru telefonul chinezesc"
+    }
+  },
+  "AndroidPermissionsPopup": {
+    "Label": "Selectați permisiunile Android",
+    "SelectedPermissions": "Permisiunile selectate",
+    "NoPermissionsSelected": "Nu au fost selectate permisiuni"
+  }
+}
