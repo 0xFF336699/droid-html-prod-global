@@ -1727,7 +1727,7 @@ function ActionGroup(param) {
     const [isSequential] = (0,useProxyWatch/* useProxyWatch */.x)(actionGroup, 'isSequential', actionGroup.isSequential);
     var _actionGroup_children_length;
     // 修改：改为监听children而不是list（web端主要使用children）
-    const [listSize] = (0,useProxyWatch/* useProxyWatch */.x)(actionGroup.children, 'length', (_actionGroup_children_length = (_actionGroup_children = actionGroup.children) === null || _actionGroup_children === void 0 ? void 0 : _actionGroup_children.length) !== null && _actionGroup_children_length !== void 0 ? _actionGroup_children_length : 0);
+    const [listSize] = (0,useProxyWatch/* useProxyWatch */.x)(actionGroup, 'children.length', (_actionGroup_children_length = (_actionGroup_children = actionGroup.children) === null || _actionGroup_children === void 0 ? void 0 : _actionGroup_children.length) !== null && _actionGroup_children_length !== void 0 ? _actionGroup_children_length : 0);
     function setIsSequential(value) {
         (0,proxyWatch/* toProxy */.I$)(actionGroup).isSequential = value;
     }
@@ -1868,7 +1868,6 @@ TriggerList_fileLog.pause = true;
 function TriggerList() {
     const triggerGroup = (0,react.useContext)(src/* TriggerGroupContext */.bf);
     // 修改：监听children而不是list（web端主要使用children）
-    const [children] = (0,useWatchUpdates/* useWatchUpdates */.p)(triggerGroup.children);
     TriggerList_fileLog.log('triggerGroup=', JSON.stringify(triggerGroup));
     // 使用 children 获取完整对象，而不是 list
     const childrenArray = triggerGroup.children || [];
@@ -1924,7 +1923,7 @@ function TriggerGroup(param) {
     const [isSequential] = (0,useProxyWatch/* useProxyWatch */.x)(triggerGroup, 'isSequential', triggerGroup.isSequential);
     var _triggerGroup_children_length;
     // 修改：改为监听children而不是list（web端主要使用children）
-    const [listSize] = (0,useProxyWatch/* useProxyWatch */.x)(triggerGroup.children, 'length', (_triggerGroup_children_length = (_triggerGroup_children = triggerGroup.children) === null || _triggerGroup_children === void 0 ? void 0 : _triggerGroup_children.length) !== null && _triggerGroup_children_length !== void 0 ? _triggerGroup_children_length : 0);
+    const [listSize] = (0,useProxyWatch/* useProxyWatch */.x)(triggerGroup, 'children.length', (_triggerGroup_children_length = (_triggerGroup_children = triggerGroup.children) === null || _triggerGroup_children === void 0 ? void 0 : _triggerGroup_children.length) !== null && _triggerGroup_children_length !== void 0 ? _triggerGroup_children_length : 0);
     function setIsSequential(value) {
         (0,proxyWatch/* toProxy */.I$)(triggerGroup).isSequential = value;
     }
@@ -2778,4 +2777,4 @@ function ProjectEditorV2Test() {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=project-editor-83632b5dbe84df2e.js.map
+//# sourceMappingURL=project-editor-7d6c26188249bc70.js.map
