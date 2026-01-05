@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "működik",
+    "click": "Kattintson",
+    "longClick": "Hosszan nyomja meg",
+    "setText": "Szöveg beállítása",
+    "tryClick": "Próbálkozzon elem- vagy pozíciókattintással",
+    "globalClick": "hely kattintás"
+  }
+}

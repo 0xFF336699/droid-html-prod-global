@@ -1,0 +1,8 @@
+{
+  "content": {
+    "DescriptionContentRenderer": {
+      "invalidUrl": "Geçersiz URL: {{url}}",
+      "unknownType": "Bilinmeyen içerik türü: {{type}}"
+    }
+  }
+}

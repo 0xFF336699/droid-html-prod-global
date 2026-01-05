@@ -1,0 +1,8 @@
+{
+  "content": {
+    "DescriptionContentRenderer": {
+      "invalidUrl": "अमान्य यूआरएल: {{यूआरएल}}",
+      "unknownType": "अज्ञात सामग्री प्रकार: {{प्रकार}}"
+    }
+  }
+}

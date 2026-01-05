@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "opera",
+    "click": "Clic",
+    "longClick": "Apăsare lungă",
+    "setText": "Setați textul",
+    "tryClick": "Încercați clic pe element sau poziție",
+    "globalClick": "clic pe locație"
+  }
+}

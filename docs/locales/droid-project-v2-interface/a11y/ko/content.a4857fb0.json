@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "작동하다",
+    "click": "딸깍 하는 소리",
+    "longClick": "길게 누르기",
+    "setText": "텍스트 설정",
+    "tryClick": "요소 또는 위치 클릭을 시도해 보세요.",
+    "globalClick": "위치 클릭"
+  }
+}

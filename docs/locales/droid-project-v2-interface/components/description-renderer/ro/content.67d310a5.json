@@ -1,0 +1,8 @@
+{
+  "content": {
+    "DescriptionContentRenderer": {
+      "invalidUrl": "Adresă URL nevalidă: {{url}}",
+      "unknownType": "Tip de conținut necunoscut: {{type}}"
+    }
+  }
+}
