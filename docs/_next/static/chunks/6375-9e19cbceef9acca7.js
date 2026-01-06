@@ -588,63 +588,133 @@ function Fallback() {
 /* harmony import */ var _log_Log__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(89597);
 /* __next_internal_client_entry_do_not_use__ createAsyncContextLoader auto */ 
 /**
+ * AsyncContextLoader - 异步数据加载器
+ *
+ * 用于将异步加载的数据注入到 React Context 中。
+ *
  * 使用场景：
- * 
-export const [MarketPageDataContextProvider, useMarketPageData] = createTypedContext<IMarketPageData>();
-
- function Content({loader}: {loader: Promise<IStoreWithData<IMarketPageData>>}){
-    const store = use(loader);
-    fileLog.log('store=', store);
-    return (<MarketPageDataContextProvider value={store.data}>
-    <MarketContent />
-</MarketPageDataContextProvider>
-    )
-}
-    export default function MarketPage() {
-    const loader:Promise<IStoreWithData<IMarketPageData>> = loadMarketPageData();
-    return (
-                <Suspense fallback={<div>loading</div>}>
-                    <Content loader={loader} />
-                </Suspense>
-        )
-}
- */ // 使用场景：
-// C:\work\android-droid\html\website-2024-12\libs\fanfanlo\src\react\createTypedContext.ts 的 createTypedContext返回的useTypedContext会需要是promise的，所以我需要一个能够给它传递promise并初始化的组件，可以使用react19的use方法来帮我实现吗？
-
+ * 1. 页面级数据预加载
+ * 2. 需要在组件树中共享异步加载数据
+ *
+ * 示例：
+ * ```tsx
+ * export const [MarketPageDataContextProvider, useMarketPageData] = createTypedContext<IMarketPageData>();
+ *
+ * export const MarketPageDataContextLoader = createAsyncContextLoader({
+ *     Provider: MarketPageDataContextProvider,
+ *     extract: (res: IStoreWithData<IMarketPageData>) => res.data,
+ *     fallback: <div>Loading...</div>,
+ * });
+ *
+ * // 在页面中使用
+ * export default function MarketPage() {
+ *     return (
+ *         <MarketPageDataContextLoader value={loadMarketPageData()}>
+ *             <MarketContent />
+ *         </MarketPageDataContextLoader>
+ *     )
+ * }
+ * ```
+ *
+ * 注意事项：
+ * - value 传入的 Promise 应该被缓存（如使用模块级变量），避免每次渲染创建新 Promise
+ * - 数据加载失败时会显示错误信息，可通过 errorFallback 自定义
+ */ 
 
 const fileLog = new _log_Log__WEBPACK_IMPORTED_MODULE_2__/* .Log */ .tG(false, 'AsyncContextLoader_f');
 fileLog.pause = true;
 fileLog.childrenPaused = true;
 function createAsyncContextLoader(options) {
-    fileLog.log('[AsyncContextLoader] createAsyncContextLoader 被调用');
-    const { Provider, extract, fallback = null } = options;
-    fileLog.log('[AsyncContextLoader] options 解构完成, fallback:', fallback);
-    function AsyncContextLoaderInner(props) {
-        fileLog.log('[AsyncContextLoader] AsyncContextLoaderInner 渲染开始');
-        fileLog.log('[AsyncContextLoader] props.value 类型:', typeof props.value);
-        fileLog.log('[AsyncContextLoader] props.value 是 Promise?', props.value instanceof Promise);
-        fileLog.log('[AsyncContextLoader] props.value:', props.value);
-        fileLog.log('[AsyncContextLoader] 准备调用 use(props.value)');
-        const raw = (0,react__WEBPACK_IMPORTED_MODULE_1__.use)(props.value);
-        fileLog.log('[AsyncContextLoader] use(props.value) 返回成功, raw:', raw);
-        fileLog.log('[AsyncContextLoader] 准备调用 extract(raw)');
-        const contextValue = extract(raw);
-        fileLog.log('[AsyncContextLoader] extract(raw) 返回成功, contextValue:', contextValue);
-        fileLog.log('[AsyncContextLoader] 准备返回 Provider');
+    const { Provider, extract, fallback = null, errorFallback } = options;
+    fileLog.log('[AsyncContextLoader] createAsyncContextLoader 被调用, fallback:', JSON.stringify(fallback));
+    return function AsyncContextLoader(props) {
+        // 使用 useRef 缓存 Promise 引用，避免 Promise 变化导致重复加载
+        const promiseRef = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(null);
+        const [state, setState] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)({
+            status: 'loading'
+        });
+        const promiseChanged = promiseRef.current !== props.value;
+        fileLog.log('[AsyncContextLoader] 渲染, promiseChanged:', promiseChanged, ', state.status:', state.status);
+        (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
+            // 如果 Promise 引用没变，不重复加载
+            if (promiseRef.current === props.value) {
+                fileLog.log('[AsyncContextLoader] useEffect Promise 引用未变，跳过加载');
+                return;
+            }
+            promiseRef.current = props.value;
+            let cancelled = false;
+            // 重置为 loading 状态
+            setState({
+                status: 'loading'
+            });
+            fileLog.log('[AsyncContextLoader] useEffect 开始加载数据');
+            props.value.then((result)=>{
+                if (cancelled) {
+                    fileLog.log('[AsyncContextLoader] Promise resolved 但组件已卸载，忽略结果');
+                    return;
+                }
+                fileLog.log('[AsyncContextLoader] Promise resolved, result:', JSON.stringify(result));
+                setState({
+                    status: 'success',
+                    data: result
+                });
+            }).catch((err)=>{
+                if (cancelled) {
+                    fileLog.log('[AsyncContextLoader] Promise rejected 但组件已卸载，忽略错误');
+                    return;
+                }
+                const error = err instanceof Error ? err : new Error(String(err));
+                fileLog.log('[AsyncContextLoader] Promise rejected, error:', error.message);
+                setState({
+                    status: 'error',
+                    error
+                });
+            });
+            return ()=>{
+                fileLog.log('[AsyncContextLoader] useEffect cleanup, 标记 cancelled');
+                cancelled = true;
+            };
+        }, [
+            props.value
+        ]);
+        // 加载中状态
+        if (state.status === 'loading') {
+            fileLog.log('[AsyncContextLoader] 返回 fallback (loading)');
+            return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+                children: fallback
+            });
+        }
+        // 错误状态
+        if (state.status === 'error') {
+            fileLog.log('[AsyncContextLoader] 返回错误显示, error:', state.error.message);
+            if (errorFallback) {
+                if (typeof errorFallback === 'function') {
+                    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+                        children: errorFallback(state.error)
+                    });
+                }
+                return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+                    children: errorFallback
+                });
+            }
+            // 默认错误显示
+            return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                style: {
+                    color: 'red',
+                    padding: '10px'
+                },
+                children: [
+                    "加载失败: ",
+                    state.error.message
+                ]
+            });
+        }
+        // 成功状态
+        const contextValue = extract(state.data);
+        fileLog.log('[AsyncContextLoader] 返回 Provider, contextValue:', JSON.stringify(contextValue));
         return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Provider, {
             value: contextValue,
             children: props.children
-        });
-    }
-    return function AsyncContextLoader(props) {
-        fileLog.log('[AsyncContextLoader] AsyncContextLoader 渲染开始');
-        fileLog.log('[AsyncContextLoader] 接收到的 props.value:', props.value);
-        fileLog.log('[AsyncContextLoader] 准备渲染 Suspense + AsyncContextLoaderInner');
-        return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react__WEBPACK_IMPORTED_MODULE_1__.Suspense, {
-            fallback: fallback,
-            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(AsyncContextLoaderInner, {
-                ...props
-            })
         });
     };
 }
@@ -1837,4 +1907,4 @@ const ExamplesScriptsContent_fileLog = new Log/* Log */.tG(false, 'ExamplesScrip
 /***/ })
 
 }]);
-//# sourceMappingURL=6375-527d7383bed1ce30.js.map
+//# sourceMappingURL=6375-9e19cbceef9acca7.js.map
