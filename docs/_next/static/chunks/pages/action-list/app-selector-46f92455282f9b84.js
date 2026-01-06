@@ -330,6 +330,7 @@ function AppList() {
                             size: "grow",
                             container: true,
                             "data-id": "app-selector-893f",
+                            "data-testid": "app-selector-893f-".concat(index),
                             children: [
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
                                     width: 30,
@@ -513,4 +514,4 @@ function AppSelector() {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=app-selector-212aaa144de10b39.js.map
+//# sourceMappingURL=app-selector-46f92455282f9b84.js.map

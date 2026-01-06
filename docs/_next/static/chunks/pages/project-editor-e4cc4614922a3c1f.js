@@ -413,7 +413,7 @@ var es = __webpack_require__(51011);
 
 
 function EditableText(param) {
-    let { setText, title, cancelText, saveText, contentText, helperText, minHeight, children, multiline } = param;
+    let { setText, title, cancelText, saveText, contentText, helperText, minHeight, children, multiline, testId } = param;
     const { t } = (0,es/* useTranslation */.Bd)('fanfanlo/mui/dialog/content');
     const [editText, setEditText] = (0,react.useState)('');
     const [isEditing, setIsEditing] = (0,react.useState)(false);
@@ -435,7 +435,7 @@ function EditableText(param) {
     return /*#__PURE__*/ (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
         children: [
             /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                "data-testid": "EditableText__triggerSpan__01JFXYZAH7H8I9J0K1L2M3N4",
+                "data-testid": testId || "EditableText__triggerSpan__01JFXYZAH7H8I9J0K1L2M3N4",
                 style: {
                     cursor: 'pointer',
                     width: '100%',
@@ -2716,10 +2716,12 @@ function EditProjectBuilder() {
                     },
                     children: /*#__PURE__*/ (0,jsx_runtime.jsx)(EditableText, {
                         setText: setName,
+                        testId: "edit-project-project-name-0axy3",
                         children: /*#__PURE__*/ (0,jsx_runtime.jsx)("h2", {
                             children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                id: "project-name-editor",
-                                "data-id": "project-name-editor",
+                                id: "edit-project-project-name-baf39802a",
+                                "data-id": "edit-project-project-name-baf39802a",
+                                "data-testid": "edit-project-project-name-baf39802a",
                                 children: name || clickToSetProjectName
                             })
                         })
@@ -2906,4 +2908,4 @@ const DialogActions = /*#__PURE__*/ react.forwardRef(function DialogActions(inPr
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=project-editor-1db0ce803c683f00.js.map
+//# sourceMappingURL=project-editor-e4cc4614922a3c1f.js.map
