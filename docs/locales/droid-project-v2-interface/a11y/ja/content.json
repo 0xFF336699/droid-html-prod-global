@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "操作する",
+    "click": "クリック",
+    "longClick": "長押し",
+    "setText": "テキストを設定する",
+    "tryClick": "要素または位置クリックを試してください",
+    "globalClick": "場所のクリック"
+  }
+}

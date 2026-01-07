@@ -1,0 +1,8 @@
+{
+  "content": {
+    "DescriptionContentRenderer": {
+      "invalidUrl": "Nevažeći URL: {{url}}",
+      "unknownType": "Nepoznata vrsta sadržaja: {{type}}"
+    }
+  }
+}

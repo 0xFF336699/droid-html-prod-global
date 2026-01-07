@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "toimia",
+    "click": "Napsauta",
+    "longClick": "Pitkä painallus",
+    "setText": "Aseta teksti",
+    "tryClick": "Kokeile elementin tai sijainnin napsautusta",
+    "globalClick": "sijainti napsauttamalla"
+  }
+}

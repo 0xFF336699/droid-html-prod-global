@@ -1,0 +1,10 @@
+{
+  "NodeActionUI": {
+    "title": "operate",
+    "click": "Click",
+    "longClick": "Long press",
+    "setText": "Set text",
+    "tryClick": "Try element or position click",
+    "globalClick": "location click"
+  }
+}

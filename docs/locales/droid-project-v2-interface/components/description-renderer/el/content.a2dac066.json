@@ -1,0 +1,8 @@
+{
+  "content": {
+    "DescriptionContentRenderer": {
+      "invalidUrl": "Μη έγκυρη διεύθυνση URL: {{url}}",
+      "unknownType": "Άγνωστος τύπος περιεχομένου: {{type}}"
+    }
+  }
+}
