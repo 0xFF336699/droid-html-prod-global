@@ -1,0 +1,14 @@
+{
+  "UI": {
+    "title": "節點觸發器",
+    "packageName": "包名 (pn):",
+    "notSet": "(未設置)",
+    "activityName": "Activity (an):",
+    "className": "類名 (cn):",
+    "selectorOperations": "選擇器操作 ({count}個):",
+    "noOperations": "(無選擇器操作)",
+    "operationIndex": "操作 #{index}",
+    "method": "方法: {method}",
+    "value": "值: {value}"
+  }
+}

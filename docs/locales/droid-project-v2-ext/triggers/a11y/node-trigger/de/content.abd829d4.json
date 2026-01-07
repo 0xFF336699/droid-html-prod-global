@@ -1,0 +1,14 @@
+{
+  "UI": {
+    "title": "Knotenauslöser",
+    "packageName": "Paketname (PN):",
+    "notSet": "(nicht festgelegt)",
+    "activityName": "Aktivität (eine):",
+    "className": "Klassenname (cn):",
+    "selectorOperations": "Auswahloperationen ({count}):",
+    "noOperations": "(keine Wählbedienung)",
+    "operationIndex": "Vorgang #{index}",
+    "method": "Methode: {Methode}",
+    "value": "Wert: {Wert}"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "UI": {
+    "title": "knooppunt trigger",
+    "packageName": "Pakketnaam (pn):",
+    "notSet": "(niet ingesteld)",
+    "activityName": "Activiteit (een):",
+    "className": "Klassenaam (cn):",
+    "selectorOperations": "Selectiebewerkingen ({count}):",
+    "noOperations": "(geen selectorbediening)",
+    "operationIndex": "Operatie #{index}",
+    "method": "Methode: {methode}",
+    "value": "Waarde: {waarde}"
+  }
+}

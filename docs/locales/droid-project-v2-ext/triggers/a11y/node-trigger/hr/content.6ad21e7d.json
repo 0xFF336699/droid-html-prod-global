@@ -1,0 +1,14 @@
+{
+  "UI": {
+    "title": "pokretač čvora",
+    "packageName": "Naziv paketa (pn):",
+    "notSet": "(nije postavljeno)",
+    "activityName": "Aktivnost (an):",
+    "className": "Naziv klase (cn):",
+    "selectorOperations": "Operacije birača ({count}):",
+    "noOperations": "(bez rada selektora)",
+    "operationIndex": "Operacija #{index}",
+    "method": "Metoda: {method}",
+    "value": "Vrijednost: {value}"
+  }
+}

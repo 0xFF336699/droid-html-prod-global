@@ -1,0 +1,14 @@
+{
+  "UI": {
+    "title": "pemicu simpul",
+    "packageName": "Nama paket (pn):",
+    "notSet": "(tidak disetel)",
+    "activityName": "Aktivitas (sebuah):",
+    "className": "Nama kelas (cn):",
+    "selectorOperations": "Operasi pemilih ({count}):",
+    "noOperations": "(tidak ada operasi pemilih)",
+    "operationIndex": "Operasi #{index}",
+    "method": "Metode: {metode}",
+    "value": "Nilai: {nilai}"
+  }
+}

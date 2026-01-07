@@ -1,8 +1,0 @@
-{
-  "IActionOpenApp": {
-    "permission": {
-      "android.permission.BIND_ACCESSIBILITY_SERVICE": "Perlukan kebolehaksesan untuk mengesan jika apl dibuka",
-      "background_popup": "Anda perlu memastikan bahawa apl anda masih boleh dilancarkan apabila ia berada di latar belakang."
-    }
-  }
-}

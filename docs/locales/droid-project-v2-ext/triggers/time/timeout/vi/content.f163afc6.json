@@ -1,7 +1,0 @@
-{
-  "ITriggerTimeout": {
-    "title": "Trì hoãn thực hiện",
-    "content_delay": "Trì hoãn",
-    "content_milliseconds": "Thực thi sau mili giây"
-  }
-}

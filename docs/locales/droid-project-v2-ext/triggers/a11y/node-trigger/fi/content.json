@@ -1,0 +1,14 @@
+{
+  "UI": {
+    "title": "solmun liipaisin",
+    "packageName": "Paketin nimi (pn):",
+    "notSet": "(ei asetettu)",
+    "activityName": "Toiminto (an):",
+    "className": "Luokan nimi (cn):",
+    "selectorOperations": "Valitsintoiminnot ({count}):",
+    "noOperations": "(ei valitsintoimintoa)",
+    "operationIndex": "Operaatio #{index}",
+    "method": "Menetelmä: {method}",
+    "value": "Arvo: {value}"
+  }
+}

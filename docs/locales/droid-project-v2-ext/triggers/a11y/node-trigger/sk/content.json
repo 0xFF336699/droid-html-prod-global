@@ -1,0 +1,14 @@
+{
+  "UI": {
+    "title": "uzol spúšťač",
+    "packageName": "Názov balíka (pn):",
+    "notSet": "(nenastavené)",
+    "activityName": "Aktivita (an):",
+    "className": "Názov triedy (cn):",
+    "selectorOperations": "Operácie selektora ({count}):",
+    "noOperations": "(žiadna operácia voliča)",
+    "operationIndex": "Operácia č. {index}",
+    "method": "Metóda: {method}",
+    "value": "Hodnota: {value}"
+  }
+}
