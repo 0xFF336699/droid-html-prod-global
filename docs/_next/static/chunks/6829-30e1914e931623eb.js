@@ -135,121 +135,6 @@ function listenSubKey(target, key, unsubMap, onUpdate, watchChain, property) {
 
 // EXTERNAL MODULE: ../../node_modules/.pnpm/idb-keyval@6.2.2/node_modules/idb-keyval/dist/index.js
 var dist = __webpack_require__(47067);
-// EXTERNAL MODULE: ../../libs/fanfanlo/dist/src/watcher/proxyUtils.js
-var watcher_proxyUtils = __webpack_require__(92228);
-// EXTERNAL MODULE: ../../libs/fanfanlo/dist/src/utils/debug/object-count-utils.js
-var object_count_utils = __webpack_require__(73175);
-;// ../../libs/fanfanlo/dist/src/watcher/parentProxy.js
-
-
-
-
-
-
-const objectMap = /* @__PURE__ */ new WeakMap();
-function getParentProxyObject(parent, options) {
-    watcher_proxyUtils/* proxyUtils */.o.pauseProxy();
-    const target = (0,proxyWatch/* getProxyWatchRealTarget */.xA)(parent);
-    let proxyObject = objectMap.get(target);
-    if (!proxyObject) {
-        const watchProxy = (0,proxyWatch/* getProxyObject */.Ye)(parent);
-        proxyObject = {
-            target,
-            watchProxy
-        };
-        const unsub = watchProxy.dispatcher.addListener(throttle/* listenAnyWildcard */._l, (prop, value, old, target2)=>{
-            var _a;
-            if (lodash_default().isObject(old)) {
-                const oldProxyObject = objectMap.get(old);
-                if (oldProxyObject) {
-                    oldProxyObject.parent = void 0;
-                    (_a = oldProxyObject.unwatch) == null ? void 0 : _a.call(oldProxyObject);
-                    oldProxyObject.unwatch = void 0;
-                }
-            }
-            if (lodash_default().isObject(value)) {
-                const newProxyObject = getParentProxyObject(value, options);
-                newProxyObject.parent = target2;
-            }
-        });
-        proxyObject.unwatch = unsub;
-        if (object_count_utils/* objectCountUtils */._.getObjectCount(target) == object_count_utils/* objectCountUtils */._.getObjectCount(proxyObject.watchProxy.proxy)) {
-            throw new Error("proxy object count is same");
-        }
-        objectMap.set(target, proxyObject);
-    }
-    loopChildren(target, options);
-    watcher_proxyUtils/* proxyUtils */.o.resumeProxy();
-    return proxyObject;
-}
-function loopChildren(parent, options) {
-    for(const key in parent){
-        const child = parent[key];
-        if (!lodash_default().isObject(child)) continue;
-        const info = getParentProxyObject(child, options);
-        info.parent = parent;
-    }
-}
-function destroyParentProxy(parent) {
-    if (!_.isObject(parent)) throw new Error("target must be an object");
-    const info = getParentProxyObject(parent);
-    info.parent = void 0;
-    objectMap.delete(parent);
-    for(const key in parent){
-        const child = parent[key];
-        if (!_.isObject(child)) continue;
-        destroyParentProxy(child);
-    }
-}
-function isParent(parent) {
-    return objectMap.get(parent);
-}
-function parentProxy_toParent(target) {
-    return getParentProxyObject(target).watchProxy.proxy;
-}
-function getParentProxyInfo(target) {
-    return getParentProxyObject(target);
-}
-function getParentProxyTarget(target) {
-    return getParentProxyObject(target).target;
-}
-function getParent(target) {
-    return getParentProxyObject(target).parent;
-}
-function getParentWatchProxy(target) {
-    const parent = getParentProxyObject(target).parent;
-    if (!parent) throw new Error("parent is undefined");
-    return toProxy(parent);
-} //# sourceMappingURL=parentProxy.js.map
-
-;// ../../libs/fanfanlo/dist/src/watcher/parentWatchProxy.js
-
-
-
-
-function toParentWatchProxy(target) {
-    return toParent(toProxy(target));
-}
-function getProxyTarget(target) {
-    let parentObject = isParent(target) ? getParentProxyTarget(target) : target;
-    const proxyObject = (0,proxyWatch/* getProxyObject */.Ye)(parentObject).target;
-    parentObject = isParent(proxyObject) ? getParentProxyTarget(proxyObject) : proxyObject;
-    return parentObject;
-}
-function getTarget(target) {
-    var _a;
-    proxyUtils.pauseProxy();
-    let t = target;
-    let c = 0;
-    while(t && isProxy(t)){
-        c++;
-        if (c > 5) break;
-        if (isProxy(t)) t = (_a = isProxy(t)) == null ? void 0 : _a.target;
-    }
-    proxyUtils.resumeProxy();
-    return t;
-} //# sourceMappingURL=parentWatchProxy.js.map
-
 ;// ../../libs/fanfanlo/dist/src/utils/lodash.js
 
 
@@ -547,6 +432,121 @@ function printPassedTargetLog(log, target, from) {
     list.push(...args);
     log.print(...list);
 } //# sourceMappingURL=Log.js.map
+
+// EXTERNAL MODULE: ../../libs/fanfanlo/dist/src/watcher/proxyUtils.js
+var watcher_proxyUtils = __webpack_require__(92228);
+// EXTERNAL MODULE: ../../libs/fanfanlo/dist/src/utils/debug/object-count-utils.js
+var object_count_utils = __webpack_require__(73175);
+;// ../../libs/fanfanlo/dist/src/watcher/parentProxy.js
+
+
+
+
+
+
+const objectMap = /* @__PURE__ */ new WeakMap();
+function getParentProxyObject(parent, options) {
+    watcher_proxyUtils/* proxyUtils */.o.pauseProxy();
+    const target = (0,proxyWatch/* getProxyWatchRealTarget */.xA)(parent);
+    let proxyObject = objectMap.get(target);
+    if (!proxyObject) {
+        const watchProxy = (0,proxyWatch/* getProxyObject */.Ye)(parent);
+        proxyObject = {
+            target,
+            watchProxy
+        };
+        const unsub = watchProxy.dispatcher.addListener(throttle/* listenAnyWildcard */._l, (prop, value, old, target2)=>{
+            var _a;
+            if (lodash_default().isObject(old)) {
+                const oldProxyObject = objectMap.get(old);
+                if (oldProxyObject) {
+                    oldProxyObject.parent = void 0;
+                    (_a = oldProxyObject.unwatch) == null ? void 0 : _a.call(oldProxyObject);
+                    oldProxyObject.unwatch = void 0;
+                }
+            }
+            if (lodash_default().isObject(value)) {
+                const newProxyObject = getParentProxyObject(value, options);
+                newProxyObject.parent = target2;
+            }
+        });
+        proxyObject.unwatch = unsub;
+        if (object_count_utils/* objectCountUtils */._.getObjectCount(target) == object_count_utils/* objectCountUtils */._.getObjectCount(proxyObject.watchProxy.proxy)) {
+            throw new Error("proxy object count is same");
+        }
+        objectMap.set(target, proxyObject);
+    }
+    loopChildren(target, options);
+    watcher_proxyUtils/* proxyUtils */.o.resumeProxy();
+    return proxyObject;
+}
+function loopChildren(parent, options) {
+    for(const key in parent){
+        const child = parent[key];
+        if (!lodash_default().isObject(child)) continue;
+        const info = getParentProxyObject(child, options);
+        info.parent = parent;
+    }
+}
+function destroyParentProxy(parent) {
+    if (!_.isObject(parent)) throw new Error("target must be an object");
+    const info = getParentProxyObject(parent);
+    info.parent = void 0;
+    objectMap.delete(parent);
+    for(const key in parent){
+        const child = parent[key];
+        if (!_.isObject(child)) continue;
+        destroyParentProxy(child);
+    }
+}
+function isParent(parent) {
+    return objectMap.get(parent);
+}
+function parentProxy_toParent(target) {
+    return getParentProxyObject(target).watchProxy.proxy;
+}
+function getParentProxyInfo(target) {
+    return getParentProxyObject(target);
+}
+function getParentProxyTarget(target) {
+    return getParentProxyObject(target).target;
+}
+function getParent(target) {
+    return getParentProxyObject(target).parent;
+}
+function getParentWatchProxy(target) {
+    const parent = getParentProxyObject(target).parent;
+    if (!parent) throw new Error("parent is undefined");
+    return toProxy(parent);
+} //# sourceMappingURL=parentProxy.js.map
+
+;// ../../libs/fanfanlo/dist/src/watcher/parentWatchProxy.js
+
+
+
+
+function toParentWatchProxy(target) {
+    return toParent(toProxy(target));
+}
+function getProxyTarget(target) {
+    let parentObject = isParent(target) ? getParentProxyTarget(target) : target;
+    const proxyObject = (0,proxyWatch/* getProxyObject */.Ye)(parentObject).target;
+    parentObject = isParent(proxyObject) ? getParentProxyTarget(proxyObject) : proxyObject;
+    return parentObject;
+}
+function getTarget(target) {
+    var _a;
+    proxyUtils.pauseProxy();
+    let t = target;
+    let c = 0;
+    while(t && isProxy(t)){
+        c++;
+        if (c > 5) break;
+        if (isProxy(t)) t = (_a = isProxy(t)) == null ? void 0 : _a.target;
+    }
+    proxyUtils.resumeProxy();
+    return t;
+} //# sourceMappingURL=parentWatchProxy.js.map
 
 ;// ../../libs/fanfanlo/dist/src/storage/indexed-db-utils.js
 
@@ -5584,4 +5584,4 @@ const marketsDevScriptLib = {
 /***/ })
 
 }]);
-//# sourceMappingURL=6829-f55784fac835f76e.js.map
+//# sourceMappingURL=6829-30e1914e931623eb.js.map

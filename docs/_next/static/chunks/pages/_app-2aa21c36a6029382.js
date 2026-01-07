@@ -15544,17 +15544,29 @@ initTriggers_fileLog.childrenPaused = true;
  * App Action 命名空间
  */ const appActionNamespace = 'fanfanlo/javajs/v1/project/components/actions/app/';
 
-// EXTERNAL MODULE: ../../libs/app/static/src/storage/app-packages-store.ts
-var app_packages_store = __webpack_require__(69325);
+// EXTERNAL MODULE: ../../libs/app/static/src/storage/app-packages-store-v2.ts
+var app_packages_store_v2 = __webpack_require__(94820);
 // EXTERNAL MODULE: ../../libs/fanfanlo/src/watcher/proxyWatch.ts
 var proxyWatch = __webpack_require__(57641);
 ;// ../../libs/droid/project-v2-ext/src/components/AppIcon30.tsx
 
 
+
+const AppIcon30_fileLog = new Log/* Log */.tG(false, 'AppIcon30');
+// fileLog.pause = true;
+// fileLog.childrenPaused = true;
 function AppIcon30(param) {
     let { packageName } = param;
-    const packageInfo = app_packages_store/* appPackagesStore */.I.findPackageInfoByPackageName(packageName);
-    const image = (packageInfo === null || packageInfo === void 0 ? void 0 : packageInfo.iconBase64) ? "data:image/gif;base64,".concat(packageInfo.iconBase64) : '';
+    const uiLog = AppIcon30_fileLog.sub(false, 'AppIcon30_ui');
+    // uiLog.pause = true;
+    // uiLog.childrenPaused = true;
+    const packageInfo = app_packages_store_v2/* appPackagesStoreV2 */.U.findPackageInfoByPackageName(packageName);
+    let image = '';
+    if (packageInfo && packageInfo.iconBase64) {
+        image = 'data:image/gif;base64,' + packageInfo.iconBase64;
+    } else {
+        uiLog.log('no packageInfo or iconBase64, packageName=' + packageName);
+    }
     return /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
         src: image,
         width: 30,
@@ -15626,7 +15638,7 @@ function UpdateAppLink(param) {
     });
 }
 function IActionOpenAppUI(data) {
-    const packageInfo = app_packages_store/* appPackagesStore */.I.findPackageInfoByPackageName(data.javaData.packageName);
+    const packageInfo = app_packages_store_v2/* appPackagesStoreV2 */.U.findPackageInfoByPackageName(data.javaData.packageName);
     function onDeleteComfirmed() {
         const projectData = {};
         src/* childToProjectDataUtils */.mR.actionList.getActionListByProp(data, projectData);
@@ -47528,12 +47540,12 @@ function createDefaultProjectSettings() {
 /* harmony export */   d: () => (/* binding */ indexedDbUtils)
 /* harmony export */ });
 /* harmony import */ var idb_keyval__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(47067);
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(80507);
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _log_Log__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(89597);
 /* harmony import */ var _watcher__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(57641);
 /* harmony import */ var _watcher__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(31365);
 /* harmony import */ var _watcher__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(50159);
-/* harmony import */ var _log_Log__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(89597);
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(80507);
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
 
 
 
@@ -96646,11 +96658,14 @@ async function initAndroid() {
     androidIsInitialized = true;
 }
 
+// EXTERNAL MODULE: ../../libs/app/static/src/storage/app-packages-store-v2.ts
+var app_packages_store_v2 = __webpack_require__(94820);
 // EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/index.ts + 23 modules
 var src = __webpack_require__(91415);
 // EXTERNAL MODULE: ../../libs/droid/project-v2-ext/src/index.ts + 69 modules
 var project_v2_ext_src = __webpack_require__(18697);
 ;// ../../libs/app/model/src/mc/app/AppController.ts
+
 
 
 
@@ -96668,6 +96683,8 @@ AppController_fileLog.childrenPaused = true;
 class AppController extends Dispatcher/* Dispatcher */.m {
     async init() {
         AppController_fileLog.log('[AppController.init] 开始初始化AppController');
+        await app_packages_store_v2/* appPackagesStoreV2 */.U.init();
+        AppController_fileLog.log('[AppController.init] appPackagesStoreV2.init() 调用完成');
         const storeUtilsConf = {
             read: store/* autoJsStoreUtils */.b.read,
             write: store/* autoJsStoreUtils */.b.write,
@@ -103409,50 +103426,6 @@ const FilledInput = /*#__PURE__*/ react.forwardRef(function FilledInput(inProps,
  false ? 0 : void 0;
 FilledInput.muiName = 'Input';
 /* harmony default export */ const FilledInput_FilledInput = (FilledInput);
-
-
-/***/ }),
-
-/***/ 69325:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   I: () => (/* binding */ appPackagesStore)
-/* harmony export */ });
-/* harmony import */ var _fanfanlo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(57641);
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(80507);
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _fanfanlo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(29498);
-
-
-
-const s = _fanfanlo__WEBPACK_IMPORTED_MODULE_1__/* .storeUtils */ .P.namespace('app-packages');
-const data = (0,_fanfanlo__WEBPACK_IMPORTED_MODULE_2__/* .toProxy */ .I$)({
-    list: []
-});
-loadPackages();
-function loadPackages() {
-    const list = s.read('list') || [];
-    data.list = lodash__WEBPACK_IMPORTED_MODULE_0___default().isArray(list) ? list : [];
-}
-function releasePackages() {
-    data.list = [];
-}
-function savePackages(list) {
-    // s.write('list', list)  // 注释掉：localStorage 空间不足，暂时不存储
-    data.list = list;
-}
-function findPackageInfoByPackageName(packageName) {
-    return data.list.find((item)=>item.packageName === packageName);
-}
-const appPackagesStore = {
-    data,
-    loadPackages,
-    releasePackages,
-    savePackages,
-    findPackageInfoByPackageName
-};
 
 
 /***/ }),
@@ -159672,6 +159645,132 @@ class RoomState extends _typed_event_emitter_js__WEBPACK_IMPORTED_MODULE_6__/* .
 
 /***/ }),
 
+/***/ 94820:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   U: () => (/* binding */ appPackagesStoreV2)
+/* harmony export */ });
+/* harmony import */ var _fanfanlo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(89597);
+/* harmony import */ var _fanfanlo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(57641);
+/* harmony import */ var _fanfanlo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(55507);
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(80507);
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
+
+
+const fileLog = new _fanfanlo__WEBPACK_IMPORTED_MODULE_1__/* .Log */ .tG(false, 'app-packages-store-v2');
+// fileLog.pause = true;
+// fileLog.childrenPaused = true;
+const data = (0,_fanfanlo__WEBPACK_IMPORTED_MODULE_2__/* .toProxy */ .I$)({
+    list: []
+});
+let indexedDbStore = null;
+let isInitialized = false;
+async function init() {
+    const fnLog = fileLog.sub(false, 'init_fn');
+    // fnLog.pause = true;
+    // fnLog.childrenPaused = true;
+    if (isInitialized) {
+        fnLog.log('already initialized');
+        return;
+    }
+    try {
+        indexedDbStore = await _fanfanlo__WEBPACK_IMPORTED_MODULE_3__/* .indexedDbUtils */ .d.getIndexedDbStore('app-packages-v2', {
+            defData: {
+                list: []
+            },
+            mergeDefData: false
+        });
+        const storedList = indexedDbStore.data.list;
+        if (storedList && lodash__WEBPACK_IMPORTED_MODULE_0___default().isArray(storedList)) {
+            data.list = storedList;
+        } else {
+            data.list = [];
+        }
+        isInitialized = true;
+        fnLog.log('complete, count=' + data.list.length);
+    } catch (error) {
+        fnLog.error('error=' + JSON.stringify(error));
+        data.list = [];
+        isInitialized = false;
+    }
+}
+function loadPackages() {
+    const fnLog = fileLog.sub(false, 'loadPackages_fn');
+    // fnLog.pause = true;
+    // fnLog.childrenPaused = true;
+    if (!indexedDbStore) {
+        fnLog.error('indexedDbStore is null');
+        data.list = [];
+        return;
+    }
+    if (!isInitialized) {
+        fnLog.error('not initialized');
+        data.list = [];
+        return;
+    }
+    const list = indexedDbStore.data.list;
+    if (list && lodash__WEBPACK_IMPORTED_MODULE_0___default().isArray(list)) {
+        data.list = list;
+    } else {
+        data.list = [];
+    }
+    fnLog.log('complete, count=' + data.list.length);
+}
+function releasePackages() {
+    const fnLog = fileLog.sub(false, 'releasePackages_fn');
+    // fnLog.pause = true;
+    // fnLog.childrenPaused = true;
+    fnLog.log('called');
+    data.list = [];
+}
+function savePackages(list) {
+    const fnLog = fileLog.sub(false, 'savePackages_fn');
+    // fnLog.pause = true;
+    // fnLog.childrenPaused = true;
+    if (!lodash__WEBPACK_IMPORTED_MODULE_0___default().isArray(list)) {
+        fnLog.error('list is not array, list=' + JSON.stringify(list));
+        return;
+    }
+    data.list = list;
+    if (!indexedDbStore) {
+        fnLog.error('indexedDbStore is null');
+        return;
+    }
+    if (!isInitialized) {
+        fnLog.error('not initialized');
+        return;
+    }
+    indexedDbStore.store.write('list', list);
+    fnLog.log('complete, count=' + list.length);
+}
+function findPackageInfoByPackageName(packageName) {
+    const fnLog = fileLog.sub(false, 'findPackageInfoByPackageName_fn');
+    // fnLog.pause = true;
+    // fnLog.childrenPaused = true;
+    if (!packageName) {
+        fnLog.error('packageName is empty');
+        return undefined;
+    }
+    const result = data.list.find((item)=>item.packageName === packageName);
+    if (!result) {
+        fnLog.log('not found, packageName=' + packageName + ', listCount=' + data.list.length);
+    }
+    return result;
+}
+const appPackagesStoreV2 = {
+    data,
+    init,
+    loadPackages,
+    releasePackages,
+    savePackages,
+    findPackageInfoByPackageName
+};
+
+
+/***/ }),
+
 /***/ 94942:
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -162956,4 +163055,4 @@ function getWindowHideEventType(id) {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=_app-dc448b04f7878078.js.map
+//# sourceMappingURL=_app-2aa21c36a6029382.js.map

@@ -66,36 +66,50 @@ var jsx_runtime = __webpack_require__(94513);
 var common = __webpack_require__(82964);
 // EXTERNAL MODULE: ../../libs/app/static/src/utils/router-utils.ts
 var router_utils = __webpack_require__(57595);
-// EXTERNAL MODULE: ../../libs/app/static/src/storage/app-packages-store.ts
-var app_packages_store = __webpack_require__(69325);
+// EXTERNAL MODULE: ../../libs/app/static/src/storage/app-packages-store-v2.ts
+var app_packages_store_v2 = __webpack_require__(94820);
 // EXTERNAL MODULE: ../../libs/droid/android/src/android/AutoWebViewJs.ts + 1 modules
 var AutoWebViewJs = __webpack_require__(68709);
 // EXTERNAL MODULE: ../../libs/droid/android/src/android/is-in-android.ts
 var is_in_android = __webpack_require__(49378);
+// EXTERNAL MODULE: ../../libs/fanfanlo/src/log/Log.ts + 1 modules
+var Log = __webpack_require__(89597);
 ;// ../../libs/droid/android/src/android/scripts/readAllPackages.ts
 
 
 
+
+const fileLog = new Log/* Log */.tG(false, 'readAllPackages');
+// fileLog.pause = true;
+// fileLog.childrenPaused = true;
 // import { readAllPackagesMockData } from "./mock-data/readAllPackages";
 const script = "com.fanfanlo.droid.js.JsReceiver.readAllPackages();";
 function readAllPackages() {
+    const fnLog = fileLog.sub(false, 'readAllPackages_fn');
+    // fnLog.pause = true;
+    // fnLog.childrenPaused = true;
     let res = AutoWebViewJs/* autoWebViewJs */.yx.callScript(script);
-    const list = res.javaResultData || [];
-    app_packages_store/* appPackagesStore */.I.savePackages(list);
+    let list = [];
+    if (res.javaResultData) {
+        list = res.javaResultData;
+    }
+    app_packages_store_v2/* appPackagesStoreV2 */.U.savePackages(list);
+    fnLog.log('complete, count=' + list.length);
     return list;
 }
 async function mockReadAllPackages() {
-    const list = [
-        {
-            label: "test",
-            iconBase64: "test",
-            packageName: "test"
-        }
-    ];
-    // if(appPackagesStore.data.list.length > 0)return appPackagesStore.data.list
+    const fnLog = fileLog.sub(false, 'mockReadAllPackages_fn');
+    // fnLog.pause = true;
+    // fnLog.childrenPaused = true;
+    if (app_packages_store_v2/* appPackagesStoreV2 */.U.data.list.length > 0) {
+        fnLog.log('use cached, count=' + app_packages_store_v2/* appPackagesStoreV2 */.U.data.list.length);
+        return app_packages_store_v2/* appPackagesStoreV2 */.U.data.list;
+    }
     const mockData = await __webpack_require__.e(/* import() */ 5747).then(__webpack_require__.bind(__webpack_require__, 45747));
-    app_packages_store/* appPackagesStore */.I.savePackages(mockData.readAllPackagesMockData);
-    return mockData.readAllPackagesMockData;
+    const list = mockData.readAllPackagesMockData;
+    app_packages_store_v2/* appPackagesStoreV2 */.U.savePackages(list);
+    fnLog.log('complete, count=' + list.length);
+    return list;
 }
 const readAllPackagesScript = {
     script,
@@ -298,17 +312,17 @@ function useController() {
     (0,proxyWatch/* proxyWatch */.kE)(props, 'searchKey', (v, old)=>{
         updateShowPackageList();
     });
-    (0,proxyWatch/* proxyWatch */.kE)(app_packages_store/* appPackagesStore */.I.data, 'list', (v, old)=>{
+    (0,proxyWatch/* proxyWatch */.kE)(app_packages_store_v2/* appPackagesStoreV2 */.U.data, 'list', (v, old)=>{
         props.packageList = [
-            ...app_packages_store/* appPackagesStore */.I.data.list
+            ...app_packages_store_v2/* appPackagesStoreV2 */.U.data.list
         ];
         updateShowPackageList();
     });
     (0,react.useEffect)(()=>{
         if (props.packageList.length > 0) return; //不为空则跳出
-        app_packages_store/* appPackagesStore */.I.loadPackages() //从缓存读取
+        app_packages_store_v2/* appPackagesStoreV2 */.U.loadPackages() //从缓存读取
         ;
-        if (app_packages_store/* appPackagesStore */.I.data.list.length > 0) return; //缓存不为空则跳出
+        if (app_packages_store_v2/* appPackagesStoreV2 */.U.data.list.length > 0) return; //缓存不为空则跳出
         readAllPackagesScript.readAllPackages() //从安卓读取
         ;
     }, []);
@@ -514,4 +528,4 @@ function AppSelector() {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=app-selector-46f92455282f9b84.js.map
+//# sourceMappingURL=app-selector-7a2ee43e05d9a68e.js.map
