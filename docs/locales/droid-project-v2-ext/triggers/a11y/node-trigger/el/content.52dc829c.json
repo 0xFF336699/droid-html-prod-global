@@ -1,0 +1,14 @@
+{
+  "UI": {
+    "title": "έναυσμα κόμβου",
+    "packageName": "Όνομα πακέτου (pn):",
+    "notSet": "(δεν έχει οριστεί)",
+    "activityName": "Δραστηριότητα (αν):",
+    "className": "Όνομα τάξης (cn):",
+    "selectorOperations": "Λειτουργίες επιλογέα ({count}):",
+    "noOperations": "(χωρίς λειτουργία επιλογέα)",
+    "operationIndex": "Λειτουργία #{index}",
+    "method": "Μέθοδος: {method}",
+    "value": "Τιμή: {value}"
+  }
+}

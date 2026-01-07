@@ -1,0 +1,14 @@
+{
+  "UI": {
+    "title": "wyzwalacz węzła",
+    "packageName": "Nazwa pakietu (pn):",
+    "notSet": "(nieustawione)",
+    "activityName": "Aktywność (an):",
+    "className": "Nazwa klasy (cn):",
+    "selectorOperations": "Operacje na selektorze ({count}):",
+    "noOperations": "(bez operacji selektora)",
+    "operationIndex": "Operacja nr{indeks}",
+    "method": "Metoda: {metoda}",
+    "value": "Wartość: {wartość}"
+  }
+}

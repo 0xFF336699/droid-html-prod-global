@@ -1,0 +1,14 @@
+{
+  "UI": {
+    "title": "spouštěč uzlu",
+    "packageName": "Název balíčku (pn):",
+    "notSet": "(nenastaveno)",
+    "activityName": "Aktivita (an):",
+    "className": "Název třídy (cn):",
+    "selectorOperations": "Operace selektoru ({count}):",
+    "noOperations": "(žádná operace voliče)",
+    "operationIndex": "Operace č. {index}",
+    "method": "Metoda: {method}",
+    "value": "Hodnota: {value}"
+  }
+}

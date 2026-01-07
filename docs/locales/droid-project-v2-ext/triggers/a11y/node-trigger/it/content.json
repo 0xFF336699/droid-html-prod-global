@@ -1,0 +1,14 @@
+{
+  "UI": {
+    "title": "trigger del nodo",
+    "packageName": "Nome del pacchetto (pn):",
+    "notSet": "(non impostato)",
+    "activityName": "Attività (una):",
+    "className": "Nome della classe (cn):",
+    "selectorOperations": "Operazioni del selettore ({count}):",
+    "noOperations": "(nessuna operazione di selezione)",
+    "operationIndex": "Operazione n. {indice}",
+    "method": "Metodo: {metodo}",
+    "value": "Valore: {valore}"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "UI": {
+    "title": "ทริกเกอร์โหนด",
+    "packageName": "ชื่อแพ็คเกจ (pn):",
+    "notSet": "(ไม่ได้ตั้งค่า)",
+    "activityName": "กิจกรรม (อัน):",
+    "className": "ชื่อคลาส (cn):",
+    "selectorOperations": "การดำเนินการของตัวเลือก ({count}):",
+    "noOperations": "(ไม่มีการดำเนินการเลือก)",
+    "operationIndex": "การดำเนินการ #{ดัชนี}",
+    "method": "วิธีการ: {วิธีการ}",
+    "value": "ค่า: {value}"
+  }
+}

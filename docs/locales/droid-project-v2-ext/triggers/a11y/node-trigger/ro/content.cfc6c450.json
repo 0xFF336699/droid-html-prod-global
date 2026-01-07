@@ -1,0 +1,14 @@
+{
+  "UI": {
+    "title": "declanșarea nodului",
+    "packageName": "Numele pachetului (pn):",
+    "notSet": "(nu setat)",
+    "activityName": "Activitate (an):",
+    "className": "Numele clasei (cn):",
+    "selectorOperations": "Operații de selectare ({count}):",
+    "noOperations": "(fără operație de selectare)",
+    "operationIndex": "Operațiunea #{index}",
+    "method": "Metodă: {metodă}",
+    "value": "Valoare: {value}"
+  }
+}

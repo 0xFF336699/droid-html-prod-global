@@ -1,0 +1,14 @@
+{
+  "UI": {
+    "title": "nod trigger",
+    "packageName": "Paketnamn (pn):",
+    "notSet": "(ej inställd)",
+    "activityName": "Aktivitet (an):",
+    "className": "Klassnamn (cn):",
+    "selectorOperations": "Väljaroperationer ({count}):",
+    "noOperations": "(ingen väljarfunktion)",
+    "operationIndex": "Operation #{index}",
+    "method": "Metod: {metod}",
+    "value": "Värde: {value}"
+  }
+}

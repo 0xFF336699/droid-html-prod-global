@@ -1,0 +1,14 @@
+{
+  "UI": {
+    "title": "disparador de nodo",
+    "packageName": "Nombre del paquete (np):",
+    "notSet": "(no establecido)",
+    "activityName": "Actividad (una):",
+    "className": "Nombre de clase (cn):",
+    "selectorOperations": "Operaciones de selector ({count}):",
+    "noOperations": "(sin operación de selector)",
+    "operationIndex": "Operación #{index}",
+    "method": "Método: {método}",
+    "value": "Valor: {valor}"
+  }
+}

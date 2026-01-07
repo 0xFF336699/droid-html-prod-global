@@ -1,0 +1,14 @@
+{
+  "UI": {
+    "title": "node trigger",
+    "packageName": "Pakkenavn (pn):",
+    "notSet": "(ikke indstillet)",
+    "activityName": "Aktivitet (en):",
+    "className": "Klassenavn (cn):",
+    "selectorOperations": "Vælgerhandlinger ({count}):",
+    "noOperations": "(ingen vælgerbetjening)",
+    "operationIndex": "Operation #{index}",
+    "method": "Metode: {metode}",
+    "value": "Værdi: {value}"
+  }
+}

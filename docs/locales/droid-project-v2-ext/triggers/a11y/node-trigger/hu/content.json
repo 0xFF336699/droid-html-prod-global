@@ -1,0 +1,14 @@
+{
+  "UI": {
+    "title": "csomópont trigger",
+    "packageName": "Csomag neve (pn):",
+    "notSet": "(nincs beállítva)",
+    "activityName": "Tevékenység (an):",
+    "className": "Osztály neve (cn):",
+    "selectorOperations": "Kiválasztó műveletek ({count}):",
+    "noOperations": "(nincs választóműködés)",
+    "operationIndex": "Művelet #{index}",
+    "method": "Módszer: {method}",
+    "value": "Érték: {value}"
+  }
+}

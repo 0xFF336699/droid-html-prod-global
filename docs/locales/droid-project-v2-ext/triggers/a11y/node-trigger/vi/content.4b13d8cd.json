@@ -1,0 +1,14 @@
+{
+  "UI": {
+    "title": "kích hoạt nút",
+    "packageName": "Tên gói (pn):",
+    "notSet": "(chưa đặt)",
+    "activityName": "Hoạt động (an):",
+    "className": "Tên lớp (cn):",
+    "selectorOperations": "Thao tác chọn ({count}):",
+    "noOperations": "(không có thao tác chọn)",
+    "operationIndex": "Hoạt động #{chỉ mục}",
+    "method": "Phương pháp: {phương pháp}",
+    "value": "Giá trị: {giá trị}"
+  }
+}
