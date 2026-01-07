@@ -3,6 +3,9 @@ name: Merge Preview to Main
 on:
   workflow_dispatch:  # 允许手动触发
 
+permissions:
+  contents: write
+
 jobs:
   merge:
     runs-on: ubuntu-latest
