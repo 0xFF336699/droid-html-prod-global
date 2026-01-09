@@ -49,8 +49,8 @@ var Stack = __webpack_require__(39070);
 var Divider = __webpack_require__(8536);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react@19.1.0/node_modules/react/index.js
 var react = __webpack_require__(94285);
-// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/index.ts + 23 modules
-var src = __webpack_require__(91415);
+// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/index.ts + 22 modules
+var src = __webpack_require__(80396);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/next@15.3.5_@babel+core@7.28.0_@playwright+test@1.57.0_babel-plugin-macros@3.1.0_react-dom@19_gjfccjsd7b6xv5ktyj7vxamu6q/node_modules/next/router.js
 var next_router = __webpack_require__(1674);
 // EXTERNAL MODULE: ../../libs/fanfanlo/src/watcher/useProxyWatch.ts
@@ -763,4 +763,4 @@ function ProjectSettings() {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=project-settings-d33c7e26b481e91c.js.map
+//# sourceMappingURL=project-settings-ef66c5558b33511c.js.map

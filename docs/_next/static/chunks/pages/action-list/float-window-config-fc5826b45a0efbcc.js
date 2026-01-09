@@ -421,8 +421,8 @@ var router_utils = __webpack_require__(57595);
 var AppShell = __webpack_require__(26719);
 // EXTERNAL MODULE: ../../libs/app/ui/src/components/appbar/AppBar.tsx + 3 modules
 var AppBar = __webpack_require__(82524);
-// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/index.ts + 23 modules
-var src = __webpack_require__(91415);
+// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/index.ts + 22 modules
+var src = __webpack_require__(80396);
 // EXTERNAL MODULE: ../../libs/droid/project-v2-ext/src/index.ts + 69 modules
 var project_v2_ext_src = __webpack_require__(18697);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react-i18next@15.6.0_i18next@24.2.3_typescript@5.7.3__react-dom@19.1.0_react@19.1.0__react@19.1.0_typescript@5.7.3/node_modules/react-i18next/dist/es/index.js + 15 modules
@@ -707,4 +707,4 @@ const routerUtils = {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=float-window-config-93d552c0637986c4.js.map
+//# sourceMappingURL=float-window-config-fc5826b45a0efbcc.js.map

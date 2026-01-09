@@ -180,12 +180,12 @@ __webpack_require__.d(__webpack_exports__, {
   projectManager: () => (/* reexport */ projectManager)
 });
 
-// UNUSED EXPORTS: A11yNode, A11yNodePropertyInfo, A11yNodePropertyType, ActionContext, ActionGroupContext, ActionListContext, ActionListFromEnum, ActionUtilsMap, CreateProjectButton, DescriptionContentRenderer, DescriptionContentType, EditProjectBuilder, GroupCheckList1Context, GroupCheckList2Context, ISFCondfType, NodeActionKeys, NodeActionUI, PROJECT_CATEGORY_CONFIGS, ProjectCategory, ProjectContext, ProjectMemberType, ProjectUI, ProjectVisibility, ProjectsUI, RemoteSyncStatus, SFAction, SFActionClick, SFActionFocus, SFActionGlobalClick, SFActionLearFocus, SFActionLongClick, SFActionSetText, SFActionTryClick, SFCond, SFCondClickable, SFCondDesc, SFCondDescs, SFCondId, SFCondIds, SFCondMatchText, SFCondRoot, SFCondText, SFCondTexts, SFCondTypes, SFData, SFWait, TriggerActionContext, TriggerActionGroupContext, TriggerContext, TriggerGroupContext, TriggerListContext, TriggerOrActionListTypeEnum, TriggerUtilsMap, a11yNodeProperties, a11yNodeProperyEnum, a11yNodeRealizedKeys, actionBaseUtils, actionGroupType, actionGroupUtils, actionType, addProjectHistory, childToProjectDataUtils, createActionHandler, createActionUtils, createDefaultProject, createDefaultProjectSettings, createDefaultTriggerAction, createDefaultTriggerActionGroup, createMergeToDefaultData, createProjectByCategory, createProjectEditInfo, createTriggerActionUtils, createTriggerHandler, createTriggerUtils, editProjectInfoUtils, findEntityAcrossProjects, getActionGroupByProp, getActionGroupElement, getActionGroupElementByProp, getActionListByProp, getActionUtils, getProjectCategoryConfig, getProjectHistory, getProjectLastHistory, getTriggerByProp, getTriggerElementByProp, getTriggerListByProp, getTriggerListElementByProp, getTriggerOrActionListPageParams, getTriggerUtils, isSameProjectHistoryId, mergeDataWith, mergeToDefaultData, mergeTriggerActionGroupToDefaultData, nodeActions, projectDataToUniqueId, projectEventUtils, projectHistoryIsChanged, projectNamespace, projectStore, projectType, projectUtils, projectsHistoryMap, registerActionUtils, registerTriggerUtils, removeProjectHistory, s, saveToServer, syncToServer, takeProjectSnapshoot, triggerActionGroupType, triggerBaseUtils, triggerGroupType, triggerGroupUtils, triggerType, updateToServer, validateUrl
+// UNUSED EXPORTS: A11yNode, A11yNodePropertyInfo, A11yNodePropertyType, ActionContext, ActionGroupContext, ActionListContext, ActionListFromEnum, ActionUtilsMap, CreateProjectButton, DescriptionContentRenderer, DescriptionContentType, EditProjectBuilder, GroupCheckList1Context, GroupCheckList2Context, ISFCondfType, NodeActionKeys, NodeActionUI, PROJECT_CATEGORY_CONFIGS, ProjectCategory, ProjectContext, ProjectMemberType, ProjectUI, ProjectVisibility, ProjectsUI, RemoteSyncStatus, SFAction, SFActionClick, SFActionFocus, SFActionGlobalClick, SFActionLearFocus, SFActionLongClick, SFActionSetText, SFActionTryClick, SFCond, SFCondClickable, SFCondDesc, SFCondDescs, SFCondId, SFCondIds, SFCondMatchText, SFCondRoot, SFCondText, SFCondTexts, SFCondTypes, SFData, SFWait, TriggerActionContext, TriggerActionGroupContext, TriggerContext, TriggerGroupContext, TriggerListContext, TriggerOrActionListTypeEnum, TriggerUtilsMap, a11yNodeProperties, a11yNodeProperyEnum, a11yNodeRealizedKeys, actionBaseUtils, actionGroupType, actionGroupUtils, actionType, addProjectHistory, childToProjectDataUtils, createActionHandler, createActionUtils, createDefaultProject, createDefaultProjectSettings, createDefaultTriggerAction, createDefaultTriggerActionGroup, createMergeToDefaultData, createProjectByCategory, createProjectEditInfo, createTriggerActionUtils, createTriggerHandler, createTriggerUtils, editProjectInfoUtils, findEntityAcrossProjects, getActionGroupByProp, getActionGroupElement, getActionGroupElementByProp, getActionListByProp, getActionUtils, getProjectCategoryConfig, getProjectHistory, getProjectLastHistory, getTriggerByProp, getTriggerElementByProp, getTriggerListByProp, getTriggerListElementByProp, getTriggerOrActionListPageParams, getTriggerUtils, isSameProjectHistoryId, mergeDataWith, mergeToDefaultData, mergeTriggerActionGroupToDefaultData, nodeActions, projectDataToUniqueId, projectEventUtils, projectHistoryIsChanged, projectNamespace, projectStore, projectType, projectUtils, projectsHistoryMap, registerActionUtils, registerTriggerUtils, removeProjectHistory, s, saveToServer, syncToServer, takeProjectSnapshoot, triggerActionGroupType, triggerActionType, triggerActionUtils, triggerBaseUtils, triggerGroupType, triggerGroupUtils, triggerType, updateToServer, validateUrl
 
 // EXTERNAL MODULE: ../../libs/app/model/src/user/User.ts + 5 modules
 var User = __webpack_require__(80530);
-// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/index.ts + 23 modules
-var src = __webpack_require__(91415);
+// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/index.ts + 22 modules
+var src = __webpack_require__(80396);
 // EXTERNAL MODULE: ../../libs/fanfanlo/src/log/Log.ts + 1 modules
 var Log = __webpack_require__(89597);
 // EXTERNAL MODULE: ../../libs/fanfanlo/src/watcher/proxyWatch.ts
@@ -550,7 +550,10 @@ class ProjectListSyncManager extends EventDispatcher/* EventDispatcher */.Q {
 }
 const projectListSyncManager = new ProjectListSyncManager();
 
+// EXTERNAL MODULE: ../../libs/droid/project-v2-ext/src/index.ts + 69 modules
+var project_v2_ext_src = __webpack_require__(18697);
 ;// ../../libs/droid/project-v2-ui/src/projects/projectManager.ts
+
 
 
 
@@ -558,6 +561,7 @@ const projectListSyncManager = new ProjectListSyncManager();
 const projectManager_fileLog = new Log/* Log */.tG(false, 'projectManager_f');
 projectManager_fileLog.pause = true;
 function init() {
+    (0,project_v2_ext_src/* initProjectSystem */.Nc)();
     projectManager_fileLog.log('projectMangerInit');
     User/* user */.k.addListener(User/* User */.K.SignOutEvent, onUserSignout);
     checkSyncProjects();
@@ -597,4 +601,4 @@ const projectManager = {
 /***/ })
 
 }]);
-//# sourceMappingURL=9538.c598cc8fd6badbb5.js.map
+//# sourceMappingURL=9538.c46e2de22dc0dfa1.js.map

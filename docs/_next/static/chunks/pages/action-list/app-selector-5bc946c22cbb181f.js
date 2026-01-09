@@ -160,8 +160,8 @@ var react = __webpack_require__(94285);
 var AppShell = __webpack_require__(26719);
 // EXTERNAL MODULE: ../../libs/app/ui/src/components/appbar/AppBar.tsx + 3 modules
 var AppBar = __webpack_require__(82524);
-// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/index.ts + 23 modules
-var src = __webpack_require__(91415);
+// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/index.ts + 22 modules
+var src = __webpack_require__(80396);
 // EXTERNAL MODULE: ../../libs/droid/project-v2-ext/src/index.ts + 69 modules
 var project_v2_ext_src = __webpack_require__(18697);
 ;// ./src/pages/action-list/app-selector/index.tsx
@@ -528,4 +528,4 @@ function AppSelector() {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=app-selector-7a2ee43e05d9a68e.js.map
+//# sourceMappingURL=app-selector-5bc946c22cbb181f.js.map

@@ -13,8 +13,8 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ../../libs/app/static/src/pages/trigger-list-action-list-common/common.ts
 var common = __webpack_require__(82964);
-// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/index.ts + 23 modules
-var src = __webpack_require__(91415);
+// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/index.ts + 22 modules
+var src = __webpack_require__(80396);
 // EXTERNAL MODULE: ../../libs/droid/project-v2-ext/src/index.ts + 69 modules
 var project_v2_ext_src = __webpack_require__(18697);
 // EXTERNAL MODULE: ../../libs/fanfanlo/src/utils/throw-trace-error.ts
@@ -374,8 +374,8 @@ function webViewJsRemoveListen(target, index) {
     return android.removeListen(target, index);
 }
 
-// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/index.ts + 23 modules
-var src = __webpack_require__(91415);
+// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/index.ts + 22 modules
+var src = __webpack_require__(80396);
 // EXTERNAL MODULE: ../../libs/app/static/src/pages/trigger-list-action-list-common/common.ts
 var common = __webpack_require__(82964);
 // EXTERNAL MODULE: ../../libs/fanfanlo/src/log/Log.ts + 1 modules
@@ -939,74 +939,55 @@ nodeClickUtils_fileLog.childrenPaused = false;
  * @returns ITriggerAction
  */ function createNodeTriggerActionPair(pn, an, cn, node) {
     var _triggerData_permissions, _triggerData_injects, _actionData_permissions, _actionData_injects;
-    nodeClickUtils_fileLog.log('createNodeTriggerActionPair called');
-    nodeClickUtils_fileLog.log('pn =', pn);
-    nodeClickUtils_fileLog.log('an =', an);
-    nodeClickUtils_fileLog.log('cn =', cn);
-    nodeClickUtils_fileLog.log('node =', node);
+    nodeClickUtils_fileLog.log('[createNodeTriggerActionPair] called, pn:', pn, 'an:', an, 'cn:', cn, 'node:', node);
     // 获取 trigger utils
     const triggerUtils = (0,src/* getTriggerUtils */.gq)(project_v2_ext_src/* triggerNodeTriggerType */.FG);
-    nodeClickUtils_fileLog.log('got triggerUtils for type:', project_v2_ext_src/* triggerNodeTriggerType */.FG);
+    nodeClickUtils_fileLog.log('[createNodeTriggerActionPair] triggerUtils for type:', project_v2_ext_src/* triggerNodeTriggerType */.FG, 'found:', !!triggerUtils);
     if (!triggerUtils) {
-        const errorMsg = "triggerUtils not found for type: ".concat(project_v2_ext_src/* triggerNodeTriggerType */.FG);
-        nodeClickUtils_fileLog.log(errorMsg);
-        throw new Error(errorMsg);
+        throw new Error("[createNodeTriggerActionPair] triggerUtils not found for type: ".concat(project_v2_ext_src/* triggerNodeTriggerType */.FG));
     }
-    nodeClickUtils_fileLog.log('triggerUtils found');
     // 使用 mergeDataToDefaultData 创建 trigger 数据
-    const triggerId = (0,index_esm/* ulid */.Z0)();
-    nodeClickUtils_fileLog.log('created triggerId =', triggerId);
-    // 将 node 转换为 selectorChain
-    nodeClickUtils_fileLog.log('converting node to selectorChain...');
+    const triggerUlid = (0,index_esm/* ulid */.Z0)();
     const operations = nodeToSelectorChain(node);
-    nodeClickUtils_fileLog.log('selectorChain operations count:', operations.length);
-    const triggerData = triggerUtils.mergeDataToDefaultData({
-        id: triggerId,
-        javaData: {
-            pn,
-            an,
-            cn: cn || undefined,
-            selectorChain: {
-                operations: operations
-            }
+    nodeClickUtils_fileLog.log('[createNodeTriggerActionPair] triggerUlid:', triggerUlid, 'selectorChain operations count:', operations.length);
+    const triggerJavaData = {
+        pn,
+        an,
+        cn: cn || undefined,
+        selectorChain: {
+            operations: operations
         }
+    };
+    const triggerData = triggerUtils.mergeDataToDefaultData({
+        ulid: triggerUlid,
+        javaData: triggerJavaData
     });
-    nodeClickUtils_fileLog.log('created triggerData with mergeDataToDefaultData');
-    nodeClickUtils_fileLog.log('triggerData.permissions count =', ((_triggerData_permissions = triggerData.permissions) === null || _triggerData_permissions === void 0 ? void 0 : _triggerData_permissions.length) || 0);
-    nodeClickUtils_fileLog.log('triggerData.injects count =', ((_triggerData_injects = triggerData.injects) === null || _triggerData_injects === void 0 ? void 0 : _triggerData_injects.length) || 0);
-    nodeClickUtils_fileLog.log('triggerData =', triggerData);
+    nodeClickUtils_fileLog.log('[createNodeTriggerActionPair] triggerData created, permissions:', ((_triggerData_permissions = triggerData.permissions) === null || _triggerData_permissions === void 0 ? void 0 : _triggerData_permissions.length) || 0, 'injects:', ((_triggerData_injects = triggerData.injects) === null || _triggerData_injects === void 0 ? void 0 : _triggerData_injects.length) || 0, 'data:', triggerData);
     // 获取 action utils
     const actionUtils = (0,src/* getActionUtils */.e9)(project_v2_ext_src/* actionNodeActionType */.pu);
-    nodeClickUtils_fileLog.log('got actionUtils for type:', project_v2_ext_src/* actionNodeActionType */.pu);
+    nodeClickUtils_fileLog.log('[createNodeTriggerActionPair] actionUtils for type:', project_v2_ext_src/* actionNodeActionType */.pu, 'found:', !!actionUtils);
     if (!actionUtils) {
-        const errorMsg = "actionUtils not found for type: ".concat(project_v2_ext_src/* actionNodeActionType */.pu);
-        nodeClickUtils_fileLog.log(errorMsg);
-        throw new Error(errorMsg);
+        throw new Error("[createNodeTriggerActionPair] actionUtils not found for type: ".concat(project_v2_ext_src/* actionNodeActionType */.pu));
     }
-    nodeClickUtils_fileLog.log('actionUtils found');
     // 使用 mergeDataToDefaultData 创建 action 数据
-    const actionId = (0,index_esm/* ulid */.Z0)();
-    nodeClickUtils_fileLog.log('created actionId =', actionId);
-    const actionData = actionUtils.mergeDataToDefaultData({
-        id: actionId,
-        javaData: {
-            actionType: 'click',
-            clickConfig: {
-                useGlobalClick: false
-            }
+    const actionUlid = (0,index_esm/* ulid */.Z0)();
+    const actionJavaData = {
+        actionType: project_v2_ext_src/* ActionType */.X2.click,
+        clickConfig: {
+            useGlobalClick: false
         }
+    };
+    const actionData = actionUtils.mergeDataToDefaultData({
+        ulid: actionUlid,
+        javaData: actionJavaData
     });
-    nodeClickUtils_fileLog.log('created actionData with mergeDataToDefaultData');
-    nodeClickUtils_fileLog.log('actionData.permissions count =', ((_actionData_permissions = actionData.permissions) === null || _actionData_permissions === void 0 ? void 0 : _actionData_permissions.length) || 0);
-    nodeClickUtils_fileLog.log('actionData.injects count =', ((_actionData_injects = actionData.injects) === null || _actionData_injects === void 0 ? void 0 : _actionData_injects.length) || 0);
-    nodeClickUtils_fileLog.log('actionData =', actionData);
+    nodeClickUtils_fileLog.log('[createNodeTriggerActionPair] actionData created, actionUlid:', actionUlid, 'permissions:', ((_actionData_permissions = actionData.permissions) === null || _actionData_permissions === void 0 ? void 0 : _actionData_permissions.length) || 0, 'injects:', ((_actionData_injects = actionData.injects) === null || _actionData_injects === void 0 ? void 0 : _actionData_injects.length) || 0, 'data:', actionData);
     // 创建 actionGroup (IGroup<IActionData>)
-    const actionGroupId = (0,index_esm/* ulid */.Z0)();
-    nodeClickUtils_fileLog.log('created actionGroupId =', actionGroupId);
-    const actionGroup = {
-        type: 'actionGroup',
-        id: actionGroupId,
+    const actionGroup = src/* actionGroupUtils */.hB.mergeDataToDefaultData({
         list: [
+            actionData.ulid
+        ],
+        children: [
             actionData
         ],
         checks: [
@@ -1015,15 +996,14 @@ nodeClickUtils_fileLog.childrenPaused = false;
             ]
         ],
         isSequential: true
-    };
-    nodeClickUtils_fileLog.log('created actionGroup =', actionGroup);
+    });
+    nodeClickUtils_fileLog.log('[createNodeTriggerActionPair] actionGroup created, ulid:', actionGroup.ulid, 'list:', JSON.stringify(actionGroup.list));
     // 创建 triggerGroup (IGroup<ITriggerData>)
-    const triggerGroupId = (0,index_esm/* ulid */.Z0)();
-    nodeClickUtils_fileLog.log('created triggerGroupId =', triggerGroupId);
-    const triggerGroup = {
-        type: 'triggerGroup',
-        id: triggerGroupId,
+    const triggerGroup = src/* triggerGroupUtils */.S5.mergeDataToDefaultData({
         list: [
+            triggerData.ulid
+        ],
+        children: [
             triggerData
         ],
         checks: [
@@ -1032,19 +1012,23 @@ nodeClickUtils_fileLog.childrenPaused = false;
             ]
         ],
         isSequential: true
-    };
-    nodeClickUtils_fileLog.log('created triggerGroup =', triggerGroup);
+    });
+    nodeClickUtils_fileLog.log('[createNodeTriggerActionPair] triggerGroup created, ulid:', triggerGroup.ulid, 'list:', JSON.stringify(triggerGroup.list));
     // 创建 triggerAction
-    const triggerActionId = (0,index_esm/* ulid */.Z0)();
-    nodeClickUtils_fileLog.log('created triggerActionId =', triggerActionId);
+    const triggerActionUlid = (0,index_esm/* ulid */.Z0)();
     const triggerAction = {
-        type: 'triggerAction',
-        id: triggerActionId,
-        name: '',
+        ulid: triggerActionUlid,
+        uuid: '',
+        triggerGroupUuid: triggerGroup.uuid,
+        triggerGroupUlid: triggerGroup.ulid,
+        actionGroupUuid: actionGroup.uuid,
+        actionGroupUlid: actionGroup.ulid,
         triggerGroup,
-        actionGroup
+        actionGroup,
+        createdAt: Date.now(),
+        updatedAt: Date.now()
     };
-    nodeClickUtils_fileLog.log('created triggerAction =', triggerAction);
+    nodeClickUtils_fileLog.log('[createNodeTriggerActionPair] triggerAction created, ulid:', triggerAction.ulid, 'triggerGroupUlid:', triggerAction.triggerGroupUlid, 'actionGroupUlid:', triggerAction.actionGroupUlid);
     return triggerAction;
 }
 /**
@@ -1068,8 +1052,7 @@ nodeClickUtils_fileLog.childrenPaused = false;
  * @returns operations 数组
  */ function nodeToSelectorChain(node) {
     const operations = [];
-    nodeClickUtils_fileLog.log('[nodeToSelectorChain] 开始转换 node 为 selectorChain');
-    nodeClickUtils_fileLog.log('[nodeToSelectorChain] node:', JSON.stringify(node));
+    nodeClickUtils_fileLog.log('[nodeToSelectorChain] 开始转换, node:', JSON.stringify(node));
     // 1. text - 优先级最高,如果有文本就使用
     if (node.text && typeof node.text === 'string' && node.text.trim() !== '') {
         const textValue = node.text.trim();
@@ -1171,8 +1154,7 @@ nodeClickUtils_fileLog.childrenPaused = false;
             });
         }
     }
-    nodeClickUtils_fileLog.log('[nodeToSelectorChain] 转换完成, operations count:', operations.length);
-    nodeClickUtils_fileLog.log('[nodeToSelectorChain] operations:', JSON.stringify(operations));
+    nodeClickUtils_fileLog.log('[nodeToSelectorChain] 转换完成, count:', operations.length, 'operations:', JSON.stringify(operations));
     return operations;
 }
 
@@ -1241,7 +1223,7 @@ handleNodeClickAction_fileLog.childrenPaused = false;
         handleNodeClickAction_fileLog.log('creating new triggerAction with node trigger');
         // 创建新的 triggerAction 对 (trigger + action)
         const newTriggerAction = createNodeTriggerActionPair(nodeData.pn, nodeData.an, nodeData.cn, nodeData.node);
-        handleNodeClickAction_fileLog.log('newTriggerAction created:', newTriggerAction.id);
+        handleNodeClickAction_fileLog.log('newTriggerAction created:', newTriggerAction.ulid);
         // 添加到 children[0] (triggerActionGroup)
         if (!project.children || project.children.length === 0) {
             handleNodeClickAction_fileLog.error('project.children is empty');
@@ -1602,15 +1584,8 @@ function Action(param) {
     const uiLog = Action_fileLog.sub(false, 'action_ui');
     uiLog.pause = true;
     uiLog.childrenPaused = true;
-    uiLog.log('actionData.type', actionData.type);
-    uiLog.log('index', index);
     const utils = (0,src/* getActionUtils */.e9)(actionData.type);
     function onDeleteComfirmed() {
-        var _actionGroup_children;
-        uiLog.log('[onDeleteComfirmed] 开始删除 action');
-        uiLog.log('[onDeleteComfirmed] actionGroup.children.length =', (_actionGroup_children = actionGroup.children) === null || _actionGroup_children === void 0 ? void 0 : _actionGroup_children.length);
-        uiLog.log('[onDeleteComfirmed] index =', index);
-        uiLog.log('[onDeleteComfirmed] actionData.ulid =', actionData.ulid);
         // 直接使用 index 删除，不需要再查找
         if (!actionGroup.children) {
             uiLog.error('[onDeleteComfirmed] actionGroup.children 不存在');
@@ -1621,8 +1596,8 @@ function Action(param) {
             return;
         }
         (0,proxyWatch/* toProxy */.I$)(actionGroup.children).splice(index, 1);
-        uiLog.log('[onDeleteComfirmed] 删除成功，新 actionGroup.children.length =', actionGroup.children.length);
     }
+    console.log('utils is', actionData.type, utils);
     return /*#__PURE__*/ (0,jsx_runtime.jsxs)(Box/* default */.A, {
         sx: {
             position: 'relative',
@@ -1824,15 +1799,8 @@ function Trigger(param) {
     const uiLog = Trigger_fileLog.sub(false, 'trigger_ui');
     uiLog.pause = true;
     uiLog.childrenPaused = true;
-    uiLog.log('triggerData.type', triggerData.type);
-    uiLog.log('index', index);
     const utils = (0,src/* getTriggerUtils */.gq)(triggerData.type);
     const onDeleteComfirmed = ()=>{
-        var _triggerGroup_children;
-        uiLog.log('[onDeleteComfirmed] 开始删除 trigger');
-        uiLog.log('[onDeleteComfirmed] triggerGroup.children.length =', (_triggerGroup_children = triggerGroup.children) === null || _triggerGroup_children === void 0 ? void 0 : _triggerGroup_children.length);
-        uiLog.log('[onDeleteComfirmed] index =', index);
-        uiLog.log('[onDeleteComfirmed] triggerData.ulid =', triggerData.ulid);
         // 直接使用 index 删除，不需要再查找
         if (!triggerGroup.children) {
             uiLog.error('[onDeleteComfirmed] triggerGroup.children 不存在');
@@ -2057,7 +2025,7 @@ function TriggerAction(param) {
                 border: '2px solid #02450e',
                 padding: '4px'
             },
-            "data-id-trigger-action": triggerAction.id,
+            "data-id-trigger-action": triggerAction.ulid,
             children: [
                 /*#__PURE__*/ (0,jsx_runtime.jsxs)(Grid2/* default */.A, {
                     sx: {
@@ -2173,7 +2141,7 @@ function TriggerActionGroup(param) {
                 padding: '4px'
             },
             ...src/* childToProjectDataUtils */.mR.triggerActionGroup.getTriggerActionGroupElementByProp(triggerActionGroup.list),
-            "data-id-trigger-action-group": triggerActionGroup.id,
+            "data-id-trigger-action-group": triggerActionGroup.ulid,
             children: [
                 /*#__PURE__*/ (0,jsx_runtime.jsxs)(Grid2/* default */.A, {
                     container: true,
@@ -2907,4 +2875,4 @@ const DialogActions = /*#__PURE__*/ react.forwardRef(function DialogActions(inPr
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=project-editor-b5d757ec836cc675.js.map
+//# sourceMappingURL=project-editor-ae9bf60d432cf8e4.js.map

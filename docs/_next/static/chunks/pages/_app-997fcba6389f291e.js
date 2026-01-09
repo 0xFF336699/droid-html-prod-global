@@ -3382,6 +3382,28 @@ var isPollEvent = event => {
 
 /***/ }),
 
+/***/ 7728:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   i: () => (/* binding */ createTriggerActionUtils)
+/* harmony export */ });
+/* harmony import */ var _mergeToDefaultData__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(40705);
+/**
+ * TriggerAction 工具函数
+ */ 
+function createTriggerActionUtils(type, createDefaultData) {
+    return {
+        type,
+        createDefaultData,
+        mergeDataToDefaultData: (0,_mergeToDefaultData__WEBPACK_IMPORTED_MODULE_0__/* .createMergeToDefaultData */ .dV)(createDefaultData)
+    };
+}
+
+
+/***/ }),
+
 /***/ 7827:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -4000,52 +4022,22 @@ function _deriveKeys() {
 
 "use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   GY: () => (/* binding */ createDefaultTriggerAction),
 /* harmony export */   zA: () => (/* binding */ createDefaultTriggerActionGroup)
 /* harmony export */ });
 /* unused harmony exports triggerActionGroupType, mergeTriggerActionGroupToDefaultData */
-/* harmony import */ var _utils_mergeToDefaultData__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(40705);
-/* harmony import */ var _barrel_optimize_names_ulid_ulid__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(43899);
-/* harmony import */ var _ITriggerGroup__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(85513);
-/* harmony import */ var _IActionGroup__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(80827);
-
+/* harmony import */ var _ITriggerAction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(29024);
+/* harmony import */ var _utils_mergeToDefaultData__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(40705);
+/* harmony import */ var _barrel_optimize_names_ulid_ulid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(43899);
 
 
 
 // === 类型常量 ===
 const triggerActionGroupType = 'triggerActionGroup';
-// === 创建默认 TriggerAction ===
-function createDefaultTriggerAction() {
-    console.log('[createDefaultTriggerAction] 开始创建');
-    const triggerGroup = _ITriggerGroup__WEBPACK_IMPORTED_MODULE_2__/* .triggerGroupUtils */ .zI.createDefaultData();
-    console.log('[createDefaultTriggerAction] triggerGroup.ulid:', triggerGroup.ulid);
-    const actionGroup = _IActionGroup__WEBPACK_IMPORTED_MODULE_3__/* .actionGroupUtils */ .hB.createDefaultData();
-    console.log('[createDefaultTriggerAction] actionGroup.ulid:', actionGroup.ulid);
-    const triggerActionUlid = (0,_barrel_optimize_names_ulid_ulid__WEBPACK_IMPORTED_MODULE_1__/* .ulid */ .Z0)();
-    console.log('[createDefaultTriggerAction] triggerAction.ulid:', triggerActionUlid);
-    return {
-        id: 0,
-        ulid: triggerActionUlid,
-        uuid: '',
-        triggerGroupUuid: triggerGroup.uuid,
-        triggerGroupUlid: triggerGroup.ulid,
-        actionGroupUuid: actionGroup.uuid,
-        actionGroupUlid: actionGroup.ulid,
-        triggerGroup,
-        actionGroup,
-        createdAt: Date.now(),
-        updatedAt: Date.now()
-    };
-}
 // === 创建默认 TriggerActionGroup ===
 function createDefaultTriggerActionGroup() {
-    console.log('[createDefaultTriggerActionGroup] 开始创建');
-    const triggerAction = createDefaultTriggerAction();
-    console.log('[createDefaultTriggerActionGroup] triggerAction.ulid:', triggerAction.ulid);
-    const triggerActionGroupUlid = (0,_barrel_optimize_names_ulid_ulid__WEBPACK_IMPORTED_MODULE_1__/* .ulid */ .Z0)();
-    console.log('[createDefaultTriggerActionGroup] triggerActionGroup.ulid:', triggerActionGroupUlid);
+    const triggerAction = _ITriggerAction__WEBPACK_IMPORTED_MODULE_0__/* .triggerActionUtils */ .q1.createDefaultData();
+    const triggerActionGroupUlid = (0,_barrel_optimize_names_ulid_ulid__WEBPACK_IMPORTED_MODULE_2__/* .ulid */ .Z0)();
     return {
-        id: 0,
         ulid: triggerActionGroupUlid,
         uuid: '',
         list: [
@@ -4066,9 +4058,7 @@ function createDefaultTriggerActionGroup() {
     };
 }
 function mergeTriggerActionGroupToDefaultData(data) {
-    console.log('[mergeTriggerActionGroupToDefaultData] 开始合并');
     const result = mergeToDefaultData(createDefaultTriggerActionGroup, data);
-    console.log('[mergeTriggerActionGroupToDefaultData] 合并完成, ulid:', result.ulid);
     return result;
 }
 
@@ -4350,7 +4340,6 @@ const projectType = 'project';
  */ function createDefaultProject() {
     const triggerActionGroup = (0,_ITriggerActionGroup__WEBPACK_IMPORTED_MODULE_2__/* .createDefaultTriggerActionGroup */ .zA)();
     return {
-        id: 0,
         ulid: (0,_barrel_optimize_names_ulid_ulid__WEBPACK_IMPORTED_MODULE_0__/* .ulid */ .Z0)(),
         uuid: '',
         ownerUuid: '',
@@ -14812,6 +14801,7 @@ const memoTheme = unstable_memoTheme;
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
+  X2: () => (/* reexport */ ActionType),
   L$: () => (/* reexport */ SelectorOperation),
   pB: () => (/* reexport */ actionA11yNodeExecuteUtils),
   pu: () => (/* reexport */ actionNodeActionType),
@@ -14827,14 +14817,14 @@ __webpack_require__.d(__webpack_exports__, {
   SR: () => (/* reexport */ triggerWhenActivityInUtils)
 });
 
-// UNUSED EXPORTS: A11yNode, A11yNodePropertyInfo, A11yNodePropertyType, ActionType, AppIcon30, ISFCondfType, NodeActionKeys, NodeActionUI, SFAction, SFActionClick, SFActionFocus, SFActionGlobalClick, SFActionLearFocus, SFActionLongClick, SFActionSetText, SFActionTryClick, SFCond, SFCondClickable, SFCondDesc, SFCondDescs, SFCondId, SFCondIds, SFCondMatchText, SFCondRoot, SFCondText, SFCondTexts, SFCondTypes, SFData, SFWait, a11yActionNamespace, a11yNodeProperties, a11yNodeProperyEnum, a11yNodeRealizedKeys, a11yTriggerNamespace, actionNodeActionUtils, actionsNamespace, appActionNamespace, appTriggerNamespace, floatWindowActionNamespace, initActions, initTriggers, nodeActions, scriptActionAdvancedTemplate, scriptActionFullTemplate, scriptActionNamespace, scriptActionSimpleTemplate, scriptTriggerAdvancedTemplate, scriptTriggerFullTemplate, scriptTriggerNamespace, scriptTriggerSimpleTemplate, timeNamespace, timeOutOpenAppTriggerActionUtils, triggerActionsNamespace, triggerNodeTriggerUtils, triggersNamespace
+// UNUSED EXPORTS: A11yNode, A11yNodePropertyInfo, A11yNodePropertyType, AppIcon30, ISFCondfType, NodeActionKeys, NodeActionUI, SFAction, SFActionClick, SFActionFocus, SFActionGlobalClick, SFActionLearFocus, SFActionLongClick, SFActionSetText, SFActionTryClick, SFCond, SFCondClickable, SFCondDesc, SFCondDescs, SFCondId, SFCondIds, SFCondMatchText, SFCondRoot, SFCondText, SFCondTexts, SFCondTypes, SFData, SFWait, a11yActionNamespace, a11yNodeProperties, a11yNodeProperyEnum, a11yNodeRealizedKeys, a11yTriggerNamespace, actionNodeActionUtils, actionsNamespace, appActionNamespace, appTriggerNamespace, floatWindowActionNamespace, initActions, initTriggers, nodeActions, scriptActionAdvancedTemplate, scriptActionFullTemplate, scriptActionNamespace, scriptActionSimpleTemplate, scriptTriggerAdvancedTemplate, scriptTriggerFullTemplate, scriptTriggerNamespace, scriptTriggerSimpleTemplate, timeNamespace, timeOutOpenAppTriggerActionUtils, triggerActionsNamespace, triggerNodeTriggerUtils, triggersNamespace
 
 // EXTERNAL MODULE: ../../libs/fanfanlo/src/log/Log.ts + 1 modules
 var Log = __webpack_require__(89597);
 // EXTERNAL MODULE: __barrel_optimize__?names=ulid!=!../../node_modules/.pnpm/ulid@2.4.0/node_modules/ulid/dist/index.esm.js + 1 modules
 var index_esm = __webpack_require__(43899);
-// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/index.ts + 23 modules
-var src = __webpack_require__(91415);
+// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/index.ts + 22 modules
+var src = __webpack_require__(80396);
 ;// ../../libs/droid/project-v2-ext/src/triggers/time/time-namespace.ts
 /**
  * Time 命名空间
@@ -14922,7 +14912,6 @@ function createDefaultData() {
     fileLog.log('[ITriggerTimeout.createDefaultData] 创建默认数据, type:', type);
     const ulidValue = (0,index_esm/* ulid */.Z0)();
     const defaultData = {
-        id: 0,
         ulid: ulidValue,
         uuid: '',
         ownerUuid: '',
@@ -15085,7 +15074,6 @@ function ITriggerWhenActivityIn_createDefaultData() {
     ITriggerWhenActivityIn_fileLog.log('[ITriggerWhenActivityIn.createDefaultData] 创建默认数据');
     const ulidValue = (0,index_esm/* ulid */.Z0)();
     const data = {
-        id: 0,
         ulid: ulidValue,
         uuid: '',
         ownerUuid: '',
@@ -15316,7 +15304,6 @@ ITriggerNodeTrigger_fileLog.log('[ITriggerNodeTrigger] type:', ITriggerNodeTrigg
     ];
     ITriggerNodeTrigger_fileLog.log('[ITriggerNodeTrigger.createDefaultData] 注入配置数量:', injects.length);
     const defaultData = {
-        id: 0,
         ulid: ulidValue,
         uuid: '',
         ownerUuid: '',
@@ -15495,7 +15482,6 @@ function ITriggerScript_inft_createDefaultData() {
     const ulidValue = (0,index_esm/* ulid */.Z0)();
     ITriggerScript_inft_fileLog.log('[ITriggerScript.createDefaultData] 生成ulid:', ulidValue);
     const defaultData = {
-        id: 0,
         ulid: ulidValue,
         uuid: '',
         ownerUuid: '',
@@ -15652,7 +15638,7 @@ function IActionOpenAppUI(data) {
         if (!list) {
             throw new Error('actionList is undefined');
         }
-        const index = list.findIndex((a)=>a.id === data.id);
+        const index = list.findIndex((a)=>a.ulid === data.ulid);
         if (index === -1) {
             throw new Error('action not found');
         }
@@ -15735,8 +15721,8 @@ var i18n_value_loader = __webpack_require__(91628);
 const IActionOpenApp_inft_fileLog = new Log/* Log */.tG(false, '[IActionOpenApp]');
 IActionOpenApp_inft_fileLog.pause = true;
 IActionOpenApp_inft_fileLog.childrenPaused = true;
-const IActionOpenApp_inft_type = "".concat(appActionNamespace, "openApp");
-IActionOpenApp_inft_fileLog.log('[IActionOpenApp] type:', IActionOpenApp_inft_type);
+const actionType = "".concat(appActionNamespace, "openApp");
+IActionOpenApp_inft_fileLog.log('[IActionOpenApp] type:', actionType);
 const i18nNamespace = 'droid-project-v2-ext/actions/app/action-open-app/content';
 function IActionOpenApp_inft_createDefaultData() {
     IActionOpenApp_inft_fileLog.log('[createDefaultData] 开始创建默认数据');
@@ -15774,19 +15760,18 @@ function IActionOpenApp_inft_createDefaultData() {
     IActionOpenApp_inft_fileLog.log('[createDefaultData] 注入配置数量:', injects.length);
     IActionOpenApp_inft_fileLog.log('[createDefaultData] permissionsMap=', JSON.stringify(permissionsMap));
     const defaultData = {
-        id: 0,
         ulid: ulidValue,
         uuid: '',
         ownerUuid: '',
         currentVersion: 0,
-        type: IActionOpenApp_inft_type,
+        type: actionType,
         name: 'actionOpenApp',
         permissions,
         injects,
         javaData: {
             packageName: ''
         },
-        shellData: {
+        webConfig: {
             permissionsMap
         },
         createdAt: 0,
@@ -15821,7 +15806,7 @@ async function loadI18nTexts(data) {
     for(let i = 0; i < permissionsLength; i++){
         const permission = data.permissions[i];
         IActionOpenApp_inft_fileLog.log('[loadI18nTexts] 处理权限索引:', i, 'value:', permission.value);
-        const permissionI18n = data.shellData.permissionsMap[permission.value];
+        const permissionI18n = data.webConfig.permissionsMap[permission.value];
         IActionOpenApp_inft_fileLog.log('[loadI18nTexts] permissionI18n=', JSON.stringify(permissionI18n));
         if (permissionI18n) {
             const ns = permissionI18n.reasonI18nNs;
@@ -15841,7 +15826,7 @@ async function loadI18nTexts(data) {
     }
     IActionOpenApp_inft_fileLog.log('[loadI18nTexts] 所有权限国际化文本加载完成');
 }
-const actionOpenAppUtils = (0,src/* createActionUtils */.A5)(IActionOpenApp_inft_type, IActionOpenApp_inft_init, IActionOpenApp_inft_createDefaultData, IActionOpenAppUI);
+const actionOpenAppUtils = (0,src/* createActionUtils */.A5)(actionType, IActionOpenApp_inft_init, IActionOpenApp_inft_createDefaultData, IActionOpenAppUI);
 // 添加 loadI18nTexts 方法
 actionOpenAppUtils.loadI18nTexts = loadI18nTexts;
 
@@ -15961,7 +15946,6 @@ function IToAppMainPage_intf_createDefaultData() {
     IToAppMainPage_intf_fileLog.log('[createDefaultData] 开始创建默认数据');
     const ulidValue = (0,index_esm/* ulid */.Z0)();
     const data = {
-        id: 0,
         ulid: ulidValue,
         uuid: '',
         ownerUuid: '',
@@ -17119,7 +17103,6 @@ function node_execute_createDefaultData() {
     node_execute_fileLog.log('[createDefaultData] 开始创建默认数据');
     const ulidValue = (0,index_esm/* ulid */.Z0)();
     const data = {
-        id: 0,
         ulid: ulidValue,
         uuid: '',
         ownerUuid: '',
@@ -17552,7 +17535,6 @@ IActionNodeAction_fileLog.log('[IActionNodeAction] type:', IActionNodeAction_typ
     ];
     IActionNodeAction_fileLog.log('[createDefaultData] 注入配置数量:', injects.length);
     const defaultData = {
-        id: 0,
         ulid: ulidValue,
         uuid: '',
         ownerUuid: '',
@@ -17720,7 +17702,6 @@ function IActionScript_inft_createDefaultData() {
     const ulidValue = (0,index_esm/* ulid */.Z0)();
     IActionScript_inft_fileLog.log('[createDefaultData] 生成ulid:', ulidValue);
     const defaultData = {
-        id: 0,
         ulid: ulidValue,
         uuid: '',
         ownerUuid: '',
@@ -17743,7 +17724,202 @@ function IActionScript_inft_init() {
 }
 const actionScriptUtils = (0,src/* createActionUtils */.A5)(IActionScript_inft_type, IActionScript_inft_init, IActionScript_inft_createDefaultData, IActionScriptUI);
 
+;// ../../libs/droid/project-v2-ext/src/actions/app/index.ts
+
+
+
+
+;// ../../libs/droid/project-v2-ext/src/actions/a11y/index.ts
+
+
+
+
+
+
+;// ../../libs/droid/project-v2-ext/src/actions/script/index.ts
+
+
+
+
+// EXTERNAL MODULE: ../../libs/droid/android/src/android/win/WindowConf.ts
+var WindowConf = __webpack_require__(99949);
+;// ../../libs/droid/project-v2-ext/src/actions/actions-namespace.ts
+/**
+ * Actions 命名空间
+ */ const actionsNamespace = 'fanfanlo/javajs/v1/project/components/actions/';
+
+;// ../../libs/droid/project-v2-ext/src/actions/float-window/float-window-namespace.ts
+
+const floatWindowActionNamespace = "".concat(actionsNamespace, "floatwindow/");
+
+;// ../../libs/droid/project-v2-ext/src/actions/float-window/action-show-float-window/IActionShowFloatWindow.UI.tsx
+
+
+
+
+
+
+
+function UpdateWindowConfLink(param) {
+    let { data, children } = param;
+    var _projectInfo_project, _projectInfo_triggerActionGroup, _projectInfo_triggerAction, _projectInfo_actionGroup, _projectInfo_project1, _projectInfo_triggerActionGroup1, _projectInfo_triggerAction1, _projectInfo_actionGroup1;
+    console.log('[UpdateWindowConfLink] rendering, data:', data);
+    const projectInfo = {};
+    src/* childToProjectDataUtils */.mR.actionList.getActionListByProp(data, projectInfo);
+    console.log('[UpdateWindowConfLink] projectInfo:', projectInfo);
+    if (!((_projectInfo_project = projectInfo.project) === null || _projectInfo_project === void 0 ? void 0 : _projectInfo_project.ulid) || !((_projectInfo_triggerActionGroup = projectInfo.triggerActionGroup) === null || _projectInfo_triggerActionGroup === void 0 ? void 0 : _projectInfo_triggerActionGroup.ulid) || !((_projectInfo_triggerAction = projectInfo.triggerAction) === null || _projectInfo_triggerAction === void 0 ? void 0 : _projectInfo_triggerAction.ulid) || !((_projectInfo_actionGroup = projectInfo.actionGroup) === null || _projectInfo_actionGroup === void 0 ? void 0 : _projectInfo_actionGroup.ulid)) {
+        console.error('[UpdateWindowConfLink] projectInfo is undefined', projectInfo);
+        return null;
+    }
+    const router = (0,next_router.useRouter)();
+    const backPath = router.pathname;
+    console.log('[UpdateWindowConfLink] backPath:', backPath);
+    const query = {
+        backPath,
+        projectId: (_projectInfo_project1 = projectInfo.project) === null || _projectInfo_project1 === void 0 ? void 0 : _projectInfo_project1.ulid,
+        triggerActionGroupId: (_projectInfo_triggerActionGroup1 = projectInfo.triggerActionGroup) === null || _projectInfo_triggerActionGroup1 === void 0 ? void 0 : _projectInfo_triggerActionGroup1.ulid,
+        triggerActionId: (_projectInfo_triggerAction1 = projectInfo.triggerAction) === null || _projectInfo_triggerAction1 === void 0 ? void 0 : _projectInfo_triggerAction1.ulid,
+        actionGroupId: (_projectInfo_actionGroup1 = projectInfo.actionGroup) === null || _projectInfo_actionGroup1 === void 0 ? void 0 : _projectInfo_actionGroup1.ulid,
+        type: common/* ActionOrTriggerListTypeEnum */.Q.updateAction,
+        actionId: data.ulid,
+        actionType: actionShowFloatWindowUtils.type
+    };
+    console.log('[UpdateWindowConfLink] query:', query);
+    const param1 = new URLSearchParams([
+        ...Object.entries(query)
+    ]);
+    const p = "/action-list/float-window-config?".concat(param1.toString());
+    console.log('[UpdateWindowConfLink] path:', p);
+    function onLinkClick() {
+        console.log('[UpdateWindowConfLink] onClick, navigating to:', p);
+        router.push(p);
+    }
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Button/* default */.A, {
+        id: "show-float-window-action-change-conf-btn",
+        "data-id": "show-float-window-action-change-conf-btn",
+        "data-testid": "show-float-window-action-change-conf-btn-ooae882",
+        onClick: onLinkClick,
+        children: children
+    });
+}
+function IActionShowFloatWindowUI(data) {
+    const { t } = (0,es/* useTranslation */.Bd)('droid/project-v2-ext/actions/float-window/action-show-float-window/content');
+    console.log('[IActionShowFloatWindowUI] rendering, data:', data);
+    const windowConf = data.javaData.windowConf;
+    console.log('[IActionShowFloatWindowUI] windowConf:', windowConf);
+    function getDisplayText() {
+        var _windowConf_htmlConf;
+        console.log('[IActionShowFloatWindowUI.getDisplayText] calculating display text');
+        if (windowConf.description && windowConf.description.trim()) {
+            console.log('[IActionShowFloatWindowUI.getDisplayText] using description:', windowConf.description);
+            return windowConf.description;
+        }
+        if (((_windowConf_htmlConf = windowConf.htmlConf) === null || _windowConf_htmlConf === void 0 ? void 0 : _windowConf_htmlConf.url) && windowConf.htmlConf.url.trim()) {
+            console.log('[IActionShowFloatWindowUI.getDisplayText] using url:', windowConf.htmlConf.url);
+            return windowConf.htmlConf.url;
+        }
+        console.log('[IActionShowFloatWindowUI.getDisplayText] using windowId:', windowConf.windowId);
+        return windowConf.windowId;
+    }
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(Box/* default */.A, {
+        sx: {
+            width: '100%'
+        },
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
+                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("b", {
+                    children: t('IActionShowFloatWindow.title')
+                })
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)(Grid2/* default */.A, {
+                container: true,
+                sx: {
+                    width: '100%'
+                },
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(Grid2/* default */.A, {
+                        size: "grow",
+                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Typography/* default */.A, {
+                            sx: {},
+                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                style: {
+                                    display: "inline-block",
+                                    textIndent: "10px"
+                                },
+                                children: getDisplayText()
+                            })
+                        })
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(Grid2/* default */.A, {
+                        size: "auto",
+                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(UpdateWindowConfLink, {
+                            data: data,
+                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                                children: t('IActionShowFloatWindow.configure')
+                            })
+                        })
+                    })
+                ]
+            })
+        ]
+    });
+}
+
+;// ../../libs/droid/project-v2-ext/src/actions/float-window/action-show-float-window/IActionShowFloatWindow.inft.tsx
+
+
+
+
+
+
+const IActionShowFloatWindow_inft_fileLog = new Log/* Log */.tG(false, '[IActionShowFloatWindow]');
+IActionShowFloatWindow_inft_fileLog.pause = true;
+IActionShowFloatWindow_inft_fileLog.childrenPaused = true;
+const IActionShowFloatWindow_inft_type = "".concat(floatWindowActionNamespace, "showFloatWindow");
+IActionShowFloatWindow_inft_fileLog.log('[IActionShowFloatWindow] type:', IActionShowFloatWindow_inft_type);
+function IActionShowFloatWindow_inft_createDefaultData() {
+    IActionShowFloatWindow_inft_fileLog.log('[createDefaultData] 开始创建默认数据');
+    const ulidValue = (0,index_esm/* ulid */.Z0)();
+    const data = {
+        ulid: ulidValue,
+        uuid: '',
+        ownerUuid: '',
+        currentVersion: 0,
+        type: IActionShowFloatWindow_inft_type,
+        javaData: {
+            windowConf: (0,WindowConf/* createDefaultWindowConf */.IL)()
+        },
+        createdAt: 0,
+        updatedAt: 0,
+        authorUuid: ''
+    };
+    IActionShowFloatWindow_inft_fileLog.log('[createDefaultData] data:', JSON.stringify(data));
+    return data;
+}
+function IActionShowFloatWindow_inft_init() {
+    IActionShowFloatWindow_inft_fileLog.log('[init] showFloatWindow 初始化');
+}
+const actionShowFloatWindowUtils = (0,src/* createActionUtils */.A5)(IActionShowFloatWindow_inft_type, IActionShowFloatWindow_inft_init, IActionShowFloatWindow_inft_createDefaultData, IActionShowFloatWindowUI);
+
+;// ../../libs/droid/project-v2-ext/src/actions/float-window/index.ts
+
+
+
+;// ../../libs/droid/project-v2-ext/src/actions/index.ts
+// Actions 主导出
+// App
+
+// A11y
+
+// Script
+
+// Float Window
+
+// Namespace
+
+
 ;// ../../libs/droid/project-v2-ext/src/init/initActions.ts
+
 
 
 
@@ -17757,18 +17933,12 @@ initActions_fileLog.childrenPaused = true;
  * 初始化所有 Actions
  * 调用各个 actionUtils.init() 完成注册
  */ function initActions() {
-    initActions_fileLog.log('[initActions] 开始初始化所有 action types');
     actionOpenAppUtils.init();
-    initActions_fileLog.log('[initActions] actionOpenAppUtils 初始化完成');
     actionToAppMainPageUtils.init();
-    initActions_fileLog.log('[initActions] actionToAppMainPageUtils 初始化完成');
     actionA11yNodeExecuteUtils.init();
-    initActions_fileLog.log('[initActions] actionA11yNodeExecuteUtils 初始化完成');
     actionNodeActionUtils.init();
-    initActions_fileLog.log('[initActions] actionNodeActionUtils 初始化完成');
     actionScriptUtils.init();
-    initActions_fileLog.log('[initActions] actionScriptUtils 初始化完成');
-    initActions_fileLog.log('[initActions] 所有 action types 初始化完成');
+    actionShowFloatWindowUtils.init();
 }
 
 ;// ../../libs/droid/project-v2-ext/src/init/initProjectSystem.ts
@@ -17888,219 +18058,6 @@ initProjectSystem_fileLog.childrenPaused = true;
 // Namespace
 
 
-;// ../../libs/droid/project-v2-ext/src/actions/app/index.ts
-
-
-
-
-;// ../../libs/droid/project-v2-ext/src/actions/a11y/index.ts
-
-
-
-
-
-
-;// ../../libs/droid/project-v2-ext/src/actions/script/index.ts
-
-
-
-
-// EXTERNAL MODULE: ../../libs/droid/android/src/android/win/WindowConf.ts
-var WindowConf = __webpack_require__(99949);
-;// ../../libs/droid/project-v2-ext/src/actions/actions-namespace.ts
-/**
- * Actions 命名空间
- */ const actionsNamespace = 'fanfanlo/javajs/v1/project/components/actions/';
-
-;// ../../libs/droid/project-v2-ext/src/actions/float-window/float-window-namespace.ts
-
-const floatWindowActionNamespace = "".concat(actionsNamespace, "floatwindow/");
-
-;// ../../libs/droid/project-v2-ext/src/actions/float-window/action-show-float-window/IActionShowFloatWindow.UI.tsx
-
-
-
-
-
-
-
-function UpdateWindowConfLink(param) {
-    let { data, children } = param;
-    var _projectInfo_project, _projectInfo_triggerActionGroup, _projectInfo_triggerAction, _projectInfo_actionGroup, _projectInfo_project1, _projectInfo_triggerActionGroup1, _projectInfo_triggerAction1, _projectInfo_actionGroup1;
-    console.log('[UpdateWindowConfLink] rendering, data:', data);
-    const projectInfo = {};
-    src/* childToProjectDataUtils */.mR.actionList.getActionListByProp(data, projectInfo);
-    console.log('[UpdateWindowConfLink] projectInfo:', projectInfo);
-    if (!((_projectInfo_project = projectInfo.project) === null || _projectInfo_project === void 0 ? void 0 : _projectInfo_project.id) || !((_projectInfo_triggerActionGroup = projectInfo.triggerActionGroup) === null || _projectInfo_triggerActionGroup === void 0 ? void 0 : _projectInfo_triggerActionGroup.id) || !((_projectInfo_triggerAction = projectInfo.triggerAction) === null || _projectInfo_triggerAction === void 0 ? void 0 : _projectInfo_triggerAction.id) || !((_projectInfo_actionGroup = projectInfo.actionGroup) === null || _projectInfo_actionGroup === void 0 ? void 0 : _projectInfo_actionGroup.id)) {
-        console.error('[UpdateWindowConfLink] projectInfo is undefined', projectInfo);
-        return null;
-    }
-    const router = (0,next_router.useRouter)();
-    const backPath = router.pathname;
-    console.log('[UpdateWindowConfLink] backPath:', backPath);
-    const query = {
-        backPath,
-        projectId: (_projectInfo_project1 = projectInfo.project) === null || _projectInfo_project1 === void 0 ? void 0 : _projectInfo_project1.id,
-        triggerActionGroupId: (_projectInfo_triggerActionGroup1 = projectInfo.triggerActionGroup) === null || _projectInfo_triggerActionGroup1 === void 0 ? void 0 : _projectInfo_triggerActionGroup1.id,
-        triggerActionId: (_projectInfo_triggerAction1 = projectInfo.triggerAction) === null || _projectInfo_triggerAction1 === void 0 ? void 0 : _projectInfo_triggerAction1.id,
-        actionGroupId: (_projectInfo_actionGroup1 = projectInfo.actionGroup) === null || _projectInfo_actionGroup1 === void 0 ? void 0 : _projectInfo_actionGroup1.id,
-        type: common/* ActionOrTriggerListTypeEnum */.Q.updateAction,
-        actionId: data.id,
-        actionType: actionShowFloatWindowUtils.type
-    };
-    console.log('[UpdateWindowConfLink] query:', query);
-    const param1 = new URLSearchParams([
-        ...Object.entries(query)
-    ]);
-    const p = "/action-list/float-window-config?".concat(param1.toString());
-    console.log('[UpdateWindowConfLink] path:', p);
-    function onLinkClick() {
-        console.log('[UpdateWindowConfLink] onClick, navigating to:', p);
-        router.push(p);
-    }
-    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Button/* default */.A, {
-        id: "show-float-window-action-change-conf-btn",
-        "data-id": "show-float-window-action-change-conf-btn",
-        onClick: onLinkClick,
-        children: children
-    });
-}
-function IActionShowFloatWindowUI(data) {
-    console.log('[IActionShowFloatWindowUI] rendering, data:', data);
-    const windowConf = data.javaData.windowConf;
-    console.log('[IActionShowFloatWindowUI] windowConf:', windowConf);
-    function getDisplayText() {
-        var _windowConf_htmlConf;
-        console.log('[IActionShowFloatWindowUI.getDisplayText] calculating display text');
-        if (windowConf.description && windowConf.description.trim()) {
-            console.log('[IActionShowFloatWindowUI.getDisplayText] using description:', windowConf.description);
-            return windowConf.description;
-        }
-        if (((_windowConf_htmlConf = windowConf.htmlConf) === null || _windowConf_htmlConf === void 0 ? void 0 : _windowConf_htmlConf.url) && windowConf.htmlConf.url.trim()) {
-            console.log('[IActionShowFloatWindowUI.getDisplayText] using url:', windowConf.htmlConf.url);
-            return windowConf.htmlConf.url;
-        }
-        console.log('[IActionShowFloatWindowUI.getDisplayText] using windowId:', windowConf.windowId);
-        return windowConf.windowId;
-    }
-    function onDeleteConfirmed() {
-        console.log('[IActionShowFloatWindowUI] onDeleteConfirmed called for action id:', data.id);
-        const projectData = {};
-        src/* childToProjectDataUtils */.mR.actionList.getActionListByProp(data, projectData);
-        console.log('[IActionShowFloatWindowUI] projectData:', projectData);
-        const list = projectData.actionList;
-        if (!list) {
-            console.error('[IActionShowFloatWindowUI] actionList is undefined');
-            throw new Error('actionList is undefined');
-        }
-        console.log('[IActionShowFloatWindowUI] current actionList length:', list.length);
-        const index = list.findIndex((a)=>a.id === data.id);
-        console.log('[IActionShowFloatWindowUI] action index:', index);
-        if (index === -1) {
-            console.error('[IActionShowFloatWindowUI] action not found in list');
-            throw new Error('action not found');
-        }
-        (0,proxyWatch/* toProxy */.I$)(list).splice(index, 1);
-        console.log('[IActionShowFloatWindowUI] action deleted, new list length:', list.length);
-    }
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(Box/* default */.A, {
-        sx: {
-            width: '100%'
-        },
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(Box/* default */.A, {
-                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("b", {
-                    children: "显示悬浮窗"
-                })
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)(Grid2/* default */.A, {
-                container: true,
-                sx: {
-                    width: '100%'
-                },
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(Grid2/* default */.A, {
-                        size: "grow",
-                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Typography/* default */.A, {
-                            sx: {},
-                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                style: {
-                                    display: "inline-block",
-                                    textIndent: "10px"
-                                },
-                                children: getDisplayText()
-                            })
-                        })
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(Grid2/* default */.A, {
-                        size: "auto",
-                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(UpdateWindowConfLink, {
-                            data: data,
-                            children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                children: "配置"
-                            })
-                        })
-                    })
-                ]
-            })
-        ]
-    });
-}
-
-;// ../../libs/droid/project-v2-ext/src/actions/float-window/action-show-float-window/IActionShowFloatWindow.inft.tsx
-
-
-
-
-
-
-const IActionShowFloatWindow_inft_fileLog = new Log/* Log */.tG(false, '[IActionShowFloatWindow]');
-IActionShowFloatWindow_inft_fileLog.pause = true;
-IActionShowFloatWindow_inft_fileLog.childrenPaused = true;
-const IActionShowFloatWindow_inft_type = "".concat(floatWindowActionNamespace, "showFloatWindow");
-IActionShowFloatWindow_inft_fileLog.log('[IActionShowFloatWindow] type:', IActionShowFloatWindow_inft_type);
-function IActionShowFloatWindow_inft_createDefaultData() {
-    IActionShowFloatWindow_inft_fileLog.log('[createDefaultData] 开始创建默认数据');
-    const ulidValue = (0,index_esm/* ulid */.Z0)();
-    const data = {
-        id: 0,
-        ulid: ulidValue,
-        uuid: '',
-        ownerUuid: '',
-        currentVersion: 0,
-        type: IActionShowFloatWindow_inft_type,
-        javaData: {
-            windowConf: (0,WindowConf/* createDefaultWindowConf */.IL)()
-        },
-        createdAt: 0,
-        updatedAt: 0,
-        authorUuid: ''
-    };
-    IActionShowFloatWindow_inft_fileLog.log('[createDefaultData] data:', JSON.stringify(data));
-    return data;
-}
-function IActionShowFloatWindow_inft_init() {
-    IActionShowFloatWindow_inft_fileLog.log('[init] showFloatWindow 初始化');
-}
-const actionShowFloatWindowUtils = (0,src/* createActionUtils */.A5)(IActionShowFloatWindow_inft_type, IActionShowFloatWindow_inft_init, IActionShowFloatWindow_inft_createDefaultData, IActionShowFloatWindowUI);
-
-;// ../../libs/droid/project-v2-ext/src/actions/float-window/index.ts
-
-
-
-;// ../../libs/droid/project-v2-ext/src/actions/index.ts
-// Actions 主导出
-// App
-
-// A11y
-
-// Script
-
-// Float Window
-
-// Namespace
-
-
 ;// ../../libs/droid/project-v2-ext/src/trigger-actions/trigger-actions-namespace.ts
 
 const triggerActionsNamespace = "".concat(src/* projectNamespace */.Dp, "triggerActions/");
@@ -18117,7 +18074,6 @@ function ITimeOutOpenApp_createDefaultData() {
     const triggerGroupUlid = (0,index_esm/* ulid */.Z0)();
     const actionGroupUlid = (0,index_esm/* ulid */.Z0)();
     return {
-        id: 0,
         ulid: ulidValue,
         uuid: '',
         ownerUuid: '',
@@ -18129,7 +18085,6 @@ function ITimeOutOpenApp_createDefaultData() {
         triggerGroupUuid: '',
         actionGroupUuid: '',
         triggerGroup: {
-            id: 0,
             ulid: triggerGroupUlid,
             uuid: '',
             ownerUuid: '',
@@ -18149,7 +18104,6 @@ function ITimeOutOpenApp_createDefaultData() {
             authorUuid: ''
         },
         actionGroup: {
-            id: 0,
             ulid: actionGroupUlid,
             uuid: '',
             ownerUuid: '',
@@ -30090,6 +30044,49 @@ const AccordionSummary = /*#__PURE__*/ react.forwardRef(function AccordionSummar
 
 /***/ }),
 
+/***/ 29024:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   GY: () => (/* binding */ createDefaultTriggerAction),
+/* harmony export */   q1: () => (/* binding */ triggerActionUtils)
+/* harmony export */ });
+/* unused harmony export triggerActionType */
+/* harmony import */ var _ITriggerGroup__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(85513);
+/* harmony import */ var _IActionGroup__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(80827);
+/* harmony import */ var _barrel_optimize_names_ulid_ulid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(43899);
+/* harmony import */ var _utils_triggerActionUtils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7728);
+
+
+
+
+// === 类型常量 ===
+const triggerActionType = 'triggerAction';
+// === 创建默认 TriggerAction ===
+function createDefaultTriggerAction() {
+    const triggerGroup = _ITriggerGroup__WEBPACK_IMPORTED_MODULE_0__/* .triggerGroupUtils */ .zI.createDefaultData();
+    const actionGroup = _IActionGroup__WEBPACK_IMPORTED_MODULE_1__/* .actionGroupUtils */ .hB.createDefaultData();
+    const triggerActionUlid = (0,_barrel_optimize_names_ulid_ulid__WEBPACK_IMPORTED_MODULE_2__/* .ulid */ .Z0)();
+    return {
+        ulid: triggerActionUlid,
+        uuid: '',
+        triggerGroupUuid: triggerGroup.uuid,
+        triggerGroupUlid: triggerGroup.ulid,
+        actionGroupUuid: actionGroup.uuid,
+        actionGroupUlid: actionGroup.ulid,
+        triggerGroup,
+        actionGroup,
+        createdAt: Date.now(),
+        updatedAt: Date.now()
+    };
+}
+// === TriggerAction Utils ===
+const triggerActionUtils = (0,_utils_triggerActionUtils__WEBPACK_IMPORTED_MODULE_3__/* .createTriggerActionUtils */ .i)(triggerActionType, createDefaultTriggerAction);
+
+
+/***/ }),
+
 /***/ 29050:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -41881,6 +41878,7 @@ function mergeToDefaultData(createDefaultData, data) {
 function mergeDataWith(dist, src) {
     return lodash__WEBPACK_IMPORTED_MODULE_0___default().mergeWith(dist, src, (a, b)=>{
         if (lodash__WEBPACK_IMPORTED_MODULE_0___default().isArray(a) && lodash__WEBPACK_IMPORTED_MODULE_0___default().isArray(b)) {
+            // 关于返回什么数据的讨论 https://gemini.google.com/app/8bb39bcc58ded134
             return b;
         }
     });
@@ -51684,7 +51682,7 @@ fileLog.pause = true;
             fnLog.log("[mergeChild] 处理 grandChild[".concat(i, "], 后端 ulid=").concat(backendGrandChild.ulid));
             if (localGrandChild && localGrandChild.ulid === backendGrandChild.ulid) {
                 fnLog.log("[mergeChild] grandChild[".concat(i, "] ulid 相同，执行递归合并"));
-                mergeChild(localGrandChild, backendGrandChild, fnLog);
+                mergeTriggerAction(localGrandChild, backendGrandChild, fnLog);
             } else {
                 fnLog.log("[mergeChild] grandChild[".concat(i, "] ulid 不同或本地不存在，直接替换"));
                 localChild.children[i] = backendGrandChild;
@@ -51696,6 +51694,37 @@ fileLog.pause = true;
         }
     }
     fnLog.log("[mergeChild] child 合并完成");
+}
+/**
+ * 合并 TriggerAction
+ * 将后端的 TriggerAction 数据合并到本地 TriggerAction
+ */ function mergeTriggerAction(localTriggerAction, backendTriggerAction, parentLog) {
+    const fnLog = parentLog.sub(false, 'mergeTriggerAction_fn');
+    fnLog.pause = true;
+    fnLog.log("[mergeTriggerAction] 开始合并 triggerAction, ulid=".concat(localTriggerAction.ulid));
+    // 合并后端字段
+    const backendFields = [
+        'uuid',
+        'triggerGroupUuid',
+        'triggerGroupUlid',
+        'actionGroupUuid',
+        'actionGroupUlid',
+        'createdAt',
+        'updatedAt',
+        'deletedAt',
+        'ownerUuid',
+        'authorUuid',
+        'currentVersion'
+    ];
+    backendFields.forEach((field)=>{
+        const oldValue = localTriggerAction[field];
+        const newValue = backendTriggerAction[field];
+        if (oldValue !== newValue) {
+            fnLog.log("[mergeTriggerAction] 更新字段 ".concat(field, ": ").concat(JSON.stringify(oldValue), " -> ").concat(JSON.stringify(newValue)));
+            localTriggerAction[field] = newValue;
+        }
+    });
+    fnLog.log("[mergeTriggerAction] triggerAction 合并完成");
 }
 /**
  * 根据策略合并或替换 project
@@ -96666,8 +96695,8 @@ async function initAndroid() {
 
 // EXTERNAL MODULE: ../../libs/app/static/src/storage/app-packages-store-v2.ts
 var app_packages_store_v2 = __webpack_require__(94820);
-// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/index.ts + 23 modules
-var src = __webpack_require__(91415);
+// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/index.ts + 22 modules
+var src = __webpack_require__(80396);
 // EXTERNAL MODULE: ../../libs/droid/project-v2-ext/src/index.ts + 69 modules
 var project_v2_ext_src = __webpack_require__(18697);
 ;// ../../libs/app/model/src/mc/app/AppController.ts
@@ -111829,6 +111858,1418 @@ class GroupCallEventHandler {
   }
 }
 //# sourceMappingURL=groupCallEventHandler.js.map
+
+/***/ }),
+
+/***/ 80396:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  Tj: () => (/* reexport */ ActionGroupContext),
+  Us: () => (/* reexport */ ActionListContext),
+  oc: () => (/* reexport */ GroupCheckList1Context),
+  v8: () => (/* reexport */ PROJECT_CATEGORY_CONFIGS),
+  U2: () => (/* reexport */ ProjectCategory),
+  vz: () => (/* reexport */ ProjectContext),
+  KY: () => (/* reexport */ ProjectMemberType),
+  wg: () => (/* reexport */ IProject/* ProjectVisibility */.wg),
+  yZ: () => (/* reexport */ IProjectSettings/* RemoteSyncStatus */.y),
+  Ck: () => (/* reexport */ TriggerActionContext),
+  NF: () => (/* reexport */ TriggerActionGroupContext),
+  MS: () => (/* reexport */ TriggerContext),
+  bf: () => (/* reexport */ TriggerGroupContext),
+  Ue: () => (/* reexport */ TriggerListContext),
+  bz: () => (/* reexport */ TriggerOrActionListTypeEnum),
+  hB: () => (/* reexport */ IActionGroup/* actionGroupUtils */.hB),
+  mR: () => (/* reexport */ childToProjectDataUtils),
+  A5: () => (/* reexport */ IActionGroup/* createActionUtils */.A5),
+  GY: () => (/* reexport */ ITriggerAction/* createDefaultTriggerAction */.GY),
+  ZX: () => (/* reexport */ IProject/* createProjectByCategory */.ZX),
+  iT: () => (/* reexport */ triggerActionUtils/* createTriggerActionUtils */.i),
+  Cq: () => (/* reexport */ ITriggerGroup/* createTriggerUtils */.Cq),
+  q_: () => (/* reexport */ getActionGroupElement),
+  e9: () => (/* reexport */ IActionGroup/* getActionUtils */.e9),
+  af: () => (/* reexport */ getProjectCategoryConfig),
+  C: () => (/* reexport */ getProjectHistory),
+  JT: () => (/* reexport */ getTriggerOrActionListPageParams),
+  gq: () => (/* reexport */ ITriggerGroup/* getTriggerUtils */.gq),
+  TC: () => (/* reexport */ projectEventUtils),
+  Dp: () => (/* reexport */ projectNamespace),
+  DO: () => (/* reexport */ storage/* projectStore */.D),
+  kg: () => (/* reexport */ takeProjectSnapshoot),
+  S5: () => (/* reexport */ ITriggerGroup/* triggerGroupUtils */.zI)
+});
+
+// UNUSED EXPORTS: A11yNode, A11yNodePropertyInfo, A11yNodePropertyType, ActionContext, ActionListFromEnum, ActionUtilsMap, DescriptionContentRenderer, DescriptionContentType, GroupCheckList2Context, ISFCondfType, NodeActionKeys, NodeActionUI, SFAction, SFActionClick, SFActionFocus, SFActionGlobalClick, SFActionLearFocus, SFActionLongClick, SFActionSetText, SFActionTryClick, SFCond, SFCondClickable, SFCondDesc, SFCondDescs, SFCondId, SFCondIds, SFCondMatchText, SFCondRoot, SFCondText, SFCondTexts, SFCondTypes, SFData, SFWait, TriggerUtilsMap, a11yNodeProperties, a11yNodeProperyEnum, a11yNodeRealizedKeys, actionBaseUtils, actionGroupType, actionType, addProjectHistory, createActionHandler, createDefaultProject, createDefaultProjectSettings, createDefaultTriggerActionGroup, createMergeToDefaultData, createTriggerHandler, findEntityAcrossProjects, getActionGroupByProp, getActionGroupElementByProp, getActionListByProp, getProjectLastHistory, getTriggerByProp, getTriggerElementByProp, getTriggerListByProp, getTriggerListElementByProp, isSameProjectHistoryId, mergeDataWith, mergeToDefaultData, mergeTriggerActionGroupToDefaultData, nodeActions, projectDataToUniqueId, projectHistoryIsChanged, projectType, projectUtils, projectsHistoryMap, registerActionUtils, registerTriggerUtils, removeProjectHistory, s, triggerActionGroupType, triggerActionType, triggerActionUtils, triggerBaseUtils, triggerGroupType, triggerType, validateUrl
+
+;// ../../libs/droid/project-v2-interface/src/constants/namespace.ts
+/**
+ * Project 命名空间常量
+ * 用于生成 trigger/action 的 type 前缀
+ */ const projectNamespace = "fanfanlo/javajs/v1/project/components/";
+
+;// ../../libs/droid/project-v2-interface/src/constants/index.ts
+
+
+// EXTERNAL MODULE: ../../libs/fanfanlo/src/log/Log.ts + 1 modules
+var Log = __webpack_require__(89597);
+;// ../../libs/droid/project-v2-interface/src/types/ProjectCategory.ts
+
+const fileLog = new Log/* Log */.tG(true, 'ProjectCategory');
+fileLog.pause = true;
+/**
+ * Project 类别枚举
+ *
+ * QuickAction - 快捷操作：只有一个 action，无 trigger
+ * ScriptRunner - 脚本运行器：单 script action，纯代码
+ * Workflow - 工作流：完整的 trigger + action
+ */ var ProjectCategory = /*#__PURE__*/ function(ProjectCategory) {
+    /** 快捷操作 - 只有一个 action，无 trigger */ ProjectCategory["QuickAction"] = "quick-action";
+    /** 脚本运行器 - 单 script action，纯代码 */ ProjectCategory["ScriptRunner"] = "script-runner";
+    /** 工作流 - 完整的 trigger + action */ ProjectCategory["Workflow"] = "workflow";
+    return ProjectCategory;
+}({});
+/**
+ * 各类别的配置
+ */ const PROJECT_CATEGORY_CONFIGS = {
+    ["quick-action"]: {
+        category: "quick-action",
+        labelKey: 'ProjectCategory.QuickAction.label',
+        descriptionKey: 'ProjectCategory.QuickAction.description',
+        icon: 'flash_on',
+        uiConfig: {
+            showTrigger: false,
+            showActionList: true,
+            allowAddGroup: false,
+            forceScriptAction: false
+        }
+    },
+    ["script-runner"]: {
+        category: "script-runner",
+        labelKey: 'ProjectCategory.ScriptRunner.label',
+        descriptionKey: 'ProjectCategory.ScriptRunner.description',
+        icon: 'code',
+        uiConfig: {
+            showTrigger: false,
+            showActionList: false,
+            allowAddGroup: false,
+            forceScriptAction: true
+        }
+    },
+    ["workflow"]: {
+        category: "workflow",
+        labelKey: 'ProjectCategory.Workflow.label',
+        descriptionKey: 'ProjectCategory.Workflow.description',
+        icon: 'account_tree',
+        uiConfig: {
+            showTrigger: true,
+            showActionList: true,
+            allowAddGroup: true,
+            forceScriptAction: false
+        }
+    }
+};
+/**
+ * 获取 ProjectCategory 配置
+ * @param category 项目类别，如果为空则默认返回 Workflow 配置
+ */ function getProjectCategoryConfig(category) {
+    fileLog.log("[getProjectCategoryConfig] 输入 category=".concat(category));
+    let resolvedCategory;
+    if (category) {
+        resolvedCategory = category;
+        fileLog.log("[getProjectCategoryConfig] 使用传入的 category=".concat(resolvedCategory));
+    } else {
+        resolvedCategory = "workflow";
+        fileLog.log("[getProjectCategoryConfig] category 为空，使用默认值 Workflow");
+    }
+    const config = PROJECT_CATEGORY_CONFIGS[resolvedCategory];
+    fileLog.log("[getProjectCategoryConfig] 返回配置:", JSON.stringify(config));
+    return config;
+}
+
+// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/types/IProjectSettings.ts
+var IProjectSettings = __webpack_require__(55418);
+// EXTERNAL MODULE: __barrel_optimize__?names=ulid!=!../../node_modules/.pnpm/ulid@2.4.0/node_modules/ulid/dist/index.esm.js + 1 modules
+var index_esm = __webpack_require__(43899);
+// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/utils/mergeToDefaultData.ts
+var mergeToDefaultData = __webpack_require__(40705);
+;// ../../libs/droid/project-v2-interface/src/entities/ITrigger.ts
+
+
+// === 类型常量 ===
+const triggerType = 'trigger';
+// === Trigger Utils ===
+function createDefaultTrigger() {
+    return {
+        ulid: (0,index_esm/* ulid */.Z0)(),
+        uuid: '',
+        type: '',
+        ownerUuid: '',
+        currentVersion: 1,
+        permissions: [],
+        injects: [],
+        createdAt: Date.now(),
+        updatedAt: Date.now(),
+        authorUuid: ''
+    };
+}
+const triggerBaseUtils = {
+    type: triggerType,
+    createDefaultData: createDefaultTrigger,
+    mergeDataToDefaultData: (0,mergeToDefaultData/* createMergeToDefaultData */.dV)(createDefaultTrigger)
+};
+
+// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/entities/ITriggerGroup.ts
+var ITriggerGroup = __webpack_require__(85513);
+;// ../../libs/droid/project-v2-interface/src/entities/IAction.ts
+
+
+// === 类型常量 ===
+const actionType = 'action';
+// === Action Utils ===
+function createDefaultAction() {
+    return {
+        ulid: (0,index_esm/* ulid */.Z0)(),
+        uuid: '',
+        ownerUuid: '',
+        currentVersion: 1,
+        type: '',
+        createdAt: Date.now(),
+        updatedAt: Date.now(),
+        authorUuid: ''
+    };
+}
+const actionBaseUtils = {
+    type: actionType,
+    createDefaultData: createDefaultAction,
+    mergeDataToDefaultData: (0,mergeToDefaultData/* createMergeToDefaultData */.dV)(createDefaultAction)
+};
+
+// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/entities/IActionGroup.ts
+var IActionGroup = __webpack_require__(80827);
+// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/entities/ITriggerAction.ts
+var ITriggerAction = __webpack_require__(29024);
+// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/entities/ITriggerActionGroup.ts
+var ITriggerActionGroup = __webpack_require__(11067);
+// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/entities/IProject.ts
+var IProject = __webpack_require__(14283);
+// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/storage/storage.ts + 1 modules
+var storage = __webpack_require__(59814);
+;// ../../libs/droid/project-v2-interface/src/trigger-action-handlers/createTriggerHandler.ts
+
+/**
+ * 创建触发器处理器
+ * @param createDefaultTrigger 创建默认触发器的函数（V2 格式）
+ * @returns onSelect 处理函数
+ */ function createTriggerHandler(createDefaultTrigger) {
+    return function onSelect(param) {
+        let { query } = param;
+        var _projectStore_triggerGroupMap;
+        // 1. 从 Store 中通过 ULID 查找 TriggerGroup
+        const triggerGroup = (_projectStore_triggerGroupMap = projectStore.triggerGroupMap) === null || _projectStore_triggerGroupMap === void 0 ? void 0 : _projectStore_triggerGroupMap[query.triggerGroupUlid];
+        if (!triggerGroup) {
+            throw new Error("TriggerGroup not found: ".concat(query.triggerGroupUlid));
+        }
+        // 2. 创建默认触发器（V2 格式）
+        const trigger = createDefaultTrigger();
+        // 3. 修改：只维护children（存储完整对象），list由后端维护
+        if (!triggerGroup.children) {
+            triggerGroup.children = [];
+        }
+        triggerGroup.children.push(trigger);
+        // 4. 注册到 Store（供后续查找使用）
+        projectStore.triggerMap[trigger.ulid] = trigger;
+        // 6. 返回编辑页面
+        window.history.back();
+    };
+}
+
+;// ../../libs/droid/project-v2-interface/src/trigger-action-handlers/createActionHandler.ts
+
+/**
+ * 创建动作处理器
+ * @param createDefaultAction 创建默认动作的函数（V2 格式）
+ * @returns onSelect 处理函数
+ */ function createActionHandler(createDefaultAction) {
+    return function onSelect(param) {
+        let { query } = param;
+        var _projectStore_actionGroupMap;
+        // 1. 从 Store 中通过 ULID 查找 ActionGroup
+        const actionGroup = (_projectStore_actionGroupMap = projectStore.actionGroupMap) === null || _projectStore_actionGroupMap === void 0 ? void 0 : _projectStore_actionGroupMap[query.actionGroupUlid];
+        if (!actionGroup) {
+            throw new Error("ActionGroup not found: ".concat(query.actionGroupUlid));
+        }
+        // 2. 创建默认动作（V2 格式）
+        const action = createDefaultAction();
+        // 3. 修改：只维护children（存储完整对象），list由后端维护
+        if (!actionGroup.children) {
+            actionGroup.children = [];
+        }
+        actionGroup.children.push(action);
+        // 4. 注册到 Store（供后续查找使用）
+        projectStore.actionMap[action.ulid] = action;
+        // 6. 返回编辑页面
+        window.history.back();
+    };
+}
+
+;// ../../libs/droid/project-v2-interface/src/events/projectMemberType.ts
+var ProjectMemberType = /*#__PURE__*/ function(ProjectMemberType) {
+    ProjectMemberType["project"] = "project";
+    ProjectMemberType["trigger"] = "trigger";
+    ProjectMemberType["action"] = "action";
+    ProjectMemberType["webConfig"] = "webConfig";
+    ProjectMemberType["javaData"] = "javaData";
+    ProjectMemberType["triggerAction"] = "triggerAction";
+    ProjectMemberType["actionGroup"] = "actionGroup";
+    ProjectMemberType["triggerGroup"] = "triggerGroup";
+    ProjectMemberType["triggerActionGroup"] = "triggerActionGroup";
+    return ProjectMemberType;
+}({});
+
+;// ../../libs/droid/project-v2-interface/src/events/trigger-list-action-list-intf.ts
+
+
+const trigger_list_action_list_intf_fileLog = new Log/* Log */.tG(false, 'trigger-list-action-list-intf_f');
+trigger_list_action_list_intf_fileLog.pause = true;
+trigger_list_action_list_intf_fileLog.childrenPaused = true;
+var ActionListFromEnum = /*#__PURE__*/ function(ActionListFromEnum) {
+    ActionListFromEnum["project"] = "project";
+    return ActionListFromEnum;
+}({});
+var TriggerOrActionListTypeEnum = /*#__PURE__*/ function(TriggerOrActionListTypeEnum) {
+    TriggerOrActionListTypeEnum["addAction"] = "add";
+    TriggerOrActionListTypeEnum["updateAction"] = "update";
+    return TriggerOrActionListTypeEnum;
+}({});
+function getTriggerOrActionListPageParams(params) {
+    var _data_triggerActionGroup_children, _data_triggerActionGroup_children1;
+    const fnLog = trigger_list_action_list_intf_fileLog.sub(false, 'getTriggerOrActionListPageParams_fn');
+    fnLog.pause = true;
+    fnLog.log('[getTriggerOrActionListPageParams] params=', JSON.stringify(params));
+    const project = storage/* projectStore */.D.findDraftOrSavedProject(params.projectUlid);
+    const data = {};
+    const res = {
+        data,
+        params
+    };
+    if (!project) {
+        fnLog.log('[getTriggerOrActionListPageParams] project not found, projectUlid=', params.projectUlid);
+        return res;
+    }
+    fnLog.log('[getTriggerOrActionListPageParams] project found, ulid=', project.ulid);
+    data.project = project;
+    if (!project.children || project.children.length === 0) {
+        fnLog.log('[getTriggerOrActionListPageParams] project.children is empty');
+        return res;
+    }
+    fnLog.log('[getTriggerOrActionListPageParams] project.children.length=', project.children.length);
+    // 在 children 中查找匹配的 triggerActionGroup
+    const foundTriggerActionGroup = project.children.find((child)=>child.ulid === params.triggerActionGroupUlid);
+    if (!foundTriggerActionGroup) {
+        fnLog.log('[getTriggerOrActionListPageParams] triggerActionGroup not found in children, expected=', params.triggerActionGroupUlid);
+        return res;
+    }
+    data.triggerActionGroup = foundTriggerActionGroup;
+    fnLog.log('[getTriggerOrActionListPageParams] triggerActionGroup found, ulid=', data.triggerActionGroup.ulid);
+    if (!params.triggerActionUlid) {
+        fnLog.log('[getTriggerOrActionListPageParams] triggerActionUlid is undefined');
+        return res;
+    }
+    // 注意：list 存储的是 ulid 字符串数组，children 存储的是完整对象数组
+    // 所以需要在 children 中查找 triggerAction 对象
+    fnLog.log('[getTriggerOrActionListPageParams] triggerActionGroup.list=', JSON.stringify(data.triggerActionGroup.list));
+    fnLog.log('[getTriggerOrActionListPageParams] triggerActionGroup.children.length=', (_data_triggerActionGroup_children = data.triggerActionGroup.children) === null || _data_triggerActionGroup_children === void 0 ? void 0 : _data_triggerActionGroup_children.length);
+    const triggerAction = (_data_triggerActionGroup_children1 = data.triggerActionGroup.children) === null || _data_triggerActionGroup_children1 === void 0 ? void 0 : _data_triggerActionGroup_children1.find((item)=>item.ulid === params.triggerActionUlid);
+    if (!triggerAction) {
+        fnLog.log('[getTriggerOrActionListPageParams] triggerAction not found in children, ulid=', params.triggerActionUlid);
+        return res;
+    }
+    data.triggerAction = triggerAction;
+    fnLog.log('[getTriggerOrActionListPageParams] triggerAction found, ulid=', triggerAction.ulid);
+    parseAction(data, params, triggerAction);
+    parseTrigger(data, params, triggerAction);
+    fnLog.log('[getTriggerOrActionListPageParams] result data=', JSON.stringify(data));
+    return res;
+}
+function parseAction(data, params, triggerAction) {
+    var _triggerAction_actionGroup_children;
+    const fnLog = trigger_list_action_list_intf_fileLog.sub(false, 'parseAction_fn');
+    fnLog.pause = true;
+    if (!params.actionGroupUlid) {
+        fnLog.log('[parseAction] actionGroupUlid is undefined');
+        return;
+    }
+    if (!triggerAction.actionGroup) {
+        fnLog.log('[parseAction] triggerAction.actionGroup is undefined');
+        return;
+    }
+    if (params.actionGroupUlid !== triggerAction.actionGroup.ulid) {
+        fnLog.log('[parseAction] actionGroup ulid mismatch, expected=', params.actionGroupUlid, 'actual=', triggerAction.actionGroup.ulid);
+        return;
+    }
+    data.actionGroup = triggerAction.actionGroup;
+    fnLog.log('[parseAction] actionGroup found, ulid=', data.actionGroup.ulid);
+    if (!params.actionUlid) {
+        fnLog.log('[parseAction] actionUlid is undefined');
+        return;
+    }
+    // 修改: list 存储的是 ULID 字符串，children 存储的是完整对象
+    const action = (_triggerAction_actionGroup_children = triggerAction.actionGroup.children) === null || _triggerAction_actionGroup_children === void 0 ? void 0 : _triggerAction_actionGroup_children.find((item)=>item.ulid === params.actionUlid);
+    if (!action) {
+        fnLog.log('[parseAction] action not found in children, ulid=', params.actionUlid);
+        return;
+    }
+    data.action = action;
+    fnLog.log('[parseAction] action found, ulid=', action.ulid);
+}
+function parseTrigger(data, params, triggerAction) {
+    var _triggerAction_triggerGroup_children;
+    const fnLog = trigger_list_action_list_intf_fileLog.sub(false, 'parseTrigger_fn');
+    fnLog.pause = true;
+    if (!params.triggerGroupUlid) {
+        fnLog.log('[parseTrigger] triggerGroupUlid is undefined');
+        return;
+    }
+    if (!triggerAction.triggerGroup) {
+        fnLog.log('[parseTrigger] triggerAction.triggerGroup is undefined');
+        return;
+    }
+    if (params.triggerGroupUlid !== triggerAction.triggerGroup.ulid) {
+        fnLog.log('[parseTrigger] triggerGroup ulid mismatch, expected=', params.triggerGroupUlid, 'actual=', triggerAction.triggerGroup.ulid);
+        return;
+    }
+    data.triggerGroup = triggerAction.triggerGroup;
+    fnLog.log('[parseTrigger] triggerGroup found, ulid=', data.triggerGroup.ulid);
+    if (!params.triggerUlid) {
+        fnLog.log('[parseTrigger] triggerUlid is undefined');
+        return;
+    }
+    // 修改: list 存储的是 ULID 字符串，children 存储的是完整对象
+    const trigger = (_triggerAction_triggerGroup_children = triggerAction.triggerGroup.children) === null || _triggerAction_triggerGroup_children === void 0 ? void 0 : _triggerAction_triggerGroup_children.find((item)=>item.ulid === params.triggerUlid);
+    if (!trigger) {
+        fnLog.log('[parseTrigger] trigger not found in children, ulid=', params.triggerUlid);
+        return;
+    }
+    data.trigger = trigger;
+    fnLog.log('[parseTrigger] trigger found, ulid=', trigger.ulid);
+}
+
+// EXTERNAL MODULE: ../../libs/fanfanlo/src/dispatcher/Dispatcher.ts
+var Dispatcher = __webpack_require__(30910);
+// EXTERNAL MODULE: ../../libs/fanfanlo/src/utils/throw-trace-error.ts
+var throw_trace_error = __webpack_require__(51020);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/lodash@4.17.21/node_modules/lodash/lodash.js
+var lodash = __webpack_require__(80507);
+var lodash_default = /*#__PURE__*/__webpack_require__.n(lodash);
+;// ../../libs/droid/project-v2-interface/src/events/projectEventUtils.ts
+
+
+
+const projectEventUtils_fileLog = new Log/* Log */.tG(false, 'projectEventUtils_f');
+projectEventUtils_fileLog.pause = true;
+projectEventUtils_fileLog.childrenPaused = true;
+const dispatcher = new Dispatcher/* Dispatcher */.m();
+var EditType = /*#__PURE__*/ function(EditType) {
+    EditType["add"] = "add";
+    EditType["updateJavaData"] = "updateJavaData";
+    EditType["updateWebConfig"] = "updateWebConfig";
+    return EditType;
+}(EditType || {});
+function dispatchEditEvent(editType, event) {
+    const fnLog = projectEventUtils_fileLog.sub(false, 'dispatchEditEvent_fn');
+    fnLog.pause = true;
+    fnLog.log('[dispatchEditEvent] editType=', editType, 'event=', JSON.stringify(event));
+    dispatcher.dispatch(editType, event);
+}
+function onEditJavaData(event) {
+    const fnLog = projectEventUtils_fileLog.sub(false, 'onEditJavaData_fn');
+    fnLog.pause = true;
+    fnLog.log('[onEditJavaData] event=', JSON.stringify(event));
+    switch(event.projectMemberType){
+        case ProjectMemberType.action:
+            onActionEdit("updateJavaData", event);
+            break;
+        case ProjectMemberType.trigger:
+            onTriggerEdit("updateJavaData", event);
+            break;
+        default:
+            {
+                const msg = "[onEditJavaData] unknown projectMemberType: ".concat(event.projectMemberType);
+                fnLog.error(msg, event);
+                (0,throw_trace_error/* throwTraceError */.w)(msg, event);
+            }
+    }
+}
+function onEditWebConfig(event) {
+    const fnLog = projectEventUtils_fileLog.sub(false, 'onEditWebConfig_fn');
+    fnLog.pause = true;
+    fnLog.log('[onEditWebConfig] event=', JSON.stringify(event));
+    switch(event.projectMemberType){
+        case ProjectMemberType.action:
+            onActionEdit("updateWebConfig", event);
+            break;
+        case ProjectMemberType.trigger:
+            onTriggerEdit("updateWebConfig", event);
+            break;
+        default:
+            {
+                const msg = "[onEditWebConfig] unknown projectMemberType: ".concat(event.projectMemberType);
+                fnLog.error(msg, event);
+                (0,throw_trace_error/* throwTraceError */.w)(msg, event);
+            }
+    }
+}
+function onTriggerEdit(editType, event) {
+    var _event_projectInfo;
+    const fnLog = projectEventUtils_fileLog.sub(false, 'onTriggerEdit_fn');
+    fnLog.pause = true;
+    fnLog.log('[onTriggerEdit] editType=', editType);
+    const trigger = (_event_projectInfo = event.projectInfo) === null || _event_projectInfo === void 0 ? void 0 : _event_projectInfo.trigger;
+    if (!trigger) {
+        const msg = "[onTriggerEdit] no trigger when editing trigger";
+        fnLog.error(msg, event);
+        return (0,throw_trace_error/* throwTraceError */.w)(msg, event);
+    }
+    fnLog.log('[onTriggerEdit] before merge, trigger.javaData=', JSON.stringify(trigger.javaData));
+    fnLog.log('[onTriggerEdit] before merge, trigger.webConfig=', JSON.stringify(trigger.webConfig));
+    switch(editType){
+        case "updateJavaData":
+            lodash_default().merge(trigger.javaData, event.data);
+            fnLog.log('[onTriggerEdit] after merge javaData=', JSON.stringify(trigger.javaData));
+            break;
+        case "updateWebConfig":
+            lodash_default().merge(trigger.webConfig, event.data);
+            fnLog.log('[onTriggerEdit] after merge webConfig=', JSON.stringify(trigger.webConfig));
+            break;
+        default:
+            {
+                const msg = "[onTriggerEdit] unknown editType: ".concat(editType);
+                fnLog.error(msg, event);
+                (0,throw_trace_error/* throwTraceError */.w)(msg, event);
+            }
+    }
+}
+function onActionEdit(editType, event) {
+    var _event_projectInfo;
+    const fnLog = projectEventUtils_fileLog.sub(false, 'onActionEdit_fn');
+    fnLog.pause = true;
+    fnLog.log('[onActionEdit] editType=', editType);
+    const action = (_event_projectInfo = event.projectInfo) === null || _event_projectInfo === void 0 ? void 0 : _event_projectInfo.action;
+    if (!action) {
+        const msg = "[onActionEdit] no action when editing action";
+        fnLog.error(msg, event);
+        return (0,throw_trace_error/* throwTraceError */.w)(msg, event);
+    }
+    fnLog.log('[onActionEdit] before merge, action.javaData=', JSON.stringify(action.javaData));
+    fnLog.log('[onActionEdit] before merge, action.webConfig=', JSON.stringify(action.webConfig));
+    switch(editType){
+        case "updateJavaData":
+            lodash_default().merge(action.javaData, event.data);
+            fnLog.log('[onActionEdit] after merge javaData=', JSON.stringify(action.javaData));
+            break;
+        case "updateWebConfig":
+            lodash_default().merge(action.webConfig, event.data);
+            fnLog.log('[onActionEdit] after merge webConfig=', JSON.stringify(action.webConfig));
+            break;
+        default:
+            {
+                const msg = "[onActionEdit] unknown editType: ".concat(editType);
+                fnLog.error(msg, event);
+                (0,throw_trace_error/* throwTraceError */.w)(msg, event);
+            }
+    }
+}
+function onAdd(event) {
+    const fnLog = projectEventUtils_fileLog.sub(false, 'onAdd_fn');
+    fnLog.pause = true;
+    fnLog.log('[onAdd] event=', JSON.stringify(event));
+    switch(event.projectMemberType){
+        case ProjectMemberType.actionGroup:
+            onActionGroupAdd(event);
+            break;
+        case ProjectMemberType.triggerGroup:
+            onTriggerGroupAdd(event);
+            break;
+        default:
+            {
+                const msg = "[onAdd] unknown projectMemberType: ".concat(event.projectMemberType);
+                fnLog.error(msg, event);
+            }
+    }
+}
+function onTriggerGroupAdd(event) {
+    var _event_projectInfo;
+    const fnLog = projectEventUtils_fileLog.sub(false, 'onTriggerGroupAdd_fn');
+    fnLog.pause = true;
+    const group = (_event_projectInfo = event.projectInfo) === null || _event_projectInfo === void 0 ? void 0 : _event_projectInfo.triggerGroup;
+    if (!group) {
+        const msg = "[onTriggerGroupAdd] no triggerGroup when adding trigger";
+        fnLog.error(msg, event);
+        return (0,throw_trace_error/* throwTraceError */.w)(msg, event);
+    }
+    const trigger = event.data;
+    // v2数据结构：children存储完整对象，list由后端维护
+    if (!group.children) {
+        group.children = [];
+        fnLog.log('[onTriggerGroupAdd] initialized empty children for triggerGroup');
+    }
+    fnLog.log('[onTriggerGroupAdd] before push, children.length=', group.children.length);
+    // 修改：只维护children（存储完整对象），list由后端维护
+    group.children.push(trigger);
+    fnLog.log('[onTriggerGroupAdd] after push, children.length=', group.children.length);
+    fnLog.log('[onTriggerGroupAdd] new trigger ulid=', trigger.ulid, 'trigger=', JSON.stringify(trigger));
+}
+function onActionGroupAdd(event) {
+    var _event_projectInfo;
+    const fnLog = projectEventUtils_fileLog.sub(false, 'onActionGroupAdd_fn');
+    fnLog.pause = true;
+    const group = (_event_projectInfo = event.projectInfo) === null || _event_projectInfo === void 0 ? void 0 : _event_projectInfo.actionGroup;
+    if (!group) {
+        const msg = "[onActionGroupAdd] no actionGroup when adding action";
+        fnLog.error(msg, event);
+        return (0,throw_trace_error/* throwTraceError */.w)(msg, event);
+    }
+    const action = event.data;
+    // v2数据结构：children存储完整对象，list由后端维护
+    if (!group.children) {
+        group.children = [];
+        fnLog.log('[onActionGroupAdd] initialized empty children for actionGroup');
+    }
+    fnLog.log('[onActionGroupAdd] before push, children.length=', group.children.length);
+    // 修改：只维护children（存储完整对象），list由后端维护
+    group.children.push(action);
+    fnLog.log('[onActionGroupAdd] after push, children.length=', group.children.length);
+    fnLog.log('[onActionGroupAdd] new action ulid=', action.ulid, 'action=', JSON.stringify(action));
+}
+function init() {
+    const fnLog = projectEventUtils_fileLog.sub(false, 'init_fn');
+    fnLog.pause = true;
+    fnLog.log('[init] registering event listeners');
+    dispatcher.addListener("updateJavaData", onEditJavaData);
+    dispatcher.addListener("updateWebConfig", onEditWebConfig);
+    dispatcher.addListener("add", onAdd);
+    fnLog.log('[init] event listeners registered');
+}
+const projectEventUtils = {
+    init,
+    dispatcher,
+    dispatchEditEvent,
+    EditType
+};
+
+;// ../../libs/droid/project-v2-interface/src/events/index.ts
+
+
+
+
+// EXTERNAL MODULE: ../../node_modules/.pnpm/react@19.1.0/node_modules/react/index.js
+var react = __webpack_require__(94285);
+;// ../../libs/droid/project-v2-interface/src/contexts/project-contexts.tsx
+/**
+ * React Contexts
+ * 用于项目编辑器等UI组件的上下文传递
+ */ 
+// === Project Context ===
+const ProjectContext = /*#__PURE__*/ (0,react.createContext)({});
+// === TriggerAction Contexts ===
+const TriggerActionGroupContext = /*#__PURE__*/ (0,react.createContext)({});
+const TriggerActionContext = /*#__PURE__*/ (0,react.createContext)({});
+// === Trigger Contexts ===
+const TriggerGroupContext = /*#__PURE__*/ (0,react.createContext)({});
+const TriggerListContext = /*#__PURE__*/ (0,react.createContext)([]);
+const TriggerContext = /*#__PURE__*/ (0,react.createContext)({});
+// === Action Contexts ===
+const ActionGroupContext = /*#__PURE__*/ (0,react.createContext)({});
+const ActionListContext = /*#__PURE__*/ (0,react.createContext)([]);
+const ActionContext = /*#__PURE__*/ (0,react.createContext)({});
+// === GroupCheck Contexts ===
+const GroupCheckList1Context = /*#__PURE__*/ (0,react.createContext)([]);
+const GroupCheckList2Context = /*#__PURE__*/ (/* unused pure expression or super */ null && (createContext([])));
+
+;// ../../libs/droid/project-v2-interface/src/contexts/index.ts
+
+
+// EXTERNAL MODULE: ../../libs/fanfanlo/src/watcher/parentProxy.ts
+var parentProxy = __webpack_require__(74346);
+;// ../../libs/droid/project-v2-interface/src/utils/childToProjectData.ts
+/**
+ * childToProjectData 工具
+ * 用于获取项目数据的父子关系和生成唯一ID
+ */ 
+function projectDataToUniqueId(data) {
+    var _data_project, _data_triggerActionGroup, _data_triggerAction, _data_triggerGroup, _data_trigger, _data_trigger_javaData, _data_trigger1, _data_actionGroup, _data_action, _data_action_javaData, _data_action1;
+    let s = "";
+    function add(name, id) {
+        if (id) s += "|".concat(name, ":").concat(id);
+    }
+    add('project', (_data_project = data.project) === null || _data_project === void 0 ? void 0 : _data_project.ulid);
+    add('trigger-action-group', (_data_triggerActionGroup = data.triggerActionGroup) === null || _data_triggerActionGroup === void 0 ? void 0 : _data_triggerActionGroup.ulid);
+    add('trigger-action', (_data_triggerAction = data.triggerAction) === null || _data_triggerAction === void 0 ? void 0 : _data_triggerAction.ulid);
+    add('trigger-group', (_data_triggerGroup = data.triggerGroup) === null || _data_triggerGroup === void 0 ? void 0 : _data_triggerGroup.ulid);
+    add('trigger', (_data_trigger = data.trigger) === null || _data_trigger === void 0 ? void 0 : _data_trigger.ulid);
+    add('trigger-java-data', (_data_trigger1 = data.trigger) === null || _data_trigger1 === void 0 ? void 0 : (_data_trigger_javaData = _data_trigger1.javaData) === null || _data_trigger_javaData === void 0 ? void 0 : _data_trigger_javaData.ulid);
+    add('action-group', (_data_actionGroup = data.actionGroup) === null || _data_actionGroup === void 0 ? void 0 : _data_actionGroup.ulid);
+    add('action', (_data_action = data.action) === null || _data_action === void 0 ? void 0 : _data_action.ulid);
+    add('action-java-data', (_data_action1 = data.action) === null || _data_action1 === void 0 ? void 0 : (_data_action_javaData = _data_action1.javaData) === null || _data_action_javaData === void 0 ? void 0 : _data_action_javaData.ulid);
+    return s;
+}
+// project
+function getProjectByProp(prop, projectData) {
+    const data = prop ? (0,parentProxy/* getParent */.PA)(prop) : undefined;
+    if (projectData) {
+        projectData.project = data;
+    }
+    return data;
+}
+function getProjectElementByProp(prop) {
+    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
+    getProjectByProp(prop, projectData);
+    return getProjectElementsId(projectData, prefix, suffix);
+}
+// trigger action group
+function getTriggerActionGroupByProp(prop, projectData) {
+    const data = prop ? (0,parentProxy/* getParent */.PA)(prop) : undefined;
+    if (projectData && data) {
+        projectData.triggerActionGroup = data;
+        getProjectByProp(data, projectData);
+    }
+    return data;
+}
+function getTriggerActionGroupElementByProp(prop) {
+    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
+    getTriggerActionGroupByProp(prop, projectData);
+    return getProjectElementsId(projectData, prefix, suffix);
+}
+function getTriggerActionGroupElement(triggerActionGroup) {
+    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
+    projectData.triggerActionGroup = triggerActionGroup;
+    getTriggerActionGroupByProp(triggerActionGroup.checks, projectData);
+    return getProjectElementsId(projectData, prefix, suffix);
+}
+// trigger action list
+function getTriggerActionListByProp(prop, projectData) {
+    const data = prop ? (0,parentProxy/* getParent */.PA)(prop) : undefined;
+    if (projectData && data) {
+        projectData.triggerActionList = data;
+        getTriggerActionGroupByProp(data, projectData);
+    }
+    return data;
+}
+function getTriggerActionListElementByProp(prop) {
+    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
+    getTriggerActionListByProp(prop, projectData);
+    return getProjectElementsId(projectData, prefix, suffix);
+}
+// trigger action
+function getTriggerActionByProp(prop, projectData) {
+    const data = prop ? (0,parentProxy/* getParent */.PA)(prop) : undefined;
+    if (projectData && data) {
+        projectData.triggerAction = data;
+        getTriggerActionListByProp(data, projectData);
+    }
+    return data;
+}
+function getTriggerActionElementByProp(prop) {
+    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
+    getTriggerActionByProp(prop, projectData);
+    return getProjectElementsId(projectData, prefix, suffix);
+}
+// trigger group
+function getTriggerGroupByProp(prop, projectData) {
+    const data = prop ? (0,parentProxy/* getParent */.PA)(prop) : undefined;
+    if (projectData && data) {
+        projectData.triggerGroup = data;
+        getTriggerActionByProp(data, projectData);
+    }
+    return data;
+}
+function getTriggerGroupElementByProp(prop) {
+    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
+    getTriggerGroupByProp(prop, projectData);
+    return getProjectElementsId(projectData, prefix, suffix);
+}
+function getTriggerGroupElement(triggerGroup) {
+    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
+    projectData.triggerGroup = triggerGroup;
+    getTriggerGroupByProp(triggerGroup.list, projectData);
+    return getProjectElementsId(projectData, prefix, suffix);
+}
+// trigger list
+function getTriggerListByProp(prop, projectData) {
+    const data = prop ? (0,parentProxy/* getParent */.PA)(prop) : undefined;
+    if (projectData && data) {
+        projectData.triggerList = data;
+        getTriggerGroupByProp(data, projectData);
+    }
+    return data;
+}
+function getTriggerListElementByProp(prop) {
+    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
+    getTriggerListByProp(prop, projectData);
+    return getProjectElementsId(projectData, prefix, suffix);
+}
+// trigger
+function getTriggerByProp(prop, projectData) {
+    const data = prop ? (0,parentProxy/* getParent */.PA)(prop) : undefined;
+    if (projectData && data) {
+        projectData.trigger = data;
+        getTriggerListByProp(data, projectData);
+    }
+    return data;
+}
+function getTriggerElementByProp(prop) {
+    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
+    getTriggerByProp(prop, projectData);
+    return getProjectElementsId(projectData, prefix, suffix);
+}
+// action group
+function getActionGroupByProp(prop, projectData) {
+    const data = prop ? (0,parentProxy/* getParent */.PA)(prop) : undefined;
+    if (projectData && data) {
+        projectData.actionGroup = data;
+        getTriggerActionByProp(data, projectData);
+    }
+    return data;
+}
+function getActionGroupElementByProp(prop) {
+    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
+    getActionGroupByProp(prop, projectData);
+    return getProjectElementsId(projectData, prefix, suffix);
+}
+function getActionGroupElement(actionGroup) {
+    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
+    projectData.actionGroup = actionGroup;
+    getTriggerActionByProp(actionGroup, projectData);
+    return getProjectElementsId(projectData, prefix, suffix);
+}
+// action list
+function getActionListByProp(prop, projectData) {
+    const data = prop ? (0,parentProxy/* getParent */.PA)(prop) : undefined;
+    if (projectData && data) {
+        projectData.actionList = data;
+        getActionGroupByProp(data, projectData);
+    }
+    return data;
+}
+function getActionListElementByProp(prop) {
+    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
+    getActionListByProp(prop, projectData);
+    return getProjectElementsId(projectData, prefix, suffix);
+}
+// action
+function getActionByProp(prop, projectData) {
+    const data = prop ? (0,parentProxy/* getParent */.PA)(prop) : undefined;
+    if (projectData && data) {
+        projectData.action = data;
+        getActionListByProp(data, projectData);
+    }
+    return data;
+}
+function getActionElementIdByProp(prop) {
+    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
+    getActionByProp(prop, projectData);
+    return getProjectElementsId(projectData, prefix, suffix);
+}
+function getProjectElementsId(childData) {
+    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '';
+    var _childData_project, _childData_project1, _childData_triggerActionGroup, _childData_triggerActionGroup1, _childData_triggerAction, _childData_triggerAction1, _childData_triggerGroup, _childData_triggerGroup1, _childData_trigger, _childData_trigger1, _childData_actionGroup, _childData_actionGroup1, _childData_action, _childData_action1;
+    return {
+        ["data-groupof".concat(prefix ? '-' + prefix : '', "-project-ulid").concat(suffix ? '-' + suffix : '')]: (_childData_project = childData.project) === null || _childData_project === void 0 ? void 0 : _childData_project.ulid,
+        ["data-project-ulid"]: (_childData_project1 = childData.project) === null || _childData_project1 === void 0 ? void 0 : _childData_project1.ulid,
+        ["data-groupof".concat(prefix ? '-' + prefix : '', "-trigger-action-group-ulid").concat(suffix ? '-' + suffix : '')]: (_childData_triggerActionGroup = childData.triggerActionGroup) === null || _childData_triggerActionGroup === void 0 ? void 0 : _childData_triggerActionGroup.ulid,
+        ["data-trigger-action-group-ulid"]: (_childData_triggerActionGroup1 = childData.triggerActionGroup) === null || _childData_triggerActionGroup1 === void 0 ? void 0 : _childData_triggerActionGroup1.ulid,
+        ["data-groupof".concat(prefix ? '-' + prefix : '', "-trigger-action-ulid").concat(suffix ? '-' + suffix : '')]: (_childData_triggerAction = childData.triggerAction) === null || _childData_triggerAction === void 0 ? void 0 : _childData_triggerAction.ulid,
+        ["data-trigger-action-ulid"]: (_childData_triggerAction1 = childData.triggerAction) === null || _childData_triggerAction1 === void 0 ? void 0 : _childData_triggerAction1.ulid,
+        ["data-groupof".concat(prefix ? '-' + prefix : '', "-trigger-group-ulid").concat(suffix ? '-' + suffix : '')]: (_childData_triggerGroup = childData.triggerGroup) === null || _childData_triggerGroup === void 0 ? void 0 : _childData_triggerGroup.ulid,
+        ["data-trigger-group-ulid"]: (_childData_triggerGroup1 = childData.triggerGroup) === null || _childData_triggerGroup1 === void 0 ? void 0 : _childData_triggerGroup1.ulid,
+        ["data-groupof".concat(prefix ? '-' + prefix : '', "-trigger-ulid").concat(suffix ? '-' + suffix : '')]: (_childData_trigger = childData.trigger) === null || _childData_trigger === void 0 ? void 0 : _childData_trigger.ulid,
+        ["data-trigger-ulid"]: (_childData_trigger1 = childData.trigger) === null || _childData_trigger1 === void 0 ? void 0 : _childData_trigger1.ulid,
+        ["data-groupof".concat(prefix ? '-' + prefix : '', "-action-group-ulid").concat(suffix ? '-' + suffix : '')]: (_childData_actionGroup = childData.actionGroup) === null || _childData_actionGroup === void 0 ? void 0 : _childData_actionGroup.ulid,
+        ["data-action-group-ulid"]: (_childData_actionGroup1 = childData.actionGroup) === null || _childData_actionGroup1 === void 0 ? void 0 : _childData_actionGroup1.ulid,
+        ["data-groupof".concat(prefix ? '-' + prefix : '', "-action-ulid").concat(suffix ? '-' + suffix : '')]: (_childData_action = childData.action) === null || _childData_action === void 0 ? void 0 : _childData_action.ulid,
+        ["data-action-ulid"]: (_childData_action1 = childData.action) === null || _childData_action1 === void 0 ? void 0 : _childData_action1.ulid
+    };
+}
+const childToProjectDataUtils = {
+    project: {
+        getProjectByProp,
+        getProjectElementByProp
+    },
+    triggerActionGroup: {
+        getTriggerActionGroupByProp,
+        getTriggerActionGroupElementByProp,
+        getTriggerActionGroupElement
+    },
+    triggerActionList: {
+        getTriggerActionListByProp,
+        getTriggerActionListElementByProp
+    },
+    triggerAction: {
+        getTriggerActionByProp,
+        getTriggerActionElementByProp
+    },
+    triggerGroup: {
+        getTriggerGroupByProp,
+        getTriggerGroupElementByProp,
+        getTriggerGroupElement
+    },
+    trigger: {
+        getTriggerByProp,
+        getTriggerElementByProp
+    },
+    triggerList: {
+        getTriggerListByProp,
+        getTriggerListElementByProp
+    },
+    actionGroup: {
+        getActionGroupByProp,
+        getActionGroupElementByProp,
+        getActionGroupElement
+    },
+    actionList: {
+        getActionListByProp,
+        getActionListElementByProp
+    },
+    action: {
+        getActionByProp,
+        getActionElementIdByProp
+    },
+    getProjectElementsId
+};
+
+// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/utils/triggerActionUtils.ts
+var triggerActionUtils = __webpack_require__(7728);
+// EXTERNAL MODULE: ../../libs/fanfanlo/src/watcher/proxyUtils.ts
+var proxyUtils = __webpack_require__(15979);
+// EXTERNAL MODULE: ../../libs/fanfanlo/src/watcher/parentWatchProxy.ts
+var parentWatchProxy = __webpack_require__(50159);
+;// ../../libs/droid/project-v2-interface/src/utils/projectHistory.ts
+/**
+ * 项目历史记录管理
+ * 参考 project/src/history/projectsHistoryMap.ts
+ */ 
+
+const projectsHistoryMap = new Map();
+function addProjectHistory(history) {
+    proxyUtils/* proxyUtils */.o.runPauseProxyFn(()=>{
+        history.project = lodash_default().cloneDeep((0,parentWatchProxy/* getProxyTarget */.EL)(history.project));
+    });
+    const p = history;
+    const projectId = history.project.ulid;
+    const list = projectsHistoryMap.get(projectId);
+    if (!list) {
+        projectsHistoryMap.set(projectId, [
+            p
+        ]);
+        return;
+    }
+    list.push(p);
+}
+function getProjectHistory(projectId) {
+    const result = projectsHistoryMap.get(projectId) || [];
+    return result;
+}
+function removeProjectHistory(projectId) {
+    projectsHistoryMap.delete(projectId);
+}
+function getProjectLastHistory(projectId) {
+    const list = getProjectHistory(projectId);
+    const result = list[list.length - 1];
+    return result;
+}
+function takeProjectSnapshoot(project) {
+    const last = getProjectLastHistory(project.ulid);
+    if (last && lodash_default().isEqual(last.project, project)) {
+        return false;
+    }
+    const newIndex = last ? last.index + 1 : 0;
+    addProjectHistory({
+        index: newIndex,
+        project,
+        date: new Date().toISOString()
+    });
+    return true;
+}
+function projectHistoryIsChanged(project) {
+    const last = getProjectLastHistory(project.ulid);
+    const isChanged = !last || !_.isEqual(last.project, project);
+    return isChanged;
+}
+function isSameProjectHistoryId(id, projectId) {
+    const last = getProjectLastHistory(projectId);
+    const isSame = (last === null || last === void 0 ? void 0 : last.index) === id;
+    return isSame;
+}
+
+// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/utils/descriptionUtils.ts
+var descriptionUtils = __webpack_require__(5616);
+// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/utils/entityFinder.ts
+var entityFinder = __webpack_require__(23420);
+;// ../../libs/droid/project-v2-interface/src/utils/index.ts
+
+
+
+
+
+
+
+;// ../../libs/droid/project-v2-interface/src/a11y/sfdata.ts
+
+const sfdata_fileLog = new Log/* Log */.tG(false, 'sfdata_f');
+sfdata_fileLog.pause = true;
+sfdata_fileLog.childrenPaused = true;
+class SFCond {
+}
+class SFCondId extends SFCond {
+    constructor(...args){
+        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.Id";
+    }
+}
+class SFCondText extends SFCond {
+    constructor(...args){
+        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.Text";
+    }
+}
+class SFCondMatchText extends SFCond {
+    constructor(...args){
+        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.MatchText";
+    }
+}
+class SFCondDesc extends SFCond {
+    constructor(...args){
+        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.Desc";
+    }
+}
+class SFCondClickable extends SFCond {
+    constructor(...args){
+        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.Clickable";
+    }
+}
+class ISFCondfType extends SFCond {
+    constructor(...args){
+        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.Type";
+    }
+}
+class SFCondIds extends SFCond {
+    constructor(...args){
+        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.Ids";
+    }
+}
+class SFCondDescs extends SFCond {
+    constructor(...args){
+        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.Descs";
+    }
+}
+class SFCondTexts extends SFCond {
+    constructor(...args){
+        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.Texts";
+    }
+}
+class SFCondRoot extends SFCond {
+    getData() {
+        return JSON.parse(JSON.stringify(this));
+    }
+    getCondRoot() {
+        return {
+            type: "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.SFRootCond",
+            pn: this.pn,
+            an: this.an,
+            cn: this.cn
+        };
+    }
+    constructor(...args){
+        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.SFRoot", // 此变量在设置了an时有效。当pn匹配而an不匹配时尝试点击返回键直至返回到首页为止。捎带的副作用就是必然会从首页开始执行下一步。
+        // 在trigger中使用时可以先匹配pn，当pn匹配，an不匹配时判断这个变量，如果这个变量为true则执行后退，执行后等待下一个event，在event里再次判断执行。
+        // true为尝试点击
+        this.back = false;
+    }
+}
+class SFCondTypes extends SFCond {
+    constructor(...args){
+        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.SFTypes";
+    }
+}
+class SFAction {
+    get data() {
+        return {
+            type: this.type
+        };
+    }
+}
+class SFActionFocus extends SFAction {
+    constructor(...args){
+        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.Focus";
+    }
+}
+class SFActionLearFocus extends SFAction {
+    constructor(...args){
+        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.ClearFocus";
+    }
+}
+class SFActionClick extends SFAction {
+    constructor(...args){
+        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.Click";
+    }
+}
+class SFActionTryClick extends SFAction {
+    constructor(...args){
+        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.TryClick";
+    }
+}
+class SFActionLongClick extends SFAction {
+    constructor(...args){
+        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.LongClick";
+    }
+}
+class SFActionGlobalClick extends SFAction {
+    constructor(...args){
+        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.GlobalClick";
+    }
+}
+class SFActionSetText extends SFAction {
+    get data() {
+        const fnLog = sfdata_fileLog.sub(false, 'SFActionSetText_data_fn');
+        fnLog.log('set text');
+        return {
+            type: this.type,
+            value: this.value
+        };
+    }
+    constructor(...args){
+        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.SetText";
+    }
+}
+class SFWait {
+    constructor(){
+        this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.SFWait";
+        this.time = 0;
+        this.interval = 0;
+        this.invisible = false;
+    }
+}
+class SFData {
+    get data() {
+        return JSON.parse(JSON.stringify(this));
+    }
+    constructor(){
+        this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.SFData";
+    }
+}
+
+;// ../../libs/droid/project-v2-interface/src/a11y/A11yNode.ts
+
+
+const A11yNode_fileLog = new Log/* Log */.tG(false, 'A11yNode_f');
+A11yNode_fileLog.pause = true;
+A11yNode_fileLog.childrenPaused = true;
+var a11yNodeProperyEnum = /*#__PURE__*/ function(a11yNodeProperyEnum) {
+    a11yNodeProperyEnum["viewIdResourceName"] = "viewIdResourceName";
+    a11yNodeProperyEnum["contentDescription"] = "contentDescription";
+    a11yNodeProperyEnum["hintText"] = "hintText";
+    a11yNodeProperyEnum["text"] = "text";
+    a11yNodeProperyEnum["className"] = "className";
+    a11yNodeProperyEnum["availableExtraData"] = "availableExtraData";
+    a11yNodeProperyEnum["boundsInScreen"] = "boundsInScreen";
+    a11yNodeProperyEnum["children"] = "children";
+    a11yNodeProperyEnum["isAccessibilityDataSensitive"] = "isAccessibilityDataSensitive";
+    a11yNodeProperyEnum["isAccessibilityFocused"] = "isAccessibilityFocused";
+    a11yNodeProperyEnum["isCheckable"] = "isCheckable";
+    a11yNodeProperyEnum["isChecked"] = "isChecked";
+    a11yNodeProperyEnum["isClickable"] = "isClickable";
+    a11yNodeProperyEnum["isContentInvalid"] = "isContentInvalid";
+    a11yNodeProperyEnum["isContextClickable"] = "isContextClickable";
+    a11yNodeProperyEnum["isDismissable"] = "isDismissable";
+    a11yNodeProperyEnum["isEditable"] = "isEditable";
+    a11yNodeProperyEnum["isEnabled"] = "isEnabled";
+    a11yNodeProperyEnum["isFocusable"] = "isFocusable";
+    a11yNodeProperyEnum["isFocused"] = "isFocused";
+    a11yNodeProperyEnum["isHeading"] = "isHeading";
+    a11yNodeProperyEnum["isImportantForAccessibility"] = "isImportantForAccessibility";
+    a11yNodeProperyEnum["isLongClickable"] = "isLongClickable";
+    a11yNodeProperyEnum["isMultiLine"] = "isMultiLine";
+    a11yNodeProperyEnum["isPassword"] = "isPassword";
+    a11yNodeProperyEnum["isScreenReaderFocusable"] = "isScreenReaderFocusable";
+    a11yNodeProperyEnum["isScrollable"] = "isScrollable";
+    a11yNodeProperyEnum["isSelected"] = "isSelected";
+    a11yNodeProperyEnum["isShowingHintText"] = "isShowingHintText";
+    a11yNodeProperyEnum["isTextEntryKey"] = "isTextEntryKey";
+    a11yNodeProperyEnum["isTextSelectable"] = "isTextSelectable";
+    a11yNodeProperyEnum["isVisibleToUser"] = "isVisibleToUser";
+    a11yNodeProperyEnum["index"] = "index";
+    a11yNodeProperyEnum["listIndex"] = "listIndex";
+    return a11yNodeProperyEnum;
+}({});
+// 需要转码的contentDescription、hintText、text 这三个字段进出都需要转码
+class A11yNode {
+    constructor(){
+        this.isAccessibilityDataSensitive = false;
+        this.isAccessibilityFocused = false;
+        this.isCheckable = false;
+        this.isChecked = false;
+        this.isClickable = false;
+        this.isContentInvalid = false;
+        this.isContextClickable = false;
+        this.isDismissable = false;
+        this.isEditable = false;
+        this.isEnabled = true;
+        this.isFocusable = false;
+        this.isFocused = false;
+        this.isHeading = false;
+        this.isImportantForAccessibility = false;
+        this.isLongClickable = false;
+        this.isMultiLine = false;
+        this.isPassword = false;
+        this.isScreenReaderFocusable = false;
+        this.isScrollable = false;
+        this.isSelected = false;
+        this.isShowingHintText = false;
+        this.isTextEntryKey = false;
+        this.isTextSelectable = false;
+        this.isVisibleToUser = true;
+    }
+}
+var A11yNodePropertyType = /*#__PURE__*/ function(A11yNodePropertyType) {
+    A11yNodePropertyType["bl"] = "bl";
+    A11yNodePropertyType["text"] = "text";
+    A11yNodePropertyType["num"] = "num";
+    A11yNodePropertyType["arr"] = "arr";
+    A11yNodePropertyType["rect"] = "rect";
+    return A11yNodePropertyType;
+}({});
+class A11yNodePropertyInfo {
+    constructor(name, type){
+        this.name = name;
+        this.type = type;
+    }
+}
+const a11yNodeProperties = {
+    viewIdResourceName: new A11yNodePropertyInfo("viewIdResourceName", "text"),
+    text: new A11yNodePropertyInfo("text", "text"),
+    contentDescription: new A11yNodePropertyInfo("contentDescription", "text"),
+    isClickable: new A11yNodePropertyInfo("isClickable", "bl"),
+    index: new A11yNodePropertyInfo("index", "num"),
+    isAccessibilityDataSensitive: new A11yNodePropertyInfo("isAccessibilityDataSensitive", "bl"),
+    isAccessibilityFocused: new A11yNodePropertyInfo("isAccessibilityFocused", "bl"),
+    isCheckable: new A11yNodePropertyInfo("isCheckable", "bl"),
+    isChecked: new A11yNodePropertyInfo("isChecked", "bl"),
+    isContentInvalid: new A11yNodePropertyInfo("isContentInvalid", "bl"),
+    isContextClickable: new A11yNodePropertyInfo("isContextClickable", "bl"),
+    isDismissable: new A11yNodePropertyInfo("isDismissable", "bl"),
+    isEditable: new A11yNodePropertyInfo("isEditable", "bl"),
+    isEnabled: new A11yNodePropertyInfo("isEnabled", "bl"),
+    isFocusable: new A11yNodePropertyInfo("isFocusable", "bl"),
+    isFocused: new A11yNodePropertyInfo("isFocused", "bl"),
+    isHeading: new A11yNodePropertyInfo("isHeading", "bl"),
+    isImportantForAccessibility: new A11yNodePropertyInfo("isImportantForAccessibility", "bl"),
+    isLongClickable: new A11yNodePropertyInfo("isLongClickable", "bl"),
+    isMultiLine: new A11yNodePropertyInfo("isMultiLine", "bl"),
+    isPassword: new A11yNodePropertyInfo("isPassword", "bl"),
+    isScreenReaderFocusable: new A11yNodePropertyInfo("isScreenReaderFocusable", "bl"),
+    isScrollable: new A11yNodePropertyInfo("isScrollable", "bl"),
+    isSelected: new A11yNodePropertyInfo("isSelected", "bl"),
+    isShowingHintText: new A11yNodePropertyInfo("isShowingHintText", "bl"),
+    isTextEntryKey: new A11yNodePropertyInfo("isTextEntryKey", "bl"),
+    isTextSelectable: new A11yNodePropertyInfo("isTextSelectable", "bl"),
+    isVisibleToUser: new A11yNodePropertyInfo("isVisibleToUser", "bl"),
+    listIndex: new A11yNodePropertyInfo("listIndex", "num"),
+    className: new A11yNodePropertyInfo("className", "text"),
+    hintText: new A11yNodePropertyInfo("hintText", "text"),
+    children: new A11yNodePropertyInfo("children", "arr"),
+    boundsInScreen: new A11yNodePropertyInfo("boundsInScreen", "rect"),
+    availableExtraData: new A11yNodePropertyInfo("availableExtraData", "arr")
+};
+const a11yNodeRealizedKeys = (/* unused pure expression or super */ null && ([
+    "viewIdResourceName",
+    "text",
+    "contentDescription",
+    "isClickable"
+]));
+var A11yNode_NodeActionKeys = /*#__PURE__*/ function(NodeActionKeys) {
+    NodeActionKeys["click"] = "click";
+    NodeActionKeys["longClick"] = "longClick";
+    NodeActionKeys["setText"] = "setText";
+    NodeActionKeys["tryClick"] = "tryClick";
+    NodeActionKeys["globalClick"] = "globalClick";
+    return NodeActionKeys;
+}({});
+const A11yNode_nodeActions = {
+    ["click"]: {
+        clazz: SFActionClick,
+        name: "click",
+        value: "click",
+        hasInput: false
+    },
+    ["longClick"]: {
+        clazz: SFActionLongClick,
+        name: "longClick",
+        value: "longClick",
+        hasInput: false
+    },
+    ["setText"]: {
+        clazz: SFActionSetText,
+        name: "setText",
+        value: "setText",
+        hasInput: true
+    },
+    ["tryClick"]: {
+        clazz: SFActionTryClick,
+        name: "tryClick",
+        value: "tryClick",
+        hasInput: false
+    },
+    ["globalClick"]: {
+        clazz: SFActionGlobalClick,
+        name: "globalClick",
+        value: "globalClick",
+        hasInput: false
+    }
+};
+
+// EXTERNAL MODULE: ../../node_modules/.pnpm/react@19.1.0/node_modules/react/jsx-runtime.js
+var jsx_runtime = __webpack_require__(94513);
+;// ../../libs/droid/project-v2-interface/src/a11y/NodeActionUI.tsx
+
+
+
+
+const NodeActionUI_fileLog = new Log/* Log */.tG(false, 'NodeActionUI_f');
+NodeActionUI_fileLog.pause = true;
+NodeActionUI_fileLog.childrenPaused = true;
+function NodeActionUI(param) {
+    let { nodeAction, setNodeAction, text, setText } = param;
+    const uiLog = NodeActionUI_fileLog.sub(false, 'NodeActionUI_ui');
+    uiLog.pause = true;
+    const { t } = useTranslation("droid-project-v2-interface/a11y/content");
+    const handleChange = (event)=>{
+        const fnLog = uiLog.sub(false, 'handleChange_fn');
+        fnLog.log('handleChange, value=', event.target.value);
+        setNodeAction(nodeActions[event.target.value]);
+    };
+    return /*#__PURE__*/ _jsx(_Fragment, {
+        children: /*#__PURE__*/ _jsx(Box, {
+            sx: {
+                width: "100%"
+            },
+            children: /*#__PURE__*/ _jsxs(FormControl, {
+                children: [
+                    /*#__PURE__*/ _jsx(FormLabel, {
+                        id: "demo-radio-buttons-group-label",
+                        children: t("NodeActionUI.title")
+                    }),
+                    /*#__PURE__*/ _jsxs(RadioGroup, {
+                        "aria-labelledby": "demo-radio-buttons-group-label",
+                        value: nodeAction.value,
+                        name: "radio-buttons-group",
+                        onChange: handleChange,
+                        children: [
+                            /*#__PURE__*/ _jsx(FormControlLabel, {
+                                value: NodeActionKeys.click,
+                                control: /*#__PURE__*/ _jsx(Radio, {}),
+                                label: t("NodeActionUI.click")
+                            }),
+                            /*#__PURE__*/ _jsx(FormControlLabel, {
+                                value: NodeActionKeys.longClick,
+                                control: /*#__PURE__*/ _jsx(Radio, {}),
+                                label: t("NodeActionUI.longClick")
+                            }),
+                            /*#__PURE__*/ _jsxs(Grid2, {
+                                direction: "row",
+                                spacing: 2,
+                                container: true,
+                                children: [
+                                    /*#__PURE__*/ _jsx(Grid2, {
+                                        size: "auto",
+                                        children: /*#__PURE__*/ _jsx(FormControlLabel, {
+                                            value: NodeActionKeys.setText,
+                                            control: /*#__PURE__*/ _jsx(Radio, {}),
+                                            label: t("NodeActionUI.setText")
+                                        })
+                                    }),
+                                    /*#__PURE__*/ _jsx(Grid2, {
+                                        size: "grow",
+                                        children: /*#__PURE__*/ _jsx(Input, {
+                                            value: text,
+                                            onChange: (e)=>setText(e.target.value)
+                                        })
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ _jsx(FormControlLabel, {
+                                value: NodeActionKeys.tryClick,
+                                control: /*#__PURE__*/ _jsx(Radio, {}),
+                                label: t("NodeActionUI.tryClick")
+                            }),
+                            /*#__PURE__*/ _jsx(FormControlLabel, {
+                                value: NodeActionKeys.globalClick,
+                                control: /*#__PURE__*/ _jsx(Radio, {}),
+                                label: t("NodeActionUI.globalClick")
+                            })
+                        ]
+                    })
+                ]
+            })
+        })
+    });
+}
+
+;// ../../libs/droid/project-v2-interface/src/a11y/index.ts
+
+
+
+
+// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/common/IEntityDescription.ts
+var IEntityDescription = __webpack_require__(10679);
+;// ../../libs/droid/project-v2-interface/src/common/index.ts
+
+
+// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/components/description-renderer/DescriptionContentRenderer.tsx
+var DescriptionContentRenderer = __webpack_require__(41445);
+;// ../../libs/droid/project-v2-interface/src/components/index.ts
+
+
+;// ../../libs/droid/project-v2-interface/src/index.ts
+// Constants
+
+// 通用类型
+
+
+
+
+
+
+
+
+
+// 实体接口
+
+
+
+
+
+
+
+// Storage
+
+// Trigger/Action Handlers
+
+
+// Events
+
+// Contexts
+
+// Utils
+
+// A11y
+
+// Common
+
+// Components
+
+
 
 /***/ }),
 
@@ -127662,7 +129103,6 @@ const actionGroupType = 'actionGroup';
 // === ActionGroup Utils ===
 function createDefaultActionGroup() {
     return {
-        id: 0,
         ulid: (0,_barrel_optimize_names_ulid_ulid__WEBPACK_IMPORTED_MODULE_1__/* .ulid */ .Z0)(),
         uuid: '',
         list: [],
@@ -131294,7 +132734,6 @@ const triggerGroupType = 'triggerGroup';
 // === TriggerGroup Utils ===
 function createDefaultTriggerGroup() {
     return {
-        id: 0,
         ulid: (0,_barrel_optimize_names_ulid_ulid__WEBPACK_IMPORTED_MODULE_1__/* .ulid */ .Z0)(),
         uuid: '',
         list: [],
@@ -142513,1425 +143952,6 @@ class Filter {
   lazy_load_members: true
 });
 //# sourceMappingURL=filter.js.map
-
-/***/ }),
-
-/***/ 91415:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  Tj: () => (/* reexport */ ActionGroupContext),
-  Us: () => (/* reexport */ ActionListContext),
-  oc: () => (/* reexport */ GroupCheckList1Context),
-  v8: () => (/* reexport */ PROJECT_CATEGORY_CONFIGS),
-  U2: () => (/* reexport */ ProjectCategory),
-  vz: () => (/* reexport */ ProjectContext),
-  KY: () => (/* reexport */ ProjectMemberType),
-  wg: () => (/* reexport */ IProject/* ProjectVisibility */.wg),
-  yZ: () => (/* reexport */ IProjectSettings/* RemoteSyncStatus */.y),
-  Ck: () => (/* reexport */ TriggerActionContext),
-  NF: () => (/* reexport */ TriggerActionGroupContext),
-  MS: () => (/* reexport */ TriggerContext),
-  bf: () => (/* reexport */ TriggerGroupContext),
-  Ue: () => (/* reexport */ TriggerListContext),
-  bz: () => (/* reexport */ TriggerOrActionListTypeEnum),
-  mR: () => (/* reexport */ childToProjectDataUtils),
-  A5: () => (/* reexport */ IActionGroup/* createActionUtils */.A5),
-  GY: () => (/* reexport */ ITriggerActionGroup/* createDefaultTriggerAction */.GY),
-  ZX: () => (/* reexport */ IProject/* createProjectByCategory */.ZX),
-  iT: () => (/* reexport */ createTriggerActionUtils),
-  Cq: () => (/* reexport */ ITriggerGroup/* createTriggerUtils */.Cq),
-  q_: () => (/* reexport */ getActionGroupElement),
-  e9: () => (/* reexport */ IActionGroup/* getActionUtils */.e9),
-  af: () => (/* reexport */ getProjectCategoryConfig),
-  C: () => (/* reexport */ getProjectHistory),
-  JT: () => (/* reexport */ getTriggerOrActionListPageParams),
-  gq: () => (/* reexport */ ITriggerGroup/* getTriggerUtils */.gq),
-  TC: () => (/* reexport */ projectEventUtils),
-  Dp: () => (/* reexport */ projectNamespace),
-  DO: () => (/* reexport */ storage/* projectStore */.D),
-  kg: () => (/* reexport */ takeProjectSnapshoot)
-});
-
-// UNUSED EXPORTS: A11yNode, A11yNodePropertyInfo, A11yNodePropertyType, ActionContext, ActionListFromEnum, ActionUtilsMap, DescriptionContentRenderer, DescriptionContentType, GroupCheckList2Context, ISFCondfType, NodeActionKeys, NodeActionUI, SFAction, SFActionClick, SFActionFocus, SFActionGlobalClick, SFActionLearFocus, SFActionLongClick, SFActionSetText, SFActionTryClick, SFCond, SFCondClickable, SFCondDesc, SFCondDescs, SFCondId, SFCondIds, SFCondMatchText, SFCondRoot, SFCondText, SFCondTexts, SFCondTypes, SFData, SFWait, TriggerUtilsMap, a11yNodeProperties, a11yNodeProperyEnum, a11yNodeRealizedKeys, actionBaseUtils, actionGroupType, actionGroupUtils, actionType, addProjectHistory, createActionHandler, createDefaultProject, createDefaultProjectSettings, createDefaultTriggerActionGroup, createMergeToDefaultData, createTriggerHandler, findEntityAcrossProjects, getActionGroupByProp, getActionGroupElementByProp, getActionListByProp, getProjectLastHistory, getTriggerByProp, getTriggerElementByProp, getTriggerListByProp, getTriggerListElementByProp, isSameProjectHistoryId, mergeDataWith, mergeToDefaultData, mergeTriggerActionGroupToDefaultData, nodeActions, projectDataToUniqueId, projectHistoryIsChanged, projectType, projectUtils, projectsHistoryMap, registerActionUtils, registerTriggerUtils, removeProjectHistory, s, triggerActionGroupType, triggerBaseUtils, triggerGroupType, triggerGroupUtils, triggerType, validateUrl
-
-;// ../../libs/droid/project-v2-interface/src/constants/namespace.ts
-/**
- * Project 命名空间常量
- * 用于生成 trigger/action 的 type 前缀
- */ const projectNamespace = "fanfanlo/javajs/v1/project/components/";
-
-;// ../../libs/droid/project-v2-interface/src/constants/index.ts
-
-
-// EXTERNAL MODULE: ../../libs/fanfanlo/src/log/Log.ts + 1 modules
-var Log = __webpack_require__(89597);
-;// ../../libs/droid/project-v2-interface/src/types/ProjectCategory.ts
-
-const fileLog = new Log/* Log */.tG(true, 'ProjectCategory');
-fileLog.pause = true;
-/**
- * Project 类别枚举
- *
- * QuickAction - 快捷操作：只有一个 action，无 trigger
- * ScriptRunner - 脚本运行器：单 script action，纯代码
- * Workflow - 工作流：完整的 trigger + action
- */ var ProjectCategory = /*#__PURE__*/ function(ProjectCategory) {
-    /** 快捷操作 - 只有一个 action，无 trigger */ ProjectCategory["QuickAction"] = "quick-action";
-    /** 脚本运行器 - 单 script action，纯代码 */ ProjectCategory["ScriptRunner"] = "script-runner";
-    /** 工作流 - 完整的 trigger + action */ ProjectCategory["Workflow"] = "workflow";
-    return ProjectCategory;
-}({});
-/**
- * 各类别的配置
- */ const PROJECT_CATEGORY_CONFIGS = {
-    ["quick-action"]: {
-        category: "quick-action",
-        labelKey: 'ProjectCategory.QuickAction.label',
-        descriptionKey: 'ProjectCategory.QuickAction.description',
-        icon: 'flash_on',
-        uiConfig: {
-            showTrigger: false,
-            showActionList: true,
-            allowAddGroup: false,
-            forceScriptAction: false
-        }
-    },
-    ["script-runner"]: {
-        category: "script-runner",
-        labelKey: 'ProjectCategory.ScriptRunner.label',
-        descriptionKey: 'ProjectCategory.ScriptRunner.description',
-        icon: 'code',
-        uiConfig: {
-            showTrigger: false,
-            showActionList: false,
-            allowAddGroup: false,
-            forceScriptAction: true
-        }
-    },
-    ["workflow"]: {
-        category: "workflow",
-        labelKey: 'ProjectCategory.Workflow.label',
-        descriptionKey: 'ProjectCategory.Workflow.description',
-        icon: 'account_tree',
-        uiConfig: {
-            showTrigger: true,
-            showActionList: true,
-            allowAddGroup: true,
-            forceScriptAction: false
-        }
-    }
-};
-/**
- * 获取 ProjectCategory 配置
- * @param category 项目类别，如果为空则默认返回 Workflow 配置
- */ function getProjectCategoryConfig(category) {
-    fileLog.log("[getProjectCategoryConfig] 输入 category=".concat(category));
-    let resolvedCategory;
-    if (category) {
-        resolvedCategory = category;
-        fileLog.log("[getProjectCategoryConfig] 使用传入的 category=".concat(resolvedCategory));
-    } else {
-        resolvedCategory = "workflow";
-        fileLog.log("[getProjectCategoryConfig] category 为空，使用默认值 Workflow");
-    }
-    const config = PROJECT_CATEGORY_CONFIGS[resolvedCategory];
-    fileLog.log("[getProjectCategoryConfig] 返回配置:", JSON.stringify(config));
-    return config;
-}
-
-// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/types/IProjectSettings.ts
-var IProjectSettings = __webpack_require__(55418);
-// EXTERNAL MODULE: __barrel_optimize__?names=ulid!=!../../node_modules/.pnpm/ulid@2.4.0/node_modules/ulid/dist/index.esm.js + 1 modules
-var index_esm = __webpack_require__(43899);
-// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/utils/mergeToDefaultData.ts
-var mergeToDefaultData = __webpack_require__(40705);
-;// ../../libs/droid/project-v2-interface/src/entities/ITrigger.ts
-
-
-// === 类型常量 ===
-const triggerType = 'trigger';
-// === Trigger Utils ===
-function createDefaultTrigger() {
-    return {
-        id: 0,
-        ulid: (0,index_esm/* ulid */.Z0)(),
-        uuid: '',
-        ownerUuid: '',
-        currentVersion: 1,
-        permissions: [],
-        injects: [],
-        createdAt: Date.now(),
-        updatedAt: Date.now(),
-        authorUuid: ''
-    };
-}
-const triggerBaseUtils = {
-    type: triggerType,
-    createDefaultData: createDefaultTrigger,
-    mergeDataToDefaultData: (0,mergeToDefaultData/* createMergeToDefaultData */.dV)(createDefaultTrigger)
-};
-
-// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/entities/ITriggerGroup.ts
-var ITriggerGroup = __webpack_require__(85513);
-;// ../../libs/droid/project-v2-interface/src/entities/IAction.ts
-
-
-// === 类型常量 ===
-const actionType = 'action';
-// === Action Utils ===
-function createDefaultAction() {
-    return {
-        id: 0,
-        ulid: (0,index_esm/* ulid */.Z0)(),
-        uuid: '',
-        ownerUuid: '',
-        currentVersion: 1,
-        actionType: '',
-        createdAt: Date.now(),
-        updatedAt: Date.now(),
-        authorUuid: ''
-    };
-}
-const actionBaseUtils = {
-    type: actionType,
-    createDefaultData: createDefaultAction,
-    mergeDataToDefaultData: (0,mergeToDefaultData/* createMergeToDefaultData */.dV)(createDefaultAction)
-};
-
-// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/entities/IActionGroup.ts
-var IActionGroup = __webpack_require__(80827);
-// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/entities/ITriggerActionGroup.ts
-var ITriggerActionGroup = __webpack_require__(11067);
-// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/entities/IProject.ts
-var IProject = __webpack_require__(14283);
-// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/storage/storage.ts + 1 modules
-var storage = __webpack_require__(59814);
-;// ../../libs/droid/project-v2-interface/src/trigger-action-handlers/createTriggerHandler.ts
-
-/**
- * 创建触发器处理器
- * @param createDefaultTrigger 创建默认触发器的函数（V2 格式）
- * @returns onSelect 处理函数
- */ function createTriggerHandler(createDefaultTrigger) {
-    return function onSelect(param) {
-        let { query } = param;
-        var _projectStore_triggerGroupMap;
-        // 1. 从 Store 中通过 ULID 查找 TriggerGroup
-        const triggerGroup = (_projectStore_triggerGroupMap = projectStore.triggerGroupMap) === null || _projectStore_triggerGroupMap === void 0 ? void 0 : _projectStore_triggerGroupMap[query.triggerGroupUlid];
-        if (!triggerGroup) {
-            throw new Error("TriggerGroup not found: ".concat(query.triggerGroupUlid));
-        }
-        // 2. 创建默认触发器（V2 格式）
-        const trigger = createDefaultTrigger();
-        // 3. 修改：只维护children（存储完整对象），list由后端维护
-        if (!triggerGroup.children) {
-            triggerGroup.children = [];
-        }
-        triggerGroup.children.push(trigger);
-        // 4. 注册到 Store（供后续查找使用）
-        projectStore.triggerMap[trigger.ulid] = trigger;
-        // 6. 返回编辑页面
-        window.history.back();
-    };
-}
-
-;// ../../libs/droid/project-v2-interface/src/trigger-action-handlers/createActionHandler.ts
-
-/**
- * 创建动作处理器
- * @param createDefaultAction 创建默认动作的函数（V2 格式）
- * @returns onSelect 处理函数
- */ function createActionHandler(createDefaultAction) {
-    return function onSelect(param) {
-        let { query } = param;
-        var _projectStore_actionGroupMap;
-        // 1. 从 Store 中通过 ULID 查找 ActionGroup
-        const actionGroup = (_projectStore_actionGroupMap = projectStore.actionGroupMap) === null || _projectStore_actionGroupMap === void 0 ? void 0 : _projectStore_actionGroupMap[query.actionGroupUlid];
-        if (!actionGroup) {
-            throw new Error("ActionGroup not found: ".concat(query.actionGroupUlid));
-        }
-        // 2. 创建默认动作（V2 格式）
-        const action = createDefaultAction();
-        // 3. 修改：只维护children（存储完整对象），list由后端维护
-        if (!actionGroup.children) {
-            actionGroup.children = [];
-        }
-        actionGroup.children.push(action);
-        // 4. 注册到 Store（供后续查找使用）
-        projectStore.actionMap[action.ulid] = action;
-        // 6. 返回编辑页面
-        window.history.back();
-    };
-}
-
-;// ../../libs/droid/project-v2-interface/src/events/projectMemberType.ts
-var ProjectMemberType = /*#__PURE__*/ function(ProjectMemberType) {
-    ProjectMemberType["project"] = "project";
-    ProjectMemberType["trigger"] = "trigger";
-    ProjectMemberType["action"] = "action";
-    ProjectMemberType["webConfig"] = "webConfig";
-    ProjectMemberType["javaData"] = "javaData";
-    ProjectMemberType["triggerAction"] = "triggerAction";
-    ProjectMemberType["actionGroup"] = "actionGroup";
-    ProjectMemberType["triggerGroup"] = "triggerGroup";
-    ProjectMemberType["triggerActionGroup"] = "triggerActionGroup";
-    return ProjectMemberType;
-}({});
-
-;// ../../libs/droid/project-v2-interface/src/events/trigger-list-action-list-intf.ts
-
-
-const trigger_list_action_list_intf_fileLog = new Log/* Log */.tG(false, 'trigger-list-action-list-intf_f');
-trigger_list_action_list_intf_fileLog.pause = true;
-trigger_list_action_list_intf_fileLog.childrenPaused = true;
-var ActionListFromEnum = /*#__PURE__*/ function(ActionListFromEnum) {
-    ActionListFromEnum["project"] = "project";
-    return ActionListFromEnum;
-}({});
-var TriggerOrActionListTypeEnum = /*#__PURE__*/ function(TriggerOrActionListTypeEnum) {
-    TriggerOrActionListTypeEnum["addAction"] = "add";
-    TriggerOrActionListTypeEnum["updateAction"] = "update";
-    return TriggerOrActionListTypeEnum;
-}({});
-function getTriggerOrActionListPageParams(params) {
-    var _data_triggerActionGroup_children, _data_triggerActionGroup_children1;
-    const fnLog = trigger_list_action_list_intf_fileLog.sub(false, 'getTriggerOrActionListPageParams_fn');
-    fnLog.pause = true;
-    fnLog.log('[getTriggerOrActionListPageParams] params=', JSON.stringify(params));
-    const project = storage/* projectStore */.D.findDraftOrSavedProject(params.projectUlid);
-    const data = {};
-    const res = {
-        data,
-        params
-    };
-    if (!project) {
-        fnLog.log('[getTriggerOrActionListPageParams] project not found, projectUlid=', params.projectUlid);
-        return res;
-    }
-    fnLog.log('[getTriggerOrActionListPageParams] project found, ulid=', project.ulid);
-    data.project = project;
-    if (!project.children || project.children.length === 0) {
-        fnLog.log('[getTriggerOrActionListPageParams] project.children is empty');
-        return res;
-    }
-    fnLog.log('[getTriggerOrActionListPageParams] project.children.length=', project.children.length);
-    // 在 children 中查找匹配的 triggerActionGroup
-    const foundTriggerActionGroup = project.children.find((child)=>child.ulid === params.triggerActionGroupUlid);
-    if (!foundTriggerActionGroup) {
-        fnLog.log('[getTriggerOrActionListPageParams] triggerActionGroup not found in children, expected=', params.triggerActionGroupUlid);
-        return res;
-    }
-    data.triggerActionGroup = foundTriggerActionGroup;
-    fnLog.log('[getTriggerOrActionListPageParams] triggerActionGroup found, ulid=', data.triggerActionGroup.ulid);
-    if (!params.triggerActionUlid) {
-        fnLog.log('[getTriggerOrActionListPageParams] triggerActionUlid is undefined');
-        return res;
-    }
-    // 注意：list 存储的是 ulid 字符串数组，children 存储的是完整对象数组
-    // 所以需要在 children 中查找 triggerAction 对象
-    fnLog.log('[getTriggerOrActionListPageParams] triggerActionGroup.list=', JSON.stringify(data.triggerActionGroup.list));
-    fnLog.log('[getTriggerOrActionListPageParams] triggerActionGroup.children.length=', (_data_triggerActionGroup_children = data.triggerActionGroup.children) === null || _data_triggerActionGroup_children === void 0 ? void 0 : _data_triggerActionGroup_children.length);
-    const triggerAction = (_data_triggerActionGroup_children1 = data.triggerActionGroup.children) === null || _data_triggerActionGroup_children1 === void 0 ? void 0 : _data_triggerActionGroup_children1.find((item)=>item.ulid === params.triggerActionUlid);
-    if (!triggerAction) {
-        fnLog.log('[getTriggerOrActionListPageParams] triggerAction not found in children, ulid=', params.triggerActionUlid);
-        return res;
-    }
-    data.triggerAction = triggerAction;
-    fnLog.log('[getTriggerOrActionListPageParams] triggerAction found, ulid=', triggerAction.ulid);
-    parseAction(data, params, triggerAction);
-    parseTrigger(data, params, triggerAction);
-    fnLog.log('[getTriggerOrActionListPageParams] result data=', JSON.stringify(data));
-    return res;
-}
-function parseAction(data, params, triggerAction) {
-    var _triggerAction_actionGroup_children;
-    const fnLog = trigger_list_action_list_intf_fileLog.sub(false, 'parseAction_fn');
-    fnLog.pause = true;
-    if (!params.actionGroupUlid) {
-        fnLog.log('[parseAction] actionGroupUlid is undefined');
-        return;
-    }
-    if (!triggerAction.actionGroup) {
-        fnLog.log('[parseAction] triggerAction.actionGroup is undefined');
-        return;
-    }
-    if (params.actionGroupUlid !== triggerAction.actionGroup.ulid) {
-        fnLog.log('[parseAction] actionGroup ulid mismatch, expected=', params.actionGroupUlid, 'actual=', triggerAction.actionGroup.ulid);
-        return;
-    }
-    data.actionGroup = triggerAction.actionGroup;
-    fnLog.log('[parseAction] actionGroup found, ulid=', data.actionGroup.ulid);
-    if (!params.actionUlid) {
-        fnLog.log('[parseAction] actionUlid is undefined');
-        return;
-    }
-    // 修改: list 存储的是 ULID 字符串，children 存储的是完整对象
-    const action = (_triggerAction_actionGroup_children = triggerAction.actionGroup.children) === null || _triggerAction_actionGroup_children === void 0 ? void 0 : _triggerAction_actionGroup_children.find((item)=>item.ulid === params.actionUlid);
-    if (!action) {
-        fnLog.log('[parseAction] action not found in children, ulid=', params.actionUlid);
-        return;
-    }
-    data.action = action;
-    fnLog.log('[parseAction] action found, ulid=', action.ulid);
-}
-function parseTrigger(data, params, triggerAction) {
-    var _triggerAction_triggerGroup_children;
-    const fnLog = trigger_list_action_list_intf_fileLog.sub(false, 'parseTrigger_fn');
-    fnLog.pause = true;
-    if (!params.triggerGroupUlid) {
-        fnLog.log('[parseTrigger] triggerGroupUlid is undefined');
-        return;
-    }
-    if (!triggerAction.triggerGroup) {
-        fnLog.log('[parseTrigger] triggerAction.triggerGroup is undefined');
-        return;
-    }
-    if (params.triggerGroupUlid !== triggerAction.triggerGroup.ulid) {
-        fnLog.log('[parseTrigger] triggerGroup ulid mismatch, expected=', params.triggerGroupUlid, 'actual=', triggerAction.triggerGroup.ulid);
-        return;
-    }
-    data.triggerGroup = triggerAction.triggerGroup;
-    fnLog.log('[parseTrigger] triggerGroup found, ulid=', data.triggerGroup.ulid);
-    if (!params.triggerUlid) {
-        fnLog.log('[parseTrigger] triggerUlid is undefined');
-        return;
-    }
-    // 修改: list 存储的是 ULID 字符串，children 存储的是完整对象
-    const trigger = (_triggerAction_triggerGroup_children = triggerAction.triggerGroup.children) === null || _triggerAction_triggerGroup_children === void 0 ? void 0 : _triggerAction_triggerGroup_children.find((item)=>item.ulid === params.triggerUlid);
-    if (!trigger) {
-        fnLog.log('[parseTrigger] trigger not found in children, ulid=', params.triggerUlid);
-        return;
-    }
-    data.trigger = trigger;
-    fnLog.log('[parseTrigger] trigger found, ulid=', trigger.ulid);
-}
-
-// EXTERNAL MODULE: ../../libs/fanfanlo/src/dispatcher/Dispatcher.ts
-var Dispatcher = __webpack_require__(30910);
-// EXTERNAL MODULE: ../../libs/fanfanlo/src/utils/throw-trace-error.ts
-var throw_trace_error = __webpack_require__(51020);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/lodash@4.17.21/node_modules/lodash/lodash.js
-var lodash = __webpack_require__(80507);
-var lodash_default = /*#__PURE__*/__webpack_require__.n(lodash);
-;// ../../libs/droid/project-v2-interface/src/events/projectEventUtils.ts
-
-
-
-const projectEventUtils_fileLog = new Log/* Log */.tG(false, 'projectEventUtils_f');
-projectEventUtils_fileLog.pause = true;
-projectEventUtils_fileLog.childrenPaused = true;
-const dispatcher = new Dispatcher/* Dispatcher */.m();
-var EditType = /*#__PURE__*/ function(EditType) {
-    EditType["add"] = "add";
-    EditType["updateJavaData"] = "updateJavaData";
-    EditType["updateWebConfig"] = "updateWebConfig";
-    return EditType;
-}(EditType || {});
-function dispatchEditEvent(editType, event) {
-    const fnLog = projectEventUtils_fileLog.sub(false, 'dispatchEditEvent_fn');
-    fnLog.pause = true;
-    fnLog.log('[dispatchEditEvent] editType=', editType, 'event=', JSON.stringify(event));
-    dispatcher.dispatch(editType, event);
-}
-function onEditJavaData(event) {
-    const fnLog = projectEventUtils_fileLog.sub(false, 'onEditJavaData_fn');
-    fnLog.pause = true;
-    fnLog.log('[onEditJavaData] event=', JSON.stringify(event));
-    switch(event.projectMemberType){
-        case ProjectMemberType.action:
-            onActionEdit("updateJavaData", event);
-            break;
-        case ProjectMemberType.trigger:
-            onTriggerEdit("updateJavaData", event);
-            break;
-        default:
-            {
-                const msg = "[onEditJavaData] unknown projectMemberType: ".concat(event.projectMemberType);
-                fnLog.error(msg, event);
-                (0,throw_trace_error/* throwTraceError */.w)(msg, event);
-            }
-    }
-}
-function onEditWebConfig(event) {
-    const fnLog = projectEventUtils_fileLog.sub(false, 'onEditWebConfig_fn');
-    fnLog.pause = true;
-    fnLog.log('[onEditWebConfig] event=', JSON.stringify(event));
-    switch(event.projectMemberType){
-        case ProjectMemberType.action:
-            onActionEdit("updateWebConfig", event);
-            break;
-        case ProjectMemberType.trigger:
-            onTriggerEdit("updateWebConfig", event);
-            break;
-        default:
-            {
-                const msg = "[onEditWebConfig] unknown projectMemberType: ".concat(event.projectMemberType);
-                fnLog.error(msg, event);
-                (0,throw_trace_error/* throwTraceError */.w)(msg, event);
-            }
-    }
-}
-function onTriggerEdit(editType, event) {
-    var _event_projectInfo;
-    const fnLog = projectEventUtils_fileLog.sub(false, 'onTriggerEdit_fn');
-    fnLog.pause = true;
-    fnLog.log('[onTriggerEdit] editType=', editType);
-    const trigger = (_event_projectInfo = event.projectInfo) === null || _event_projectInfo === void 0 ? void 0 : _event_projectInfo.trigger;
-    if (!trigger) {
-        const msg = "[onTriggerEdit] no trigger when editing trigger";
-        fnLog.error(msg, event);
-        return (0,throw_trace_error/* throwTraceError */.w)(msg, event);
-    }
-    fnLog.log('[onTriggerEdit] before merge, trigger.javaData=', JSON.stringify(trigger.javaData));
-    fnLog.log('[onTriggerEdit] before merge, trigger.webConfig=', JSON.stringify(trigger.webConfig));
-    switch(editType){
-        case "updateJavaData":
-            lodash_default().merge(trigger.javaData, event.data);
-            fnLog.log('[onTriggerEdit] after merge javaData=', JSON.stringify(trigger.javaData));
-            break;
-        case "updateWebConfig":
-            lodash_default().merge(trigger.webConfig, event.data);
-            fnLog.log('[onTriggerEdit] after merge webConfig=', JSON.stringify(trigger.webConfig));
-            break;
-        default:
-            {
-                const msg = "[onTriggerEdit] unknown editType: ".concat(editType);
-                fnLog.error(msg, event);
-                (0,throw_trace_error/* throwTraceError */.w)(msg, event);
-            }
-    }
-}
-function onActionEdit(editType, event) {
-    var _event_projectInfo;
-    const fnLog = projectEventUtils_fileLog.sub(false, 'onActionEdit_fn');
-    fnLog.pause = true;
-    fnLog.log('[onActionEdit] editType=', editType);
-    const action = (_event_projectInfo = event.projectInfo) === null || _event_projectInfo === void 0 ? void 0 : _event_projectInfo.action;
-    if (!action) {
-        const msg = "[onActionEdit] no action when editing action";
-        fnLog.error(msg, event);
-        return (0,throw_trace_error/* throwTraceError */.w)(msg, event);
-    }
-    fnLog.log('[onActionEdit] before merge, action.javaData=', JSON.stringify(action.javaData));
-    fnLog.log('[onActionEdit] before merge, action.webConfig=', JSON.stringify(action.webConfig));
-    switch(editType){
-        case "updateJavaData":
-            lodash_default().merge(action.javaData, event.data);
-            fnLog.log('[onActionEdit] after merge javaData=', JSON.stringify(action.javaData));
-            break;
-        case "updateWebConfig":
-            lodash_default().merge(action.webConfig, event.data);
-            fnLog.log('[onActionEdit] after merge webConfig=', JSON.stringify(action.webConfig));
-            break;
-        default:
-            {
-                const msg = "[onActionEdit] unknown editType: ".concat(editType);
-                fnLog.error(msg, event);
-                (0,throw_trace_error/* throwTraceError */.w)(msg, event);
-            }
-    }
-}
-function onAdd(event) {
-    const fnLog = projectEventUtils_fileLog.sub(false, 'onAdd_fn');
-    fnLog.pause = true;
-    fnLog.log('[onAdd] event=', JSON.stringify(event));
-    switch(event.projectMemberType){
-        case ProjectMemberType.actionGroup:
-            onActionGroupAdd(event);
-            break;
-        case ProjectMemberType.triggerGroup:
-            onTriggerGroupAdd(event);
-            break;
-        default:
-            {
-                const msg = "[onAdd] unknown projectMemberType: ".concat(event.projectMemberType);
-                fnLog.error(msg, event);
-            }
-    }
-}
-function onTriggerGroupAdd(event) {
-    var _event_projectInfo;
-    const fnLog = projectEventUtils_fileLog.sub(false, 'onTriggerGroupAdd_fn');
-    fnLog.pause = true;
-    const group = (_event_projectInfo = event.projectInfo) === null || _event_projectInfo === void 0 ? void 0 : _event_projectInfo.triggerGroup;
-    if (!group) {
-        const msg = "[onTriggerGroupAdd] no triggerGroup when adding trigger";
-        fnLog.error(msg, event);
-        return (0,throw_trace_error/* throwTraceError */.w)(msg, event);
-    }
-    const trigger = event.data;
-    // v2数据结构：children存储完整对象，list由后端维护
-    if (!group.children) {
-        group.children = [];
-        fnLog.log('[onTriggerGroupAdd] initialized empty children for triggerGroup');
-    }
-    fnLog.log('[onTriggerGroupAdd] before push, children.length=', group.children.length);
-    // 修改：只维护children（存储完整对象），list由后端维护
-    group.children.push(trigger);
-    fnLog.log('[onTriggerGroupAdd] after push, children.length=', group.children.length);
-    fnLog.log('[onTriggerGroupAdd] new trigger ulid=', trigger.ulid, 'trigger=', JSON.stringify(trigger));
-}
-function onActionGroupAdd(event) {
-    var _event_projectInfo;
-    const fnLog = projectEventUtils_fileLog.sub(false, 'onActionGroupAdd_fn');
-    fnLog.pause = true;
-    const group = (_event_projectInfo = event.projectInfo) === null || _event_projectInfo === void 0 ? void 0 : _event_projectInfo.actionGroup;
-    if (!group) {
-        const msg = "[onActionGroupAdd] no actionGroup when adding action";
-        fnLog.error(msg, event);
-        return (0,throw_trace_error/* throwTraceError */.w)(msg, event);
-    }
-    const action = event.data;
-    // v2数据结构：children存储完整对象，list由后端维护
-    if (!group.children) {
-        group.children = [];
-        fnLog.log('[onActionGroupAdd] initialized empty children for actionGroup');
-    }
-    fnLog.log('[onActionGroupAdd] before push, children.length=', group.children.length);
-    // 修改：只维护children（存储完整对象），list由后端维护
-    group.children.push(action);
-    fnLog.log('[onActionGroupAdd] after push, children.length=', group.children.length);
-    fnLog.log('[onActionGroupAdd] new action ulid=', action.ulid, 'action=', JSON.stringify(action));
-}
-function init() {
-    const fnLog = projectEventUtils_fileLog.sub(false, 'init_fn');
-    fnLog.pause = true;
-    fnLog.log('[init] registering event listeners');
-    dispatcher.addListener("updateJavaData", onEditJavaData);
-    dispatcher.addListener("updateWebConfig", onEditWebConfig);
-    dispatcher.addListener("add", onAdd);
-    fnLog.log('[init] event listeners registered');
-}
-const projectEventUtils = {
-    init,
-    dispatcher,
-    dispatchEditEvent,
-    EditType
-};
-
-;// ../../libs/droid/project-v2-interface/src/events/index.ts
-
-
-
-
-// EXTERNAL MODULE: ../../node_modules/.pnpm/react@19.1.0/node_modules/react/index.js
-var react = __webpack_require__(94285);
-;// ../../libs/droid/project-v2-interface/src/contexts/project-contexts.tsx
-/**
- * React Contexts
- * 用于项目编辑器等UI组件的上下文传递
- */ 
-// === Project Context ===
-const ProjectContext = /*#__PURE__*/ (0,react.createContext)({});
-// === TriggerAction Contexts ===
-const TriggerActionGroupContext = /*#__PURE__*/ (0,react.createContext)({});
-const TriggerActionContext = /*#__PURE__*/ (0,react.createContext)({});
-// === Trigger Contexts ===
-const TriggerGroupContext = /*#__PURE__*/ (0,react.createContext)({});
-const TriggerListContext = /*#__PURE__*/ (0,react.createContext)([]);
-const TriggerContext = /*#__PURE__*/ (0,react.createContext)({});
-// === Action Contexts ===
-const ActionGroupContext = /*#__PURE__*/ (0,react.createContext)({});
-const ActionListContext = /*#__PURE__*/ (0,react.createContext)([]);
-const ActionContext = /*#__PURE__*/ (0,react.createContext)({});
-// === GroupCheck Contexts ===
-const GroupCheckList1Context = /*#__PURE__*/ (0,react.createContext)([]);
-const GroupCheckList2Context = /*#__PURE__*/ (/* unused pure expression or super */ null && (createContext([])));
-
-;// ../../libs/droid/project-v2-interface/src/contexts/index.ts
-
-
-// EXTERNAL MODULE: ../../libs/fanfanlo/src/watcher/parentProxy.ts
-var parentProxy = __webpack_require__(74346);
-;// ../../libs/droid/project-v2-interface/src/utils/childToProjectData.ts
-/**
- * childToProjectData 工具
- * 用于获取项目数据的父子关系和生成唯一ID
- */ 
-function projectDataToUniqueId(data) {
-    var _data_project, _data_triggerActionGroup, _data_triggerAction, _data_triggerGroup, _data_trigger, _data_trigger_javaData, _data_trigger1, _data_actionGroup, _data_action, _data_action_javaData, _data_action1;
-    let s = "";
-    function add(name, id) {
-        if (id) s += "|".concat(name, ":").concat(id);
-    }
-    add('project', (_data_project = data.project) === null || _data_project === void 0 ? void 0 : _data_project.ulid);
-    add('trigger-action-group', (_data_triggerActionGroup = data.triggerActionGroup) === null || _data_triggerActionGroup === void 0 ? void 0 : _data_triggerActionGroup.ulid);
-    add('trigger-action', (_data_triggerAction = data.triggerAction) === null || _data_triggerAction === void 0 ? void 0 : _data_triggerAction.ulid);
-    add('trigger-group', (_data_triggerGroup = data.triggerGroup) === null || _data_triggerGroup === void 0 ? void 0 : _data_triggerGroup.ulid);
-    add('trigger', (_data_trigger = data.trigger) === null || _data_trigger === void 0 ? void 0 : _data_trigger.ulid);
-    add('trigger-java-data', (_data_trigger1 = data.trigger) === null || _data_trigger1 === void 0 ? void 0 : (_data_trigger_javaData = _data_trigger1.javaData) === null || _data_trigger_javaData === void 0 ? void 0 : _data_trigger_javaData.id);
-    add('action-group', (_data_actionGroup = data.actionGroup) === null || _data_actionGroup === void 0 ? void 0 : _data_actionGroup.ulid);
-    add('action', (_data_action = data.action) === null || _data_action === void 0 ? void 0 : _data_action.ulid);
-    add('action-java-data', (_data_action1 = data.action) === null || _data_action1 === void 0 ? void 0 : (_data_action_javaData = _data_action1.javaData) === null || _data_action_javaData === void 0 ? void 0 : _data_action_javaData.id);
-    return s;
-}
-// project
-function getProjectByProp(prop, projectData) {
-    const data = prop ? (0,parentProxy/* getParent */.PA)(prop) : undefined;
-    if (projectData) {
-        projectData.project = data;
-    }
-    return data;
-}
-function getProjectElementByProp(prop) {
-    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
-    getProjectByProp(prop, projectData);
-    return getProjectElementsId(projectData, prefix, suffix);
-}
-// trigger action group
-function getTriggerActionGroupByProp(prop, projectData) {
-    const data = prop ? (0,parentProxy/* getParent */.PA)(prop) : undefined;
-    if (projectData && data) {
-        projectData.triggerActionGroup = data;
-        getProjectByProp(data, projectData);
-    }
-    return data;
-}
-function getTriggerActionGroupElementByProp(prop) {
-    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
-    getTriggerActionGroupByProp(prop, projectData);
-    return getProjectElementsId(projectData, prefix, suffix);
-}
-function getTriggerActionGroupElement(triggerActionGroup) {
-    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
-    projectData.triggerActionGroup = triggerActionGroup;
-    getTriggerActionGroupByProp(triggerActionGroup.checks, projectData);
-    return getProjectElementsId(projectData, prefix, suffix);
-}
-// trigger action list
-function getTriggerActionListByProp(prop, projectData) {
-    const data = prop ? (0,parentProxy/* getParent */.PA)(prop) : undefined;
-    if (projectData && data) {
-        projectData.triggerActionList = data;
-        getTriggerActionGroupByProp(data, projectData);
-    }
-    return data;
-}
-function getTriggerActionListElementByProp(prop) {
-    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
-    getTriggerActionListByProp(prop, projectData);
-    return getProjectElementsId(projectData, prefix, suffix);
-}
-// trigger action
-function getTriggerActionByProp(prop, projectData) {
-    const data = prop ? (0,parentProxy/* getParent */.PA)(prop) : undefined;
-    if (projectData && data) {
-        projectData.triggerAction = data;
-        getTriggerActionListByProp(data, projectData);
-    }
-    return data;
-}
-function getTriggerActionElementByProp(prop) {
-    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
-    getTriggerActionByProp(prop, projectData);
-    return getProjectElementsId(projectData, prefix, suffix);
-}
-// trigger group
-function getTriggerGroupByProp(prop, projectData) {
-    const data = prop ? (0,parentProxy/* getParent */.PA)(prop) : undefined;
-    if (projectData && data) {
-        projectData.triggerGroup = data;
-        getTriggerActionByProp(data, projectData);
-    }
-    return data;
-}
-function getTriggerGroupElementByProp(prop) {
-    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
-    getTriggerGroupByProp(prop, projectData);
-    return getProjectElementsId(projectData, prefix, suffix);
-}
-function getTriggerGroupElement(triggerGroup) {
-    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
-    projectData.triggerGroup = triggerGroup;
-    getTriggerGroupByProp(triggerGroup.list, projectData);
-    return getProjectElementsId(projectData, prefix, suffix);
-}
-// trigger list
-function getTriggerListByProp(prop, projectData) {
-    const data = prop ? (0,parentProxy/* getParent */.PA)(prop) : undefined;
-    if (projectData && data) {
-        projectData.triggerList = data;
-        getTriggerGroupByProp(data, projectData);
-    }
-    return data;
-}
-function getTriggerListElementByProp(prop) {
-    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
-    getTriggerListByProp(prop, projectData);
-    return getProjectElementsId(projectData, prefix, suffix);
-}
-// trigger
-function getTriggerByProp(prop, projectData) {
-    const data = prop ? (0,parentProxy/* getParent */.PA)(prop) : undefined;
-    if (projectData && data) {
-        projectData.trigger = data;
-        getTriggerListByProp(data, projectData);
-    }
-    return data;
-}
-function getTriggerElementByProp(prop) {
-    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
-    getTriggerByProp(prop, projectData);
-    return getProjectElementsId(projectData, prefix, suffix);
-}
-// action group
-function getActionGroupByProp(prop, projectData) {
-    const data = prop ? (0,parentProxy/* getParent */.PA)(prop) : undefined;
-    if (projectData && data) {
-        projectData.actionGroup = data;
-        getTriggerActionByProp(data, projectData);
-    }
-    return data;
-}
-function getActionGroupElementByProp(prop) {
-    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
-    getActionGroupByProp(prop, projectData);
-    return getProjectElementsId(projectData, prefix, suffix);
-}
-function getActionGroupElement(actionGroup) {
-    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
-    projectData.actionGroup = actionGroup;
-    getTriggerActionByProp(actionGroup, projectData);
-    return getProjectElementsId(projectData, prefix, suffix);
-}
-// action list
-function getActionListByProp(prop, projectData) {
-    const data = prop ? (0,parentProxy/* getParent */.PA)(prop) : undefined;
-    if (projectData && data) {
-        projectData.actionList = data;
-        getActionGroupByProp(data, projectData);
-    }
-    return data;
-}
-function getActionListElementByProp(prop) {
-    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
-    getActionListByProp(prop, projectData);
-    return getProjectElementsId(projectData, prefix, suffix);
-}
-// action
-function getActionByProp(prop, projectData) {
-    const data = prop ? (0,parentProxy/* getParent */.PA)(prop) : undefined;
-    if (projectData && data) {
-        projectData.action = data;
-        getActionListByProp(data, projectData);
-    }
-    return data;
-}
-function getActionElementIdByProp(prop) {
-    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '', projectData = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
-    getActionByProp(prop, projectData);
-    return getProjectElementsId(projectData, prefix, suffix);
-}
-function getProjectElementsId(childData) {
-    let prefix = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : '', suffix = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : '';
-    var _childData_project, _childData_project1, _childData_triggerActionGroup, _childData_triggerActionGroup1, _childData_triggerAction, _childData_triggerAction1, _childData_triggerGroup, _childData_triggerGroup1, _childData_trigger, _childData_trigger1, _childData_actionGroup, _childData_actionGroup1, _childData_action, _childData_action1;
-    return {
-        ["data-groupof".concat(prefix ? '-' + prefix : '', "-project-ulid").concat(suffix ? '-' + suffix : '')]: (_childData_project = childData.project) === null || _childData_project === void 0 ? void 0 : _childData_project.ulid,
-        ["data-project-ulid"]: (_childData_project1 = childData.project) === null || _childData_project1 === void 0 ? void 0 : _childData_project1.ulid,
-        ["data-groupof".concat(prefix ? '-' + prefix : '', "-trigger-action-group-ulid").concat(suffix ? '-' + suffix : '')]: (_childData_triggerActionGroup = childData.triggerActionGroup) === null || _childData_triggerActionGroup === void 0 ? void 0 : _childData_triggerActionGroup.ulid,
-        ["data-trigger-action-group-ulid"]: (_childData_triggerActionGroup1 = childData.triggerActionGroup) === null || _childData_triggerActionGroup1 === void 0 ? void 0 : _childData_triggerActionGroup1.ulid,
-        ["data-groupof".concat(prefix ? '-' + prefix : '', "-trigger-action-ulid").concat(suffix ? '-' + suffix : '')]: (_childData_triggerAction = childData.triggerAction) === null || _childData_triggerAction === void 0 ? void 0 : _childData_triggerAction.ulid,
-        ["data-trigger-action-ulid"]: (_childData_triggerAction1 = childData.triggerAction) === null || _childData_triggerAction1 === void 0 ? void 0 : _childData_triggerAction1.ulid,
-        ["data-groupof".concat(prefix ? '-' + prefix : '', "-trigger-group-ulid").concat(suffix ? '-' + suffix : '')]: (_childData_triggerGroup = childData.triggerGroup) === null || _childData_triggerGroup === void 0 ? void 0 : _childData_triggerGroup.ulid,
-        ["data-trigger-group-ulid"]: (_childData_triggerGroup1 = childData.triggerGroup) === null || _childData_triggerGroup1 === void 0 ? void 0 : _childData_triggerGroup1.ulid,
-        ["data-groupof".concat(prefix ? '-' + prefix : '', "-trigger-ulid").concat(suffix ? '-' + suffix : '')]: (_childData_trigger = childData.trigger) === null || _childData_trigger === void 0 ? void 0 : _childData_trigger.ulid,
-        ["data-trigger-ulid"]: (_childData_trigger1 = childData.trigger) === null || _childData_trigger1 === void 0 ? void 0 : _childData_trigger1.ulid,
-        ["data-groupof".concat(prefix ? '-' + prefix : '', "-action-group-ulid").concat(suffix ? '-' + suffix : '')]: (_childData_actionGroup = childData.actionGroup) === null || _childData_actionGroup === void 0 ? void 0 : _childData_actionGroup.ulid,
-        ["data-action-group-ulid"]: (_childData_actionGroup1 = childData.actionGroup) === null || _childData_actionGroup1 === void 0 ? void 0 : _childData_actionGroup1.ulid,
-        ["data-groupof".concat(prefix ? '-' + prefix : '', "-action-ulid").concat(suffix ? '-' + suffix : '')]: (_childData_action = childData.action) === null || _childData_action === void 0 ? void 0 : _childData_action.ulid,
-        ["data-action-ulid"]: (_childData_action1 = childData.action) === null || _childData_action1 === void 0 ? void 0 : _childData_action1.ulid
-    };
-}
-const childToProjectDataUtils = {
-    project: {
-        getProjectByProp,
-        getProjectElementByProp
-    },
-    triggerActionGroup: {
-        getTriggerActionGroupByProp,
-        getTriggerActionGroupElementByProp,
-        getTriggerActionGroupElement
-    },
-    triggerActionList: {
-        getTriggerActionListByProp,
-        getTriggerActionListElementByProp
-    },
-    triggerAction: {
-        getTriggerActionByProp,
-        getTriggerActionElementByProp
-    },
-    triggerGroup: {
-        getTriggerGroupByProp,
-        getTriggerGroupElementByProp,
-        getTriggerGroupElement
-    },
-    trigger: {
-        getTriggerByProp,
-        getTriggerElementByProp
-    },
-    triggerList: {
-        getTriggerListByProp,
-        getTriggerListElementByProp
-    },
-    actionGroup: {
-        getActionGroupByProp,
-        getActionGroupElementByProp,
-        getActionGroupElement
-    },
-    actionList: {
-        getActionListByProp,
-        getActionListElementByProp
-    },
-    action: {
-        getActionByProp,
-        getActionElementIdByProp
-    },
-    getProjectElementsId
-};
-
-;// ../../libs/droid/project-v2-interface/src/utils/triggerActionUtils.ts
-/**
- * TriggerAction 工具函数
- */ 
-function createTriggerActionUtils(type, createDefaultData) {
-    return {
-        type,
-        createDefaultData,
-        mergeDataToDefaultData: (0,mergeToDefaultData/* createMergeToDefaultData */.dV)(createDefaultData)
-    };
-}
-
-// EXTERNAL MODULE: ../../libs/fanfanlo/src/watcher/proxyUtils.ts
-var proxyUtils = __webpack_require__(15979);
-// EXTERNAL MODULE: ../../libs/fanfanlo/src/watcher/parentWatchProxy.ts
-var parentWatchProxy = __webpack_require__(50159);
-;// ../../libs/droid/project-v2-interface/src/utils/projectHistory.ts
-/**
- * 项目历史记录管理
- * 参考 project/src/history/projectsHistoryMap.ts
- */ 
-
-const projectsHistoryMap = new Map();
-function addProjectHistory(history) {
-    proxyUtils/* proxyUtils */.o.runPauseProxyFn(()=>{
-        history.project = lodash_default().cloneDeep((0,parentWatchProxy/* getProxyTarget */.EL)(history.project));
-    });
-    const p = history;
-    const projectId = history.project.ulid;
-    const list = projectsHistoryMap.get(projectId);
-    if (!list) {
-        projectsHistoryMap.set(projectId, [
-            p
-        ]);
-        return;
-    }
-    list.push(p);
-}
-function getProjectHistory(projectId) {
-    const result = projectsHistoryMap.get(projectId) || [];
-    return result;
-}
-function removeProjectHistory(projectId) {
-    projectsHistoryMap.delete(projectId);
-}
-function getProjectLastHistory(projectId) {
-    const list = getProjectHistory(projectId);
-    const result = list[list.length - 1];
-    return result;
-}
-function takeProjectSnapshoot(project) {
-    const last = getProjectLastHistory(project.ulid);
-    if (last && lodash_default().isEqual(last.project, project)) {
-        return false;
-    }
-    const newIndex = last ? last.index + 1 : 0;
-    addProjectHistory({
-        index: newIndex,
-        project,
-        date: new Date().toISOString()
-    });
-    return true;
-}
-function projectHistoryIsChanged(project) {
-    const last = getProjectLastHistory(project.ulid);
-    const isChanged = !last || !_.isEqual(last.project, project);
-    return isChanged;
-}
-function isSameProjectHistoryId(id, projectId) {
-    const last = getProjectLastHistory(projectId);
-    const isSame = (last === null || last === void 0 ? void 0 : last.index) === id;
-    return isSame;
-}
-
-// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/utils/descriptionUtils.ts
-var descriptionUtils = __webpack_require__(5616);
-// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/utils/entityFinder.ts
-var entityFinder = __webpack_require__(23420);
-;// ../../libs/droid/project-v2-interface/src/utils/index.ts
-
-
-
-
-
-
-
-;// ../../libs/droid/project-v2-interface/src/a11y/sfdata.ts
-
-const sfdata_fileLog = new Log/* Log */.tG(false, 'sfdata_f');
-sfdata_fileLog.pause = true;
-sfdata_fileLog.childrenPaused = true;
-class SFCond {
-}
-class SFCondId extends SFCond {
-    constructor(...args){
-        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.Id";
-    }
-}
-class SFCondText extends SFCond {
-    constructor(...args){
-        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.Text";
-    }
-}
-class SFCondMatchText extends SFCond {
-    constructor(...args){
-        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.MatchText";
-    }
-}
-class SFCondDesc extends SFCond {
-    constructor(...args){
-        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.Desc";
-    }
-}
-class SFCondClickable extends SFCond {
-    constructor(...args){
-        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.Clickable";
-    }
-}
-class ISFCondfType extends SFCond {
-    constructor(...args){
-        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.Type";
-    }
-}
-class SFCondIds extends SFCond {
-    constructor(...args){
-        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.Ids";
-    }
-}
-class SFCondDescs extends SFCond {
-    constructor(...args){
-        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.Descs";
-    }
-}
-class SFCondTexts extends SFCond {
-    constructor(...args){
-        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.Texts";
-    }
-}
-class SFCondRoot extends SFCond {
-    getData() {
-        return JSON.parse(JSON.stringify(this));
-    }
-    getCondRoot() {
-        return {
-            type: "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.SFRootCond",
-            pn: this.pn,
-            an: this.an,
-            cn: this.cn
-        };
-    }
-    constructor(...args){
-        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.SFRoot", // 此变量在设置了an时有效。当pn匹配而an不匹配时尝试点击返回键直至返回到首页为止。捎带的副作用就是必然会从首页开始执行下一步。
-        // 在trigger中使用时可以先匹配pn，当pn匹配，an不匹配时判断这个变量，如果这个变量为true则执行后退，执行后等待下一个event，在event里再次判断执行。
-        // true为尝试点击
-        this.back = false;
-    }
-}
-class SFCondTypes extends SFCond {
-    constructor(...args){
-        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.SFTypes";
-    }
-}
-class SFAction {
-    get data() {
-        return {
-            type: this.type
-        };
-    }
-}
-class SFActionFocus extends SFAction {
-    constructor(...args){
-        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.Focus";
-    }
-}
-class SFActionLearFocus extends SFAction {
-    constructor(...args){
-        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.ClearFocus";
-    }
-}
-class SFActionClick extends SFAction {
-    constructor(...args){
-        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.Click";
-    }
-}
-class SFActionTryClick extends SFAction {
-    constructor(...args){
-        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.TryClick";
-    }
-}
-class SFActionLongClick extends SFAction {
-    constructor(...args){
-        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.LongClick";
-    }
-}
-class SFActionGlobalClick extends SFAction {
-    constructor(...args){
-        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.GlobalClick";
-    }
-}
-class SFActionSetText extends SFAction {
-    get data() {
-        const fnLog = sfdata_fileLog.sub(false, 'SFActionSetText_data_fn');
-        fnLog.log('set text');
-        return {
-            type: this.type,
-            value: this.value
-        };
-    }
-    constructor(...args){
-        super(...args), this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.SetText";
-    }
-}
-class SFWait {
-    constructor(){
-        this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.SFWait";
-        this.time = 0;
-        this.interval = 0;
-        this.invisible = false;
-    }
-}
-class SFData {
-    get data() {
-        return JSON.parse(JSON.stringify(this));
-    }
-    constructor(){
-        this.type = "com.fanfanlo.droidlib.auto.service.accessibility.krosxx.SFData";
-    }
-}
-
-;// ../../libs/droid/project-v2-interface/src/a11y/A11yNode.ts
-
-
-const A11yNode_fileLog = new Log/* Log */.tG(false, 'A11yNode_f');
-A11yNode_fileLog.pause = true;
-A11yNode_fileLog.childrenPaused = true;
-var a11yNodeProperyEnum = /*#__PURE__*/ function(a11yNodeProperyEnum) {
-    a11yNodeProperyEnum["viewIdResourceName"] = "viewIdResourceName";
-    a11yNodeProperyEnum["contentDescription"] = "contentDescription";
-    a11yNodeProperyEnum["hintText"] = "hintText";
-    a11yNodeProperyEnum["text"] = "text";
-    a11yNodeProperyEnum["className"] = "className";
-    a11yNodeProperyEnum["availableExtraData"] = "availableExtraData";
-    a11yNodeProperyEnum["boundsInScreen"] = "boundsInScreen";
-    a11yNodeProperyEnum["children"] = "children";
-    a11yNodeProperyEnum["isAccessibilityDataSensitive"] = "isAccessibilityDataSensitive";
-    a11yNodeProperyEnum["isAccessibilityFocused"] = "isAccessibilityFocused";
-    a11yNodeProperyEnum["isCheckable"] = "isCheckable";
-    a11yNodeProperyEnum["isChecked"] = "isChecked";
-    a11yNodeProperyEnum["isClickable"] = "isClickable";
-    a11yNodeProperyEnum["isContentInvalid"] = "isContentInvalid";
-    a11yNodeProperyEnum["isContextClickable"] = "isContextClickable";
-    a11yNodeProperyEnum["isDismissable"] = "isDismissable";
-    a11yNodeProperyEnum["isEditable"] = "isEditable";
-    a11yNodeProperyEnum["isEnabled"] = "isEnabled";
-    a11yNodeProperyEnum["isFocusable"] = "isFocusable";
-    a11yNodeProperyEnum["isFocused"] = "isFocused";
-    a11yNodeProperyEnum["isHeading"] = "isHeading";
-    a11yNodeProperyEnum["isImportantForAccessibility"] = "isImportantForAccessibility";
-    a11yNodeProperyEnum["isLongClickable"] = "isLongClickable";
-    a11yNodeProperyEnum["isMultiLine"] = "isMultiLine";
-    a11yNodeProperyEnum["isPassword"] = "isPassword";
-    a11yNodeProperyEnum["isScreenReaderFocusable"] = "isScreenReaderFocusable";
-    a11yNodeProperyEnum["isScrollable"] = "isScrollable";
-    a11yNodeProperyEnum["isSelected"] = "isSelected";
-    a11yNodeProperyEnum["isShowingHintText"] = "isShowingHintText";
-    a11yNodeProperyEnum["isTextEntryKey"] = "isTextEntryKey";
-    a11yNodeProperyEnum["isTextSelectable"] = "isTextSelectable";
-    a11yNodeProperyEnum["isVisibleToUser"] = "isVisibleToUser";
-    a11yNodeProperyEnum["index"] = "index";
-    a11yNodeProperyEnum["listIndex"] = "listIndex";
-    return a11yNodeProperyEnum;
-}({});
-// 需要转码的contentDescription、hintText、text 这三个字段进出都需要转码
-class A11yNode {
-    constructor(){
-        this.isAccessibilityDataSensitive = false;
-        this.isAccessibilityFocused = false;
-        this.isCheckable = false;
-        this.isChecked = false;
-        this.isClickable = false;
-        this.isContentInvalid = false;
-        this.isContextClickable = false;
-        this.isDismissable = false;
-        this.isEditable = false;
-        this.isEnabled = true;
-        this.isFocusable = false;
-        this.isFocused = false;
-        this.isHeading = false;
-        this.isImportantForAccessibility = false;
-        this.isLongClickable = false;
-        this.isMultiLine = false;
-        this.isPassword = false;
-        this.isScreenReaderFocusable = false;
-        this.isScrollable = false;
-        this.isSelected = false;
-        this.isShowingHintText = false;
-        this.isTextEntryKey = false;
-        this.isTextSelectable = false;
-        this.isVisibleToUser = true;
-    }
-}
-var A11yNodePropertyType = /*#__PURE__*/ function(A11yNodePropertyType) {
-    A11yNodePropertyType["bl"] = "bl";
-    A11yNodePropertyType["text"] = "text";
-    A11yNodePropertyType["num"] = "num";
-    A11yNodePropertyType["arr"] = "arr";
-    A11yNodePropertyType["rect"] = "rect";
-    return A11yNodePropertyType;
-}({});
-class A11yNodePropertyInfo {
-    constructor(name, type){
-        this.name = name;
-        this.type = type;
-    }
-}
-const a11yNodeProperties = {
-    viewIdResourceName: new A11yNodePropertyInfo("viewIdResourceName", "text"),
-    text: new A11yNodePropertyInfo("text", "text"),
-    contentDescription: new A11yNodePropertyInfo("contentDescription", "text"),
-    isClickable: new A11yNodePropertyInfo("isClickable", "bl"),
-    index: new A11yNodePropertyInfo("index", "num"),
-    isAccessibilityDataSensitive: new A11yNodePropertyInfo("isAccessibilityDataSensitive", "bl"),
-    isAccessibilityFocused: new A11yNodePropertyInfo("isAccessibilityFocused", "bl"),
-    isCheckable: new A11yNodePropertyInfo("isCheckable", "bl"),
-    isChecked: new A11yNodePropertyInfo("isChecked", "bl"),
-    isContentInvalid: new A11yNodePropertyInfo("isContentInvalid", "bl"),
-    isContextClickable: new A11yNodePropertyInfo("isContextClickable", "bl"),
-    isDismissable: new A11yNodePropertyInfo("isDismissable", "bl"),
-    isEditable: new A11yNodePropertyInfo("isEditable", "bl"),
-    isEnabled: new A11yNodePropertyInfo("isEnabled", "bl"),
-    isFocusable: new A11yNodePropertyInfo("isFocusable", "bl"),
-    isFocused: new A11yNodePropertyInfo("isFocused", "bl"),
-    isHeading: new A11yNodePropertyInfo("isHeading", "bl"),
-    isImportantForAccessibility: new A11yNodePropertyInfo("isImportantForAccessibility", "bl"),
-    isLongClickable: new A11yNodePropertyInfo("isLongClickable", "bl"),
-    isMultiLine: new A11yNodePropertyInfo("isMultiLine", "bl"),
-    isPassword: new A11yNodePropertyInfo("isPassword", "bl"),
-    isScreenReaderFocusable: new A11yNodePropertyInfo("isScreenReaderFocusable", "bl"),
-    isScrollable: new A11yNodePropertyInfo("isScrollable", "bl"),
-    isSelected: new A11yNodePropertyInfo("isSelected", "bl"),
-    isShowingHintText: new A11yNodePropertyInfo("isShowingHintText", "bl"),
-    isTextEntryKey: new A11yNodePropertyInfo("isTextEntryKey", "bl"),
-    isTextSelectable: new A11yNodePropertyInfo("isTextSelectable", "bl"),
-    isVisibleToUser: new A11yNodePropertyInfo("isVisibleToUser", "bl"),
-    listIndex: new A11yNodePropertyInfo("listIndex", "num"),
-    className: new A11yNodePropertyInfo("className", "text"),
-    hintText: new A11yNodePropertyInfo("hintText", "text"),
-    children: new A11yNodePropertyInfo("children", "arr"),
-    boundsInScreen: new A11yNodePropertyInfo("boundsInScreen", "rect"),
-    availableExtraData: new A11yNodePropertyInfo("availableExtraData", "arr")
-};
-const a11yNodeRealizedKeys = (/* unused pure expression or super */ null && ([
-    "viewIdResourceName",
-    "text",
-    "contentDescription",
-    "isClickable"
-]));
-var A11yNode_NodeActionKeys = /*#__PURE__*/ function(NodeActionKeys) {
-    NodeActionKeys["click"] = "click";
-    NodeActionKeys["longClick"] = "longClick";
-    NodeActionKeys["setText"] = "setText";
-    NodeActionKeys["tryClick"] = "tryClick";
-    NodeActionKeys["globalClick"] = "globalClick";
-    return NodeActionKeys;
-}({});
-const A11yNode_nodeActions = {
-    ["click"]: {
-        clazz: SFActionClick,
-        name: "click",
-        value: "click",
-        hasInput: false
-    },
-    ["longClick"]: {
-        clazz: SFActionLongClick,
-        name: "longClick",
-        value: "longClick",
-        hasInput: false
-    },
-    ["setText"]: {
-        clazz: SFActionSetText,
-        name: "setText",
-        value: "setText",
-        hasInput: true
-    },
-    ["tryClick"]: {
-        clazz: SFActionTryClick,
-        name: "tryClick",
-        value: "tryClick",
-        hasInput: false
-    },
-    ["globalClick"]: {
-        clazz: SFActionGlobalClick,
-        name: "globalClick",
-        value: "globalClick",
-        hasInput: false
-    }
-};
-
-// EXTERNAL MODULE: ../../node_modules/.pnpm/react@19.1.0/node_modules/react/jsx-runtime.js
-var jsx_runtime = __webpack_require__(94513);
-;// ../../libs/droid/project-v2-interface/src/a11y/NodeActionUI.tsx
-
-
-
-
-const NodeActionUI_fileLog = new Log/* Log */.tG(false, 'NodeActionUI_f');
-NodeActionUI_fileLog.pause = true;
-NodeActionUI_fileLog.childrenPaused = true;
-function NodeActionUI(param) {
-    let { nodeAction, setNodeAction, text, setText } = param;
-    const uiLog = NodeActionUI_fileLog.sub(false, 'NodeActionUI_ui');
-    uiLog.pause = true;
-    const { t } = useTranslation("droid-project-v2-interface/a11y/content");
-    const handleChange = (event)=>{
-        const fnLog = uiLog.sub(false, 'handleChange_fn');
-        fnLog.log('handleChange, value=', event.target.value);
-        setNodeAction(nodeActions[event.target.value]);
-    };
-    return /*#__PURE__*/ _jsx(_Fragment, {
-        children: /*#__PURE__*/ _jsx(Box, {
-            sx: {
-                width: "100%"
-            },
-            children: /*#__PURE__*/ _jsxs(FormControl, {
-                children: [
-                    /*#__PURE__*/ _jsx(FormLabel, {
-                        id: "demo-radio-buttons-group-label",
-                        children: t("NodeActionUI.title")
-                    }),
-                    /*#__PURE__*/ _jsxs(RadioGroup, {
-                        "aria-labelledby": "demo-radio-buttons-group-label",
-                        value: nodeAction.value,
-                        name: "radio-buttons-group",
-                        onChange: handleChange,
-                        children: [
-                            /*#__PURE__*/ _jsx(FormControlLabel, {
-                                value: NodeActionKeys.click,
-                                control: /*#__PURE__*/ _jsx(Radio, {}),
-                                label: t("NodeActionUI.click")
-                            }),
-                            /*#__PURE__*/ _jsx(FormControlLabel, {
-                                value: NodeActionKeys.longClick,
-                                control: /*#__PURE__*/ _jsx(Radio, {}),
-                                label: t("NodeActionUI.longClick")
-                            }),
-                            /*#__PURE__*/ _jsxs(Grid2, {
-                                direction: "row",
-                                spacing: 2,
-                                container: true,
-                                children: [
-                                    /*#__PURE__*/ _jsx(Grid2, {
-                                        size: "auto",
-                                        children: /*#__PURE__*/ _jsx(FormControlLabel, {
-                                            value: NodeActionKeys.setText,
-                                            control: /*#__PURE__*/ _jsx(Radio, {}),
-                                            label: t("NodeActionUI.setText")
-                                        })
-                                    }),
-                                    /*#__PURE__*/ _jsx(Grid2, {
-                                        size: "grow",
-                                        children: /*#__PURE__*/ _jsx(Input, {
-                                            value: text,
-                                            onChange: (e)=>setText(e.target.value)
-                                        })
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ _jsx(FormControlLabel, {
-                                value: NodeActionKeys.tryClick,
-                                control: /*#__PURE__*/ _jsx(Radio, {}),
-                                label: t("NodeActionUI.tryClick")
-                            }),
-                            /*#__PURE__*/ _jsx(FormControlLabel, {
-                                value: NodeActionKeys.globalClick,
-                                control: /*#__PURE__*/ _jsx(Radio, {}),
-                                label: t("NodeActionUI.globalClick")
-                            })
-                        ]
-                    })
-                ]
-            })
-        })
-    });
-}
-
-;// ../../libs/droid/project-v2-interface/src/a11y/index.ts
-
-
-
-
-// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/common/IEntityDescription.ts
-var IEntityDescription = __webpack_require__(10679);
-;// ../../libs/droid/project-v2-interface/src/common/index.ts
-
-
-// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/components/description-renderer/DescriptionContentRenderer.tsx
-var DescriptionContentRenderer = __webpack_require__(41445);
-;// ../../libs/droid/project-v2-interface/src/components/index.ts
-
-
-;// ../../libs/droid/project-v2-interface/src/index.ts
-// Constants
-
-// 通用类型
-
-
-
-
-
-
-
-
-
-// 实体接口
-
-
-
-
-
-
-
-// Storage
-
-// Trigger/Action Handlers
-
-
-// Events
-
-// Contexts
-
-// Utils
-
-// A11y
-
-// Common
-
-// Components
-
-
 
 /***/ }),
 
@@ -163061,4 +163081,4 @@ function getWindowHideEventType(id) {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=_app-e8f55412f169a0ab.js.map
+//# sourceMappingURL=_app-997fcba6389f291e.js.map

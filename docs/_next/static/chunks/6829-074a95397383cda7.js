@@ -2707,8 +2707,8 @@ function NotificationListenerPanel_NotificationListenerPanel() {
 
 // EXTERNAL MODULE: ../../libs/fanfanlo/src/nextjs/env/env.ts
 var env = __webpack_require__(99401);
-// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/index.ts + 23 modules
-var src = __webpack_require__(91415);
+// EXTERNAL MODULE: ../../libs/droid/project-v2-interface/src/index.ts + 22 modules
+var src = __webpack_require__(80396);
 // EXTERNAL MODULE: ../../libs/fanfanlo/src/watcher/watchUpdates.ts
 var watchUpdates = __webpack_require__(31365);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_react@19.1.0__@emotion+styled_7n6ip7adzgskiknwagt7k5dnla/node_modules/@mui/material/List/List.js + 1 modules
@@ -3010,10 +3010,7 @@ function DeleteProjectButton() {
 var PlayArrow = __webpack_require__(13108);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+icons-material@6.4.12_@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_re_5ewkm5t5g27pzq5tz62v6ktvti/node_modules/@mui/icons-material/esm/Stop.js
 var Stop = __webpack_require__(40509);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@mui+icons-material@6.4.12_@mui+material@6.4.12_@emotion+react@11.14.0_@types+react@19.1.8_re_5ewkm5t5g27pzq5tz62v6ktvti/node_modules/@mui/icons-material/esm/Settings.js
-var Settings = __webpack_require__(31480);
 ;// ../../libs/droid/project-v2-ui/src/ui/project/ProjectUI.tsx
-
 
 
 
@@ -3196,18 +3193,6 @@ function ProjectName(param) {
                         "data-id": "project-simple-title-list-edit-btn",
                         onClick: edit,
                         children: t('content.project.edit')
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(Button_Button/* default */.A, {
-                        "data-testid": "ProjectUI__settingsButton__01JFXYZY5N9O0P1Q2R3S4T5U7",
-                        ...src/* childToProjectDataUtils */.mR.getProjectElementsId({
-                            project
-                        }, 'project-list-settings-btn'),
-                        "data-listof-project-list-settings-btn-id": project.ulid,
-                        id: "project-simple-title-list-settings-btn",
-                        "data-id": "project-simple-title-list-settings-btn",
-                        onClick: openSettings,
-                        startIcon: /*#__PURE__*/ (0,jsx_runtime.jsx)(Settings/* default */.A, {}),
-                        children: t('content.project.settings')
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)(DeleteProjectButton, {})
                 ]
@@ -5584,4 +5569,4 @@ const marketsDevScriptLib = {
 /***/ })
 
 }]);
-//# sourceMappingURL=6829-30e1914e931623eb.js.map
+//# sourceMappingURL=6829-074a95397383cda7.js.map
