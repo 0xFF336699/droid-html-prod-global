@@ -96862,7 +96862,8 @@ const gatewayMap = {
     '192.168.177.180': '//192.168.177.180:19010/v1/',
     '3000.shangwoa.xyz': '//19010.shangwoa.xyz/v1/',
     // '192.168.177.180': '//localhost:19010/v1/',//可以测试跨域
-    'homepage.vm-ubuntu.droidlego.com': '//homepage_server.vm-ubuntu.droidlego.com/v1/'
+    'homepage.vm-ubuntu.droidlego.com': '//homepage_server.vm-ubuntu.droidlego.com/v1/',
+    'app-preview-droid-vercel.droidlego.com': '//backend_droid_preview.overseas3.fanfanlo.com/v1/'
 };
 const defGateway = '//backend-droid.overseas3.fanfanlo.com/v1/';
 // const defGateway = '//html.droid.qiwoa.com/v1/'
@@ -163131,4 +163132,4 @@ function getWindowHideEventType(id) {
 /******/ _N_E = __webpack_exports__;
 /******/ }
 ]);
-//# sourceMappingURL=_app-15cbb3c86dc0a9f3.js.map
+//# sourceMappingURL=_app-e8262b4fb7fa3c64.js.map
