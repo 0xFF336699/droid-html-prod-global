@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "הטעינה נכשלה",
+    "retry": "נסה שוב",
+    "noProjects": "עדיין אין פרויקטים"
+  },
+  "MarketProjectCard": {
+    "untitled": "פרויקט ללא שם",
+    "edit": "לַעֲרוֹך"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "הטעינה נכשלה, אנא נסה שוב",
+    "MarketContainer.retry": "נסה שוב",
+    "MarketContainer.noProjects": "עדיין אין פרויקטים",
+    "MarketContainer.noMore": "אין יותר נתונים"
+  }
+}

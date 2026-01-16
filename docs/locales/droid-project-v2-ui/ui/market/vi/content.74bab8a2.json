@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "Tải không thành công",
+    "retry": "Thử lại",
+    "noProjects": "Chưa có dự án nào"
+  },
+  "MarketProjectCard": {
+    "untitled": "Dự án chưa được đặt tên",
+    "edit": "biên tập"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "Tải không thành công, vui lòng thử lại",
+    "MarketContainer.retry": "Thử lại",
+    "MarketContainer.noProjects": "Chưa có dự án nào",
+    "MarketContainer.noMore": "Không còn dữ liệu"
+  }
+}

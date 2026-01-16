@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "فشل التحميل",
+    "retry": "حاول ثانية",
+    "noProjects": "لا توجد مشاريع حتى الآن"
+  },
+  "MarketProjectCard": {
+    "untitled": "مشروع بدون اسم",
+    "edit": "يحرر"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "فشل التحميل، يرجى المحاولة مرة أخرى",
+    "MarketContainer.retry": "حاول ثانية",
+    "MarketContainer.noProjects": "لا توجد مشاريع حتى الآن",
+    "MarketContainer.noMore": "لا مزيد من البيانات"
+  }
+}

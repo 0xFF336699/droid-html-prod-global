@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "การโหลดล้มเหลว",
+    "retry": "ลองอีกครั้ง",
+    "noProjects": "ยังไม่มีโครงการ"
+  },
+  "MarketProjectCard": {
+    "untitled": "โครงการที่ไม่มีชื่อ",
+    "edit": "แก้ไข"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "การโหลดล้มเหลว โปรดลองอีกครั้ง",
+    "MarketContainer.retry": "ลองอีกครั้ง",
+    "MarketContainer.noProjects": "ยังไม่มีโครงการ",
+    "MarketContainer.noMore": "ไม่มีข้อมูลอีกต่อไป"
+  }
+}

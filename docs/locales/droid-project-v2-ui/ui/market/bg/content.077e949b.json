@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "Неуспешно зареждане",
+    "retry": "Опитайте отново",
+    "noProjects": "Все още няма проекти"
+  },
+  "MarketProjectCard": {
+    "untitled": "Проект без име",
+    "edit": "редактиране"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "Зареждането не бе успешно, моля опитайте отново",
+    "MarketContainer.retry": "Опитайте отново",
+    "MarketContainer.noProjects": "Все още няма проекти",
+    "MarketContainer.noMore": "Няма повече данни"
+  }
+}

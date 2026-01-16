@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "Gagal memuat",
+    "retry": "Coba lagi",
+    "noProjects": "Belum ada proyek"
+  },
+  "MarketProjectCard": {
+    "untitled": "Proyek tanpa nama",
+    "edit": "sunting"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "Gagal memuat, coba lagi",
+    "MarketContainer.retry": "Coba lagi",
+    "MarketContainer.noProjects": "Belum ada proyek",
+    "MarketContainer.noMore": "Tidak ada data lagi"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "Učitavanje nije uspjelo",
+    "retry": "Pokušajte ponovno",
+    "noProjects": "Još nema projekata"
+  },
+  "MarketProjectCard": {
+    "untitled": "Neimenovani projekt",
+    "edit": "urediti"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "Učitavanje nije uspjelo, pokušajte ponovo",
+    "MarketContainer.retry": "Pokušajte ponovno",
+    "MarketContainer.noProjects": "Još nema projekata",
+    "MarketContainer.noMore": "Nema više podataka"
+  }
+}

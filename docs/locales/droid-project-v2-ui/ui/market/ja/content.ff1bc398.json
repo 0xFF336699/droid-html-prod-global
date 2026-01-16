@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "読み込みに失敗しました",
+    "retry": "もう一度やり直してください",
+    "noProjects": "まだプロジェクトはありません"
+  },
+  "MarketProjectCard": {
+    "untitled": "名前のないプロジェクト",
+    "edit": "編集"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "読み込みに失敗しました。もう一度お試しください",
+    "MarketContainer.retry": "もう一度やり直してください",
+    "MarketContainer.noProjects": "まだプロジェクトはありません",
+    "MarketContainer.noMore": "もうデータはありません"
+  }
+}

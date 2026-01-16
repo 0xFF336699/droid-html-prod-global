@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "Loading failed",
+    "retry": "Try again",
+    "noProjects": "No projects yet"
+  },
+  "MarketProjectCard": {
+    "untitled": "Unnamed project",
+    "edit": "edit"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "Loading failed, please try again",
+    "MarketContainer.retry": "Try again",
+    "MarketContainer.noProjects": "No projects yet",
+    "MarketContainer.noMore": "No more data"
+  }
+}

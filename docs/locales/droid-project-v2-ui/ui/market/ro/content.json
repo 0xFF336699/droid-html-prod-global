@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "Încărcarea nu a reușit",
+    "retry": "Încearcă din nou",
+    "noProjects": "Niciun proiect încă"
+  },
+  "MarketProjectCard": {
+    "untitled": "Proiect fără nume",
+    "edit": "edita"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "Încărcarea nu a reușit, vă rugăm să încercați din nou",
+    "MarketContainer.retry": "Încearcă din nou",
+    "MarketContainer.noProjects": "Niciun proiect încă",
+    "MarketContainer.noMore": "Nu mai sunt date"
+  }
+}

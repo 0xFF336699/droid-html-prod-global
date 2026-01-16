@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "Načítání se nezdařilo",
+    "retry": "Zkuste to znovu",
+    "noProjects": "Zatím žádné projekty"
+  },
+  "MarketProjectCard": {
+    "untitled": "Nejmenovaný projekt",
+    "edit": "upravit"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "Načítání se nezdařilo, zkuste to prosím znovu",
+    "MarketContainer.retry": "Zkuste to znovu",
+    "MarketContainer.noProjects": "Zatím žádné projekty",
+    "MarketContainer.noMore": "Žádné další údaje"
+  }
+}

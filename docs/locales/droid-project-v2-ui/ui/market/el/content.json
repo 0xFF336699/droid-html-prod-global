@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "Η φόρτωση απέτυχε",
+    "retry": "Προσπαθήστε ξανά",
+    "noProjects": "Δεν υπάρχουν ακόμη έργα"
+  },
+  "MarketProjectCard": {
+    "untitled": "Έργο χωρίς όνομα",
+    "edit": "εκδίδω"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "Η φόρτωση απέτυχε, δοκιμάστε ξανά",
+    "MarketContainer.retry": "Προσπαθήστε ξανά",
+    "MarketContainer.noProjects": "Δεν υπάρχουν ακόμη έργα",
+    "MarketContainer.noMore": "Όχι άλλα δεδομένα"
+  }
+}

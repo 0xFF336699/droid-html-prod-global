@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "A betöltés nem sikerült",
+    "retry": "Próbáld újra",
+    "noProjects": "Még nincsenek projektek"
+  },
+  "MarketProjectCard": {
+    "untitled": "Névtelen projekt",
+    "edit": "szerkeszteni"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "A betöltés nem sikerült, próbálkozzon újra",
+    "MarketContainer.retry": "Próbáld újra",
+    "MarketContainer.noProjects": "Még nincsenek projektek",
+    "MarketContainer.noMore": "Nincs több adat"
+  }
+}
