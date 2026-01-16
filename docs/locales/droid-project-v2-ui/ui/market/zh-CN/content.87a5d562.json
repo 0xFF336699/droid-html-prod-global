@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "加载失败",
+    "retry": "重试",
+    "noProjects": "暂无项目"
+  },
+  "MarketProjectCard": {
+    "untitled": "未命名项目",
+    "edit": "编辑"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "加载失败，请重试",
+    "MarketContainer.retry": "重试",
+    "MarketContainer.noProjects": "暂无项目",
+    "MarketContainer.noMore": "没有更多数据了"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "Lataus epäonnistui",
+    "retry": "Yritä uudelleen",
+    "noProjects": "Ei vielä projekteja"
+  },
+  "MarketProjectCard": {
+    "untitled": "Nimetön projekti",
+    "edit": "muokata"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "Lataus epäonnistui, yritä uudelleen",
+    "MarketContainer.retry": "Yritä uudelleen",
+    "MarketContainer.noProjects": "Ei vielä projekteja",
+    "MarketContainer.noMore": "Ei enempää dataa"
+  }
+}

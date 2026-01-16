@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "Det gick inte att ladda",
+    "retry": "Försök igen",
+    "noProjects": "Inga projekt ännu"
+  },
+  "MarketProjectCard": {
+    "untitled": "Namnlöst projekt",
+    "edit": "redigera"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "Det gick inte att läsa in, försök igen",
+    "MarketContainer.retry": "Försök igen",
+    "MarketContainer.noProjects": "Inga projekt ännu",
+    "MarketContainer.noMore": "Inga mer data"
+  }
+}

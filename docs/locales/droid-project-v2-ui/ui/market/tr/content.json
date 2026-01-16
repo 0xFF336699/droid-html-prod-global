@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "Yükleme başarısız oldu",
+    "retry": "Tekrar deneyin",
+    "noProjects": "Henüz proje yok"
+  },
+  "MarketProjectCard": {
+    "untitled": "Adsız proje",
+    "edit": "düzenlemek"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "Yükleme başarısız oldu, lütfen tekrar deneyin",
+    "MarketContainer.retry": "Tekrar deneyin",
+    "MarketContainer.noProjects": "Henüz proje yok",
+    "MarketContainer.noMore": "Daha fazla veri yok"
+  }
+}

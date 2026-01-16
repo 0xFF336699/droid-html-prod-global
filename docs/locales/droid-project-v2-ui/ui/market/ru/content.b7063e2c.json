@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "Загрузка не удалась",
+    "retry": "Попробуйте еще раз",
+    "noProjects": "Пока нет проектов"
+  },
+  "MarketProjectCard": {
+    "untitled": "Безымянный проект",
+    "edit": "редактировать"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "Не удалось загрузить, попробуйте еще раз",
+    "MarketContainer.retry": "Попробуйте еще раз",
+    "MarketContainer.noProjects": "Пока нет проектов",
+    "MarketContainer.noMore": "Больше нет данных"
+  }
+}

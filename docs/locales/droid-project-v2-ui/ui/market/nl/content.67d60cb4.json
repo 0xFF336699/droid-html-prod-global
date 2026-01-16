@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "Laden mislukt",
+    "retry": "Probeer het opnieuw",
+    "noProjects": "Nog geen projecten"
+  },
+  "MarketProjectCard": {
+    "untitled": "Naamloos project",
+    "edit": "bewerking"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "Laden mislukt. Probeer het opnieuw",
+    "MarketContainer.retry": "Probeer het opnieuw",
+    "MarketContainer.noProjects": "Nog geen projecten",
+    "MarketContainer.noMore": "Geen gegevens meer"
+  }
+}

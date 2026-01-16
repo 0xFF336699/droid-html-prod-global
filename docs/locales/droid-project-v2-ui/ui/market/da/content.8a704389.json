@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "Indlæsning mislykkedes",
+    "retry": "Prøv igen",
+    "noProjects": "Ingen projekter endnu"
+  },
+  "MarketProjectCard": {
+    "untitled": "Unavngivet projekt",
+    "edit": "redigere"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "Indlæsning mislykkedes. Prøv venligst igen",
+    "MarketContainer.retry": "Prøv igen",
+    "MarketContainer.noProjects": "Ingen projekter endnu",
+    "MarketContainer.noMore": "Ikke flere data"
+  }
+}

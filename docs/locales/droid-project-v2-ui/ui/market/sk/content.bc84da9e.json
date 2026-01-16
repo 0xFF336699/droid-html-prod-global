@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "Načítanie zlyhalo",
+    "retry": "Skúste to znova",
+    "noProjects": "Zatiaľ žiadne projekty"
+  },
+  "MarketProjectCard": {
+    "untitled": "Nepomenovaný projekt",
+    "edit": "upraviť"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "Načítanie zlyhalo, skúste to znova",
+    "MarketContainer.retry": "Skúste to znova",
+    "MarketContainer.noProjects": "Zatiaľ žiadne projekty",
+    "MarketContainer.noMore": "Žiadne ďalšie údaje"
+  }
+}

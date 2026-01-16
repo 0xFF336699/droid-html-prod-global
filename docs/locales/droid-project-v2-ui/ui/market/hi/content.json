@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "लोडिंग विफल रही",
+    "retry": "पुनः प्रयास करें",
+    "noProjects": "अभी तक कोई प्रोजेक्ट नहीं"
+  },
+  "MarketProjectCard": {
+    "untitled": "अनाम परियोजना",
+    "edit": "संपादन करना"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "लोडिंग विफल, कृपया पुनः प्रयास करें",
+    "MarketContainer.retry": "पुनः प्रयास करें",
+    "MarketContainer.noProjects": "अभी तक कोई प्रोजेक्ट नहीं",
+    "MarketContainer.noMore": "कोई और डेटा नहीं"
+  }
+}

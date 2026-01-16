@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "بارگیری انجام نشد",
+    "retry": "دوباره امتحان کنید",
+    "noProjects": "هنوز پروژه ای وجود ندارد"
+  },
+  "MarketProjectCard": {
+    "untitled": "پروژه بی نام",
+    "edit": "ویرایش کنید"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "بارگیری انجام نشد، لطفاً دوباره امتحان کنید",
+    "MarketContainer.retry": "دوباره امتحان کنید",
+    "MarketContainer.noProjects": "هنوز پروژه ای وجود ندارد",
+    "MarketContainer.noMore": "دیگر داده ای وجود ندارد"
+  }
+}

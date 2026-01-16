@@ -1,0 +1,17 @@
+{
+  "MarketContainer": {
+    "loadFailed": "Das Laden ist fehlgeschlagen",
+    "retry": "Versuchen Sie es erneut",
+    "noProjects": "Noch keine Projekte"
+  },
+  "MarketProjectCard": {
+    "untitled": "Unbenanntes Projekt",
+    "edit": "bearbeiten"
+  },
+  "MarketStateComponents": {
+    "MarketContainer.loadFailed": "Der Ladevorgang ist fehlgeschlagen. Bitte versuchen Sie es erneut",
+    "MarketContainer.retry": "Versuchen Sie es erneut",
+    "MarketContainer.noProjects": "Noch keine Projekte",
+    "MarketContainer.noMore": "Keine Daten mehr"
+  }
+}
