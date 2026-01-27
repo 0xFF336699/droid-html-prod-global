@@ -1,0 +1,20 @@
+{
+  "RhinoInjectKeys": {
+    "WebViewJsInjectKeys": {
+      "Window": "グローバル ウィンドウ。ウィンドウの終了イベントを送出できます。",
+      "WindowUtils": "呼び出してウィンドウを強制的に閉じることができます",
+      "webViewJs": "jsはJavaスクリプトを実行するwebviewjsのオブジェクトを呼び出します。",
+      "console": "ログ、js のように呼び出されます",
+      "UIThreadUtil": "UIスレッドツール"
+    },
+    "RhinoInjectNames": {
+      "dispatcher": "スクリプトによる内部使用のための EventDispatcher",
+      "quicker": "使いやすいメソッドを提供します（現在は使用されていません）",
+      "javaRunner": "現在、実行されたスクリプトのホストである RhinoRunner を指しています。",
+      "proxy": "オートメーション プロキシ DroidProxy",
+      "a11yProxy": "アクセシビリティ シェル (廃止され、便利というよりも制限が多い)",
+      "a11yModel": "アクセシビリティ",
+      "WebViewJsDispatcher": "WebView JS ディスパッチャを使用して、イベントをグローバルにディスパッチできます。すべてのドメインにロードされた HTML は、HTML によって送出されたイベントを受信できます。"
+    }
+  }
+}

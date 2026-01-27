@@ -1,0 +1,20 @@
+{
+  "RhinoInjectKeys": {
+    "WebViewJsInjectKeys": {
+      "Window": "Global Window, yang dapat mengirimkan acara keluar dari jendela",
+      "WindowUtils": "Anda dapat menelepon untuk menutup paksa jendela",
+      "webViewJs": "js memanggil objek webviewjs yang menjalankan skrip java",
+      "console": "Log, disebut seperti js",
+      "UIThreadUtil": "Alat utas UI"
+    },
+    "RhinoInjectNames": {
+      "dispatcher": "EventDispatcher untuk penggunaan internal oleh skrip",
+      "quicker": "Menyediakan metode yang mudah digunakan (saat ini tidak digunakan)",
+      "javaRunner": "Saat ini menunjuk ke RhinoRunner, yang merupakan host dari skrip yang dieksekusi.",
+      "proxy": "Proksi otomatisasi DroidProxy",
+      "a11yProxy": "Shell aksesibilitas (usang, lebih membatasi daripada nyaman)",
+      "a11yModel": "Aksesibilitas",
+      "WebViewJsDispatcher": "Operator JS WebView dapat digunakan untuk mengirimkan acara secara global. HTML yang dimuat di semua domain dapat menerima peristiwa yang dikirimkan olehnya."
+    }
+  }
+}

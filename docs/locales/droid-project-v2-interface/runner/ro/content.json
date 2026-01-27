@@ -1,0 +1,20 @@
+{
+  "RhinoInjectKeys": {
+    "WebViewJsInjectKeys": {
+      "Window": "Global Window, care poate trimite evenimentul de ieșire al ferestrei",
+      "WindowUtils": "Puteți suna pentru a forța închiderea ferestrei",
+      "webViewJs": "js apelează obiectul webviewjs care execută script-ul java",
+      "console": "Jurnal, numit ca js",
+      "UIThreadUtil": "Instrumente de thread-uri UI"
+    },
+    "RhinoInjectNames": {
+      "dispatcher": "EventDispatcher pentru uz intern de către scripturi",
+      "quicker": "Oferă metode ușor de utilizat (nu sunt utilizate în prezent)",
+      "javaRunner": "În prezent indică către RhinoRunner, care este gazda scriptului executat.",
+      "proxy": "Proxy de automatizare DroidProxy",
+      "a11yProxy": "Carcasa de accesibilitate (învechită, mai restrictivă decât convenabilă)",
+      "a11yModel": "Accesibilitate",
+      "WebViewJsDispatcher": "Dispecerul WebView JS poate fi folosit pentru a trimite evenimente la nivel global. HTML încărcat în toate domeniile poate primi evenimentele expediate de acesta."
+    }
+  }
+}

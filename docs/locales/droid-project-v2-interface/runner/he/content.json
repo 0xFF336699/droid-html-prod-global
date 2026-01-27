@@ -1,0 +1,20 @@
+{
+  "RhinoInjectKeys": {
+    "WebViewJsInjectKeys": {
+      "Window": "חלון גלובלי, שיכול לשלוח את אירוע היציאה של החלון",
+      "WindowUtils": "אתה יכול להתקשר לסגור את החלון בכוח",
+      "webViewJs": "js קורא לאובייקט של webviewjs שמבצע סקריפט java",
+      "console": "יומן, שנקרא כמו js",
+      "UIThreadUtil": "כלי חוט של ממשק משתמש"
+    },
+    "RhinoInjectNames": {
+      "dispatcher": "EventDispatcher לשימוש פנימי על ידי סקריפטים",
+      "quicker": "מספק שיטות קלות לשימוש (לא בשימוש כרגע)",
+      "javaRunner": "כרגע מצביע על RhinoRunner, שהוא המארח של התסריט המבוצע.",
+      "proxy": "פרוקסי אוטומציה DroidProxy",
+      "a11yProxy": "מעטפת נגישות (מיושן, מגביל יותר מאשר נוח)",
+      "a11yModel": "נְגִישׁוּת",
+      "WebViewJsDispatcher": "ניתן להשתמש ב-WebView JS לשגר אירועים ברחבי העולם. HTML שנטען בכל הדומיינים יכול לקבל את האירועים הנשלחים על ידו."
+    }
+  }
+}

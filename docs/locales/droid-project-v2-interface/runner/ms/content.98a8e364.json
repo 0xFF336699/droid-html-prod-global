@@ -1,0 +1,20 @@
+{
+  "RhinoInjectKeys": {
+    "WebViewJsInjectKeys": {
+      "Window": "Tetingkap Global, yang boleh menghantar acara keluar tetingkap",
+      "WindowUtils": "Anda boleh memanggil untuk menutup paksa tetingkap",
+      "webViewJs": "js memanggil objek webviewjs yang melaksanakan skrip java",
+      "console": "Log, dipanggil seperti js",
+      "UIThreadUtil": "Alat benang UI"
+    },
+    "RhinoInjectNames": {
+      "dispatcher": "EventDispatcher untuk kegunaan dalaman oleh skrip",
+      "quicker": "Menyediakan kaedah yang mudah digunakan (tidak digunakan pada masa ini)",
+      "javaRunner": "Pada masa ini menunjuk kepada RhinoRunner, yang merupakan hos skrip yang dilaksanakan.",
+      "proxy": "Proksi automasi DroidProxy",
+      "a11yProxy": "Cangkang kebolehaksesan (usang, lebih ketat daripada mudah)",
+      "a11yModel": "Kebolehcapaian",
+      "WebViewJsDispatcher": "Penghantar WebView JS boleh digunakan untuk menghantar acara ke seluruh dunia. HTML yang dimuatkan dalam semua domain boleh menerima acara yang dihantar olehnya."
+    }
+  }
+}

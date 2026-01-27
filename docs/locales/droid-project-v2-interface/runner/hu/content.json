@@ -1,0 +1,20 @@
+{
+  "RhinoInjectKeys": {
+    "WebViewJsInjectKeys": {
+      "Window": "Globális ablak, amely elküldheti az ablak kilépési eseményét",
+      "WindowUtils": "Felhívhatja az ablak bezárását",
+      "webViewJs": "js meghívja a webviewjs objektumát, amely végrehajtja a java szkriptet",
+      "console": "Napló, js-nek hívják",
+      "UIThreadUtil": "UI szál eszközök"
+    },
+    "RhinoInjectNames": {
+      "dispatcher": "EventDispatcher szkriptek belső használatra",
+      "quicker": "Könnyen használható módszereket biztosít (jelenleg nem használt)",
+      "javaRunner": "Jelenleg a RhinoRunnerre mutat, amely a végrehajtott szkript gazdája.",
+      "proxy": "Automatizálási proxy DroidProxy",
+      "a11yProxy": "Kisegítő lehetőségek shell (elavult, inkább korlátozó, mint kényelmes)",
+      "a11yModel": "Megközelíthetőség",
+      "WebViewJsDispatcher": "A WebView JS diszpécser használható események globális elküldésére. Az összes tartományba betöltött HTML képes fogadni az általa küldött eseményeket."
+    }
+  }
+}

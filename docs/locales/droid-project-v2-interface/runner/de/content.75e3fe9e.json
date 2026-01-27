@@ -1,0 +1,20 @@
+{
+  "RhinoInjectKeys": {
+    "WebViewJsInjectKeys": {
+      "Window": "Globales Fenster, das das Exit-Ereignis des Fensters auslösen kann",
+      "WindowUtils": "Sie können anrufen, um das Schließen des Fensters zu erzwingen",
+      "webViewJs": "js ruft das Objekt von webviewjs auf, das Java-Skript ausführt",
+      "console": "Log, aufgerufen wie js",
+      "UIThreadUtil": "UI-Thread-Tools"
+    },
+    "RhinoInjectNames": {
+      "dispatcher": "EventDispatcher zur internen Verwendung durch Skripte",
+      "quicker": "Bietet benutzerfreundliche Methoden (wird derzeit nicht verwendet)",
+      "javaRunner": "Zeigt derzeit auf RhinoRunner, den Host des ausgeführten Skripts.",
+      "proxy": "Automatisierungs-Proxy DroidProxy",
+      "a11yProxy": "Barrierefreiheits-Shell (veraltet, restriktiver als praktisch)",
+      "a11yModel": "Zugänglichkeit",
+      "WebViewJsDispatcher": "Der WebView JS-Dispatcher kann zum globalen Versenden von Ereignissen verwendet werden. In allen Domänen geladenes HTML kann die von ihm ausgelösten Ereignisse empfangen."
+    }
+  }
+}

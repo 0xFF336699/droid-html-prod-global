@@ -1,0 +1,56 @@
+{
+  "EntityBasicInfoEditor": {
+    "label": {
+      "identity": "核心标识",
+      "display": "显示信息",
+      "description": "详细描述"
+    },
+    "field": {
+      "name": "内部名称",
+      "sourceLang": "源语言",
+      "title": "项目标题",
+      "subtitle": "副标题",
+      "tags": "标签",
+      "categories": "分类",
+      "briefDescription": "一行简介",
+      "introduction": "完整介绍"
+    },
+    "helper": {
+      "name": "建议使用英文、数字、下划线，作为系统内部标识",
+      "sourceLang": "内容创作时使用的原始语言",
+      "title": "面向用户显示的正式名称",
+      "tags": "添加标签以方便搜索和过滤",
+      "categories": "将项目归类到特定的业务领域",
+      "briefDescription": "简单一句话概括项目核心功能",
+      "introduction": "详细说明项目的功能、用法及注意事项"
+    },
+    "option": {
+      "none": "未设置 (继承默认)"
+    }
+  },
+  "EntityChipsEditor": {
+    "placeholder": {
+      "add": "点击添加..."
+    },
+    "dialog": {
+      "title": "添加项目"
+    },
+    "action": {
+      "cancel": "取消",
+      "add": "添加"
+    }
+  },
+  "EntitySettingsPage": {
+    "action": {
+      "save": "保存",
+      "cancel": "取消"
+    }
+  },
+  "EntitySettingsPageContainer": {
+    "error": {
+      "missingParams": "缺少项目 ID 或实体 ID",
+      "projectNotFound": "未找到项目",
+      "entityNotFound": "未找到指定实体"
+    }
+  }
+}

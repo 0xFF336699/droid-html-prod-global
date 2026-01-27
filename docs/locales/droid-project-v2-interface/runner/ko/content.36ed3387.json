@@ -1,0 +1,20 @@
+{
+  "RhinoInjectKeys": {
+    "WebViewJsInjectKeys": {
+      "Window": "창의 종료 이벤트를 전달할 수 있는 전역 창",
+      "WindowUtils": "전화를 걸어 창을 강제로 닫을 수 있습니다.",
+      "webViewJs": "js는 java 스크립트를 실행하는 webviewjs의 객체를 호출합니다.",
+      "console": "js처럼 호출되는 로그",
+      "UIThreadUtil": "UI 스레드 도구"
+    },
+    "RhinoInjectNames": {
+      "dispatcher": "스크립트 내부용 EventDispatcher",
+      "quicker": "사용하기 쉬운 방법 제공(현재 사용되지 않음)",
+      "javaRunner": "현재 실행된 스크립트의 호스트인 RhinoRunner를 가리키고 있습니다.",
+      "proxy": "자동화 프록시 DroidProxy",
+      "a11yProxy": "접근성 셸(구식이며 편리함보다 제한적임)",
+      "a11yModel": "접근성",
+      "WebViewJsDispatcher": "WebView JS 디스패처를 사용하여 전역적으로 이벤트를 전달할 수 있습니다. 모든 도메인에 로드된 HTML은 해당 도메인에서 전달된 이벤트를 수신할 수 있습니다."
+    }
+  }
+}

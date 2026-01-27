@@ -1,0 +1,12 @@
+{
+  "Action": {
+    "action": {
+      "delete": "删除",
+      "settings": "设置"
+    },
+    "confirm": {
+      "deleteTitle": "删除动作",
+      "deleteContent": "确定删除本动作吗？"
+    }
+  }
+}

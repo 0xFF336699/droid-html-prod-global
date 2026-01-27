@@ -1,0 +1,20 @@
+{
+  "RhinoInjectKeys": {
+    "WebViewJsInjectKeys": {
+      "Window": "Globální okno, které může odeslat událost ukončení okna",
+      "WindowUtils": "Okno můžete vynutit zavoláním",
+      "webViewJs": "js volá objekt webviewjs, který spouští java skript",
+      "console": "Log, nazvaný jako js",
+      "UIThreadUtil": "Nástroje pro závity uživatelského rozhraní"
+    },
+    "RhinoInjectNames": {
+      "dispatcher": "EventDispatcher pro interní použití skripty",
+      "quicker": "Poskytuje snadno použitelné metody (v současnosti se nepoužívají)",
+      "javaRunner": "Aktuálně ukazuje na RhinoRunner, což je hostitel spouštěného skriptu.",
+      "proxy": "Automatizační proxy DroidProxy",
+      "a11yProxy": "Prostředí zpřístupnění (zastaralé, více omezující než pohodlné)",
+      "a11yModel": "Přístupnost",
+      "WebViewJsDispatcher": "Dispečer WebView JS lze použít k globálnímu odesílání událostí. HTML načtené ve všech doménách může přijímat události, které odesílá."
+    }
+  }
+}

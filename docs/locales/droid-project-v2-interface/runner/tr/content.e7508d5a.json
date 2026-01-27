@@ -1,0 +1,20 @@
+{
+  "RhinoInjectKeys": {
+    "WebViewJsInjectKeys": {
+      "Window": "Pencerenin çıkış olayını gönderebilen Genel Pencere",
+      "WindowUtils": "Pencereyi zorla kapatmak için arayabilirsiniz",
+      "webViewJs": "Node.js, Java betiğini çalıştıran webviewjs nesnesini çağırır",
+      "console": "Günlük, js gibi çağrılır",
+      "UIThreadUtil": "Kullanıcı arayüzü iş parçacığı araçları"
+    },
+    "RhinoInjectNames": {
+      "dispatcher": "Komut dosyaları tarafından dahili kullanım için EventDispatcher",
+      "quicker": "Kullanımı kolay yöntemler sağlar (şu anda kullanılmamaktadır)",
+      "javaRunner": "Şu anda yürütülen betiğin ana bilgisayarı olan RhinoRunner'ı işaret ediyor.",
+      "proxy": "Otomasyon proxy'si DroidProxy",
+      "a11yProxy": "Erişilebilirlik kabuğu (eski, kullanışlı olmaktan çok kısıtlayıcı)",
+      "a11yModel": "Erişilebilirlik",
+      "WebViewJsDispatcher": "WebView JS dağıtıcısı, olayları küresel olarak göndermek için kullanılabilir. Tüm etki alanlarına yüklenen HTML, kendisi tarafından gönderilen olayları alabilir."
+    }
+  }
+}

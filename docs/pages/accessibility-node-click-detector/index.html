@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>节点点击侦测器</title>
-    <script type="module" crossorigin src="/assets/accessibility-node-click-detector-Dn6WJVbi.js"></script>
+    <script type="module" crossorigin src="/assets/accessibility-node-click-detector-PTVbtYMI.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/_commonjsHelpers-B-UnjaXt.js">
     <link rel="modulepreload" crossorigin href="/assets/proxyWatch-DGo6tDfm.js">
     <link rel="modulepreload" crossorigin href="/assets/AutoWebViewJs-tVZbAsSC.js">
@@ -23,6 +23,11 @@
       min-width: max-content;
       margin: 0 auto;
     ">
+      <!-- 错误按钮 - 默认隐藏 -->
+      <a href="#" id="errorButton" class="btn btn-error" style="display: none;">
+        <span class="btn-text">错误</span>
+      </a>
+
       <a href="#" id="nodeDetect" class="btn">
         <span class="btn-text">识别node</span>
       </a>
@@ -60,6 +65,14 @@
       }
       .btn-close:hover {
         background-color: #ffcdd2;
+      }
+      .btn-error {
+        background-color: #fff3e0;
+        color: #e65100;
+        border-color: #ffe0b2;
+      }
+      .btn-error:hover {
+        background-color: #ffe0b2;
       }
       .btn-text {
         position: relative;

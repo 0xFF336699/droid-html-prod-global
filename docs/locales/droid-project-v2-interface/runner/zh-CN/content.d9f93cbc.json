@@ -1,0 +1,20 @@
+{
+  "RhinoInjectKeys": {
+    "WebViewJsInjectKeys": {
+      "Window": "全局Window,可以派发window的退出事件",
+      "WindowUtils": "可以调用强制关闭window",
+      "webViewJs": "js调用执行java脚本的webviewjs的对象",
+      "console": "日志,跟js一样调用",
+      "UIThreadUtil": "UI线程工具"
+    },
+    "RhinoInjectNames": {
+      "dispatcher": "EventDispatcher供脚本内部使用",
+      "quicker": "提供方便使用的方法(目前未使用)",
+      "javaRunner": "当前指向的是RhinoRunner,也就是被执行脚本的宿主",
+      "proxy": "自动化代理DroidProxy",
+      "a11yProxy": "辅助功能套壳(已废弃,限制比方便更大)",
+      "a11yModel": "辅助功能",
+      "WebViewJsDispatcher": "WebView JS 分发器,可用它来做全局派发事件,所有域被加载的html都能收到它派发的事件"
+    }
+  }
+}
